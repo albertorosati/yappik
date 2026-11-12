@@ -14,7 +14,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "catalog:audit": "node scripts/audit-catalog.mjs"
+    "catalog:audit": "node scripts/audit-catalog.mjs",
+    "catalog:vision": "python3 scripts/vision-curator/curate_catalog.py",
+    "catalog:gallery": "python3 scripts/vision-curator/curate_catalog.py --gallery-only"
   },
   "dependencies": {
     "@discord/embedded-app-sdk": "^2.5.0",

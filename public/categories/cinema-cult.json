@@ -81,11 +81,11 @@
         "t rex",
         "dinosauri"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baltow%2CPoland_Tyrannosaurus.jpg/960px-Baltow%2CPoland_Tyrannosaurus.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jurassic_Park_Trex.jpg/960px-Jurassic_Park_Trex.jpg",
       "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jurassic_Park_Trex.jpg/960px-Jurassic_Park_Trex.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baltow%2CPoland_Tyrannosaurus.jpg/960px-Baltow%2CPoland_Tyrannosaurus.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Feathered_Tyrannosaurus_model.jpg/960px-Feathered_Tyrannosaurus_model.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jurassic_Park_Trex.jpg/960px-Jurassic_Park_Trex.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Feathered_Tyrannosaurus_model.jpg/960px-Feathered_Tyrannosaurus_model.jpg"
       ]
     },
     {
@@ -181,9 +181,10 @@
         "pandora",
         "navi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+      "imageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/579/1449291.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg"
+        "https://static.tvmaze.com/uploads/images/original_untouched/579/1449291.jpg",
+        "https://static.tvmaze.com/uploads/images/original_untouched/639/1598904.jpg"
       ]
     },
     {
@@ -204,9 +205,8 @@
         "t 800",
         "cyborg"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arnold_Schwarzenegger_T-800.JPG",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg/960px-ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arnold_Schwarzenegger_T-800.JPG",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg/960px-ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg"
       ]
     },
@@ -274,9 +274,9 @@
       "aliases": [
         "tyler durden"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Narrator_%28Edward_Norton%2C_left%29_and_Tyler_Durden_%28Brad_Pitt%2C_right%29_from_Fight_Club_%281999%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/47/Mani_nude_%282025%29.png/1280px-Mani_nude_%282025%29.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Narrator_%28Edward_Norton%2C_left%29_and_Tyler_Durden_%28Brad_Pitt%2C_right%29_from_Fight_Club_%281999%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/47/Mani_nude_%282025%29.png/1280px-Mani_nude_%282025%29.png"
       ]
     },
     {
@@ -385,8 +385,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Carlo_Verdone_-_Alassio.JPG/960px-Carlo_Verdone_-_Alassio.JPG",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Carlo_Verdone_-_Alassio.JPG/960px-Carlo_Verdone_-_Alassio.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carlo_Verdone.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bd/Carlo_Verdone_2007.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carlo_Verdone.jpg"
       ]
     },
     {

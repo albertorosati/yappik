@@ -112,6 +112,9 @@ export const FORBIDDEN_SEMANTIC_KEYWORDS = [
   'titlecard',
   'title_screen',
   'title_logo',
+  'intertitle',
+  'box_art',
+  'promo_poster',
   'masthead',
   'album_cover',
   'copertina',
@@ -201,7 +204,7 @@ export function evaluateImageQuality(candidate) {
   const w = candidate.width || 0;
   const h = candidate.height || 0;
   if (w > 0 && h > 0) {
-    if (w < 400 || h < 300) {
+    if (w < 480 && h < 360) {
       return { valid: false, score: 10, reason: 'resolution_too_low' };
     }
     const ratio = w / h;
