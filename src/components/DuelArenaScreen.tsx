@@ -560,6 +560,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         activePlayer,
         p1Name: p1.name,
         p2Name: p2.name,
+        p1Avatar: p1.avatar,
+        p2Avatar: p2.avatar,
         categoryName: category.name,
         inDuel: true,
         timeLeftP2: timeP2,
@@ -571,7 +573,9 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     settings.micMode,
     p2RemoteConnected,
     p1.name,
+    p1.avatar,
     p2.name,
+    p2.avatar,
     category.name,
     onSendRemoteState,
   ]);

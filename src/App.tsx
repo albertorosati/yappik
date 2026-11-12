@@ -177,6 +177,16 @@ export const App: React.FC = () => {
         setLatestRemotePacket({ ...packet });
         if (packet.type === 'TRANSCRIPT' && packet.transcript) {
           setRemoteTranscriptPreview(packet.transcript);
+        } else if (
+          packet.type === 'PLAYER_UPDATE' &&
+          typeof packet.p2Name === 'string'
+        ) {
+          const cleanName = packet.p2Name.slice(0, 18);
+          setP2((prev) => ({
+            ...prev,
+            name: cleanName,
+            avatar: packet.p2Avatar || prev.avatar,
+          }));
         }
       },
       (connected) => {
@@ -190,6 +200,51 @@ export const App: React.FC = () => {
       host.destroy();
     };
   }, [settings.micMode, settings.mode, roomCode, remoteRoomParam]);
+
+  // Sincronizza nomi, avatar e fase corrente verso il secondo giocatore in Discord P2P
+  useEffect(() => {
+    if (
+      !p2RemoteConnected ||
+      settings.micMode !== 'discord-p2p' ||
+      settings.mode !== 'duel' ||
+      screen === 'duel'
+    ) {
+      return;
+    }
+
+    const phaseLabel =
+      screen === 'draft'
+        ? settings.language === 'en'
+          ? 'Choosing category...'
+          : 'Scelta categoria...'
+        : screen === 'victory'
+        ? settings.language === 'en'
+          ? 'Match finished!'
+          : 'Partita conclusa!'
+        : settings.language === 'en'
+        ? 'Waiting in lobby...'
+        : 'In lobby, pronti!';
+
+    hostPeerRef.current?.sendState({
+      type: 'STATE_UPDATE',
+      p1Name: p1.name,
+      p2Name: p2.name,
+      p1Avatar: p1.avatar,
+      p2Avatar: p2.avatar,
+      categoryName: phaseLabel,
+      inDuel: false,
+    });
+  }, [
+    p2RemoteConnected,
+    settings.micMode,
+    settings.mode,
+    settings.language,
+    screen,
+    p1.name,
+    p1.avatar,
+    p2.name,
+    p2.avatar,
+  ]);
 
   const handleSendRemoteState = useCallback((packet: RemoteMicPacket) => {
     hostPeerRef.current?.sendState(packet);
@@ -293,6 +348,15 @@ export const App: React.FC = () => {
   };
 
   const handleStartNewGame = () => {
+    if (
+      settings.mode === 'duel' &&
+      settings.micMode === 'discord-p2p' &&
+      !isDiscord &&
+      !p2RemoteConnected
+    ) {
+      return;
+    }
+
     const allCats = loadAllCategories();
     setCategories(allCats);
     setP1Score(0);

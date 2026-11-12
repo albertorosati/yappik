@@ -98,7 +98,13 @@ export interface VoiceMatchResult {
 }
 
 export interface RemoteMicPacket {
-  type: 'TRANSCRIPT' | 'PASS_BUTTON' | 'MIC_LEVEL' | 'PING' | 'STATE_UPDATE';
+  type:
+    | 'TRANSCRIPT'
+    | 'PASS_BUTTON'
+    | 'MIC_LEVEL'
+    | 'PING'
+    | 'STATE_UPDATE'
+    | 'PLAYER_UPDATE';
   transcript?: string;
   alternatives?: string[];
   isFinal?: boolean;
@@ -106,6 +112,8 @@ export interface RemoteMicPacket {
   activePlayer?: PlayerId;
   p1Name?: string;
   p2Name?: string;
+  p1Avatar?: string;
+  p2Avatar?: string;
   categoryName?: string;
   inDuel?: boolean;
   timeLeftP2?: number;

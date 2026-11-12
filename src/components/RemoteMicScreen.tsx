@@ -22,7 +22,11 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
   const [volume, setVolume] = useState(0);
 
   const [activePlayer, setActivePlayer] = useState<PlayerId>('p1');
+  const [p1Name, setP1Name] = useState('Giocatore 1');
   const [p2Name, setP2Name] = useState('Giocatore 2');
+  const [p1Avatar, setP1Avatar] = useState('🦊');
+  const [p2Avatar, setP2Avatar] = useState('🐯');
+  const [inDuel, setInDuel] = useState(false);
   const [categoryName, setCategoryName] = useState('In attesa del round...');
   const [timeLeftP2, setTimeLeftP2] = useState<number | null>(null);
 
@@ -43,7 +47,11 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
             }
             setActivePlayer(packet.activePlayer);
           }
-          if (packet.p2Name) setP2Name(packet.p2Name);
+          if (typeof packet.p1Name === 'string') setP1Name(packet.p1Name);
+          if (typeof packet.p2Name === 'string') setP2Name(packet.p2Name);
+          if (packet.p1Avatar) setP1Avatar(packet.p1Avatar);
+          if (packet.p2Avatar) setP2Avatar(packet.p2Avatar);
+          if (typeof packet.inDuel === 'boolean') setInDuel(packet.inDuel);
           if (packet.categoryName) setCategoryName(packet.categoryName);
           if (typeof packet.timeLeftP2 === 'number') {
             setTimeLeftP2(packet.timeLeftP2);
@@ -133,23 +141,56 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
           <span>{statusMsg}</span>
         </div>
 
-        <div className="p-4 rounded-2xl bg-paper border-2 border-ink flex flex-col gap-1">
-          <span className="text-xs font-bold text-ink/60">{p2Name}</span>
+        <div className="p-4 rounded-2xl bg-paper border-2 border-ink flex flex-col gap-2">
+          <div className="flex items-center justify-center gap-2 text-xs font-display font-black text-ink">
+            <span className="px-2 py-0.5 rounded-lg bg-blue/15 border border-ink/20 truncate max-w-[42%]">
+              {p1Avatar} {p1Name || 'Giocatore 1'}
+            </span>
+            <span className="text-[10px] font-black text-ink/50">VS</span>
+            <span className="px-2 py-0.5 rounded-lg bg-red/15 border border-ink/20 truncate max-w-[42%]">
+              {p2Avatar} {p2Name || 'Giocatore 2'}
+            </span>
+          </div>
+
           <div className="font-display font-bold text-xl text-ink">
             {categoryName}
           </div>
-          {timeLeftP2 !== null && (
+          {timeLeftP2 !== null && inDuel && (
             <div className="font-mono font-extrabold text-4xl text-p2 mt-1">
               {timeLeftP2.toFixed(1)}s
             </div>
           )}
-          <div
-            className={`mt-2 py-1.5 px-3 rounded-xl font-display font-bold text-xs border-2 border-ink ${
-              isMyTurn ? 'bg-p2 text-white animate-pulse' : 'bg-white text-ink/60'
-            }`}
-          >
-            {isMyTurn ? 'Tocca a te parlare!' : 'Turno dell’avversario'}
-          </div>
+
+          {!inDuel && connStatus === 'connected' ? (
+            <div className="mt-1 flex flex-col gap-1 text-left">
+              <label className="text-[11px] font-display font-bold uppercase tracking-wider text-ink/60 text-center">
+                Il tuo nome (sincronizzato)
+              </label>
+              <input
+                type="text"
+                value={p2Name}
+                maxLength={18}
+                onChange={(e) => {
+                  const next = e.target.value;
+                  setP2Name(next);
+                  clientRef.current?.sendPacket({
+                    type: 'PLAYER_UPDATE',
+                    p2Name: next,
+                  });
+                }}
+                placeholder="Nome Giocatore 2..."
+                className="w-full bg-white text-ink border-2 border-ink rounded-xl px-3 py-1.5 font-display font-bold text-center text-sm focus:outline-none focus:ring-2 focus:ring-yellow"
+              />
+            </div>
+          ) : (
+            <div
+              className={`mt-1 py-1.5 px-3 rounded-xl font-display font-bold text-xs border-2 border-ink ${
+                isMyTurn ? 'bg-p2 text-white animate-pulse' : 'bg-white text-ink/60'
+              }`}
+            >
+              {isMyTurn ? 'Tocca a te parlare!' : `Turno di ${p1Name || 'Giocatore 1'}`}
+            </div>
+          )}
         </div>
 
         <button

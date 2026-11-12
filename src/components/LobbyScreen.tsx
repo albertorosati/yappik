@@ -172,6 +172,11 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   };
 
   const currentMode = settings.mode;
+  const needsDiscordConnection =
+    currentMode === 'duel' &&
+    settings.micMode === 'discord-p2p' &&
+    !isDiscordActivity &&
+    !p2RemoteConnected;
   const availableCategories = filterCategories(categories, settings.language, 'all');
 
   const voiceTestSection = !isDiscordActivity && (
@@ -424,13 +429,23 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 {/* ONE BIG YELLOW START BUTTON */}
                 <button
                   type="button"
+                  disabled={needsDiscordConnection}
                   onClick={() => {
+                    if (needsDiscordConnection) return;
                     recognizerRef.current?.stop();
                     onStartGame();
                   }}
-                  className="btn-push btn-shine w-full py-3.5 lg:py-4 rounded-2xl bg-yellow text-ink font-display font-black text-2xl sm:text-3xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all cursor-pointer uppercase tracking-wider"
+                  className={`btn-push w-full py-3.5 lg:py-4 rounded-2xl font-display font-black text-xl sm:text-2xl lg:text-3xl border-[3px] border-ink shadow-hard transition-all uppercase tracking-wider ${
+                    needsDiscordConnection
+                      ? 'bg-paper/75 text-ink/60 cursor-not-allowed'
+                      : 'btn-shine bg-yellow text-ink active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed cursor-pointer'
+                  }`}
                 >
-                  {t('lobby.startDuel', settings.language)}
+                  {needsDiscordConnection
+                    ? settings.language === 'en'
+                      ? `🔒 WAITING FOR ${p2Value.toUpperCase()}...`
+                      : `🔒 IN ATTESA DI ${p2Value.toUpperCase()}...`
+                    : t('lobby.startDuel', settings.language)}
                 </button>
               </div>
             )}
@@ -711,30 +726,51 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                   </div>
 
                   {settings.micMode === 'discord-p2p' && (
-                    <div className="flex items-center gap-2">
-                      <input
-                        type="text"
-                        readOnly
-                        value={getCompanionUrl()}
-                        className="min-w-0 flex-1 px-2.5 py-1.5 rounded-xl bg-white border-2 border-ink text-xs text-ink select-all font-sans"
-                      />
-                      <button
-                        type="button"
-                        onClick={handleCopyCompanionUrl}
-                        className="btn-push px-3 py-1.5 rounded-xl bg-yellow text-ink font-display font-bold text-xs flex items-center gap-1 shrink-0"
+                    <div className="flex flex-col gap-2">
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="text"
+                          readOnly
+                          value={getCompanionUrl()}
+                          className="min-w-0 flex-1 px-2.5 py-1.5 rounded-xl bg-white border-2 border-ink text-xs text-ink select-all font-sans"
+                        />
+                        <button
+                          type="button"
+                          onClick={handleCopyCompanionUrl}
+                          className="btn-push px-3 py-1.5 rounded-xl bg-yellow text-ink font-display font-bold text-xs flex items-center gap-1 shrink-0"
+                        >
+                          {copiedLink ? (
+                            <>
+                              <Check className="w-3.5 h-3.5 text-green" />
+                              <span>{t('lobby.copied', settings.language)}</span>
+                            </>
+                          ) : (
+                            <>
+                              <Copy className="w-3.5 h-3.5" />
+                              <span>{t('lobby.copyLink', settings.language)}</span>
+                            </>
+                          )}
+                        </button>
+                      </div>
+
+                      <div
+                        className={`px-3 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-2 ${
+                          p2RemoteConnected
+                            ? 'bg-green text-ink'
+                            : 'bg-yellow/35 text-ink'
+                        }`}
                       >
-                        {copiedLink ? (
-                          <>
-                            <Check className="w-3.5 h-3.5 text-green" />
-                            <span>{t('lobby.copied', settings.language)}</span>
-                          </>
-                        ) : (
-                          <>
-                            <Copy className="w-3.5 h-3.5" />
-                            <span>{t('lobby.copyLink', settings.language)}</span>
-                          </>
-                        )}
-                      </button>
+                        <span className="truncate">
+                          {p2RemoteConnected
+                            ? t('lobby.connected', settings.language, { p2: p2Value })
+                            : `⏳ ${t('lobby.waitingConnection', settings.language)}`}
+                        </span>
+                        <span
+                          className={`w-2.5 h-2.5 rounded-full border border-ink shrink-0 ${
+                            p2RemoteConnected ? 'bg-paper' : 'bg-yellow animate-pulse'
+                          }`}
+                        />
+                      </div>
                     </div>
                   )}
 
