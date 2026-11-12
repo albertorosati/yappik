@@ -26,13 +26,13 @@ export const YappikLogo: React.FC<TheFloorLogoProps> = ({
   className = '',
 }) => {
   const sizeClasses = {
-    hero: 'w-11 h-11 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-[84px] lg:h-[84px] text-xl sm:text-4xl md:text-5xl lg:text-6xl rounded-2xl border-[3px] border-ink shadow-hard select-none',
+    hero: 'w-11 h-11 sm:w-14 sm:h-14 lg:w-[60px] lg:h-[60px] xl:w-[66px] xl:h-[66px] text-2xl sm:text-3xl lg:text-4xl rounded-2xl border-[3px] border-ink shadow-hard select-none',
     header: 'w-8 h-8 sm:w-9 sm:h-9 text-base sm:text-lg rounded-xl border-[2.5px] border-ink shadow-hard-sm select-none',
     mobile: 'w-7 h-7 text-sm rounded-lg border-[2px] border-ink shadow-hard-sm select-none',
   }[size];
 
   const gapClass = {
-    hero: 'gap-1.5 sm:gap-2.5 md:gap-3 lg:gap-3.5',
+    hero: 'gap-1.5 sm:gap-2.5 lg:gap-3',
     header: 'gap-1 sm:gap-1.5',
     mobile: 'gap-1',
   }[size];
