@@ -6,10 +6,10 @@
   "themeHex": "#EC4899",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B3ctel_Negroni_Campari.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B3ctel_Negroni_Campari.jpg"
   ],
   "items": [
     {
@@ -19,19 +19,28 @@
         "aperol spritz",
         "campari spritz"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-2",
       "answer": "Mojito",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-3",
       "answer": "Margarita",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-4",
@@ -39,7 +48,10 @@
       "aliases": [
         "americano cocktail"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B3ctel_Negroni_Campari.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B3ctel_Negroni_Campari.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B3ctel_Negroni_Campari.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-5",
@@ -48,7 +60,10 @@
         "dry martini",
         "cocktail martini"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/15-09-26-RalfR-WLC-0084.jpg/960px-15-09-26-RalfR-WLC-0084.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/15-09-26-RalfR-WLC-0084.jpg/960px-15-09-26-RalfR-WLC-0084.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/15-09-26-RalfR-WLC-0084.jpg/960px-15-09-26-RalfR-WLC-0084.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-6",
@@ -56,19 +71,28 @@
       "aliases": [
         "pina colada"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pina_Colada_%282%29.jpg/960px-Pina_Colada_%282%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pina_Colada_%282%29.jpg/960px-Pina_Colada_%282%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Pina_Colada_%282%29.jpg/960px-Pina_Colada_%282%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-7",
       "answer": "Cosmopolitan",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Cosmopolitan_%285076906532%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-8",
       "answer": "Bloody Mary",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-9",
@@ -76,25 +100,37 @@
       "aliases": [
         "caipiroska"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Caipirinha_with_lime.jpg/960px-Caipirinha_with_lime.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Caipirinha_with_lime.jpg/960px-Caipirinha_with_lime.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Caipirinha_with_lime.jpg/960px-Caipirinha_with_lime.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-10",
       "answer": "Daiquiri",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Classic_Daiquiri_in_Cocktail_Glass.jpg/960px-Classic_Daiquiri_in_Cocktail_Glass.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Classic_Daiquiri_in_Cocktail_Glass.jpg/960px-Classic_Daiquiri_in_Cocktail_Glass.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Classic_Daiquiri_in_Cocktail_Glass.jpg/960px-Classic_Daiquiri_in_Cocktail_Glass.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-11",
       "answer": "Manhattan",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/A_Manhattan.jpg/960px-A_Manhattan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/A_Manhattan.jpg/960px-A_Manhattan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/A_Manhattan.jpg/960px-A_Manhattan.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-12",
       "answer": "Old Fashioned",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Whiskey_Old_Fashioned1.jpg/960px-Whiskey_Old_Fashioned1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Whiskey_Old_Fashioned1.jpg/960px-Whiskey_Old_Fashioned1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Whiskey_Old_Fashioned1.jpg/960px-Whiskey_Old_Fashioned1.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-13",
@@ -102,7 +138,10 @@
       "aliases": [
         "tazza di rame"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg/960px-Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg/960px-Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg/960px-Cocktail_Moscow_Mule_im_Kupferbecher_mit_Minze.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-14",
@@ -110,37 +149,55 @@
       "aliases": [
         "rum e cola"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/15-09-26-RalfR-WLC-0056.jpg/960px-15-09-26-RalfR-WLC-0056.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/15-09-26-RalfR-WLC-0056.jpg/960px-15-09-26-RalfR-WLC-0056.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/15-09-26-RalfR-WLC-0056.jpg/960px-15-09-26-RalfR-WLC-0056.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-15",
       "answer": "Gin Tonic",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gin_and_Tonic_with_ingredients.jpg/960px-Gin_and_Tonic_with_ingredients.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gin_and_Tonic_with_ingredients.jpg/960px-Gin_and_Tonic_with_ingredients.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gin_and_Tonic_with_ingredients.jpg/960px-Gin_and_Tonic_with_ingredients.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-16",
       "answer": "Irish Coffee",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Irish_coffee_glass.jpg/960px-Irish_coffee_glass.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Irish_coffee_glass.jpg/960px-Irish_coffee_glass.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Irish_coffee_glass.jpg/960px-Irish_coffee_glass.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-17",
       "answer": "Espresso Martini",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg/960px-Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg/960px-Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg/960px-Bistrot_Bruno_Loubet%2C_Clerkenwell%2C_London_%284574785649%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-18",
       "answer": "Mai Tai",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg/960px-Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg/960px-Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg/960px-Mai_Tai_at_Trader_Vic%27s_Emeryville.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-19",
       "answer": "Tequila Sunrise",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Tequila_Sunrise_%285084102035%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Tequila_Sunrise_%285084102035%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/97/Tequila_Sunrise_%285084102035%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-20",
@@ -148,13 +205,19 @@
       "aliases": [
         "mimosa cocktail"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg/960px-Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg/960px-Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg/960px-Bellini_Cipriani%2C_Macaroni_Grill%2C_Dunwoody_GA.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-21",
       "answer": "Sangria",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Red_Wine_Sangria_with_lemon%2C_lime%2C_apple%2C_and_orange_served_in_a_glass_-_Evan_Swigart.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Red_Wine_Sangria_with_lemon%2C_lime%2C_apple%2C_and_orange_served_in_a_glass_-_Evan_Swigart.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Red_Wine_Sangria_with_lemon%2C_lime%2C_apple%2C_and_orange_served_in_a_glass_-_Evan_Swigart.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-22",
@@ -162,7 +225,10 @@
       "aliases": [
         "vin brule"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG/960px-Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG/960px-Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG/960px-Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG"
+      ]
     },
     {
       "id": "cocktail-bevande-23",
@@ -171,7 +237,10 @@
         "spumante",
         "prosecco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Glass_of_champagne.jpg/960px-Glass_of_champagne.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Glass_of_champagne.jpg/960px-Glass_of_champagne.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Glass_of_champagne.jpg/960px-Glass_of_champagne.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-24",
@@ -179,7 +248,12 @@
       "aliases": [
         "calice di vino rosso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/V%C3%A9ronica_Sbergia_p%C3%A5_Notodden_bluesfestival_2013.JPG/960px-V%C3%A9ronica_Sbergia_p%C3%A5_Notodden_bluesfestival_2013.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Glass_of_Red_Wine_with_a_bottle_of_Red_Wine_-_Evan_Swigart.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/88/Glass_of_Red_Wine_with_a_bottle_of_Red_Wine_-_Evan_Swigart.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_and_white_wine_in_glass.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Wine_glass_with_red_wine_%281%29.jpg/960px-Wine_glass_with_red_wine_%281%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-25",
@@ -187,7 +261,10 @@
       "aliases": [
         "calice di vino bianco"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_and_white_wine_in_glass.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_and_white_wine_in_glass.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_and_white_wine_in_glass.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-26",
@@ -196,7 +273,10 @@
         "boccale di birra",
         "pinta di birra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bitburger_Glass.JPG/960px-Bitburger_Glass.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bitburger_Glass.JPG/960px-Bitburger_Glass.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bitburger_Glass.JPG/960px-Bitburger_Glass.JPG"
+      ]
     },
     {
       "id": "cocktail-bevande-27",
@@ -204,7 +284,10 @@
       "aliases": [
         "guinness"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/A_Pint_of_English_Imperial_Stout.png/960px-A_Pint_of_English_Imperial_Stout.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/A_Pint_of_English_Imperial_Stout.png/960px-A_Pint_of_English_Imperial_Stout.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/A_Pint_of_English_Imperial_Stout.png/960px-A_Pint_of_English_Imperial_Stout.png"
+      ]
     },
     {
       "id": "cocktail-bevande-28",
@@ -213,7 +296,10 @@
         "bourbon",
         "scotch"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whiskyhogmanay2010.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whiskyhogmanay2010.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a2/Whiskyhogmanay2010.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-29",
@@ -221,13 +307,19 @@
       "aliases": [
         "shot di tequila"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg/960px-Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg/960px-Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg/960px-Paisaje_agavero_de_Jose_Cuervo_en_Tequila%2C_Jalisco.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-30",
       "answer": "Limoncello",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/SIMAL_limoncello_jp.jpg/960px-SIMAL_limoncello_jp.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/SIMAL_limoncello_jp.jpg/960px-SIMAL_limoncello_jp.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/SIMAL_limoncello_jp.jpg/960px-SIMAL_limoncello_jp.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-31",
@@ -235,7 +327,10 @@
       "aliases": [
         "sake giapponese"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overflowing_sake_glass_in_masu.jpg/960px-Overflowing_sake_glass_in_masu.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overflowing_sake_glass_in_masu.jpg/960px-Overflowing_sake_glass_in_masu.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Overflowing_sake_glass_in_masu.jpg/960px-Overflowing_sake_glass_in_masu.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-32",
@@ -244,7 +339,10 @@
         "tazza di te",
         "infuso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Longjing_tea_steeping_in_gaiwan.jpg/960px-Longjing_tea_steeping_in_gaiwan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Longjing_tea_steeping_in_gaiwan.jpg/960px-Longjing_tea_steeping_in_gaiwan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Longjing_tea_steeping_in_gaiwan.jpg/960px-Longjing_tea_steeping_in_gaiwan.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-33",
@@ -252,7 +350,10 @@
       "aliases": [
         "matcha"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/960px-Matcha_Scoop.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/960px-Matcha_Scoop.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/960px-Matcha_Scoop.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-34",
@@ -260,7 +361,10 @@
       "aliases": [
         "cioccolata con panna"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg/960px-After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg/960px-After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg/960px-After_The_St._Patrick%27s_Parade_Late_Lunch_%40_Lemon%2C_Dawson_Street%2C_Dublin%2C_Rep._Of_Ireland_A_Fine_Tradition%21_%286992614913%29.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-35",
@@ -269,7 +373,10 @@
         "milkshake",
         "frappe"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kiwi_Smoothie.jpg/960px-Kiwi_Smoothie.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kiwi_Smoothie.jpg/960px-Kiwi_Smoothie.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kiwi_Smoothie.jpg/960px-Kiwi_Smoothie.jpg"
+      ]
     },
     {
       "id": "cocktail-bevande-36",
@@ -277,7 +384,10 @@
       "aliases": [
         "acqua e limone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lemonade_-_27682817724.jpg/960px-Lemonade_-_27682817724.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lemonade_-_27682817724.jpg/960px-Lemonade_-_27682817724.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lemonade_-_27682817724.jpg/960px-Lemonade_-_27682817724.jpg"
+      ]
     }
   ],
   "scope": "intl",

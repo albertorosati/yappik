@@ -6,10 +6,10 @@
   "themeHex": "#EC4899",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "monna lisa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-2",
@@ -26,7 +29,10 @@
       "aliases": [
         "cenacolo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-3",
@@ -34,7 +40,10 @@
       "aliases": [
         "notte stellata van gogh"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-4",
@@ -43,7 +52,10 @@
         "urlo di munch",
         "munch"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/960px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-5",
@@ -52,7 +64,10 @@
         "cappella sistina",
         "dito di dio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg/960px-Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg/960px-Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg/960px-Peter_Paul_Rubens_-_Adam_and_Eve%2C_after_Titian%2C_between_1628_and_1629.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-6",
@@ -60,7 +75,10 @@
       "aliases": [
         "venere di botticelli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-7",
@@ -68,7 +86,10 @@
       "aliases": [
         "primavera di botticelli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/960px-Botticelli-primavera.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/960px-Botticelli-primavera.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/960px-Botticelli-primavera.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-8",
@@ -77,7 +98,10 @@
         "ragazza con l orecchino di perla",
         "vermeer"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-9",
@@ -86,13 +110,19 @@
         "bacio di klimt",
         "klimt"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/960px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/960px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/960px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-10",
       "answer": "Guernica",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/960px-Mural_del_Gernika.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/960px-Mural_del_Gernika.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/960px-Mural_del_Gernika.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-11",
@@ -101,7 +131,10 @@
         "orologi molli",
         "quadro dali"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Richard_Zven_Kruspe.jpg/960px-Richard_Zven_Kruspe.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-12",
@@ -110,7 +143,10 @@
         "il david",
         "david"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/960px-%27David%27_by_Michelangelo_Fir_JBU004.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/960px-%27David%27_by_Michelangelo_Fir_JBU004.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/960px-%27David%27_by_Michelangelo_Fir_JBU004.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-13",
@@ -118,13 +154,19 @@
       "aliases": [
         "pieta di michelangelo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Pieta_de_Michelangelo_-_Vaticano.jpg/960px-Pieta_de_Michelangelo_-_Vaticano.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Pieta_de_Michelangelo_-_Vaticano.jpg/960px-Pieta_de_Michelangelo_-_Vaticano.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Pieta_de_Michelangelo_-_Vaticano.jpg/960px-Pieta_de_Michelangelo_-_Vaticano.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-14",
       "answer": "Venere di Milo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/MG-Paris-Aphrodite_of_Milos.jpg/960px-MG-Paris-Aphrodite_of_Milos.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/MG-Paris-Aphrodite_of_Milos.jpg/960px-MG-Paris-Aphrodite_of_Milos.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/MG-Paris-Aphrodite_of_Milos.jpg/960px-MG-Paris-Aphrodite_of_Milos.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-15",
@@ -132,7 +174,10 @@
       "aliases": [
         "pensatore di rodin"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/960px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/960px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/960px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG"
+      ]
     },
     {
       "id": "capolavori-arte-16",
@@ -141,7 +186,10 @@
         "grande onda",
         "onda di hokusai"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/960px-Tsunami_by_hokusai_19th_century.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/960px-Tsunami_by_hokusai_19th_century.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/960px-Tsunami_by_hokusai_19th_century.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-17",
@@ -149,7 +197,10 @@
       "aliases": [
         "girasoli di van gogh"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/960px-Vincent_Willem_van_Gogh_127.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/960px-Vincent_Willem_van_Gogh_127.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/960px-Vincent_Willem_van_Gogh_127.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-18",
@@ -157,7 +208,10 @@
       "aliases": [
         "contadini forcone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Grant_Wood_-_American_Gothic_%281930%29.jpg/960px-Grant_Wood_-_American_Gothic_%281930%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Grant_Wood_-_American_Gothic_%281930%29.jpg/960px-Grant_Wood_-_American_Gothic_%281930%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Grant_Wood_-_American_Gothic_%281930%29.jpg/960px-Grant_Wood_-_American_Gothic_%281930%29.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-19",
@@ -165,7 +219,10 @@
       "aliases": [
         "viandante"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/960px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg"
+      ]
     },
     {
       "id": "capolavori-arte-20",
@@ -173,7 +230,10 @@
       "aliases": [
         "delacroix"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/960px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/960px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/960px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-21",
@@ -181,7 +241,10 @@
       "aliases": [
         "quarto stato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Quarto_Stato.jpg/960px-Quarto_Stato.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Quarto_Stato.jpg/960px-Quarto_Stato.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Quarto_Stato.jpg/960px-Quarto_Stato.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-22",
@@ -189,7 +252,10 @@
       "aliases": [
         "canova"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG/960px-0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG/960px-0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG/960px-0_Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour_-_Canova_-_Louvre_1.JPG"
+      ]
     },
     {
       "id": "capolavori-arte-23",
@@ -197,7 +263,10 @@
       "aliases": [
         "raffaello scuola di atene"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-24",
@@ -205,13 +274,19 @@
       "aliases": [
         "medusa di caravaggio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/960px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/960px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Caravaggio_-_Medusa_-_Google_Art_Project.jpg/960px-Caravaggio_-_Medusa_-_Google_Art_Project.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-25",
       "answer": "Giudizio Universale",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/960px-Last_Judgement_%28Michelangelo%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/960px-Last_Judgement_%28Michelangelo%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/960px-Last_Judgement_%28Michelangelo%29.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-26",
@@ -219,13 +294,19 @@
       "aliases": [
         "ninfee di monet"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg/960px-Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg/960px-Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg/960px-Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-27",
       "answer": "Uomo Vitruviano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/960px-Da_Vinci_Vitruve_Luc_Viatour.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/960px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/960px-Da_Vinci_Vitruve_Luc_Viatour.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-28",
@@ -233,7 +314,10 @@
       "aliases": [
         "bacco di caravaggio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bacchus_by_Caravaggio_1.jpg/960px-Bacchus_by_Caravaggio_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bacchus_by_Caravaggio_1.jpg/960px-Bacchus_by_Caravaggio_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bacchus_by_Caravaggio_1.jpg/960px-Bacchus_by_Caravaggio_1.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-29",
@@ -241,7 +325,12 @@
       "aliases": [
         "bronzi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Reggio_calabria%2C_museo_archeologico_nazionale%2C_esterno_00.jpg/960px-Reggio_calabria%2C_museo_archeologico_nazionale%2C_esterno_00.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bronzi_di_riace%2C_V_secolo_ac._01.jpg/960px-Bronzi_di_riace%2C_V_secolo_ac._01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bronzi_di_riace%2C_V_secolo_ac._01.jpg/960px-Bronzi_di_riace%2C_V_secolo_ac._01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bronzi_di_riace_ritrovamento.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Reggio_Calabria_-_Museo_archeologico_nazionale_-_Bronzi_di_Riace_-_03.jpg/960px-Reggio_Calabria_-_Museo_archeologico_nazionale_-_Bronzi_di_Riace_-_03.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-30",
@@ -249,7 +338,10 @@
       "aliases": [
         "vittoria alata"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/960px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/960px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/960px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-31",
@@ -257,7 +349,10 @@
       "aliases": [
         "lanciatore del disco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/960px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/960px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/960px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-32",
@@ -265,7 +360,10 @@
       "aliases": [
         "gruppo del laocoonte"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/960px-Laoco%C3%B6n_and_his_sons_group.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/960px-Laoco%C3%B6n_and_his_sons_group.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/960px-Laoco%C3%B6n_and_his_sons_group.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-33",
@@ -273,7 +371,10 @@
       "aliases": [
         "il bacio hayez"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg/960px-El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg/960px-El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg/960px-El_Beso_%28Pinacoteca_de_Brera%2C_Mil%C3%A1n%2C_1859%29.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-34",
@@ -281,7 +382,10 @@
       "aliases": [
         "camera di van gogh"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/960px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/960px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/960px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg"
+      ]
     },
     {
       "id": "capolavori-arte-35",
@@ -290,7 +394,10 @@
         "ronda di notte",
         "rembrandt"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/960px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/960px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/960px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+      ]
     }
   ],
   "scope": "intl",

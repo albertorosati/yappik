@@ -6,10 +6,10 @@
   "themeHex": "#10B981",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mont_Blanc_Aiguille.jpg/960px-Mont_Blanc_Aiguille.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/960px-2019_Tre_Cime.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mont_Blanc_Aiguille.jpg/960px-Mont_Blanc_Aiguille.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/960px-2019_Tre_Cime.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "cervino",
         "matterhorn"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-2",
@@ -27,13 +30,19 @@
       "aliases": [
         "everest"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/960px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-3",
       "answer": "Monte Bianco",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mont_Blanc_Aiguille.jpg/960px-Mont_Blanc_Aiguille.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mont_Blanc_Aiguille.jpg/960px-Mont_Blanc_Aiguille.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mont_Blanc_Aiguille.jpg/960px-Mont_Blanc_Aiguille.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-4",
@@ -41,7 +50,10 @@
       "aliases": [
         "dolomiti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/960px-2019_Tre_Cime.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/960px-2019_Tre_Cime.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2019_Tre_Cime.jpg/960px-2019_Tre_Cime.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-5",
@@ -49,7 +61,10 @@
       "aliases": [
         "vulcano etna"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount-etna-indiana-from-above.jpg/960px-Mount-etna-indiana-from-above.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount-etna-indiana-from-above.jpg/960px-Mount-etna-indiana-from-above.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount-etna-indiana-from-above.jpg/960px-Mount-etna-indiana-from-above.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-6",
@@ -57,13 +72,19 @@
       "aliases": [
         "cratere vesuvio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_cratere_del_Vulcano_-_panoramio.jpg/960px-Il_cratere_del_Vulcano_-_panoramio.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_cratere_del_Vulcano_-_panoramio.jpg/960px-Il_cratere_del_Vulcano_-_panoramio.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_cratere_del_Vulcano_-_panoramio.jpg/960px-Il_cratere_del_Vulcano_-_panoramio.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-7",
       "answer": "Stromboli",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg/960px-Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg/960px-Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg/960px-Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-8",
@@ -71,7 +92,10 @@
       "aliases": [
         "kilimanjaro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/960px-Kilimanjaro_from_Amboseli.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/960px-Kilimanjaro_from_Amboseli.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/960px-Kilimanjaro_from_Amboseli.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-9",
@@ -79,31 +103,46 @@
       "aliases": [
         "ayers rock"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/960px-ULURU.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/960px-ULURU.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/960px-ULURU.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-10",
       "answer": "Grand Canyon",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg"
+      ]
     },
     {
       "id": "meraviglie-natura-11",
       "answer": "Monument Valley",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg/960px-Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg/960px-Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg/960px-Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-12",
       "answer": "Antelope Canyon",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/USA_Antelope-Canyon.jpg/960px-USA_Antelope-Canyon.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/USA_Antelope-Canyon.jpg/960px-USA_Antelope-Canyon.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/USA_Antelope-Canyon.jpg/960px-USA_Antelope-Canyon.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-13",
       "answer": "Bryce Canyon",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/960px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/960px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/960px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-14",
@@ -111,7 +150,10 @@
       "aliases": [
         "yellowstone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-15",
@@ -119,13 +161,19 @@
       "aliases": [
         "el capitan"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/El_Capitan_en_Californie.jpg/960px-El_Capitan_en_Californie.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/El_Capitan_en_Californie.jpg/960px-El_Capitan_en_Californie.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/El_Capitan_en_Californie.jpg/960px-El_Capitan_en_Californie.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-16",
       "answer": "Cascate del Niagara",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-17",
@@ -133,19 +181,28 @@
       "aliases": [
         "iguazu"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg/960px-Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg/960px-Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg/960px-Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-18",
       "answer": "Cascate Vittoria",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/960px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/960px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/960px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-19",
       "answer": "Salto Angel",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SaltoAngel1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SaltoAngel1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/SaltoAngel1.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-20",
@@ -153,7 +210,10 @@
       "aliases": [
         "deserto di sale"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Salar_Uyuni_au01.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Salar_Uyuni_au01.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Salar_Uyuni_au01.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-21",
@@ -161,7 +221,10 @@
       "aliases": [
         "ghiacciaio patagonia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/P-E-R-I-T-O-_M-O-R-E-N-O-.JPG/960px-P-E-R-I-T-O-_M-O-R-E-N-O-.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/P-E-R-I-T-O-_M-O-R-E-N-O-.JPG/960px-P-E-R-I-T-O-_M-O-R-E-N-O-.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/P-E-R-I-T-O-_M-O-R-E-N-O-.JPG/960px-P-E-R-I-T-O-_M-O-R-E-N-O-.JPG"
+      ]
     },
     {
       "id": "meraviglie-natura-22",
@@ -169,7 +232,10 @@
       "aliases": [
         "halong bay"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/960px-Ha_Long_Bay_in_2019.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/960px-Ha_Long_Bay_in_2019.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/960px-Ha_Long_Bay_in_2019.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-23",
@@ -177,7 +243,10 @@
       "aliases": [
         "terrazze bianche turchia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/960px-Pamukkale%2C_Denizli_2026_68.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/960px-Pamukkale%2C_Denizli_2026_68.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pamukkale%2C_Denizli_2026_68.jpg/960px-Pamukkale%2C_Denizli_2026_68.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-24",
@@ -185,7 +254,10 @@
       "aliases": [
         "camini delle fate"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/960px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/960px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg/960px-Cappadocia_balloon_trip%2C_Ortahisar_Castle_%2811893715185%29.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-25",
@@ -193,7 +265,10 @@
       "aliases": [
         "bianche scogliere di dover"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/White_Cliffs_of_Dover_02.JPG/960px-White_Cliffs_of_Dover_02.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/White_Cliffs_of_Dover_02.JPG/960px-White_Cliffs_of_Dover_02.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/White_Cliffs_of_Dover_02.JPG/960px-White_Cliffs_of_Dover_02.JPG"
+      ]
     },
     {
       "id": "meraviglie-natura-26",
@@ -201,7 +276,10 @@
       "aliases": [
         "irlanda scogliere"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Cliffs-Of-Moher-OBriens-From-South.JPG/960px-Cliffs-Of-Moher-OBriens-From-South.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Cliffs-Of-Moher-OBriens-From-South.JPG/960px-Cliffs-Of-Moher-OBriens-From-South.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Cliffs-Of-Moher-OBriens-From-South.JPG/960px-Cliffs-Of-Moher-OBriens-From-South.JPG"
+      ]
     },
     {
       "id": "meraviglie-natura-27",
@@ -209,7 +287,10 @@
       "aliases": [
         "giants causeway"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Causeway-code_poet-4.jpg/960px-Causeway-code_poet-4.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Causeway-code_poet-4.jpg/960px-Causeway-code_poet-4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Causeway-code_poet-4.jpg/960px-Causeway-code_poet-4.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-28",
@@ -217,7 +298,10 @@
       "aliases": [
         "fiordo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/960px-Geirangerfjord_.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/960px-Geirangerfjord_.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/960px-Geirangerfjord_.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-29",
@@ -225,13 +309,19 @@
       "aliases": [
         "barriera corallina"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg/960px-ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg/960px-ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg/960px-ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-30",
       "answer": "Mar Morto",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/960px-Dead_Sea_beach_00.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/960px-Dead_Sea_beach_00.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/960px-Dead_Sea_beach_00.JPG"
+      ]
     },
     {
       "id": "meraviglie-natura-31",
@@ -239,13 +329,19 @@
       "aliases": [
         "braies"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pragser_Wildsee_Seekofel_von_Bucht.jpg/960px-Pragser_Wildsee_Seekofel_von_Bucht.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pragser_Wildsee_Seekofel_von_Bucht.jpg/960px-Pragser_Wildsee_Seekofel_von_Bucht.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pragser_Wildsee_Seekofel_von_Bucht.jpg/960px-Pragser_Wildsee_Seekofel_von_Bucht.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-32",
       "answer": "Lago di Como",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-33",
@@ -253,7 +349,12 @@
       "aliases": [
         "capri"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/GarganoBaiaFaraglioni.jpg/960px-GarganoBaiaFaraglioni.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/FaraglioniCapri.jpg/960px-FaraglioniCapri.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/FaraglioniCapri.jpg/960px-FaraglioniCapri.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Faraglioni%2C_Capri%2C_Italy.jpg/960px-Faraglioni%2C_Capri%2C_Italy.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Capri_BW_2013-05-14_15-19-56_DxO.jpg/960px-Capri_BW_2013-05-14_15-19-56_DxO.jpg"
+      ]
     },
     {
       "id": "meraviglie-natura-34",
@@ -261,7 +362,10 @@
       "aliases": [
         "agrigento scogliera bianca"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Realmonte_-_Scala_dei_Turchi_0950.jpg/960px-Realmonte_-_Scala_dei_Turchi_0950.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Realmonte_-_Scala_dei_Turchi_0950.jpg/960px-Realmonte_-_Scala_dei_Turchi_0950.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Realmonte_-_Scala_dei_Turchi_0950.jpg/960px-Realmonte_-_Scala_dei_Turchi_0950.jpg"
+      ]
     }
   ],
   "scope": "intl",

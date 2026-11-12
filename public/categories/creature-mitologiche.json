@@ -6,10 +6,10 @@
   "themeHex": "#D97706",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG/960px-Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/960px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Mochuelo_Com%C3%BAn_%28_Athene_noctua_%29%281%29.jpg/960px-Mochuelo_Com%C3%BAn_%28_Athene_noctua_%29%281%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG/960px-Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/960px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Athena_Parthenos_LeQuire.jpg/960px-Athena_Parthenos_LeQuire.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "giove dio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-2",
@@ -26,7 +29,10 @@
       "aliases": [
         "nettuno dio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG/960px-Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG/960px-Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG/960px-Statue_of_Poseidon_NAMA_235_%28DerHexer%29%2C_part_2.JPG"
+      ]
     },
     {
       "id": "creature-mitologiche-3",
@@ -34,7 +40,10 @@
       "aliases": [
         "plutone dio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/960px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/960px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/960px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-4",
@@ -52,7 +61,10 @@
       "id": "creature-mitologiche-5",
       "answer": "Apollo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Italy-3104_-_Apollo_%285378415112%29.jpg/960px-Italy-3104_-_Apollo_%285378415112%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Italy-3104_-_Apollo_%285378415112%29.jpg/960px-Italy-3104_-_Apollo_%285378415112%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Italy-3104_-_Apollo_%285378415112%29.jpg/960px-Italy-3104_-_Apollo_%285378415112%29.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-6",
@@ -60,7 +72,10 @@
       "aliases": [
         "venere dea"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Griepenkerl%2C_Aphrodite_Urania.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Griepenkerl%2C_Aphrodite_Urania.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/Griepenkerl%2C_Aphrodite_Urania.png"
+      ]
     },
     {
       "id": "creature-mitologiche-7",
@@ -68,7 +83,10 @@
       "aliases": [
         "marte dio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg/960px-%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg/960px-%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg/960px-%CE%9F_%CE%86%CF%81%CE%B7%CF%82_%28Borghese-%CE%9B%CE%BF%CF%8D%CE%B2%CF%81%CE%BF%CF%85%29.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-8",
@@ -88,7 +106,10 @@
       "aliases": [
         "eracle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hercules_Nessus_MAN_Napoli_Inv9001.jpg/960px-Hercules_Nessus_MAN_Napoli_Inv9001.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hercules_Nessus_MAN_Napoli_Inv9001.jpg/960px-Hercules_Nessus_MAN_Napoli_Inv9001.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hercules_Nessus_MAN_Napoli_Inv9001.jpg/960px-Hercules_Nessus_MAN_Napoli_Inv9001.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-10",
@@ -96,7 +117,10 @@
       "aliases": [
         "tallone d achille"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Achilles_fighting_against_Memnon_Leiden_Rijksmuseum_voor_Oudheden.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Achilles_fighting_against_Memnon_Leiden_Rijksmuseum_voor_Oudheden.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/ba/Achilles_fighting_against_Memnon_Leiden_Rijksmuseum_voor_Oudheden.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-11",
@@ -104,7 +128,10 @@
       "aliases": [
         "gorgone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Gorgona_pushkin.jpg/960px-Gorgona_pushkin.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Gorgona_pushkin.jpg/960px-Gorgona_pushkin.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Gorgona_pushkin.jpg/960px-Gorgona_pushkin.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-12",
@@ -112,7 +139,10 @@
       "aliases": [
         "labirinto di cnosso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tondo_Minotaur_London_E4_MAN.jpg/960px-Tondo_Minotaur_London_E4_MAN.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tondo_Minotaur_London_E4_MAN.jpg/960px-Tondo_Minotaur_London_E4_MAN.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tondo_Minotaur_London_E4_MAN.jpg/960px-Tondo_Minotaur_London_E4_MAN.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-13",
@@ -120,7 +150,10 @@
       "aliases": [
         "chirone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg/960px-Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg/960px-Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg/960px-Terracotta_lekythos_%28oil_flask%29_with_centaur_battling_a_warrior_MET_DP161810.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-14",
@@ -128,13 +161,19 @@
       "aliases": [
         "cavallo alato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg/960px-Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg/960px-Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg/960px-Lakonian_Black-Figure_Kylix%3B_detached_fragments.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-15",
       "answer": "Unicorno",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Oftheunicorn.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Oftheunicorn.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/Oftheunicorn.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-16",
@@ -142,7 +181,10 @@
       "aliases": [
         "cane a tre teste"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/960px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/960px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Herakles_Kerberos_Eurystheus_Louvre_E701.jpg/960px-Herakles_Kerberos_Eurystheus_Louvre_E701.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-17",
@@ -150,13 +192,19 @@
       "aliases": [
         "idra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg/960px-Lernaean_Hydra_Getty_Villa_83.AE.346.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg/960px-Lernaean_Hydra_Getty_Villa_83.AE.346.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lernaean_Hydra_Getty_Villa_83.AE.346.jpg/960px-Lernaean_Hydra_Getty_Villa_83.AE.346.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-18",
       "answer": "Chimera",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chimera_Apulia_Louvre_K362.jpg/960px-Chimera_Apulia_Louvre_K362.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chimera_Apulia_Louvre_K362.jpg/960px-Chimera_Apulia_Louvre_K362.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Chimera_Apulia_Louvre_K362.jpg/960px-Chimera_Apulia_Louvre_K362.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-19",
@@ -164,7 +212,10 @@
       "aliases": [
         "ippogrifo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Knossos_fresco_in_throne_palace.JPG/960px-Knossos_fresco_in_throne_palace.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Knossos_fresco_in_throne_palace.JPG/960px-Knossos_fresco_in_throne_palace.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Knossos_fresco_in_throne_palace.JPG/960px-Knossos_fresco_in_throne_palace.JPG"
+      ]
     },
     {
       "id": "creature-mitologiche-20",
@@ -172,13 +223,19 @@
       "aliases": [
         "araba fenice"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Chinese-phoenix-from-nanning.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Chinese-phoenix-from-nanning.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Chinese-phoenix-from-nanning.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-21",
       "answer": "Sirena",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/John_William_Waterhouse_A_Mermaid.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/John_William_Waterhouse_A_Mermaid.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/John_William_Waterhouse_A_Mermaid.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-22",
@@ -186,7 +243,10 @@
       "aliases": [
         "piovra gigante"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Le_Poulpe_Colossal.jpg/960px-Le_Poulpe_Colossal.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Le_Poulpe_Colossal.jpg/960px-Le_Poulpe_Colossal.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Le_Poulpe_Colossal.jpg/960px-Le_Poulpe_Colossal.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-23",
@@ -194,13 +254,19 @@
       "aliases": [
         "dragone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png/960px-St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png/960px-St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png/960px-St_Catherine%2C_St_George_and_the_Dragon_%28M%C3%A4staren_fr%C3%A5n_Kappenberg%29_-_Nationalmuseum_-_18337_%28brightened%29%2C_draken.png"
+      ]
     },
     {
       "id": "creature-mitologiche-24",
       "answer": "Sfinge",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sphinx_CdM_Paris_DeRidder865_n2.jpg/960px-Sphinx_CdM_Paris_DeRidder865_n2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sphinx_CdM_Paris_DeRidder865_n2.jpg/960px-Sphinx_CdM_Paris_DeRidder865_n2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sphinx_CdM_Paris_DeRidder865_n2.jpg/960px-Sphinx_CdM_Paris_DeRidder865_n2.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-25",
@@ -240,13 +306,19 @@
       "aliases": [
         "martello di thor"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg/960px-M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg/960px-M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg/960px-M%C3%A5rten_Eskil_Winge_-_Tor%27s_Fight_with_the_Giants_-_Google_Art_Project.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-29",
       "answer": "Odino",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-30",
@@ -254,7 +326,10 @@
       "aliases": [
         "valchirie"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Historiska_museet_043.jpg/960px-Historiska_museet_043.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Historiska_museet_043.jpg/960px-Historiska_museet_043.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Historiska_museet_043.jpg/960px-Historiska_museet_043.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-31",
@@ -262,7 +337,10 @@
       "aliases": [
         "licantropo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/WeirdTalesv36n2pg038_The_Werewolf_Howls.png/960px-WeirdTalesv36n2pg038_The_Werewolf_Howls.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/WeirdTalesv36n2pg038_The_Werewolf_Howls.png/960px-WeirdTalesv36n2pg038_The_Werewolf_Howls.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/WeirdTalesv36n2pg038_The_Werewolf_Howls.png/960px-WeirdTalesv36n2pg038_The_Werewolf_Howls.png"
+      ]
     },
     {
       "id": "creature-mitologiche-32",
@@ -270,13 +348,19 @@
       "aliases": [
         "dracula"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Philip_Burne-Jones_-_The_Vampire.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Philip_Burne-Jones_-_The_Vampire.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Philip_Burne-Jones_-_The_Vampire.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-33",
       "answer": "Golem",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg/960px-Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg/960px-Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg/960px-Golem_%E2%80%93_Mikol%C3%A1%C5%A1_Ale%C5%A1_%28Star%C3%A9_pov%C4%9Bsti_%C4%8Desk%C3%A9%29.jpg"
+      ]
     },
     {
       "id": "creature-mitologiche-34",
@@ -296,7 +380,10 @@
       "aliases": [
         "nessie"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/960px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/960px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/960px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg"
+      ]
     }
   ],
   "scope": "intl",

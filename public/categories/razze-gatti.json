@@ -6,10 +6,10 @@
   "themeHex": "#F59E0B",
   "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg/960px-DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg/960px-DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "gatto siamese"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG"
+      ]
     },
     {
       "id": "razze-gatti-2",
@@ -26,13 +29,19 @@
       "aliases": [
         "gatto persiano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg"
+      ]
     },
     {
       "id": "razze-gatti-3",
       "answer": "Maine Coon",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg"
+      ]
     },
     {
       "id": "razze-gatti-4",
@@ -41,7 +50,10 @@
         "gatto nudo",
         "gatto senza pelo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg/960px-DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg/960px-DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg/960px-DSX_World_Premior_RU%2ADon_Xuk%27s_Login_WOW_%2814037189016%29.jpg"
+      ]
     },
     {
       "id": "razze-gatti-5",
@@ -49,19 +61,28 @@
       "aliases": [
         "gatto del bengala"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing.jpg/960px-Paintedcats_Red_Star_standing.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing.jpg/960px-Paintedcats_Red_Star_standing.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Paintedcats_Red_Star_standing.jpg/960px-Paintedcats_Red_Star_standing.jpg"
+      ]
     },
     {
       "id": "razze-gatti-6",
       "answer": "Ragdoll",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+      ]
     },
     {
       "id": "razze-gatti-7",
       "answer": "Scottish Fold",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/ba/Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG"
+      ]
     },
     {
       "id": "razze-gatti-8",
@@ -69,7 +90,10 @@
       "aliases": [
         "gatto certosino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/IC_Blue_Melody_Flipper_CHA_male_EX1_CACIB.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/IC_Blue_Melody_Flipper_CHA_male_EX1_CACIB.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3c/IC_Blue_Melody_Flipper_CHA_male_EX1_CACIB.jpg"
+      ]
     },
     {
       "id": "razze-gatti-9",
@@ -77,7 +101,10 @@
       "aliases": [
         "gatto inglese"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Mystica_from_British_Empire_Cattery.jpg/960px-Mystica_from_British_Empire_Cattery.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Mystica_from_British_Empire_Cattery.jpg/960px-Mystica_from_British_Empire_Cattery.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Mystica_from_British_Empire_Cattery.jpg/960px-Mystica_from_British_Empire_Cattery.jpg"
+      ]
     },
     {
       "id": "razze-gatti-10",
@@ -85,7 +112,10 @@
       "aliases": [
         "norvegese"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Dalaja-Doll-norv%C3%A9gien-ambre-blotched-tabby_avec-blanc_2008_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Dalaja-Doll-norv%C3%A9gien-ambre-blotched-tabby_avec-blanc_2008_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/65/Dalaja-Doll-norv%C3%A9gien-ambre-blotched-tabby_avec-blanc_2008_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "razze-gatti-11",
@@ -93,7 +123,10 @@
       "aliases": [
         "gatto abissino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/960px-Gustav_chocolate.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/960px-Gustav_chocolate.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/960px-Gustav_chocolate.jpg"
+      ]
     },
     {
       "id": "razze-gatti-12",
@@ -101,7 +134,10 @@
       "aliases": [
         "gatto siberiano"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Samiha%27s_Siberian_cat_Moon_Pie.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Samiha%27s_Siberian_cat_Moon_Pie.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/27/Samiha%27s_Siberian_cat_Moon_Pie.jpg"
+      ]
     },
     {
       "id": "razze-gatti-13",
@@ -109,13 +145,19 @@
       "aliases": [
         "birmano"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birmanstrofe.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Birmanstrofe.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/06/Birmanstrofe.jpg"
+      ]
     },
     {
       "id": "razze-gatti-14",
       "answer": "Blu di Russia",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Russian_blue_kitten_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Russian_blue_kitten_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Russian_blue_kitten_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "razze-gatti-15",
@@ -123,13 +165,19 @@
       "aliases": [
         "angora"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG/960px-Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG/960px-Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG/960px-Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG"
+      ]
     },
     {
       "id": "razze-gatti-16",
       "answer": "Savannah",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Savannah_Cat_portrait.jpg/960px-Savannah_Cat_portrait.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Savannah_Cat_portrait.jpg/960px-Savannah_Cat_portrait.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Savannah_Cat_portrait.jpg/960px-Savannah_Cat_portrait.jpg"
+      ]
     },
     {
       "id": "razze-gatti-17",
@@ -137,7 +185,10 @@
       "aliases": [
         "esotico"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ginger_Exotic_Shorthair.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ginger_Exotic_Shorthair.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/25/Ginger_Exotic_Shorthair.jpg"
+      ]
     },
     {
       "id": "razze-gatti-18",
@@ -145,19 +196,28 @@
       "aliases": [
         "gatto senza coda"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Manx_cat_Latte.jpg/960px-Manx_cat_Latte.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Manx_cat_Latte.jpg/960px-Manx_cat_Latte.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Manx_cat_Latte.jpg/960px-Manx_cat_Latte.jpg"
+      ]
     },
     {
       "id": "razze-gatti-19",
       "answer": "Devon Rex",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Devon_Rex_Cassini.jpeg/960px-Devon_Rex_Cassini.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Devon_Rex_Cassini.jpeg/960px-Devon_Rex_Cassini.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Devon_Rex_Cassini.jpeg/960px-Devon_Rex_Cassini.jpeg"
+      ]
     },
     {
       "id": "razze-gatti-20",
       "answer": "Cornish Rex",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Rex_staredown.jpg/960px-Rex_staredown.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Rex_staredown.jpg/960px-Rex_staredown.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Rex_staredown.jpg/960px-Rex_staredown.jpg"
+      ]
     },
     {
       "id": "razze-gatti-21",
@@ -165,7 +225,10 @@
       "aliases": [
         "orientale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Fatale_de_la_l%C3%A9gende_d%27ali.jpg/960px-Fatale_de_la_l%C3%A9gende_d%27ali.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Fatale_de_la_l%C3%A9gende_d%27ali.jpg/960px-Fatale_de_la_l%C3%A9gende_d%27ali.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Fatale_de_la_l%C3%A9gende_d%27ali.jpg/960px-Fatale_de_la_l%C3%A9gende_d%27ali.jpg"
+      ]
     },
     {
       "id": "razze-gatti-22",
@@ -173,13 +236,19 @@
       "aliases": [
         "gatto bassotto"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Longhairedmunchkin.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Longhairedmunchkin.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Longhairedmunchkin.jpg"
+      ]
     },
     {
       "id": "razze-gatti-23",
       "answer": "Somalo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg/960px-%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg/960px-%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg/960px-%D0%A1%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0.jpg"
+      ]
     },
     {
       "id": "razze-gatti-24",
@@ -188,13 +257,19 @@
         "soriano",
         "europeo"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Shorthair_EUR_d_22.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Shorthair_EUR_d_22.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Shorthair_EUR_d_22.jpg"
+      ]
     },
     {
       "id": "razze-gatti-25",
       "answer": "Himalayano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sonny_Bunny.jpg/960px-Sonny_Bunny.jpg"
+      ]
     },
     {
       "id": "razze-gatti-26",
@@ -202,43 +277,64 @@
       "aliases": [
         "bobtail"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/JapaneseBobtailBlueEyedMi-ke.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/JapaneseBobtailBlueEyedMi-ke.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/56/JapaneseBobtailBlueEyedMi-ke.JPG"
+      ]
     },
     {
       "id": "razze-gatti-27",
       "answer": "Ocicat",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Topspot_La_Colombina_%28Liina%29_OCI_c_24_female_kitten_EX1.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Topspot_La_Colombina_%28Liina%29_OCI_c_24_female_kitten_EX1.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/Topspot_La_Colombina_%28Liina%29_OCI_c_24_female_kitten_EX1.JPG"
+      ]
     },
     {
       "id": "razze-gatti-28",
       "answer": "Toyger",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/ca/Toyger_-_Cornish_Rex_presentation_show_Riihim%C3%A4ki_2008-11-16_IMG_0101.JPG"
+      ]
     },
     {
       "id": "razze-gatti-29",
       "answer": "Balinese",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Old-Style_Balinese_Cat.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Old-Style_Balinese_Cat.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/05/Old-Style_Balinese_Cat.png"
+      ]
     },
     {
       "id": "razze-gatti-30",
       "answer": "Burmese",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/British_burmese_-_Andel_Alois_at_Cat_show.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/British_burmese_-_Andel_Alois_at_Cat_show.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5c/British_burmese_-_Andel_Alois_at_Cat_show.JPG"
+      ]
     },
     {
       "id": "razze-gatti-31",
       "answer": "Korat",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Korat.JPG/960px-Downtown_Korat.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Korat.JPG/960px-Downtown_Korat.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Korat.JPG/960px-Downtown_Korat.JPG"
+      ]
     },
     {
       "id": "razze-gatti-32",
       "answer": "Mau Egiziano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/RoyalNefertt_Serket_of_AchetAton.jpg/960px-RoyalNefertt_Serket_of_AchetAton.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/RoyalNefertt_Serket_of_AchetAton.jpg/960px-RoyalNefertt_Serket_of_AchetAton.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/RoyalNefertt_Serket_of_AchetAton.jpg/960px-RoyalNefertt_Serket_of_AchetAton.jpg"
+      ]
     }
   ],
   "scope": "intl",

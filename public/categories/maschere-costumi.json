@@ -6,10 +6,10 @@
   "themeHex": "#A855F7",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png/960px-Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Drake_Harlequin_duck_%28Histrionicus_histrionicus%29_perched_on_a_rock_in_the_Barnegat_Inlet%2C_New_Jersey%2C_USA_%28cropped%29.jpg/960px-Drake_Harlequin_duck_%28Histrionicus_histrionicus%29_perched_on_a_rock_in_the_Barnegat_Inlet%2C_New_Jersey%2C_USA_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pulcinella_-_stampa_ottocento.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png/960px-Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png",
+    "https://upload.wikimedia.org/wikipedia/commons/e/e4/SAND_Maurice_Masques_et_bouffons_01.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg/960px-Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "bauta",
         "carnevale di venezia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venice_Carnival_-_Masked_Lovers_%282010%29.jpg/960px-Venice_Carnival_-_Masked_Lovers_%282010%29.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-2",
@@ -27,19 +30,30 @@
       "aliases": [
         "maschera col becco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png/960px-Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png/960px-Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png/960px-Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png"
+      ]
     },
     {
       "id": "maschere-costumi-3",
       "answer": "Arlecchino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Drake_Harlequin_duck_%28Histrionicus_histrionicus%29_perched_on_a_rock_in_the_Barnegat_Inlet%2C_New_Jersey%2C_USA_%28cropped%29.jpg/960px-Drake_Harlequin_duck_%28Histrionicus_histrionicus%29_perched_on_a_rock_in_the_Barnegat_Inlet%2C_New_Jersey%2C_USA_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/SAND_Maurice_Masques_et_bouffons_01.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e4/SAND_Maurice_Masques_et_bouffons_01.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-4",
       "answer": "Pulcinella",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pulcinella_-_stampa_ottocento.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg/960px-Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg/960px-Pulcinella_Puppet%2C_18th_century_%28CH_18298211%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Punchinella%27s_Father_Brings_Home_His_Bride_%28SM_16834z%29.png/960px-Punchinella%27s_Father_Brings_Home_His_Bride_%28SM_16834z%29.png",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Traditional_type_leathermask_of_%22Pulcinella%22%2C_Commedia_dell_arte%2C_Venezia_%28Maskenmuseum_Diedorf%2C_artist_Michael_St%C3%B6hr%29.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-5",
@@ -48,7 +62,10 @@
         "anonymous",
         "v per vendetta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Anonymous_at_Scientology_in_Los_Angeles.jpg/960px-Anonymous_at_Scientology_in_Los_Angeles.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Anonymous_at_Scientology_in_Los_Angeles.jpg/960px-Anonymous_at_Scientology_in_Los_Angeles.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Anonymous_at_Scientology_in_Los_Angeles.jpg/960px-Anonymous_at_Scientology_in_Los_Angeles.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-6",
@@ -56,7 +73,10 @@
       "aliases": [
         "maschera giapponese"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Noh_Performance_%28235951661%29.jpeg/960px-Noh_Performance_%28235951661%29.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Noh_Performance_%28235951661%29.jpeg/960px-Noh_Performance_%28235951661%29.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Noh_Performance_%28235951661%29.jpeg/960px-Noh_Performance_%28235951661%29.jpeg"
+      ]
     },
     {
       "id": "maschere-costumi-7",
@@ -64,7 +84,10 @@
       "aliases": [
         "maschera africana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg/960px-Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg/960px-Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg/960px-Brooklyn_Museum_69.39.2_Helmet_Mask_ndoli_jowei_for_Sande_Society_%282%29.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-8",
@@ -73,13 +96,19 @@
         "faraone",
         "tutankhamon"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/960px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/960px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/CairoEgMuseumTaaMaskMostlyPhotographed.jpg/960px-CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-9",
       "answer": "Maschera da Scherma",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-10",
@@ -87,7 +116,10 @@
       "aliases": [
         "maschera e boccaglio"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Tauchen1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Tauchen1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Tauchen1.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-11",
@@ -95,25 +127,37 @@
       "aliases": [
         "casco da palombaro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kask-nurka.jpg/960px-Kask-nurka.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kask-nurka.jpg/960px-Kask-nurka.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Kask-nurka.jpg/960px-Kask-nurka.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-12",
       "answer": "Maschera Antigas",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg/960px-Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg/960px-Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg/960px-Indiana_Urban_Search_and_Rescue_Task_Force_1_suits_up_for_Vibrant_Response_2014_140722-A-PC120-205.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-13",
       "answer": "Maschera da Saldatore",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Equip_per_soldar.jpg/960px-Equip_per_soldar.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Equip_per_soldar.jpg/960px-Equip_per_soldar.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Equip_per_soldar.jpg/960px-Equip_per_soldar.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-14",
       "answer": "Maschera da Hockey",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/James_Reimer_Goalie_Mask.JPG/960px-James_Reimer_Goalie_Mask.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/James_Reimer_Goalie_Mask.JPG/960px-James_Reimer_Goalie_Mask.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/James_Reimer_Goalie_Mask.JPG/960px-James_Reimer_Goalie_Mask.JPG"
+      ]
     },
     {
       "id": "maschere-costumi-15",
@@ -122,7 +166,10 @@
         "centurione",
         "gladiatore"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg/960px-Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg/960px-Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg/960px-Roman_Auxillary_Infantry_Helmet%2C_c._98-117_AD_%2843219328511%29.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-16",
@@ -131,7 +178,10 @@
         "elmo spartano",
         "spartano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg/960px-Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg/960px-Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg/960px-Corinthian_helmet_Denda_Staatliche_Antikensammlungen_4330.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-17",
@@ -140,7 +190,10 @@
         "cavaliere medievale",
         "armatura"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg/960px-Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg/960px-Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg/960px-Lossy-page1-2122px-H%C3%A4strustning_-_Livrustkammaren_-_72697_aaa.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-18",
@@ -149,7 +202,10 @@
         "samurai",
         "armatura samurai"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/F-19987_E0022624.jpg/960px-F-19987_E0022624.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/F-19987_E0022624.jpg/960px-F-19987_E0022624.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/F-19987_E0022624.jpg/960px-F-19987_E0022624.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-19",
@@ -157,7 +213,10 @@
       "aliases": [
         "penne indiano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG/960px-Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG/960px-Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG/960px-Eagle_feather_war_bonnet%2C_Cheyenne%2C_19th_century%2C_trade_beads%2C_eagle_feathers%2C_red_stroud_-_Cincinnati_Art_Museum_-_DSC04333.JPG"
+      ]
     },
     {
       "id": "maschere-costumi-20",
@@ -165,7 +224,10 @@
       "aliases": [
         "diadema"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Saint_Edward%27s_Crown.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Saint_Edward%27s_Crown.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Saint_Edward%27s_Crown.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-21",
@@ -173,7 +235,10 @@
       "aliases": [
         "mitria"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Papal_Tiara_with_silver_gems_pearls.jpg/960px-Papal_Tiara_with_silver_gems_pearls.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Papal_Tiara_with_silver_gems_pearls.jpg/960px-Papal_Tiara_with_silver_gems_pearls.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Papal_Tiara_with_silver_gems_pearls.jpg/960px-Papal_Tiara_with_silver_gems_pearls.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-22",
@@ -181,7 +246,10 @@
       "aliases": [
         "parrucca bianca"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg/960px-Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg/960px-Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg/960px-Marie-Antoinette%2C_1775_-_Mus%C3%A9e_Antoine_L%C3%A9cuyer.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-23",
@@ -189,25 +257,37 @@
       "aliases": [
         "cappello russo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Gray-lambskin-ushanka-hat.jpg/960px-Gray-lambskin-ushanka-hat.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Gray-lambskin-ushanka-hat.jpg/960px-Gray-lambskin-ushanka-hat.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Gray-lambskin-ushanka-hat.jpg/960px-Gray-lambskin-ushanka-hat.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-24",
       "answer": "Fez",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fez.jpg/960px-Fez.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fez.jpg/960px-Fez.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fez.jpg/960px-Fez.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-25",
       "answer": "Turbante",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-26",
       "answer": "Sombrero",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG"
+      ]
     },
     {
       "id": "maschere-costumi-27",
@@ -215,13 +295,19 @@
       "aliases": [
         "scozzese"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Scottish_mercenaries_in_the_Thirty_Years_War.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Scottish_mercenaries_in_the_Thirty_Years_War.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/Scottish_mercenaries_in_the_Thirty_Years_War.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-28",
       "answer": "Kimono",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-29",
@@ -229,13 +315,19 @@
       "aliases": [
         "sari"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/960px-Sari_on_mannequin_for_demo.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/960px-Sari_on_mannequin_for_demo.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Sari_on_mannequin_for_demo.jpg/960px-Sari_on_mannequin_for_demo.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-30",
       "answer": "Poncho",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg/960px-Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg/960px-Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg/960px-Chile%2C_Araucanian_Indians_and_gauchos_-_Racinet_%2870086930%29.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-31",
@@ -244,7 +336,10 @@
         "lederhosen",
         "oktoberfest"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG/960px-Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG/960px-Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG/960px-Volksfestumzug_in_Vilshofen_a.d._Donau_2012_%283%29.JPG"
+      ]
     },
     {
       "id": "maschere-costumi-32",
@@ -252,7 +347,10 @@
       "aliases": [
         "tutu"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Colourful_ballet_tutu.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Colourful_ballet_tutu.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/08/Colourful_ballet_tutu.jpg"
+      ]
     },
     {
       "id": "maschere-costumi-33",
@@ -260,7 +358,10 @@
       "aliases": [
         "cappello di laurea"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/LinusPaulingGraduation1922.jpg/960px-LinusPaulingGraduation1922.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/LinusPaulingGraduation1922.jpg/960px-LinusPaulingGraduation1922.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/LinusPaulingGraduation1922.jpg/960px-LinusPaulingGraduation1922.jpg"
+      ]
     }
   ],
   "scope": "intl",

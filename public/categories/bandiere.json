@@ -22,6 +22,9 @@
       "answerEn": "Italy",
       "aliasesEn": [
         "italian republic"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/it.png"
       ]
     },
     {
@@ -32,6 +35,9 @@
       "answerEn": "France",
       "aliasesEn": [
         "french republic"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/fr.png"
       ]
     },
     {
@@ -42,6 +48,9 @@
       "answerEn": "Germany",
       "aliasesEn": [
         "deutschland"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/de.png"
       ]
     },
     {
@@ -52,6 +61,9 @@
       "answerEn": "Spain",
       "aliasesEn": [
         "kingdom of spain"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/es.png"
       ]
     },
     {
@@ -68,6 +80,9 @@
         "uk",
         "britain",
         "great britain"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/gb.png"
       ]
     },
     {
@@ -83,6 +98,9 @@
         "usa",
         "us",
         "america"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/us.png"
       ]
     },
     {
@@ -93,6 +111,9 @@
       "answerEn": "Japan",
       "aliasesEn": [
         "nippon"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/jp.png"
       ]
     },
     {
@@ -103,6 +124,9 @@
       "answerEn": "Brazil",
       "aliasesEn": [
         "brasil"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/br.png"
       ]
     },
     {
@@ -111,7 +135,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/ar.png",
       "answerEn": "Argentina",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/ar.png"
+      ]
     },
     {
       "id": "bandiere-10",
@@ -119,7 +146,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/ca.png",
       "answerEn": "Canada",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/ca.png"
+      ]
     },
     {
       "id": "bandiere-11",
@@ -129,6 +159,9 @@
       "answerEn": "Switzerland",
       "aliasesEn": [
         "swiss"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/ch.png"
       ]
     },
     {
@@ -139,6 +172,9 @@
       "answerEn": "Greece",
       "aliasesEn": [
         "hellas"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/gr.png"
       ]
     },
     {
@@ -147,7 +183,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/pt.png",
       "answerEn": "Portugal",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/pt.png"
+      ]
     },
     {
       "id": "bandiere-14",
@@ -157,6 +196,9 @@
       "answerEn": "China",
       "aliasesEn": [
         "prc"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/cn.png"
       ]
     },
     {
@@ -170,6 +212,9 @@
       "answerEn": "South Korea",
       "aliasesEn": [
         "korea"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/kr.png"
       ]
     },
     {
@@ -180,6 +225,9 @@
       "answerEn": "Australia",
       "aliasesEn": [
         "aussie"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/au.png"
       ]
     },
     {
@@ -190,6 +238,9 @@
       "answerEn": "Mexico",
       "aliasesEn": [
         "mejico"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/mx.png"
       ]
     },
     {
@@ -198,7 +249,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/eg.png",
       "answerEn": "Egypt",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/eg.png"
+      ]
     },
     {
       "id": "bandiere-19",
@@ -206,7 +260,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/se.png",
       "answerEn": "Sweden",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/se.png"
+      ]
     },
     {
       "id": "bandiere-20",
@@ -214,7 +271,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/no.png",
       "answerEn": "Norway",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/no.png"
+      ]
     },
     {
       "id": "bandiere-21",
@@ -222,7 +282,10 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/fi.png",
       "answerEn": "Finland",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/fi.png"
+      ]
     },
     {
       "id": "bandiere-22",
@@ -230,13 +293,19 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/dk.png",
       "answerEn": "Denmark",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/dk.png"
+      ]
     },
     {
       "id": "bandiere-23",
       "answer": "Islanda",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/is.png"
+      "imageUrl": "https://flagcdn.com/w640/is.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/is.png"
+      ]
     },
     {
       "id": "bandiere-24",
@@ -246,6 +315,9 @@
       "answerEn": "Ireland",
       "aliasesEn": [
         "eire"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/ie.png"
       ]
     },
     {
@@ -258,6 +330,9 @@
       "answerEn": "Netherlands",
       "aliasesEn": [
         "holland"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/nl.png"
       ]
     },
     {
@@ -266,25 +341,37 @@
       "aliases": [],
       "imageUrl": "https://flagcdn.com/w640/be.png",
       "answerEn": "Belgium",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/be.png"
+      ]
     },
     {
       "id": "bandiere-27",
       "answer": "Austria",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/at.png"
+      "imageUrl": "https://flagcdn.com/w640/at.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/at.png"
+      ]
     },
     {
       "id": "bandiere-28",
       "answer": "Polonia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/pl.png"
+      "imageUrl": "https://flagcdn.com/w640/pl.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/pl.png"
+      ]
     },
     {
       "id": "bandiere-29",
       "answer": "Ucraina",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/ua.png"
+      "imageUrl": "https://flagcdn.com/w640/ua.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/ua.png"
+      ]
     },
     {
       "id": "bandiere-30",
@@ -294,6 +381,9 @@
       "answerEn": "Turkey",
       "aliasesEn": [
         "turkiye"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/tr.png"
       ]
     },
     {
@@ -304,6 +394,9 @@
       "answerEn": "India",
       "aliasesEn": [
         "bharat"
+      ],
+      "imageUrls": [
+        "https://flagcdn.com/w640/in.png"
       ]
     },
     {
@@ -314,25 +407,37 @@
       ],
       "imageUrl": "https://flagcdn.com/w640/za.png",
       "answerEn": "South Africa",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://flagcdn.com/w640/za.png"
+      ]
     },
     {
       "id": "bandiere-33",
       "answer": "Marocco",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/ma.png"
+      "imageUrl": "https://flagcdn.com/w640/ma.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/ma.png"
+      ]
     },
     {
       "id": "bandiere-34",
       "answer": "Tunisia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/tn.png"
+      "imageUrl": "https://flagcdn.com/w640/tn.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/tn.png"
+      ]
     },
     {
       "id": "bandiere-35",
       "answer": "Nigeria",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/ng.png"
+      "imageUrl": "https://flagcdn.com/w640/ng.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/ng.png"
+      ]
     },
     {
       "id": "bandiere-36",
@@ -340,25 +445,37 @@
       "aliases": [
         "jamaica"
       ],
-      "imageUrl": "https://flagcdn.com/w640/jm.png"
+      "imageUrl": "https://flagcdn.com/w640/jm.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/jm.png"
+      ]
     },
     {
       "id": "bandiere-37",
       "answer": "Cuba",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/cu.png"
+      "imageUrl": "https://flagcdn.com/w640/cu.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/cu.png"
+      ]
     },
     {
       "id": "bandiere-38",
       "answer": "Colombia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/co.png"
+      "imageUrl": "https://flagcdn.com/w640/co.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/co.png"
+      ]
     },
     {
       "id": "bandiere-39",
       "answer": "Cile",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/cl.png"
+      "imageUrl": "https://flagcdn.com/w640/cl.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/cl.png"
+      ]
     },
     {
       "id": "bandiere-40",
@@ -366,43 +483,64 @@
       "aliases": [
         "peru"
       ],
-      "imageUrl": "https://flagcdn.com/w640/pe.png"
+      "imageUrl": "https://flagcdn.com/w640/pe.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/pe.png"
+      ]
     },
     {
       "id": "bandiere-41",
       "answer": "Uruguay",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/uy.png"
+      "imageUrl": "https://flagcdn.com/w640/uy.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/uy.png"
+      ]
     },
     {
       "id": "bandiere-42",
       "answer": "Croazia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/hr.png"
+      "imageUrl": "https://flagcdn.com/w640/hr.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/hr.png"
+      ]
     },
     {
       "id": "bandiere-43",
       "answer": "Serbia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/rs.png"
+      "imageUrl": "https://flagcdn.com/w640/rs.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/rs.png"
+      ]
     },
     {
       "id": "bandiere-44",
       "answer": "Romania",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/ro.png"
+      "imageUrl": "https://flagcdn.com/w640/ro.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/ro.png"
+      ]
     },
     {
       "id": "bandiere-45",
       "answer": "Albania",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/al.png"
+      "imageUrl": "https://flagcdn.com/w640/al.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/al.png"
+      ]
     },
     {
       "id": "bandiere-46",
       "answer": "Israele",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/il.png"
+      "imageUrl": "https://flagcdn.com/w640/il.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/il.png"
+      ]
     },
     {
       "id": "bandiere-47",
@@ -410,31 +548,46 @@
       "aliases": [
         "arabia"
       ],
-      "imageUrl": "https://flagcdn.com/w640/sa.png"
+      "imageUrl": "https://flagcdn.com/w640/sa.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/sa.png"
+      ]
     },
     {
       "id": "bandiere-48",
       "answer": "Thailandia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/th.png"
+      "imageUrl": "https://flagcdn.com/w640/th.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/th.png"
+      ]
     },
     {
       "id": "bandiere-49",
       "answer": "Vietnam",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/vn.png"
+      "imageUrl": "https://flagcdn.com/w640/vn.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/vn.png"
+      ]
     },
     {
       "id": "bandiere-50",
       "answer": "Indonesia",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/id.png"
+      "imageUrl": "https://flagcdn.com/w640/id.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/id.png"
+      ]
     },
     {
       "id": "bandiere-51",
       "answer": "Nuova Zelanda",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/nz.png"
+      "imageUrl": "https://flagcdn.com/w640/nz.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/nz.png"
+      ]
     },
     {
       "id": "bandiere-52",
@@ -442,25 +595,37 @@
       "aliases": [
         "vaticano"
       ],
-      "imageUrl": "https://flagcdn.com/w640/va.png"
+      "imageUrl": "https://flagcdn.com/w640/va.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/va.png"
+      ]
     },
     {
       "id": "bandiere-53",
       "answer": "San Marino",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/sm.png"
+      "imageUrl": "https://flagcdn.com/w640/sm.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/sm.png"
+      ]
     },
     {
       "id": "bandiere-54",
       "answer": "Camerun",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/cm.png"
+      "imageUrl": "https://flagcdn.com/w640/cm.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/cm.png"
+      ]
     },
     {
       "id": "bandiere-55",
       "answer": "Senegal",
       "aliases": [],
-      "imageUrl": "https://flagcdn.com/w640/sn.png"
+      "imageUrl": "https://flagcdn.com/w640/sn.png",
+      "imageUrls": [
+        "https://flagcdn.com/w640/sn.png"
+      ]
     }
   ],
   "scope": "intl",

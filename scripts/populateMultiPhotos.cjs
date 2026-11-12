@@ -32,15 +32,16 @@ function isTitleValid(title, name) {
   ];
   if (badKeywords.some((k) => t.includes(k))) return false;
 
-  // Assicurati che il titolo contenga almeno una parte del nome (lunghezza >= 3)
+  // Richiedi il match di almeno 2 token principali (quando presenti) per evitare omonimi ("Fiorello La Guardia", "S. Costanzo")
   const parts = name.toLowerCase().split(/\s+/).filter((p) => p.length >= 3 && !['del', 'dei', 'della', 'san', 'von', 'van', 'the'].includes(p));
   if (parts.length === 0) return true;
-  return parts.some((p) => t.includes(p));
+  const hits = parts.filter((p) => t.includes(p)).length;
+  return hits >= Math.min(2, parts.length);
 }
 
 async function findAlternatePhotos(name, currentUrl, limit = 3) {
   const query = encodeURIComponent(name);
-  const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${query}&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|size|mime&format=json`;
+  const url = `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${query}&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|size|mime&iiurlwidth=960&format=json`;
 
   try {
     const res = await fetch(url, { headers: HEADERS });
@@ -55,10 +56,14 @@ async function findAlternatePhotos(name, currentUrl, limit = 3) {
       if (!info) continue;
       if (!isTitleValid(p.title, name)) continue;
       if (info.mime !== 'image/jpeg' && info.mime !== 'image/png') continue;
-      if (info.width < 280 || info.height < 280) continue;
+      const w = info.thumbwidth || info.width || 0;
+      const h = info.thumbheight || info.height || 0;
+      if (w < 360 || h < 260) continue;
+      const ratio = w / h;
+      if (ratio < 0.62 || ratio > 1.85) continue;
 
-      const cleanCandidate = info.url.split('?')[0];
-      if (cleanCandidate === cleanCurrent || candidates.includes(cleanCandidate)) {
+      const cleanCandidate = String(info.thumburl || info.url || '').split('?')[0];
+      if (!cleanCandidate || cleanCandidate === cleanCurrent || candidates.includes(cleanCandidate)) {
         continue;
       }
       if (Array.isArray(blacklistData.blacklistedUrls)) {

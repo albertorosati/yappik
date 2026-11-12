@@ -6,10 +6,10 @@
   "themeHex": "#F43F5E",
   "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png",
+    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Stratocaster_%26_Les_Paul.jpg/960px-Stratocaster_%26_Les_Paul.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "chitarra",
         "chitarra classica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png"
+      ]
     },
     {
       "id": "strumenti-musicali-2",
@@ -28,7 +31,10 @@
         "fender",
         "gibson"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Stratocaster_%26_Les_Paul.jpg/960px-Stratocaster_%26_Les_Paul.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Stratocaster_%26_Les_Paul.jpg/960px-Stratocaster_%26_Les_Paul.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-3",
@@ -36,7 +42,10 @@
       "aliases": [
         "basso"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/Fender_Precision_Bass.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-4",
@@ -48,6 +57,9 @@
       "answerEn": "Violin",
       "aliasesEn": [
         "fiddle"
+      ],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png"
       ]
     },
     {
@@ -58,13 +70,19 @@
       "answerEn": "Cello",
       "aliasesEn": [
         "violoncello"
+      ],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Cello_front_side.png"
       ]
     },
     {
       "id": "strumenti-musicali-6",
       "answer": "Contrabbasso",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/AGK_bass1_full.jpg/960px-AGK_bass1_full.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/AGK_bass1_full.jpg/960px-AGK_bass1_full.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/AGK_bass1_full.jpg/960px-AGK_bass1_full.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-7",
@@ -72,7 +90,10 @@
       "aliases": [],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Harp.png",
       "answerEn": "Harp",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Harp.png"
+      ]
     },
     {
       "id": "strumenti-musicali-8",
@@ -85,6 +106,9 @@
       "answerEn": "Piano",
       "aliasesEn": [
         "grand piano"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/960px-Steinway_Vienna_002.JPG"
       ]
     },
     {
@@ -95,7 +119,10 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg/960px-A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg",
       "answerEn": "Accordion",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg/960px-A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-10",
@@ -103,7 +130,10 @@
       "aliases": [
         "organo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg/960px-Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg/960px-Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg/960px-Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-11",
@@ -112,7 +142,10 @@
         "tastiera elettronica",
         "synth"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/R.A.Moog_minimoog_2.jpg/960px-R.A.Moog_minimoog_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/R.A.Moog_minimoog_2.jpg/960px-R.A.Moog_minimoog_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/R.A.Moog_minimoog_2.jpg/960px-R.A.Moog_minimoog_2.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-12",
@@ -125,6 +158,9 @@
       "aliasesEn": [
         "drum kit",
         "drum set"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/2006-07-06_drum_set.jpg/960px-2006-07-06_drum_set.jpg"
       ]
     },
     {
@@ -133,7 +169,10 @@
       "aliases": [
         "tamburello basco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d9/Eve_-_Tambourine.jpg/960px-Eve_-_Tambourine.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d9/Eve_-_Tambourine.jpg/960px-Eve_-_Tambourine.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d9/Eve_-_Tambourine.jpg/960px-Eve_-_Tambourine.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-14",
@@ -141,13 +180,19 @@
       "aliases": [
         "bonghi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bongos_Meinl_HB100-NT.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bongos_Meinl_HB100-NT.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/73/Bongos_Meinl_HB100-NT.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-15",
       "answer": "Maracas",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Maracas.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Maracas.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Maracas.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-16",
@@ -156,7 +201,10 @@
         "marimba",
         "vibrafono"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Glockenspiel-malletech.jpg/960px-Glockenspiel-malletech.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Glockenspiel-malletech.jpg/960px-Glockenspiel-malletech.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Glockenspiel-malletech.jpg/960px-Glockenspiel-malletech.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-17",
@@ -164,13 +212,19 @@
       "aliases": [
         "tam tam"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/76/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-18",
       "answer": "Triangolo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Triangle_001.jpg/960px-Triangle_001.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Triangle_001.jpg/960px-Triangle_001.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Triangle_001.jpg/960px-Triangle_001.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-19",
@@ -178,7 +232,10 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg/960px-Yamaha_Trumpet_YTR-8335LA_crop.jpg",
       "answerEn": "Trumpet",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg/960px-Yamaha_Trumpet_YTR-8335LA_crop.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-20",
@@ -186,7 +243,10 @@
       "aliases": [
         "trombone a tiro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Trombone_CG_Bach42AG.jpg/960px-Trombone_CG_Bach42AG.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Trombone_CG_Bach42AG.jpg/960px-Trombone_CG_Bach42AG.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Trombone_CG_Bach42AG.jpg/960px-Trombone_CG_Bach42AG.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-21",
@@ -194,7 +254,10 @@
       "aliases": [
         "basso tuba"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Tuba_-_Alcoholic_tree_sap_from_the_palm%21_Must_be_very_fresh_or_it_ferments_into_vinegar._%28Philippines%29_-_cropped.png/960px-Tuba_-_Alcoholic_tree_sap_from_the_palm%21_Must_be_very_fresh_or_it_ferments_into_vinegar._%28Philippines%29_-_cropped.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tuba.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/69/Tuba.png"
+      ]
     },
     {
       "id": "strumenti-musicali-22",
@@ -202,7 +265,10 @@
       "aliases": [
         "corno"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/P1084426.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/P1084426.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/aa/P1084426.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-23",
@@ -214,13 +280,19 @@
       "answerEn": "Saxophone",
       "aliasesEn": [
         "sax"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Eight_saxophone_sizes_smaller.png/960px-Eight_saxophone_sizes_smaller.png"
       ]
     },
     {
       "id": "strumenti-musicali-24",
       "answer": "Clarinetto",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/B-flat_clarinet_-_four_views.jpg/960px-B-flat_clarinet_-_four_views.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/B-flat_clarinet_-_four_views.jpg/960px-B-flat_clarinet_-_four_views.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/B-flat_clarinet_-_four_views.jpg/960px-B-flat_clarinet_-_four_views.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-25",
@@ -228,7 +300,10 @@
       "aliases": [
         "fagotto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Oboe_Patricola_Artista_PT1.jpg/960px-Oboe_Patricola_Artista_PT1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Oboe_Patricola_Artista_PT1.jpg/960px-Oboe_Patricola_Artista_PT1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Oboe_Patricola_Artista_PT1.jpg/960px-Oboe_Patricola_Artista_PT1.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-26",
@@ -236,13 +311,19 @@
       "aliases": [
         "flauto"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Shinobue_and_other_flutes-3.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Shinobue_and_other_flutes-3.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Shinobue_and_other_flutes-3.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-27",
       "answer": "Flauto di Pan",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg/960px-Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg/960px-Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg/960px-Flute_de_pan_MHNT_ETH_AC_NH_31_Sav%C3%A8s.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-28",
@@ -250,7 +331,10 @@
       "aliases": [
         "armonica"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/960px-16-hole_chrom_10-hole_diatonic.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/960px-16-hole_chrom_10-hole_diatonic.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/960px-16-hole_chrom_10-hole_diatonic.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-29",
@@ -258,37 +342,57 @@
       "aliases": [
         "zampogna"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg/960px-Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg/960px-Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg/960px-Scotland_Independence_March%2C_28_March_2026_%2832%29.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-30",
       "answer": "Ukulele",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cliff_Edwards_1947.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Aggie80%27s_Ukulele.JPG/960px-Aggie80%27s_Ukulele.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Aggie80%27s_Ukulele.JPG/960px-Aggie80%27s_Ukulele.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ukulele%2C_Guitar%2C_and_Laney_amp_on_worship_-_2014-12-21_%28by_David_Mulder%29.jpg/960px-Ukulele%2C_Guitar%2C_and_Laney_amp_on_worship_-_2014-12-21_%28by_David_Mulder%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kala_Baritone_ukulele%2C_Kala_Tenor_ukulele%2C_along_with_Golden_relief_%26_Violin_bow_%28taken_on_2015-02-26_by_FolsomNatural%29.jpg/960px-Kala_Baritone_ukulele%2C_Kala_Tenor_ukulele%2C_along_with_Golden_relief_%26_Violin_bow_%28taken_on_2015-02-26_by_FolsomNatural%29.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-31",
       "answer": "Banjo",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Range_banjo.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Range_banjo.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Range_banjo.png"
+      ]
     },
     {
       "id": "strumenti-musicali-32",
       "answer": "Mandolino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mandolin_MET_DP169023_%282%29.jpg/960px-Mandolin_MET_DP169023_%282%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mandolin_MET_DP169023_%282%29.jpg/960px-Mandolin_MET_DP169023_%282%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mandolin_MET_DP169023_%282%29.jpg/960px-Mandolin_MET_DP169023_%282%29.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-33",
       "answer": "Sitar",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sitar%2C_late_19th_Century.jpg/960px-Sitar%2C_late_19th_Century.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sitar%2C_late_19th_Century.jpg/960px-Sitar%2C_late_19th_Century.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sitar%2C_late_19th_Century.jpg/960px-Sitar%2C_late_19th_Century.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-34",
       "answer": "Didgeridoo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Australiandidgeridoos.jpg/960px-Australiandidgeridoos.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Australiandidgeridoos.jpg/960px-Australiandidgeridoos.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Australiandidgeridoos.jpg/960px-Australiandidgeridoos.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-35",
@@ -296,19 +400,28 @@
       "aliases": [
         "piano da pollice"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ene_mbira.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ene_mbira.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ene_mbira.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-36",
       "answer": "Metronomo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Czech-03836_-_Metronome_%2832638405050%29.jpg/960px-Czech-03836_-_Metronome_%2832638405050%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Czech-03836_-_Metronome_%2832638405050%29.jpg/960px-Czech-03836_-_Metronome_%2832638405050%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Czech-03836_-_Metronome_%2832638405050%29.jpg/960px-Czech-03836_-_Metronome_%2832638405050%29.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-37",
       "answer": "Diapason",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/TuningFork659Hz.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/TuningFork659Hz.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/TuningFork659Hz.jpg"
+      ]
     },
     {
       "id": "strumenti-musicali-38",
@@ -316,7 +429,10 @@
       "aliases": [
         "piatto batteria"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/ZildjianCustomRide.jpg/960px-ZildjianCustomRide.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/ZildjianCustomRide.jpg/960px-ZildjianCustomRide.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/ZildjianCustomRide.jpg/960px-ZildjianCustomRide.jpg"
+      ]
     }
   ],
   "scope": "intl",

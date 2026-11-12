@@ -6,10 +6,10 @@
   "themeHex": "#A855F7",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tamagotchi_0124_ubt.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/1/18/Cgasnake.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SonyWalkmanFamily.JPG/960px-SonyWalkmanFamily.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tamagotchi_0124_ubt.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/18/Cgasnake.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SonyWalkmanFamily.JPG/960px-SonyWalkmanFamily.JPG"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "gameboy",
         "nintendo game boy"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-2",
@@ -27,7 +30,10 @@
       "aliases": [
         "tamagoci"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tamagotchi_0124_ubt.jpeg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tamagotchi_0124_ubt.jpeg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tamagotchi_0124_ubt.jpeg"
+      ]
     },
     {
       "id": "nostalgia-90-00-3",
@@ -36,7 +42,10 @@
         "nokia",
         "trentatre dieci"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cgasnake.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cgasnake.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Cgasnake.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-4",
@@ -44,7 +53,10 @@
       "aliases": [
         "lettore cassette"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SonyWalkmanFamily.JPG/960px-SonyWalkmanFamily.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SonyWalkmanFamily.JPG/960px-SonyWalkmanFamily.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/SonyWalkmanFamily.JPG/960px-SonyWalkmanFamily.JPG"
+      ]
     },
     {
       "id": "nostalgia-90-00-5",
@@ -54,7 +66,10 @@
         "vhs",
         "cassetta video"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Victor_XG180_S-VHS_videocassette.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Victor_XG180_S-VHS_videocassette.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b1/Victor_XG180_S-VHS_videocassette.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-6",
@@ -63,7 +78,10 @@
         "audiocassetta",
         "cassetta musicale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Compactcassette.jpg/960px-Compactcassette.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Compactcassette.jpg/960px-Compactcassette.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Compactcassette.jpg/960px-Compactcassette.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-7",
@@ -72,7 +90,10 @@
         "floppy",
         "dischetto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/960px-Floppy_disk_2009_G1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/960px-Floppy_disk_2009_G1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/960px-Floppy_disk_2009_G1.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-8",
@@ -81,7 +102,10 @@
         "ipod classic",
         "lettore mp3"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/960px-IPod_family.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/960px-IPod_family.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/960px-IPod_family.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-9",
@@ -89,7 +113,10 @@
       "aliases": [
         "farbi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/LOOK_MUM_NO_COMPUTER_representing_United_Kingdom_on_the_Turquoise_Carpet_at_the_2026_Eurovision_Song_Contest_in_Vienna_3_%28cropped%29.jpg/960px-LOOK_MUM_NO_COMPUTER_representing_United_Kingdom_on_the_Turquoise_Carpet_at_the_2026_Eurovision_Song_Contest_in_Vienna_3_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/BC_20141004-0246_%2815294515920%29.jpg/960px-BC_20141004-0246_%2815294515920%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/BC_20141004-0246_%2815294515920%29.jpg/960px-BC_20141004-0246_%2815294515920%29.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-10",
@@ -97,7 +124,10 @@
       "aliases": [
         "trottola beyblade"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/8b/Beyblade14.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/8b/Beyblade14.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/8/8b/Beyblade14.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-11",
@@ -105,7 +135,10 @@
       "aliases": [
         "calcio in miniatura"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Subbuteo_playersP1010292.JPG/960px-Subbuteo_playersP1010292.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Subbuteo_playersP1010292.JPG/960px-Subbuteo_playersP1010292.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Subbuteo_playersP1010292.JPG/960px-Subbuteo_playersP1010292.JPG"
+      ]
     },
     {
       "id": "nostalgia-90-00-12",
@@ -114,7 +147,10 @@
         "motorino ciao",
         "ciao"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ciao_PX.jpg/960px-Ciao_PX.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ciao_PX.jpg/960px-Ciao_PX.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ciao_PX.jpg/960px-Ciao_PX.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-13",
@@ -123,7 +159,10 @@
         "rollerblade",
         "pattini a rotelle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png/960px-Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png/960px-Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png/960px-Roces_Impala_2023_Lightspeed_Fairy_Floss_inline_skates_w_70mm_84A_wheels-IMG_6848-bg-FRD.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-14",
@@ -132,7 +171,10 @@
         "yoyo",
         "ioio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yo-Yo-Plastic-Toy-Green.jpg/960px-Yo-Yo-Plastic-Toy-Green.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yo-Yo-Plastic-Toy-Green.jpg/960px-Yo-Yo-Plastic-Toy-Green.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Yo-Yo-Plastic-Toy-Green.jpg/960px-Yo-Yo-Plastic-Toy-Green.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-15",
@@ -140,7 +182,10 @@
       "aliases": [
         "pinball"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg/960px-A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg/960px-A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg/960px-A_rebuilt_Terminator_2_pinball_machine_by_Wayne_Patrick_Finn_Melbourne_Australia._38.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-16",
@@ -148,7 +193,12 @@
       "aliases": [
         "juke box"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Edison_Phonograph_in_the_Phono_Museum.jpg/960px-Edison_Phonograph_in_the_Phono_Museum.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dscn2823-Wurlitzer-3500-Zodiac-On.jpg/960px-Dscn2823-Wurlitzer-3500-Zodiac-On.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Dscn2823-Wurlitzer-3500-Zodiac-On.jpg/960px-Dscn2823-Wurlitzer-3500-Zodiac-On.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Dscn2825-Wurlitzer-3500-Zodiac-internal-playing.jpg/960px-Dscn2825-Wurlitzer-3500-Zodiac-internal-playing.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Seattle_-_Full_Throttle_Bottles_Wurlitzer_01.jpg/960px-Seattle_-_Full_Throttle_Bottles_Wurlitzer_01.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-17",
@@ -157,7 +207,12 @@
         "tubo catodico",
         "vecchia tv"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Cyclotron_motion_smaller_view.jpg/960px-Cyclotron_motion_smaller_view.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fernseher.jpg/960px-Fernseher.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Fernseher.jpg/960px-Fernseher.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/National_RANGER-505_1970s_small-sized_black-and-white_television_set.jpg/500px-National_RANGER-505_1970s_small-sized_black-and-white_television_set.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/CRT%2C_ADMIRAL_Vision_2000.jpg/960px-CRT%2C_ADMIRAL_Vision_2000.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-18",
@@ -167,7 +222,10 @@
         "cd",
         "disco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg/960px-Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg/960px-Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg/960px-Panasonic_SL-S250C_with_Philips_LC0305_20110106.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-19",
@@ -177,7 +235,10 @@
         "rullino",
         "kodak"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Undeveloped_35_mm_film.jpg/960px-Undeveloped_35_mm_film.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Undeveloped_35_mm_film.jpg/960px-Undeveloped_35_mm_film.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Undeveloped_35_mm_film.jpg/960px-Undeveloped_35_mm_film.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-20",
@@ -186,7 +247,10 @@
         "biliardino",
         "calcetto"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Baby_foot_artlibre_jnl.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Baby_foot_artlibre_jnl.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c8/Baby_foot_artlibre_jnl.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-21",
@@ -195,7 +259,10 @@
         "rubik",
         "cubo magico"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rubiks_cube_solved.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rubiks_cube_solved.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/61/Rubiks_cube_solved.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-22",
@@ -204,7 +271,10 @@
         "cabina",
         "telefono pubblico"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lightmatter_phonebooths_%28_South_Lake%2C_Pasadena%2C_California%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lightmatter_phonebooths_%28_South_Lake%2C_Pasadena%2C_California%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/38/Lightmatter_phonebooths_%28_South_Lake%2C_Pasadena%2C_California%29.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-23",
@@ -212,7 +282,12 @@
       "aliases": [
         "gettone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/%D7%90%D7%A1%D7%99%D7%9E%D7%95%D7%9F_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99.jpg/960px-%D7%90%D7%A1%D7%99%D7%9E%D7%95%D7%9F_%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Gettone_teti_fronte.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ad/Gettone_teti_fronte.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/GettoneTelefonico.jpg/960px-GettoneTelefonico.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Gettone_per_cabina_telefonica_italiana.jpg/960px-Gettone_per_cabina_telefonica_italiana.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-24",
@@ -221,7 +296,10 @@
         "olivetti",
         "macchina da scrivere"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/MEK_II-371.jpg/960px-MEK_II-371.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/MEK_II-371.jpg/960px-MEK_II-371.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/MEK_II-371.jpg/960px-MEK_II-371.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-25",
@@ -230,7 +308,10 @@
         "ps1",
         "prima playstation"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_PlayStation_2.png/960px-Sony_PlayStation_2.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BEST_HIT_CHRONICLE_PlayStation_SCPH-1000_%2850199864032%29.jpg/960px-BEST_HIT_CHRONICLE_PlayStation_SCPH-1000_%2850199864032%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/BEST_HIT_CHRONICLE_PlayStation_SCPH-1000_%2850199864032%29.jpg/960px-BEST_HIT_CHRONICLE_PlayStation_SCPH-1000_%2850199864032%29.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-26",
@@ -238,7 +319,10 @@
       "aliases": [
         "ps2"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_PlayStation_2.png/960px-Sony_PlayStation_2.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_PlayStation_2.png/960px-Sony_PlayStation_2.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sony_PlayStation_2.png/960px-Sony_PlayStation_2.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-27",
@@ -246,7 +330,10 @@
       "aliases": [
         "n64"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/960px-N64-Console-Set.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/960px-N64-Console-Set.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/N64-Console-Set.png/960px-N64-Console-Set.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-28",
@@ -254,7 +341,10 @@
       "aliases": [
         "ds"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/960px-Nintendo-DS-Fat-Blue.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/960px-Nintendo-DS-Fat-Blue.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/960px-Nintendo-DS-Fat-Blue.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-29",
@@ -262,7 +352,10 @@
       "aliases": [
         "nintendo gamecube"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/960px-GameCube-Console-Set.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/960px-GameCube-Console-Set.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/GameCube-Console-Set.png/960px-GameCube-Console-Set.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-30",
@@ -270,7 +363,10 @@
       "aliases": [
         "playstation portable"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PSP-1000.png/960px-PSP-1000.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-31",
@@ -278,7 +374,10 @@
       "aliases": [
         "nintendo wii"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/960px-Wii-Console.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/960px-Wii-Console.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/960px-Wii-Console.png"
+      ]
     },
     {
       "id": "nostalgia-90-00-32",
@@ -286,7 +385,10 @@
       "aliases": [
         "lampada lava"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lava_lamps_%2816136876840%29.jpg/960px-Lava_lamps_%2816136876840%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lava_lamps_%2816136876840%29.jpg/960px-Lava_lamps_%2816136876840%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lava_lamps_%2816136876840%29.jpg/960px-Lava_lamps_%2816136876840%29.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-33",
@@ -295,7 +397,10 @@
         "biglie",
         "biglia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marble_collector_-_Flickr_-_smkybear.jpg/960px-Marble_collector_-_Flickr_-_smkybear.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marble_collector_-_Flickr_-_smkybear.jpg/960px-Marble_collector_-_Flickr_-_smkybear.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marble_collector_-_Flickr_-_smkybear.jpg/960px-Marble_collector_-_Flickr_-_smkybear.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-34",
@@ -304,7 +409,10 @@
         "molla magica",
         "molla scendi scale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2006-02-04_Metal_spiral.jpg/960px-2006-02-04_Metal_spiral.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2006-02-04_Metal_spiral.jpg/960px-2006-02-04_Metal_spiral.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/2006-02-04_Metal_spiral.jpg/960px-2006-02-04_Metal_spiral.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-35",
@@ -312,7 +420,10 @@
       "aliases": [
         "disco volante"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Frisbee_090719.jpg/960px-Frisbee_090719.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Frisbee_090719.jpg/960px-Frisbee_090719.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Frisbee_090719.jpg/960px-Frisbee_090719.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-36",
@@ -320,7 +431,10 @@
       "aliases": [
         "cerchio hula hoop"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Girl_twirling_Hula_Hoop%2C_1958.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Girl_twirling_Hula_Hoop%2C_1958.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/98/Girl_twirling_Hula_Hoop%2C_1958.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-37",
@@ -328,7 +442,10 @@
       "aliases": [
         "mattoncini lego"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Kladno_CZ_LEGO_factory_from_NE_007.jpg/960px-Kladno_CZ_LEGO_factory_from_NE_007.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/101_Non-Emergency_Number_-_1-1_Lego_Box_%288281327946%29.jpg/960px-101_Non-Emergency_Number_-_1-1_Lego_Box_%288281327946%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/101_Non-Emergency_Number_-_1-1_Lego_Box_%288281327946%29.jpg/960px-101_Non-Emergency_Number_-_1-1_Lego_Box_%288281327946%29.jpg"
+      ]
     },
     {
       "id": "nostalgia-90-00-38",
@@ -336,7 +453,10 @@
       "aliases": [
         "costruzioni metallo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Munich_-_Deutsches_Museum_-_07-0647.jpg/960px-Munich_-_Deutsches_Museum_-_07-0647.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Munich_-_Deutsches_Museum_-_07-0647.jpg/960px-Munich_-_Deutsches_Museum_-_07-0647.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Munich_-_Deutsches_Museum_-_07-0647.jpg/960px-Munich_-_Deutsches_Museum_-_07-0647.jpg"
+      ]
     }
   ],
   "scope": "intl",

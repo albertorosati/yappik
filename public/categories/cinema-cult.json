@@ -4,12 +4,12 @@
   "subtitle": "Capolavori, saghe leggendarie e grandi comici italiani",
   "icon": "🍿",
   "themeHex": "#FF5C35",
-  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Charlie_Berens_2017_%28cropped%29.jpg/960px-Charlie_Berens_2017_%28cropped%29.jpg",
+  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/960px-RMS_Titanic_3.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Charlie_Berens_2017_%28cropped%29.jpg/960px-Charlie_Berens_2017_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The.Matrix.glmatrix.3.png/960px-The.Matrix.glmatrix.3.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/en/4/42/Mia_Wallace.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png/960px-Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The.Matrix.glmatrix.3.png/960px-The.Matrix.glmatrix.3.png",
+    "https://upload.wikimedia.org/wikipedia/en/4/42/Mia_Wallace.jpeg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png/960px-Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/960px-RMS_Titanic_3.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,12 @@
         "jack e rose",
         "titanic film"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Charlie_Berens_2017_%28cropped%29.jpg/960px-Charlie_Berens_2017_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/960px-RMS_Titanic_3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/960px-RMS_Titanic_3.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/RMS_Titanic_ready_for_launch%2C_1911.jpg/960px-RMS_Titanic_ready_for_launch%2C_1911.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Titanic_wreck_bow.jpg/960px-Titanic_wreck_bow.jpg"
+      ]
     },
     {
       "id": "cinema-cult-2",
@@ -28,7 +33,10 @@
         "the matrix",
         "pillola rossa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The.Matrix.glmatrix.3.png/960px-The.Matrix.glmatrix.3.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The.Matrix.glmatrix.3.png/960px-The.Matrix.glmatrix.3.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The.Matrix.glmatrix.3.png/960px-The.Matrix.glmatrix.3.png"
+      ]
     },
     {
       "id": "cinema-cult-3",
@@ -37,7 +45,10 @@
         "mia wallace",
         "tarantino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Mia_Wallace.jpeg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Mia_Wallace.jpeg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/4/42/Mia_Wallace.jpeg"
+      ]
     },
     {
       "id": "cinema-cult-4",
@@ -47,7 +58,10 @@
         "don vito corleone",
         "padrino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png/960px-Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png/960px-Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png/960px-Marlon_Brando_as_Vito_Corleone_%28high_quality%29.png"
+      ]
     },
     {
       "id": "cinema-cult-5",
@@ -55,7 +69,10 @@
       "aliases": [
         "the shining"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ef/The_Shining.jpg/960px-The_Shining.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ef/The_Shining.jpg/960px-The_Shining.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ef/The_Shining.jpg/960px-The_Shining.jpg"
+      ]
     },
     {
       "id": "cinema-cult-6",
@@ -64,7 +81,12 @@
         "t rex",
         "dinosauri"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Natural_History_Museum%2C_London_Stegosaurus.jpg/960px-Natural_History_Museum%2C_London_Stegosaurus.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baltow%2CPoland_Tyrannosaurus.jpg/960px-Baltow%2CPoland_Tyrannosaurus.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baltow%2CPoland_Tyrannosaurus.jpg/960px-Baltow%2CPoland_Tyrannosaurus.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Feathered_Tyrannosaurus_model.jpg/960px-Feathered_Tyrannosaurus_model.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jurassic_Park_Trex.jpg/960px-Jurassic_Park_Trex.jpg"
+      ]
     },
     {
       "id": "cinema-cult-7",
@@ -72,7 +94,10 @@
       "aliases": [
         "joker film"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg/960px-Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg/960px-Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg/960px-Joaquin_Phoenix-1325.jpg_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-8",
@@ -80,7 +105,12 @@
       "aliases": [
         "forrest"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Haley_Joel_Osment_TIFF_2014.jpg/960px-Haley_Joel_Osment_TIFF_2014.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Forrest_Gump%27s_bench_%282669659898%29.jpg/960px-Forrest_Gump%27s_bench_%282669659898%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Forrest_Gump%27s_bench_%282669659898%29.jpg/960px-Forrest_Gump%27s_bench_%282669659898%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bank_Forrest_Gump_%28125512457%29.jpeg/960px-Bank_Forrest_Gump_%28125512457%29.jpeg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Lahaina%2C_Maui%2C_Hawaii_%28June_2019%29_-_53117394305.jpg/960px-Lahaina%2C_Maui%2C_Hawaii_%28June_2019%29_-_53117394305.jpg"
+      ]
     },
     {
       "id": "cinema-cult-9",
@@ -90,7 +120,10 @@
         "marty mcfly",
         "doc brown"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DeLorean_Replica_Kovacs_Time_Machine.png/960px-DeLorean_Replica_Kovacs_Time_Machine.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DeLorean_Replica_Kovacs_Time_Machine.png/960px-DeLorean_Replica_Kovacs_Time_Machine.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/DeLorean_Replica_Kovacs_Time_Machine.png/960px-DeLorean_Replica_Kovacs_Time_Machine.png"
+      ]
     },
     {
       "id": "cinema-cult-10",
@@ -99,7 +132,10 @@
         "hogwarts",
         "potter"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Harry_Potter_and_the_Cursed_Child.jpg/960px-Harry_Potter_and_the_Cursed_Child.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Harry_Potter_and_the_Cursed_Child.jpg/960px-Harry_Potter_and_the_Cursed_Child.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Harry_Potter_and_the_Cursed_Child.jpg/960px-Harry_Potter_and_the_Cursed_Child.jpg"
+      ]
     },
     {
       "id": "cinema-cult-11",
@@ -110,7 +146,10 @@
         "gollum",
         "anello"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gollum_at_Wellington_Airport.jpg/960px-Gollum_at_Wellington_Airport.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gollum_at_Wellington_Airport.jpg/960px-Gollum_at_Wellington_Airport.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gollum_at_Wellington_Airport.jpg/960px-Gollum_at_Wellington_Airport.jpg"
+      ]
     },
     {
       "id": "cinema-cult-12",
@@ -120,7 +159,10 @@
         "dart fener",
         "darth vader"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/08/Dartfener.jpg"
+      ]
     },
     {
       "id": "cinema-cult-13",
@@ -128,7 +170,10 @@
       "aliases": [
         "capitan jack sparrow"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Johnny_Depp_as_Captain_Jack_Sparrow_in_Queensland%2C_Australia.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Johnny_Depp_as_Captain_Jack_Sparrow_in_Queensland%2C_Australia.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Johnny_Depp_as_Captain_Jack_Sparrow_in_Queensland%2C_Australia.jpg"
+      ]
     },
     {
       "id": "cinema-cult-14",
@@ -137,7 +182,10 @@
         "pandora",
         "navi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Zoe_Salda%C3%B1a_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Zoe_Salda%C3%B1a_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg"
+      ]
     },
     {
       "id": "cinema-cult-15",
@@ -145,7 +193,10 @@
       "aliases": [
         "indy"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Indianajones4.jpg/960px-Indianajones4.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Indianajones4.jpg/960px-Indianajones4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Indianajones4.jpg/960px-Indianajones4.jpg"
+      ]
     },
     {
       "id": "cinema-cult-16",
@@ -154,7 +205,12 @@
         "t 800",
         "cyborg"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Linda_Hamilton_Photo_Op_GalaxyCon_Raleigh_2024.jpg/960px-Linda_Hamilton_Photo_Op_GalaxyCon_Raleigh_2024.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arnold_Schwarzenegger_T-800.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Arnold_Schwarzenegger_T-800.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg/960px-ExpoSYFY_-_Terminator_Salvation_%2810804025474%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Tekniska_museet_-_BugWarp_%2857%29.jpg/960px-Tekniska_museet_-_BugWarp_%2857%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-17",
@@ -162,7 +218,10 @@
       "aliases": [
         "balboa"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/2/2d/Rocky4.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/2/2d/Rocky4.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/2/2d/Rocky4.JPG"
+      ]
     },
     {
       "id": "cinema-cult-18",
@@ -170,7 +229,10 @@
       "aliases": [
         "acchiappafantasmi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/White_Marshmallows.jpg/960px-White_Marshmallows.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lucca_Comics_%26_Games_2019_-_Cosplay_Ghostbuster.jpg/960px-Lucca_Comics_%26_Games_2019_-_Cosplay_Ghostbuster.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lucca_Comics_%26_Games_2019_-_Cosplay_Ghostbuster.jpg/960px-Lucca_Comics_%26_Games_2019_-_Cosplay_Ghostbuster.jpg"
+      ]
     },
     {
       "id": "cinema-cult-19",
@@ -179,7 +241,10 @@
         "et l extraterrestre",
         "extraterrestre"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/eb/ET_Moon.jpg/960px-ET_Moon.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/eb/ET_Moon.jpg/960px-ET_Moon.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/e/eb/ET_Moon.jpg/960px-ET_Moon.jpg"
+      ]
     },
     {
       "id": "cinema-cult-20",
@@ -188,7 +253,10 @@
         "massimo decimo meridio",
         "gladiatore"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Russell_Crowe_Venice_2026.jpg/960px-Russell_Crowe_Venice_2026.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Russell_Crowe_Venice_2026.jpg/960px-Russell_Crowe_Venice_2026.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Russell_Crowe_Venice_2026.jpg/960px-Russell_Crowe_Venice_2026.jpg"
+      ]
     },
     {
       "id": "cinema-cult-21",
@@ -197,7 +265,10 @@
         "la sposa",
         "beatrix kiddo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/UmaThurman-byPhilipRomano.jpg/960px-UmaThurman-byPhilipRomano.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/UmaThurman-byPhilipRomano.jpg/960px-UmaThurman-byPhilipRomano.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/UmaThurman-byPhilipRomano.jpg/960px-UmaThurman-byPhilipRomano.jpg"
+      ]
     },
     {
       "id": "cinema-cult-22",
@@ -205,7 +276,10 @@
       "aliases": [
         "tyler durden"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Narrator_%28Edward_Norton%2C_left%29_and_Tyler_Durden_%28Brad_Pitt%2C_right%29_from_Fight_Club_%281999%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Narrator_%28Edward_Norton%2C_left%29_and_Tyler_Durden_%28Brad_Pitt%2C_right%29_from_Fight_Club_%281999%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Narrator_%28Edward_Norton%2C_left%29_and_Tyler_Durden_%28Brad_Pitt%2C_right%29_from_Fight_Club_%281999%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-23",
@@ -213,7 +287,10 @@
       "aliases": [
         "barbie movie"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-24",
@@ -221,7 +298,10 @@
       "aliases": [
         "progetto manhattan"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Oppenheimer_%28cropped%29.jpg/960px-Oppenheimer_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Oppenheimer_%28cropped%29.jpg/960px-Oppenheimer_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Oppenheimer_%28cropped%29.jpg/960px-Oppenheimer_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-25",
@@ -231,7 +311,10 @@
         "paolo villaggio",
         "ragionier fantozzi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Paolo_Villaggio_Fantozzi_2.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Paolo_Villaggio_Fantozzi_2.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/58/Paolo_Villaggio_Fantozzi_2.png"
+      ]
     },
     {
       "id": "cinema-cult-26",
@@ -241,7 +324,10 @@
         "quo vado",
         "sole a catinelle"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/ba/Cado_dalle_nubi.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/ba/Cado_dalle_nubi.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/b/ba/Cado_dalle_nubi.png"
+      ]
     },
     {
       "id": "cinema-cult-27",
@@ -250,7 +336,10 @@
         "aldo giovanni giacomo",
         "tre uomini e una gamba"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/9/93/Aldo%2C_Giovanni_e_Giacomo_-_Chiedimi_se_sono_felice_%282000%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/9/93/Aldo%2C_Giovanni_e_Giacomo_-_Chiedimi_se_sono_felice_%282000%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/9/93/Aldo%2C_Giovanni_e_Giacomo_-_Chiedimi_se_sono_felice_%282000%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-28",
@@ -259,7 +348,10 @@
         "toto",
         "principe de curtis"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/AntonioDeCurtisFoto.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/AntonioDeCurtisFoto.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/63/AntonioDeCurtisFoto.png"
+      ]
     },
     {
       "id": "cinema-cult-29",
@@ -268,7 +360,10 @@
         "sordi",
         "marchese del grillo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Alberto_Sordi_%281962%29.jpg/960px-Alberto_Sordi_%281962%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Alberto_Sordi_%281962%29.jpg/960px-Alberto_Sordi_%281962%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Alberto_Sordi_%281962%29.jpg/960px-Alberto_Sordi_%281962%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-30",
@@ -277,7 +372,10 @@
         "benigni",
         "la vita e bella"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Roberto_Benigni-5274.jpg/960px-Roberto_Benigni-5274.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Roberto_Benigni-5274.jpg/960px-Roberto_Benigni-5274.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Roberto_Benigni-5274.jpg/960px-Roberto_Benigni-5274.jpg"
+      ]
     },
     {
       "id": "cinema-cult-31",
@@ -286,7 +384,12 @@
         "verdone",
         "bianco rosso e verdone"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ornella_Muti_2000.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Carlo_Verdone_-_Alassio.JPG/960px-Carlo_Verdone_-_Alassio.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Carlo_Verdone_-_Alassio.JPG/960px-Carlo_Verdone_-_Alassio.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9e/Carlo_Verdone.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bd/Carlo_Verdone_2007.jpg"
+      ]
     },
     {
       "id": "cinema-cult-32",
@@ -295,7 +398,10 @@
         "de sica",
         "cinepanettone"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Christian_De_Sica.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Christian_De_Sica.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Christian_De_Sica.jpg"
+      ]
     },
     {
       "id": "cinema-cult-33",
@@ -304,7 +410,10 @@
         "troisi",
         "il postino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg/960px-Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg/960px-Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg/960px-Massimo_Troisi_alla_Mostra_del_Cinema_di_Venezia%2C_1989.jpg"
+      ]
     },
     {
       "id": "cinema-cult-34",
@@ -313,7 +422,10 @@
         "piedone",
         "carlo pedersoli"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bud_Spencer_1974.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Bud_Spencer_1974.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/21/Bud_Spencer_1974.png"
+      ]
     },
     {
       "id": "cinema-cult-35",
@@ -322,7 +434,10 @@
         "trinita",
         "mario girotti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Terence_Hill_in_Dresden_%2820.08.2018%29.jpg/960px-Terence_Hill_in_Dresden_%2820.08.2018%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Terence_Hill_in_Dresden_%2820.08.2018%29.jpg/960px-Terence_Hill_in_Dresden_%2820.08.2018%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Terence_Hill_in_Dresden_%2820.08.2018%29.jpg/960px-Terence_Hill_in_Dresden_%2820.08.2018%29.jpg"
+      ]
     },
     {
       "id": "cinema-cult-36",
@@ -332,7 +447,10 @@
         "febbre da cavallo",
         "mandrake"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/La_tosca_proietti.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/La_tosca_proietti.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/La_tosca_proietti.png"
+      ]
     },
     {
       "id": "cinema-cult-37",
@@ -341,7 +459,10 @@
         "charlot",
         "chaplin"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Charlie_Chaplin.jpg/960px-Charlie_Chaplin.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Charlie_Chaplin.jpg/960px-Charlie_Chaplin.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Charlie_Chaplin.jpg/960px-Charlie_Chaplin.jpg"
+      ]
     },
     {
       "id": "cinema-cult-38",
@@ -350,7 +471,10 @@
         "mister bean",
         "rowan atkinson"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Atkinson_Rowan_crop.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Atkinson_Rowan_crop.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Atkinson_Rowan_crop.jpg"
+      ]
     },
     {
       "id": "cinema-cult-39",
@@ -359,7 +483,10 @@
         "007",
         "agente 007"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/96/Bond_james_bond.jpg/960px-Bond_james_bond.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/96/Bond_james_bond.jpg/960px-Bond_james_bond.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/9/96/Bond_james_bond.jpg/960px-Bond_james_bond.jpg"
+      ]
     },
     {
       "id": "cinema-cult-40",
@@ -368,7 +495,10 @@
         "il silenzio degli innocenti",
         "hannibal"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/09/Silenzio_gip.jpg/960px-Silenzio_gip.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/09/Silenzio_gip.jpg/960px-Silenzio_gip.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/0/09/Silenzio_gip.jpg/960px-Silenzio_gip.jpg"
+      ]
     }
   ],
   "scope": "intl",

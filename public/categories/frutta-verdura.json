@@ -6,10 +6,10 @@
   "themeHex": "#22C55E",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg/960px-Ripe%2C_ripening%2C_and_green_blackberries.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg/960px-Ripe%2C_ripening%2C_and_green_blackberries.jpg"
   ],
   "items": [
     {
@@ -22,6 +22,9 @@
       "answerEn": "Strawberry",
       "aliasesEn": [
         "strawberries"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg"
       ]
     },
     {
@@ -30,7 +33,10 @@
       "aliases": [
         "lamponi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-3",
@@ -38,7 +44,10 @@
       "aliases": [
         "mirtilli"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-4",
@@ -46,7 +55,10 @@
       "aliases": [
         "more"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg/960px-Ripe%2C_ripening%2C_and_green_blackberries.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg/960px-Ripe%2C_ripening%2C_and_green_blackberries.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ripe%2C_ripening%2C_and_green_blackberries.jpg/960px-Ripe%2C_ripening%2C_and_green_blackberries.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-5",
@@ -58,6 +70,9 @@
       "answerEn": "Cherry",
       "aliasesEn": [
         "cherries"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cherry_season_%2848216568227%29.jpg/960px-Cherry_season_%2848216568227%29.jpg"
       ]
     },
     {
@@ -70,6 +85,9 @@
       "answerEn": "Watermelon",
       "aliasesEn": [
         "melons"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/960px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
       ]
     },
     {
@@ -80,6 +98,9 @@
       "answerEn": "Melon",
       "aliasesEn": [
         "cantaloupe"
+      ],
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Meloen_vrucht_met_bloem.jpg"
       ]
     },
     {
@@ -90,19 +111,28 @@
       "answerEn": "Pineapple",
       "aliasesEn": [
         "pineapples"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg/960px-%E0%B4%95%E0%B5%88%E0%B4%A4%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%95%E0%B5%8D%E0%B4%95.jpg"
       ]
     },
     {
       "id": "frutta-verdura-9",
       "answer": "Mango",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/960px-Mangos_-_single_and_halved.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/960px-Mangos_-_single_and_halved.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/960px-Mangos_-_single_and_halved.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-10",
       "answer": "Papaya",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Carica_papaya_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg/960px-Carica_papaya_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-029.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Carica_papaya_-_papaya_-_var-tropical_dwarf_papaya_-_desc-fruit.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Carica_papaya_-_papaya_-_var-tropical_dwarf_papaya_-_desc-fruit.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-11",
@@ -110,7 +140,10 @@
       "aliases": [
         "maracuja"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Passiflora_edulis_forma_flavicarpa.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Passiflora_edulis_forma_flavicarpa.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Passiflora_edulis_forma_flavicarpa.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-12",
@@ -119,7 +152,10 @@
         "pitaya",
         "frutto del drago"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pitaya_cross_section_ed2.jpg/960px-Pitaya_cross_section_ed2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pitaya_cross_section_ed2.jpg/960px-Pitaya_cross_section_ed2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pitaya_cross_section_ed2.jpg/960px-Pitaya_cross_section_ed2.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-13",
@@ -127,7 +163,10 @@
       "aliases": [
         "lichi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Litchi_chinensis_fruits.JPG/960px-Litchi_chinensis_fruits.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Litchi_chinensis_fruits.JPG/960px-Litchi_chinensis_fruits.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Litchi_chinensis_fruits.JPG/960px-Litchi_chinensis_fruits.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-14",
@@ -135,7 +174,10 @@
       "aliases": [
         "melagrana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Pomegranate_Juice_%282019%29.jpg/960px-Pomegranate_Juice_%282019%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Pomegranate_Juice_%282019%29.jpg/960px-Pomegranate_Juice_%282019%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Pomegranate_Juice_%282019%29.jpg/960px-Pomegranate_Juice_%282019%29.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-15",
@@ -143,7 +185,12 @@
       "aliases": [
         "fichi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ficus_carica_L%2C_1771.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Ficus_carica_Panasc%C3%A8.jpg/960px-Ficus_carica_Panasc%C3%A8.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Ficus_carica_Panasc%C3%A8.jpg/960px-Ficus_carica_Panasc%C3%A8.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bowl_of_Figs.jpg/960px-Bowl_of_Figs.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ripe_fig_fruit_on_tree_%28Ficus_Carica%29_in_Southern_France.JPG/960px-Ripe_fig_fruit_on_tree_%28Ficus_Carica%29_in_Southern_France.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-16",
@@ -151,7 +198,10 @@
       "aliases": [
         "fichi d india"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg/960px-Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg/960px-Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg/960px-Dikenli_%C4%B0ncir_%28Opuntia_ficus-indica%29_Gaziantep_Turkey.IMG_1104.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-17",
@@ -161,13 +211,19 @@
       "answerEn": "Kiwi",
       "aliasesEn": [
         "kiwifruit"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Actinidia_fruits.jpg/960px-Actinidia_fruits.jpg"
       ]
     },
     {
       "id": "frutta-verdura-18",
       "answer": "Avocado",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/960px-Persea_americana_fruit_2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/960px-Persea_americana_fruit_2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/960px-Persea_americana_fruit_2.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-19",
@@ -175,7 +231,10 @@
       "aliases": [
         "limetta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Lime_Blossom.jpg/960px-Lime_Blossom.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ripekeylime.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Ripekeylime.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-20",
@@ -183,7 +242,10 @@
       "aliases": [
         "pompelmo rosa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Grapefruits_-_whole-halved-segments.jpg/960px-Grapefruits_-_whole-halved-segments.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Grapefruits_-_whole-halved-segments.jpg/960px-Grapefruits_-_whole-halved-segments.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Grapefruits_-_whole-halved-segments.jpg/960px-Grapefruits_-_whole-halved-segments.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-21",
@@ -191,7 +253,10 @@
       "aliases": [
         "carciofi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Artichoke_J1.jpg/960px-Artichoke_J1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Artichoke_J1.jpg/960px-Artichoke_J1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Artichoke_J1.jpg/960px-Artichoke_J1.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-22",
@@ -199,7 +264,10 @@
       "aliases": [
         "asparagi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Puntarelle_stehend.jpg/960px-Puntarelle_stehend.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Puntarelle_stehend.jpg/960px-Puntarelle_stehend.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Puntarelle_stehend.jpg/960px-Puntarelle_stehend.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-23",
@@ -209,13 +277,19 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/960px-Broccoli_and_cross_section_edit.jpg",
       "answerEn": "Broccoli",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Broccoli_and_cross_section_edit.jpg/960px-Broccoli_and_cross_section_edit.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-24",
       "answer": "Cavolfiore",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Chou-fleur_02.jpg/960px-Chou-fleur_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Chou-fleur_02.jpg/960px-Chou-fleur_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Chou-fleur_02.jpg/960px-Chou-fleur_02.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-25",
@@ -223,7 +297,10 @@
       "aliases": [
         "zucchine"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/CSA-Striped-Zucchini.jpg/960px-CSA-Striped-Zucchini.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/CSA-Striped-Zucchini.jpg/960px-CSA-Striped-Zucchini.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/CSA-Striped-Zucchini.jpg/960px-CSA-Striped-Zucchini.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-26",
@@ -231,7 +308,10 @@
       "aliases": [
         "melanzane"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/960px-Solanum_melongena_24_08_2012_%281%29.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/960px-Solanum_melongena_24_08_2012_%281%29.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Solanum_melongena_24_08_2012_%281%29.JPG/960px-Solanum_melongena_24_08_2012_%281%29.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-27",
@@ -239,13 +319,19 @@
       "aliases": [
         "peperoni"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Green-Yellow-Red-Pepper-2009.jpg/960px-Green-Yellow-Red-Pepper-2009.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Green-Yellow-Red-Pepper-2009.jpg/960px-Green-Yellow-Red-Pepper-2009.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Green-Yellow-Red-Pepper-2009.jpg/960px-Green-Yellow-Red-Pepper-2009.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-28",
       "answer": "Peperoncino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Madame_Jeanette_and_other_chillies.jpg/960px-Madame_Jeanette_and_other_chillies.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Madame_Jeanette_and_other_chillies.jpg/960px-Madame_Jeanette_and_other_chillies.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Madame_Jeanette_and_other_chillies.jpg/960px-Madame_Jeanette_and_other_chillies.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-29",
@@ -255,19 +341,28 @@
       "answerEn": "Pumpkin",
       "aliasesEn": [
         "squash"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/FrenchMarketPumpkinsB.jpg/960px-FrenchMarketPumpkinsB.jpg"
       ]
     },
     {
       "id": "frutta-verdura-30",
       "answer": "Finocchio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/960px-Foeniculum_July_2011-1a.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/960px-Foeniculum_July_2011-1a.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/960px-Foeniculum_July_2011-1a.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-31",
       "answer": "Sedano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Celery_1.jpg/960px-Celery_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Celery_1.jpg/960px-Celery_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Celery_1.jpg/960px-Celery_1.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-32",
@@ -275,7 +370,10 @@
       "aliases": [
         "ravanelli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/960px-Radish_3371103037_4ab07db0bf_o.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/960px-Radish_3371103037_4ab07db0bf_o.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/960px-Radish_3371103037_4ab07db0bf_o.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-33",
@@ -283,25 +381,37 @@
       "aliases": [
         "rapa rossa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png"
+      ]
     },
     {
       "id": "frutta-verdura-34",
       "answer": "Zenzero",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Koeh-146-no_text.jpg/960px-Koeh-146-no_text.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Zingiber_officinale_001.JPG/960px-Zingiber_officinale_001.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Zingiber_officinale_001.JPG/960px-Zingiber_officinale_001.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-35",
       "answer": "Rosmarino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/960px-Rosemary_in_bloom.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/960px-Rosemary_in_bloom.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/960px-Rosemary_in_bloom.JPG"
+      ]
     },
     {
       "id": "frutta-verdura-36",
       "answer": "Basilico",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/960px-Ocimum_basilicum_8zz.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/960px-Ocimum_basilicum_8zz.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/960px-Ocimum_basilicum_8zz.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-37",
@@ -309,7 +419,10 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Black_garlic.jpg/960px-Black_garlic.jpg",
       "answerEn": "Garlic",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Black_garlic.jpg/960px-Black_garlic.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-38",
@@ -321,6 +434,9 @@
       "answerEn": "Onion",
       "aliasesEn": [
         "onions"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/960px-Mixed_onions.jpg"
       ]
     },
     {
@@ -329,7 +445,12 @@
       "aliases": [
         "noce di cocco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg/960px-Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cocos_nucifera8.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cocos_nucifera8.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2013-01-24_18-09-34-Coconut-10f.jpg/960px-2013-01-24_18-09-34-Coconut-10f.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sliced_coconut_in_Vivah_Mandap%2C_Janakpur-September_22%2C_2016-IMG_7411.jpg/960px-Sliced_coconut_in_Vivah_Mandap%2C_Janakpur-September_22%2C_2016-IMG_7411.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-40",
@@ -337,7 +458,10 @@
       "aliases": [
         "pistacchi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pistachio_vera.jpg/960px-Pistachio_vera.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pistachio_vera.jpg/960px-Pistachio_vera.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Pistachio_vera.jpg/960px-Pistachio_vera.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-41",
@@ -346,7 +470,10 @@
         "noci",
         "gheriglio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/960px-Walnuts_-_whole_and_open_with_halved_kernel.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/960px-Walnuts_-_whole_and_open_with_halved_kernel.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/960px-Walnuts_-_whole_and_open_with_halved_kernel.jpg"
+      ]
     },
     {
       "id": "frutta-verdura-42",
@@ -355,7 +482,10 @@
         "marroni",
         "castagne"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ch%C3%A2taignier_120807_1.jpg/960px-Ch%C3%A2taignier_120807_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ch%C3%A2taignier_120807_1.jpg/960px-Ch%C3%A2taignier_120807_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ch%C3%A2taignier_120807_1.jpg/960px-Ch%C3%A2taignier_120807_1.jpg"
+      ]
     }
   ],
   "scope": "intl",

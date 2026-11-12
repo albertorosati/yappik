@@ -132,6 +132,29 @@ async function main() {
         title: currentUrl.split('/').pop(),
       });
 
+      // Controlla anche il pool multi-foto imageUrls e rimuovi query params o foto non conformi
+      if (Array.isArray(item.imageUrls) && item.imageUrls.length > 0) {
+        const cleanedPool = [];
+        let poolChanged = false;
+        for (const poolUrl of item.imageUrls) {
+          const noQuery = (poolUrl || '').split('?')[0];
+          if (noQuery !== poolUrl) poolChanged = true;
+          const poolEval = evaluateImageQuality({
+            url: noQuery,
+            title: noQuery.split('/').pop(),
+          });
+          if (poolEval.valid) {
+            if (!cleanedPool.includes(noQuery)) cleanedPool.push(noQuery);
+          } else {
+            poolChanged = true;
+          }
+        }
+        if (cleanedPool.length > 0 && poolChanged) {
+          item.imageUrls = cleanedPool;
+          categoryChanged = true;
+        }
+      }
+
       if (!evalResult.valid) {
         console.log(
           `⚠️ [${category.name}] "${item.answer}" Foto non conforme: ${evalResult.reason}`

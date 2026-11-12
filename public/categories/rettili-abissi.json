@@ -6,29 +6,38 @@
   "themeHex": "#14B8A6",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/960px-Iguana_iguana_%28male_resting%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/960px-Gekko_gecko_192144834.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/960px-Iguana_iguana_%28male_resting%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/960px-Gekko_gecko_192144834.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg"
   ],
   "items": [
     {
       "id": "rettili-abissi-1",
       "answer": "Camaleonte",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-2",
       "answer": "Iguana",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/960px-Iguana_iguana_%28male_resting%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/960px-Iguana_iguana_%28male_resting%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Iguana_iguana_%28male_resting%29.jpg/960px-Iguana_iguana_%28male_resting%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-3",
       "answer": "Geco",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/960px-Gekko_gecko_192144834.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/960px-Gekko_gecko_192144834.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gekko_gecko_192144834.jpg/960px-Gekko_gecko_192144834.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-4",
@@ -36,7 +45,10 @@
       "aliases": [
         "varano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-5",
@@ -44,7 +56,10 @@
       "aliases": [
         "pogona"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bartagame_%28fcm%29.jpg/960px-Bartagame_%28fcm%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bartagame_%28fcm%29.jpg/960px-Bartagame_%28fcm%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bartagame_%28fcm%29.jpg/960px-Bartagame_%28fcm%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-6",
@@ -52,13 +67,19 @@
       "aliases": [
         "testuggine"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/960px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/960px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/960px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-7",
       "answer": "Tartaruga Marina",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-8",
@@ -67,7 +88,10 @@
         "coccodrillo",
         "alligatore"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/960px-NileCrocodile.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/960px-NileCrocodile.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/960px-NileCrocodile.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-9",
@@ -75,7 +99,10 @@
       "aliases": [
         "gaviale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Caiman_yacare.jpg/960px-Caiman_yacare.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Caiman_yacare.jpg/960px-Caiman_yacare.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Caiman_yacare.jpg/960px-Caiman_yacare.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-10",
@@ -83,7 +110,10 @@
       "aliases": [
         "cobra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/960px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/960px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/960px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-11",
@@ -92,7 +122,10 @@
         "boa constrictor",
         "anaconda"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Python_molurus_molurus_2.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Python_molurus_molurus_2.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/Python_molurus_molurus_2.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-12",
@@ -100,7 +133,10 @@
       "aliases": [
         "crotalo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Crotalus_cerastes_mesquite_springs_CA-2.jpg/960px-Crotalus_cerastes_mesquite_springs_CA-2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Crotalus_cerastes_mesquite_springs_CA-2.jpg/960px-Crotalus_cerastes_mesquite_springs_CA-2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Crotalus_cerastes_mesquite_springs_CA-2.jpg/960px-Crotalus_cerastes_mesquite_springs_CA-2.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-13",
@@ -109,7 +145,10 @@
         "rana verde",
         "rana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg/960px-European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg/960px-European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg/960px-European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-14",
@@ -117,13 +156,19 @@
       "aliases": [
         "rana velenosa blu"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dendrobates_azureus_qtl1.jpg/960px-Dendrobates_azureus_qtl1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dendrobates_azureus_qtl1.jpg/960px-Dendrobates_azureus_qtl1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dendrobates_azureus_qtl1.jpg/960px-Dendrobates_azureus_qtl1.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-15",
       "answer": "Rospo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Common_Toad_Cornwall.jpeg/960px-Common_Toad_Cornwall.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Common_Toad_Cornwall.jpeg/960px-Common_Toad_Cornwall.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Common_Toad_Cornwall.jpeg/960px-Common_Toad_Cornwall.jpeg"
+      ]
     },
     {
       "id": "rettili-abissi-16",
@@ -132,13 +177,19 @@
         "salamandra",
         "tritone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/960px-Salamandra_salamandra_MHNT_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/960px-Salamandra_salamandra_MHNT_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Salamandra_salamandra_MHNT_1.jpg/960px-Salamandra_salamandra_MHNT_1.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-17",
       "answer": "Axolotl",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/960px-Axolotl_ganz.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/960px-Axolotl_ganz.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/960px-Axolotl_ganz.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-18",
@@ -146,7 +197,10 @@
       "aliases": [
         "nemo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/960px-Clown_fish_in_the_Andaman_Coral_Reef.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/960px-Clown_fish_in_the_Andaman_Coral_Reef.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Clown_fish_in_the_Andaman_Coral_Reef.jpg/960px-Clown_fish_in_the_Andaman_Coral_Reef.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-19",
@@ -154,13 +208,19 @@
       "aliases": [
         "dory"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Paletten-Doktorfisch_M%C3%BCnster.JPG/960px-Paletten-Doktorfisch_M%C3%BCnster.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Paletten-Doktorfisch_M%C3%BCnster.JPG/960px-Paletten-Doktorfisch_M%C3%BCnster.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Paletten-Doktorfisch_M%C3%BCnster.JPG/960px-Paletten-Doktorfisch_M%C3%BCnster.JPG"
+      ]
     },
     {
       "id": "rettili-abissi-20",
       "answer": "Pesce Palla",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Common_Dolphinfish_Monterey_Bay.jpg/960px-Common_Dolphinfish_Monterey_Bay.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Arothron_hispidus_is_kissing_my_camera_at_Big_Island_of_Hawaii.jpg/960px-Arothron_hispidus_is_kissing_my_camera_at_Big_Island_of_Hawaii.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Arothron_hispidus_is_kissing_my_camera_at_Big_Island_of_Hawaii.jpg/960px-Arothron_hispidus_is_kissing_my_camera_at_Big_Island_of_Hawaii.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-21",
@@ -168,13 +228,19 @@
       "aliases": [
         "pesce scorpione"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG/960px-Red_lionfish_near_Gilli_Banta_Island.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG/960px-Red_lionfish_near_Gilli_Banta_Island.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Red_lionfish_near_Gilli_Banta_Island.JPG/960px-Red_lionfish_near_Gilli_Banta_Island.JPG"
+      ]
     },
     {
       "id": "rettili-abissi-22",
       "answer": "Murena",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Moray_eel.jpg/960px-Moray_eel.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Moray_eel.jpg/960px-Moray_eel.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Moray_eel.jpg/960px-Moray_eel.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-23",
@@ -183,19 +249,28 @@
         "trigone",
         "manta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SStringray.jpg/960px-SStringray.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SStringray.jpg/960px-SStringray.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/SStringray.jpg/960px-SStringray.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-24",
       "answer": "Squalo Martello",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg/960px-Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg/960px-Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg/960px-Scalloped_Hammerhead_Shark_Sphyrna_Lewini_%28226845659%29.jpeg"
+      ]
     },
     {
       "id": "rettili-abissi-25",
       "answer": "Squalo Balena",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg/960px-Similan_Dive_Center_-_great_whale_shark.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg/960px-Similan_Dive_Center_-_great_whale_shark.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Similan_Dive_Center_-_great_whale_shark.jpg/960px-Similan_Dive_Center_-_great_whale_shark.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-26",
@@ -203,37 +278,55 @@
       "aliases": [
         "marlin"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg/960px-Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg/960px-Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg/960px-Xiphias_gladius_Linnaeus%2C_1758_2599925021.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-27",
       "answer": "Cavalluccio Marino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/960px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/960px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/960px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-28",
       "answer": "Stella Marina",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Marina_Abramovi%C4%87_-_The_Artist_Is_Present_-_Viennale_2012_%28cropped%29.jpg/960px-Marina_Abramovi%C4%87_-_The_Artist_Is_Present_-_Viennale_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/500px_photo_%2822741269%29.jpeg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0f/500px_photo_%2822741269%29.jpeg"
+      ]
     },
     {
       "id": "rettili-abissi-29",
       "answer": "Riccio di Mare",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg/960px-Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg/960px-Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg/960px-Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-30",
       "answer": "Medusa",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg/960px-Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg/960px-Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg/960px-Sea_nettle_%28Chrysaora_fuscescens%29_2.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-31",
       "answer": "Nautilus",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nautilus_belauensis_from_Palau.jpg/960px-Nautilus_belauensis_from_Palau.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nautilus_belauensis_from_Palau.jpg/960px-Nautilus_belauensis_from_Palau.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nautilus_belauensis_from_Palau.jpg/960px-Nautilus_belauensis_from_Palau.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-32",
@@ -241,7 +334,10 @@
       "aliases": [
         "calamaro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg/960px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg/960px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg/960px-Sepia_com%C3%BAn_%28Sepia_officinalis%29%2C_Parque_natural_de_la_Arr%C3%A1bida%2C_Portugal%2C_2020-07-21%2C_DD_62.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-33",
@@ -249,13 +345,19 @@
       "aliases": [
         "attinia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Actiniaria.jpg/960px-Actiniaria.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Actiniaria.jpg/960px-Actiniaria.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Actiniaria.jpg/960px-Actiniaria.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-34",
       "answer": "Tricheco",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/960px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/960px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/960px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-35",
@@ -264,7 +366,10 @@
         "leone marino",
         "otaria"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/960px-Common_seal_%28Phoca_vitulina%29_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/960px-Common_seal_%28Phoca_vitulina%29_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/960px-Common_seal_%28Phoca_vitulina%29_2.jpg"
+      ]
     },
     {
       "id": "rettili-abissi-36",
@@ -272,7 +377,10 @@
       "aliases": [
         "dugongo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Underwater_photography_on_endangered_mammal_manatee.jpg/960px-Underwater_photography_on_endangered_mammal_manatee.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Underwater_photography_on_endangered_mammal_manatee.jpg/960px-Underwater_photography_on_endangered_mammal_manatee.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Underwater_photography_on_endangered_mammal_manatee.jpg/960px-Underwater_photography_on_endangered_mammal_manatee.jpg"
+      ]
     }
   ],
   "scope": "intl",

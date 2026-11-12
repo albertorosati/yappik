@@ -282,4 +282,71 @@ describe('voiceMatcher Engine & Real-Photo Catalog', () => {
   it('ha un formato di versione semver valido (es. 1.0.0, 1.0.1)', () => {
     expect(APP_VERSION).toMatch(/^\d+\.\d+\.\d+$/);
   });
+
+  it('previene i falsi positivi su parole corte, token generici e parole parziali di titoli composti', () => {
+    const item = (answer: string, aliases: string[] = []) => ({
+      id: 'test-fp',
+      answer,
+      aliases,
+      imageUrl: 'https://example.com/x.jpg',
+    });
+
+    // Parole simili ma errate su parole brevi (4-5 lettere)
+    expect(evaluateVoiceInput(['fatto'], item('Gatto', ['micio'])).matched).toBe(false);
+    expect(evaluateVoiceInput(['male'], item('Mela')).matched).toBe(false);
+    expect(evaluateVoiceInput(['fino'], item('Vino', ['vino rosso'])).matched).toBe(false);
+    expect(evaluateVoiceInput(['palo'], item('Palla')).matched).toBe(false);
+
+    // Token generici o singole parole di titoli composti NON devono bastare da soli
+    expect(
+      evaluateVoiceInput(
+        ['maschera'],
+        item('Maschera Veneziana', ['bauta', 'maschera di carnevale'])
+      ).matched
+    ).toBe(false);
+    expect(
+      evaluateVoiceInput(['ponte'], item('Ponte di Rialto', ['rialto'])).matched
+    ).toBe(false);
+    expect(
+      evaluateVoiceInput(['marco'], item('Marco Materazzi', ['materazzi'])).matched
+    ).toBe(false);
+
+    // Il match completo o l'alias specifico continuano a funzionare
+    expect(
+      evaluateVoiceInput(['materazzi'], item('Marco Materazzi', ['materazzi'])).matched
+    ).toBe(true);
+    expect(evaluateVoiceInput(['gatto'], item('Gatto', ['micio'])).matched).toBe(true);
+  });
+
+  it('rispetta la gerarchia delle alternative senza far prevalere pass rumorosi in coda e distingue interim da final', () => {
+    const gatto = {
+      id: 'test-gatto',
+      answer: 'Gatto',
+      aliases: [],
+      imageUrl: 'https://example.com/gatto.jpg',
+    };
+    const materazzi = {
+      id: 'test-materazzi',
+      answer: 'Marco Materazzi',
+      aliases: ['materazzi'],
+      imageUrl: 'https://example.com/m.jpg',
+    };
+
+    // Un "passa" rumoroso all'ultima alternativa non può battere una risposta valida in alt[0]
+    const validFirst = evaluateVoiceInput(
+      ['Gatto', 'tatto', 'fatto', 'passa'],
+      gatto,
+      { isFinal: true }
+    );
+    expect(validFirst.matched).toBe(true);
+    expect(validFirst.isPassCommand).toBe(false);
+
+    // Un comando "passo" pulito in prima alternativa resta PASS
+    const cleanPass = evaluateVoiceInput(['passo', 'basso'], gatto, { isFinal: true });
+    expect(cleanPass.isPassCommand).toBe(true);
+
+    // In modalità interim (parlato in corso), un match esatto passa cleanly
+    const exactInterim = evaluateVoiceInput(['Marco Materazzi'], materazzi, { isFinal: false });
+    expect(exactInterim.matched).toBe(true);
+  });
 });

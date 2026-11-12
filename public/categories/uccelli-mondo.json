@@ -6,23 +6,29 @@
   "themeHex": "#06B6D4",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/960px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/960px-SnowyOwlAmericanBlackDuck.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/960px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/960px-SnowyOwlAmericanBlackDuck.jpg"
   ],
   "items": [
     {
       "id": "uccelli-mondo-1",
       "answer": "Tucano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-2",
       "answer": "Pavone",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/960px-Peacock_on_tree_%2852077240794%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-3",
@@ -34,6 +40,9 @@
       "answerEn": "Flamingo",
       "aliasesEn": [
         "flamingos"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg/960px-010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg"
       ]
     },
     {
@@ -43,7 +52,10 @@
         "edvige",
         "gufo bianco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/960px-SnowyOwlAmericanBlackDuck.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/960px-SnowyOwlAmericanBlackDuck.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/SnowyOwlAmericanBlackDuck.jpg/960px-SnowyOwlAmericanBlackDuck.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-5",
@@ -52,7 +64,10 @@
         "allocco",
         "civetta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg/960px-American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg/960px-American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg/960px-American_Barn_Owl_%28Tyto_furcata_guatemalae%29%2C_Orange_Walk.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-6",
@@ -61,7 +76,10 @@
         "aquila calva",
         "aquila"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/960px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/960px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg/960px-Bald_eagle_about_to_fly_in_Alaska_%282016%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-7",
@@ -69,7 +87,10 @@
       "aliases": [
         "falco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/960px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/960px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg/960px-Falco_peregrinus_m_Humber_Bay_Park_Toronto.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-8",
@@ -77,7 +98,10 @@
       "aliases": [
         "avvoltoio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/960px-AndeanCondorMale.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/960px-AndeanCondorMale.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/AndeanCondorMale.jpg/960px-AndeanCondorMale.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-9",
@@ -86,7 +110,10 @@
         "pappagallo ara",
         "pappagallo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/960px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/960px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg/960px-Scarlet_macaw_%28Ara_macao_cyanopterus%29_Copan.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-10",
@@ -94,7 +121,10 @@
       "aliases": [
         "pappagallo col ciuffo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg/960px-Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg/960px-Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg/960px-Major_Mitchell%27s_Cockatoo_1_-_Mt_Grenfell.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-11",
@@ -103,7 +133,10 @@
         "cocorita",
         "parrocchetto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg/960px-Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg/960px-Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg/960px-Rosy-faced_lovebird_%28Agapornis_roseicollis_roseicollis%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-12",
@@ -111,13 +144,19 @@
       "aliases": [
         "colibri"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eurocopter_EC-120B_Colibri_AN0367366.jpg/960px-Eurocopter_EC-120B_Colibri_AN0367366.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eurocopter_EC-120B_Colibri_AN0367366.jpg/960px-Eurocopter_EC-120B_Colibri_AN0367366.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eurocopter_EC-120B_Colibri_AN0367366.jpg/960px-Eurocopter_EC-120B_Colibri_AN0367366.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-13",
       "answer": "Martin Pescatore",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/960px-Alcedo_atthis_-England-8_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/960px-Alcedo_atthis_-England-8_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/960px-Alcedo_atthis_-England-8_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-14",
@@ -125,31 +164,46 @@
       "aliases": [
         "picchio rosso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/960px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/960px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg/960px-Great_spotted_woodpecker_%28Dendrocopos_major%29_male_Drenthe.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-15",
       "answer": "Upupa",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Israel._Eurasian_Hoopoe_%286497645007%29.jpg/960px-Israel._Eurasian_Hoopoe_%286497645007%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Israel._Eurasian_Hoopoe_%286497645007%29.jpg/960px-Israel._Eurasian_Hoopoe_%286497645007%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Israel._Eurasian_Hoopoe_%286497645007%29.jpg/960px-Israel._Eurasian_Hoopoe_%286497645007%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-16",
       "answer": "Pettirosso",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-17",
       "answer": "Cardellino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg/960px-072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg/960px-072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg/960px-072_Wild_European_goldfinch_at_the_Parc_Jura_vaudois_Photo_by_Giles_Laurent.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-18",
       "answer": "Rondine",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-19",
@@ -157,7 +211,10 @@
       "aliases": [
         "gazza"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eurasian_magpie_2024_03_03_02.jpg/960px-Eurasian_magpie_2024_03_03_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eurasian_magpie_2024_03_03_02.jpg/960px-Eurasian_magpie_2024_03_03_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Eurasian_magpie_2024_03_03_02.jpg/960px-Eurasian_magpie_2024_03_03_02.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-20",
@@ -165,7 +222,10 @@
       "aliases": [
         "cornacchia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg/960px-Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg/960px-Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg/960px-Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-21",
@@ -174,25 +234,37 @@
         "colombo",
         "colomba"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/960px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/960px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg/960px-Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-22",
       "answer": "Gabbiano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/European_herring_gull_vocalizing_%2800170%29.jpg/960px-European_herring_gull_vocalizing_%2800170%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/European_herring_gull_vocalizing_%2800170%29.jpg/960px-European_herring_gull_vocalizing_%2800170%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/European_herring_gull_vocalizing_%2800170%29.jpg/960px-European_herring_gull_vocalizing_%2800170%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-23",
       "answer": "Pellicano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/960px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/960px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/960px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-24",
       "answer": "Cicogna",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/960px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/960px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg/960px-White_stork_%28Ciconia_ciconia%29_Bia%C5%82owieza.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-25",
@@ -200,7 +272,10 @@
       "aliases": [
         "airone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-26",
@@ -208,7 +283,10 @@
       "aliases": [
         "cigno reale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/CygneVaires.jpg/960px-CygneVaires.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/CygneVaires.jpg/960px-CygneVaires.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/CygneVaires.jpg/960px-CygneVaires.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-27",
@@ -217,19 +295,28 @@
         "anatra",
         "papera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Anas_platyrhynchos_male_female_quadrat.jpg/960px-Anas_platyrhynchos_male_female_quadrat.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Anas_platyrhynchos_male_female_quadrat.jpg/960px-Anas_platyrhynchos_male_female_quadrat.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Anas_platyrhynchos_male_female_quadrat.jpg/960px-Anas_platyrhynchos_male_female_quadrat.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-28",
       "answer": "Oca",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg/960px-Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg/960px-Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg/960px-Sunset_Park_-_Las_Vegas_%2811044584144%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-29",
       "answer": "Tacchino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg/960px-20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg/960px-20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg/960px-20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-30",
@@ -237,19 +324,28 @@
       "aliases": [
         "gallina"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Male_and_female_chicken_sitting_together.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Male_and_female_chicken_sitting_together.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Male_and_female_chicken_sitting_together.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-31",
       "answer": "Fagiano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Phasianus_colchicus_Oulu_20200524_02.jpg/960px-Phasianus_colchicus_Oulu_20200524_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Phasianus_colchicus_Oulu_20200524_02.jpg/960px-Phasianus_colchicus_Oulu_20200524_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Phasianus_colchicus_Oulu_20200524_02.jpg/960px-Phasianus_colchicus_Oulu_20200524_02.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-32",
       "answer": "Struzzo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/960px-Struthio_camelus_-_Etosha_2014_%283%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/960px-Struthio_camelus_-_Etosha_2014_%283%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Struthio_camelus_-_Etosha_2014_%283%29.jpg/960px-Struthio_camelus_-_Etosha_2014_%283%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-33",
@@ -258,7 +354,10 @@
         "emu",
         "casuario"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/960px-Emu_1_-_Tidbinbilla.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/960px-Emu_1_-_Tidbinbilla.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/960px-Emu_1_-_Tidbinbilla.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-34",
@@ -270,6 +369,9 @@
       "answerEn": "Kiwi",
       "aliasesEn": [
         "kiwifruit"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/960px-TeTuatahianui.jpg"
       ]
     },
     {
@@ -278,13 +380,19 @@
       "aliases": [
         "puffin"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/960px-Puffin_%28Fratercula_arctica%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/960px-Puffin_%28Fratercula_arctica%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/960px-Puffin_%28Fratercula_arctica%29.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-36",
       "answer": "Albatros",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Diomedea_exulans_-_SE_Tasmania.jpg/960px-Diomedea_exulans_-_SE_Tasmania.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Diomedea_exulans_-_SE_Tasmania.jpg/960px-Diomedea_exulans_-_SE_Tasmania.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Diomedea_exulans_-_SE_Tasmania.jpg/960px-Diomedea_exulans_-_SE_Tasmania.jpg"
+      ]
     },
     {
       "id": "uccelli-mondo-37",
@@ -292,7 +400,10 @@
       "aliases": [
         "pinguino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg"
+      ]
     }
   ],
   "scope": "intl",

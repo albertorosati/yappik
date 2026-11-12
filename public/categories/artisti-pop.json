@@ -6,10 +6,10 @@
   "themeHex": "#FF4D8D",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/960px-Dua_Lipa-69798_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/960px-Dua_Lipa-69798_%28cropped%29.jpg"
   ],
   "items": [
     {
@@ -23,7 +23,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
         "https://upload.wikimedia.org/wikipedia/commons/4/4c/Swift%2C_Taylor_%282007%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Taylor_Swift_%282007%29_retouched.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Taylor_Swift_%282007%29_retouched.jpg/960px-Taylor_Swift_%282007%29_retouched.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift%2C_Taylor_%282007%29_cropped_2.JPG"
       ]
     },
@@ -39,9 +39,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2b/The_Weeknd_at_Bumbershoot_2015_%2821367628469%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/The_Weeknd_at_Bumbershoot_2015_%2821367628469%29.jpg/960px-The_Weeknd_at_Bumbershoot_2015_%2821367628469%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/46/The_Weeknd_2015.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4b/The_Weeknd_by_David_Hwang.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Weeknd_by_David_Hwang.jpg/960px-The_Weeknd_by_David_Hwang.jpg"
       ]
     },
     {
@@ -54,9 +54,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/76/Billie_Eilish_at_Coachella_2019.png",
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/Billie_Eilish_2019_by_Glenn_Francis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1f/Billie_Eilish_at_Pukkelpop_Festival_-_18_AUGUST_2019_%2801%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Billie_Eilish_at_Coachella_2019.png/960px-Billie_Eilish_at_Coachella_2019.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Billie_Eilish_2019_by_Glenn_Francis.jpg/960px-Billie_Eilish_2019_by_Glenn_Francis.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Billie_Eilish_at_Pukkelpop_Festival_-_18_AUGUST_2019_%2801%29.jpg/960px-Billie_Eilish_at_Pukkelpop_Festival_-_18_AUGUST_2019_%2801%29.jpg"
       ]
     },
     {
@@ -68,8 +68,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/960px-Dua_Lipa-69798_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/960px-Dua_Lipa-69798_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f9/British_singer_and_songwriter_Dua_Lipa_at_the_SWR3_New_Pop_Festival_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/92/Dua_Lipa-0829.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/British_singer_and_songwriter_Dua_Lipa_at_the_SWR3_New_Pop_Festival_2016.jpg/960px-British_singer_and_songwriter_Dua_Lipa_at_the_SWR3_New_Pop_Festival_2016.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dua_Lipa-0829.jpg/960px-Dua_Lipa-0829.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/31/Dua_Lipa_2021_interview.jpg"
       ]
     },
@@ -82,7 +82,6 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rihanna_Fenty_2018.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rihanna_Fenty_2018.png",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rihanna-brisbane-cropped.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rihanna_Fenty_2018_2.png",
         "https://upload.wikimedia.org/wikipedia/commons/1/1a/Rihanna_Fenty_2018_2_%28cropped%29.png"
       ]
@@ -96,9 +95,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg/960px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg/960px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Lady_Gaga_Americano_Manchester_cropped.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Lady_Gaga_Americano_Manchester_cropped.jpg/960px-Lady_Gaga_Americano_Manchester_cropped.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f1/Lady_Gaga_%286891777628%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lady_Gaga_JWT_Montreal%2C_2017-11-03_%28cropped_3%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Lady_Gaga_JWT_Montreal%2C_2017-11-03_%28cropped_3%29.jpg/960px-Lady_Gaga_JWT_Montreal%2C_2017-11-03_%28cropped_3%29.jpg"
       ]
     },
     {
@@ -111,8 +110,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg/960px-BrunoMars24KMagicWorldTourLive_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bruno_Mars%2C_Las_Vegas_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bruno_Mars_Doowops.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bruno_Mars_b%26w.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Bruno_Mars_Doowops.jpg/960px-Bruno_Mars_Doowops.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Bruno_Mars_b%26w.jpg/960px-Bruno_Mars_b%26w.jpg"
       ]
     },
     {
@@ -125,9 +124,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Beyonc%C3%A9_e_Jay-Z.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Beyonc%C3%A9_e_Jay-Z.jpg/960px-Beyonc%C3%A9_e_Jay-Z.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/ab/Beyonc%C3%A9_Knowles_GMA_Run_the_World_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Beyonc%C3%A9_Antwerp_Sportpaleis.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Beyonc%C3%A9_Antwerp_Sportpaleis.jpg/960px-Beyonc%C3%A9_Antwerp_Sportpaleis.jpg"
       ]
     },
     {
@@ -172,7 +171,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/0/03/Ed_Sheeran_2022_%283x4_crop%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/13/Ed_Sheeran_%288507731877%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg"
       ]
     },
     {
@@ -186,8 +185,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9b/180612_Harry_Styles_Live_On_Tour_in_Nashville.png",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c1/Harry_Styles_Denver_HsLot_Close-up_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/57/Harry_Styles_Denver_HsLot.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Harry_Styles_Denver_HsLot_Close-up_2.jpg/960px-Harry_Styles_Denver_HsLot_Close-up_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Harry_Styles_Denver_HsLot.jpg/960px-Harry_Styles_Denver_HsLot.jpg"
       ]
     },
     {
@@ -200,9 +199,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Shakira_at_Obama_Inaugural_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Shakira_at_Obama_Inaugural_%28cropped%29.jpg/960px-Shakira_at_Obama_Inaugural_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shakira_Obama.PNG",
-        "https://upload.wikimedia.org/wikipedia/commons/4/48/Shakira_-_Rock_in_Rio_2008_02.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Shakira_-_Rock_in_Rio_2008_02.jpg/960px-Shakira_-_Rock_in_Rio_2008_02.jpg"
       ]
     },
     {
@@ -214,9 +213,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bad_Bunny_concierto_Ecuador_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bad_Bunny_2019_by_Glenn_Francis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Bad_Bunny_2019_by_Glenn_Francis.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis.jpg"
       ]
     },
     {
@@ -229,9 +226,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/960px-Eminem_2021_Color_Corrected.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/960px-Eminem_2021_Color_Corrected.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Eminem-01-mika.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Eminem-01-mika.jpg/960px-Eminem-01-mika.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6d/Eminem_live_at_D.C._2014_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Eminem_%286940371764%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Eminem_%286940371764%29.jpg/960px-Eminem_%286940371764%29.jpg"
       ]
     },
     {
@@ -243,9 +240,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg/960px-MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg/960px-MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Raphael_-_The_Alba_Madonna_-_Google_Art_Project.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/Jan_van_Eyck_-_Lucca_Madonna_-_Google_Art_Project.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/37/Madonna_with_child_and_angels.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Raphael_-_The_Alba_Madonna_-_Google_Art_Project.jpg/960px-Raphael_-_The_Alba_Madonna_-_Google_Art_Project.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Jan_van_Eyck_-_Lucca_Madonna_-_Google_Art_Project.jpg/960px-Jan_van_Eyck_-_Lucca_Madonna_-_Google_Art_Project.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Madonna_with_child_and_angels.jpg/960px-Madonna_with_child_and_angels.jpg"
       ]
     },
     {
@@ -259,8 +256,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/31/Michael_Jackson_in_1988.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Michael_Jackson%2C_1988_%283662754878%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/34/Michael_Jackson%2C_1988_%283661952211%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Michael_Jackson%2C_1988_%283662754878%29.jpg/960px-Michael_Jackson%2C_1988_%283662754878%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Michael_Jackson%2C_1988_%283661952211%29.jpg/960px-Michael_Jackson%2C_1988_%283661952211%29.jpg"
       ]
     },
     {
@@ -273,8 +270,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Adele_2016.jpg/960px-Adele_2016.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/28/Adele_adkins_concert1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e4/Adele_-_Live_2009_%284%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Adele_Adkins_at_Martyr%27s.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Adele_-_Live_2009_%284%29.jpg/960px-Adele_-_Live_2009_%284%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Adele_Adkins_at_Martyr%27s.jpg/960px-Adele_Adkins_at_Martyr%27s.jpg"
       ]
     },
     {
@@ -287,9 +284,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg/960px-Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg/960px-Miley_Cyrus_Primavera19_-226_%2848986293772%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/aa/Miley_Cyrus_and_Billy_Ray_Cyrus.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Miley_Cyrus_and_Billy_Ray_Cyrus.jpg/960px-Miley_Cyrus_and_Billy_Ray_Cyrus.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/af/Miley_Cyrus_38th_People%27s_Choice_Awards_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fc/Miley_Cyrus_at_2010_MMVA_with_award.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Miley_Cyrus_at_2010_MMVA_with_award.jpg/960px-Miley_Cyrus_at_2010_MMVA_with_award.jpg"
       ]
     },
     {
@@ -301,8 +298,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Katy_Perry_2026_Tribeca_Film_Festival_%28cropped_1%29.jpg/960px-Katy_Perry_2026_Tribeca_Film_Festival_%28cropped_1%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Katy_Perry_2026_Tribeca_Film_Festival_%28cropped_1%29.jpg/960px-Katy_Perry_2026_Tribeca_Film_Festival_%28cropped_1%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Katy_Perry_YouTube.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/76/Katy_Perry_performing.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Katy_Perry_YouTube.jpg/960px-Katy_Perry_YouTube.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Katy_Perry_performing.jpg/960px-Katy_Perry_performing.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3a/Katy_Perry_2011_7.jpg"
       ]
     },
@@ -315,9 +312,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/960px-Post_Malone_July_2021_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/960px-Post_Malone_July_2021_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/07/Post_Malone_%2828734295876%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/26/Post_Malone_%2828688652561%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/84/Post_Malone_%2828481667850%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Post_Malone_%2828734295876%29.jpg/960px-Post_Malone_%2828734295876%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Post_Malone_%2828688652561%29.jpg/960px-Post_Malone_%2828688652561%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Post_Malone_%2828481667850%29.jpg/960px-Post_Malone_%2828481667850%29.jpg"
       ]
     },
     {
@@ -330,8 +327,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/28/Drake_July_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/73/Drake_and_Migos_at_MSG_Aug_25th_2018.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/17/Drake_Aug_25th_2018_at_MSG.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Drake_and_Migos_at_MSG_Aug_25th_2018.jpg/960px-Drake_and_Migos_at_MSG_Aug_25th_2018.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Drake_Aug_25th_2018_at_MSG.jpg/960px-Drake_Aug_25th_2018_at_MSG.jpg"
       ]
     },
     {
@@ -357,7 +354,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Glasto2025-546_%28cropped%29_2.jpg/960px-Glasto2025-546_%28cropped%29_2.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Glasto2025-546_%28cropped%29_2.jpg/960px-Glasto2025-546_%28cropped%29_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/53/Olivia_Rodrigo_at_White_House.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Olivia_Rodrigo_at_White_House.jpg/960px-Olivia_Rodrigo_at_White_House.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c3/Olivia_Rodrigo_with_Dr_Fauci_1.png",
         "https://upload.wikimedia.org/wikipedia/commons/9/93/Olivia_Rodrigo_with_Dr_Fauci_2.png"
       ]
@@ -371,9 +368,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sabrina_Carpenter_-_O2_Arena_2025_-_086_%28cropped_2%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/6/61/Sabrina_Carpenter_-_O2_Arena_2025_-_086_%28cropped_2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sabrina_Carpenter_-_DSC_0068.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/65/Sabrina_Carpenter_-_O2_Arena_2025_-_015.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/70/Sabrina_Carpenter_-_O2_Arena_2025_-_034.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Sabrina_Carpenter_-_DSC_0068.jpg/960px-Sabrina_Carpenter_-_DSC_0068.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Sabrina_Carpenter_-_O2_Arena_2025_-_015.jpg/960px-Sabrina_Carpenter_-_O2_Arena_2025_-_015.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sabrina_Carpenter_-_O2_Arena_2025_-_034.jpg/960px-Sabrina_Carpenter_-_O2_Arena_2025_-_034.jpg"
       ]
     },
     {
@@ -385,9 +382,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg/960px-Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg/960px-Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/30/Selena_Gomez_2008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/37/Selena_Gomez_2008_%28retouched%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/06/Selena_Gomez_December_2010.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Selena_Gomez_2008_%28retouched%29.jpg/960px-Selena_Gomez_2008_%28retouched%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Selena_Gomez_December_2010.jpg/960px-Selena_Gomez_December_2010.jpg"
       ]
     },
     {
@@ -414,8 +410,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/da/Britney_Spears_2013_%28Straighten_Crop%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/7a/Britney_Spears_2013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/88/Britney-Spears-Vegas-July-13-2016-3.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/ff/Planet_Hollywood_Las_Vegas%2C_13_July_2016_Britney_Spears_5_%2828127208964%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Britney-Spears-Vegas-July-13-2016-3.jpg/960px-Britney-Spears-Vegas-July-13-2016-3.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Planet_Hollywood_Las_Vegas%2C_13_July_2016_Britney_Spears_5_%2828127208964%29.jpg/960px-Planet_Hollywood_Las_Vegas%2C_13_July_2016_Britney_Spears_5_%2828127208964%29.jpg"
       ]
     },
     {
@@ -429,7 +425,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e9/Elton_john_illustation_artlibre_jnl.png",
         "https://upload.wikimedia.org/wikipedia/commons/6/6d/Elton_John_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b9/Elton-john_2.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Elton-john_2.jpg/960px-Elton-john_2.jpg"
       ]
     },
     {
@@ -442,9 +438,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg/960px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg/960px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/02/Queen_-_Freddie_Mercury.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977_cropped.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Queen_-_Freddie_Mercury.jpg/960px-Queen_-_Freddie_Mercury.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977_cropped.jpg/960px-Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977_cropped.jpg"
       ]
     },
     {
@@ -457,8 +452,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/David_Bowie_at_the_2009_Tribeca_Film_Festival.jpg/960px-David_Bowie_at_the_2009_Tribeca_Film_Festival.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/de/David_Bowie_en_2015.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e2/David_Bowie_in_Lavapies_-_Madrid_01.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/David_Bowie_en_2015.jpg/960px-David_Bowie_en_2015.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/David_Bowie_in_Lavapies_-_Madrid_01.jpg/960px-David_Bowie_in_Lavapies_-_Madrid_01.jpg"
       ]
     },
     {
@@ -471,8 +466,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg/960px-2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/45/Travis_Scott_at_Basel_Castle_2013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Travis_Scott_sagging.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/83/Travis_Scott_2014_Feb.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Travis_Scott_sagging.jpg/960px-Travis_Scott_sagging.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Travis_Scott_2014_Feb.jpg/960px-Travis_Scott_2014_Feb.jpg"
       ]
     },
     {
@@ -485,8 +480,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/960px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9f/Kendrick_Lamar_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kendrick-lamar-1360479601.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kendrick_Lamar_by_David_Hwang.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kendrick-lamar-1360479601.jpg/960px-Kendrick-lamar-1360479601.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Kendrick_Lamar_by_David_Hwang.jpg/960px-Kendrick_Lamar_by_David_Hwang.jpg"
       ]
     },
     {
@@ -500,8 +495,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/f/f0/Snoop_Dogg%2C_WrestleMania_XL_%28cropped%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/62/Snoop_Dogg_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b9/Snoop_Dogg_%26_McHugh.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg/960px-Snoop_Dogg_2019_by_Glenn_Francis.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Snoop_Dogg_%26_McHugh.jpg/960px-Snoop_Dogg_%26_McHugh.jpg"
       ]
     },
     {
@@ -515,7 +510,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg/960px-Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_%285%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3c/50_cent_in_concert.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/50_cent_en_concierto.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/50_cent_en_concierto.jpg/960px-50_cent_en_concierto.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/1f/50_Cent_%28Cropped%29.jpg"
       ]
     },
@@ -530,7 +525,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Doja_Cat_x_Amazon1.1_%28cropped%29.jpg/960px-Doja_Cat_x_Amazon1.1_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/55/Doja_Cat_August_2019.png",
         "https://upload.wikimedia.org/wikipedia/commons/9/99/Doja_Cat_Hot_Pink_Party1.png",
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Doja_Cat_Hot_Pink_Party2.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Doja_Cat_Hot_Pink_Party2.png/960px-Doja_Cat_Hot_Pink_Party2.png"
       ]
     },
     {
@@ -543,8 +538,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Nicki_Minaj_%2855022495106%29_%28cropped%29.jpg/960px-Nicki_Minaj_%2855022495106%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/69/Nicki_Minaj_VMA_2018_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nicki_Minaj_%286045507595%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/94/Nicki_Minaj_4_%285996507815%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Nicki_Minaj_%286045507595%29.jpg/960px-Nicki_Minaj_%286045507595%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Nicki_Minaj_4_%285996507815%29.jpg/960px-Nicki_Minaj_4_%285996507815%29.jpg"
       ]
     },
     {
@@ -557,8 +552,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cardi_B_at_2026_Essence_Festival_of_Culture_02_%28cropped%29_%28cropped%29.jpg/960px-Cardi_B_at_2026_Essence_Festival_of_Culture_02_%28cropped%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/de/Cardi_B_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/35/Cardi_B_December_2018.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Cardi_B_VMA_2018.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Cardi_B_December_2018.jpg/960px-Cardi_B_December_2018.jpg"
       ]
     },
     {
@@ -570,8 +564,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Rosal%C3%ADa_MTV.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a6/Rosal%C3%ADa_MTV_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Rosal%C3%ADa_MTV.jpg/960px-Rosal%C3%ADa_MTV.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rosal%C3%ADa_MTV_2.jpg/960px-Rosal%C3%ADa_MTV_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/38/Rosal%C3%ADa_at_Latin_Grammys_2019.png"
       ]
     },
@@ -598,9 +592,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/ChrisMartinManch030623_%28cropped%29.jpg/960px-ChrisMartinManch030623_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/ChrisMartinManch030623_%28cropped%29.jpg/960px-ChrisMartinManch030623_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/81/Coldplay_-_Global-Citizen-Festival_Hamburg_14.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Coldplay_-_The_Rose_Bowl_-_Friday_6th_October_2017_ColdplayRoseBowl061017-33_%2837648563246%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/08/Coldplay_at_the_BRIT_Awards_2016_%2831918766166%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Coldplay_-_Global-Citizen-Festival_Hamburg_14.jpg/960px-Coldplay_-_Global-Citizen-Festival_Hamburg_14.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Coldplay_-_The_Rose_Bowl_-_Friday_6th_October_2017_ColdplayRoseBowl061017-33_%2837648563246%29.jpg/960px-Coldplay_-_The_Rose_Bowl_-_Friday_6th_October_2017_ColdplayRoseBowl061017-33_%2837648563246%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Coldplay_at_the_BRIT_Awards_2016_%2831918766166%29.jpg/960px-Coldplay_at_the_BRIT_Awards_2016_%2831918766166%29.jpg"
       ]
     },
     {
@@ -612,9 +606,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Justin_Timberlake_by_Gage_Skidmore.jpg/960px-Justin_Timberlake_by_Gage_Skidmore.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Justin_Timberlake_by_Gage_Skidmore.jpg/960px-Justin_Timberlake_by_Gage_Skidmore.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Justin_Timberlake_by_Gage_Skidmore.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Justin_Timberlake_by_Gage_Skidmore_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Justin_Timberlake_-_2016_San_Diego_Comic_Con_International_-_02.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Justin_Timberlake_by_Gage_Skidmore_2.jpg/960px-Justin_Timberlake_by_Gage_Skidmore_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Justin_Timberlake_-_2016_San_Diego_Comic_Con_International_-_02.jpg/960px-Justin_Timberlake_-_2016_San_Diego_Comic_Con_International_-_02.jpg"
       ]
     },
     {
@@ -655,9 +648,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Robbie_Williams_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Robbie_Williams_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Robbie_Williams_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Robbie_Williams_at_the_2024_Toronto_International_Film_Festival_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/24/Robbie_Williams_%28190454730%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/59/Robbie_Williams_PHC_2012-1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e4/Robbie_Williams_2012.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Robbie_Williams_%28190454730%29.jpg/960px-Robbie_Williams_%28190454730%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Robbie_Williams_PHC_2012-1.jpg/960px-Robbie_Williams_PHC_2012-1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Robbie_Williams_2012.jpg/960px-Robbie_Williams_2012.jpg"
       ]
     }
   ],

@@ -6,10 +6,10 @@
   "themeHex": "#14B8A6",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/960px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg/960px-Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/960px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg/960px-Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg"
   ],
   "items": [
     {
@@ -18,13 +18,19 @@
       "aliases": [
         "rosa rossa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg"
+      ]
     },
     {
       "id": "fiori-piante-2",
       "answer": "Girasole",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg"
+      ]
     },
     {
       "id": "fiori-piante-3",
@@ -32,13 +38,19 @@
       "aliases": [
         "tulipani"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/960px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/960px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG/960px-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%9D.JPG"
+      ]
     },
     {
       "id": "fiori-piante-4",
       "answer": "Orchidea",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg/960px-Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg/960px-Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg/960px-Plant_Orchid_Cymbidium_aloifolium_P1110661_05_-_cropped.jpg"
+      ]
     },
     {
       "id": "fiori-piante-5",
@@ -46,13 +58,19 @@
       "aliases": [
         "pratolina"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg/960px-Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg/960px-Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg/960px-Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg"
+      ]
     },
     {
       "id": "fiori-piante-6",
       "answer": "Lavanda",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/960px-Single_lavender_flower02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/960px-Single_lavender_flower02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/960px-Single_lavender_flower02.jpg"
+      ]
     },
     {
       "id": "fiori-piante-7",
@@ -60,7 +78,10 @@
       "aliases": [
         "papaveri"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Papaver_rhoeas_Lincolnshire_2026.jpg/960px-Papaver_rhoeas_Lincolnshire_2026.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Papaver_rhoeas_Lincolnshire_2026.jpg/960px-Papaver_rhoeas_Lincolnshire_2026.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Papaver_rhoeas_Lincolnshire_2026.jpg/960px-Papaver_rhoeas_Lincolnshire_2026.jpg"
+      ]
     },
     {
       "id": "fiori-piante-8",
@@ -69,49 +90,73 @@
         "ninfea",
         "loto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg/960px-Sacred_lotus_Nelumbo_nucifera.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg/960px-Sacred_lotus_Nelumbo_nucifera.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg/960px-Sacred_lotus_Nelumbo_nucifera.jpg"
+      ]
     },
     {
       "id": "fiori-piante-9",
       "answer": "Ortensia",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Hydrangea_arborescens_139866012.jpg/960px-Hydrangea_arborescens_139866012.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Hydrangea_arborescens_139866012.jpg/960px-Hydrangea_arborescens_139866012.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Hydrangea_arborescens_139866012.jpg/960px-Hydrangea_arborescens_139866012.jpg"
+      ]
     },
     {
       "id": "fiori-piante-10",
       "answer": "Ibisco",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hibiscus_flower_TZ.jpg/960px-Hibiscus_flower_TZ.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hibiscus_flower_TZ.jpg/960px-Hibiscus_flower_TZ.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Hibiscus_flower_TZ.jpg/960px-Hibiscus_flower_TZ.jpg"
+      ]
     },
     {
       "id": "fiori-piante-11",
       "answer": "Mimosa",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Acacia_dealbata-1.jpg/960px-Acacia_dealbata-1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Acacia_dealbata-1.jpg/960px-Acacia_dealbata-1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Acacia_dealbata-1.jpg/960px-Acacia_dealbata-1.jpg"
+      ]
     },
     {
       "id": "fiori-piante-12",
       "answer": "Stella di Natale",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg"
+      ]
     },
     {
       "id": "fiori-piante-13",
       "answer": "Ciclamino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cyclamen_purpurascens_sl3.jpg/960px-Cyclamen_purpurascens_sl3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cyclamen_purpurascens_sl3.jpg/960px-Cyclamen_purpurascens_sl3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cyclamen_purpurascens_sl3.jpg/960px-Cyclamen_purpurascens_sl3.jpg"
+      ]
     },
     {
       "id": "fiori-piante-14",
       "answer": "Peonia",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/PaeoniaSuffruticosa7.jpg/960px-PaeoniaSuffruticosa7.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/PaeoniaSuffruticosa7.jpg/960px-PaeoniaSuffruticosa7.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/PaeoniaSuffruticosa7.jpg/960px-PaeoniaSuffruticosa7.jpg"
+      ]
     },
     {
       "id": "fiori-piante-15",
       "answer": "Garofano",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/W_carnation4051.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/W_carnation4051.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3b/W_carnation4051.jpg"
+      ]
     },
     {
       "id": "fiori-piante-16",
@@ -119,7 +164,10 @@
       "aliases": [
         "edelweiss"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG/960px-Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG/960px-Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG/960px-Alpen_Edelwei%C3%9F%2C_Leontopodium_alpinum_2.JPG"
+      ]
     },
     {
       "id": "fiori-piante-17",
@@ -128,7 +176,10 @@
         "dionea",
         "acchiappamosche"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/960px-Venus_Flytrap_showing_trigger_hairs.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/960px-Venus_Flytrap_showing_trigger_hairs.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/960px-Venus_Flytrap_showing_trigger_hairs.jpg"
+      ]
     },
     {
       "id": "fiori-piante-18",
@@ -137,7 +188,10 @@
         "saguaro",
         "pianta grassa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/960px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/960px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/960px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg"
+      ]
     },
     {
       "id": "fiori-piante-19",
@@ -145,7 +199,10 @@
       "aliases": [
         "aloe"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/960px-Aloe_vera_flower_inset.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/960px-Aloe_vera_flower_inset.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/960px-Aloe_vera_flower_inset.png"
+      ]
     },
     {
       "id": "fiori-piante-20",
@@ -153,7 +210,10 @@
       "aliases": [
         "bambu"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg"
+      ]
     },
     {
       "id": "fiori-piante-21",
@@ -162,13 +222,19 @@
         "olivo",
         "albero di ulivo"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg"
+      ]
     },
     {
       "id": "fiori-piante-22",
       "answer": "Quercia",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/af/Quercus_robur.jpg"
+      ]
     },
     {
       "id": "fiori-piante-23",
@@ -176,13 +242,19 @@
       "aliases": [
         "salice"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg/960px-Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg/960px-Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg/960px-Ch%C3%A2teau_de_Chenonceau_-_jardin_Russell-Page_%2801%29.jpg"
+      ]
     },
     {
       "id": "fiori-piante-24",
       "answer": "Baobab",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Baobab_Adansonia_digitata.jpg/960px-Baobab_Adansonia_digitata.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Baobab_Adansonia_digitata.jpg/960px-Baobab_Adansonia_digitata.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Baobab_Adansonia_digitata.jpg/960px-Baobab_Adansonia_digitata.jpg"
+      ]
     },
     {
       "id": "fiori-piante-25",
@@ -190,7 +262,10 @@
       "aliases": [
         "sequoia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg/960px-Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg/960px-Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg/960px-Giant_sequoias_in_Sequoia_National_Park_02_2013.jpg"
+      ]
     },
     {
       "id": "fiori-piante-26",
@@ -199,7 +274,10 @@
         "sakura",
         "fiori di ciliegio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg/960px-Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg/960px-Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg/960px-Sakura_and_Moss_Pink_-_%E6%A1%9C%28%E3%81%95%E3%81%8F%E3%82%89%29%E3%81%A8%E8%8A%9D%E6%A1%9C%28%E3%81%97%E3%81%B0%E3%81%96%E3%81%8F%E3%82%89%29.jpg"
+      ]
     },
     {
       "id": "fiori-piante-27",
@@ -207,7 +285,10 @@
       "aliases": [
         "palma da cocco"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/1859-Martinique.web.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Coconut_palm_trees_on_the_beach_of_Sabang%2C_Palawan%2C_Philippines.jpg/960px-Coconut_palm_trees_on_the_beach_of_Sabang%2C_Palawan%2C_Philippines.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Coconut_palm_trees_on_the_beach_of_Sabang%2C_Palawan%2C_Philippines.jpg/960px-Coconut_palm_trees_on_the_beach_of_Sabang%2C_Palawan%2C_Philippines.jpg"
+      ]
     },
     {
       "id": "fiori-piante-28",
@@ -215,7 +296,10 @@
       "aliases": [
         "trifoglio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Four-leaf_Clover_Trifolium_repens_2.jpg/960px-Four-leaf_Clover_Trifolium_repens_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Four-leaf_Clover_Trifolium_repens_2.jpg/960px-Four-leaf_Clover_Trifolium_repens_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Four-leaf_Clover_Trifolium_repens_2.jpg/960px-Four-leaf_Clover_Trifolium_repens_2.jpg"
+      ]
     },
     {
       "id": "fiori-piante-29",
@@ -223,19 +307,28 @@
       "aliases": [
         "dente di leone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/DandelionFlower.jpg/960px-DandelionFlower.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/DandelionFlower.jpg/960px-DandelionFlower.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/DandelionFlower.jpg/960px-DandelionFlower.jpg"
+      ]
     },
     {
       "id": "fiori-piante-30",
       "answer": "Edera",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Hedera_algeriensis_kz01.jpg/960px-Hedera_algeriensis_kz01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Hedera_algeriensis_kz01.jpg/960px-Hedera_algeriensis_kz01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Hedera_algeriensis_kz01.jpg/960px-Hedera_algeriensis_kz01.jpg"
+      ]
     },
     {
       "id": "fiori-piante-31",
       "answer": "Felce",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg/960px-Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg/960px-Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg/960px-Villa_Strohl-Fern_Lyc%C3%A9e_fran%C3%A7ais_Chateaubriand_de_Rome_-_Petite_Porte_-_Via_di_Villa_Ruffo.jpg"
+      ]
     },
     {
       "id": "fiori-piante-32",
@@ -243,7 +336,10 @@
       "aliases": [
         "pino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Pinus_coulteri_MHNT_Cone.jpg/960px-Pinus_coulteri_MHNT_Cone.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Pinus_coulteri_MHNT_Cone.jpg/960px-Pinus_coulteri_MHNT_Cone.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Pinus_coulteri_MHNT_Cone.jpg/960px-Pinus_coulteri_MHNT_Cone.jpg"
+      ]
     }
   ],
   "scope": "intl",

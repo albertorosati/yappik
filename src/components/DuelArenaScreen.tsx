@@ -24,11 +24,13 @@ import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
 import {
   getBackupImageUrl,
+  getResolvedImageUrl,
   isImageCached,
   prepareArenaDeck,
   primeImage,
   getItemImagePool,
 } from '../data/categories';
+import { isRenderedImageHealthy } from '../utils/itemUtils';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { t, localizePlayerName } from '../services/i18n';
@@ -130,7 +132,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     photoOverride ||
     (usingBackupUrl
       ? getBackupImageUrl(currentItem.imageUrl)
-      : resolvedUrlsRef.current.get(currentItem.id) || currentItem.imageUrl);
+      : resolvedUrlsRef.current.get(currentItem.id) ||
+        getResolvedImageUrl(currentItem.imageUrl));
 
   const [imageLoaded, setImageLoaded] = useState(() => isImageCached(displaySrc));
 
@@ -140,12 +143,21 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     setImageLoaded(cached);
     if (!cached) {
       primeImage(displaySrc)
-        .then(() => {
+        .then((finalSrc) => {
+          if (finalSrc && currentItem) {
+            resolvedUrlsRef.current.set(currentItem.id, finalSrc);
+          }
           setImageLoaded(true);
         })
-        .catch(() => {});
+        .catch(() => {
+          if (!usingBackupUrl) {
+            setUsingBackupUrl(true);
+          } else {
+            setImageLoaded(true);
+          }
+        });
     }
-  }, [displaySrc]);
+  }, [displaySrc, currentItem, usingBackupUrl]);
 
   // Rolling preloader
   useEffect(() => {
@@ -155,24 +167,17 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       if (
         !candidate ||
         brokenIdsRef.current.has(candidate.id) ||
-        isImageCached(candidate.imageUrl)
+        resolvedUrlsRef.current.has(candidate.id)
       ) {
         continue;
       }
 
       primeImage(candidate.imageUrl)
-        .then(() => {
-          resolvedUrlsRef.current.set(candidate.id, candidate.imageUrl);
+        .then((resolvedSrc) => {
+          resolvedUrlsRef.current.set(candidate.id, resolvedSrc);
         })
         .catch(() => {
-          const backup = getBackupImageUrl(candidate.imageUrl);
-          primeImage(backup)
-            .then(() => {
-              resolvedUrlsRef.current.set(candidate.id, backup);
-            })
-            .catch(() => {
-              brokenIdsRef.current.add(candidate.id);
-            });
+          brokenIdsRef.current.add(candidate.id);
         });
     }
   }, [deck, itemIndex]);
@@ -231,6 +236,11 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   }, [currentLeader, p1.name, p2.name, settings.language]);
 
   const advanceToNextImage = useCallback(() => {
+    ignoreVoiceUntilRef.current = Math.max(
+      ignoreVoiceUntilRef.current,
+      performance.now() + 250
+    );
+    recognizerRef.current?.consumeCurrentBuffer();
     setUsingBackupUrl(false);
     setPhotoOverride(null);
     setItemIndex((prev) => {
@@ -387,7 +397,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   }, [settings.passPenaltySeconds, advanceToNextImage]);
 
   const processSpokenAlternatives = useCallback(
-    (alternatives: string[], sourcePlayer?: PlayerId) => {
+    (alternatives: string[], sourcePlayer?: PlayerId, isFinal = true) => {
       const st = stateRef.current;
       if (
         st.duelEnded ||
@@ -414,11 +424,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         setLiveTranscript(alternatives[0]);
       }
 
-      const matchResult = evaluateVoiceInput(alternatives, st.currentItem);
+      const matchResult = evaluateVoiceInput(alternatives, st.currentItem, {
+        isFinal,
+      });
       if (matchResult.isPassCommand) {
         triggerPass();
       } else if (matchResult.matched) {
-        triggerCorrectGuess(alternatives[0]);
+        triggerCorrectGuess(matchResult.matchedAlias || alternatives[0]);
       }
     },
     [settings.micMode, p2RemoteConnected, triggerPass, triggerCorrectGuess]
@@ -440,10 +452,11 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     }
     setMicErrorMsg(null);
     const rec = new SmartSpeechRecognizer(
-      (alternatives) => {
+      (alternatives, isFinal) => {
         processSpokenAlternativesRef.current(
           alternatives,
-          stateRef.current.activePlayer
+          stateRef.current.activePlayer,
+          isFinal
         );
       },
       (listening, err) => {
@@ -466,7 +479,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     rec.setVocabulary(vocab);
     recognizerRef.current = rec;
     rec.start();
-  }, [isDiscordActivity, p2RemoteConnected, settings.language]);
+  }, [isDiscordActivity, p2RemoteConnected, settings.language, category.items]);
 
   useEffect(() => {
     startMicSession();
@@ -487,7 +500,11 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
           ? [latestRemotePacket.transcript]
           : [];
       if (alts.length > 0) {
-        processSpokenAlternatives(alts, stateRef.current.activePlayer);
+        processSpokenAlternatives(
+          alts,
+          stateRef.current.activePlayer,
+          Boolean(latestRemotePacket.isFinal ?? true)
+        );
       }
     } else if (latestRemotePacket.type === 'PASS_BUTTON') {
       if (stateRef.current.activePlayer === 'p2') {
@@ -863,25 +880,55 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               )}
 
               {/* The Photo Itself: Fits Real Aspect Ratio */}
-              <img
-                key={displaySrc}
-                src={displaySrc}
-                alt={currentItem.answer}
-                decoding="async"
-                loading="eager"
-                onLoad={() => setImageLoaded(true)}
-                onError={() => {
-                  if (!usingBackupUrl) {
-                    setUsingBackupUrl(true);
-                  } else {
-                    brokenIdsRef.current.add(currentItem.id);
-                    advanceToNextImage();
-                  }
-                }}
-                className={`max-h-[48vh] sm:max-h-[52vh] w-auto max-w-full object-contain rounded-lg transition-opacity duration-150 ${
-                  imageLoaded ? 'opacity-100' : 'opacity-0'
-                }`}
-              />
+              <div className="min-h-[190px] min-w-[220px] flex items-center justify-center bg-paper/50 rounded-lg overflow-hidden relative">
+                {!imageLoaded && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-ink/5 animate-pulse rounded-lg">
+                    <div className="w-8 h-8 rounded-full border-[3px] border-ink/20 border-t-ink animate-spin" />
+                  </div>
+                )}
+                <img
+                  key={displaySrc}
+                  src={displaySrc}
+                  alt={currentItem.answer}
+                  decoding="async"
+                  loading="eager"
+                  onLoad={(e) => {
+                    const { naturalWidth, naturalHeight } = e.currentTarget;
+                    if (!isRenderedImageHealthy(naturalWidth, naturalHeight)) {
+                      const cleanPool = getItemImagePool(currentItem).filter(
+                        (u) => u !== displaySrc
+                      );
+                      if (cleanPool.length > 0 && !photoOverride) {
+                        setPhotoOverride(cleanPool[0]);
+                        return;
+                      }
+                      brokenIdsRef.current.add(currentItem.id);
+                      advanceToNextImage();
+                      return;
+                    }
+                    setImageLoaded(true);
+                  }}
+                  onError={() => {
+                    if (!usingBackupUrl) {
+                      setUsingBackupUrl(true);
+                    } else {
+                      const cleanPool = getItemImagePool(currentItem).filter(
+                        (u) => u !== displaySrc
+                      );
+                      if (cleanPool.length > 0 && !photoOverride) {
+                        setUsingBackupUrl(false);
+                        setPhotoOverride(cleanPool[0]);
+                        return;
+                      }
+                      brokenIdsRef.current.add(currentItem.id);
+                      advanceToNextImage();
+                    }
+                  }}
+                  className={`max-h-[48vh] sm:max-h-[52vh] w-auto max-w-full object-contain rounded-lg transition-opacity duration-150 ${
+                    imageLoaded ? 'opacity-100' : 'opacity-0'
+                  }`}
+                />
+              </div>
 
               {/* A1: Sticker Label Overlapping Bottom Edge of Photo */}
               {revealedAnswer && (

@@ -6,10 +6,10 @@
   "themeHex": "#06B6D4",
   "coverImage": "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/it/thumb/6/65/Bart_Simpson.png/960px-Bart_Simpson.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/it/7/73/Lisa_Simpson_hd.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png",
+    "https://thumb.wikimedia.org/wikipedia/it/thumb/6/65/Bart_Simpson.png/960px-Bart_Simpson.png",
+    "https://upload.wikimedia.org/wikipedia/it/7/73/Lisa_Simpson_hd.png",
+    "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "homer",
         "i simpson"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png"
+      ]
     },
     {
       "id": "cartoni-animati-2",
@@ -27,7 +30,10 @@
       "aliases": [
         "bart"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/65/Bart_Simpson.png/960px-Bart_Simpson.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/65/Bart_Simpson.png/960px-Bart_Simpson.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/6/65/Bart_Simpson.png/960px-Bart_Simpson.png"
+      ]
     },
     {
       "id": "cartoni-animati-3",
@@ -35,7 +41,10 @@
       "aliases": [
         "lisa"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/7/73/Lisa_Simpson_hd.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/7/73/Lisa_Simpson_hd.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/7/73/Lisa_Simpson_hd.png"
+      ]
     },
     {
       "id": "cartoni-animati-4",
@@ -43,7 +52,10 @@
       "aliases": [
         "spongebob squarepants"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png"
+      ]
     },
     {
       "id": "cartoni-animati-5",
@@ -51,7 +63,10 @@
       "aliases": [
         "patrick"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Patrick_Star_character.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Patrick_Star_character.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/Patrick_Star_character.png"
+      ]
     },
     {
       "id": "cartoni-animati-6",
@@ -59,7 +74,10 @@
       "aliases": [
         "squiddi tentacolo"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Squidward_Tentacles.svg/960px-Squidward_Tentacles.svg.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Squidward_Tentacles.svg/960px-Squidward_Tentacles.svg.png"
+      ]
     },
     {
       "id": "cartoni-animati-7",
@@ -67,7 +85,10 @@
       "aliases": [
         "griffin"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c2/Peter_Griffin.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c2/Peter_Griffin.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/c/c2/Peter_Griffin.png"
+      ]
     },
     {
       "id": "cartoni-animati-8",
@@ -75,7 +96,10 @@
       "aliases": [
         "stewie"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/02/Stewie_Griffin.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/02/Stewie_Griffin.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/02/Stewie_Griffin.png"
+      ]
     },
     {
       "id": "cartoni-animati-9",
@@ -83,7 +107,10 @@
       "aliases": [
         "orco verde"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/960px-Shrek_%28film%29.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/960px-Shrek_%28film%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Shrek_%28film%29.png/960px-Shrek_%28film%29.png"
+      ]
     },
     {
       "id": "cartoni-animati-10",
@@ -91,7 +118,10 @@
       "aliases": [
         "puss in boots"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Offterdinger_Der_gestiefelte_Kater_%281%29.jpg/960px-Offterdinger_Der_gestiefelte_Kater_%281%29.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-11",
@@ -100,7 +130,10 @@
         "sceriffo woody",
         "toy story"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg/960px-TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Disneyland_Hong_Kong_-_Toy_Story_Land_IMG_5460.JPG/960px-Disneyland_Hong_Kong_-_Toy_Story_Land_IMG_5460.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Disneyland_Hong_Kong_-_Toy_Story_Land_IMG_5460.JPG/960px-Disneyland_Hong_Kong_-_Toy_Story_Land_IMG_5460.JPG"
+      ]
     },
     {
       "id": "cartoni-animati-12",
@@ -108,7 +141,10 @@
       "aliases": [
         "buzz"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg/960px-Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg/960px-Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg/960px-Buzz_Lightyear_sculpture_of_Toy_Story_Hotel_Shanghai_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-13",
@@ -116,7 +152,10 @@
       "aliases": [
         "frozen"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Elsa_Jean.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/ElsaAnnaFrozen.jpg/960px-ElsaAnnaFrozen.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/ElsaAnnaFrozen.jpg/960px-ElsaAnnaFrozen.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-14",
@@ -124,7 +163,10 @@
       "aliases": [
         "il re leone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ea/Re_Leone.png/960px-Re_Leone.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ea/Re_Leone.png/960px-Re_Leone.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/e/ea/Re_Leone.png/960px-Re_Leone.png"
+      ]
     },
     {
       "id": "cartoni-animati-15",
@@ -132,7 +174,10 @@
       "aliases": [
         "lilo e stitch"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Lilo_%26_Stitch_%282002%29.png/960px-Lilo_%26_Stitch_%282002%29.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Lilo_%26_Stitch_%282002%29.png/960px-Lilo_%26_Stitch_%282002%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/9/9d/Lilo_%26_Stitch_%282002%29.png/960px-Lilo_%26_Stitch_%282002%29.png"
+      ]
     },
     {
       "id": "cartoni-animati-16",
@@ -140,7 +185,10 @@
       "aliases": [
         "aladino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-17",
@@ -148,15 +196,23 @@
       "aliases": [
         "ariel"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png"
+      ]
     },
     {
       "id": "cartoni-animati-18",
       "answer": "Kung Fu Panda",
       "aliases": [
-        "po"
+        "maestro po",
+        "panda po",
+        "po il panda"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Jack_Black%2C_Kung_Fu_Panda_2%2C_Sydney.jpg/960px-Jack_Black%2C_Kung_Fu_Panda_2%2C_Sydney.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3d/Po_from_DreamWorks_Animation%27s_Kung_Fu_Panda.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/3/3d/Po_from_DreamWorks_Animation%27s_Kung_Fu_Panda.png"
+      ]
     },
     {
       "id": "cartoni-animati-19",
@@ -165,7 +221,10 @@
         "minion",
         "cattivissimo me"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Minion_sculpture_in_Brisbane%2C_2024.jpg/960px-Minion_sculpture_in_Brisbane%2C_2024.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Minion_sculpture_in_Brisbane%2C_2024.jpg/960px-Minion_sculpture_in_Brisbane%2C_2024.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Minion_sculpture_in_Brisbane%2C_2024.jpg/960px-Minion_sculpture_in_Brisbane%2C_2024.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-20",
@@ -174,7 +233,10 @@
         "wall e",
         "walle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Great_Wall_Voleex_C10_2010.jpg/960px-Great_Wall_Voleex_C10_2010.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/WALL-E_balloon_at_Shin_Kong_Cineplex_20080725a_%28cropped%29.jpg/960px-WALL-E_balloon_at_Shin_Kong_Cineplex_20080725a_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/WALL-E_balloon_at_Shin_Kong_Cineplex_20080725a_%28cropped%29.jpg/960px-WALL-E_balloon_at_Shin_Kong_Cineplex_20080725a_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-21",
@@ -182,7 +244,10 @@
       "aliases": [
         "scooby"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c0/Scooby_Doo.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c0/Scooby_Doo.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/c/c0/Scooby_Doo.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-22",
@@ -190,7 +255,10 @@
       "aliases": [
         "coniglio bugs"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/a/aa/Super_Bunny_in_orbita.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/a/aa/Super_Bunny_in_orbita.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/a/aa/Super_Bunny_in_orbita.png"
+      ]
     },
     {
       "id": "cartoni-animati-23",
@@ -198,7 +266,10 @@
       "aliases": [
         "daffy"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d7/Daffy_Duck.png/960px-Daffy_Duck.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d7/Daffy_Duck.png/960px-Daffy_Duck.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d7/Daffy_Duck.png/960px-Daffy_Duck.png"
+      ]
     },
     {
       "id": "cartoni-animati-24",
@@ -207,7 +278,10 @@
         "tom",
         "jerry"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/40/Tom_%26_Jerry_-_Il_film.png/960px-Tom_%26_Jerry_-_Il_film.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/40/Tom_%26_Jerry_-_Il_film.png/960px-Tom_%26_Jerry_-_Il_film.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/40/Tom_%26_Jerry_-_Il_film.png/960px-Tom_%26_Jerry_-_Il_film.png"
+      ]
     },
     {
       "id": "cartoni-animati-25",
@@ -215,7 +289,10 @@
       "aliases": [
         "mickey mouse"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/1970_Fiat_500_L_--_2011_DC_1.jpg/960px-1970_Fiat_500_L_--_2011_DC_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png"
+      ]
     },
     {
       "id": "cartoni-animati-26",
@@ -234,7 +311,10 @@
       "aliases": [
         "goofy"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png"
+      ]
     },
     {
       "id": "cartoni-animati-28",
@@ -242,7 +322,10 @@
       "aliases": [
         "paperone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Donald_Duck.png/960px-Donald_Duck.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png"
+      ]
     },
     {
       "id": "cartoni-animati-29",
@@ -250,7 +333,10 @@
       "aliases": [
         "popeye"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Popeye_transparent.png/960px-Popeye_transparent.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Popeye_transparent.png/960px-Popeye_transparent.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Popeye_transparent.png/960px-Popeye_transparent.png"
+      ]
     },
     {
       "id": "cartoni-animati-30",
@@ -258,7 +344,10 @@
       "aliases": [
         "pink panther"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pp_show_03.JPEG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pp_show_03.JPEG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/b/b6/Pp_show_03.JPEG"
+      ]
     },
     {
       "id": "cartoni-animati-31",
@@ -267,7 +356,10 @@
         "pooh",
         "orsetto pooh"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pooh_Shepard1928.jpg/960px-Pooh_Shepard1928.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pooh_Shepard1928.jpg/960px-Pooh_Shepard1928.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pooh_Shepard1928.jpg/960px-Pooh_Shepard1928.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-32",
@@ -275,7 +367,10 @@
       "aliases": [
         "gatto arancione"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/5d/Garfield_film.jpeg/960px-Garfield_film.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/5d/Garfield_film.jpeg/960px-Garfield_film.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/5/5d/Garfield_film.jpeg/960px-Garfield_film.jpeg"
+      ]
     },
     {
       "id": "cartoni-animati-33",
@@ -285,7 +380,10 @@
         "puffetta",
         "puffo"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Anton_Yelchin_Deauville_2011.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Smurf_%288308239788%29.jpg/960px-Smurf_%288308239788%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Smurf_%288308239788%29.jpg/960px-Smurf_%288308239788%29.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-34",
@@ -294,7 +392,10 @@
         "rick and morty",
         "rick"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png"
+      ]
     },
     {
       "id": "cartoni-animati-35",
@@ -303,7 +404,10 @@
         "cartman",
         "south park"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/b6/Cartman.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/b6/Cartman.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/b/b6/Cartman.png"
+      ]
     },
     {
       "id": "cartoni-animati-36",
@@ -311,7 +415,10 @@
       "aliases": [
         "futurama"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Futurama-cast.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Futurama-cast.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/1/1f/Futurama-cast.png"
+      ]
     },
     {
       "id": "cartoni-animati-37",
@@ -320,7 +427,10 @@
         "antenati",
         "flintstones"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Un_uomo_chiamato_Flintstone.png/960px-Un_uomo_chiamato_Flintstone.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Un_uomo_chiamato_Flintstone.png/960px-Un_uomo_chiamato_Flintstone.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Un_uomo_chiamato_Flintstone.png/960px-Un_uomo_chiamato_Flintstone.png"
+      ]
     }
   ],
   "scope": "intl",

@@ -33,17 +33,22 @@ export interface AppVoiceConfig {
   language: string;
   maxAlternatives: number;
   stopwords: string[];
+  genericTokens?: string[];
   numberMap: Record<string, string>;
   romanNumeralsMap?: Record<string, string>;
   passKeywords: string[];
   phoneticReplacements: [string, string][];
   thresholds: {
     acceptConfidence: number;
+    interimAcceptConfidence?: number;
     instantConfidence: number;
     shortWordMaxLength: number;
     mediumWordMaxLength: number;
+    fuzzyMinLength?: number;
     maxLengthDifference: number;
     relativeLengthRatio?: number;
+    partialMatchPenalty?: number;
+    alternativeRankPenalties?: number[];
   };
 }
 

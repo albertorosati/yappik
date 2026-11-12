@@ -6,10 +6,10 @@
   "themeHex": "#F59E0B",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/960px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/960px-Cardiac_surgery_operating_room.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/960px-Bruce_McCandless_II_during_EVA_in_1984.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/960px-Cardiac_surgery_operating_room.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg"
   ],
   "items": [
     {
@@ -23,6 +23,9 @@
       "answerEn": "Firefighter",
       "aliasesEn": [
         "fireman"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg"
       ]
     },
     {
@@ -36,6 +39,9 @@
       "aliasesEn": [
         "cosmonaut",
         "spaceman"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/960px-Bruce_McCandless_II_during_EVA_in_1984.jpg"
       ]
     },
     {
@@ -46,7 +52,10 @@
         "dottore",
         "sala operatoria"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/960px-Cardiac_surgery_operating_room.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/960px-Cardiac_surgery_operating_room.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cardiac_surgery_operating_room.jpg/960px-Cardiac_surgery_operating_room.jpg"
+      ]
     },
     {
       "id": "mestieri-4",
@@ -54,7 +63,10 @@
       "aliases": [
         "cuoco"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ribot_Theodule_The_Cook_And_The_Cat-1.jpg"
+      ]
     },
     {
       "id": "mestieri-5",
@@ -63,7 +75,10 @@
         "pilota",
         "comandante"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/960px-Lt_Mike_Hunter_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/960px-Lt_Mike_Hunter_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/960px-Lt_Mike_Hunter_1.jpg"
+      ]
     },
     {
       "id": "mestieri-6",
@@ -71,7 +86,10 @@
       "aliases": [
         "magistrato"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/ICJ-CJI_hearing_1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/ICJ-CJI_hearing_1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/11/ICJ-CJI_hearing_1.jpg"
+      ]
     },
     {
       "id": "mestieri-7",
@@ -79,7 +97,10 @@
       "aliases": [
         "arbitro di calcio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg/960px-Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg/960px-Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg/960px-Clemens_Sch%C3%BCttengruber%2C_Fu%C3%9Fballschiedsrichter_%2803%29.jpg"
+      ]
     },
     {
       "id": "mestieri-8",
@@ -88,13 +109,19 @@
         "sub",
         "subacqueo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Diving_stage.jpg/960px-Diving_stage.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Diving_stage.jpg/960px-Diving_stage.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Diving_stage.jpg/960px-Diving_stage.jpg"
+      ]
     },
     {
       "id": "mestieri-9",
       "answer": "Saldatore",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/AlfredPalmerwelder1.jpg/960px-AlfredPalmerwelder1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/AlfredPalmerwelder1.jpg/960px-AlfredPalmerwelder1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/AlfredPalmerwelder1.jpg/960px-AlfredPalmerwelder1.jpg"
+      ]
     },
     {
       "id": "mestieri-10",
@@ -106,6 +133,9 @@
       "answerEn": "Carpenter",
       "aliasesEn": [
         "woodworker"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/PalmercarpenterA.jpg/960px-PalmercarpenterA.jpg"
       ]
     },
     {
@@ -116,13 +146,19 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2008-04-17_1989_Saab_900_Turbo_getting_new_tyres.jpg/960px-2008-04-17_1989_Saab_900_Turbo_getting_new_tyres.jpg",
       "answerEn": "Mechanic",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2008-04-17_1989_Saab_900_Turbo_getting_new_tyres.jpg/960px-2008-04-17_1989_Saab_900_Turbo_getting_new_tyres.jpg"
+      ]
     },
     {
       "id": "mestieri-12",
       "answer": "Fotografo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Photograph_of_a_Photographer.jpg/960px-Photograph_of_a_Photographer.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Photograph_of_a_Photographer.jpg/960px-Photograph_of_a_Photographer.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Photograph_of_a_Photographer.jpg/960px-Photograph_of_a_Photographer.jpg"
+      ]
     },
     {
       "id": "mestieri-13",
@@ -130,7 +166,10 @@
       "aliases": [
         "maestro d orchestra"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Leonard_Bernstein_-_1950s.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Leonard_Bernstein_-_1950s.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ad/Leonard_Bernstein_-_1950s.JPG"
+      ]
     },
     {
       "id": "mestieri-14",
@@ -138,7 +177,10 @@
       "aliases": [
         "danza classica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Corsaire_-Le_Jardin_Anime_-Pierina_Legnani_-Olga_Preobrajenska_-1899.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Corsaire_-Le_Jardin_Anime_-Pierina_Legnani_-Olga_Preobrajenska_-1899.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Corsaire_-Le_Jardin_Anime_-Pierina_Legnani_-Olga_Preobrajenska_-1899.jpg"
+      ]
     },
     {
       "id": "mestieri-15",
@@ -146,7 +188,10 @@
       "aliases": [
         "api"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beekeeper_keeping_bees.jpg/960px-Beekeeper_keeping_bees.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beekeeper_keeping_bees.jpg/960px-Beekeeper_keeping_bees.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Beekeeper_keeping_bees.jpg/960px-Beekeeper_keeping_bees.jpg"
+      ]
     },
     {
       "id": "mestieri-16",
@@ -154,13 +199,19 @@
       "aliases": [
         "parrucchiere"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Iranian_barber.jpg/960px-Iranian_barber.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Iranian_barber.jpg/960px-Iranian_barber.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Iranian_barber.jpg/960px-Iranian_barber.jpg"
+      ]
     },
     {
       "id": "mestieri-17",
       "answer": "Tatuatore",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Florence_Tattoo_Convention_%285158061891%29.jpg/960px-Florence_Tattoo_Convention_%285158061891%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Florence_Tattoo_Convention_%285158061891%29.jpg/960px-Florence_Tattoo_Convention_%285158061891%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Florence_Tattoo_Convention_%285158061891%29.jpg/960px-Florence_Tattoo_Convention_%285158061891%29.jpg"
+      ]
     },
     {
       "id": "mestieri-18",
@@ -170,7 +221,10 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg/960px-US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg",
       "answerEn": "Dentist",
-      "aliasesEn": []
+      "aliasesEn": [],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg/960px-US_Navy_030124-N-1328C-510_Navy_dentist_treats_patients_aboard_ship.jpg"
+      ]
     },
     {
       "id": "mestieri-19",
@@ -180,6 +234,9 @@
       "answerEn": "Veterinarian",
       "aliasesEn": [
         "vet"
+      ],
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Surgery_performed_on_a_domestic_cat.jpg/960px-Surgery_performed_on_a_domestic_cat.jpg"
       ]
     },
     {
@@ -188,7 +245,10 @@
       "aliases": [
         "salvataggio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg/960px-Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg/960px-Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg/960px-Lifeguard_jumping_into_action%2C_Ocean_City%2C_June_27_%2C2007.jpg"
+      ]
     },
     {
       "id": "mestieri-21",
@@ -196,7 +256,10 @@
       "aliases": [
         "cantiere"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kuben_murer.jpg/960px-Kuben_murer.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kuben_murer.jpg/960px-Kuben_murer.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kuben_murer.jpg/960px-Kuben_murer.jpg"
+      ]
     },
     {
       "id": "mestieri-22",
@@ -204,13 +267,19 @@
       "aliases": [
         "maniscalco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_blacksmith_at_work.jpg/960px-A_blacksmith_at_work.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_blacksmith_at_work.jpg/960px-A_blacksmith_at_work.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_blacksmith_at_work.jpg/960px-A_blacksmith_at_work.jpg"
+      ]
     },
     {
       "id": "mestieri-23",
       "answer": "Pescatore",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Belgian_Fishermen_in_the_British_Fishing_Village_of_Brixham%2C_Devon_in_1944_TR1868.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Belgian_Fishermen_in_the_British_Fishing_Village_of_Brixham%2C_Devon_in_1944_TR1868.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Belgian_Fishermen_in_the_British_Fishing_Village_of_Brixham%2C_Devon_in_1944_TR1868.jpg"
+      ]
     },
     {
       "id": "mestieri-24",
@@ -218,7 +287,10 @@
       "aliases": [
         "agricoltore"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Woman_at_work%2C_Gujarat.jpg/960px-Woman_at_work%2C_Gujarat.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Woman_at_work%2C_Gujarat.jpg/960px-Woman_at_work%2C_Gujarat.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Woman_at_work%2C_Gujarat.jpg/960px-Woman_at_work%2C_Gujarat.jpg"
+      ]
     },
     {
       "id": "mestieri-25",
@@ -226,13 +298,19 @@
       "aliases": [
         "fornaio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/USS_John_C._Stennis_baker.jpg/960px-USS_John_C._Stennis_baker.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/USS_John_C._Stennis_baker.jpg/960px-USS_John_C._Stennis_baker.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/USS_John_C._Stennis_baker.jpg/960px-USS_John_C._Stennis_baker.jpg"
+      ]
     },
     {
       "id": "mestieri-26",
       "answer": "Macellaio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Wiki_Loves_Mett_P1020898.JPG/960px-Wiki_Loves_Mett_P1020898.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Wiki_Loves_Mett_P1020898.JPG/960px-Wiki_Loves_Mett_P1020898.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Wiki_Loves_Mett_P1020898.JPG/960px-Wiki_Loves_Mett_P1020898.JPG"
+      ]
     },
     {
       "id": "mestieri-27",
@@ -240,13 +318,19 @@
       "aliases": [
         "fiorista"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Parisian_Flower_Market.jpg/960px-A_Parisian_Flower_Market.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Parisian_Flower_Market.jpg/960px-A_Parisian_Flower_Market.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/A_Parisian_Flower_Market.jpg/960px-A_Parisian_Flower_Market.jpg"
+      ]
     },
     {
       "id": "mestieri-28",
       "answer": "Orologiaio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Fertigung_Bruno_S%C3%B6hnle_03.jpg/960px-Fertigung_Bruno_S%C3%B6hnle_03.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Fertigung_Bruno_S%C3%B6hnle_03.jpg/960px-Fertigung_Bruno_S%C3%B6hnle_03.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Fertigung_Bruno_S%C3%B6hnle_03.jpg/960px-Fertigung_Bruno_S%C3%B6hnle_03.jpg"
+      ]
     },
     {
       "id": "mestieri-29",
@@ -254,7 +338,10 @@
       "aliases": [
         "scavi archeologici"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dolina-Pano-3_%28cropped%29.jpg/960px-Dolina-Pano-3_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dolina-Pano-3_%28cropped%29.jpg/960px-Dolina-Pano-3_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dolina-Pano-3_%28cropped%29.jpg/960px-Dolina-Pano-3_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "mestieri-30",
@@ -263,7 +350,10 @@
         "scienziato",
         "ricercatore"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Metsu%2C_Gabri%C3%ABl_-_L%27Apothicaire_-_c._1651-1667.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Metsu%2C_Gabri%C3%ABl_-_L%27Apothicaire_-_c._1651-1667.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Metsu%2C_Gabri%C3%ABl_-_L%27Apothicaire_-_c._1651-1667.jpg"
+      ]
     },
     {
       "id": "mestieri-31",
@@ -271,7 +361,10 @@
       "aliases": [
         "deejay"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg/960px-Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg/960px-Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg/960px-Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg"
+      ]
     },
     {
       "id": "mestieri-32",
@@ -279,7 +372,10 @@
       "aliases": [
         "sala"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Annie_O%27Black_1973.jpg/960px-Annie_O%27Black_1973.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Annie_O%27Black_1973.jpg/960px-Annie_O%27Black_1973.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Annie_O%27Black_1973.jpg/960px-Annie_O%27Black_1973.jpg"
+      ]
     },
     {
       "id": "mestieri-33",
@@ -287,7 +383,10 @@
       "aliases": [
         "barista"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Our_bartender_at_Superior%2C_New_Orleans_2016.jpg/960px-Our_bartender_at_Superior%2C_New_Orleans_2016.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Our_bartender_at_Superior%2C_New_Orleans_2016.jpg/960px-Our_bartender_at_Superior%2C_New_Orleans_2016.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Our_bartender_at_Superior%2C_New_Orleans_2016.jpg/960px-Our_bartender_at_Superior%2C_New_Orleans_2016.jpg"
+      ]
     },
     {
       "id": "mestieri-34",
@@ -295,7 +394,10 @@
       "aliases": [
         "venezia gondola"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Gondola_Ride.jpg/960px-Gondola_Ride.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Gondola_Ride.jpg/960px-Gondola_Ride.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Gondola_Ride.jpg/960px-Gondola_Ride.jpg"
+      ]
     },
     {
       "id": "mestieri-35",
@@ -303,7 +405,10 @@
       "aliases": [
         "guardie svizzere"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Guards_at_Buckingham_Palace_%2832629261244%29.jpg/960px-Guards_at_Buckingham_Palace_%2832629261244%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/JPII_29_09_2004_2.JPG/960px-JPII_29_09_2004_2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/JPII_29_09_2004_2.JPG/960px-JPII_29_09_2004_2.JPG"
+      ]
     }
   ],
   "scope": "intl",

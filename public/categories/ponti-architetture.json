@@ -6,10 +6,10 @@
   "themeHex": "#3B82F6",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg/960px-Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg/960px-View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg/960px-Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg/960px-Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg/960px-View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg/960px-Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg"
   ],
   "items": [
     {
@@ -18,13 +18,19 @@
       "aliases": [
         "rialto venezia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-2",
       "answer": "Ponte dei Sospiri",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg/960px-Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg/960px-Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg/960px-Antonio_Contin_-_Ponte_dei_sospiri_%28Venice%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-3",
@@ -32,13 +38,19 @@
       "aliases": [
         "brooklyn"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg/960px-View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg/960px-View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg/960px-View_of_Brooklyn_Bridge_Park_from_Manhattan_Bridge.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-4",
       "answer": "Ponte di Manhattan",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg/960px-Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg/960px-Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg/960px-Manhattan_Bridge%2C_New_York_City%2C_20231001_1051_0959.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-5",
@@ -46,7 +58,10 @@
       "aliases": [
         "ponte di millau"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a6/ViaducdeMillau.jpg/960px-ViaducdeMillau.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a6/ViaducdeMillau.jpg/960px-ViaducdeMillau.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a6/ViaducdeMillau.jpg/960px-ViaducdeMillau.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-6",
@@ -54,7 +69,10 @@
       "aliases": [
         "ponte di praga"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg/960px-Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg/960px-Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg/960px-Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-7",
@@ -62,7 +80,10 @@
       "aliases": [
         "ponte di budapest"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg/960px-Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg/960px-Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg/960px-Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-8",
@@ -70,7 +91,10 @@
       "aliases": [
         "ponte di sydney"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sydney_Harbour_Bridge-16_October_2025.jpg/960px-Sydney_Harbour_Bridge-16_October_2025.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sydney_Harbour_Bridge-16_October_2025.jpg/960px-Sydney_Harbour_Bridge-16_October_2025.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sydney_Harbour_Bridge-16_October_2025.jpg/960px-Sydney_Harbour_Bridge-16_October_2025.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-9",
@@ -78,7 +102,10 @@
       "aliases": [
         "ponte di lisbona"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Vasco_da_Gama_Bridge_aerial_view.jpg/960px-Vasco_da_Gama_Bridge_aerial_view.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Vasco_da_Gama_Bridge_aerial_view.jpg/960px-Vasco_da_Gama_Bridge_aerial_view.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Vasco_da_Gama_Bridge_aerial_view.jpg/960px-Vasco_da_Gama_Bridge_aerial_view.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-10",
@@ -86,7 +113,10 @@
       "aliases": [
         "ponte di harry potter"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Glenfinnan_Viaduct_-_2022.jpg/960px-Glenfinnan_Viaduct_-_2022.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Glenfinnan_Viaduct_-_2022.jpg/960px-Glenfinnan_Viaduct_-_2022.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Glenfinnan_Viaduct_-_2022.jpg/960px-Glenfinnan_Viaduct_-_2022.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-11",
@@ -94,7 +124,10 @@
       "aliases": [
         "grattacielo taipei"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Taipei_Skyline_2022.06.29.jpg/960px-Taipei_Skyline_2022.06.29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Taipei_Skyline_2022.06.29.jpg/960px-Taipei_Skyline_2022.06.29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Taipei_Skyline_2022.06.29.jpg/960px-Taipei_Skyline_2022.06.29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-12",
@@ -102,7 +135,12 @@
       "aliases": [
         "kuala lumpur torri"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/C%C3%A9sar_Pelli_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Petronas_Towers_at_Night_-_from_the_base_upwards.jpg/960px-Petronas_Towers_at_Night_-_from_the_base_upwards.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Petronas_Towers_at_Night_-_from_the_base_upwards.jpg/960px-Petronas_Towers_at_Night_-_from_the_base_upwards.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Kuala_Lumpur_Malaysia_Skyline-03.jpg/960px-Kuala_Lumpur_Malaysia_Skyline-03.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Kuala_Lumpur_Malaysia_Petronas-Twin-Towers-01.jpg/960px-Kuala_Lumpur_Malaysia_Petronas-Twin-Towers-01.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-13",
@@ -110,7 +148,10 @@
       "aliases": [
         "scheggia di londra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/The_Shard_in_March_2017_%28cropped%29.jpg/960px-The_Shard_in_March_2017_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/The_Shard_in_March_2017_%28cropped%29.jpg/960px-The_Shard_in_March_2017_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/The_Shard_in_March_2017_%28cropped%29.jpg/960px-The_Shard_in_March_2017_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-14",
@@ -119,7 +160,10 @@
         "the gherkin",
         "cetriolo di londra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/960px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/960px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/960px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG"
+      ]
     },
     {
       "id": "ponti-architetture-15",
@@ -127,7 +171,10 @@
       "aliases": [
         "grattacielo chrysler"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg/960px-Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg/960px-Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg/960px-Chrysler_World_Headquarters_and_Technology_Center_%2851378087937%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-16",
@@ -135,7 +182,10 @@
       "aliases": [
         "ferro da stiro new york"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flatiron-Bldg-Atlanta.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flatiron-Bldg-Atlanta.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Flatiron-Bldg-Atlanta.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-17",
@@ -143,7 +193,10 @@
       "aliases": [
         "freedom tower"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/One_World_Trade_Center_Building.jpg/960px-One_World_Trade_Center_Building.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/One_World_Trade_Center_Building.jpg/960px-One_World_Trade_Center_Building.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/One_World_Trade_Center_Building.jpg/960px-One_World_Trade_Center_Building.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-18",
@@ -151,7 +204,10 @@
       "aliases": [
         "sears tower"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg/960px-Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg/960px-Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg/960px-Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-19",
@@ -159,7 +215,10 @@
       "aliases": [
         "torre di seattle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Space_Needle_Oct_3%2C_2017.jpg/960px-Space_Needle_Oct_3%2C_2017.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Space_Needle_Oct_3%2C_2017.jpg/960px-Space_Needle_Oct_3%2C_2017.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Space_Needle_Oct_3%2C_2017.jpg/960px-Space_Needle_Oct_3%2C_2017.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-20",
@@ -167,7 +226,10 @@
       "aliases": [
         "torre di toronto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/960px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/960px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/960px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-21",
@@ -175,19 +237,28 @@
       "aliases": [
         "alexanderplatz torre"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg/960px-%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg/960px-%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg/960px-%C3%9Cber_den_D%C3%A4chern_von_Berlin_2.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-22",
       "answer": "Tokyo Tower",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tokyo_Tower_2023.jpg/960px-Tokyo_Tower_2023.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tokyo_Tower_2023.jpg/960px-Tokyo_Tower_2023.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tokyo_Tower_2023.jpg/960px-Tokyo_Tower_2023.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-23",
       "answer": "Tokyo Skytree",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/960px-Tokyo_Skytree_2014_%E2%85%A2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/960px-Tokyo_Skytree_2014_%E2%85%A2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/960px-Tokyo_Skytree_2014_%E2%85%A2.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-24",
@@ -196,7 +267,10 @@
         "vela di dubai",
         "hotel a vela"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg/960px-Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg/960px-Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg/960px-Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-25",
@@ -204,7 +278,10 @@
       "aliases": [
         "grattacielo con la nave"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/960px-Marina_Bay_Sands_%28I%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/960px-Marina_Bay_Sands_%28I%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/960px-Marina_Bay_Sands_%28I%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-26",
@@ -212,19 +289,28 @@
       "aliases": [
         "guggenheim"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/960px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/960px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/960px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-27",
       "answer": "Museo Guggenheim di New York",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/960px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/960px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/960px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-28",
       "answer": "Walt Disney Concert Hall",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg/960px-Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg/960px-Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg/960px-Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-29",
@@ -232,7 +318,10 @@
       "aliases": [
         "zaha hadid baku"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-30",
@@ -240,7 +329,10 @@
       "aliases": [
         "grattacielo milano alberi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/28/Bosco_Verticale_Milano.jpg/960px-Bosco_Verticale_Milano.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/28/Bosco_Verticale_Milano.jpg/960px-Bosco_Verticale_Milano.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/2/28/Bosco_Verticale_Milano.jpg/960px-Bosco_Verticale_Milano.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-31",
@@ -248,13 +340,19 @@
       "aliases": [
         "piazza gae aulenti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Unicredit_Tower1.jpg/960px-Unicredit_Tower1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Unicredit_Tower1.jpg/960px-Unicredit_Tower1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Unicredit_Tower1.jpg/960px-Unicredit_Tower1.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-32",
       "answer": "Torre Velasca",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7e/Milano_Italy_Torre-Velasca-from-Duomo-01.jpg/960px-Milano_Italy_Torre-Velasca-from-Duomo-01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7e/Milano_Italy_Torre-Velasca-from-Duomo-01.jpg/960px-Milano_Italy_Torre-Velasca-from-Duomo-01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/7/7e/Milano_Italy_Torre-Velasca-from-Duomo-01.jpg/960px-Milano_Italy_Torre-Velasca-from-Duomo-01.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-33",
@@ -262,7 +360,10 @@
       "aliases": [
         "pirellone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg/960px-Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg/960px-Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/5/50/Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg/960px-Looking_up_at_Torre_Pirelli_from_Piazza_Duca_d%27Aosta%2C_Milan.jpg"
+      ]
     },
     {
       "id": "ponti-architetture-34",
@@ -270,7 +371,10 @@
       "aliases": [
         "colosseo quadrato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg/960px-Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg/960px-Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg/960px-Palazzo_della_civilt%C3%A0_del_lavoro_%28EUR%2C_Rome%29_%285904657870%29.jpg"
+      ]
     }
   ],
   "scope": "intl",

@@ -6,10 +6,10 @@
   "themeHex": "#EC4899",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/960px-Bob_Marley_circa_1976_%28cropped%29.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/960px-Bob_Marley_circa_1976_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/KurtCobainHouse.jpg/960px-KurtCobainHouse.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/George_Michael.jpeg/960px-George_Michael.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/960px-Bob_Marley_circa_1976_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/KurtCobainHouse.jpg/960px-KurtCobainHouse.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/George_Michael.jpeg/960px-George_Michael.jpeg"
   ],
   "items": [
     {
@@ -36,8 +36,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/KurtCobainHouse.jpg/960px-KurtCobainHouse.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/KurtCobainHouse.jpg/960px-KurtCobainHouse.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/31/Kurt_Cobain%2C_Smells_Like_Teen_Spirit_guitar%2C_EMP_Museum.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kurt_Cobain_Memorial_Park_04.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Kurt_Cobain_Memorial_Park_04.JPG/960px-Kurt_Cobain_Memorial_Park_04.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/6/67/Cobain_1981.png"
       ]
     },
@@ -50,8 +49,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flickr_Whitney_Houston_performing_on_GMA_2009_4.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Flickr_Whitney_Houston_performing_on_GMA_2009_7.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Flickr_Whitney_Houston_performing_on_GMA_2009_4.jpg/960px-Flickr_Whitney_Houston_performing_on_GMA_2009_4.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Flickr_Whitney_Houston_performing_on_GMA_2009_7.jpg/960px-Flickr_Whitney_Houston_performing_on_GMA_2009_7.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/a7/Whitney_Houston_Welcome_Home_Heroes_1_cropped.jpg"
       ]
     },
@@ -64,9 +63,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/George_Michael.jpeg/960px-George_Michael.jpeg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/George_Michael.jpeg/960px-George_Michael.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bd/George_Michael_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/83/George_Michael_2009_CROPPED.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f2/George_Michael.jpeg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/George_Michael_01.jpg/960px-George_Michael_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/83/George_Michael_2009_CROPPED.jpg"
       ]
     },
     {
@@ -76,9 +74,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png/960px-Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png/960px-Prince_promo_picture_%281988%3B_cropped_and_retouched%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Prince_Brussels_1986.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/66/Prince-O2-Scene-2008-0828.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d6/Prince_at_Coachella_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Prince_Brussels_1986.jpg/960px-Prince_Brussels_1986.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Prince_at_Coachella_%28cropped%29.jpg/960px-Prince_at_Coachella_%28cropped%29.jpg"
       ]
     },
     {
@@ -91,8 +88,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Tina_Turner_Breaks_All_the_Rules.png/960px-Tina_Turner_Breaks_All_the_Rules.png",
         "https://upload.wikimedia.org/wikipedia/commons/1/10/Tina_turner_21021985_01_350.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/46/Tina_Turner_2311720060.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/74/Tina_Turner_1970.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tina_Turner_2311720060.jpg/960px-Tina_Turner_2311720060.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tina_Turner_1970.jpg/960px-Tina_Turner_1970.jpg"
       ]
     },
     {
@@ -105,9 +102,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/42/Celine_Dion_Concert_Singing_Taking_Chances_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Celine_Dion_Concert_Singing_Taking_Chances_2008.jpg/960px-Celine_Dion_Concert_Singing_Taking_Chances_2008.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/38/Celine_Dion_by_Linda_Bisset.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/C%C3%A9line_Dion_en_2013.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/C%C3%A9line_Dion_en_2013.JPG/960px-C%C3%A9line_Dion_en_2013.JPG"
       ]
     },
     {
@@ -121,8 +118,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/93/Bruce_springsteen_front.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bruce_springsteen_in_Arena.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bruce_Springsteen_-_Roskilde_Festival_2012.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bruce_springsteen_in_Arena.jpg/960px-Bruce_springsteen_in_Arena.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Bruce_Springsteen_-_Roskilde_Festival_2012.jpg/960px-Bruce_Springsteen_-_Roskilde_Festival_2012.jpg"
       ]
     },
     {
@@ -137,7 +134,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/RStonesHydePark030722_%2849_of_125%29_%2852193656268%29_%28cropped%29.jpg/960px-RStonesHydePark030722_%2849_of_125%29_%2852193656268%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mick_Jagger_at_Vicente_Calderon%2C_Madrid_2007.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/68/Mick_Jagger_in_red.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mick_Jagger_Berlinale_2008.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Mick_Jagger_Berlinale_2008.jpg/960px-Mick_Jagger_Berlinale_2008.jpg"
       ]
     },
     {
@@ -151,8 +148,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg/960px-John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/90/John_Lennon_portrait.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7c/John_Lennon_Imagine_1971.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1a/John_Lennon_peace_memorial%2C_Echo_Arena_1.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/John_Lennon_Imagine_1971.jpg"
       ]
     },
     {
@@ -164,9 +160,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg/960px-MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg/960px-MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Paul_McCartney_with_Jimmy_McCulloch_-_Wings_-_1976.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Paul_McCartney_with_Linda_McCartney_-_Wings_-_1976.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/df/Paul_McCartney_black_and_white_2010.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Paul_McCartney_with_Jimmy_McCulloch_-_Wings_-_1976.jpg/960px-Paul_McCartney_with_Jimmy_McCulloch_-_Wings_-_1976.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Paul_McCartney_with_Linda_McCartney_-_Wings_-_1976.jpg/960px-Paul_McCartney_with_Linda_McCartney_-_Wings_-_1976.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Paul_McCartney_black_and_white_2010.jpg/960px-Paul_McCartney_black_and_white_2010.jpg"
       ]
     },
     {
@@ -178,8 +174,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg/960px-Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg/960px-Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/04/Bono_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bono_AR_015.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Bono_2011.jpg/960px-Bono_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bono_AR_015.jpg/960px-Bono_AR_015.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bono_U2_360_Tour_2011.jpg"
       ]
     },
@@ -194,7 +190,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/OasisCardiff040725-88_-_54640244776_%28landscape_crop%29_%28cropped%29.jpg/960px-OasisCardiff040725-88_-_54640244776_%28landscape_crop%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/Liam_Gallagher.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Festival_des_Vieilles_Charrues_2018_-_Liam_Gallagher_-_013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Festival_des_Vieilles_Charrues_2018_-_Liam_Gallagher_-_013.jpg/960px-Festival_des_Vieilles_Charrues_2018_-_Liam_Gallagher_-_013.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/74/Liam_Gallagher_2017.jpg"
       ]
     },
@@ -209,7 +205,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Glasto2023_%28239_of_468%29_%2853009325175%29_%28cropped%29.jpg/960px-Glasto2023_%28239_of_468%29_%2853009325175%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/70/Axl_Rose_at_Yarkon_Park_in_Tel_Aviv%2C_Israel_--_May_1993.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/07/Axl_Rose_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/19/GunsNRoses160617-61_%2835271773841%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/GunsNRoses160617-61_%2835271773841%29.jpg/960px-GunsNRoses160617-61_%2835271773841%29.jpg"
       ]
     },
     {
@@ -221,8 +217,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Slash_live_in_London_2022_%28Cropped_-_upright%29.jpg/960px-Slash_live_in_London_2022_%28Cropped_-_upright%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Slash_live_in_London_2022_%28Cropped_-_upright%29.jpg/960px-Slash_live_in_London_2022_%28Cropped_-_upright%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Slash_in_2008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/97/Slash_2010.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Slash_in_2008.jpg/960px-Slash_in_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Slash_2010.jpg/960px-Slash_2010.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/bd/Slash%2C_Perla_Hudson_%287029671259%29.jpg"
       ]
     },
@@ -236,8 +232,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ozzy_Osbourne_in_1970_%28medium-sized_crop%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ozzy_Osbourne_in_1970_%28medium-sized_crop%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/54/Ozzy_Osbourne_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ozzy_Osbourne.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ozzy_Osbourne_2.jpg/960px-Ozzy_Osbourne_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Ozzy_Osbourne.jpg/960px-Ozzy_Osbourne.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ozzy_on_tour_in_Japan.jpg"
       ]
     },
@@ -250,9 +246,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/NEG_0062-2_%2854119957209%29.jpg/960px-NEG_0062-2_%2854119957209%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/NEG_0062-2_%2854119957209%29.jpg/960px-NEG_0062-2_%2854119957209%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/73/Jon_Bon_Jovi.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Jon_Bon_Jovi_at_Commander-in-Chief_Ball.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Jon_Bon_Jovi_at_the_2009_Tribeca_Film_Festival.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Jon_Bon_Jovi.jpg/960px-Jon_Bon_Jovi.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Jon_Bon_Jovi_at_Commander-in-Chief_Ball.jpg/960px-Jon_Bon_Jovi_at_Commander-in-Chief_Ball.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Jon_Bon_Jovi_at_the_2009_Tribeca_Film_Festival.jpg/960px-Jon_Bon_Jovi_at_the_2009_Tribeca_Film_Festival.jpg"
       ]
     },
     {
@@ -264,9 +260,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sting_at_2026_Montreux_Jazz_Festival-12-CA_%28cropped%29.jpg/960px-Sting_at_2026_Montreux_Jazz_Festival-12-CA_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sting_at_2026_Montreux_Jazz_Festival-12-CA_%28cropped%29.jpg/960px-Sting_at_2026_Montreux_Jazz_Festival-12-CA_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/de/Sting_Atlanta_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/31/Sting_Atlanta_3.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sting_and_Shaggy_on_tour.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Sting_Atlanta_1.jpg/960px-Sting_Atlanta_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sting_Atlanta_3.jpg/960px-Sting_Atlanta_3.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Sting_and_Shaggy_on_tour.jpg/960px-Sting_and_Shaggy_on_tour.jpg"
       ]
     },
     {
@@ -279,9 +275,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Phil_Collins%2C_2025_for_%22Eras%22_%28cropped%29.jpg/960px-Phil_Collins%2C_2025_for_%22Eras%22_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Phil_Collins%2C_2025_for_%22Eras%22_%28cropped%29.jpg/960px-Phil_Collins%2C_2025_for_%22Eras%22_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Phil_Collins_Duesseldorf.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/b7/Phil_Collins_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/db/IFFR_2013_-_Phil_Collins.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/IFFR_2013_-_Phil_Collins.jpg/960px-IFFR_2013_-_Phil_Collins.jpg"
       ]
     },
     {
@@ -293,7 +288,6 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Annie_Lennox_March_2023.jpg/960px-Annie_Lennox_March_2023.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Annie_Lennox_March_2023.jpg/960px-Annie_Lennox_March_2023.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Annie_lennox_nemahziz.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/a5/Annie_Lennox_Rock_am_Ring_1987.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ef/Annie_Lennox_SING_campaign%2C_Vienna_2010_b.jpg"
       ]
@@ -307,9 +301,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg/960px-CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg/960px-CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/44/Cyndi_Lauper_2008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cyndi_Lauper_%286891727058%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/44/Cyndi_Lauper_%2820297483522%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Cyndi_Lauper_2008.jpg/960px-Cyndi_Lauper_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cyndi_Lauper_%286891727058%29.jpg/960px-Cyndi_Lauper_%286891727058%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Cyndi_Lauper_%2820297483522%29.jpg/960px-Cyndi_Lauper_%2820297483522%29.jpg"
       ]
     },
     {
@@ -319,9 +313,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Cher_in_2019_cropped.jpg/960px-Cher_in_2019_cropped.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Cher_in_2019_cropped.jpg/960px-Cher_in_2019_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/60/Bourges_-_Pr%C3%A9fecture_du_Cher_-013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/64/Azay-sur-Cher_-_le_Cher.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Cher_-_Casablanca.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bourges_-_Pr%C3%A9fecture_du_Cher_-013.jpg/960px-Bourges_-_Pr%C3%A9fecture_du_Cher_-013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Azay-sur-Cher_-_le_Cher.jpg/960px-Azay-sur-Cher_-_le_Cher.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cher_-_Casablanca.jpg/960px-Cher_-_Casablanca.jpg"
       ]
     },
     {
@@ -347,8 +341,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/SWonderBSTHyde060719-72_%28cropped%29.jpg/960px-SWonderBSTHyde060719-72_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/SWonderBSTHyde060719-72_%28cropped%29.jpg/960px-SWonderBSTHyde060719-72_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/81/Stevie_Wonder.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/48/Stevie_Wonder_performs.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Stevie_Wonder.jpg/960px-Stevie_Wonder.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Stevie_Wonder_performs.jpg/960px-Stevie_Wonder_performs.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/1e/Stevie_Wonder_CES_2010.jpg"
       ]
     },
@@ -361,7 +355,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ray_Charles_classic_piano_pose.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ray_Charles_classic_piano_pose.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/58/Ray_Charles.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ray_Charles.jpg/960px-Ray_Charles.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/89/Ray_Charles_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/11/Ray_Charles_FIJM_2003.jpg"
       ]
@@ -387,9 +381,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Aretha_Franklin_1968.jpg/960px-Aretha_Franklin_1968.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Aretha_Franklin_1968.jpg/960px-Aretha_Franklin_1968.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aretha_Franklin_US_Open_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aretha_Franklin_Respekt_2014.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Aretha_Franklin_on_January_20%2C_2009_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Aretha_Franklin_US_Open_2011.jpg/960px-Aretha_Franklin_US_Open_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Aretha_Franklin_Respekt_2014.jpg/960px-Aretha_Franklin_Respekt_2014.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Aretha_Franklin_on_January_20%2C_2009_%28cropped%29.jpg/960px-Aretha_Franklin_on_January_20%2C_2009_%28cropped%29.jpg"
       ]
     },
     {
@@ -402,8 +396,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/960px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg/960px-Frank_Sinatra_%281957_studio_portrait_close-up%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/97/Frank_Sinatra_by_Gottlieb_c1947.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Frank_Sinatra_by_Gottlieb_c1947-_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Frank_Sinatra_by_Gottlieb_c1947.jpg/960px-Frank_Sinatra_by_Gottlieb_c1947.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Frank_Sinatra_by_Gottlieb_c1947-_2.jpg/960px-Frank_Sinatra_by_Gottlieb_c1947-_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/af/Frank_Sinatra_%2757.jpg"
       ]
     },
@@ -417,8 +411,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Jimi_Hendrix_%281967%29_%28cropped%29.jpg/960px-Jimi_Hendrix_%281967%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jimi_Hendrix_experience_1968.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/43/Jimi_Hendrix_1968.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f5/Jimi_Hendrix_%281967%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/4/43/Jimi_Hendrix_1968.jpg"
       ]
     },
     {
@@ -433,7 +426,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Jim_Morrison_-_Young_Lion_%281967%29_%281%29.jpg/960px-Jim_Morrison_-_Young_Lion_%281967%29_%281%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/7f/Jim_Morrison_1969.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/d/d1/1959_Topps_Jim_Morrison.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/5/53/TheAHL_Morrison3_%288447138714%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/TheAHL_Morrison3_%288447138714%29.jpg/960px-TheAHL_Morrison3_%288447138714%29.jpg"
       ]
     },
     {
@@ -446,7 +439,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/9/92/Janis_Joplin_1970.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/7/79/Janis_Joplin_Big_Brother_and_the_Holding_Company.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3a/Janis_Joplin_Tom_Jones_1969.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Janis_Joplin_Tom_Jones_1969.JPG/960px-Janis_Joplin_Tom_Jones_1969.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/d/d9/Janis_Joplin_HS_Yearbook.jpeg"
       ]
     },
@@ -459,9 +452,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/JeffBeckTribute1RAH220523_%28106_of_136%29_%2852920038844%29_%28Eric_Clapton%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/JeffBeckTribute1RAH220523_%28106_of_136%29_%2852920038844%29_%28Eric_Clapton%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b1/Eric_Clapton_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/11/Eric_Clapton_and_Ginger_Baker_%281968%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/24/Eric_Clapton_01May2015.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Eric_Clapton_1.jpg/960px-Eric_Clapton_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Eric_Clapton_01May2015.jpg/960px-Eric_Clapton_01May2015.jpg"
       ]
     },
     {
@@ -473,8 +465,6 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Santana_Acer_Arena_%285558151833%29_%28cropped%29.jpg/960px-Santana_Acer_Arena_%285558151833%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Santana_Acer_Arena_%285558151833%29_%28cropped%29.jpg/960px-Santana_Acer_Arena_%285558151833%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Carlos_Santana_2005.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/93/Carlos_Santana_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f8/Carlos_Santana_123176.jpg"
       ]
     },
@@ -487,9 +477,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg/960px-DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg/960px-DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/33/Joan_Baez_Bob_Dylan.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Joan_Baez_Bob_Dylan.jpg/960px-Joan_Baez_Bob_Dylan.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bob_Dylan_in_November_1963.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/28/Joan_Baez_Bob_Dylan_crop.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Joan_Baez_Bob_Dylan_crop.jpg/960px-Joan_Baez_Bob_Dylan_crop.jpg"
       ]
     },
     {
@@ -516,7 +506,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tupac_Shakur_in_1995.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tupac_Shakur_in_1995.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tupac_Shakur_presentation_%283009586028%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Tupac_Shakur_presentation_%283009586028%29.jpg/960px-Tupac_Shakur_presentation_%283009586028%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/83/Tupac_Shakur_detail_%282985443082%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tupac_Shakur_front_%282985443088%29.jpg"
       ]
@@ -528,12 +518,12 @@
         "biggie",
         "notorious big"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/PetersonMuseum_01.jpg/960px-PetersonMuseum_01.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8c/Biggie_Smalls_1997.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/PetersonMuseum_01.jpg/960px-PetersonMuseum_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2c/Notorious_B.I.G._MetroCards_%2852088093767%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Notorious_B.I.G._MetroCards_%2852089627095%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/16/Notorious_B.I.G._MetroCards_%2852089125116%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/en/8/8c/Biggie_Smalls_1997.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Notorious_B.I.G._MetroCards_%2852088093767%29.jpg/960px-Notorious_B.I.G._MetroCards_%2852088093767%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Notorious_B.I.G._MetroCards_%2852089627095%29.jpg/960px-Notorious_B.I.G._MetroCards_%2852089627095%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Notorious_B.I.G._MetroCards_%2852089125116%29.jpg/960px-Notorious_B.I.G._MetroCards_%2852089125116%29.jpg"
       ]
     }
   ],

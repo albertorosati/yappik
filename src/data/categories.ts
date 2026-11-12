@@ -32,7 +32,11 @@ export function isImageCached(url: string): boolean {
   return CategoryRepository.isImageCached(url);
 }
 
-export function primeImage(url: string): Promise<void> {
+export function getResolvedImageUrl(url: string): string {
+  return CategoryRepository.getResolvedImageUrl(url);
+}
+
+export function primeImage(url: string): Promise<string> {
   return CategoryRepository.primeImage(url);
 }
 

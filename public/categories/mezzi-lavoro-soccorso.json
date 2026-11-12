@@ -6,10 +6,10 @@
   "themeHex": "#F59E0B",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/CatD9T.jpg/960px-CatD9T.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg/960px-CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/960px-GH-SA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/CatD9T.jpg/960px-CatD9T.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/960px-GH-SA.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tower_crane%2C_close-up.jpg/960px-Tower_crane%2C_close-up.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "ruspa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-2",
@@ -26,7 +29,10 @@
       "aliases": [
         "apripista"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/CatD9T.jpg/960px-CatD9T.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/CatD9T.jpg/960px-CatD9T.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/CatD9T.jpg/960px-CatD9T.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-3",
@@ -35,7 +41,12 @@
         "gru",
         "autogru"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg/960px-CN_-_Hubei_-_Wuhan_-_Kranichpagode.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tower_crane%2C_close-up.jpg/960px-Tower_crane%2C_close-up.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tower_crane%2C_close-up.jpg/960px-Tower_crane%2C_close-up.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Crane_on_Leeds_Street%2C_Liverpool.jpg/960px-Crane_on_Leeds_Street%2C_Liverpool.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/00_0061_Turmkr%C3%A4ne_mit_Ausleger.jpg/960px-00_0061_Turmkr%C3%A4ne_mit_Ausleger.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-4",
@@ -43,7 +54,10 @@
       "aliases": [
         "camion betoniera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/960px-GH-SA.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/960px-GH-SA.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/960px-GH-SA.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-5",
@@ -51,7 +65,10 @@
       "aliases": [
         "schiacciasassi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg/960px-John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg/960px-John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg/960px-John_Deere_roller%2C_U.S._Navy%2C_Camp_Covington%2C_NMCB-133%2C_080928-N-1106H-001.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-6",
@@ -59,7 +76,10 @@
       "aliases": [
         "muletto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg/960px-Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg/960px-Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg/960px-Toyota_L%26F_7FB25_Fuel_Cell_Forklift_at_Eco-Products_2015.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-7",
@@ -68,7 +88,10 @@
         "camion da cava",
         "dumper"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Liebherr_t282_1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Liebherr_t282_1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Liebherr_t282_1.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-8",
@@ -76,7 +99,10 @@
       "aliases": [
         "trattore agricolo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ford_8N.jpg/960px-Ford_8N.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ford_8N.jpg/960px-Ford_8N.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ford_8N.jpg/960px-Ford_8N.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-9",
@@ -84,7 +110,10 @@
       "aliases": [
         "mietitrebbiatrice"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Corn_combine_harvest_with_grain_cart-4.jpg/960px-Corn_combine_harvest_with_grain_cart-4.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Corn_combine_harvest_with_grain_cart-4.jpg/960px-Corn_combine_harvest_with_grain_cart-4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Corn_combine_harvest_with_grain_cart-4.jpg/960px-Corn_combine_harvest_with_grain_cart-4.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-10",
@@ -92,7 +121,10 @@
       "aliases": [
         "gatto delle nevi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/TowPLow_front_view2.JPG/960px-TowPLow_front_view2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/TowPLow_front_view2.JPG/960px-TowPLow_front_view2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/TowPLow_front_view2.JPG/960px-TowPLow_front_view2.JPG"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-11",
@@ -101,7 +133,10 @@
         "camion dei pompieri",
         "vigili del fuoco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Dublin_Fire_Brigade_Pump_Ladder_D32.jpg/960px-Dublin_Fire_Brigade_Pump_Ladder_D32.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Dublin_Fire_Brigade_Pump_Ladder_D32.jpg/960px-Dublin_Fire_Brigade_Pump_Ladder_D32.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Dublin_Fire_Brigade_Pump_Ladder_D32.jpg/960px-Dublin_Fire_Brigade_Pump_Ladder_D32.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-12",
@@ -109,7 +144,10 @@
       "aliases": [
         "autoambulanza"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/960px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/960px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Stockholm%2C_ambulans%2C_2014%2C_21.jpg/960px-Stockholm%2C_ambulans%2C_2014%2C_21.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-13",
@@ -118,7 +156,10 @@
         "auto della polizia",
         "pattuglia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg/960px-Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg/960px-Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg/960px-Washington_DC_Metropolitan_Police_Department_Dodge_Charger_No._1605.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-14",
@@ -126,7 +167,10 @@
       "aliases": [
         "soccorso stradale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg/960px-Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg/960px-Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg/960px-Bois_d%27Arc_Bash_2016_43_%28parade%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-15",
@@ -134,7 +178,10 @@
       "aliases": [
         "autocompattatore"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/LA-City-Sanitation-trash-truck-1.jpg/960px-LA-City-Sanitation-trash-truck-1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/LA-City-Sanitation-trash-truck-1.jpg/960px-LA-City-Sanitation-trash-truck-1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/LA-City-Sanitation-trash-truck-1.jpg/960px-LA-City-Sanitation-trash-truck-1.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-16",
@@ -142,7 +189,10 @@
       "aliases": [
         "autocisterna"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cape_Cod_Oil_truck.jpg/960px-Cape_Cod_Oil_truck.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cape_Cod_Oil_truck.jpg/960px-Cape_Cod_Oil_truck.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cape_Cod_Oil_truck.jpg/960px-Cape_Cod_Oil_truck.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-17",
@@ -151,13 +201,19 @@
         "tir",
         "camion"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Peterbilt_359_Classic_%281977%29_pic2.JPG/960px-Peterbilt_359_Classic_%281977%29_pic2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Peterbilt_359_Classic_%281977%29_pic2.JPG/960px-Peterbilt_359_Classic_%281977%29_pic2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Peterbilt_359_Classic_%281977%29_pic2.JPG/960px-Peterbilt_359_Classic_%281977%29_pic2.JPG"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-18",
       "answer": "Spazzatrice Stradale",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Street_sweeper_in_Minneapolis_neighborhood_University.jpg/960px-Street_sweeper_in_Minneapolis_neighborhood_University.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Street_sweeper_in_Minneapolis_neighborhood_University.jpg/960px-Street_sweeper_in_Minneapolis_neighborhood_University.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Street_sweeper_in_Minneapolis_neighborhood_University.jpg/960px-Street_sweeper_in_Minneapolis_neighborhood_University.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-19",
@@ -165,7 +221,10 @@
       "aliases": [
         "pulmino scolastico"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IC_CE_school_bus_%28shortened_chassis%29.jpg/960px-IC_CE_school_bus_%28shortened_chassis%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IC_CE_school_bus_%28shortened_chassis%29.jpg/960px-IC_CE_school_bus_%28shortened_chassis%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/IC_CE_school_bus_%28shortened_chassis%29.jpg/960px-IC_CE_school_bus_%28shortened_chassis%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-20",
@@ -173,13 +232,19 @@
       "aliases": [
         "tranvia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg/960px-Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg/960px-Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg/960px-Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-21",
       "answer": "Filobus",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg/960px-S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg/960px-S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg/960px-S5A-0062_at_Wusong_Rd%2C_Tanggu_Rd_%2820251029065137%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-22",
@@ -188,13 +253,19 @@
         "ovovia",
         "cabinovia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Corona_Cable_Cars%2C_Table_Mountain.jpg/960px-Corona_Cable_Cars%2C_Table_Mountain.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Corona_Cable_Cars%2C_Table_Mountain.jpg/960px-Corona_Cable_Cars%2C_Table_Mountain.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Corona_Cable_Cars%2C_Table_Mountain.jpg/960px-Corona_Cable_Cars%2C_Table_Mountain.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-23",
       "answer": "Seggiovia",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sierra_Nevada_Laguna_skilift_3.jpg/960px-Sierra_Nevada_Laguna_skilift_3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sierra_Nevada_Laguna_skilift_3.jpg/960px-Sierra_Nevada_Laguna_skilift_3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sierra_Nevada_Laguna_skilift_3.jpg/960px-Sierra_Nevada_Laguna_skilift_3.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-24",
@@ -202,7 +273,10 @@
       "aliases": [
         "elisoccorso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg/960px-Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg/960px-Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg/960px-Royal_Flying_Doctor_Service_of_Australia_Central_Operations_%28VH-FGS%29_Pilatus_PC-12-45_at_Wagga_Wagga_Airport.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-25",
@@ -210,13 +284,21 @@
       "aliases": [
         "aereo antincendio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/I-DPCN_at_work_03_%28cropped%29.jpg/960px-I-DPCN_at_work_03_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/I-DPCN_at_work_03_%28cropped%29.jpg/960px-I-DPCN_at_work_03_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/I-DPCN_at_work_03_%28cropped%29.jpg/960px-I-DPCN_at_work_03_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-26",
       "answer": "Rimorchiatore",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/CSSTeaser.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tugboat_Kingston_II%2C_Mystic_Seaport_Museum.jpg/960px-Tugboat_Kingston_II%2C_Mystic_Seaport_Museum.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tugboat_Kingston_II%2C_Mystic_Seaport_Museum.jpg/960px-Tugboat_Kingston_II%2C_Mystic_Seaport_Museum.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Plimsoll_mark_on_tugboat_Harry_in_Lysekil_harbor_3.jpg/960px-Plimsoll_mark_on_tugboat_Harry_in_Lysekil_harbor_3.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Plimsoll_mark_on_tugboat_Harry_in_Lysekil_harbor_5.jpg/960px-Plimsoll_mark_on_tugboat_Harry_in_Lysekil_harbor_5.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-27",
@@ -224,7 +306,10 @@
       "aliases": [
         "rompighiaccio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/120106-G-IA651-272_%286668116881%29.jpg/960px-120106-G-IA651-272_%286668116881%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/120106-G-IA651-272_%286668116881%29.jpg/960px-120106-G-IA651-272_%286668116881%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/120106-G-IA651-272_%286668116881%29.jpg/960px-120106-G-IA651-272_%286668116881%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-28",
@@ -233,19 +318,30 @@
         "cargo",
         "mercantile"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg/960px-MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg/960px-MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg/960px-MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-29",
       "answer": "Peschereccio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG/960px-Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG/960px-Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG/960px-Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-30",
       "answer": "Aliscafo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wingfoilset_aan_de_waterkant.jpg/960px-Wingfoilset_aan_de_waterkant.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hydrofoil_old.jpg/960px-Hydrofoil_old.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Hydrofoil_old.jpg/960px-Hydrofoil_old.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Princess_Marguerite_II_in_Victoria_Harbour_BC_Canada_%281%29.jpg/960px-Princess_Marguerite_II_in_Victoria_Harbour_BC_Canada_%281%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Sovjet_Design_1950-1980_%2826432794956%29.jpg/960px-Sovjet_Design_1950-1980_%2826432794956%29.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-31",
@@ -253,7 +349,10 @@
       "aliases": [
         "aeroscafo"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Formel1_hovercraft.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Formel1_hovercraft.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/05/Formel1_hovercraft.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-32",
@@ -261,7 +360,10 @@
       "aliases": [
         "sommergibile"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg/960px-US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg/960px-US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg/960px-US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-33",
@@ -269,13 +371,19 @@
       "aliases": [
         "zeppelin"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeppellin_NT_amk.JPG/960px-Zeppellin_NT_amk.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeppellin_NT_amk.JPG/960px-Zeppellin_NT_amk.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeppellin_NT_amk.JPG/960px-Zeppellin_NT_amk.JPG"
+      ]
     },
     {
       "id": "mezzi-lavoro-soccorso-34",
       "answer": "Mongolfiera",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2006_Ojiya_balloon_festival_011.jpg/960px-2006_Ojiya_balloon_festival_011.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2006_Ojiya_balloon_festival_011.jpg/960px-2006_Ojiya_balloon_festival_011.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/2006_Ojiya_balloon_festival_011.jpg/960px-2006_Ojiya_balloon_festival_011.jpg"
+      ]
     }
   ],
   "scope": "intl",

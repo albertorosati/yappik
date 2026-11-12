@@ -4,12 +4,12 @@
   "subtitle": "Da Sanremo alla scena urban e ai grandi classici italiani",
   "icon": "🇮🇹",
   "themeHex": "#00C48C",
-  "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png",
+  "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sferanstop.jpg",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Geolier_RadioBruno_Sanremo_2024_%282%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/7/79/Lazza_during_an_interview_for_Radio_Bruno_in_2023.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Marracash_m2o.jpg/960px-Marracash_m2o.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://upload.wikimedia.org/wikipedia/commons/b/b5/Geolier_RadioBruno_Sanremo_2024_%282%29.png",
+    "https://upload.wikimedia.org/wikipedia/commons/7/79/Lazza_during_an_interview_for_Radio_Bruno_in_2023.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Marracash_m2o.jpg/960px-Marracash_m2o.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sferanstop.jpg"
   ],
   "items": [
     {
@@ -18,12 +18,10 @@
       "aliases": [
         "sfera"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sferanstop.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png",
         "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sferanstop.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sfera_Lloret.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sfera_Ebbasta.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sfera_Ebbasta.jpg/960px-Sfera_Ebbasta.jpg"
       ]
     },
     {
@@ -35,7 +33,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Geolier_RadioBruno_Sanremo_2024_%282%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/b/b5/Geolier_RadioBruno_Sanremo_2024_%282%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Geolier_Rouen_David.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Geolier_Rouen_David.jpg/960px-Geolier_Rouen_David.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/69/Geolier_RadioBruno_Festival_di_Sanremo_2024.png",
         "https://upload.wikimedia.org/wikipedia/commons/b/b9/Geolier_Funweek.it_2024.png"
       ]
@@ -49,9 +47,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Lazza_during_an_interview_for_Radio_Bruno_in_2023.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/7/79/Lazza_during_an_interview_for_Radio_Bruno_in_2023.png",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Roby_lazza.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/Lazza_Gowri_sculpture_in_Badami_museum.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ee/Stade_lazza_-_panoramio.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Roby_lazza.jpg/960px-Roby_lazza.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lazza_Gowri_sculpture_in_Badami_museum.jpg/960px-Lazza_Gowri_sculpture_in_Badami_museum.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Stade_lazza_-_panoramio.jpg/960px-Stade_lazza_-_panoramio.jpg"
       ]
     },
     {
@@ -64,8 +62,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Marracash_m2o.jpg/960px-Marracash_m2o.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Marracash_m2o.jpg/960px-Marracash_m2o.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Marracash-11_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/12/Marracash_e_la_Paola.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Marracash-11_%28cropped%29.jpg/960px-Marracash-11_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Marracash_e_la_Paola.jpg/960px-Marracash_e_la_Paola.jpg"
       ]
     },
     {
@@ -77,9 +75,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Blanco_during_an_interview_for_Radio_Bruno_in_2022.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/5/53/Blanco_during_an_interview_for_Radio_Bruno_in_2022.png",
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Blanco_State_Park_%2849190700511%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Blanco_State_Park_%2849190700511%29.jpg/960px-Blanco_State_Park_%2849190700511%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/50/Blanco%2C_Texas_%2849190198968%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a8/Blanco%2C_Texas_%2849190893687%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Blanco%2C_Texas_%2849190893687%29.jpg/960px-Blanco%2C_Texas_%2849190893687%29.jpg"
       ]
     },
     {
@@ -92,9 +90,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/a/a9/Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/Mahmood_2019.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/75/Mahmood_performing_in_Parma_%282019%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mahmood_interviewed_by_Title-003_%28cropped%29.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Mahmood_performing_in_Parma_%282019%29.jpg/960px-Mahmood_performing_in_Parma_%282019%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mahmood_interviewed_by_Title-003_%28cropped%29.png/960px-Mahmood_interviewed_by_Title-003_%28cropped%29.png"
       ]
     },
     {
@@ -103,12 +100,12 @@
       "aliases": [
         "nali"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sarah_Toscano_%28Mondov%C3%AC_-_August_2025_-_1%29_%28cropped%29.webp",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Annalisa_al_suo_concerto_al_Forum_di_Milano_%28cropped%29.jpg/960px-Annalisa_al_suo_concerto_al_Forum_di_Milano_%28cropped%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sarah_Toscano_%28Mondov%C3%AC_-_August_2025_-_1%29_%28cropped%29.webp",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Annalisa_al_suo_concerto_al_Forum_di_Milano_%28cropped%29.jpg/960px-Annalisa_al_suo_concerto_al_Forum_di_Milano_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/ad/Annalisa_Scarrone%2C_Roma%2C_27_ottobre_2012.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ec/Annalisa_Scarrone_and_Renzo_Rubino_-_Festival_Gaber_2013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/43/Annalisa_Scarrone%2C_Milano%2C_3_maggio_2013.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Annalisa_Scarrone%2C_Milano%2C_3_maggio_2013.JPG/960px-Annalisa_Scarrone%2C_Milano%2C_3_maggio_2013.JPG"
       ]
     },
     {
@@ -135,7 +132,6 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/7/7d/Daniele_Magro_con_Marco_Mengoni_in_studio_nel_2021_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d6/Marco_Mengoni_2010-08-26_%28cropped%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Marco_Mengoni_-_Io_ti_aspetto_-_Mengoni_Live_2022.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2c/Marco_Mengoni_-_No_Stress_-_Mengoni_Live_2022.jpg"
       ]
     },
@@ -148,9 +144,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/UltimoIMG_4813_%28cropped%29.JPG/960px-UltimoIMG_4813_%28cropped%29.JPG",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/UltimoIMG_4813_%28cropped%29.JPG/960px-UltimoIMG_4813_%28cropped%29.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/8/80/Ultimo_Sydney_Institute_2.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ultimo_Sydney_Institute_2.JPG/960px-Ultimo_Sydney_Institute_2.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Ultimo_Sydney.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Farmers_%26_Graziers_%28Ultimo%2C_New_South_Wales%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Farmers_%26_Graziers_%28Ultimo%2C_New_South_Wales%29.jpg/960px-Farmers_%26_Graziers_%28Ultimo%2C_New_South_Wales%29.jpg"
       ]
     },
     {
@@ -163,8 +159,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png",
         "https://upload.wikimedia.org/wikipedia/commons/5/5d/Boutros_Boutros-Ghali_-_2002.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Avec_Boutros_Ghali_%28debout%29%2C_en_2005.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Boutros_Boutros-Ghali_%281980%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Avec_Boutros_Ghali_%28debout%29%2C_en_2005.jpeg/960px-Avec_Boutros_Ghali_%28debout%29%2C_en_2005.jpeg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Boutros_Boutros-Ghali_%281980%29.jpg/960px-Boutros_Boutros-Ghali_%281980%29.jpg"
       ]
     },
     {
@@ -176,9 +172,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salmo_%2813267007173%29.jpg/960px-Salmo_%2813267007173%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salmo_%2813267007173%29.jpg/960px-Salmo_%2813267007173%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2e/Salmo_trutta.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/Salmo_salar.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/Welcome_sign_in_Salmo%2C_BC.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Salmo_trutta.jpg/960px-Salmo_trutta.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Welcome_sign_in_Salmo%2C_BC.JPG/960px-Welcome_sign_in_Salmo%2C_BC.JPG"
       ]
     },
     {
@@ -191,8 +186,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/b/b0/Achille_Lauro_%28Feb_2025%29.png",
         "https://upload.wikimedia.org/wikipedia/commons/b/bd/Achille39.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e3/Achille_Lauro.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Achille_Lauro_Venezia.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Achille_Lauro_Venezia.jpg/960px-Achille_Lauro_Venezia.jpg"
       ]
     },
     {
@@ -205,9 +199,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Angelina_Mango_01_%28cropped%29.jpg/960px-Angelina_Mango_01_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Angelina_Mango_01_%28cropped%29.jpg/960px-Angelina_Mango_01_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Angelina_Mango_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/54/Angelina_Mango_02.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Angelina_Mango_03.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Angelina_Mango_01.jpg/960px-Angelina_Mango_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Angelina_Mango_02.jpg/960px-Angelina_Mango_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Angelina_Mango_03.jpg/960px-Angelina_Mango_03.jpg"
       ]
     },
     {
@@ -219,8 +213,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tananai_%28Feb_2023%29_%28cropped%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/85/Tananai_%28Feb_2023%29_%28cropped%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tananai_during_an_interview_for_Radio_Bruno_in_2022.png",
-        "https://upload.wikimedia.org/wikipedia/commons/7/70/Tananai_in_concerto.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tananai_during_an_interview_for_Radio_Bruno_in_2022.png/960px-Tananai_during_an_interview_for_Radio_Bruno_in_2022.png",
         "https://upload.wikimedia.org/wikipedia/commons/4/47/Tananai_Cortona_2023.png"
       ]
     },
@@ -235,9 +228,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Damiano_David_interview_with_Musica_e_TV_2.0_in_2025.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/4/48/Damiano_David_interview_with_Musica_e_TV_2.0_in_2025.png",
-        "https://upload.wikimedia.org/wikipedia/commons/1/18/Damiano_David.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/M%C3%A5neskin%2C_Damiano_David_%2826476122497%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Damiano_David_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Damiano_David.jpg/960px-Damiano_David.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/M%C3%A5neskin%2C_Damiano_David_%2826476122497%29.jpg/960px-M%C3%A5neskin%2C_Damiano_David_%2826476122497%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Damiano_David_%28cropped%29.jpg/960px-Damiano_David_%28cropped%29.jpg"
       ]
     },
     {
@@ -249,9 +242,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Fedez_%28Feb_2025%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/d0/Fedez_%28Feb_2025%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/Fedez_crop%2C_Grugliasco_%28TO%29%2C_2015-07-18.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f9/Emanuel_Cosmin_Stoica_con_Fedez_e_Luis_Sal_al_podcast_Muschio_Selvaggio_%282022%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ee/Fedez_2026.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Fedez_crop%2C_Grugliasco_%28TO%29%2C_2015-07-18.jpg/960px-Fedez_crop%2C_Grugliasco_%28TO%29%2C_2015-07-18.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Emanuel_Cosmin_Stoica_con_Fedez_e_Luis_Sal_al_podcast_Muschio_Selvaggio_%282022%29.jpg/960px-Emanuel_Cosmin_Stoica_con_Fedez_e_Luis_Sal_al_podcast_Muschio_Selvaggio_%282022%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fedez_2026.jpg/960px-Fedez_2026.jpg"
       ]
     },
     {
@@ -264,9 +257,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gu%C3%A8_Celebrity_Hunted_4_2024.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gu%C3%A8_Celebrity_Hunted_4_2024.png",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d6/Gu%C3%A8_Pequeno.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/27/Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma.jpg/960px-Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma_%28cropped%29.jpg/960px-Gu%C3%A8_Pequeno_live_at_Postepay_Rock_In_Roma_%28cropped%29.jpg"
       ]
     },
     {
@@ -278,7 +270,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Fabri_Fibra-1_%28cropped%29.jpg/960px-Fabri_Fibra-1_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Fabri_Fibra-1_%28cropped%29.jpg/960px-Fabri_Fibra-1_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Fabri_Fibra_Udine.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Fabri_Fibra_Udine.jpg/960px-Fabri_Fibra_Udine.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ea/Fabri_FIbra_Tradimento.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fabri_Fibra%2C_Fish_%26_Vacca.jpg"
       ]
@@ -292,8 +284,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Orbit_Orbit_tour_-_Caparezza_live_in_Bari_4_09_2026_01.jpg/960px-Orbit_Orbit_tour_-_Caparezza_live_in_Bari_4_09_2026_01.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Orbit_Orbit_tour_-_Caparezza_live_in_Bari_4_09_2026_01.jpg/960px-Orbit_Orbit_tour_-_Caparezza_live_in_Bari_4_09_2026_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/60/Caparezza_live_02.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Caparezza_-_Modena_2006.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Caparezza_live_02.jpg/960px-Caparezza_live_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Caparezza_-_Modena_2006.JPG/960px-Caparezza_-_Modena_2006.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/7/7c/Caparezza_Rende_3.jpg"
       ]
     },
@@ -306,8 +298,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tedua_2024.jpg/960px-Tedua_2024.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Tedua_2024.jpg/960px-Tedua_2024.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tedua_Teen_Parade_2018.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tedua_2024.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Tedua_Teen_Parade_2018.jpg/960px-Tedua_Teen_Parade_2018.jpg"
       ]
     },
     {
@@ -332,10 +323,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Madame_RadioBruno_Festival_di_Sanremo_2023.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Madame_RadioBruno_Festival_di_Sanremo_2023.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/18/Sargent_MadameX.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a4/Madame_X_%28Madame_Pierre_Gautreau%29%2C_John_Singer_Sargent%2C_1884_%28unfree_frame_crop%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/77/Madame_X_%28Madame_Pierre_Gautreau%29%2C_John_Singer_Sargent%2C_1884_-_detail_01.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Madame_RadioBruno_Festival_di_Sanremo_2023.jpg"
       ]
     },
     {
@@ -377,8 +365,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Luciano_Ligabue%2C_portrait%2C_october_2012.jpg/960px-Luciano_Ligabue%2C_portrait%2C_october_2012.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Luciano_Ligabue%2C_portrait%2C_october_2012.jpg/960px-Luciano_Ligabue%2C_portrait%2C_october_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ligabue_Live.png",
-        "https://upload.wikimedia.org/wikipedia/commons/4/49/Ligabue_Cesena.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ligabue_Live.png/960px-Ligabue_Live.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Ligabue_Cesena.jpg/960px-Ligabue_Cesena.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/23/Luciano_Ligabue_%283%29.jpg"
       ]
     },
@@ -391,9 +379,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jovanotti_Aracataca.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/4/44/Jovanotti_Aracataca.png",
-        "https://upload.wikimedia.org/wikipedia/commons/9/96/Jovanotti_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Jovanotti_2008.jpg/960px-Jovanotti_2008.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jovanotti_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dc/1993_Jovanotti_06.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/1993_Jovanotti_06.jpg/960px-1993_Jovanotti_06.jpg"
       ]
     },
     {
@@ -407,7 +395,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cesare_Cremonini_m2o_2024_%28cropped%29.jpg/960px-Cesare_Cremonini_m2o_2024_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/82/Cesare_Cremonini.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lunapop_Cesare_Cremonini.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lunapop_Cesare_Cremonini.jpg/960px-Lunapop_Cesare_Cremonini.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/66/Cesare_Cremonini_2009.jpg"
       ]
     },
@@ -419,10 +407,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg/960px-Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg/960px-Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f9/Laura_Pausini_2009.04.30_012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Laura_Pausini_2009.04.30_016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Laura_Pausini_2009.04.30_021.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg/960px-Laura_Pausini_a_Sanremo_2026_%28headshot%29_%28cropped%29.jpg"
       ]
     },
     {
@@ -436,8 +421,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Eros_Ramazzotti_%2821738687382%29_%28cropped%29.jpg/960px-Eros_Ramazzotti_%2821738687382%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/01/Eros_Ramazzotti_%28early_1990s%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e9/Eros_Ramazzotti_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/Eros_Ramazzotti_2.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Eros_Ramazzotti_1.jpg/960px-Eros_Ramazzotti_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Eros_Ramazzotti_2.jpg/960px-Eros_Ramazzotti_2.jpg"
       ]
     },
     {
@@ -463,8 +448,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Giorgia_%28Feb_2025%3B_2%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/d2/Giorgia_%28Feb_2025%3B_2%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Giorgia_close-up_shot.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/aa/Giorgia_-_Concert_in_Milan_2012.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Giorgia_close-up_shot.jpg/960px-Giorgia_close-up_shot.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Giorgia_-_Concert_in_Milan_2012.jpg/960px-Giorgia_-_Concert_in_Milan_2012.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f2/Giorgia_Meloni_2018.jpg"
       ]
     },
@@ -478,8 +463,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Elisa-5292-Adriana.Tedeschi.jpg/960px-Elisa-5292-Adriana.Tedeschi.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3f/Elisa_%28Japanese_singer%29_on_February_7%2C_2009.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Elisa_%40_SakuraCon_%2714.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c9/ELISA_types.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Elisa_%40_SakuraCon_%2714.jpg/960px-Elisa_%40_SakuraCon_%2714.jpg"
       ]
     },
     {
@@ -493,7 +477,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Alessandra_Amoroso_-_Amore_Puro_Tour%2C_Firenze_9_aprile_2014_2_%28cropped%29.jpg/960px-Alessandra_Amoroso_-_Amore_Puro_Tour%2C_Firenze_9_aprile_2014_2_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/fd/Alessandra_Amoroso_Stupida_Tour_Torino.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/42/Alessandra_Amoroso_Firenze.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/67/Alessandra_Amoroso_Flickr2.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Alessandra_Amoroso_Flickr2.jpg/960px-Alessandra_Amoroso_Flickr2.jpg"
       ]
     },
     {
@@ -505,9 +489,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Emma_%28Oct_2023%29_%28cropped%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/a/a4/Emma_%28Oct_2023%29_%28cropped%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/d/db/Emma_Marrone_-_Giffoni.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Emma_Marrone%2C_ESC2014_Meet_%26_Greet_10_%28crop%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/90/Emma_Marrone%2C_ESC2014_Meet_%26_Greet_13.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Emma_Marrone_-_Giffoni.jpg/960px-Emma_Marrone_-_Giffoni.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Emma_Marrone%2C_ESC2014_Meet_%26_Greet_10_%28crop%29.jpg/960px-Emma_Marrone%2C_ESC2014_Meet_%26_Greet_10_%28crop%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Emma_Marrone%2C_ESC2014_Meet_%26_Greet_13.jpg/960px-Emma_Marrone%2C_ESC2014_Meet_%26_Greet_13.jpg"
       ]
     },
     {
@@ -523,7 +507,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Max_Pezzali_at_Cartoomics_2013-1_%28cropped%29.jpg/960px-Max_Pezzali_at_Cartoomics_2013-1_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/dc/MaxPezzaliTour2007.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/7/7b/Max_Pezzali_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/53/Max_Pezzali_at_Cartoomics_2013-1.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Max_Pezzali_at_Cartoomics_2013-1.jpg/960px-Max_Pezzali_at_Cartoomics_2013-1.jpg"
       ]
     },
     {
@@ -536,8 +520,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c4/Claudio_Baglioni_2000.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/Claudio_Baglioni.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Claudio_Baglioni_2.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1f/Claudio_Baglioni_simbolo.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Claudio_Baglioni_2.JPG/960px-Claudio_Baglioni_2.JPG"
       ]
     },
     {
@@ -549,8 +532,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Gianni_Morandi_2023_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/dd/Gianni_Morandi_2023_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Gianni_Morandi_%281350143466%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ab/Gianni_Morandi_and_Laura_Efrikian.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Gianni_Morandi_%281350143466%29.jpg/960px-Gianni_Morandi_%281350143466%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Gianni_Morandi_and_Laura_Efrikian.jpg/960px-Gianni_Morandi_and_Laura_Efrikian.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gianni_Morandi_and_Laura_Efrikian_66.jpg"
       ]
     },
@@ -564,7 +547,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Celentano_1961_Salsomaggiore_Terme.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/4/4d/Celentano_1961_Salsomaggiore_Terme.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1c/Adriano_Celentano_crop.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Adriano_Celentano_crop.jpg/960px-Adriano_Celentano_crop.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/0a/Adriano_Celentano_and_Claudia_Mori%2C_Teatro_10.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c0/Adriano_Celentano_72.jpg"
       ]
@@ -590,12 +573,12 @@
       "aliases": [
         "battisti"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mina_Epoca_1972.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/8d/BattistiLucio.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mina_Epoca_1972.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/df/Mina_and_Lucio_Battisti.jpg",
+        "https://upload.wikimedia.org/wikipedia/it/8/8d/BattistiLucio.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mina_and_Lucio_Battisti.jpg/960px-Mina_and_Lucio_Battisti.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sanremo_1969_Lucio_Battisti.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mina_Battisti_Teatro_10_1972.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mina_Battisti_Teatro_10_1972.jpg/960px-Mina_Battisti_Teatro_10_1972.jpg"
       ]
     },
     {
@@ -622,9 +605,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lucio_Dalla_1.JPG/960px-Lucio_Dalla_1.JPG",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Lucio_Dalla_1.JPG/960px-Lucio_Dalla_1.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/e/eb/Lucio_Dalla_1.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/4/44/Lucio_Dalla_3.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Lucio_Dalla_01.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Lucio_Dalla_3.JPG/960px-Lucio_Dalla_3.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Lucio_Dalla_01.jpg/960px-Lucio_Dalla_01.jpg"
       ]
     },
     {
@@ -637,8 +619,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/1982_Pino_Daniele_10_%28cropped%29.jpg/960px-1982_Pino_Daniele_10_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/84/Pino_Daniele_2009.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/20/1982_Pino_Daniele_02.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b5/1982_Pino_Daniele_12.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/1982_Pino_Daniele_02.jpg/960px-1982_Pino_Daniele_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/1982_Pino_Daniele_12.jpg/960px-1982_Pino_Daniele_12.jpg"
       ]
     },
     {
@@ -651,9 +633,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Albano_2014.jpg/960px-Albano_2014.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Albano_2014.jpg/960px-Albano_2014.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/93/Al_bano_carrisi_11.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ac/Al_Bano_Teatro_Calder%C3%B3n.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8a/Egor_Kahotkin_With_Al_Bano.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Al_Bano_Teatro_Calder%C3%B3n.JPG/960px-Al_Bano_Teatro_Calder%C3%B3n.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Egor_Kahotkin_With_Al_Bano.JPG/960px-Egor_Kahotkin_With_Al_Bano.JPG"
       ]
     }
   ],

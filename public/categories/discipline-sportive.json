@@ -6,10 +6,10 @@
   "themeHex": "#10B981",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/960px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/960px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/960px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/960px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "partita di calcio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-2",
@@ -26,13 +29,19 @@
       "aliases": [
         "pallacanestro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/960px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/960px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/960px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-3",
       "answer": "Tennis",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-4",
@@ -40,13 +49,19 @@
       "aliases": [
         "volley"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/960px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/960px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/960px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-5",
       "answer": "Rugby",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/960px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/960px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/960px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-6",
@@ -54,25 +69,37 @@
       "aliases": [
         "nfl"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/960px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/960px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/960px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-7",
       "answer": "Baseball",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg/960px-Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg/960px-Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg/960px-Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-8",
       "answer": "Golf",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Golfer_swing.jpg/960px-Golfer_swing.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Golfer_swing.jpg/960px-Golfer_swing.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Golfer_swing.jpg/960px-Golfer_swing.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-9",
       "answer": "Padel",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sanchez-Casal_Paddle_Tennis_Game.jpg/960px-Sanchez-Casal_Paddle_Tennis_Game.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sanchez-Casal_Paddle_Tennis_Game.jpg/960px-Sanchez-Casal_Paddle_Tennis_Game.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sanchez-Casal_Paddle_Tennis_Game.jpg/960px-Sanchez-Casal_Paddle_Tennis_Game.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-10",
@@ -80,7 +107,10 @@
       "aliases": [
         "tennis tavolo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg/960px-Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg/960px-Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg/960px-Mondial_Ping_-_Men%27s_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-11",
@@ -88,7 +118,10 @@
       "aliases": [
         "volano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Olympics_2012_Mixed_Doubles_Final.jpg/960px-Olympics_2012_Mixed_Doubles_Final.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Olympics_2012_Mixed_Doubles_Final.jpg/960px-Olympics_2012_Mixed_Doubles_Final.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Olympics_2012_Mixed_Doubles_Final.jpg/960px-Olympics_2012_Mixed_Doubles_Final.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-12",
@@ -97,7 +130,10 @@
         "fioretto",
         "spada"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Final_Trophee_Monal_2012_n08.jpg/960px-Final_Trophee_Monal_2012_n08.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-13",
@@ -105,7 +141,10 @@
       "aliases": [
         "boxe"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-14",
@@ -114,7 +153,10 @@
         "karate",
         "arti marziali"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/Jigoro_Kano_and_Kyuzo_Mifune_%28restoration%29.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-15",
@@ -122,13 +164,19 @@
       "aliases": [
         "arco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ArcheryGermanyEarly1980s-2.jpg/960px-ArcheryGermanyEarly1980s-2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ArcheryGermanyEarly1980s-2.jpg/960px-ArcheryGermanyEarly1980s-2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ArcheryGermanyEarly1980s-2.jpg/960px-ArcheryGermanyEarly1980s-2.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-16",
       "answer": "Salto con l’Asta",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pole_Vault_Sequence_3.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pole_Vault_Sequence_3.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pole_Vault_Sequence_3.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-17",
@@ -136,7 +184,10 @@
       "aliases": [
         "ostacoli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg/960px-Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg/960px-Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg/960px-Leichtathletik_Gala_Linz_2018_men%C2%B4s_110m_hurdles_Okafor-6401.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-18",
@@ -145,19 +196,28 @@
         "anelli",
         "parallele"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png/960px-Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png/960px-Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png/960px-Illia_Kovtun_performing_in_the_men%27s_parallel_bars_final_at_Paris_2024.png"
+      ]
     },
     {
       "id": "discipline-sportive-19",
       "answer": "Nuoto Sincronizzato",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg/960px-Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg/960px-Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg/960px-Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-20",
       "answer": "Pallanuoto",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/960px-WaterPolo.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/960px-WaterPolo.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/WaterPolo.JPG/960px-WaterPolo.JPG"
+      ]
     },
     {
       "id": "discipline-sportive-21",
@@ -165,13 +225,19 @@
       "aliases": [
         "trampolino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Diving_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_synchronized_10_metre_platform_3.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Diving_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_synchronized_10_metre_platform_3.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/Diving_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_synchronized_10_metre_platform_3.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-22",
       "answer": "Canottaggio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Harvard_Rowing_Crew_at_Henley_2004_-2.JPG/960px-Harvard_Rowing_Crew_at_Henley_2004_-2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Harvard_Rowing_Crew_at_Henley_2004_-2.JPG/960px-Harvard_Rowing_Crew_at_Henley_2004_-2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Harvard_Rowing_Crew_at_Henley_2004_-2.JPG/960px-Harvard_Rowing_Crew_at_Henley_2004_-2.JPG"
+      ]
     },
     {
       "id": "discipline-sportive-23",
@@ -179,7 +245,10 @@
       "aliases": [
         "tavola da surf"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-24",
@@ -187,7 +256,10 @@
       "aliases": [
         "barca a vela"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg/960px-Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg/960px-Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg/960px-Mar%C3%ADa_Jos%C3%A9_Poncell_2024.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-25",
@@ -196,13 +268,19 @@
         "free climbing",
         "scalata"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg/960px-Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg/960px-Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg/960px-Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-26",
       "answer": "Motocross",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mundial_de_motocross.JPG/960px-Mundial_de_motocross.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mundial_de_motocross.JPG/960px-Mundial_de_motocross.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mundial_de_motocross.JPG/960px-Mundial_de_motocross.JPG"
+      ]
     },
     {
       "id": "discipline-sportive-27",
@@ -211,25 +289,39 @@
         "sci",
         "slalom"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/FIS_World_Ski_Championships_Gold_Medal.jpg/960px-FIS_World_Ski_Championships_Gold_Medal.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Alpine_skiing_-_Paralympic_pictogram.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Paralympic_2010_-_Alpine_skiing_-_Talan_Skeels-Piggins.jpg/960px-Paralympic_2010_-_Alpine_skiing_-_Talan_Skeels-Piggins.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-28",
       "answer": "Salto con gli Sci",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-29",
       "answer": "Snowboard",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-30",
       "answer": "Curling",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-31",
@@ -237,7 +329,10 @@
       "aliases": [
         "hockey"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-32",
@@ -245,7 +340,10 @@
       "aliases": [
         "pattinaggio sul ghiaccio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-33",
@@ -253,7 +351,10 @@
       "aliases": [
         "bobsled"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-34",
@@ -262,7 +363,10 @@
         "snooker",
         "pool"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Niels_Feijen_NL.JPG/960px-Niels_Feijen_NL.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Niels_Feijen_NL.JPG/960px-Niels_Feijen_NL.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Niels_Feijen_NL.JPG/960px-Niels_Feijen_NL.JPG"
+      ]
     },
     {
       "id": "discipline-sportive-35",
@@ -270,7 +374,10 @@
       "aliases": [
         "darts"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Darts_in_a_dartboard.jpg/960px-Darts_in_a_dartboard.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Darts_in_a_dartboard.jpg/960px-Darts_in_a_dartboard.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Darts_in_a_dartboard.jpg/960px-Darts_in_a_dartboard.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-36",
@@ -278,7 +385,10 @@
       "aliases": [
         "birilli"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kegeln-Kugel.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kegeln-Kugel.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kegeln-Kugel.jpg"
+      ]
     },
     {
       "id": "discipline-sportive-37",
@@ -286,7 +396,10 @@
       "aliases": [
         "lotta sumo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Asashoryu_fight_Jan08.JPG/960px-Asashoryu_fight_Jan08.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Asashoryu_fight_Jan08.JPG/960px-Asashoryu_fight_Jan08.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Asashoryu_fight_Jan08.JPG/960px-Asashoryu_fight_Jan08.JPG"
+      ]
     },
     {
       "id": "discipline-sportive-38",
@@ -295,7 +408,10 @@
         "salto ostacoli cavallo",
         "ippica"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg/960px-Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg/960px-Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg/960px-Horse_riding_in_coca_cola_arena_-_melbourne_show_2005.jpg"
+      ]
     }
   ],
   "scope": "intl",

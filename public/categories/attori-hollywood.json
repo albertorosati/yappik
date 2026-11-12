@@ -6,10 +6,10 @@
   "themeHex": "#FFB800",
   "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/960px-Brad_Pitt-69858.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zendaya-byPhilipRomano.jpg/960px-Zendaya-byPhilipRomano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/960px-Brad_Pitt-69858.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zendaya-byPhilipRomano.jpg/960px-Zendaya-byPhilipRomano.jpg"
   ],
   "items": [
     {
@@ -24,7 +24,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/27/Leonardo_DiCaprio_by_David_Shankbone.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8f/LeonardoDiCaprioNov08.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/LeonardoDiCaprioNov08.jpg/960px-LeonardoDiCaprioNov08.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/80/Leonardo_DiCaprio_2002.jpg"
       ]
     },
@@ -38,8 +38,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/960px-Brad_Pitt-69858.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Brad_Pitt-69858.jpg/960px-Brad_Pitt-69858.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/66/Brad_Pitt_2007.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Brad_Pitt_PF.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Brad_Pitt_2007.jpg/960px-Brad_Pitt_2007.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Brad_Pitt_PF.jpg/960px-Brad_Pitt_PF.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/60/Brad_Pitt_2013.jpg"
       ]
     },
@@ -54,9 +54,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg/960px-Margot_Robbie_Wuthering_Heights_premiere_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Margot_Robbie_%26_Jared_Leto_in_2016_%2828568544536%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Margot_Robbie_%2828601016915%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Margot_Robbie_%2828316659170%29_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Margot_Robbie_%26_Jared_Leto_in_2016_%2828568544536%29.jpg/960px-Margot_Robbie_%26_Jared_Leto_in_2016_%2828568544536%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Margot_Robbie_%2828601016915%29.jpg/960px-Margot_Robbie_%2828601016915%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Margot_Robbie_%2828316659170%29_%28cropped%29.jpg/960px-Margot_Robbie_%2828316659170%29_%28cropped%29.jpg"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zendaya-byPhilipRomano.jpg/960px-Zendaya-byPhilipRomano.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/32/Zendaya_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/80/Zendaya_2013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Zendaya_2013.jpg/960px-Zendaya_2013.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/36/Zendaya_2013_%28cropped%29.jpg"
       ]
     },
@@ -83,9 +83,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Timoth%C3%A9e_Chalamet-63482_%28cropped%29.jpg/960px-Timoth%C3%A9e_Chalamet-63482_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Timoth%C3%A9e_Chalamet-63482_%28cropped%29.jpg/960px-Timoth%C3%A9e_Chalamet-63482_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cc/Timoth%C3%A9e_Chalamet_in_2018_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bf/Timoth%C3%A9e_Chalamet_2017_Berlinale.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Timothee_Chalamet_and_Saoirse_Ronan_-_2024_%289_of_65%29_-_54213945000.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Timoth%C3%A9e_Chalamet_in_2018_%28cropped%29.jpg/960px-Timoth%C3%A9e_Chalamet_in_2018_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Timoth%C3%A9e_Chalamet_2017_Berlinale.jpg/960px-Timoth%C3%A9e_Chalamet_2017_Berlinale.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Timothee_Chalamet_and_Saoirse_Ronan_-_2024_%289_of_65%29_-_54213945000.jpg/960px-Timothee_Chalamet_and_Saoirse_Ronan_-_2024_%289_of_65%29_-_54213945000.jpg"
       ]
     },
     {
@@ -101,9 +101,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cillian_Murphy_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/95/Cillian_Murphy_at_Berlinale_2024.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg/960px-Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Cillian_Murphy_at_Berlinale_2024.jpg/960px-Cillian_Murphy_at_Berlinale_2024.jpg"
       ]
     },
     {
@@ -117,9 +116,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg/960px-GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg/960px-GoslingBFI081223_%2822_of_30%29_%2853388157347%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Michael_Jackson_Ryan_Gosling_Mus%C3%A9e_Gr%C3%A9vin_Montr%C3%A9al.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f0/Ryan_Gosling_%2816437257783%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/95/Ryan_Gosling_%2816869617648%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Michael_Jackson_Ryan_Gosling_Mus%C3%A9e_Gr%C3%A9vin_Montr%C3%A9al.JPG/960px-Michael_Jackson_Ryan_Gosling_Mus%C3%A9e_Gr%C3%A9vin_Montr%C3%A9al.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ryan_Gosling_%2816437257783%29.jpg/960px-Ryan_Gosling_%2816437257783%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ryan_Gosling_%2816869617648%29.jpg/960px-Ryan_Gosling_%2816869617648%29.jpg"
       ]
     },
     {
@@ -133,7 +132,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/16/Johnny_Depp_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Johnny_Depp_2.jpg/960px-Johnny_Depp_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/60/Johnny_Depp_Jim_Jarmusch_Cannes_1995.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Johnny_Depp_2%2C_2011.jpg"
       ]
@@ -149,7 +148,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/TomHolland-byPhilipRomano.jpg/960px-TomHolland-byPhilipRomano.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tom_Holland_director.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3c/Tom_Holland_by_Gage_Skidmore.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/960px-Tom_Holland_by_Gage_Skidmore.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tom_Holland_MTV_2018_%2802%29.jpg"
       ]
     },
@@ -163,8 +162,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg/960px-Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg/960px-Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bd/Emma-Stone-Photo-Call.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/80/Emma_Stone_Comic-Con_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Emma-Stone-Photo-Call.jpg/960px-Emma-Stone-Photo-Call.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Emma_Stone_Comic-Con_2011.jpg/960px-Emma_Stone_Comic-Con_2011.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/fd/Emma_Stone_2014.jpg"
       ]
     },
@@ -180,9 +179,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/960px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/960px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Robert_Downey_Jr-2008.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/6/69/Robert_Downey_Jr._2011_AA.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Robert_Downey_Jr-2008.JPG/960px-Robert_Downey_Jr-2008.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg/960px-Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
       ]
     },
     {
@@ -200,8 +198,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg/960px-Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/57/Keanu_Reeves_%2825448963336%29_%282%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/90/Keanu_Reeves_%28crop_and_levels%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a0/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Keanu_Reeves_%28crop_and_levels%29_%28cropped%29.jpg/960px-Keanu_Reeves_%28crop_and_levels%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg/960px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%28cropped%29.jpg"
       ]
     },
     {
@@ -215,9 +213,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/79/Will_Smith.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Edwin_Smith_Papyrus_v2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/80/Patti_Smith_performing_in_Finland%2C_2007.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Will_Smith.jpg/960px-Will_Smith.jpg"
       ]
     },
     {
@@ -233,7 +229,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/68/Dwayne_Johnson_at_the_2009_Tribeca_Film_Festival.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Dwayne_Johnson_at_the_2009_Tribeca_Film_Festival.jpg/960px-Dwayne_Johnson_at_the_2009_Tribeca_Film_Festival.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f1/Dwayne_Johnson_2%2C_2013.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dwayne_Johnson_Hercules_2014_%28cropped%29.jpg"
       ]
@@ -250,9 +246,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/960px-Scarlett_Johansson-8588.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/960px-Scarlett_Johansson-8588.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/42/Scarlett_Johansson_in_Kuwait_01b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Scarlett_Johansson_in_Kuwait_01b.jpg/960px-Scarlett_Johansson_in_Kuwait_01b.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/db/Scarlett_Johansson_2003.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/da/Scarlett_Johansson_2010.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Scarlett_Johansson_2010.jpg/960px-Scarlett_Johansson_2010.jpg"
       ]
     },
     {
@@ -266,8 +262,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Jennifer_Lawrence%2C_Cannes_Film_Festival_2025.jpg/960px-Jennifer_Lawrence%2C_Cannes_Film_Festival_2025.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/38/Jennifer_Lawrence_-_TIFF_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Jennifer_Lawrence_at_214._Wetten%2C_dass.._show_in_Graz%2C_8._Nov._2014_02.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Jennifer_Lawrence_SDCC_2015_X-Men.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Jennifer_Lawrence_at_214._Wetten%2C_dass.._show_in_Graz%2C_8._Nov._2014_02.jpg/960px-Jennifer_Lawrence_at_214._Wetten%2C_dass.._show_in_Graz%2C_8._Nov._2014_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Jennifer_Lawrence_SDCC_2015_X-Men.jpg/960px-Jennifer_Lawrence_SDCC_2015_X-Men.jpg"
       ]
     },
     {
@@ -280,7 +276,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/AnneHathaway-byPhilipRomano-Crop.jpg/960px-AnneHathaway-byPhilipRomano-Crop.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8c/Anne_Hathaway_%28actress%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e6/Anne_Hathaway_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Anne_Hathaway_2011.jpg/960px-Anne_Hathaway_2011.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anne_Hathaway_Face.jpg"
       ]
     },
@@ -294,7 +290,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/NataliePortman.jpg/960px-NataliePortman.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/47/Natalie_Portman_b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Natalie_Portman_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Natalie_Portman_2011.jpg/960px-Natalie_Portman_2011.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d1/Natalie_Portman%2C_2011.jpg"
       ]
     },
@@ -307,9 +303,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/960px-Angelina_Jolie-643531_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/960px-Angelina_Jolie-643531_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a0/Angelina_Jolie_and_Clint_Eastwood_on_the_red_carper_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Angelina_Jolie_by_Gage_Skidmore.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b1/Angelina_Jolie_2010.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Angelina_Jolie_by_Gage_Skidmore.jpg/960px-Angelina_Jolie_by_Gage_Skidmore.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Angelina_Jolie_2010.jpg/960px-Angelina_Jolie_2010.jpg"
       ]
     },
     {
@@ -323,7 +318,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Julia_Roberts_2025.jpg/960px-Julia_Roberts_2025.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d1/Julia_Roberts_2010.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/68/Julia_Roberts_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/01/Lisa_De_Vanna_v_Julia_Roberts_2013.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lisa_De_Vanna_v_Julia_Roberts_2013.jpg/960px-Lisa_De_Vanna_v_Julia_Roberts_2013.jpg"
       ]
     },
     {
@@ -350,7 +345,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg/960px-Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tom_cruise_1989.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tom_Cruise_and_Mimi_Rogers_in_1989.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Tom_Cruise_and_Mimi_Rogers_in_1989.jpg/960px-Tom_Cruise_and_Mimi_Rogers_in_1989.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/27/TomCruiseDec08MTV_cropped.jpg"
       ]
     },
@@ -363,9 +358,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/960px-Christian_Bale-7837.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/960px-Christian_Bale-7837.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/97/Christian_Bale_-_001.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/ce/Christian_Bale_NYC_premier_Dark_Knight.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a8/Christian_and_Sibi_Bale.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Christian_Bale_-_001.jpg/960px-Christian_Bale_-_001.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Christian_Bale_NYC_premier_Dark_Knight.jpg/960px-Christian_Bale_NYC_premier_Dark_Knight.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Christian_and_Sibi_Bale.jpg/960px-Christian_and_Sibi_Bale.jpg"
       ]
     },
     {
@@ -379,7 +374,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Joaquin_Phoenix-64908_%28cropped%29.jpg/960px-Joaquin_Phoenix-64908_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e4/Joaquin_Phoenix_2005.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d6/Joaquin_Phoenix_at_Cannes_2000.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/ba/Joaquin_Phoenix_2014.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Joaquin_Phoenix_2014.jpg/960px-Joaquin_Phoenix_2014.jpg"
       ]
     },
     {
@@ -391,9 +386,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/960px-SamuelLJackson.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/960px-SamuelLJackson.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Samuel_L_jackson_-_Thierry_Garcia_Party.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e7/Samuel_L._Jackson_-_Captain_America_2_press_conference.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Samuel_L_Jackson_%282017%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Samuel_L_jackson_-_Thierry_Garcia_Party.jpg/960px-Samuel_L_jackson_-_Thierry_Garcia_Party.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Samuel_L._Jackson_-_Captain_America_2_press_conference.jpg/960px-Samuel_L._Jackson_-_Captain_America_2_press_conference.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Samuel_L_Jackson_%282017%29.jpg/960px-Samuel_L_Jackson_%282017%29.jpg"
       ]
     },
     {
@@ -405,8 +400,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg/960px-Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg/960px-Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/14/Morgan_Freeman.0884.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/52/Morgan_Freeman.0870.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Morgan_Freeman.0884.jpg/960px-Morgan_Freeman.0884.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Morgan_Freeman.0870.jpg/960px-Morgan_Freeman.0870.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/14/Morgan_Freeman%2C_pastel_portrait_by_Robert_Perez_Palou.png"
       ]
     },
@@ -434,9 +429,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Robert_de_Niro_Cannes_Film_Festival_%283x4_cropped%29.jpg/960px-Robert_de_Niro_Cannes_Film_Festival_%283x4_cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Robert_de_Niro_Cannes_Film_Festival_%283x4_cropped%29.jpg/960px-Robert_de_Niro_Cannes_Film_Festival_%283x4_cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/90/Robert_De_Niro_2_by_David_Shankbone.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Robert_De_Niro_KVIFF_portrait.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Robert_De_Niro_Shankbone_2010_NYC.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Robert_De_Niro_2_by_David_Shankbone.jpg/960px-Robert_De_Niro_2_by_David_Shankbone.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Robert_De_Niro_KVIFF_portrait.jpg/960px-Robert_De_Niro_KVIFF_portrait.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Robert_De_Niro_Shankbone_2010_NYC.jpg/960px-Robert_De_Niro_Shankbone_2010_NYC.jpg"
       ]
     },
     {
@@ -448,8 +443,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/cf/Jack_Nicholson_2002.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jack_Nicholson.0920.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cb/Jack_Nicholson.0911.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Jack_Nicholson.0920.jpg/960px-Jack_Nicholson.0920.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Jack_Nicholson.0911.jpg/960px-Jack_Nicholson.0911.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/35/Jack_Nicholson_cropped_2010.jpg"
       ]
     },
@@ -462,7 +457,6 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Harrison_Ford_-_Televerse_2025-03.jpg/960px-Harrison_Ford_-_Televerse_2025-03.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Harrison_Ford_-_Televerse_2025-03.jpg/960px-Harrison_Ford_-_Televerse_2025-03.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/28/Harrison_Ford_at_the_2009_Deauville_American_Film_Festival%2C_cropped.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/45/Harrison_Ford_Cannes.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/0d/Harrison_Ford_%28silent_film_actor%29.jpg"
       ]
@@ -480,7 +474,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/960px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/960px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Arnold_Schwarzenegger_and_Maria_Shriver.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Arnold_Schwarzenegger_and_Maria_Shriver.jpg/960px-Arnold_Schwarzenegger_and_Maria_Shriver.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/ff/Arnold_Schwarzenegger_and_Maria_Shriver-mod.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/05/Arnold_Schwarzenegger_1974.jpg"
       ]
@@ -496,8 +490,6 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/P20251206DT-0472_%283x4_cropped_on_Stallone_with_moderate_headroom%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/12/P20251206DT-0472_%283x4_cropped_on_Stallone_with_moderate_headroom%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/47/Sylvester_Stallone_%281984%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/61/Sylvester_Stallone_%281984%29_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg"
       ]
     },
@@ -510,9 +502,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jackie_Chan_2002.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jackie_Chan_Berlinale_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Jackie_Chan_and_a_hostess.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jackie_Chan_2002.jpg/960px-Jackie_Chan_2002.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jackie_Chan_Berlinale_2010.jpg/960px-Jackie_Chan_Berlinale_2010.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Jackie_Chan_and_a_hostess.jpg/960px-Jackie_Chan_and_a_hostess.jpg"
       ]
     },
     {
@@ -526,8 +518,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jim_Carrey_2008.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jim_Carrey_2008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Jim_Carrey.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Jim_Carrey_Hands.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Jim_Carrey.jpg/960px-Jim_Carrey.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Jim_Carrey_Hands.jpg/960px-Jim_Carrey_Hands.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/72/Jim_Carrey_Cannes_2009.jpg"
       ]
     },
@@ -540,8 +532,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg/960px-Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg/960px-Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/09/Adam_Sandler_6818.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Adam_Sandler_2011_%28Cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Adam_Sandler_6818.jpg/960px-Adam_Sandler_6818.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Adam_Sandler_2011_%28Cropped%29.jpg/960px-Adam_Sandler_2011_%28Cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/40/Adam_Sandler_Cannes_2017.jpg"
       ]
     },
@@ -554,9 +546,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg/960px-Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg/960px-Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Nicolas_Cage_-_KirkWeaver.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Nicolas_Cage_Deauville_2013.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nicolas_Cage_-_KirkWeaver.jpg/960px-Nicolas_Cage_-_KirkWeaver.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nicolas_Cage_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg"
       ]
     },
     {
@@ -568,9 +559,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Willem_Dafoe_at_78th_Locarno_Film_Festival_%28cropped%29.jpg/960px-Willem_Dafoe_at_78th_Locarno_Film_Festival_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Willem_Dafoe_at_78th_Locarno_Film_Festival_%28cropped%29.jpg/960px-Willem_Dafoe_at_78th_Locarno_Film_Festival_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Willem_Dafoe_2014.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Willem_Dafoe_2014.jpg/960px-Willem_Dafoe_2014.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/14/Willem_Dafoe_Cannes_2019.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Willem_Dafoe_2017.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Willem_Dafoe_2017.jpg/960px-Willem_Dafoe_2017.jpg"
       ]
     },
     {
@@ -582,9 +573,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg/960px-Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg/960px-Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_02.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_03.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg/960px-Pedro_Pascal_by_Gage_Skidmore.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_02.jpg/960px-Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_03.jpg/960px-Sticker_de_Pedro_Pascal_junto_a_la_Catedral_de_Puebla_03.jpg"
       ]
     },
     {
@@ -611,8 +602,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Anya_Taylor-Joy_at_the_2025_Toronto_International_Film_Festival._07_%28cropped%29.jpg/960px-Anya_Taylor-Joy_at_the_2025_Toronto_International_Film_Festival._07_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2e/Anya_Taylor-Joy_and_Jarin_Blaschke_%2816213695517%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Anya_Taylor-Joy_15_%2833564157402%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Anya_Taylor-Joy_by_Gage_Skidmore.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Anya_Taylor-Joy_by_Gage_Skidmore.jpg/960px-Anya_Taylor-Joy_by_Gage_Skidmore.jpg"
       ]
     },
     {
@@ -624,9 +614,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg/960px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg/960px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_%283x4_cropped_and_rotated%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sydney_Sweeney_2019_by_Glenn_Francis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Sydney_Sweeney_at_Berlinale_2023.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_03.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Sydney_Sweeney_2019_by_Glenn_Francis.jpg/960px-Sydney_Sweeney_2019_by_Glenn_Francis.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sydney_Sweeney_at_Berlinale_2023.jpg/960px-Sydney_Sweeney_at_Berlinale_2023.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_03.jpg/960px-Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_03.jpg"
       ]
     },
     {
@@ -638,9 +628,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg/960px-Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg/960px-Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cf/82nd_Academy_Awards%2C_Ryan_Reynolds_-_army_mil-66450-2010-03-09-180346b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ryan_Reynolds%2C_2010_Buried_Premiere.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ryan_Reynolds_2011.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/82nd_Academy_Awards%2C_Ryan_Reynolds_-_army_mil-66450-2010-03-09-180346b.jpg/960px-82nd_Academy_Awards%2C_Ryan_Reynolds_-_army_mil-66450-2010-03-09-180346b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ryan_Reynolds%2C_2010_Buried_Premiere.jpg/960px-Ryan_Reynolds%2C_2010_Buried_Premiere.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ryan_Reynolds_2011.jpg/960px-Ryan_Reynolds_2011.jpg"
       ]
     },
     {
@@ -653,8 +643,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Hugh_Jackman_by_Gage_Skidmore_3.jpg/960px-Hugh_Jackman_by_Gage_Skidmore_3.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/ac/Fan_BingBing_%26_Hugh_Jackman_%2814184759884%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/52/Hugh_Jackman_%288464871304%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Hugh_Jackman_%288464871590%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Hugh_Jackman_%288464871304%29.jpg/960px-Hugh_Jackman_%288464871304%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Hugh_Jackman_%288464871590%29.jpg/960px-Hugh_Jackman_%288464871590%29.jpg"
       ]
     },
     {
@@ -667,8 +657,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/DanielRadcliffe.jpg/960px-DanielRadcliffe.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f1/DANIEL_RADCLIFFE_07.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/99/Daniel_Radcliffe_2009.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Daniel_Radcliffe_NY9.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Daniel_Radcliffe_NY9.jpg/960px-Daniel_Radcliffe_NY9.jpg"
       ]
     },
     {
@@ -682,7 +671,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg/960px-TomHanksPrincEdw031223_%2811_of_41%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d9/1989_Tom_Hanks.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/98/Tom_Hanks_face.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tom_Hanks_2016.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Tom_Hanks_2016.jpg/960px-Tom_Hanks_2016.jpg"
       ]
     }
   ],

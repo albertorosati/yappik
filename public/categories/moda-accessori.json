@@ -6,10 +6,10 @@
   "themeHex": "#EC4899",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Memphis_tie_1A.JPG/960px-Memphis_tie_1A.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Josh_Wilson_005.JPG/960px-Josh_Wilson_005.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1910_top_hat.jpg/960px-1910_top_hat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Memphis_tie_1A.JPG/960px-Memphis_tie_1A.JPG",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1910_top_hat.jpg/960px-1910_top_hat.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/e/e1/Man_wearing_suspenders.jpg"
   ],
   "items": [
     {
@@ -19,19 +19,30 @@
         "farfallino",
         "cravattino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg"
+      ]
     },
     {
       "id": "moda-accessori-2",
       "answer": "Cravatta",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Memphis_tie_1A.JPG/960px-Memphis_tie_1A.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Memphis_tie_1A.JPG/960px-Memphis_tie_1A.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Memphis_tie_1A.JPG/960px-Memphis_tie_1A.JPG"
+      ]
     },
     {
       "id": "moda-accessori-3",
       "answer": "Bretelle",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Josh_Wilson_005.JPG/960px-Josh_Wilson_005.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Man_wearing_suspenders.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Man_wearing_suspenders.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/M1956_Suspenders_3.JPG/960px-M1956_Suspenders_3.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rainbow_suspenders_%289178122197%29.jpg/960px-Rainbow_suspenders_%289178122197%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-4",
@@ -39,7 +50,10 @@
       "aliases": [
         "cilindro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1910_top_hat.jpg/960px-1910_top_hat.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1910_top_hat.jpg/960px-1910_top_hat.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1910_top_hat.jpg/960px-1910_top_hat.jpg"
+      ]
     },
     {
       "id": "moda-accessori-5",
@@ -47,7 +61,12 @@
       "aliases": [
         "basco francese"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Sven_Palmqvist_1965.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Beret_%28AM_2001.25.383-2%29.jpg/960px-Beret_%28AM_2001.25.383-2%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Beret_%28AM_2001.25.383-2%29.jpg/960px-Beret_%28AM_2001.25.383-2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Green_Wool_Beret_Made_by_the_John_B._Stetson_Company_-_DPLA_-_a53b7967e7bf680f9190c4f2ee31890d_%28page_1%29.jpg/960px-Green_Wool_Beret_Made_by_the_John_B._Stetson_Company_-_DPLA_-_a53b7967e7bf680f9190c4f2ee31890d_%28page_1%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Green_Wool_Beret_Made_by_the_John_B._Stetson_Company_-_DPLA_-_a53b7967e7bf680f9190c4f2ee31890d_%28page_2%29.jpg/960px-Green_Wool_Beret_Made_by_the_John_B._Stetson_Company_-_DPLA_-_a53b7967e7bf680f9190c4f2ee31890d_%28page_2%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-6",
@@ -55,7 +74,10 @@
       "aliases": [
         "cappello messicano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/CharroHatsMAPDF.JPG/960px-CharroHatsMAPDF.JPG"
+      ]
     },
     {
       "id": "moda-accessori-7",
@@ -63,13 +85,19 @@
       "aliases": [
         "stetson"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Felthat.jpg/960px-Felthat.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Felthat.jpg/960px-Felthat.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Felthat.jpg/960px-Felthat.jpg"
+      ]
     },
     {
       "id": "moda-accessori-8",
       "answer": "Turbante",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sikh_singh_picture.jpg/960px-Sikh_singh_picture.jpg"
+      ]
     },
     {
       "id": "moda-accessori-9",
@@ -78,7 +106,10 @@
         "casco integrale",
         "casco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Valentino_Rossi%27s_AGV_helmets.jpg/960px-Valentino_Rossi%27s_AGV_helmets.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Valentino_Rossi%27s_AGV_helmets.jpg/960px-Valentino_Rossi%27s_AGV_helmets.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Valentino_Rossi%27s_AGV_helmets.jpg/960px-Valentino_Rossi%27s_AGV_helmets.jpg"
+      ]
     },
     {
       "id": "moda-accessori-10",
@@ -87,7 +118,10 @@
         "ray ban",
         "aviator"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg/960px-Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg/960px-Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg/960px-Allef_Vinicius_2016-10-20_%28Unsplash%29_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-11",
@@ -96,7 +130,10 @@
         "cronografo",
         "orologio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg/960px-Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg/960px-Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg/960px-Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg"
+      ]
     },
     {
       "id": "moda-accessori-12",
@@ -104,7 +141,10 @@
       "aliases": [
         "cipolla orologio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pocket_Watch_%28Savonette%29.jpg/960px-Pocket_Watch_%28Savonette%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pocket_Watch_%28Savonette%29.jpg/960px-Pocket_Watch_%28Savonette%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Pocket_Watch_%28Savonette%29.jpg/960px-Pocket_Watch_%28Savonette%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-13",
@@ -113,7 +153,10 @@
         "anello",
         "solitario"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Two_engagement_rings_1.jpg/960px-Two_engagement_rings_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Two_engagement_rings_1.jpg/960px-Two_engagement_rings_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Two_engagement_rings_1.jpg/960px-Two_engagement_rings_1.jpg"
+      ]
     },
     {
       "id": "moda-accessori-14",
@@ -122,7 +165,12 @@
         "perle",
         "collana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Gianni-berengo-gardin-books.jpg/960px-Gianni-berengo-gardin-books.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Onyx_Pearls_Necklace-1200.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Onyx_Pearls_Necklace-1200.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Necklace_MET_DP342239.jpg/960px-Necklace_MET_DP342239.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Necklace_MET_DP272894.jpg/960px-Necklace_MET_DP272894.jpg"
+      ]
     },
     {
       "id": "moda-accessori-15",
@@ -130,7 +178,10 @@
       "aliases": [
         "spilla"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Safety_Pin.jpg/960px-Safety_Pin.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Safety_Pin.jpg/960px-Safety_Pin.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Safety_Pin.jpg/960px-Safety_Pin.jpg"
+      ]
     },
     {
       "id": "moda-accessori-16",
@@ -138,31 +189,46 @@
       "aliases": [
         "gemelli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg/960px-%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg/960px-%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg/960px-%D7%9B%D7%A4%D7%AA%D7%95%D7%A8_%D7%97%D7%A4%D7%AA.jpg"
+      ]
     },
     {
       "id": "moda-accessori-17",
       "answer": "Cintura",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Germany_Belt-and-Buckle-02.jpg/960px-Germany_Belt-and-Buckle-02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Germany_Belt-and-Buckle-02.jpg/960px-Germany_Belt-and-Buckle-02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Germany_Belt-and-Buckle-02.jpg/960px-Germany_Belt-and-Buckle-02.jpg"
+      ]
     },
     {
       "id": "moda-accessori-18",
       "answer": "Portafoglio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/WalletMpegMan.jpg/960px-WalletMpegMan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/WalletMpegMan.jpg/960px-WalletMpegMan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/WalletMpegMan.jpg/960px-WalletMpegMan.jpg"
+      ]
     },
     {
       "id": "moda-accessori-19",
       "answer": "Ombrello",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/960px-M0354_000727-005_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/960px-M0354_000727-005_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/M0354_000727-005_1.jpg/960px-M0354_000727-005_1.jpg"
+      ]
     },
     {
       "id": "moda-accessori-20",
       "answer": "Ventaglio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Brise_Fan_LACMA_M.78.108.10.jpg/960px-Brise_Fan_LACMA_M.78.108.10.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Brise_Fan_LACMA_M.78.108.10.jpg/960px-Brise_Fan_LACMA_M.78.108.10.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Brise_Fan_LACMA_M.78.108.10.jpg/960px-Brise_Fan_LACMA_M.78.108.10.jpg"
+      ]
     },
     {
       "id": "moda-accessori-21",
@@ -170,7 +236,10 @@
       "aliases": [
         "guanti in pelle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG/960px-Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG/960px-Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG/960px-Centre_de_Documentaci%C3%B3_Museu_T%C3%A8xtil_de_Terrassa-_Reserves-_Teixits-_Guants002.JPG"
+      ]
     },
     {
       "id": "moda-accessori-22",
@@ -178,19 +247,28 @@
       "aliases": [
         "manopole"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Southern_Sami_Mittens_Norway.JPG/960px-Southern_Sami_Mittens_Norway.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Southern_Sami_Mittens_Norway.JPG/960px-Southern_Sami_Mittens_Norway.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Southern_Sami_Mittens_Norway.JPG/960px-Southern_Sami_Mittens_Norway.JPG"
+      ]
     },
     {
       "id": "moda-accessori-23",
       "answer": "Sciarpa",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/100%25_Kaschmir_Wolle_vonk_kaschmirprodukte.de.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/100%25_Kaschmir_Wolle_vonk_kaschmirprodukte.de.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/90/100%25_Kaschmir_Wolle_vonk_kaschmirprodukte.de.jpg"
+      ]
     },
     {
       "id": "moda-accessori-24",
       "answer": "Passamontagna",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/20070102_per_erik_strandberg_balaclava_arranged.jpg/960px-20070102_per_erik_strandberg_balaclava_arranged.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/20070102_per_erik_strandberg_balaclava_arranged.jpg/960px-20070102_per_erik_strandberg_balaclava_arranged.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/20070102_per_erik_strandberg_balaclava_arranged.jpg/960px-20070102_per_erik_strandberg_balaclava_arranged.jpg"
+      ]
     },
     {
       "id": "moda-accessori-25",
@@ -199,7 +277,10 @@
         "galosce",
         "stivali di gomma"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sievi_Boots_%282%29.jpg/960px-Sievi_Boots_%282%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sievi_Boots_%282%29.jpg/960px-Sievi_Boots_%282%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Sievi_Boots_%282%29.jpg/960px-Sievi_Boots_%282%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-26",
@@ -208,7 +289,10 @@
         "scarpe col tacco",
         "decollete"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg/960px-High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg/960px-High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg/960px-High-heeled_shoes_on_display_in_Huangpu%2C_Shanghai_%2820180211145140%29.jpg"
+      ]
     },
     {
       "id": "moda-accessori-27",
@@ -216,19 +300,28 @@
       "aliases": [
         "ciabatte infradito"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Flip_flops.jpg/960px-Flip_flops.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Flip_flops.jpg/960px-Flip_flops.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Flip_flops.jpg/960px-Flip_flops.jpg"
+      ]
     },
     {
       "id": "moda-accessori-28",
       "answer": "Mocassini",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Loafers_being_worn.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Loafers_being_worn.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/Loafers_being_worn.jpg"
+      ]
     },
     {
       "id": "moda-accessori-29",
       "answer": "Espadrillas",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Alpargatas_oliva.jpg/960px-Alpargatas_oliva.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Alpargatas_oliva.jpg/960px-Alpargatas_oliva.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Alpargatas_oliva.jpg/960px-Alpargatas_oliva.jpg"
+      ]
     },
     {
       "id": "moda-accessori-30",
@@ -236,13 +329,19 @@
       "aliases": [
         "camperos"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Cowboy_boots_cropped.png/960px-Cowboy_boots_cropped.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Cowboy_boots_cropped.png/960px-Cowboy_boots_cropped.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Cowboy_boots_cropped.png/960px-Cowboy_boots_cropped.png"
+      ]
     },
     {
       "id": "moda-accessori-31",
       "answer": "Marsupio",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fannypack1a.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fannypack1a.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fannypack1a.jpg"
+      ]
     },
     {
       "id": "moda-accessori-32",
@@ -250,7 +349,10 @@
       "aliases": [
         "trolley"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Suitcase1.jpg/960px-Suitcase1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Suitcase1.jpg/960px-Suitcase1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Suitcase1.jpg/960px-Suitcase1.jpg"
+      ]
     },
     {
       "id": "moda-accessori-33",
@@ -258,13 +360,19 @@
       "aliases": [
         "abito da sera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Man_wearing_black_tie.jpg/960px-Man_wearing_black_tie.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Man_wearing_black_tie.jpg/960px-Man_wearing_black_tie.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Man_wearing_black_tie.jpg/960px-Man_wearing_black_tie.jpg"
+      ]
     },
     {
       "id": "moda-accessori-34",
       "answer": "Kimono",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Two_young_maiko_in_Seirai-in_Temple_02.jpg/960px-Two_young_maiko_in_Seirai-in_Temple_02.jpg"
+      ]
     },
     {
       "id": "moda-accessori-35",
@@ -272,7 +380,12 @@
       "aliases": [
         "gonnellino scozzese"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Scottish_mercenaries_in_the_Thirty_Years_War.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Kilt_fitzsimmons_tartan.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/72/Kilt_fitzsimmons_tartan.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Neil_McKinnon%27s_Robert_Burns_Hotel%2C_showing_family_with_little_boy_dressed_in_Scottish_tartan_kilt%2C_Gulgong%2C_1870-1875%2C_by_American_and_Australasian_Photographic_Company_%286758034213%29.jpg/960px-thumbnail.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Tartan_Laing.jpg"
+      ]
     },
     {
       "id": "moda-accessori-36",
@@ -280,7 +393,10 @@
       "aliases": [
         "tuta di jeans"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/PalmercarpenterA.jpg/960px-PalmercarpenterA.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/PalmercarpenterA.jpg/960px-PalmercarpenterA.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/PalmercarpenterA.jpg/960px-PalmercarpenterA.jpg"
+      ]
     },
     {
       "id": "moda-accessori-37",
@@ -288,13 +404,19 @@
       "aliases": [
         "costume da bagno"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Three_Girls_Surfers_Paradise_in_bikinis.jpg/960px-Three_Girls_Surfers_Paradise_in_bikinis.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Three_Girls_Surfers_Paradise_in_bikinis.jpg/960px-Three_Girls_Surfers_Paradise_in_bikinis.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Three_Girls_Surfers_Paradise_in_bikinis.jpg/960px-Three_Girls_Surfers_Paradise_in_bikinis.jpg"
+      ]
     },
     {
       "id": "moda-accessori-38",
       "answer": "Accappatoio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg/960px-Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg/960px-Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg/960px-Lastminute.com_hotel_room_photo_shoot_-_51_Buckingham_Gate%2C_London.jpg"
+      ]
     }
   ],
   "scope": "intl",

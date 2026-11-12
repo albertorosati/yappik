@@ -23,11 +23,13 @@ import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
 import {
   getBackupImageUrl,
+  getResolvedImageUrl,
   isImageCached,
   prepareArenaDeck,
   primeImage,
   getItemImagePool,
 } from '../data/categories';
+import { isRenderedImageHealthy } from '../utils/itemUtils';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { soloScoreService } from '../services/soloScoreService';
@@ -107,11 +109,13 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
   const reportTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const currentItem = deck[itemIndex % deck.length];
-  const displaySrc =
+  const rawDisplaySrc =
     photoOverride ||
     (usingBackupUrl
       ? getBackupImageUrl(currentItem.imageUrl)
-      : resolvedUrlsRef.current.get(currentItem.id) || currentItem.imageUrl);
+      : resolvedUrlsRef.current.get(currentItem.id) ||
+        getResolvedImageUrl(currentItem.imageUrl));
+  const displaySrc = rawDisplaySrc;
 
   const [imageLoaded, setImageLoaded] = useState(() =>
     isImageCached(displaySrc)
@@ -154,10 +158,21 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     setImageLoaded(cached);
     if (!cached) {
       primeImage(displaySrc)
-        .then(() => setImageLoaded(true))
-        .catch(() => {});
+        .then((finalSrc) => {
+          if (finalSrc && currentItem) {
+            resolvedUrlsRef.current.set(currentItem.id, finalSrc);
+          }
+          setImageLoaded(true);
+        })
+        .catch(() => {
+          if (!usingBackupUrl) {
+            setUsingBackupUrl(true);
+          } else {
+            setImageLoaded(true);
+          }
+        });
     }
-  }, [displaySrc]);
+  }, [displaySrc, currentItem, usingBackupUrl]);
 
   // Rolling preloader per le immagini successive
   useEffect(() => {
@@ -167,30 +182,28 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       if (
         !candidate ||
         brokenIdsRef.current.has(candidate.id) ||
-        isImageCached(candidate.imageUrl)
+        resolvedUrlsRef.current.has(candidate.id)
       ) {
         continue;
       }
 
       primeImage(candidate.imageUrl)
-        .then(() => {
-          resolvedUrlsRef.current.set(candidate.id, candidate.imageUrl);
+        .then((resolvedSrc) => {
+          resolvedUrlsRef.current.set(candidate.id, resolvedSrc);
         })
         .catch(() => {
-          const backup = getBackupImageUrl(candidate.imageUrl);
-          primeImage(backup)
-            .then(() => {
-              resolvedUrlsRef.current.set(candidate.id, backup);
-            })
-            .catch(() => {
-              brokenIdsRef.current.add(candidate.id);
-            });
+          brokenIdsRef.current.add(candidate.id);
         });
     }
   }, [deck, itemIndex]);
 
   // Passa all'immagine successiva
   const advanceToNextImage = useCallback(() => {
+    ignoreVoiceUntilRef.current = Math.max(
+      ignoreVoiceUntilRef.current,
+      performance.now() + 250
+    );
+    recognizerRef.current?.consumeCurrentBuffer();
     setUsingBackupUrl(false);
     setPhotoOverride(null);
     setItemIndex((prev) => {
@@ -275,16 +288,17 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       // Show sticker label overlapping bottom edge with green "YES" tag + canonical answer for 700ms
       setRevealedAnswer({
         tag: 'YES',
-        text: currentItem.answer,
+        text: st.currentItem.answer,
         isPass: false,
       });
 
       setTimeout(() => {
+        if (stateRef.current.sessionEnded) return;
         setRevealedAnswer(null);
         advanceToNextImage();
       }, 700);
     },
-    [advanceToNextImage, currentItem.answer]
+    [advanceToNextImage]
   );
 
   // Passo (A1)
@@ -314,11 +328,12 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     // Show sticker label overlapping bottom edge with red "ANSWER" tag for 1.4s
     setRevealedAnswer({
       tag: 'ANSWER',
-      text: currentItem.answer,
+      text: st.currentItem.answer,
       isPass: true,
     });
 
     setTimeout(() => {
+      if (stateRef.current.sessionEnded) return;
       setRevealedAnswer(null);
       setPassBurstVisible(false);
       advanceToNextImage();
@@ -327,7 +342,6 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     isFreeMode,
     settings.passPenaltySeconds,
     advanceToNextImage,
-    currentItem.answer,
   ]);
 
   // Fine sessione allenamento
@@ -435,7 +449,55 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     return () => clearInterval(interval);
   }, [sessionEnded, isPaused, isFreeMode, finishTrainingSession]);
 
-  // Riconoscimento Vocale
+  const processSpokenRef = useRef((alternatives: string[], isFinal: boolean) => {
+    const st = stateRef.current;
+    if (st.sessionEnded || st.isPaused || st.revealedAnswer !== null) return;
+    if (performance.now() < ignoreVoiceUntilRef.current) return;
+
+    const bestTranscript = alternatives[0] || '';
+    if (bestTranscript) {
+      setLiveTranscript(bestTranscript);
+    }
+
+    const matchResult = evaluateVoiceInput(alternatives, st.currentItem, {
+      isFinal,
+    });
+
+    if (matchResult.isPassCommand) {
+      triggerPass();
+      return;
+    }
+
+    if (matchResult.matched) {
+      triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
+    }
+  });
+
+  processSpokenRef.current = (alternatives: string[], isFinal: boolean) => {
+    const st = stateRef.current;
+    if (st.sessionEnded || st.isPaused || st.revealedAnswer !== null) return;
+    if (performance.now() < ignoreVoiceUntilRef.current) return;
+
+    const bestTranscript = alternatives[0] || '';
+    if (bestTranscript) {
+      setLiveTranscript(bestTranscript);
+    }
+
+    const matchResult = evaluateVoiceInput(alternatives, st.currentItem, {
+      isFinal,
+    });
+
+    if (matchResult.isPassCommand) {
+      triggerPass();
+      return;
+    }
+
+    if (matchResult.matched) {
+      triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
+    }
+  };
+
+  // Riconoscimento Vocale (sessione continua senza riavvii tra una foto e l'altra)
   useEffect(() => {
     if (sessionEnded || isPaused) {
       recognizerRef.current?.stop();
@@ -443,30 +505,13 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     }
 
     const rec = new SmartSpeechRecognizer(
-      (alternatives) => {
-        if (performance.now() < ignoreVoiceUntilRef.current) return;
-        if (stateRef.current.sessionEnded || stateRef.current.isPaused) return;
-
-        const bestTranscript = alternatives[0] || '';
-        setLiveTranscript(bestTranscript);
-
-        const matchResult = evaluateVoiceInput(
-          alternatives,
-          currentItem
-        );
-
-        if (matchResult.isPassCommand) {
-          triggerPass();
-          return;
-        }
-
-        if (matchResult.matched) {
-          triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
-        }
+      (alternatives, isFinal) => {
+        processSpokenRef.current(alternatives, isFinal);
       },
       (listening, err) => {
         setIsListening(listening);
         if (err) setMicErrorMsg(err);
+        else if (listening) setMicErrorMsg(null);
       },
       (vol) => setMicVolume(vol),
       settings.language || 'it'
@@ -483,14 +528,7 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     return () => {
       rec.stop();
     };
-  }, [
-    sessionEnded,
-    isPaused,
-    currentItem,
-    settings.language,
-    triggerCorrectGuess,
-    triggerPass,
-  ]);
+  }, [sessionEnded, isPaused, settings.language, category.items]);
 
   // Scorciatoie da tastiera (Spazio per Passo, Invio per Esatto)
   useEffect(() => {
@@ -626,23 +664,51 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
             )}
 
             {/* The Photo with 12px mat */}
-            <div className="w-full h-full flex items-center justify-center bg-paper/50 rounded-lg overflow-hidden">
+            <div className="w-full h-full min-h-[200px] min-w-[220px] flex items-center justify-center bg-paper/50 rounded-lg overflow-hidden relative">
+              {!imageLoaded && (
+                <div className="absolute inset-0 flex items-center justify-center bg-ink/5 animate-pulse rounded-lg">
+                  <div className="w-8 h-8 rounded-full border-[3px] border-ink/20 border-t-ink animate-spin" />
+                </div>
+              )}
               <img
                 key={displaySrc}
                 src={displaySrc}
                 alt={currentItem.answer}
                 decoding="async"
                 loading="eager"
-                onLoad={() => setImageLoaded(true)}
+                onLoad={(e) => {
+                  const { naturalWidth, naturalHeight } = e.currentTarget;
+                  if (!isRenderedImageHealthy(naturalWidth, naturalHeight)) {
+                    const cleanPool = getItemImagePool(currentItem).filter(
+                      (u) => u !== displaySrc
+                    );
+                    if (cleanPool.length > 0 && !photoOverride) {
+                      setPhotoOverride(cleanPool[0]);
+                      return;
+                    }
+                    brokenIdsRef.current.add(currentItem.id);
+                    advanceToNextImage();
+                    return;
+                  }
+                  setImageLoaded(true);
+                }}
                 onError={() => {
                   if (!usingBackupUrl) {
                     setUsingBackupUrl(true);
                   } else {
+                    const cleanPool = getItemImagePool(currentItem).filter(
+                      (u) => u !== displaySrc
+                    );
+                    if (cleanPool.length > 0 && !photoOverride) {
+                      setUsingBackupUrl(false);
+                      setPhotoOverride(cleanPool[0]);
+                      return;
+                    }
                     brokenIdsRef.current.add(currentItem.id);
                     advanceToNextImage();
                   }
                 }}
-                className={`max-w-full max-h-[52vh] w-auto h-auto object-contain transition-opacity duration-100 ${
+                className={`max-w-full max-h-[52vh] w-auto h-auto object-contain rounded-lg transition-opacity duration-150 ${
                   imageLoaded ? 'opacity-100' : 'opacity-0'
                 }`}
               />

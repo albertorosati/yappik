@@ -6,10 +6,10 @@
   "themeHex": "#F97316",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Vegeta_-_Dragon_Ball_Kai.png/960px-Vegeta_-_Dragon_Ball_Kai.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/en/6/68/Dragon_Ball_Cast.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Gohan.jpg/960px-Gohan.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png",
+    "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Vegeta_-_Dragon_Ball_Kai.png/960px-Vegeta_-_Dragon_Ball_Kai.png",
+    "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Gohan.jpg/960px-Gohan.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/d/dc/Freeza_title_page.jpg"
   ],
   "items": [
     {
@@ -20,7 +20,10 @@
         "kakaroth",
         "dragon ball"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Son_Goku_-_Dragon_Ball_Kai.png/960px-Son_Goku_-_Dragon_Ball_Kai.png"
+      ]
     },
     {
       "id": "anime-manga-2",
@@ -28,7 +31,10 @@
       "aliases": [
         "principe dei saiyan"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Vegeta_-_Dragon_Ball_Kai.png/960px-Vegeta_-_Dragon_Ball_Kai.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Vegeta_-_Dragon_Ball_Kai.png/960px-Vegeta_-_Dragon_Ball_Kai.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/f/ff/Vegeta_-_Dragon_Ball_Kai.png/960px-Vegeta_-_Dragon_Ball_Kai.png"
+      ]
     },
     {
       "id": "anime-manga-3",
@@ -36,7 +42,10 @@
       "aliases": [
         "frieza"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Dragon_Ball_Cast.PNG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Freeza_title_page.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/d/dc/Freeza_title_page.jpg"
+      ]
     },
     {
       "id": "anime-manga-4",
@@ -44,7 +53,10 @@
       "aliases": [
         "son gohan"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Gohan.jpg/960px-Gohan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Gohan.jpg/960px-Gohan.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Gohan.jpg/960px-Gohan.jpg"
+      ]
     },
     {
       "id": "anime-manga-5",
@@ -52,7 +64,10 @@
       "aliases": [
         "piccolo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/00/Piccolo_Dragon_Ball.png/960px-Piccolo_Dragon_Ball.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/00/Piccolo_Dragon_Ball.png/960px-Piccolo_Dragon_Ball.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/0/00/Piccolo_Dragon_Ball.png/960px-Piccolo_Dragon_Ball.png"
+      ]
     },
     {
       "id": "anime-manga-6",
@@ -60,7 +75,10 @@
       "aliases": [
         "naruto uzumaki"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/d/db/Uzumaki_Naruto.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/d/db/Uzumaki_Naruto.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/d/db/Uzumaki_Naruto.png"
+      ]
     },
     {
       "id": "anime-manga-7",
@@ -68,7 +86,10 @@
       "aliases": [
         "sasuke uchiha"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Sasuke_Uchiha_shippuuden.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Sasuke_Uchiha_shippuuden.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/08/Sasuke_Uchiha_shippuuden.png"
+      ]
     },
     {
       "id": "anime-manga-8",
@@ -76,7 +97,10 @@
       "aliases": [
         "kakashi hatake"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/2/27/Kakashi_Hatake.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/2/27/Kakashi_Hatake.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/2/27/Kakashi_Hatake.png"
+      ]
     },
     {
       "id": "anime-manga-9",
@@ -84,7 +108,10 @@
       "aliases": [
         "itachi uchiha"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/88/Uitachi5.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/88/Uitachi5.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/8/88/Uitachi5.png"
+      ]
     },
     {
       "id": "anime-manga-10",
@@ -95,7 +122,10 @@
         "cappello di paglia",
         "one piece"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/32/Monkey_D._Rufy.png/960px-Monkey_D._Rufy.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/32/Monkey_D._Rufy.png/960px-Monkey_D._Rufy.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/3/32/Monkey_D._Rufy.png/960px-Monkey_D._Rufy.png"
+      ]
     },
     {
       "id": "anime-manga-11",
@@ -103,7 +133,10 @@
       "aliases": [
         "roronoa zoro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Roronoa_Zoro.png/960px-Roronoa_Zoro.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Roronoa_Zoro.png/960px-Roronoa_Zoro.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/5/50/Roronoa_Zoro.png/960px-Roronoa_Zoro.png"
+      ]
     },
     {
       "id": "anime-manga-12",
@@ -111,13 +144,19 @@
       "aliases": [
         "vinsmoke sanji"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/5/5e/One_Piece_vol_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Sanji.png/960px-Sanji.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/48/Sanji.png/960px-Sanji.png"
+      ]
     },
     {
       "id": "anime-manga-13",
       "answer": "Nami",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/5/5e/One_Piece_vol_1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Nami_%28One_Piece_Odyssey%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Nami_%28One_Piece_Odyssey%29.jpg"
+      ]
     },
     {
       "id": "anime-manga-14",
@@ -126,7 +165,10 @@
         "kira",
         "death note"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/4/4f/Yagami_light.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/4/4f/Yagami_light.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/4/4f/Yagami_light.jpg"
+      ]
     },
     {
       "id": "anime-manga-15",
@@ -135,7 +177,10 @@
         "elle",
         "elle death note"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg"
+      ]
     },
     {
       "id": "anime-manga-16",
@@ -143,7 +188,10 @@
       "aliases": [
         "shinigami"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/08/Death_Note_volume_01.jpg"
+      ]
     },
     {
       "id": "anime-manga-17",
@@ -152,7 +200,10 @@
         "eren",
         "attacco dei giganti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a7/Eren_jaeger.png/960px-Eren_jaeger.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a7/Eren_jaeger.png/960px-Eren_jaeger.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a7/Eren_jaeger.png/960px-Eren_jaeger.png"
+      ]
     },
     {
       "id": "anime-manga-18",
@@ -161,7 +212,11 @@
         "capitano levi",
         "levi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Matthew_Mercer_-_IGN_Live_2024.jpg/960px-Matthew_Mercer_-_IGN_Live_2024.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Livai_Ackerman_aanthonym.jpg/960px-Livai_Ackerman_aanthonym.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Livai_Ackerman_aanthonym.jpg/960px-Livai_Ackerman_aanthonym.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Rita_Levi-Montalcini_%281986%29.jpg/960px-Rita_Levi-Montalcini_%281986%29.jpg"
+      ]
     },
     {
       "id": "anime-manga-19",
@@ -169,7 +224,10 @@
       "aliases": [
         "mikasa ackerman"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_Ishikawa_Yui_%2843101892301%29.jpg/960px-Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_Ishikawa_Yui_%2843101892301%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/New_York_Comic_Con_2013_-_Mikasa_%2810275581946%29.jpg/960px-New_York_Comic_Con_2013_-_Mikasa_%2810275581946%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/New_York_Comic_Con_2013_-_Mikasa_%2810275581946%29.jpg/960px-New_York_Comic_Con_2013_-_Mikasa_%2810275581946%29.jpg"
+      ]
     },
     {
       "id": "anime-manga-20",
@@ -177,7 +235,10 @@
       "aliases": [
         "one punch man"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b4/Saitama_%28One-Punch_Man%29.jpg/960px-Saitama_%28One-Punch_Man%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b4/Saitama_%28One-Punch_Man%29.jpg/960px-Saitama_%28One-Punch_Man%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b4/Saitama_%28One-Punch_Man%29.jpg/960px-Saitama_%28One-Punch_Man%29.jpg"
+      ]
     },
     {
       "id": "anime-manga-21",
@@ -186,7 +247,10 @@
         "demon slayer",
         "tanjiro kamado"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Demon_Slayer_-_Kimetsu_no_yaiba.jpg/960px-Demon_Slayer_-_Kimetsu_no_yaiba.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ea/Tanjirou_manga.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/e/ea/Tanjirou_manga.png"
+      ]
     },
     {
       "id": "anime-manga-22",
@@ -194,7 +258,10 @@
       "aliases": [
         "nezuko kamado"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/45/Demon_Slayer_-_Kimetsu_no_yaiba.jpg/960px-Demon_Slayer_-_Kimetsu_no_yaiba.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c0/NezukoKamado.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/c/c0/NezukoKamado.png"
+      ]
     },
     {
       "id": "anime-manga-23",
@@ -203,7 +270,10 @@
         "gojo",
         "jujutsu kaisen"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Satoru_Gojo.jpg/960px-Satoru_Gojo.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Satoru_Gojo.jpg/960px-Satoru_Gojo.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Satoru_Gojo.jpg/960px-Satoru_Gojo.jpg"
+      ]
     },
     {
       "id": "anime-manga-24",
@@ -212,7 +282,10 @@
         "deku",
         "my hero academia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3c/Katsuki_Bakugo.jpg/960px-Katsuki_Bakugo.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Cosplay_of_Izuku_Midoriya_from_My_Hero_Academia_at_Japan_Impact_2023_%28Japan_Impact_2023_%E2%80%93_Cosplay_groupes%29_%2852764997424%29.jpg/960px-Cosplay_of_Izuku_Midoriya_from_My_Hero_Academia_at_Japan_Impact_2023_%28Japan_Impact_2023_%E2%80%93_Cosplay_groupes%29_%2852764997424%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Cosplay_of_Izuku_Midoriya_from_My_Hero_Academia_at_Japan_Impact_2023_%28Japan_Impact_2023_%E2%80%93_Cosplay_groupes%29_%2852764997424%29.jpg/960px-Cosplay_of_Izuku_Midoriya_from_My_Hero_Academia_at_Japan_Impact_2023_%28Japan_Impact_2023_%E2%80%93_Cosplay_groupes%29_%2852764997424%29.jpg"
+      ]
     },
     {
       "id": "anime-manga-25",
@@ -221,7 +294,10 @@
         "ichigo",
         "bleach"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a2/Ichigo_Kurosaki.png/960px-Ichigo_Kurosaki.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a2/Ichigo_Kurosaki.png/960px-Ichigo_Kurosaki.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/a2/Ichigo_Kurosaki.png/960px-Ichigo_Kurosaki.png"
+      ]
     },
     {
       "id": "anime-manga-26",
@@ -229,7 +305,10 @@
       "aliases": [
         "fullmetal alchemist"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/bc/Edward_Elric.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/b/bc/Edward_Elric.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/b/bc/Edward_Elric.jpg"
+      ]
     },
     {
       "id": "anime-manga-27",
@@ -237,7 +316,10 @@
       "aliases": [
         "gatto spaziale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/20/Doraemon_2005.png/960px-Doraemon_2005.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/20/Doraemon_2005.png/960px-Doraemon_2005.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/2/20/Doraemon_2005.png/960px-Doraemon_2005.png"
+      ]
     },
     {
       "id": "anime-manga-28",
@@ -247,7 +329,10 @@
         "conan",
         "shinichi kudo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Jerry_Jewell_by_Gage_Skidmore.jpg/960px-Jerry_Jewell_by_Gage_Skidmore.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Shinichi_Kudo.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/5/55/Shinichi_Kudo.png"
+      ]
     },
     {
       "id": "anime-manga-29",
@@ -256,13 +341,19 @@
         "bunny",
         "usagi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Sailor_Moon_Cofanetto_DVD-1.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/0/08/Sailor_Moon_Cofanetto_DVD-1.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/0/08/Sailor_Moon_Cofanetto_DVD-1.jpg"
+      ]
     },
     {
       "id": "anime-manga-30",
       "answer": "Inuyasha",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/6d/Inuyasha_wide_edition.jpg/960px-Inuyasha_wide_edition.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/6/6d/Inuyasha_wide_edition.jpg/960px-Inuyasha_wide_edition.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/6/6d/Inuyasha_wide_edition.jpg/960px-Inuyasha_wide_edition.jpg"
+      ]
     },
     {
       "id": "anime-manga-31",
@@ -271,7 +362,10 @@
         "lupin",
         "arsenio lupin"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Arsene_Lupin_art_Pierre_La_Fit.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/ArseneLupinIII.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/0/0f/ArseneLupinIII.jpg"
+      ]
     },
     {
       "id": "anime-manga-32",
@@ -280,7 +374,10 @@
         "kenshiro",
         "ken"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b9/Kenleggenda.png/960px-Kenleggenda.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b9/Kenleggenda.png/960px-Kenleggenda.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b9/Kenleggenda.png/960px-Kenleggenda.png"
+      ]
     },
     {
       "id": "anime-manga-33",
@@ -288,7 +385,10 @@
       "aliases": [
         "atom"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg/960px-Nintendo-Game-Boy-Advance-Purple-FL.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Astro_Boy_01.jpg/960px-Astro_Boy_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Astro_Boy_01.jpg/960px-Astro_Boy_01.jpg"
+      ]
     },
     {
       "id": "anime-manga-34",
@@ -297,7 +397,10 @@
         "gatsu",
         "berserk"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/4/44/Berserk.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/4/44/Berserk.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/4/44/Berserk.png"
+      ]
     },
     {
       "id": "anime-manga-35",
@@ -305,7 +408,10 @@
       "aliases": [
         "ash"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Sarah_Natochenny_GalaxyCon_Des_Moines_September%2C12%2C2026_0961.jpg/960px-Sarah_Natochenny_GalaxyCon_Des_Moines_September%2C12%2C2026_0961.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png"
+      ]
     },
     {
       "id": "anime-manga-36",
@@ -313,7 +419,10 @@
       "aliases": [
         "il mio vicino totoro"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Eoperipatus_totoro.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ghibli_Museum_Totoro_Stained_Glass.jpg/960px-Ghibli_Museum_Totoro_Stained_Glass.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ghibli_Museum_Totoro_Stained_Glass.jpg/960px-Ghibli_Museum_Totoro_Stained_Glass.jpg"
+      ]
     }
   ],
   "scope": "intl",

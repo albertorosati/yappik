@@ -21,7 +21,8 @@ export class SmartSpeechRecognizer {
 
   // Tracciamento per tagliare le parole già consumate nella stessa frase continua
   private activeResultIndex = 0;
-  private consumedCharLength = 0;
+  private consumedResultIndex = -1;
+  private consumedWords: string[] = [];
   private latestRawTranscript = '';
   private language: 'it' | 'en' = 'it';
   private vocabulary: string[] = [];
@@ -60,7 +61,9 @@ export class SmartSpeechRecognizer {
 
   public start(): void {
     this.shouldBeRunning = true;
-    this.consumedCharLength = 0;
+    this.consumedResultIndex = -1;
+    this.consumedWords = [];
+    this.latestRawTranscript = '';
     this.activeResultIndex = 0;
     this.createAndStartSession();
   }
@@ -123,7 +126,7 @@ export class SmartSpeechRecognizer {
             const cleanPhrases = Array.from(
               new Set(
                 this.vocabulary
-                  .map((p) => p.replace(/[^a-zA-Z0-9\s]/g, '').trim())
+                  .map((p) => p.replace(/[^\p{L}0-9\s]/gu, '').trim())
                   .filter((p) => p.length >= 2)
               )
             );
@@ -155,38 +158,53 @@ export class SmartSpeechRecognizer {
 
       rec.onresult = (event: any) => {
         this.pulseVolume(1.0);
-        const idx = event.resultIndex;
-        const result = event.results[idx];
-        if (!result) return;
+        const startIdx = event.resultIndex ?? 0;
+        const totalResults = event.results?.length ?? 0;
+        if (totalResults === 0) return;
 
-        if (idx !== this.activeResultIndex) {
-          this.activeResultIndex = idx;
-          this.consumedCharLength = 0;
-        }
+        for (let idx = startIdx; idx < totalResults; idx++) {
+          const result = event.results[idx];
+          if (!result) continue;
 
-        const alternatives: string[] = [];
-        for (let i = 0; i < result.length; i++) {
-          const fullTranscript: string = result[i].transcript || '';
-          if (i === 0) {
-            this.latestRawTranscript = fullTranscript;
+          if (idx !== this.activeResultIndex) {
+            this.activeResultIndex = idx;
+            this.latestRawTranscript = '';
+            if (this.consumedResultIndex < idx) {
+              this.consumedResultIndex = -1;
+              this.consumedWords = [];
+            }
           }
-          const sliced =
-            this.consumedCharLength > 0 &&
-            fullTranscript.length >= this.consumedCharLength
-              ? fullTranscript.slice(this.consumedCharLength).trim()
+
+          const isConsumedIdx =
+            this.consumedResultIndex === idx && this.consumedWords.length > 0;
+          const alternatives: string[] = [];
+
+          for (let i = 0; i < result.length; i++) {
+            const fullTranscript: string = result[i].transcript || '';
+            if (i === 0) {
+              this.latestRawTranscript = fullTranscript;
+            }
+
+            const sliced = isConsumedIdx
+              ? this.sliceAfterConsumedWords(fullTranscript)
               : fullTranscript.trim();
 
-          if (sliced.length > 0) {
-            alternatives.push(sliced);
+            if (sliced.length > 0) {
+              alternatives.push(sliced);
+            }
           }
-        }
 
-        if (alternatives.length > 0) {
-          this.onSpeech(alternatives, Boolean(result.isFinal));
-        }
+          if (alternatives.length > 0) {
+            this.onSpeech(alternatives, Boolean(result.isFinal));
+          }
 
-        if (result.isFinal) {
-          this.consumedCharLength = 0;
+          if (result.isFinal) {
+            this.latestRawTranscript = '';
+            if (this.consumedResultIndex === idx) {
+              this.consumedResultIndex = -1;
+              this.consumedWords = [];
+            }
+          }
         }
       };
 
@@ -211,7 +229,9 @@ export class SmartSpeechRecognizer {
       rec.onend = () => {
         this.isListening = false;
         if (this.shouldBeRunning) {
-          this.consumedCharLength = 0;
+          this.consumedResultIndex = -1;
+          this.consumedWords = [];
+          this.latestRawTranscript = '';
           // Ricrea una NUOVA istanza fresca (evita InvalidStateError su Chrome/Safari dopo il primo stop)
           this.restartTimer = setTimeout(() => {
             if (this.shouldBeRunning) {
@@ -250,11 +270,32 @@ export class SmartSpeechRecognizer {
   }
 
   /**
+   * Taglia in modo sicuro tutte le parole già consumate sullo stesso resultIndex,
+   * evitando che leggere revisioni ASR (punteggiatura, accenti, cambio lunghezza di un char)
+   * causino il replay della risposta precedente sull'immagine successiva.
+   */
+  private sliceAfterConsumedWords(fullTranscript: string): string {
+    const rawWords = fullTranscript.trim().split(/\s+/).filter(Boolean);
+    const consumedLen = this.consumedWords.length;
+    if (rawWords.length <= consumedLen) {
+      return '';
+    }
+    return rawWords.slice(consumedLen).join(' ').trim();
+  }
+
+  /**
    * Segna il testo parlato finora come "già consumato" (appena qualcuno indovina o passa),
    * così che le parole appena pronunciate non vengano rianalizzate sulla nuova immagine!
    */
   public consumeCurrentBuffer(): void {
-    this.consumedCharLength = this.latestRawTranscript.length;
+    const words = this.latestRawTranscript
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+    if (words.length > 0) {
+      this.consumedResultIndex = this.activeResultIndex;
+      this.consumedWords = words;
+    }
   }
 
   public stop(): void {

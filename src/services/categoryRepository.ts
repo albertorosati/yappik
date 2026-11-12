@@ -74,32 +74,47 @@ export class CategoryRepository {
   }
 
   private static decodedCache = new Map<string, HTMLImageElement>();
+  private static resolvedUrlCache = new Map<string, string>();
 
   public static isImageCached(url: string): boolean {
     if (!url) return false;
     return this.decodedCache.has(url);
   }
 
-  public static primeImage(url: string): Promise<void> {
-    if (!url || typeof window === 'undefined') return Promise.resolve();
-    if (this.decodedCache.has(url)) return Promise.resolve();
+  public static getResolvedImageUrl(url: string): string {
+    if (!url) return url;
+    return this.resolvedUrlCache.get(url) || url;
+  }
 
-    return new Promise((resolve) => {
+  public static primeImage(url: string): Promise<string> {
+    if (!url || typeof window === 'undefined') return Promise.resolve(url);
+    if (this.decodedCache.has(url)) {
+      return Promise.resolve(this.resolvedUrlCache.get(url) || url);
+    }
+
+    return new Promise((resolve, reject) => {
       const cleanUrl = url.split('?')[0];
       const targetUrl = remapDiscordImageUrl(cleanUrl);
       const img = new Image();
       img.decoding = 'async';
 
-      const finish = () => {
-        CategoryRepository.decodedCache.set(url, img);
-        if ('decode' in img && typeof img.decode === 'function') {
-          img.decode().then(() => resolve()).catch(() => resolve());
+      const finish = (loadedImg: HTMLImageElement, finalSrc: string) => {
+        CategoryRepository.decodedCache.set(url, loadedImg);
+        CategoryRepository.resolvedUrlCache.set(url, finalSrc);
+        if ('decode' in loadedImg && typeof loadedImg.decode === 'function') {
+          loadedImg.decode().then(() => resolve(finalSrc)).catch(() => resolve(finalSrc));
         } else {
-          resolve();
+          resolve(finalSrc);
         }
       };
 
-      img.onload = finish;
+      img.onload = () => {
+        if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+          finish(img, targetUrl);
+        } else {
+          img.onerror?.(new Event('error'));
+        }
+      };
       img.onerror = () => {
         // Tenta subito con il proxy WebP
         const backup = CategoryRepository.getBackupImageUrl(cleanUrl);
@@ -107,17 +122,16 @@ export class CategoryRepository {
           const img2 = new Image();
           img2.decoding = 'async';
           img2.onload = () => {
-            CategoryRepository.decodedCache.set(url, img2);
-            if ('decode' in img2 && typeof img2.decode === 'function') {
-              img2.decode().then(() => resolve()).catch(() => resolve());
+            if (img2.naturalWidth > 0 && img2.naturalHeight > 0) {
+              finish(img2, backup);
             } else {
-              resolve();
+              reject(new Error('empty_image_dimensions'));
             }
           };
-          img2.onerror = () => resolve();
-          img2.src = remapDiscordImageUrl(backup);
+          img2.onerror = () => reject(new Error('image_load_failed'));
+          img2.src = backup;
         } else {
-          resolve();
+          reject(new Error('image_load_failed'));
         }
       };
       img.src = targetUrl;

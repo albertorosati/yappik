@@ -6,10 +6,10 @@
   "themeHex": "#3B82F6",
   "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Amadeus_Carnevale_di_Putignano_2024.png/960px-Amadeus_Carnevale_di_Putignano_2024.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/d/de/Paolo_Bonolis_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/1/18/Luca_Laurenti_a_Sanremo_2009_%28cropped%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Amadeus_Carnevale_di_Putignano_2024.png/960px-Amadeus_Carnevale_di_Putignano_2024.png",
+    "https://upload.wikimedia.org/wikipedia/commons/d/de/Paolo_Bonolis_1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/18/Luca_Laurenti_a_Sanremo_2009_%28cropped%29.jpg"
   ],
   "items": [
     {
@@ -23,7 +23,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9d/Gerry_Scotti.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/52/DJTVclaudioGerry.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/DJTVclaudioGerry.jpg/960px-DJTVclaudioGerry.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gianfranco_Fini_Gerry_Scotti_2011.jpg"
       ]
     },
@@ -36,9 +36,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Amadeus_Carnevale_di_Putignano_2024.png/960px-Amadeus_Carnevale_di_Putignano_2024.png",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Amadeus_Carnevale_di_Putignano_2024.png/960px-Amadeus_Carnevale_di_Putignano_2024.png",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/76/Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_cf01.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang-amadeus-mozart_1.jpg/960px-Wolfgang-amadeus-mozart_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_01.jpg/960px-Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_cf01.jpg/960px-Amadeus_%28ship%2C_1910%29%2C_S%C3%A8te_cf01.jpg"
       ]
     },
     {
@@ -50,8 +50,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Paolo_Bonolis_1.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/d/de/Paolo_Bonolis_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/11/Paolo_Bonolis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paolo_Bonolis_a_Sanremo_2009.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Paolo_Bonolis.jpg/960px-Paolo_Bonolis.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Paolo_Bonolis_a_Sanremo_2009.jpg/960px-Paolo_Bonolis_a_Sanremo_2009.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d1/Paolo_Bonolis_%28cropped%29.jpg"
       ]
     },
@@ -64,7 +64,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Luca_Laurenti_a_Sanremo_2009_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/18/Luca_Laurenti_a_Sanremo_2009_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Luca_Laurenti_a_Sanremo_2009.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Luca_Laurenti_a_Sanremo_2009.jpg/960px-Luca_Laurenti_a_Sanremo_2009.jpg"
       ]
     },
     {
@@ -76,9 +76,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Carlo_Conti_al_Festival_di_Sanremo_2026_%28headshot%29.jpg/960px-Carlo_Conti_al_Festival_di_Sanremo_2026_%28headshot%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Carlo_Conti_al_Festival_di_Sanremo_2026_%28headshot%29.jpg/960px-Carlo_Conti_al_Festival_di_Sanremo_2026_%28headshot%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Conti%2C_Carlo_%E2%80%93_Idea_generale_della_locomotiva%2C_1846_%E2%80%93_BEIC_12184999.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cc/Carlo_Conti_-_Arena_della_Versilia%2C_Cinquale_%28MS%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/be/Carlo_Conti_2016.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Carlo_Conti_-_Arena_della_Versilia%2C_Cinquale_%28MS%29.jpg/960px-Carlo_Conti_-_Arena_della_Versilia%2C_Cinquale_%28MS%29.jpg"
       ]
     },
     {
@@ -89,10 +87,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Maria_De_Filippi_a_Sanremo_2009.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/Maria_De_Filippi_a_Sanremo_2009.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/86/1958-09-07_Monza_Maserati_250F_de_Filippis.png",
-        "https://upload.wikimedia.org/wikipedia/commons/6/66/1949_Urania_de_Filippis.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4d/1949-50_Urania_de_Filippis.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/5/56/Maria_De_Filippi_a_Sanremo_2009.jpg"
       ]
     },
     {
@@ -101,11 +96,10 @@
       "aliases": [
         "rosario fiorello"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Guardia_by_NYT_Studios_circa_1934%E2%80%931945_Trim_Edit.jpg/960px-La_Guardia_by_NYT_Studios_circa_1934%E2%80%931945_Trim_Edit.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Fiorello.jpg/960px-Fiorello.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Guardia_by_NYT_Studios_circa_1934%E2%80%931945_Trim_Edit.jpg/960px-La_Guardia_by_NYT_Studios_circa_1934%E2%80%931945_Trim_Edit.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/45/Fiorello.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fiorello_LaGuardia.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Fiorello.jpg/960px-Fiorello.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/98/STAGNO-FIORELLO.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/0d/Fiorello_byRobertoVicario.JPG"
       ]
     },
@@ -118,9 +112,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Antonella_Clerici_%28cropped%29.jpg/960px-Antonella_Clerici_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Antonella_Clerici_%28cropped%29.jpg/960px-Antonella_Clerici_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/21/Antonella_Clerici.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Antonella_Clerici.jpg/960px-Antonella_Clerici.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/13/Marco_Nicoletti_con_Antonella_Clerici_in_Rai_.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Massobrio-clerici2014_copia.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Massobrio-clerici2014_copia.jpg/960px-Massobrio-clerici2014_copia.jpg"
       ]
     },
     {
@@ -132,9 +126,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Hosts%2C_ESC_2025_grand_final_02_%28cropped%29.jpg/960px-Hosts%2C_ESC_2025_grand_final_02_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Hosts%2C_ESC_2025_grand_final_02_%28cropped%29.jpg/960px-Hosts%2C_ESC_2025_grand_final_02_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0a/Michelle_Hunziker_-_Alassio.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Michelle_Hunziker_-_Alassio.JPG/960px-Michelle_Hunziker_-_Alassio.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/f/f6/Michelle_Hunziker_2006.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Michelle_Hunziker_talking_to_Harry_Hamlin_on_board_the_Royal_Yacht_Britannia.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Michelle_Hunziker_talking_to_Harry_Hamlin_on_board_the_Royal_Yacht_Britannia.JPG/960px-Michelle_Hunziker_talking_to_Harry_Hamlin_on_board_the_Royal_Yacht_Britannia.JPG"
       ]
     },
     {
@@ -156,10 +150,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ilary_blasi_%28cropped%29.jpg/960px-Ilary_blasi_%28cropped%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ilary_blasi_%28cropped%29.jpg/960px-Ilary_blasi_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Ilary_Blasi.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ilary_blasi.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/37/Ilary_blasi_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ilary_blasi_%28cropped%29.jpg/960px-Ilary_blasi_%28cropped%29.jpg"
       ]
     },
     {
@@ -182,10 +173,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Stefano_De_Martino_2024_Funweek.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/5/55/Stefano_De_Martino_2024_Funweek.png",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Antonio_Vivarini_-_Stefano_da_Sant%E2%80%99Agnese_%E2%80%93_Polittico_della_Vigine.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Duomo_%28Verona%29_-_Sant%27Elena_%28Verona%29_-_Madonna_col_Bambino_in_trono%2C_i_Santi_Nicol%C3%B2_e_Stefano_ed_un_committente%2C_Giovanni_Caroto_1514.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/22/Alessandra_De_Stefano%2C_2017_Milan-Sanremo.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/Stefano_De_Martino_2024_Funweek.png"
       ]
     },
     {
@@ -198,9 +186,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Alessandro_Borghese_Celebrity_Chef_2024.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/eb/Alessandro_Borghese_Celebrity_Chef_2024.png",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c5/AleBorghese.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/57/AlessandroRomano_borghese.png",
-        "https://upload.wikimedia.org/wikipedia/commons/5/51/Palazzo_delle_ecc._sig._Prencipe_Borghese_by_Alessandro_Specchi_%281699%29.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/AleBorghese.jpg/960px-AleBorghese.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Palazzo_delle_ecc._sig._Prencipe_Borghese_by_Alessandro_Specchi_%281699%29.png/960px-Palazzo_delle_ecc._sig._Prencipe_Borghese_by_Alessandro_Specchi_%281699%29.png"
       ]
     },
     {
@@ -212,9 +199,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Antonino_Cannavacciuolo_2017.jpg/960px-Antonino_Cannavacciuolo_2017.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Antonino_Cannavacciuolo_2017.jpg/960px-Antonino_Cannavacciuolo_2017.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Antonino_cannavacciuolo.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Antonino_Cannavacciuolo.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d2/Antonino_cannavacciuolo_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Antonino_cannavacciuolo.jpg/960px-Antonino_cannavacciuolo.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Antonino_Cannavacciuolo.jpg/960px-Antonino_Cannavacciuolo.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Antonino_cannavacciuolo_%28cropped%29.jpg/960px-Antonino_cannavacciuolo_%28cropped%29.jpg"
       ]
     },
     {
@@ -226,9 +213,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Bruno_Barbieri_%28cropped%29.jpg/960px-Bruno_Barbieri_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Bruno_Barbieri_%28cropped%29.jpg/960px-Bruno_Barbieri_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bruno_Barbieri.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bruno_Barbieri_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Barbieri%2C_Bruno_-_Born-_1925%2C_Naturalized-_1957_-_DPLA_-_e7cd986dde4aec78d0e7931d4a7e7b98.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bruno_Barbieri.jpg/960px-Bruno_Barbieri.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Barbieri%2C_Bruno_-_Born-_1925%2C_Naturalized-_1957_-_DPLA_-_e7cd986dde4aec78d0e7931d4a7e7b98.jpg/960px-Barbieri%2C_Bruno_-_Born-_1925%2C_Naturalized-_1957_-_DPLA_-_e7cd986dde4aec78d0e7931d4a7e7b98.jpg"
       ]
     },
     {
@@ -240,9 +226,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Carlo_Cracco_by_Giovanna_Ortugno_-_International_Journalism_Festival_2014_1.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/1e/Carlo_Cracco_by_Giovanna_Ortugno_-_International_Journalism_Festival_2014_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/64/Carlo_Cracco_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/33/Carlo_Cracco.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c2/Carlo_Cracco_by_Giovanna_Ortugno_-_International_Journalism_Festival_2014_2.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Carlo_Cracco_2011.jpg/960px-Carlo_Cracco_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Carlo_Cracco.JPG/960px-Carlo_Cracco.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Carlo_Cracco_by_Giovanna_Ortugno_-_International_Journalism_Festival_2014_2.jpg/960px-Carlo_Cracco_by_Giovanna_Ortugno_-_International_Journalism_Festival_2014_2.jpg"
       ]
     },
     {
@@ -264,9 +250,8 @@
       "aliases": [
         "ulisse"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Firma_Alberto_Angela.png/960px-Firma_Alberto_Angela.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alberto_Angela1.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Firma_Alberto_Angela.png/960px-Firma_Alberto_Angela.png",
         "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alberto_Angela1.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/b9/Alberto_Angela2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d5/Alberto_Angela3.jpg"
@@ -283,8 +268,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Piero_Angela2.jpg/960px-Piero_Angela2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d7/Piero_angela.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c3/Piero_Angela2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/16/Angela-Brunello_TO_2006.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Angela-Brunello_TO_2006.jpg/960px-Angela-Brunello_TO_2006.jpg"
       ]
     },
     {
@@ -297,8 +281,7 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/87/Pippo_Baudo_1987.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/be/Pippo_Baudo%2C_14_December_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/25/Pippo_Baudo_2011_-_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/51/Pippo_Baudo_1970.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/2/25/Pippo_Baudo_2011_-_2.jpg"
       ]
     },
     {
@@ -311,9 +294,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mike_Bongiorno.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mike_Bongiorno.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/Mike_Bongiorno_-_Flash.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/75/Mike_Bongiorno_skying_in_Cervinia.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gino_Bramieri%2C_Mike_Bongiorno_and_Gina_Lollobrigida.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Mike_Bongiorno_skying_in_Cervinia.jpg/960px-Mike_Bongiorno_skying_in_Cervinia.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Gino_Bramieri%2C_Mike_Bongiorno_and_Gina_Lollobrigida.jpg/960px-Gino_Bramieri%2C_Mike_Bongiorno_and_Gina_Lollobrigida.jpg"
       ]
     },
     {
@@ -322,12 +304,12 @@
       "aliases": [
         "costanzo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Natalie_Guetta-ph_Mattia_Passeri.jpg/960px-Natalie_Guetta-ph_Mattia_Passeri.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Maurizio_Costanzo.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Natalie_Guetta-ph_Mattia_Passeri.jpg/960px-Natalie_Guetta-ph_Mattia_Passeri.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0d/S_Costanzo_e_Beato_Innocenzo_-_Chiesa_S_Maurizio_-_Niardo_%28Foto_Luca_Giarelli%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Costanzobau.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Maurizio_Costanzo_1970.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/c/ca/Maurizio_Costanzo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Costanzo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/Maurizio_Costanzo_1970.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Costanzobau.jpg"
       ]
     },
     {
@@ -340,9 +322,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mara_Venier_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg/960px-Mara_Venier_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mara_Venier_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg/960px-Mara_Venier_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Mara_Venier.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/85/Jerry_Cal%C3%A0_e_Mara_Venier.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/33/Mara_Venier_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Mara_Venier.jpg/960px-Mara_Venier.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jerry_Cal%C3%A0_e_Mara_Venier.jpg/960px-Jerry_Cal%C3%A0_e_Mara_Venier.jpg"
       ]
     },
     {
@@ -355,7 +336,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Barbara_D%27Urso_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/6/61/Barbara_D%27Urso_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/63/Barbara_D%27Urso.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Barbara_D%27Urso.jpg/960px-Barbara_D%27Urso.jpg"
       ]
     },
     {
@@ -367,8 +348,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Fabio_Fazio_cropped.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/81/Fabio_Fazio_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Paoli_Fazio_Zero.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fd/Fabio_Fazio_-_Alassio.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Paoli_Fazio_Zero.jpg/960px-Paoli_Fazio_Zero.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Fabio_Fazio_-_Alassio.JPG/960px-Fabio_Fazio_-_Alassio.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/0/0c/Fabio_Fazio.jpg"
       ]
     },
@@ -381,9 +362,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Littizzetto.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/2/20/Littizzetto.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e6/Torino_2006_olympic_torch_by_Littizzetto.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2e/Marco_Presta_e_Luciana_Littizzetto.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Littizzetto-Fruttero_2013.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Torino_2006_olympic_torch_by_Littizzetto.jpg/960px-Torino_2006_olympic_torch_by_Littizzetto.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Marco_Presta_e_Luciana_Littizzetto.jpg/960px-Marco_Presta_e_Luciana_Littizzetto.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Littizzetto-Fruttero_2013.JPG/960px-Littizzetto-Fruttero_2013.JPG"
       ]
     },
     {
@@ -396,9 +377,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Enrico_Mentana_2016.jpg/960px-Enrico_Mentana_2016.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Enrico_Mentana_2016.jpg/960px-Enrico_Mentana_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Enrico_Mentana.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Enrico_Mentana.jpg/960px-Enrico_Mentana.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9c/Enrico_Mentana-M.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Elena_Torre_interviews_Enrico_Mentana_-_SaporBio_2007_-_Viareggio%2C_Italy.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Elena_Torre_interviews_Enrico_Mentana_-_SaporBio_2007_-_Viareggio%2C_Italy.jpg/960px-Elena_Torre_interviews_Enrico_Mentana_-_SaporBio_2007_-_Viareggio%2C_Italy.jpg"
       ]
     },
     {
@@ -410,9 +391,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dietlinde_Gruber_2_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dietlinde_Gruber_2_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Francesco_Gaetano_Caltagirone_al_programma_Otto_e_Mezzo_di_Lilly_Gruber_004.png",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_005.png",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_006.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Francesco_Gaetano_Caltagirone_al_programma_Otto_e_Mezzo_di_Lilly_Gruber_004.png/960px-Francesco_Gaetano_Caltagirone_al_programma_Otto_e_Mezzo_di_Lilly_Gruber_004.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_005.png/960px-Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_005.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_006.png/960px-Il_presidente_Francesco_Gaetano_Caltagirone_partecipa_al_programma_de_La_Sette_Otto_e_Mezzo_di_Lilly_Gruber_006.png"
       ]
     },
     {
@@ -425,8 +406,6 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claudio_Bisio.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claudio_Bisio.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3a/Claudio_Burlando.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Claudio_Bisio_cropped.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/18/Claudio_Bisio_2009.jpg"
       ]
     },
@@ -440,8 +419,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/5/5d/Carlo_Conti%2C_Vanessa_Incontrada_%28edited%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/87/Vanessa_incontrada_SMAU2000.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/83/Carlo_Conti%2C_Vanessa_Incontrada.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2b/Vanessa_Incontrada%2C_Dua_Lipa_%26_Carlo_Conti_%40_Wind_Music_Awards_2016.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Carlo_Conti%2C_Vanessa_Incontrada.jpg/960px-Carlo_Conti%2C_Vanessa_Incontrada.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Vanessa_Incontrada%2C_Dua_Lipa_%26_Carlo_Conti_%40_Wind_Music_Awards_2016.jpg/960px-Vanessa_Incontrada%2C_Dua_Lipa_%26_Carlo_Conti_%40_Wind_Music_Awards_2016.jpg"
       ]
     },
     {
@@ -466,9 +445,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ezio_Greggio_cropped.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ezio_Greggio_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Luca_Barbareschi_e_Ezio_Greggio.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/80/Ezio_Greggio_-_Alassio.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/5/56/Ezio_Greggio.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Luca_Barbareschi_e_Ezio_Greggio.jpg/960px-Luca_Barbareschi_e_Ezio_Greggio.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ezio_Greggio_-_Alassio.JPG/960px-Ezio_Greggio_-_Alassio.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Ezio_Greggio.jpg/960px-Ezio_Greggio.jpg"
       ]
     },
     {
@@ -478,12 +457,11 @@
         "iacchetti",
         "enzino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Eva_Murati_at_82nd_Venice_International_Film_Festival_%28close-up%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Enzo_iacchetti_2.jpg/960px-Enzo_iacchetti_2.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/3/3e/Eva_Murati_at_82nd_Venice_International_Film_Festival_%28close-up%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Flavio_Pirini_Iacchetti.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Enzo_iacchetti_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bc/Iacchetti%2C_paolantoni%2C_donati_e_torre.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Enzo_iacchetti_2.jpg/960px-Enzo_iacchetti_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bc/Iacchetti%2C_paolantoni%2C_donati_e_torre.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Enzo_Iacchetti.jpg/960px-Enzo_Iacchetti.jpg"
       ]
     },
     {
@@ -495,9 +473,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Alfonso_Signorini_2017_%28cropped%29_3.jpg/960px-Alfonso_Signorini_2017_%28cropped%29_3.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Alfonso_Signorini_2017_%28cropped%29_3.jpg/960px-Alfonso_Signorini_2017_%28cropped%29_3.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Alfonso_Signorini-Positano.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Alfonso_Signorini_-_Archivi_Mondadori.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/07/Alfonso_Signorini_-_Archivi_Mondadori_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Alfonso_Signorini-Positano.JPG/960px-Alfonso_Signorini-Positano.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Alfonso_Signorini_-_Archivi_Mondadori.jpg/960px-Alfonso_Signorini_-_Archivi_Mondadori.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Alfonso_Signorini_-_Archivi_Mondadori_%28cropped%29.jpg/960px-Alfonso_Signorini_-_Archivi_Mondadori_%28cropped%29.jpg"
       ]
     },
     {
@@ -506,12 +484,11 @@
       "aliases": [
         "malgioglio"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/7/7c/Tale_e_Quale_Show.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sanremo_1974_Cristiano_Malgioglio_Iva_Zanicchi.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/7/7c/Tale_e_Quale_Show.png",
         "https://upload.wikimedia.org/wikipedia/commons/5/54/Sanremo_1974_Cristiano_Malgioglio_Iva_Zanicchi.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/4/48/Occhiena_e_Malgioglio.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Malgioglio_San_Ginesio.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Malgioglio_San_Ginesio.jpg/960px-Malgioglio_San_Ginesio.jpg"
       ]
     },
     {
@@ -524,8 +501,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Giancarlo_Magalli_al_Festival_di_Sanremo_2026_%28cropped%29.jpg/960px-Giancarlo_Magalli_al_Festival_di_Sanremo_2026_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/Andrea_de_Prisco_Giancarlo_Magalli_Rai_TV.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Carlo_Frisi_e_Giancarlo_Magalli_-_Ciao_Weekend_Rai_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d4/Giancarlo_Magalli_al_Festival_di_Sanremo_2026.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Carlo_Frisi_e_Giancarlo_Magalli_-_Ciao_Weekend_Rai_2.jpg/960px-Carlo_Frisi_e_Giancarlo_Magalli_-_Ciao_Weekend_Rai_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Giancarlo_Magalli_al_Festival_di_Sanremo_2026.jpg/960px-Giancarlo_Magalli_al_Festival_di_Sanremo_2026.jpg"
       ]
     },
     {
@@ -538,8 +515,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/e9/Flavio_Insinna_2022_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/56/Flavio_Insinna.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/27/Emilio_Frizzantino%2C_Flavio_Insinna%2C_Andrea_Matiacic.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/63/Mattarella_Insinna_2022.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Emilio_Frizzantino%2C_Flavio_Insinna%2C_Andrea_Matiacic.jpg/960px-Emilio_Frizzantino%2C_Flavio_Insinna%2C_Andrea_Matiacic.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Mattarella_Insinna_2022.jpg/960px-Mattarella_Insinna_2022.jpg"
       ]
     },
     {
@@ -550,9 +527,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Marco_Liorni_Padre_Pio_TV_2023.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Marco_Liorni_Padre_Pio_TV_2023.png",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Marco_donati.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Marco_Donati_2026.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Marco_Liorni_Padre_Pio_TV_2023.png"
       ]
     },
     {

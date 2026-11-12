@@ -6,10 +6,10 @@
   "themeHex": "#F59E0B",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Matteo_Berrettini_at_2025_Miami_Open_01_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roger_Federer_2015_%28cropped%29.jpg/960px-Roger_Federer_2015_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Rafael_Nadal_en_2024_%28cropped%29.jpg/960px-Rafael_Nadal_en_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0d/Matteo_Berrettini_at_2025_Miami_Open_01_%28cropped%29_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roger_Federer_2015_%28cropped%29.jpg/960px-Roger_Federer_2015_%28cropped%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Rafael_Nadal_en_2024_%28cropped%29.jpg/960px-Rafael_Nadal_en_2024_%28cropped%29.jpg"
   ],
   "items": [
     {
@@ -22,8 +22,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jannik_sinner.png",
-        "https://upload.wikimedia.org/wikipedia/commons/6/62/Jannik_Sinner_%28cropped2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/97/Jannik_Sinner_%282024_US_Open%29_04_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Jannik_Sinner_%28cropped2%29.jpg/960px-Jannik_Sinner_%28cropped2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Jannik_Sinner_%282024_US_Open%29_04_%28cropped%29.jpg/960px-Jannik_Sinner_%282024_US_Open%29_04_%28cropped%29.jpg"
       ]
     },
     {
@@ -35,9 +35,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Matteo_Berrettini_at_2025_Miami_Open_01_%28cropped%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/0/0d/Matteo_Berrettini_at_2025_Miami_Open_01_%28cropped%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Berrettini_WM19_%284%29_%2848522037542%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_11.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_12.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Berrettini_WM19_%284%29_%2848522037542%29.jpg/960px-Berrettini_WM19_%284%29_%2848522037542%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_11.jpg/960px-Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_11.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_12.jpg/960px-Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_12.jpg"
       ]
     },
     {
@@ -50,8 +50,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Roger_Federer_2015_%28cropped%29.jpg/960px-Roger_Federer_2015_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8e/Roger_federer_2002_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Roger_Federer_%2826_June_2009%2C_Wimbledon%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3c/Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2_new.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Roger_Federer_%2826_June_2009%2C_Wimbledon%29.jpg/960px-Roger_Federer_%2826_June_2009%2C_Wimbledon%29.jpg"
       ]
     },
     {
@@ -64,9 +63,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Rafael_Nadal_en_2024_%28cropped%29.jpg/960px-Rafael_Nadal_en_2024_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Rafael_Nadal_en_2024_%28cropped%29.jpg/960px-Rafael_Nadal_en_2024_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/30/Rafael_Nadal_2011_Roland_Garros_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c7/Rafael_Nadal_2011_Wimbledon_forehand.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/68/Rafael_Nadal_%2812054444625%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Rafael_Nadal_2011_Roland_Garros_2011.jpg/960px-Rafael_Nadal_2011_Roland_Garros_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Rafael_Nadal_2011_Wimbledon_forehand.jpg/960px-Rafael_Nadal_2011_Wimbledon_forehand.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rafael_Nadal_%2812054444625%29.jpg/960px-Rafael_Nadal_%2812054444625%29.jpg"
       ]
     },
     {
@@ -80,8 +79,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Novak_Djokovic_Paris_2024_Olympic_Games_%28cropped%29.jpg/960px-Novak_Djokovic_Paris_2024_Olympic_Games_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/0e/Novak_Djokovic_Miami_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/59/Novak_Djokovic_%2825702159281%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Novak_Djokovic_%2834775891004%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Novak_Djokovic_%2825702159281%29.jpg/960px-Novak_Djokovic_%2825702159281%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Novak_Djokovic_%2834775891004%29.jpg/960px-Novak_Djokovic_%2834775891004%29.jpg"
       ]
     },
     {
@@ -93,9 +92,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_%28cropped%29.jpg/960px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_%28cropped%29.jpg/960px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Carlos_Alcaraz_-_240422_192324_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Evolution_of_Carlos_Alcaraz_VS_evolution_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png",
-        "https://upload.wikimedia.org/wikipedia/commons/d/de/Evolution_of_Carlos_Alcaraz_VS_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Evolution_of_Carlos_Alcaraz_vs_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Evolution_of_Carlos_Alcaraz_VS_evolution_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png/960px-Evolution_of_Carlos_Alcaraz_VS_evolution_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Evolution_of_Carlos_Alcaraz_VS_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png/960px-Evolution_of_Carlos_Alcaraz_VS_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Evolution_of_Carlos_Alcaraz_vs_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png/960px-Evolution_of_Carlos_Alcaraz_vs_that_of_the_%E2%80%9CBig_three%E2%80%9D_in_the_ATP_RANKING_from_17_to_20_years_old.png"
       ]
     },
     {
@@ -107,9 +106,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Serena-Smiling-2020.png/960px-Serena-Smiling-2020.png",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Serena-Smiling-2020.png/960px-Serena-Smiling-2020.png",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Serena_Williams_at_the_2009_US_Open_01.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Serena_Williams_Roland_Garros.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/39/Serena_Williams_2012_Wimbledon.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Serena_Williams_at_the_2009_US_Open_01.jpg/960px-Serena_Williams_at_the_2009_US_Open_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Serena_Williams_2012_Wimbledon.jpg/960px-Serena_Williams_2012_Wimbledon.jpg"
       ]
     },
     {
@@ -124,7 +122,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/1/17/Valentino_Rossi_2024_WEC_Fuji_6.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/39/Valentino_Rossi_2007_Oct.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/5a/Valentino_Rossi_suiting_up.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/38/Valentino_Rossi_%2819480267%29.jpeg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Valentino_Rossi_%2819480267%29.jpeg/960px-Valentino_Rossi_%2819480267%29.jpeg"
       ]
     },
     {
@@ -136,9 +134,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Marc_Marquez_at_the_2026_Spanish_Grand_Prix_%28cropped%29.jpg/960px-Marc_Marquez_at_the_2026_Spanish_Grand_Prix_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Marc_Marquez_at_the_2026_Spanish_Grand_Prix_%28cropped%29.jpg/960px-Marc_Marquez_at_the_2026_Spanish_Grand_Prix_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Marc_marquez_moto2-2.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Marc_marquez_moto2-2.JPG/960px-Marc_marquez_moto2-2.JPG",
         "https://upload.wikimedia.org/wikipedia/commons/5/57/Marc_M%C3%A1rquez_.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/da/Casco_de_Marc_M%C3%A1rquez.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Casco_de_Marc_M%C3%A1rquez.jpg/960px-Casco_de_Marc_M%C3%A1rquez.jpg"
       ]
     },
     {
@@ -152,9 +150,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Pecco_Bagnaia_at_the_2026_Spanish_Grand_Prix.jpg/960px-Pecco_Bagnaia_at_the_2026_Spanish_Grand_Prix.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Pecco_Bagnaia_at_the_2026_Spanish_Grand_Prix.jpg/960px-Pecco_Bagnaia_at_the_2026_Spanish_Grand_Prix.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3d/Francesco_Bagnaia_Silverstone_2013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pol_Espargar%C3%B3%2C_Francesco_Bagnaia_and_%C3%81lex_Rins_2021_Sachsenring.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/89/Marc_M%C3%A1rquez%2C_%C3%81lex_M%C3%A1rquez_and_Francesco_Bagnaia_2021_Assen.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Francesco_Bagnaia_Silverstone_2013.jpg/960px-Francesco_Bagnaia_Silverstone_2013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pol_Espargar%C3%B3%2C_Francesco_Bagnaia_and_%C3%81lex_Rins_2021_Sachsenring.jpg/960px-Pol_Espargar%C3%B3%2C_Francesco_Bagnaia_and_%C3%81lex_Rins_2021_Sachsenring.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Marc_M%C3%A1rquez%2C_%C3%81lex_M%C3%A1rquez_and_Francesco_Bagnaia_2021_Assen.jpg/960px-Marc_M%C3%A1rquez%2C_%C3%81lex_M%C3%A1rquez_and_Francesco_Bagnaia_2021_Assen.jpg"
       ]
     },
     {
@@ -167,9 +165,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Michael_Schumacher%2C_September_2005.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c2/Michael_Schumacher%2C_September_2005.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Michael_Schumacher_Ferrari_2004.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/81/Michael_Schumacher_2010_Malaysia_2nd_Free_Practice.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ferrari_Vodafone_Schumacher_%282%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Michael_Schumacher_Ferrari_2004.jpg/960px-Michael_Schumacher_Ferrari_2004.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ferrari_Vodafone_Schumacher_%282%29.jpg/960px-Ferrari_Vodafone_Schumacher_%282%29.jpg"
       ]
     },
     {
@@ -211,7 +208,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg/960px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_%28medium_crop%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8f/Max_Verstappen_2017_Malaysia_1.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/75/Max_Verstappen_2017_Malaysia_3.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/07/Max_Verstappen_2018_US_Grand_Prix.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Max_Verstappen_2018_US_Grand_Prix.jpg/960px-Max_Verstappen_2018_US_Grand_Prix.jpg"
       ]
     },
     {
@@ -223,8 +220,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg/960px-Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg/960px-Charles_Leclerc_at_the_2026_Cannes_Film_Festival_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2c/G%C3%A9n%C3%A9ral_CHARLES-EMMANUEL_LECLERC_%281772-1802%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Charles_Leclerc_2020_Tuscan_Grand_Prix_-_race_day.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/G%C3%A9n%C3%A9ral_CHARLES-EMMANUEL_LECLERC_%281772-1802%29.jpg/960px-G%C3%A9n%C3%A9ral_CHARLES-EMMANUEL_LECLERC_%281772-1802%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Charles_Leclerc_2020_Tuscan_Grand_Prix_-_race_day.jpg/960px-Charles_Leclerc_2020_Tuscan_Grand_Prix_-_race_day.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/08/Charles-Leclerc.jpg"
       ]
     },
@@ -239,7 +236,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Alonso-68_%2824710447098%29.jpg/960px-Alonso-68_%2824710447098%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/87/Fernando_Alonso_Malaysia_2012.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2b/Alonso_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/23/2019_Indianapolis_500%2C_Fernando_Alonso_-_01.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/2019_Indianapolis_500%2C_Fernando_Alonso_-_01.jpg/960px-2019_Indianapolis_500%2C_Fernando_Alonso_-_01.jpg"
       ]
     },
     {
@@ -251,9 +248,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/960px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/960px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/ce/LeBron_James_%281%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/LeBron_James_at_GSW.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a7/LeBron_James_Lakers.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/LeBron_James_%281%29.jpg/960px-LeBron_James_%281%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/LeBron_James_at_GSW.jpg/960px-LeBron_James_at_GSW.jpg"
       ]
     },
     {
@@ -262,12 +258,12 @@
       "aliases": [
         "jordan"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg/960px-Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Jordan_5_%22Fear_Pack%22..JPG",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg/960px-Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/88/Michael_Jordan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/56/Jordan_5_%22Fear_Pack%22..JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Michael_Jordan.jpg/960px-Michael_Jordan.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6d/Michael_Jordan_and_Barack_Obama_at_the_White_House.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Michael_Jordan_and_Barack_Obama_at_the_White_House.jpg/960px-Michael_Jordan_and_Barack_Obama_at_the_White_House.jpg"
       ]
     },
     {
@@ -280,9 +276,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/960px-Kobe_Bryant_Dec_2014.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/960px-Kobe_Bryant_Dec_2014.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/96/Kobe_Bryant_8.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobe_Bryant_Washington.png",
-        "https://upload.wikimedia.org/wikipedia/commons/5/55/Kobe_Bryant_2012_USA_team.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Kobe_Bryant_8.jpg/960px-Kobe_Bryant_8.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kobe_Bryant_Washington.png"
       ]
     },
     {
@@ -295,7 +290,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/P20230117CS-0446_%2852636052820%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/a/a6/P20230117CS-0446_%2852636052820%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stephen_Curry_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Stephen_Curry_2.jpg/960px-Stephen_Curry_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3e/Stephen_Curry_Australian_comedian.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/02/Stephen_Curry_%288461259356%29.jpg"
       ]
@@ -310,8 +305,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/960px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/960px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/eb/Shaquille_O%27Neal_Free_Throw.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5b/Basketball_Hall_of_Fame%2C_Springfield_-_Schuh_v._Shaquille_O%27Neal.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Shaquille_O%27Neal_Free_Throw.jpg/960px-Shaquille_O%27Neal_Free_Throw.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Basketball_Hall_of_Fame%2C_Springfield_-_Schuh_v._Shaquille_O%27Neal.jpg/960px-Basketball_Hall_of_Fame%2C_Springfield_-_Schuh_v._Shaquille_O%27Neal.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/ad/Shaquille_O%27Neal_in_2011.jpg"
       ]
     },
@@ -324,9 +319,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Usain_Bolt_smiling_Berlin_2009.JPG",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c3/Usain_Bolt_smiling_Berlin_2009.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c4/Usain_Bolt_and_Perri.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Usain_Bolt_Olympics_Celebration.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/14/Usain_Bolt1.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Usain_Bolt_and_Perri.jpg/960px-Usain_Bolt_and_Perri.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Usain_Bolt_Olympics_Celebration.jpg/960px-Usain_Bolt_Olympics_Celebration.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Usain_Bolt1.jpg/960px-Usain_Bolt1.jpg"
       ]
     },
     {
@@ -338,9 +333,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Marcell_Jacobs_2021.jpg/960px-Marcell_Jacobs_2021.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Marcell_Jacobs_2021.jpg/960px-Marcell_Jacobs_2021.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/18/Sean_Safo-Antwi%2C_Lamont_Marcell_Jacobs_and_Joris_Van_Gool_at_the_2020_Triveneto_Meeting_in_Trieste%2C_Italy.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marcell_Jacobs.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/86/Marcell_Jacobs_%28ITA%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Sean_Safo-Antwi%2C_Lamont_Marcell_Jacobs_and_Joris_Van_Gool_at_the_2020_Triveneto_Meeting_in_Trieste%2C_Italy.jpg/960px-Sean_Safo-Antwi%2C_Lamont_Marcell_Jacobs_and_Joris_Van_Gool_at_the_2020_Triveneto_Meeting_in_Trieste%2C_Italy.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marcell_Jacobs.jpg"
       ]
     },
     {
@@ -353,9 +347,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Gimbo_Tamberi_%28Roma_2024%29.jpg/960px-Gimbo_Tamberi_%28Roma_2024%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Gimbo_Tamberi_%28Roma_2024%29.jpg/960px-Gimbo_Tamberi_%28Roma_2024%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/532_tamberi_na_de_2m33_%2826069157616%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9e/Gianmarco_Tamberi_ahead_of_the_2019_indoor_meeting_in_Karlsruhe.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gianmarco_Tamberi_%2851914503341%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/532_tamberi_na_de_2m33_%2826069157616%29.jpg/960px-532_tamberi_na_de_2m33_%2826069157616%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Gianmarco_Tamberi_ahead_of_the_2019_indoor_meeting_in_Karlsruhe.jpg/960px-Gianmarco_Tamberi_ahead_of_the_2019_indoor_meeting_in_Karlsruhe.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Gianmarco_Tamberi_%2851914503341%29.jpg/960px-Gianmarco_Tamberi_%2851914503341%29.jpg"
       ]
     },
     {
@@ -367,9 +361,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Federica_Pellegrini_e_Luca_Marin_%28cropped%29.jpg/960px-Federica_Pellegrini_e_Luca_Marin_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Federica_Pellegrini_e_Luca_Marin_%28cropped%29.jpg/960px-Federica_Pellegrini_e_Luca_Marin_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4d/Federica_Pellegrini.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Federica_Pellegrini.jpg/960px-Federica_Pellegrini.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8e/Federica_Pellegrini_-_2009_World_Championships.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Federica_Pellegrini_Roma.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Federica_Pellegrini_Roma.jpg/960px-Federica_Pellegrini_Roma.jpg"
       ]
     },
     {
@@ -381,9 +375,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Beatrice_Vio_2018_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/8/8f/Beatrice_Vio_2018_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/be/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173213.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173213.jpg/960px-Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173213.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138.jpg/960px-Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138_%28cropped%29.jpg/960px-Bebe_Vio_2014_IWAS_European_Championships_FFS-IN_t173138_%28cropped%29.jpg"
       ]
     },
     {
@@ -407,8 +401,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/e2/Sofia_Goggia.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sofia_Goggia_%28Lienz%2C_28-12-2015%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_2.png",
-        "https://upload.wikimedia.org/wikipedia/commons/2/25/Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_3.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_2.png/960px-Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_2.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_3.png/960px-Sofia_Goggia_%28Lienz%2C_28-12-2015%29_-_3.png"
       ]
     },
     {
@@ -421,9 +415,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Marco_Pantani%2C_1997.jpg/960px-Marco_Pantani%2C_1997.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Marco_Pantani%2C_1997.jpg/960px-Marco_Pantani%2C_1997.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marco_Pantani%2C_1997.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Marco_Pantani.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0f/Marco_Pantani_-_Giro_d%27Italia_%2816384453148%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Marco_Pantani.jpg/960px-Marco_Pantani.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Marco_Pantani_-_Giro_d%27Italia_%2816384453148%29.jpg/960px-Marco_Pantani_-_Giro_d%27Italia_%2816384453148%29.jpg"
       ]
     },
     {
@@ -437,7 +430,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/2022_Tour_of_Slovenia_%28Stage_3%2C_Tadej_Poga%C4%8Dar_celebrating_victory_on_Celje_Castle_v2%29.jpg/960px-2022_Tour_of_Slovenia_%28Stage_3%2C_Tadej_Poga%C4%8Dar_celebrating_victory_on_Celje_Castle_v2%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tadej_Poga%C4%8Dar_welcoming_ceremony_after_2019_Giro_d%27Italia_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tadej_Poga%C4%8Dar_%282019-11-19%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tadej_Poga%C4%8Dar_in_2019.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Tadej_Poga%C4%8Dar_in_2019.jpg/960px-Tadej_Poga%C4%8Dar_in_2019.jpg"
       ]
     },
     {
@@ -449,9 +442,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Mike_Tyson_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Mike_Tyson_2011.jpg/960px-Mike_Tyson_2011.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mike_Tyson_Portrait.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mike_Tyson_and_Ahmed_Salim.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mike_Tyson_and_Ahmed_Salim.jpg/960px-Mike_Tyson_and_Ahmed_Salim.jpg"
       ]
     },
     {
@@ -464,9 +457,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/960px-Muhammad_Ali_NYWTS.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/960px-Muhammad_Ali_NYWTS.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/89/Muhammad_Ali_NYWTS.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/2d/ModernEgypt%2C_Muhammad_Ali_by_Auguste_Couder%2C_BAP_17996.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg/960px-Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/ModernEgypt%2C_Muhammad_Ali_by_Auguste_Couder%2C_BAP_17996.jpg/960px-ModernEgypt%2C_Muhammad_Ali_by_Auguste_Couder%2C_BAP_17996.jpg"
       ]
     },
     {
@@ -478,9 +470,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Conor_McGregor_2025.jpeg/960px-Conor_McGregor_2025.jpeg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Conor_McGregor_2025.jpeg/960px-Conor_McGregor_2025.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/14/Conor_McGregor%2C_UFC_189_World_Tour_London.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Conor_McGregor%2C_UFC_189_World_Tour_London_%282%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jos%C3%A9_Aldo_vs._Conor_McGregor%2C_UFC_189_World_Tour_London.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Conor_McGregor%2C_UFC_189_World_Tour_London.jpg/960px-Conor_McGregor%2C_UFC_189_World_Tour_London.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Conor_McGregor%2C_UFC_189_World_Tour_London_%282%29.jpg/960px-Conor_McGregor%2C_UFC_189_World_Tour_London_%282%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Jos%C3%A9_Aldo_vs._Conor_McGregor%2C_UFC_189_World_Tour_London.jpg/960px-Jos%C3%A9_Aldo_vs._Conor_McGregor%2C_UFC_189_World_Tour_London.jpg"
       ]
     },
     {
@@ -489,12 +481,13 @@
       "aliases": [
         "woods"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Tiger_Woods_and_Tony_Romo.jpg/960px-Tiger_Woods_and_Tony_Romo.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Tiger_Woods_drives_by_Allison.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/37/Tiger_Woods_and_Tony_Romo.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tiger_Woods%2C_arrest_photo%2C_May_2017.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Tiger_Woods_and_Tony_Romo.jpg/960px-Tiger_Woods_and_Tony_Romo.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Tiger_Woods_signed_photo_collage_and_golf_ball_2013.jpg/960px-Tiger_Woods_signed_photo_collage_and_golf_ball_2013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tiger_Woods_smiling.jpg/960px-Tiger_Woods_smiling.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Tiger_Woods_drives_by_Allison.jpg/960px-Tiger_Woods_drives_by_Allison.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tiger_Woods%2C_arrest_photo%2C_May_2017.jpg/960px-Tiger_Woods%2C_arrest_photo%2C_May_2017.jpg"
       ]
     },
     {
@@ -506,9 +499,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/960px-Simone_Biles_National_Team_2024.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/960px-Simone_Biles_National_Team_2024.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/82/Simone_Biles_Rio_2016b.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Simone_Biles_at_the_2016_Olympics_all-around_gold_medal_podium_%2828262782114%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Simone_Biles%2C_na_prova_final_da_trave_nos_Jogos_Ol%C3%ADmpicos_Rio_2016.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Simone_Biles_Rio_2016b.jpg/960px-Simone_Biles_Rio_2016b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Simone_Biles_at_the_2016_Olympics_all-around_gold_medal_podium_%2828262782114%29.jpg/960px-Simone_Biles_at_the_2016_Olympics_all-around_gold_medal_podium_%2828262782114%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles%2C_na_prova_final_da_trave_nos_Jogos_Ol%C3%ADmpicos_Rio_2016.jpg/960px-Simone_Biles%2C_na_prova_final_da_trave_nos_Jogos_Ol%C3%ADmpicos_Rio_2016.jpg"
       ]
     },
     {
@@ -521,8 +514,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/960px-Michael_Phelps_Rio_Olympics_2016.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/af/Michael_Phelps_2009.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/02/Michael_Phelps_%282009%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c6/Michael_Phelps_August_2016.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Michael_Phelps_August_2016.jpg/960px-Michael_Phelps_August_2016.jpg"
       ]
     },
     {
@@ -548,9 +540,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/960px-Hulk_Hogan%2C_circa_1985.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/960px-Hulk_Hogan%2C_circa_1985.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hulk_Hogan.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Hulk_Hogan_in_TNA%2C_January_2013.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/53/Hulk_hogan_2014_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hulk_Hogan.jpg/960px-Hulk_Hogan.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Hulk_Hogan_in_TNA%2C_January_2013.jpg/960px-Hulk_Hogan_in_TNA%2C_January_2013.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hulk_hogan_2014_%28cropped%29.jpg/960px-Hulk_hogan_2014_%28cropped%29.jpg"
       ]
     },
     {
@@ -562,9 +554,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/John_Cena_by_Gage_Skidmore.jpg/960px-John_Cena_by_Gage_Skidmore.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/John_Cena_by_Gage_Skidmore.jpg/960px-John_Cena_by_Gage_Skidmore.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/85/John_Cena_on_the_set_of_%2212_Rounds%22%2C_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Cena_on_the_set_of_%2212_Rounds%22%2C_2008.jpg/960px-John_Cena_on_the_set_of_%2212_Rounds%22%2C_2008.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/dd/John_Cena_2010.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a6/WWE_Champion_John_Cena_2013.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/WWE_Champion_John_Cena_2013.jpg/960px-WWE_Champion_John_Cena_2013.jpg"
       ]
     },
     {
@@ -576,9 +568,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Rey_Mysterio_at_San_Diego_Comic_Con_2026_%283x4_cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/1/19/Rey_Mysterio_at_San_Diego_Comic_Con_2026_%283x4_cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Rey_Mysterio_619.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/2/29/Rey_Mysterio_134596.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c3/Rey_mysterio_is_back.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Rey_Mysterio_134596.jpg/960px-Rey_Mysterio_134596.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Rey_mysterio_is_back.jpg/960px-Rey_mysterio_is_back.jpg"
       ]
     }
   ],

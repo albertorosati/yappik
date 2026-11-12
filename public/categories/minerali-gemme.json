@@ -6,10 +6,10 @@
   "themeHex": "#8B5CF6",
   "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/1/17/Corundum-215330.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Logan_Sapphire_10956420_cropped.png/960px-Logan_Sapphire_10956420_cropped.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/17/Corundum-215330.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Logan_Sapphire_10956420_cropped.png/960px-Logan_Sapphire_10956420_cropped.png"
   ],
   "items": [
     {
@@ -18,25 +18,37 @@
       "aliases": [
         "brillante"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-2",
       "answer": "Rubino",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Corundum-215330.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Corundum-215330.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/Corundum-215330.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-3",
       "answer": "Smeraldo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-4",
       "answer": "Zaffiro",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Logan_Sapphire_10956420_cropped.png/960px-Logan_Sapphire_10956420_cropped.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Logan_Sapphire_10956420_cropped.png/960px-Logan_Sapphire_10956420_cropped.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Logan_Sapphire_10956420_cropped.png/960px-Logan_Sapphire_10956420_cropped.png"
+      ]
     },
     {
       "id": "minerali-gemme-5",
@@ -44,19 +56,28 @@
       "aliases": [
         "geode di ametista"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-6",
       "answer": "Quarzo Rosa",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rose_quartz_12.jpg/960px-Rose_quartz_12.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rose_quartz_12.jpg/960px-Rose_quartz_12.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rose_quartz_12.jpg/960px-Rose_quartz_12.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-7",
       "answer": "Quarzo Citrino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Citrine_taillee.jpg/960px-Citrine_taillee.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Citrine_taillee.jpg/960px-Citrine_taillee.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Citrine_taillee.jpg/960px-Citrine_taillee.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-8",
@@ -64,7 +85,10 @@
       "aliases": [
         "quarzo ialino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Quartz_Br%C3%A9sil.jpg/960px-Quartz_Br%C3%A9sil.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Quartz_Br%C3%A9sil.jpg/960px-Quartz_Br%C3%A9sil.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Quartz_Br%C3%A9sil.jpg/960px-Quartz_Br%C3%A9sil.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-9",
@@ -72,25 +96,37 @@
       "aliases": [
         "oro degli stolti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg/960px-Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg/960px-Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg/960px-Pyrite_-_Huanzala_mine%2C_Huallanca%2C_Bolognesi%2C_Ancash%2C_Peru.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-10",
       "answer": "Opale",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Opal-53714.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Opal-53714.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Opal-53714.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-11",
       "answer": "Turchese",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Turquoise-40031.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Turquoise-40031.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7d/Turquoise-40031.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-12",
       "answer": "Lapislazzuli",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Lapis-lazuli_hg.jpg/960px-Lapis-lazuli_hg.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Lapis-lazuli_hg.jpg/960px-Lapis-lazuli_hg.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Lapis-lazuli_hg.jpg/960px-Lapis-lazuli_hg.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-13",
@@ -98,19 +134,28 @@
       "aliases": [
         "resina fossile"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Amber2.jpg/960px-Amber2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Amber2.jpg/960px-Amber2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Amber2.jpg/960px-Amber2.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-14",
       "answer": "Giada",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Jadestein.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Jadestein.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/00/Jadestein.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-15",
       "answer": "Malachite",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Malachite%2C_Zaire.jpg/960px-Malachite%2C_Zaire.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Malachite%2C_Zaire.jpg/960px-Malachite%2C_Zaire.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Malachite%2C_Zaire.jpg/960px-Malachite%2C_Zaire.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-16",
@@ -118,43 +163,64 @@
       "aliases": [
         "vetro vulcanico"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lipari-Obsidienne_%285%29.jpg/960px-Lipari-Obsidienne_%285%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lipari-Obsidienne_%285%29.jpg/960px-Lipari-Obsidienne_%285%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lipari-Obsidienne_%285%29.jpg/960px-Lipari-Obsidienne_%285%29.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-17",
       "answer": "Topazio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Topaze%2C_quartz_fum%C3%A9_1.jpg/960px-Topaze%2C_quartz_fum%C3%A9_1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Topaze%2C_quartz_fum%C3%A9_1.jpg/960px-Topaze%2C_quartz_fum%C3%A9_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Topaze%2C_quartz_fum%C3%A9_1.jpg/960px-Topaze%2C_quartz_fum%C3%A9_1.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-18",
       "answer": "Acquamarina",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Aquamarine_P1000141.JPG/960px-Aquamarine_P1000141.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Aquamarine_P1000141.JPG/960px-Aquamarine_P1000141.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Aquamarine_P1000141.JPG/960px-Aquamarine_P1000141.JPG"
+      ]
     },
     {
       "id": "minerali-gemme-19",
       "answer": "Agata",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg/960px-Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg/960px-Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg/960px-Malawi_Agate_%28Malawi%2C_southeastern_Africa%29_%2832734668126%29.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-20",
       "answer": "Onice",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Agate-Quartz-49959.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Agate-Quartz-49959.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Agate-Quartz-49959.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-21",
       "answer": "Granato",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Garnet_Andradite20.jpg/960px-Garnet_Andradite20.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Garnet_Andradite20.jpg/960px-Garnet_Andradite20.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Garnet_Andradite20.jpg/960px-Garnet_Andradite20.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-22",
       "answer": "Fluorite",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/3192M-fluorite1.jpg/960px-3192M-fluorite1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/3192M-fluorite1.jpg/960px-3192M-fluorite1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/3192M-fluorite1.jpg/960px-3192M-fluorite1.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-23",
@@ -162,7 +228,10 @@
       "aliases": [
         "cristallo di bismuto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bismuth_crystals_and_1cm3_cube.jpg/960px-Bismuth_crystals_and_1cm3_cube.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bismuth_crystals_and_1cm3_cube.jpg/960px-Bismuth_crystals_and_1cm3_cube.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bismuth_crystals_and_1cm3_cube.jpg/960px-Bismuth_crystals_and_1cm3_cube.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-24",
@@ -171,7 +240,10 @@
         "oro",
         "pepita"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Goldinpan.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Goldinpan.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9b/Goldinpan.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-25",
@@ -179,19 +251,28 @@
       "aliases": [
         "argento"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-26",
       "answer": "Rame",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Copper-21991.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Copper-21991.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Copper-21991.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-27",
       "answer": "Zolfo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg/960px-Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg/960px-Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg/960px-Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-28",
@@ -199,13 +280,19 @@
       "aliases": [
         "cristallo di sale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg/960px-Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg/960px-Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg/960px-Halit_%28NaCl%29_-_Kopalnia_soli_Wieliczka%2C_Polska.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-29",
       "answer": "Rosa del Deserto",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Roses_des_Sables_Tunisie.jpg/960px-Roses_des_Sables_Tunisie.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Roses_des_Sables_Tunisie.jpg/960px-Roses_des_Sables_Tunisie.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Roses_des_Sables_Tunisie.jpg/960px-Roses_des_Sables_Tunisie.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-30",
@@ -213,7 +300,10 @@
       "aliases": [
         "ostrica con perla"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Various_pearls.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Various_pearls.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Various_pearls.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-31",
@@ -221,7 +311,10 @@
       "aliases": [
         "corallo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg/960px-Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg/960px-Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg/960px-Corallium_rubrum_%28Linnaeus%2C_1758%29_11.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-32",
@@ -229,7 +322,10 @@
       "aliases": [
         "pietra pomice"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_eruption_of_Fukutoku-Oka-no-Ba_05.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/The_eruption_of_Fukutoku-Oka-no-Ba_05.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/58/The_eruption_of_Fukutoku-Oka-no-Ba_05.jpg"
+      ]
     },
     {
       "id": "minerali-gemme-33",
@@ -237,13 +333,19 @@
       "aliases": [
         "marmo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Carrara.PNG/960px-Carrara.PNG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Carrara.PNG/960px-Carrara.PNG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Carrara.PNG/960px-Carrara.PNG"
+      ]
     },
     {
       "id": "minerali-gemme-34",
       "answer": "Meteorite",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/TamentitMeteorite.JPG/960px-TamentitMeteorite.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/TamentitMeteorite.JPG/960px-TamentitMeteorite.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/TamentitMeteorite.JPG/960px-TamentitMeteorite.JPG"
+      ]
     }
   ],
   "scope": "intl",

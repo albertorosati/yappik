@@ -4,12 +4,12 @@
   "subtitle": "Personaggi, parchi e simboli dell’universo Disney",
   "icon": "🏰",
   "themeHex": "#3B82F6",
-  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Walt_Disney_with_Mickey_Mouse_drawing.jpg/960px-Walt_Disney_with_Mickey_Mouse_drawing.jpg",
+  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Walt_Disney_with_Mickey_Mouse_drawing.jpg/960px-Walt_Disney_with_Mickey_Mouse_drawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Festa_a_sorpresa_per_Topolino.png/960px-Festa_a_sorpresa_per_Topolino.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/it/1/10/Copertina_Topolino_3294.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/it/3/37/Paperina_%28Topolino_3113%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://upload.wikimedia.org/wikipedia/it/3/37/Paperina_%28Topolino_3113%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/2/2e/Donald_Duck_-_temper.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Minnie_Mouse.svg/960px-Minnie_Mouse.svg.png"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "mickey mouse"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/1970_Fiat_500_L_--_2011_DC_1.jpg/960px-1970_Fiat_500_L_--_2011_DC_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png"
+      ]
     },
     {
       "id": "personaggi-disney-2",
@@ -26,7 +29,10 @@
       "aliases": [
         "minni"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Festa_a_sorpresa_per_Topolino.png/960px-Festa_a_sorpresa_per_Topolino.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Minnie_Mouse.svg/960px-Minnie_Mouse.svg.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Minnie_Mouse.svg/960px-Minnie_Mouse.svg.png"
+      ]
     },
     {
       "id": "personaggi-disney-3",
@@ -45,7 +51,10 @@
       "aliases": [
         "daisy"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/3/37/Paperina_%28Topolino_3113%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/3/37/Paperina_%28Topolino_3113%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/3/37/Paperina_%28Topolino_3113%29.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-5",
@@ -53,7 +62,10 @@
       "aliases": [
         "goofy"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/c/c4/Il_campione_olimpico_%28The_Olympic_Champ%29_1942.png"
+      ]
     },
     {
       "id": "personaggi-disney-6",
@@ -61,7 +73,10 @@
       "aliases": [
         "cane pluto"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rover_in_The_Picnic_%28Mickey_Mouse_Cartoons%29.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rover_in_The_Picnic_%28Mickey_Mouse_Cartoons%29.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/3c/Rover_in_The_Picnic_%28Mickey_Mouse_Cartoons%29.png"
+      ]
     },
     {
       "id": "personaggi-disney-7",
@@ -69,7 +84,10 @@
       "aliases": [
         "paperon de paperoni"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Donald_Duck.png/960px-Donald_Duck.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png"
+      ]
     },
     {
       "id": "personaggi-disney-8",
@@ -77,19 +95,28 @@
       "aliases": [
         "bassotti"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_Beagle_Boys.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_Beagle_Boys.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/d/d1/The_Beagle_Boys.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-9",
       "answer": "Cenerentola",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/1950_is_the_Cinderella_year.jpg/960px-1950_is_the_Cinderella_year.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/1950_is_the_Cinderella_year.jpg/960px-1950_is_the_Cinderella_year.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/1950_is_the_Cinderella_year.jpg/960px-1950_is_the_Cinderella_year.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-10",
       "answer": "Biancaneve",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/SnowWhite22.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/SnowWhite22.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f7/SnowWhite22.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-11",
@@ -97,7 +124,10 @@
       "aliases": [
         "bella addormentata"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sleeping_Beauty_by_Harbour.jpg/960px-Sleeping_Beauty_by_Harbour.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sleeping_Beauty_by_Harbour.jpg/960px-Sleeping_Beauty_by_Harbour.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sleeping_Beauty_by_Harbour.jpg/960px-Sleeping_Beauty_by_Harbour.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-12",
@@ -105,7 +135,10 @@
       "aliases": [
         "la bella e la bestia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d6/La_spada_nella_roccia.png/960px-La_spada_nella_roccia.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Belle_disney.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/d/d5/Belle_disney.png"
+      ]
     },
     {
       "id": "personaggi-disney-13",
@@ -113,7 +146,10 @@
       "aliases": [
         "sirenetta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/b5/Ariel_sirenetta.png/960px-Ariel_sirenetta.png"
+      ]
     },
     {
       "id": "personaggi-disney-14",
@@ -121,7 +157,10 @@
       "aliases": [
         "principessa jasmine"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/b/b9/Aladdin-Disney-Charecters.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-15",
@@ -129,19 +168,28 @@
       "aliases": [
         "fa mulan"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/MulanCharacters.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/MulanCharacters.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/7/7b/MulanCharacters.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-16",
       "answer": "Pocahontas",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png/960px-Pocahontas_by_Simon_van_de_Passe_%281616%29.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ae/Pocahontas_e_John_Smith.png/960px-Pocahontas_e_John_Smith.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ae/Pocahontas_e_John_Smith.png/960px-Pocahontas_e_John_Smith.png"
+      ]
     },
     {
       "id": "personaggi-disney-17",
       "answer": "Rapunzel",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0f/RapunzelDisneyMovie.png/960px-RapunzelDisneyMovie.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0f/RapunzelDisneyMovie.png/960px-RapunzelDisneyMovie.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0f/RapunzelDisneyMovie.png/960px-RapunzelDisneyMovie.png"
+      ]
     },
     {
       "id": "personaggi-disney-18",
@@ -149,7 +197,10 @@
       "aliases": [
         "moana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Oceania2Movie.png/960px-Oceania2Movie.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Oceania2Movie.png/960px-Oceania2Movie.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ce/Oceania2Movie.png/960px-Oceania2Movie.png"
+      ]
     },
     {
       "id": "personaggi-disney-19",
@@ -157,13 +208,19 @@
       "aliases": [
         "ribelle"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Sur_de_M%C3%A9rida_%28Venezuela%29.JPG/960px-Sur_de_M%C3%A9rida_%28Venezuela%29.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Disneyland_Merida_shoots_her_bow.jpg/960px-Disneyland_Merida_shoots_her_bow.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Disneyland_Merida_shoots_her_bow.jpg/960px-Disneyland_Merida_shoots_her_bow.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-20",
       "answer": "Tiana",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ae/PrincessandtheFrog.png/960px-PrincessandtheFrog.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ae/PrincessandtheFrog.png/960px-PrincessandtheFrog.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ae/PrincessandtheFrog.png/960px-PrincessandtheFrog.png"
+      ]
     },
     {
       "id": "personaggi-disney-21",
@@ -171,7 +228,10 @@
       "aliases": [
         "maleficent"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Malefica.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Malefica.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/7/7e/Malefica.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-22",
@@ -179,13 +239,19 @@
       "aliases": [
         "crudelia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4a/Crudelia_De_Mon.png/960px-Crudelia_De_Mon.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4a/Crudelia_De_Mon.png/960px-Crudelia_De_Mon.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4a/Crudelia_De_Mon.png/960px-Crudelia_De_Mon.png"
+      ]
     },
     {
       "id": "personaggi-disney-23",
       "answer": "Ursula",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Disney_Little_Mermaid_characters.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Disney_Little_Mermaid_characters.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/9/92/Disney_Little_Mermaid_characters.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-24",
@@ -193,19 +259,28 @@
       "aliases": [
         "uncino"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Captain_Hook.PNG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Captain_Hook.PNG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/Captain_Hook.PNG"
+      ]
     },
     {
       "id": "personaggi-disney-25",
       "answer": "Jafar",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/e/e1/Aladdinpesonaggio.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/e/e1/Aladdinpesonaggio.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/e/e1/Aladdinpesonaggio.JPG"
+      ]
     },
     {
       "id": "personaggi-disney-26",
       "answer": "Scar",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/e/e2/Il_Re_Leone.png/960px-Il_Re_Leone.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Scar_lion_king.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/4/4d/Scar_lion_king.png"
+      ]
     },
     {
       "id": "personaggi-disney-27",
@@ -213,13 +288,19 @@
       "aliases": [
         "ade hercules"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Hades_Altemps_Inv8584_n2.jpg/960px-Hades_Altemps_Inv8584_n2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/SDCC_2014_-_Disney_villains_%2814802001843%29.jpg/960px-SDCC_2014_-_Disney_villains_%2814802001843%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/SDCC_2014_-_Disney_villains_%2814802001843%29.jpg/960px-SDCC_2014_-_Disney_villains_%2814802001843%29.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-28",
       "answer": "Peter Pan",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Peter-pan-play-announcement.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Peter-pan-play-announcement.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d4/Peter-pan-play-announcement.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-29",
@@ -227,19 +308,28 @@
       "aliases": [
         "campanellino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/52/Trilli_e_il_tesoro_perduto.jpg/960px-Trilli_e_il_tesoro_perduto.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/5/52/Trilli_e_il_tesoro_perduto.jpg/960px-Trilli_e_il_tesoro_perduto.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/5/52/Trilli_e_il_tesoro_perduto.jpg/960px-Trilli_e_il_tesoro_perduto.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-30",
       "answer": "Pinocchio",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pinocchio.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pinocchio.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/65/Pinocchio.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-31",
       "answer": "Grillo Parlante",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Jiminy_Cricket_%28cropped%29.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Jiminy_Cricket_%28cropped%29.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Jiminy_Cricket_%28cropped%29.png"
+      ]
     },
     {
       "id": "personaggi-disney-32",
@@ -247,19 +337,28 @@
       "aliases": [
         "elefantino dumbo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dumbo-hires_%28cropped%29.jpg/960px-Dumbo-hires_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dumbo-hires_%28cropped%29.jpg/960px-Dumbo-hires_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dumbo-hires_%28cropped%29.jpg/960px-Dumbo-hires_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-33",
       "answer": "Bambi",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Bambi-Hans-Bertle.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Walt_Disney%27s_Bambi_poster.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/8/88/Walt_Disney%27s_Bambi_poster.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-34",
       "answer": "Tarzan",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/1/13/Tarzan_Disney_1999.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/1/13/Tarzan_Disney_1999.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/it/1/13/Tarzan_Disney_1999.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-35",
@@ -267,7 +366,10 @@
       "aliases": [
         "ercole"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/3/3a/Megara_Disney.png/960px-Megara_Disney.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Hercules_%281997_film%29_poster.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/6/65/Hercules_%281997_film%29_poster.jpg"
+      ]
     },
     {
       "id": "personaggi-disney-36",
@@ -275,13 +377,19 @@
       "aliases": [
         "nightmare before christmas"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/49/Jack_Skeletron.png/960px-Jack_Skeletron.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/49/Jack_Skeletron.png/960px-Jack_Skeletron.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/49/Jack_Skeletron.png/960px-Jack_Skeletron.png"
+      ]
     },
     {
       "id": "personaggi-disney-37",
       "answer": "Mary Poppins",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Mary_Poppins_screen_2_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Mary_Poppins_screen_2_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Mary_Poppins_screen_2_%28cropped%29.jpg"
+      ]
     }
   ],
   "scope": "intl",

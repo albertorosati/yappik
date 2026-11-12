@@ -4,12 +4,12 @@
   "subtitle": "Adrenalina pura sulla neve, sulle onde e in aria",
   "icon": "❄️",
   "themeHex": "#06B6D4",
-  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/FIS_World_Ski_Championships_Gold_Medal.jpg/960px-FIS_World_Ski_Championships_Gold_Medal.jpg",
+  "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/FIS_World_Ski_Championships_Gold_Medal.jpg/960px-FIS_World_Ski_Championships_Gold_Medal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg/960px-%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/b/b3/Biathlon_Schalke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg/960px-%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/b3/Biathlon_Schalke.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg"
   ],
   "items": [
     {
@@ -19,19 +19,30 @@
         "discesa libera",
         "slalom"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/FIS_World_Ski_Championships_Gold_Medal.jpg/960px-FIS_World_Ski_Championships_Gold_Medal.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/91/Alpine_skiing_-_Paralympic_pictogram.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Paralympic_2010_-_Alpine_skiing_-_Talan_Skeels-Piggins.jpg/960px-Paralympic_2010_-_Alpine_skiing_-_Talan_Skeels-Piggins.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-2",
       "answer": "Sci di Fondo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg/960px-%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg/960px-%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg/960px-%D0%94%D1%91%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9B%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD_2015.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-3",
       "answer": "Salto con gli Sci",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg/960px-FIS_Ski_Weltcup_Titisee-Neustadt_2016_-_Peter_Prevc1.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-4",
@@ -39,13 +50,19 @@
       "aliases": [
         "sci e tiro"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Biathlon_Schalke.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Biathlon_Schalke.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Biathlon_Schalke.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-5",
       "answer": "Snowboard",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Snowboarding.jpg/960px-Snowboarding.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-6",
@@ -53,25 +70,37 @@
       "aliases": [
         "short track"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paulien_van_Deutekom_%2808-12-2007%29.jpg/960px-Paulien_van_Deutekom_%2808-12-2007%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paulien_van_Deutekom_%2808-12-2007%29.jpg/960px-Paulien_van_Deutekom_%2808-12-2007%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paulien_van_Deutekom_%2808-12-2007%29.jpg/960px-Paulien_van_Deutekom_%2808-12-2007%29.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-7",
       "answer": "Pattinaggio Artistico",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg/960px-Team_Les_Supreme_Free_Skate_at_the_2026_ISU_Synchronized_Skating_World_Championships_01.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-8",
       "answer": "Curling",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f5/Curling%2C_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton%2C_Canada.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-9",
       "answer": "Bob",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg/960px-Two-man_bobsleigh%2C_2014_winter_Olympics%2C_Jamaica.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-10",
@@ -79,7 +108,10 @@
       "aliases": [
         "skeleton"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mortensen_and_Griffall.jpg/960px-Mortensen_and_Griffall.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mortensen_and_Griffall.jpg/960px-Mortensen_and_Griffall.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mortensen_and_Griffall.jpg/960px-Mortensen_and_Griffall.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-11",
@@ -87,7 +119,10 @@
       "aliases": [
         "hockey"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/960px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-12",
@@ -95,13 +130,19 @@
       "aliases": [
         "slitta coi cani"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg/960px-Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg/960px-Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg/960px-Frauenwald%2C_Hundeschlittenrennen%2C_6.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-13",
       "answer": "Arrampicata su Ghiaccio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Xaver_Bongard_in_der_Breitwangflue.jpg/960px-Xaver_Bongard_in_der_Breitwangflue.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Xaver_Bongard_in_der_Breitwangflue.jpg/960px-Xaver_Bongard_in_der_Breitwangflue.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Xaver_Bongard_in_der_Breitwangflue.jpg/960px-Xaver_Bongard_in_der_Breitwangflue.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-14",
@@ -109,7 +150,10 @@
       "aliases": [
         "cavalcare le onde"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mavericks_Surf_Contest_2010b.jpg/960px-Mavericks_Surf_Contest_2010b.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-15",
@@ -117,13 +161,19 @@
       "aliases": [
         "tavola a vela"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Hood_river_windsurfers_20060701_0759.jpeg/960px-Hood_river_windsurfers_20060701_0759.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Hood_river_windsurfers_20060701_0759.jpeg/960px-Hood_river_windsurfers_20060701_0759.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Hood_river_windsurfers_20060701_0759.jpeg/960px-Hood_river_windsurfers_20060701_0759.jpeg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-16",
       "answer": "Kitesurf",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Kitesurfing_Sotavento.jpg/960px-Kitesurfing_Sotavento.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Kitesurfing_Sotavento.jpg/960px-Kitesurfing_Sotavento.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Kitesurfing_Sotavento.jpg/960px-Kitesurfing_Sotavento.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-17",
@@ -131,7 +181,10 @@
       "aliases": [
         "sci nautico"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg/960px-CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg/960px-CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg/960px-CH.ZG.Zug_Boardstock_2008-07-27_Wakeboarder_27_16x9-R_4K.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-18",
@@ -139,7 +192,10 @@
       "aliases": [
         "sup"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG/960px-J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG/960px-J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG/960px-J%C3%A9r%C3%A9my-Massi%C3%A8re_stand-up-paddle_biscarrosse-2.JPG"
+      ]
     },
     {
       "id": "sport-invernali-estremi-19",
@@ -147,7 +203,10 @@
       "aliases": [
         "gommone fiume"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg/960px-Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg/960px-Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg/960px-Upstream_view_Colorado_River_approximatly_Mile_59.0.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-20",
@@ -155,7 +214,10 @@
       "aliases": [
         "canoa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/DuoWhitewaterKayak.jpg/960px-DuoWhitewaterKayak.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/DuoWhitewaterKayak.jpg/960px-DuoWhitewaterKayak.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/DuoWhitewaterKayak.jpg/960px-DuoWhitewaterKayak.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-21",
@@ -163,13 +225,19 @@
       "aliases": [
         "subacquea"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Underwater_photograph_of_a_recreational_scuba_diver_in_Playa_del_Carmen_2006.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Underwater_photograph_of_a_recreational_scuba_diver_in_Playa_del_Carmen_2006.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/Underwater_photograph_of_a_recreational_scuba_diver_in_Playa_del_Carmen_2006.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-22",
       "answer": "Apnea",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Agata_Bogusz_wrakowe.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Agata_Bogusz_wrakowe.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/71/Agata_Bogusz_wrakowe.png"
+      ]
     },
     {
       "id": "sport-invernali-estremi-23",
@@ -177,19 +245,28 @@
       "aliases": [
         "tuffi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Molly_Carlson_Boston_2024.jpg/960px-Molly_Carlson_Boston_2024.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Molly_Carlson_Boston_2024.jpg/960px-Molly_Carlson_Boston_2024.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Molly_Carlson_Boston_2024.jpg/960px-Molly_Carlson_Boston_2024.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-24",
       "answer": "Parapendio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Paragliding_1350361.jpg/960px-Paragliding_1350361.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Paragliding_1350361.jpg/960px-Paragliding_1350361.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Paragliding_1350361.jpg/960px-Paragliding_1350361.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-25",
       "answer": "Deltaplano",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Hang_gliding_hyner.jpg/960px-Hang_gliding_hyner.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Hang_gliding_hyner.jpg/960px-Hang_gliding_hyner.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Hang_gliding_hyner.jpg/960px-Hang_gliding_hyner.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-26",
@@ -197,7 +274,10 @@
       "aliases": [
         "skydiving"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Parachute_Descent.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Parachute_Descent.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/Parachute_Descent.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-27",
@@ -205,7 +285,10 @@
       "aliases": [
         "wingsuit"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wingsuit_Flying_over_Langar_Airfield_UK.jpg/960px-Wingsuit_Flying_over_Langar_Airfield_UK.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wingsuit_Flying_over_Langar_Airfield_UK.jpg/960px-Wingsuit_Flying_over_Langar_Airfield_UK.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Wingsuit_Flying_over_Langar_Airfield_UK.jpg/960px-Wingsuit_Flying_over_Langar_Airfield_UK.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-28",
@@ -213,19 +296,28 @@
       "aliases": [
         "salto con l elastico"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bill%27s_Bungy_Jump.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bill%27s_Bungy_Jump.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bill%27s_Bungy_Jump.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-29",
       "answer": "Parkour",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Julien_Do_parkour_in_park.jpg/960px-Julien_Do_parkour_in_park.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Julien_Do_parkour_in_park.jpg/960px-Julien_Do_parkour_in_park.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Julien_Do_parkour_in_park.jpg/960px-Julien_Do_parkour_in_park.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-30",
       "answer": "Skateboard",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/BackSmithGrind.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/BackSmithGrind.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/BackSmithGrind.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-31",
@@ -233,7 +325,10 @@
       "aliases": [
         "bici acrobatica"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Renato_Rezende_em_2021.jpg/960px-Renato_Rezende_em_2021.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Renato_Rezende_em_2021.jpg/960px-Renato_Rezende_em_2021.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Renato_Rezende_em_2021.jpg/960px-Renato_Rezende_em_2021.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-32",
@@ -242,7 +337,10 @@
         "mountain bike",
         "mtb"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MTB_downhill_18_Stevage.jpg/960px-MTB_downhill_18_Stevage.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MTB_downhill_18_Stevage.jpg/960px-MTB_downhill_18_Stevage.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MTB_downhill_18_Stevage.jpg/960px-MTB_downhill_18_Stevage.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-33",
@@ -250,7 +348,12 @@
       "aliases": [
         "moto trial"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/OSSA_shop_marker.JPG/960px-OSSA_shop_marker.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Manuel_Soler_Trial_Sant_Lloren%C3%A7_1979.jpg/960px-Manuel_Soler_Trial_Sant_Lloren%C3%A7_1979.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Manuel_Soler_Trial_Sant_Lloren%C3%A7_1979.jpg/960px-Manuel_Soler_Trial_Sant_Lloren%C3%A7_1979.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Bernie_Schreiber_1978_Sherpa_T_199.jpg/960px-Bernie_Schreiber_1978_Sherpa_T_199.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/108_Sandra_Gomez_SPA_1.jpg/960px-108_Sandra_Gomez_SPA_1.jpg"
+      ]
     },
     {
       "id": "sport-invernali-estremi-34",
@@ -258,7 +361,10 @@
       "aliases": [
         "auto da rally"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Petter_Solberg_-_2006_Cyprus_Rally.jpg/960px-Petter_Solberg_-_2006_Cyprus_Rally.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Petter_Solberg_-_2006_Cyprus_Rally.jpg/960px-Petter_Solberg_-_2006_Cyprus_Rally.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Petter_Solberg_-_2006_Cyprus_Rally.jpg/960px-Petter_Solberg_-_2006_Cyprus_Rally.jpg"
+      ]
     }
   ],
   "scope": "intl",

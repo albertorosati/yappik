@@ -3,104 +3,14 @@
   "totalPhotos": 2131,
   "categories": [
     {
-      "id": "artisti-pop",
-      "name": "Artisti Pop Mondiali",
-      "subtitle": "Riconosci le superstar della musica internazionale dalla foto",
-      "icon": "🎤",
-      "themeHex": "#FF4D8D",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "id": "animali-selvatici",
+      "name": "Animali Selvatici & Strani",
+      "subtitle": "Predatori, creature degli abissi e animali bizzarri della Terra",
+      "icon": "🦁",
+      "themeHex": "#16A34A",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
       "itemCount": 45,
-      "dataUrl": "./categories/artisti-pop.json"
-    },
-    {
-      "id": "musica-italiana",
-      "name": "Cantanti & Rapper Italiani",
-      "subtitle": "Da Sanremo alla scena urban e ai grandi classici italiani",
-      "icon": "🇮🇹",
-      "themeHex": "#00C48C",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png",
-      "itemCount": 45,
-      "dataUrl": "./categories/musica-italiana.json"
-    },
-    {
-      "id": "attori-hollywood",
-      "name": "Attori di Hollywood",
-      "subtitle": "I volti più famosi del grande schermo mondiale",
-      "icon": "🎬",
-      "themeHex": "#FFB800",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg",
-      "itemCount": 45,
-      "dataUrl": "./categories/attori-hollywood.json"
-    },
-    {
-      "id": "cinema-cult",
-      "name": "Cinema & Film Cult",
-      "subtitle": "Capolavori, saghe leggendarie e grandi comici italiani",
-      "icon": "🍿",
-      "themeHex": "#FF5C35",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Charlie_Berens_2017_%28cropped%29.jpg/960px-Charlie_Berens_2017_%28cropped%29.jpg",
-      "itemCount": 40,
-      "dataUrl": "./categories/cinema-cult.json"
-    },
-    {
-      "id": "serie-tv",
-      "name": "Serie TV Famosissime",
-      "subtitle": "Personaggi e serie che ci hanno tenuti incollati allo schermo",
-      "icon": "📺",
-      "themeHex": "#8B5CF6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Walter_Francis_White_by_Clara_Sipprell.jpg/960px-Walter_Francis_White_by_Clara_Sipprell.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/serie-tv.json"
-    },
-    {
-      "id": "youtuber-streamer",
-      "name": "YouTuber & Streamer",
-      "subtitle": "I re di YouTube, Twitch e dell’intrattenimento sul web",
-      "icon": "📱",
-      "themeHex": "#FF3B30",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
-      "itemCount": 35,
-      "dataUrl": "./categories/youtuber-streamer.json"
-    },
-    {
-      "id": "meme-tiktok",
-      "name": "Meme & Trend Virali",
-      "subtitle": "Immagini leggendarie della cultura internet e dei social",
-      "icon": "😂",
-      "themeHex": "#F59E0B",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/meme-tiktok.json"
-    },
-    {
-      "id": "gen-z",
-      "name": "Starter Pack Gen Z",
-      "subtitle": "Oggetti, bevande, moda e ossessioni della nuova generazione",
-      "icon": "🧋",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/HK_KTD_%E8%91%B5%E9%9D%92%E5%8D%80_Kwai_Tsing_%E5%A4%A7%E9%80%A3%E6%8E%92%E9%81%93_72_Tai_Lin_Pai_Road_KCC_%E4%B9%9D%E9%BE%8D%E8%B2%BF%E6%98%93%E4%B8%AD%E5%BF%83_Kowloon_Commerce_Centre_shopping_mall_January_2022_Px3_17.jpg/960px-HK_KTD_%E8%91%B5%E9%9D%92%E5%8D%80_Kwai_Tsing_%E5%A4%A7%E9%80%A3%E6%8E%92%E9%81%93_72_Tai_Lin_Pai_Road_KCC_%E4%B9%9D%E9%BE%8D%E8%B2%BF%E6%98%93%E4%B8%AD%E5%BF%83_Kowloon_Commerce_Centre_shopping_mall_January_2022_Px3_17.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/gen-z.json"
-    },
-    {
-      "id": "videogiochi",
-      "name": "Videogiochi Famosi",
-      "subtitle": "Riconosci il videogioco dall’immagine senza leggere il titolo!",
-      "icon": "🎮",
-      "themeHex": "#6366F1",
-      "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_hero.jpg",
-      "itemCount": 45,
-      "dataUrl": "./categories/videogiochi.json"
-    },
-    {
-      "id": "pokemon",
-      "name": "Pokémon",
-      "subtitle": "Acchiappali tutti: riconosci il Pokémon dal disegno ufficiale!",
-      "icon": "⚡",
-      "themeHex": "#FACC15",
-      "coverImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-      "itemCount": 50,
-      "dataUrl": "./categories/pokemon.json"
+      "dataUrl": "./categories/animali-selvatici.json"
     },
     {
       "id": "anime-manga",
@@ -113,14 +23,54 @@
       "dataUrl": "./categories/anime-manga.json"
     },
     {
-      "id": "cartoni-animati",
-      "name": "Cartoni & Film d’Animazione",
-      "subtitle": "Disney, Pixar, DreamWorks e le grandi serie animate occidentali",
-      "icon": "🧽",
-      "themeHex": "#06B6D4",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png",
-      "itemCount": 37,
-      "dataUrl": "./categories/cartoni-animati.json"
+      "id": "artisti-pop",
+      "name": "Artisti Pop Mondiali",
+      "subtitle": "Riconosci le superstar della musica internazionale dalla foto",
+      "icon": "🎤",
+      "themeHex": "#FF4D8D",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "itemCount": 45,
+      "dataUrl": "./categories/artisti-pop.json"
+    },
+    {
+      "id": "attori-hollywood",
+      "name": "Attori di Hollywood",
+      "subtitle": "I volti più famosi del grande schermo mondiale",
+      "icon": "🎬",
+      "themeHex": "#FFB800",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg",
+      "itemCount": 45,
+      "dataUrl": "./categories/attori-hollywood.json"
+    },
+    {
+      "id": "attori-italiani",
+      "name": "Attori & Attrici Italiani",
+      "subtitle": "I grandi interpreti del cinema italiano di ieri e di oggi",
+      "icon": "🎭",
+      "themeHex": "#10B981",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Marcello_Mastroianni_02.jpg/960px-Marcello_Mastroianni_02.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/attori-italiani.json"
+    },
+    {
+      "id": "auto-moto",
+      "name": "Auto, Supercar & Moto",
+      "subtitle": "Dalla mitica Panda alle Ferrari, Porsche e moto leggendarie",
+      "icon": "🏎️",
+      "themeHex": "#EF4444",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Fiat_Panda_Easy_1.2.jpg/960px-2018_Fiat_Panda_Easy_1.2.jpg",
+      "itemCount": 39,
+      "dataUrl": "./categories/auto-moto.json"
+    },
+    {
+      "id": "bandiere",
+      "name": "Bandiere del Mondo",
+      "subtitle": "Tutte le nazioni del pianeta: quante ne riconosci al volo?",
+      "icon": "🌍",
+      "themeHex": "#2563EB",
+      "coverImage": "https://flagcdn.com/w640/it.png",
+      "itemCount": 55,
+      "dataUrl": "./categories/bandiere.json"
     },
     {
       "id": "calciatori",
@@ -133,44 +83,64 @@
       "dataUrl": "./categories/calciatori.json"
     },
     {
-      "id": "leggende-sport",
-      "name": "Leggende dello Sport",
-      "subtitle": "Tennis, Formula 1, MotoGP, NBA, atletica e grandi campioni",
-      "icon": "🏆",
-      "themeHex": "#F59E0B",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg",
-      "itemCount": 40,
-      "dataUrl": "./categories/leggende-sport.json"
+      "id": "capolavori-arte",
+      "name": "Capolavori dell’Arte",
+      "subtitle": "Quadri e sculture immortali che tutti hanno visto almeno una volta",
+      "icon": "🎨",
+      "themeHex": "#EC4899",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/capolavori-arte.json"
     },
     {
-      "id": "tv-italiana",
-      "name": "Volti della TV Italiana",
-      "subtitle": "Conduttori, chef stellati, giornalisti e icone del piccolo schermo",
-      "icon": "🎙️",
-      "themeHex": "#3B82F6",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg",
-      "itemCount": 40,
-      "dataUrl": "./categories/tv-italiana.json"
+      "id": "cartoni-animati",
+      "name": "Cartoni & Film d’Animazione",
+      "subtitle": "Disney, Pixar, DreamWorks e le grandi serie animate occidentali",
+      "icon": "🧽",
+      "themeHex": "#06B6D4",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/it/b/bd/Homer_Simpson.png",
+      "itemCount": 37,
+      "dataUrl": "./categories/cartoni-animati.json"
     },
     {
-      "id": "supereroi",
-      "name": "Supereroi & Villain",
-      "subtitle": "Marvel, DC Comics e i personaggi più iconici dei fumetti",
-      "icon": "🦸",
-      "themeHex": "#EF4444",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/it/8/82/Copertina_Uomo_Ragno_MI_430.png",
+      "id": "cinema-cult",
+      "name": "Cinema & Film Cult",
+      "subtitle": "Capolavori, saghe leggendarie e grandi comici italiani",
+      "icon": "🍿",
+      "themeHex": "#FF5C35",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/960px-RMS_Titanic_3.jpg",
       "itemCount": 40,
-      "dataUrl": "./categories/supereroi.json"
+      "dataUrl": "./categories/cinema-cult.json"
     },
     {
-      "id": "nostalgia-90-00",
-      "name": "Nostalgia Anni ’90 & 2000",
-      "subtitle": "Oggetti mitici con cui siamo cresciuti prima degli smartphone",
-      "icon": "📼",
-      "themeHex": "#A855F7",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png",
+      "id": "citta-mondo",
+      "name": "Grandi Città del Mondo",
+      "subtitle": "Indovina la metropoli o la città d’arte dal suo panorama",
+      "icon": "🌆",
+      "themeHex": "#0EA5E9",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Venezia_aerial_view.jpg/960px-Venezia_aerial_view.jpg",
       "itemCount": 38,
-      "dataUrl": "./categories/nostalgia-90-00.json"
+      "dataUrl": "./categories/citta-mondo.json"
+    },
+    {
+      "id": "cocktail-bevande",
+      "name": "Cocktail, Vini & Drink",
+      "subtitle": "Dai grandi classici del bancone ai calici più celebri",
+      "icon": "🍹",
+      "themeHex": "#EC4899",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
+      "itemCount": 36,
+      "dataUrl": "./categories/cocktail-bevande.json"
+    },
+    {
+      "id": "creature-mitologiche",
+      "name": "Miti, Dei & Creature Leggendarie",
+      "subtitle": "Dall’Olimpo greco ai mostri del folklore mondiale",
+      "icon": "🔱",
+      "themeHex": "#D97706",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/creature-mitologiche.json"
     },
     {
       "id": "cucina-italiana",
@@ -193,136 +163,6 @@
       "dataUrl": "./categories/cucina-mondo.json"
     },
     {
-      "id": "snack-bibite",
-      "name": "Snack, Dolci & Bibite",
-      "subtitle": "Merendine, cioccolatini, patatine e drink famosissimi",
-      "icon": "🍫",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/snack-bibite.json"
-    },
-    {
-      "id": "auto-moto",
-      "name": "Auto, Supercar & Moto",
-      "subtitle": "Dalla mitica Panda alle Ferrari, Porsche e moto leggendarie",
-      "icon": "🏎️",
-      "themeHex": "#EF4444",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/2018_Fiat_Panda_Easy_1.2.jpg/960px-2018_Fiat_Panda_Easy_1.2.jpg",
-      "itemCount": 39,
-      "dataUrl": "./categories/auto-moto.json"
-    },
-    {
-      "id": "monumenti",
-      "name": "Monumenti & Meraviglie",
-      "subtitle": "Le architetture e i simboli più celebri del pianeta",
-      "icon": "🗽",
-      "themeHex": "#F59E0B",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
-      "itemCount": 39,
-      "dataUrl": "./categories/monumenti.json"
-    },
-    {
-      "id": "citta-mondo",
-      "name": "Grandi Città del Mondo",
-      "subtitle": "Indovina la metropoli o la città d’arte dal suo panorama",
-      "icon": "🌆",
-      "themeHex": "#0EA5E9",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Venezia_aerial_view.jpg/960px-Venezia_aerial_view.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/citta-mondo.json"
-    },
-    {
-      "id": "bandiere",
-      "name": "Bandiere del Mondo",
-      "subtitle": "Tutte le nazioni del pianeta: quante ne riconosci al volo?",
-      "icon": "🌍",
-      "themeHex": "#2563EB",
-      "coverImage": "https://flagcdn.com/w640/it.png",
-      "itemCount": 55,
-      "dataUrl": "./categories/bandiere.json"
-    },
-    {
-      "id": "razze-cani",
-      "name": "Razze di Cani",
-      "subtitle": "Dal minuscolo Chihuahua al San Bernardo: riconosci la razza!",
-      "icon": "🐶",
-      "themeHex": "#D97706",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/razze-cani.json"
-    },
-    {
-      "id": "animali-selvatici",
-      "name": "Animali Selvatici & Strani",
-      "subtitle": "Predatori, creature degli abissi e animali bizzarri della Terra",
-      "icon": "🦁",
-      "themeHex": "#16A34A",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
-      "itemCount": 45,
-      "dataUrl": "./categories/animali-selvatici.json"
-    },
-    {
-      "id": "personaggi-storici",
-      "name": "Personaggi Storici & Geni",
-      "subtitle": "Scienziati, leader, inventori e figure che hanno cambiato la storia",
-      "icon": "🧠",
-      "themeHex": "#8B5CF6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/960px-Albert_Einstein_Head_cleaned.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/personaggi-storici.json"
-    },
-    {
-      "id": "capolavori-arte",
-      "name": "Capolavori dell’Arte",
-      "subtitle": "Quadri e sculture immortali che tutti hanno visto almeno una volta",
-      "icon": "🎨",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/capolavori-arte.json"
-    },
-    {
-      "id": "strumenti-musicali",
-      "name": "Strumenti Musicali",
-      "subtitle": "Corde, fiati, tastiere e percussioni da tutto il mondo",
-      "icon": "🎸",
-      "themeHex": "#F43F5E",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png",
-      "itemCount": 38,
-      "dataUrl": "./categories/strumenti-musicali.json"
-    },
-    {
-      "id": "oggetti-casa",
-      "name": "Oggetti di Casa & Fai-da-Te",
-      "subtitle": "Utensili da cucina, elettrodomestici e attrezzi della cassetta",
-      "icon": "🛠️",
-      "themeHex": "#0EA5E9",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Moka_Express_Bialetti.png/960px-Moka_Express_Bialetti.png",
-      "itemCount": 40,
-      "dataUrl": "./categories/oggetti-casa.json"
-    },
-    {
-      "id": "mestieri",
-      "name": "Mestieri & Professioni",
-      "subtitle": "Divise, caschi e lavori in azione: indovina la professione!",
-      "icon": "👨‍🚒",
-      "themeHex": "#F59E0B",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/mestieri.json"
-    },
-    {
-      "id": "frutta-verdura",
-      "name": "Frutta, Verdura & Spezie",
-      "subtitle": "Sapori dell’orto, frutti esotici e ingredienti freschi",
-      "icon": "🥑",
-      "themeHex": "#22C55E",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
-      "itemCount": 42,
-      "dataUrl": "./categories/frutta-verdura.json"
-    },
-    {
       "id": "discipline-sportive",
       "name": "Discipline Sportive",
       "subtitle": "Riconosci lo sport in azione dalla fotografia di gara",
@@ -331,106 +171,6 @@
       "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/960px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
       "itemCount": 38,
       "dataUrl": "./categories/discipline-sportive.json"
-    },
-    {
-      "id": "spazio-natura",
-      "name": "Spazio, Scienza & Natura",
-      "subtitle": "Pianeti, fenomeni estremi, minerali e meraviglie naturali",
-      "icon": "🪐",
-      "themeHex": "#6366F1",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/960px-Apollo_11_Launch_-_GPN-2000-000630.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/spazio-natura.json"
-    },
-    {
-      "id": "moda-accessori",
-      "name": "Moda, Scarpe & Accessori",
-      "subtitle": "Cappelli dal mondo, calzature, gioielli e dettagli di stile",
-      "icon": "👟",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/moda-accessori.json"
-    },
-    {
-      "id": "fiori-piante",
-      "name": "Fiori, Piante & Alberi",
-      "subtitle": "Meraviglie botaniche dal giardino alle foreste giganti",
-      "icon": "🌸",
-      "themeHex": "#14B8A6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg",
-      "itemCount": 32,
-      "dataUrl": "./categories/fiori-piante.json"
-    },
-    {
-      "id": "razze-gatti",
-      "name": "Razze di Gatti",
-      "subtitle": "Dal gigante Maine Coon allo Sphynx senza pelo: riconosci il felino!",
-      "icon": "🐱",
-      "themeHex": "#F59E0B",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG",
-      "itemCount": 32,
-      "dataUrl": "./categories/razze-gatti.json"
-    },
-    {
-      "id": "attori-italiani",
-      "name": "Attori & Attrici Italiani",
-      "subtitle": "I grandi interpreti del cinema italiano di ieri e di oggi",
-      "icon": "🎭",
-      "themeHex": "#10B981",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Marcello_Mastroianni_02.jpg/960px-Marcello_Mastroianni_02.jpg",
-      "itemCount": 38,
-      "dataUrl": "./categories/attori-italiani.json"
-    },
-    {
-      "id": "icone-musica-70-80-90",
-      "name": "Leggende della Musica ’70-’80-’90",
-      "subtitle": "Le icone immortali del rock, del pop e della disco",
-      "icon": "🕺",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/960px-Bob_Marley_circa_1976_%28cropped%29.jpg",
-      "itemCount": 37,
-      "dataUrl": "./categories/icone-musica-70-80-90.json"
-    },
-    {
-      "id": "registi-cinema",
-      "name": "Grandi Registi del Cinema",
-      "subtitle": "I maestri dietro la macchina da presa dei film più amati",
-      "icon": "🎥",
-      "themeHex": "#6366F1",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg/960px-MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg",
-      "itemCount": 36,
-      "dataUrl": "./categories/registi-cinema.json"
-    },
-    {
-      "id": "giochi-tavolo",
-      "name": "Giochi da Tavolo & Salotto",
-      "subtitle": "Scacchiere, dadi, carte e grandi classici delle serate in compagnia",
-      "icon": "🎲",
-      "themeHex": "#F97316",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg",
-      "itemCount": 33,
-      "dataUrl": "./categories/giochi-tavolo.json"
-    },
-    {
-      "id": "formaggi-salumi",
-      "name": "Formaggi, Salumi & Specialità",
-      "subtitle": "Eccellenze gastronomiche, taglieri e ingredienti pregiati",
-      "icon": "🧀",
-      "themeHex": "#EAB308",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
-      "itemCount": 35,
-      "dataUrl": "./categories/formaggi-salumi.json"
-    },
-    {
-      "id": "cocktail-bevande",
-      "name": "Cocktail, Vini & Drink",
-      "subtitle": "Dai grandi classici del bancone ai calici più celebri",
-      "icon": "🍹",
-      "themeHex": "#EC4899",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
-      "itemCount": 36,
-      "dataUrl": "./categories/cocktail-bevande.json"
     },
     {
       "id": "dolci-pasticceria",
@@ -443,6 +183,66 @@
       "dataUrl": "./categories/dolci-pasticceria.json"
     },
     {
+      "id": "fiori-piante",
+      "name": "Fiori, Piante & Alberi",
+      "subtitle": "Meraviglie botaniche dal giardino alle foreste giganti",
+      "icon": "🌸",
+      "themeHex": "#14B8A6",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/960px-Rosa_rubiginosa_1.jpg",
+      "itemCount": 32,
+      "dataUrl": "./categories/fiori-piante.json"
+    },
+    {
+      "id": "formaggi-salumi",
+      "name": "Formaggi, Salumi & Specialità",
+      "subtitle": "Eccellenze gastronomiche, taglieri e ingredienti pregiati",
+      "icon": "🧀",
+      "themeHex": "#EAB308",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/formaggi-salumi.json"
+    },
+    {
+      "id": "frutta-verdura",
+      "name": "Frutta, Verdura & Spezie",
+      "subtitle": "Sapori dell’orto, frutti esotici e ingredienti freschi",
+      "icon": "🥑",
+      "themeHex": "#22C55E",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/960px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg",
+      "itemCount": 42,
+      "dataUrl": "./categories/frutta-verdura.json"
+    },
+    {
+      "id": "gen-z",
+      "name": "Starter Pack Gen Z",
+      "subtitle": "Oggetti, bevande, moda e ossessioni della nuova generazione",
+      "icon": "🧋",
+      "themeHex": "#EC4899",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/gen-z.json"
+    },
+    {
+      "id": "giochi-tavolo",
+      "name": "Giochi da Tavolo & Salotto",
+      "subtitle": "Scacchiere, dadi, carte e grandi classici delle serate in compagnia",
+      "icon": "🎲",
+      "themeHex": "#F97316",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/6/6f/ChessSet.jpg",
+      "itemCount": 33,
+      "dataUrl": "./categories/giochi-tavolo.json"
+    },
+    {
+      "id": "icone-musica-70-80-90",
+      "name": "Leggende della Musica ’70-’80-’90",
+      "subtitle": "Le icone immortali del rock, del pop e della disco",
+      "icon": "🕺",
+      "themeHex": "#EC4899",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bob_Marley_circa_1976_%28cropped%29.jpg/960px-Bob_Marley_circa_1976_%28cropped%29.jpg",
+      "itemCount": 37,
+      "dataUrl": "./categories/icone-musica-70-80-90.json"
+    },
+    {
       "id": "insetti-artropodi",
       "name": "Insetti, Farfalle & Artropodi",
       "subtitle": "Il micromondo visto da vicino in altissima definizione",
@@ -453,74 +253,14 @@
       "dataUrl": "./categories/insetti-artropodi.json"
     },
     {
-      "id": "uccelli-mondo",
-      "name": "Uccelli Spettacolari",
-      "subtitle": "Rapaci, pappagalli tropicali e volatili incredibili del pianeta",
-      "icon": "🦅",
-      "themeHex": "#06B6D4",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
-      "itemCount": 37,
-      "dataUrl": "./categories/uccelli-mondo.json"
-    },
-    {
-      "id": "rettili-abissi",
-      "name": "Rettili, Anfibi & Abissi",
-      "subtitle": "Dalle foreste pluviali alle profondità degli oceani",
-      "icon": "🦎",
-      "themeHex": "#14B8A6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
-      "itemCount": 36,
-      "dataUrl": "./categories/rettili-abissi.json"
-    },
-    {
-      "id": "minerali-gemme",
-      "name": "Minerali, Gemme & Cristalli",
-      "subtitle": "Pietre preziose, pepite e cristalli naturali spettacolari",
-      "icon": "💎",
-      "themeHex": "#8B5CF6",
-      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg",
-      "itemCount": 34,
-      "dataUrl": "./categories/minerali-gemme.json"
-    },
-    {
-      "id": "mezzi-lavoro-soccorso",
-      "name": "Mezzi da Lavoro & Soccorso",
-      "subtitle": "Giganti del cantiere, dell’agricoltura, del mare e delle emergenze",
-      "icon": "🚜",
+      "id": "leggende-sport",
+      "name": "Leggende dello Sport",
+      "subtitle": "Tennis, Formula 1, MotoGP, NBA, atletica e grandi campioni",
+      "icon": "🏆",
       "themeHex": "#F59E0B",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg",
-      "itemCount": 34,
-      "dataUrl": "./categories/mezzi-lavoro-soccorso.json"
-    },
-    {
-      "id": "ponti-architetture",
-      "name": "Ponti, Torri & Grattacieli",
-      "subtitle": "Grandi opere di ingegneria e architetture iconiche contemporanee",
-      "icon": "🌉",
-      "themeHex": "#3B82F6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
-      "itemCount": 34,
-      "dataUrl": "./categories/ponti-architetture.json"
-    },
-    {
-      "id": "meraviglie-natura",
-      "name": "Meraviglie della Natura",
-      "subtitle": "Montagne leggendarie, cascate giganti e paesaggi mozzafiato",
-      "icon": "🏔️",
-      "themeHex": "#10B981",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
-      "itemCount": 34,
-      "dataUrl": "./categories/meraviglie-natura.json"
-    },
-    {
-      "id": "strumenti-scientifici",
-      "name": "Scienza, Medicina & Strumenti",
-      "subtitle": "Apparecchiature di laboratorio, astronomia, navigazione e misura",
-      "icon": "🔬",
-      "themeHex": "#0EA5E9",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Scientists_are_working_in_the_lab.9.jpg/960px-Scientists_are_working_in_the_lab.9.jpg",
-      "itemCount": 34,
-      "dataUrl": "./categories/strumenti-scientifici.json"
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Jannik_Sinner_2025_US_Open.jpg/960px-Jannik_Sinner_2025_US_Open.jpg",
+      "itemCount": 40,
+      "dataUrl": "./categories/leggende-sport.json"
     },
     {
       "id": "maschere-costumi",
@@ -533,14 +273,104 @@
       "dataUrl": "./categories/maschere-costumi.json"
     },
     {
-      "id": "sport-invernali-estremi",
-      "name": "Sport Invernali, Acquatici & Azione",
-      "subtitle": "Adrenalina pura sulla neve, sulle onde e in aria",
-      "icon": "❄️",
-      "themeHex": "#06B6D4",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/FIS_World_Ski_Championships_Gold_Medal.jpg/960px-FIS_World_Ski_Championships_Gold_Medal.jpg",
+      "id": "meme-tiktok",
+      "name": "Meme & Trend Virali",
+      "subtitle": "Immagini leggendarie della cultura internet e dei social",
+      "icon": "😂",
+      "themeHex": "#F59E0B",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/meme-tiktok.json"
+    },
+    {
+      "id": "meraviglie-natura",
+      "name": "Meraviglie della Natura",
+      "subtitle": "Montagne leggendarie, cascate giganti e paesaggi mozzafiato",
+      "icon": "🏔️",
+      "themeHex": "#10B981",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
       "itemCount": 34,
-      "dataUrl": "./categories/sport-invernali-estremi.json"
+      "dataUrl": "./categories/meraviglie-natura.json"
+    },
+    {
+      "id": "mestieri",
+      "name": "Mestieri & Professioni",
+      "subtitle": "Divise, caschi e lavori in azione: indovina la professione!",
+      "icon": "👨‍🚒",
+      "themeHex": "#F59E0B",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/FiremenFightBurningBarn.jpg/960px-FiremenFightBurningBarn.jpg",
+      "itemCount": 35,
+      "dataUrl": "./categories/mestieri.json"
+    },
+    {
+      "id": "mezzi-lavoro-soccorso",
+      "name": "Mezzi da Lavoro & Soccorso",
+      "subtitle": "Giganti del cantiere, dell’agricoltura, del mare e delle emergenze",
+      "icon": "🚜",
+      "themeHex": "#F59E0B",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Excavator_Postiguet_Beach_2.jpg/960px-Excavator_Postiguet_Beach_2.jpg",
+      "itemCount": 34,
+      "dataUrl": "./categories/mezzi-lavoro-soccorso.json"
+    },
+    {
+      "id": "minerali-gemme",
+      "name": "Minerali, Gemme & Cristalli",
+      "subtitle": "Pietre preziose, pepite e cristalli naturali spettacolari",
+      "icon": "💎",
+      "themeHex": "#8B5CF6",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg",
+      "itemCount": 34,
+      "dataUrl": "./categories/minerali-gemme.json"
+    },
+    {
+      "id": "moda-accessori",
+      "name": "Moda, Scarpe & Accessori",
+      "subtitle": "Cappelli dal mondo, calzature, gioielli e dettagli di stile",
+      "icon": "👟",
+      "themeHex": "#EC4899",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Bow-tie-colour-isolated.jpg/960px-Bow-tie-colour-isolated.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/moda-accessori.json"
+    },
+    {
+      "id": "monumenti",
+      "name": "Monumenti & Meraviglie",
+      "subtitle": "Le architetture e i simboli più celebri del pianeta",
+      "icon": "🗽",
+      "themeHex": "#F59E0B",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+      "itemCount": 39,
+      "dataUrl": "./categories/monumenti.json"
+    },
+    {
+      "id": "musica-italiana",
+      "name": "Cantanti & Rapper Italiani",
+      "subtitle": "Da Sanremo alla scena urban e ai grandi classici italiani",
+      "icon": "🇮🇹",
+      "themeHex": "#00C48C",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sferanstop.jpg",
+      "itemCount": 45,
+      "dataUrl": "./categories/musica-italiana.json"
+    },
+    {
+      "id": "nostalgia-90-00",
+      "name": "Nostalgia Anni ’90 & 2000",
+      "subtitle": "Oggetti mitici con cui siamo cresciuti prima degli smartphone",
+      "icon": "📼",
+      "themeHex": "#A855F7",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/960px-Game-Boy-FL.png",
+      "itemCount": 38,
+      "dataUrl": "./categories/nostalgia-90-00.json"
+    },
+    {
+      "id": "oggetti-casa",
+      "name": "Oggetti di Casa & Fai-da-Te",
+      "subtitle": "Utensili da cucina, elettrodomestici e attrezzi della cassetta",
+      "icon": "🛠️",
+      "themeHex": "#0EA5E9",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Moka_Express_Bialetti.png/960px-Moka_Express_Bialetti.png",
+      "itemCount": 40,
+      "dataUrl": "./categories/oggetti-casa.json"
     },
     {
       "id": "personaggi-disney",
@@ -548,19 +378,189 @@
       "subtitle": "Personaggi, parchi e simboli dell’universo Disney",
       "icon": "🏰",
       "themeHex": "#3B82F6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Walt_Disney_with_Mickey_Mouse_drawing.jpg/960px-Walt_Disney_with_Mickey_Mouse_drawing.jpg",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Mickey_Mouse_%28poster_version%29.svg/960px-Mickey_Mouse_%28poster_version%29.svg.png",
       "itemCount": 37,
       "dataUrl": "./categories/personaggi-disney.json"
     },
     {
-      "id": "creature-mitologiche",
-      "name": "Miti, Dei & Creature Leggendarie",
-      "subtitle": "Dall’Olimpo greco ai mostri del folklore mondiale",
-      "icon": "🔱",
+      "id": "personaggi-storici",
+      "name": "Personaggi Storici & Geni",
+      "subtitle": "Scienziati, leader, inventori e figure che hanno cambiato la storia",
+      "icon": "🧠",
+      "themeHex": "#8B5CF6",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/960px-Albert_Einstein_Head_cleaned.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/personaggi-storici.json"
+    },
+    {
+      "id": "pokemon",
+      "name": "Pokémon",
+      "subtitle": "Acchiappali tutti: riconosci il Pokémon dal disegno ufficiale!",
+      "icon": "⚡",
+      "themeHex": "#FACC15",
+      "coverImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "itemCount": 50,
+      "dataUrl": "./categories/pokemon.json"
+    },
+    {
+      "id": "ponti-architetture",
+      "name": "Ponti, Torri & Grattacieli",
+      "subtitle": "Grandi opere di ingegneria e architetture iconiche contemporanee",
+      "icon": "🌉",
+      "themeHex": "#3B82F6",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
+      "itemCount": 34,
+      "dataUrl": "./categories/ponti-architetture.json"
+    },
+    {
+      "id": "razze-cani",
+      "name": "Razze di Cani",
+      "subtitle": "Dal minuscolo Chihuahua al San Bernardo: riconosci la razza!",
+      "icon": "🐶",
       "themeHex": "#D97706",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Zeus_Otricoli_Pio-Clementino_Inv257.jpg/960px-Zeus_Otricoli_Pio-Clementino_Inv257.jpg",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/razze-cani.json"
+    },
+    {
+      "id": "razze-gatti",
+      "name": "Razze di Gatti",
+      "subtitle": "Dal gigante Maine Coon allo Sphynx senza pelo: riconosci il felino!",
+      "icon": "🐱",
+      "themeHex": "#F59E0B",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Siamese_cat_Vaillante.JPG",
+      "itemCount": 32,
+      "dataUrl": "./categories/razze-gatti.json"
+    },
+    {
+      "id": "registi-cinema",
+      "name": "Grandi Registi del Cinema",
+      "subtitle": "I maestri dietro la macchina da presa dei film più amati",
+      "icon": "🎥",
+      "themeHex": "#6366F1",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg/960px-MKr25402_Steven_Spielberg_%28Berlinale_2023%29_%283x4_cropped%29.jpg",
+      "itemCount": 36,
+      "dataUrl": "./categories/registi-cinema.json"
+    },
+    {
+      "id": "rettili-abissi",
+      "name": "Rettili, Anfibi & Abissi",
+      "subtitle": "Dalle foreste pluviali alle profondità degli oceani",
+      "icon": "🦎",
+      "themeHex": "#14B8A6",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Panther_Chameleon_738367_%28cropped%29.jpg/960px-Panther_Chameleon_738367_%28cropped%29.jpg",
+      "itemCount": 36,
+      "dataUrl": "./categories/rettili-abissi.json"
+    },
+    {
+      "id": "serie-tv",
+      "name": "Serie TV Famosissime",
+      "subtitle": "Personaggi e serie che ci hanno tenuti incollati allo schermo",
+      "icon": "📺",
+      "themeHex": "#8B5CF6",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bryan_Cranston_%287598828512%29.jpg/960px-Bryan_Cranston_%287598828512%29.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/serie-tv.json"
+    },
+    {
+      "id": "snack-bibite",
+      "name": "Snack, Dolci & Bibite",
+      "subtitle": "Merendine, cioccolatini, patatine e drink famosissimi",
+      "icon": "🍫",
+      "themeHex": "#EC4899",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg",
+      "itemCount": 38,
+      "dataUrl": "./categories/snack-bibite.json"
+    },
+    {
+      "id": "spazio-natura",
+      "name": "Spazio, Scienza & Natura",
+      "subtitle": "Pianeti, fenomeni estremi, minerali e meraviglie naturali",
+      "icon": "🪐",
+      "themeHex": "#6366F1",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg",
       "itemCount": 35,
-      "dataUrl": "./categories/creature-mitologiche.json"
+      "dataUrl": "./categories/spazio-natura.json"
+    },
+    {
+      "id": "sport-invernali-estremi",
+      "name": "Sport Invernali, Acquatici & Azione",
+      "subtitle": "Adrenalina pura sulla neve, sulle onde e in aria",
+      "icon": "❄️",
+      "themeHex": "#06B6D4",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Airforce_skiing_at_keystone_colorado.jpg",
+      "itemCount": 34,
+      "dataUrl": "./categories/sport-invernali-estremi.json"
+    },
+    {
+      "id": "strumenti-musicali",
+      "name": "Strumenti Musicali",
+      "subtitle": "Corde, fiati, tastiere e percussioni da tutto il mondo",
+      "icon": "🎸",
+      "themeHex": "#F43F5E",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Vea.guitarra.baixa.png",
+      "itemCount": 38,
+      "dataUrl": "./categories/strumenti-musicali.json"
+    },
+    {
+      "id": "strumenti-scientifici",
+      "name": "Scienza, Medicina & Strumenti",
+      "subtitle": "Apparecchiature di laboratorio, astronomia, navigazione e misura",
+      "icon": "🔬",
+      "themeHex": "#0EA5E9",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Optical_stereo_microscope_nikon_smz10.jpg/960px-Optical_stereo_microscope_nikon_smz10.jpg",
+      "itemCount": 34,
+      "dataUrl": "./categories/strumenti-scientifici.json"
+    },
+    {
+      "id": "supereroi",
+      "name": "Supereroi & Villain",
+      "subtitle": "Marvel, DC Comics e i personaggi più iconici dei fumetti",
+      "icon": "🦸",
+      "themeHex": "#EF4444",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
+      "itemCount": 40,
+      "dataUrl": "./categories/supereroi.json"
+    },
+    {
+      "id": "tv-italiana",
+      "name": "Volti della TV Italiana",
+      "subtitle": "Conduttori, chef stellati, giornalisti e icone del piccolo schermo",
+      "icon": "🎙️",
+      "themeHex": "#3B82F6",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gerry_Scotti_2010.jpg",
+      "itemCount": 40,
+      "dataUrl": "./categories/tv-italiana.json"
+    },
+    {
+      "id": "uccelli-mondo",
+      "name": "Uccelli Spettacolari",
+      "subtitle": "Rapaci, pappagalli tropicali e volatili incredibili del pianeta",
+      "icon": "🦅",
+      "themeHex": "#06B6D4",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+      "itemCount": 37,
+      "dataUrl": "./categories/uccelli-mondo.json"
+    },
+    {
+      "id": "videogiochi",
+      "name": "Videogiochi Famosi",
+      "subtitle": "Riconosci il videogioco dall’immagine senza leggere il titolo!",
+      "icon": "🎮",
+      "themeHex": "#6366F1",
+      "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.1920x1080.jpg",
+      "itemCount": 45,
+      "dataUrl": "./categories/videogiochi.json"
+    },
+    {
+      "id": "youtuber-streamer",
+      "name": "YouTuber & Streamer",
+      "subtitle": "I re di YouTube, Twitch e dell’intrattenimento sul web",
+      "icon": "📱",
+      "themeHex": "#FF3B30",
+      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+      "itemCount": 35,
+      "dataUrl": "./categories/youtuber-streamer.json"
     }
   ]
 }

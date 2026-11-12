@@ -57,6 +57,27 @@
     "for",
     "with"
   ],
+  "genericTokens": [
+    "maschera", "ponte", "torre", "monte", "pesce", "squalo", "orso", "gatto",
+    "cane", "torta", "pizza", "pasta", "vino", "birra", "caffe", "pane",
+    "grande", "piccolo", "nuovo", "vecchio", "rosso", "rossa", "bianco",
+    "bianca", "nero", "nera", "verde", "giallo", "gialla", "blu", "oro",
+    "argento", "reale", "gigante", "canyon", "cascata", "cascate", "lago",
+    "mare", "fiume", "isola", "stella", "super", "capitan", "dottor",
+    "dottore", "maestro", "signore", "ragno", "uomo", "donna", "casa",
+    "citta", "paese", "parco", "chiesa", "palazzo", "castello", "porta",
+    "piazza", "museo", "statua", "fontana", "marco", "paolo", "luca",
+    "carlo", "mario", "luigi", "giovanni", "francesco", "alessandro",
+    "roberto", "andrea", "stefano", "antonio", "giuseppe", "matteo",
+    "lorenzo", "federico", "davide", "simone", "maria", "anna", "laura",
+    "elena", "giulia", "chiara", "sara", "paola", "david", "michael",
+    "john", "robert", "james", "jack", "harry", "chris", "peter", "paul",
+    "mark", "george", "william", "richard", "thomas", "charles", "daniel",
+    "henry", "martin", "dead", "star", "world", "house", "girl", "king",
+    "queen", "black", "white", "dark", "little", "metal", "auto", "moto",
+    "film", "gioco", "giochi", "anime", "manga", "serie", "show", "drago",
+    "cavaliere", "guerriero", "principessa", "principe"
+  ],
   "numberMap": {
     "0": "zero",
     "1": "uno",
@@ -86,8 +107,8 @@
     "passa",
     "salta",
     "skip",
-    "passiamo",
-    "avanti"
+    "pass",
+    "passiamo"
   ],
   "phoneticReplacements": [
     ["\\bkn", "n"],
@@ -121,11 +142,15 @@
     ["h", ""]
   ],
   "thresholds": {
-    "acceptConfidence": 0.80,
-    "instantConfidence": 0.95,
-    "shortWordMaxLength": 3,
+    "acceptConfidence": 0.84,
+    "interimAcceptConfidence": 0.91,
+    "instantConfidence": 0.96,
+    "shortWordMaxLength": 4,
     "mediumWordMaxLength": 7,
+    "fuzzyMinLength": 6,
     "maxLengthDifference": 2,
-    "relativeLengthRatio": 0.35
+    "relativeLengthRatio": 0.30,
+    "partialMatchPenalty": 0.06,
+    "alternativeRankPenalties": [0, 0.02, 0.05, 0.09, 0.14]
   }
 }

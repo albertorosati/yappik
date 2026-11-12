@@ -6,10 +6,10 @@
   "themeHex": "#22C55E",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg/960px-Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vespula_germanica_Richard_Bartz.jpg/960px-Vespula_germanica_Richard_Bartz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg/960px-Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vespula_germanica_Richard_Bartz.jpg/960px-Vespula_germanica_Richard_Bartz.jpg"
   ],
   "items": [
     {
@@ -18,7 +18,10 @@
       "aliases": [
         "ladybug"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Coccinella-septempunctata-15-fws.jpg/960px-Coccinella-septempunctata-15-fws.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-2",
@@ -26,13 +29,19 @@
       "aliases": [
         "ape mellifera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-3",
       "answer": "Bombo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg/960px-Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg/960px-Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg/960px-Bombus_lapidarius_-_Melilotus_officinalis_-_Tallinn.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-4",
@@ -40,7 +49,10 @@
       "aliases": [
         "calabrone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vespula_germanica_Richard_Bartz.jpg/960px-Vespula_germanica_Richard_Bartz.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vespula_germanica_Richard_Bartz.jpg/960px-Vespula_germanica_Richard_Bartz.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vespula_germanica_Richard_Bartz.jpg/960px-Vespula_germanica_Richard_Bartz.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-5",
@@ -48,7 +60,10 @@
       "aliases": [
         "farfalla"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/960px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/960px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg/960px-Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-6",
@@ -56,7 +71,10 @@
       "aliases": [
         "farfalla gialla"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/PapilioMachaon2016_001.JPG/960px-PapilioMachaon2016_001.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/PapilioMachaon2016_001.JPG/960px-PapilioMachaon2016_001.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/PapilioMachaon2016_001.JPG/960px-PapilioMachaon2016_001.JPG"
+      ]
     },
     {
       "id": "insetti-artropodi-7",
@@ -64,19 +82,28 @@
       "aliases": [
         "farfalla notturna"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Peacock_butterfly_%28Aglais_io%29_2.jpg/960px-Peacock_butterfly_%28Aglais_io%29_2.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Adult_Atlas_Moths.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Adult_Atlas_Moths.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-8",
       "answer": "Bruco",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg/960px-Chenille_de_Grand_porte_queue_%28macaon%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg/960px-Chenille_de_Grand_porte_queue_%28macaon%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Chenille_de_Grand_porte_queue_%28macaon%29.jpg/960px-Chenille_de_Grand_porte_queue_%28macaon%29.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-9",
       "answer": "Libellula",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/960px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/960px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg/960px-Red_grasshawk_%28Neurothemis_fluctuans%29_male_Phuket_2.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-10",
@@ -84,7 +111,10 @@
       "aliases": [
         "mantide"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mantis_%28European%29.jpg/960px-Mantis_%28European%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mantis_%28European%29.jpg/960px-Mantis_%28European%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mantis_%28European%29.jpg/960px-Mantis_%28European%29.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-11",
@@ -92,13 +122,19 @@
       "aliases": [
         "fasmidi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Le_Caylar_fg01.JPG"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Le_Caylar_fg01.JPG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/0d/Le_Caylar_fg01.JPG"
+      ]
     },
     {
       "id": "insetti-artropodi-12",
       "answer": "Insetto Foglia",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Phyllioidea_overview.jpg/960px-Phyllioidea_overview.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Phyllioidea_overview.jpg/960px-Phyllioidea_overview.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Phyllioidea_overview.jpg/960px-Phyllioidea_overview.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-13",
@@ -106,19 +142,28 @@
       "aliases": [
         "locusta"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/American_Bird_Grasshopper.jpg/960px-American_Bird_Grasshopper.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/American_Bird_Grasshopper.jpg/960px-American_Bird_Grasshopper.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/American_Bird_Grasshopper.jpg/960px-American_Bird_Grasshopper.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-14",
       "answer": "Grillo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Gryllus_campestris_female_%284724690375%29.jpg/960px-Gryllus_campestris_female_%284724690375%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Gryllus_campestris_female_%284724690375%29.jpg/960px-Gryllus_campestris_female_%284724690375%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Gryllus_campestris_female_%284724690375%29.jpg/960px-Gryllus_campestris_female_%284724690375%29.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-15",
       "answer": "Cicala",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/960px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/960px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg/960px-Cicada_-_Neotibicen_linnei%2C_Woodbridge%2C_Virginia.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-16",
@@ -126,7 +171,10 @@
       "aliases": [
         "coleottero cervo volante"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lucanus_cervus.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lucanus_cervus.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/Lucanus_cervus.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-17",
@@ -135,43 +183,64 @@
         "scarabeo rinoceronte",
         "scarabeo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Dynastes_hercules_ecuatorianus_MHNT.jpg/960px-Dynastes_hercules_ecuatorianus_MHNT.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Dynastes_hercules_ecuatorianus_MHNT.jpg/960px-Dynastes_hercules_ecuatorianus_MHNT.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Dynastes_hercules_ecuatorianus_MHNT.jpg/960px-Dynastes_hercules_ecuatorianus_MHNT.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-18",
       "answer": "Maggiolino",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg/960px-Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg/960px-Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg/960px-Hanneton_commun_%28Melolontha_melolontha%29_%E2%99%80%2C_Parc_de_Woluw%C3%A9%2C_Bruxelles_%2851222810874%29.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-19",
       "answer": "Lucciola",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/960px-Photuris_lucicrescens.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/960px-Photuris_lucicrescens.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Photuris_lucicrescens.jpg/960px-Photuris_lucicrescens.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-20",
       "answer": "Formica",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/960px-Red_Ant_-_March_2025.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/960px-Red_Ant_-_March_2025.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Red_Ant_-_March_2025.jpg/960px-Red_Ant_-_March_2025.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-21",
       "answer": "Termite",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg/960px-Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg/960px-Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg/960px-Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-22",
       "answer": "Zanzara",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/960px-Aedes_aegypti.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/960px-Aedes_aegypti.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/960px-Aedes_aegypti.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-23",
       "answer": "Mosca",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Common_house_fly%2C_Musca_domestica.jpg/960px-Common_house_fly%2C_Musca_domestica.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Common_house_fly%2C_Musca_domestica.jpg/960px-Common_house_fly%2C_Musca_domestica.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Common_house_fly%2C_Musca_domestica.jpg/960px-Common_house_fly%2C_Musca_domestica.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-24",
@@ -179,7 +248,10 @@
       "aliases": [
         "cimice"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Green_shield_bug_%28Palomena_prasina%29_3.jpg/960px-Green_shield_bug_%28Palomena_prasina%29_3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Green_shield_bug_%28Palomena_prasina%29_3.jpg/960px-Green_shield_bug_%28Palomena_prasina%29_3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Green_shield_bug_%28Palomena_prasina%29_3.jpg/960px-Green_shield_bug_%28Palomena_prasina%29_3.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-25",
@@ -187,13 +259,19 @@
       "aliases": [
         "forficula"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/European_earwig_%2881241%29.jpg/960px-European_earwig_%2881241%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/European_earwig_%2881241%29.jpg/960px-European_earwig_%2881241%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/European_earwig_%2881241%29.jpg/960px-European_earwig_%2881241%29.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-26",
       "answer": "Scorpione",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-27",
@@ -201,13 +279,19 @@
       "aliases": [
         "ragno"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-28",
       "answer": "Vedova Nera",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Latrodectus_hesperus_Berkeley%2C_California.jpg/960px-Latrodectus_hesperus_Berkeley%2C_California.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Latrodectus_hesperus_Berkeley%2C_California.jpg/960px-Latrodectus_hesperus_Berkeley%2C_California.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Latrodectus_hesperus_Berkeley%2C_California.jpg/960px-Latrodectus_hesperus_Berkeley%2C_California.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-29",
@@ -216,7 +300,10 @@
         "centopiedi",
         "scolopendra"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Walter_de_Maria_Vertikaler_Erdkilometer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Millipede_0439.jpg/960px-Millipede_0439.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Millipede_0439.jpg/960px-Millipede_0439.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-30",
@@ -224,7 +311,10 @@
       "aliases": [
         "porcellino di terra"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Armadillidium_vulgare_P1210333a.jpg/960px-Armadillidium_vulgare_P1210333a.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Armadillidium_vulgare_P1210333a.jpg/960px-Armadillidium_vulgare_P1210333a.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Armadillidium_vulgare_P1210333a.jpg/960px-Armadillidium_vulgare_P1210333a.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-31",
@@ -232,7 +322,10 @@
       "aliases": [
         "lumaca"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Helix_pomatia_89a.jpg/960px-Helix_pomatia_89a.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Helix_pomatia_89a.jpg/960px-Helix_pomatia_89a.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Helix_pomatia_89a.jpg/960px-Helix_pomatia_89a.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-32",
@@ -240,13 +333,19 @@
       "aliases": [
         "paguro bernardo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Calliactis_and_Dardanus_001.JPG/960px-Calliactis_and_Dardanus_001.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Calliactis_and_Dardanus_001.JPG/960px-Calliactis_and_Dardanus_001.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Calliactis_and_Dardanus_001.JPG/960px-Calliactis_and_Dardanus_001.JPG"
+      ]
     },
     {
       "id": "insetti-artropodi-33",
       "answer": "Granchio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/960px-Cancer_pagurus.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/960px-Cancer_pagurus.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Cancer_pagurus.jpg/960px-Cancer_pagurus.jpg"
+      ]
     },
     {
       "id": "insetti-artropodi-34",
@@ -254,7 +353,10 @@
       "aliases": [
         "astice"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/California_spiny_lobster.JPG/960px-California_spiny_lobster.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/California_spiny_lobster.JPG/960px-California_spiny_lobster.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/California_spiny_lobster.JPG/960px-California_spiny_lobster.JPG"
+      ]
     }
   ],
   "scope": "intl",

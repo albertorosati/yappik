@@ -43,6 +43,19 @@ const PASS_KEYWORDS = new Set([
   'next',
 ]);
 
+const GENERIC_TOKENS = new Set(
+  (voiceConfig.genericTokens || []).map((t) => t.toLowerCase())
+);
+
+export interface EvaluateVoiceOptions {
+  isFinal?: boolean;
+}
+
+interface CandidateEntry {
+  text: string;
+  isPartial: boolean;
+}
+
 export function normalizeText(raw: string): string {
   if (!raw) return '';
   let text = raw
@@ -86,8 +99,32 @@ export function italianStem(word: string): string {
   return word.replace(/[aeio]$/, '');
 }
 
-export function expandItemCandidates(item: DuelItem): string[] {
-  const set = new Set<string>();
+function isItalianPluralInflection(a: string, b: string): boolean {
+  if (a.length < 4 || b.length < 4 || Math.abs(a.length - b.length) > 0) {
+    return false;
+  }
+  if (a.slice(0, -1) !== b.slice(0, -1)) return false;
+  const endA = a[a.length - 1];
+  const endB = b[b.length - 1];
+  const pair = [endA, endB].sort().join('');
+  return pair === 'ae' || pair === 'ei' || pair === 'io';
+}
+
+function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
+  const byText = new Map<string, CandidateEntry>();
+  const addCandidate = (rawText: string, isPartial: boolean) => {
+    const trimmed = rawText.trim();
+    if (!trimmed) return;
+    const key = trimmed.toLowerCase();
+    const existing = byText.get(key);
+    if (!existing) {
+      byText.set(key, { text: trimmed, isPartial });
+    } else if (existing.isPartial && !isPartial) {
+      // Un alias o risposta esplicita ha sempre priorità su una frammentazione parziale
+      byText.set(key, { text: existing.text, isPartial: false });
+    }
+  };
+
   const rawList = [
     item.answer,
     ...(item.aliases || []),
@@ -97,30 +134,39 @@ export function expandItemCandidates(item: DuelItem): string[] {
 
   for (const raw of rawList) {
     if (!raw) continue;
-    set.add(raw);
+    addCandidate(raw, false);
 
     // Sottotitoli delimitati da ":", "-", "–"
     const subParts = raw
       .split(/[:\-–]/)
       .map((s) => s.trim())
-      .filter((s) => s.length > 2);
+      .filter((s) => s.length >= 3);
     for (const p of subParts) {
-      set.add(p);
+      addCandidate(p, false);
     }
 
     // Rimozione numeri o numeri romani in coda (es. "Titolo 3" -> "Titolo")
     const strippedTail = raw.replace(/\s+(?:[0-9]+|[ivxIVX]+)$/, '').trim();
-    if (strippedTail && strippedTail !== raw && strippedTail.length >= 3) {
-      set.add(strippedTail);
+    if (strippedTail && strippedTail !== raw && strippedTail.length >= 4) {
+      addCandidate(strippedTail, false);
     }
 
-    // Singole parole distintive con lunghezza >= 4 caratteri e non stopword
+    // Estrazione selettiva di singole parole SOLO se sufficientemente lunghe (>= 6)
+    // e non presenti nella stop-list di token generici (evita falsi positivi di categoria/nomi comuni)
     const cleanWords = raw
       .split(/\s+/)
       .map((w) => w.replace(/[^a-zA-Z0-9]/g, ''))
-      .filter((w) => w.length >= 4 && !STOPWORDS.has(w.toLowerCase()));
+      .filter((w) => {
+        const lower = w.toLowerCase();
+        return (
+          w.length >= 6 &&
+          !STOPWORDS.has(lower) &&
+          !GENERIC_TOKENS.has(lower) &&
+          !/^\d+$/.test(lower)
+        );
+      });
     for (const w of cleanWords) {
-      set.add(w);
+      addCandidate(w, true);
     }
   }
 
@@ -132,11 +178,15 @@ export function expandItemCandidates(item: DuelItem): string[] {
   if (mainTokens.length >= 3) {
     const acronym = mainTokens.map((w) => w[0].toLowerCase()).join('');
     if (acronym.length >= 3) {
-      set.add(acronym);
+      addCandidate(acronym, false);
     }
   }
 
-  return Array.from(set);
+  return Array.from(byText.values());
+}
+
+export function expandItemCandidates(item: DuelItem): string[] {
+  return buildCandidateEntries(item).map((c) => c.text);
 }
 
 export function damerauLevenshtein(a: string, b: string): number {
@@ -184,15 +234,21 @@ function scoreCandidateMatch(spokenChunk: string, targetNorm: string): number {
     return 0.98;
   }
 
+  // Flessione plurale/singolare stretta in italiano (es. cane/cani, forbice/forbici, mela/mele)
+  if (isItalianPluralInflection(spokenCompact, targetCompact)) {
+    return 0.95;
+  }
+
+  // Parole brevi (<= shortWordMaxLength, es. <= 4 lettere) non ammettono errori fuzzy: solo match esatto o plurale
   if (targetCompact.length <= voiceConfig.thresholds.shortWordMaxLength) {
     return 0;
   }
 
   if (
-    targetCompact.length >= 4 &&
+    targetCompact.length >= 6 &&
     italianStem(spokenCompact) === italianStem(targetCompact)
   ) {
-    return 0.95;
+    return 0.94;
   }
 
   const spokenPhon = phoneticSkeleton(spokenCompact);
@@ -201,10 +257,15 @@ function scoreCandidateMatch(spokenChunk: string, targetNorm: string): number {
     return 0.95;
   }
   if (
-    targetPhon.length >= 5 &&
+    targetPhon.length >= 6 &&
     italianStem(spokenPhon) === italianStem(targetPhon)
   ) {
     return 0.92;
+  }
+
+  const fuzzyMinLen = voiceConfig.thresholds.fuzzyMinLength ?? 6;
+  if (targetCompact.length < fuzzyMinLen) {
+    return 0;
   }
 
   const distCompact = damerauLevenshtein(spokenCompact, targetCompact);
@@ -212,7 +273,7 @@ function scoreCandidateMatch(spokenChunk: string, targetNorm: string): number {
   const minLen = Math.min(spokenCompact.length, targetCompact.length);
   const maxLen = Math.max(spokenCompact.length, targetCompact.length);
 
-  const relativeRatio = voiceConfig.thresholds.relativeLengthRatio ?? 0.35;
+  const relativeRatio = voiceConfig.thresholds.relativeLengthRatio ?? 0.3;
   const maxDiff = Math.max(
     voiceConfig.thresholds.maxLengthDifference,
     Math.floor(maxLen * relativeRatio)
@@ -222,14 +283,14 @@ function scoreCandidateMatch(spokenChunk: string, targetNorm: string): number {
     return 0;
   }
 
-  if (
-    targetCompact.length >= 4 &&
-    targetCompact.length <= voiceConfig.thresholds.mediumWordMaxLength
-  ) {
-    if (distCompact <= 1 || (distPhon <= 1 && minLen >= 4)) {
-      return 0.88;
+  if (targetCompact.length <= voiceConfig.thresholds.mediumWordMaxLength) {
+    if (
+      (distCompact <= 1 || (distPhon <= 1 && minLen >= 5)) &&
+      minLen >= fuzzyMinLen - 1
+    ) {
+      return 0.86;
     }
-  } else if (targetCompact.length > voiceConfig.thresholds.mediumWordMaxLength) {
+  } else {
     if (distCompact <= 2 || distPhon <= 2) {
       const bestDist = Math.min(distCompact, distPhon);
       return 1 - bestDist / maxLen;
@@ -241,18 +302,34 @@ function scoreCandidateMatch(spokenChunk: string, targetNorm: string): number {
 
 export function evaluateVoiceInput(
   transcripts: string[],
-  item: DuelItem
+  item: DuelItem,
+  options?: EvaluateVoiceOptions
 ): VoiceMatchResult {
-  const rawCandidates = expandItemCandidates(item);
-  const candidates = Array.from(
-    new Set(
-      rawCandidates.map((c) => normalizeText(c)).filter((c) => c.length > 0)
-    )
-  );
+  const rawEntries = buildCandidateEntries(item);
+  const candMap = new Map<string, CandidateEntry>();
+  for (const entry of rawEntries) {
+    const norm = normalizeText(entry.text);
+    if (!norm) continue;
+    const prev = candMap.get(norm);
+    if (!prev || (prev.isPartial && !entry.isPartial)) {
+      candMap.set(norm, { text: norm, isPartial: entry.isPartial });
+    }
+  }
+  const candidates = Array.from(candMap.values());
+
+  const acceptThreshold =
+    options?.isFinal === false
+      ? (voiceConfig.thresholds.interimAcceptConfidence ?? 0.91)
+      : voiceConfig.thresholds.acceptConfidence;
+  const rankPenalties = voiceConfig.thresholds.alternativeRankPenalties || [
+    0, 0.02, 0.05, 0.09, 0.14,
+  ];
+  const partialPenalty = voiceConfig.thresholds.partialMatchPenalty ?? 0.06;
 
   let bestScore = 0;
   let bestAlias: string | undefined;
   let primaryNormalized = '';
+  let passCommandDetected = false;
 
   for (let idx = 0; idx < transcripts.length; idx++) {
     const raw = transcripts[idx];
@@ -271,22 +348,27 @@ export function evaluateVoiceInput(
       primaryNormalized = cleanTokens.join(' ');
     }
 
-    const tailTokens = cleanTokens.slice(-2);
-    if (tailTokens.some((tok) => PASS_KEYWORDS.has(tok))) {
-      const targetHasPass = candidates.some((c) => c.includes('pass'));
-      if (!targetHasPass) {
-        return {
-          matched: false,
-          isPassCommand: true,
-          confidenceScore: 1,
-          normalizedHeard: primaryNormalized || raw,
-        };
+    // Rileva comando PASSO solo nelle prime 2 ipotesi ASR (e solo in coda alla frase)
+    // così ipotesi rumorose alt[3]/alt[4] non causano mai penalità -3s accidentali
+    if (idx <= 1 && cleanTokens.length > 0 && !passCommandDetected) {
+      const lastTok = cleanTokens[cleanTokens.length - 1];
+      const tailTokens = cleanTokens.slice(-2);
+      const isTailPass =
+        PASS_KEYWORDS.has(lastTok) ||
+        (cleanTokens.length <= 4 && tailTokens.some((tok) => PASS_KEYWORDS.has(tok)));
+      if (isTailPass) {
+        const targetHasPass = candidates.some((c) => c.text.includes('pass'));
+        if (!targetHasPass) {
+          passCommandDetected = true;
+        }
       }
     }
 
     const normSpoken = normalizeText(raw);
     const spokenWords = normSpoken ? normSpoken.split(' ') : [];
     const rawCleanWords = cleanTokens;
+    const altPenalty =
+      rankPenalties[Math.min(idx, rankPenalties.length - 1)] ?? 0.14;
 
     const windows = new Set<string>();
     if (normSpoken) windows.add(normSpoken);
@@ -302,16 +384,29 @@ export function evaluateVoiceInput(
     // Finestre dai token raw prima del drop delle stopwords (es. "il the ring")
     for (let wSize = 1; wSize <= Math.min(5, rawCleanWords.length); wSize++) {
       for (let start = 0; start <= rawCleanWords.length - wSize; start++) {
-        windows.add(rawCleanWords.slice(start, start + wSize).join(' '));
+        const chunk = rawCleanWords.slice(start, start + wSize).join(' ');
+        if (wSize === 1 && STOPWORDS.has(chunk)) continue;
+        windows.add(chunk);
       }
     }
 
     for (const candidate of candidates) {
+      // Token ultra-brevi (<= 2 caratteri, es. acronimi "r6", "u2") validi solo su frasi concise
+      const isUltraShort = candidate.text.replace(/\s+/g, '').length <= 2;
+      if (isUltraShort && spokenWords.length > 2) {
+        continue;
+      }
+
+      const specificityPenalty = candidate.isPartial ? partialPenalty : 0;
+
       for (const win of windows) {
-        const score = scoreCandidateMatch(win, candidate);
+        const rawScore = scoreCandidateMatch(win, candidate.text);
+        if (rawScore <= 0) continue;
+
+        const score = Math.max(0, rawScore - altPenalty - specificityPenalty);
         if (score > bestScore) {
           bestScore = score;
-          bestAlias = candidate;
+          bestAlias = candidate.text;
         }
         if (bestScore >= voiceConfig.thresholds.instantConfidence) {
           return {
@@ -326,7 +421,16 @@ export function evaluateVoiceInput(
     }
   }
 
-  const accepted = bestScore >= voiceConfig.thresholds.acceptConfidence;
+  const accepted = bestScore >= acceptThreshold;
+  if (!accepted && passCommandDetected) {
+    return {
+      matched: false,
+      isPassCommand: true,
+      confidenceScore: 1,
+      normalizedHeard: primaryNormalized,
+    };
+  }
+
   return {
     matched: accepted,
     isPassCommand: false,

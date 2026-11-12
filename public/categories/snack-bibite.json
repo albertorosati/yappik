@@ -6,10 +6,10 @@
   "themeHex": "#EC4899",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Kinderchocolate.jpg/960px-Kinderchocolate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Kinder_Happy_Hippo.jpg/960px-Kinder_Happy_Hippo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023_Ferrero_Rocher_%283%29.jpg/960px-2023_Ferrero_Rocher_%283%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023_Ferrero_Rocher_%283%29.jpg/960px-2023_Ferrero_Rocher_%283%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Kinder_Surprise_Egg.jpg/960px-Kinder_Surprise_Egg.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Kinder_Bueno_-_1_Half_unwrapped.jpg/960px-Kinder_Bueno_-_1_Half_unwrapped.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "barattolo nutella",
         "crema nocciole"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg/960px-Nutella_for_breakfast_-_Flickr_-_love.jsc.jpg"
+      ]
     },
     {
       "id": "snack-bibite-2",
@@ -52,7 +55,10 @@
       "aliases": [
         "rocher"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023_Ferrero_Rocher_%283%29.jpg/960px-2023_Ferrero_Rocher_%283%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023_Ferrero_Rocher_%283%29.jpg/960px-2023_Ferrero_Rocher_%283%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2023_Ferrero_Rocher_%283%29.jpg/960px-2023_Ferrero_Rocher_%283%29.jpg"
+      ]
     },
     {
       "id": "snack-bibite-5",
@@ -60,7 +66,10 @@
       "aliases": [
         "cioccolatino cocco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Raffaello.jpg/960px-2023_Raffaello.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Raffaello.jpg/960px-2023_Raffaello.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Raffaello.jpg/960px-2023_Raffaello.jpg"
+      ]
     },
     {
       "id": "snack-bibite-6",
@@ -80,7 +89,10 @@
         "biscotto oreo",
         "biscotti oreo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Oreo-Two-Cookies.png/960px-Oreo-Two-Cookies.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Oreo-Two-Cookies.png/960px-Oreo-Two-Cookies.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Oreo-Two-Cookies.png/960px-Oreo-Two-Cookies.png"
+      ]
     },
     {
       "id": "snack-bibite-8",
@@ -113,7 +125,10 @@
         "caramelle gommose",
         "orsetti haribo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/960px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/960px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg/960px-Oursons_g%C3%A9latine_march%C3%A9_Rouffignac.jpg"
+      ]
     },
     {
       "id": "snack-bibite-11",
@@ -130,7 +145,10 @@
       "id": "snack-bibite-12",
       "answer": "Mentos",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mentos.jpg/960px-Mentos.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mentos.jpg/960px-Mentos.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mentos.jpg/960px-Mentos.jpg"
+      ]
     },
     {
       "id": "snack-bibite-13",
@@ -149,7 +167,10 @@
       "aliases": [
         "cioccolato triangolare"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Toblerone_3362.jpg/960px-Toblerone_3362.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Toblerone_3362.jpg/960px-Toblerone_3362.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Toblerone_3362.jpg/960px-Toblerone_3362.jpg"
+      ]
     },
     {
       "id": "snack-bibite-15",
@@ -158,7 +179,10 @@
         "m and ms",
         "confetti cioccolato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/960px-Plain-M%26Ms-Pile.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/960px-Plain-M%26Ms-Pile.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/960px-Plain-M%26Ms-Pile.jpg"
+      ]
     },
     {
       "id": "snack-bibite-16",
@@ -166,7 +190,10 @@
       "aliases": [
         "barretta snickers"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/960px-2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/960px-2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/960px-2019-01-28_19_55_31_A_Snickers_bar_with_the_wrapper_removed_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg"
+      ]
     },
     {
       "id": "snack-bibite-17",
@@ -174,7 +201,10 @@
       "aliases": [
         "barretta mars"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/MBar_700.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_Mars_Bar.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_Mars_Bar.jpg"
+      ]
     },
     {
       "id": "snack-bibite-18",
@@ -193,7 +223,10 @@
       "aliases": [
         "kit kat"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kit_kat_cres_07_2.jpg/960px-Kit_kat_cres_07_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kit_kat_cres_07_2.jpg/960px-Kit_kat_cres_07_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Kit_kat_cres_07_2.jpg/960px-Kit_kat_cres_07_2.jpg"
+      ]
     },
     {
       "id": "snack-bibite-20",
@@ -210,13 +243,19 @@
       "id": "snack-bibite-21",
       "answer": "Smarties",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Smarties-UK-Candies_%28cropped%29.jpg/960px-Smarties-UK-Candies_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Smarties-UK-Candies_%28cropped%29.jpg/960px-Smarties-UK-Candies_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Smarties-UK-Candies_%28cropped%29.jpg/960px-Smarties-UK-Candies_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "snack-bibite-22",
       "answer": "Skittles",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Skittles-Louisiana-2003.jpg/960px-Skittles-Louisiana-2003.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Skittles-Louisiana-2003.jpg/960px-Skittles-Louisiana-2003.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Skittles-Louisiana-2003.jpg/960px-Skittles-Louisiana-2003.jpg"
+      ]
     },
     {
       "id": "snack-bibite-23",
@@ -224,13 +263,19 @@
       "aliases": [
         "caramelle spugnose"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/White_Marshmallows.jpg/960px-White_Marshmallows.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/White_Marshmallows.jpg/960px-White_Marshmallows.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/White_Marshmallows.jpg/960px-White_Marshmallows.jpg"
+      ]
     },
     {
       "id": "snack-bibite-24",
       "answer": "Zucchero Filato",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG/960px-Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG/960px-Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG/960px-Cotton_candy_%CE%9C%CE%B1%CE%BB%CE%BB%CE%AF_%CF%84%CE%B7%CF%82_%CE%B3%CF%81%CE%B9%CE%AC%CF%82.JPG"
+      ]
     },
     {
       "id": "snack-bibite-25",
@@ -238,7 +283,10 @@
       "aliases": [
         "pop corn"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Popcorn_-_Studio_-_2011.jpg/960px-Popcorn_-_Studio_-_2011.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Popcorn_-_Studio_-_2011.jpg/960px-Popcorn_-_Studio_-_2011.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Popcorn_-_Studio_-_2011.jpg/960px-Popcorn_-_Studio_-_2011.jpg"
+      ]
     },
     {
       "id": "snack-bibite-26",
@@ -257,7 +305,10 @@
       "aliases": [
         "biscotti gocce cioccolato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Gocciole.jpg/960px-Gocciole.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Gocciole.jpg/960px-Gocciole.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Gocciole.jpg/960px-Gocciole.jpg"
+      ]
     },
     {
       "id": "snack-bibite-28",
@@ -266,7 +317,10 @@
         "coca cola",
         "lattina coca"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/960px-Coca_Cola_Flasche_-_Original_Taste.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/960px-Coca_Cola_Flasche_-_Original_Taste.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/960px-Coca_Cola_Flasche_-_Original_Taste.jpg"
+      ]
     },
     {
       "id": "snack-bibite-29",
@@ -293,7 +347,10 @@
       "id": "snack-bibite-31",
       "answer": "Sprite",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/A_cup_and_can_of_Sprite.jpg/960px-A_cup_and_can_of_Sprite.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/A_cup_and_can_of_Sprite.jpg/960px-A_cup_and_can_of_Sprite.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/A_cup_and_can_of_Sprite.jpg/960px-A_cup_and_can_of_Sprite.jpg"
+      ]
     },
     {
       "id": "snack-bibite-32",
@@ -313,7 +370,10 @@
         "spritz",
         "aperitivo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Aperol_Spritz_aboard_Viking_Mariella.jpg/960px-Aperol_Spritz_aboard_Viking_Mariella.jpg"
+      ]
     },
     {
       "id": "snack-bibite-34",
@@ -321,7 +381,10 @@
       "aliases": [
         "cocktail mojito"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/15-09-26-RalfR-WLC-0072.jpg/960px-15-09-26-RalfR-WLC-0072.jpg"
+      ]
     },
     {
       "id": "snack-bibite-35",
@@ -329,7 +392,10 @@
       "aliases": [
         "cocktail margarita"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/MargaritaReal.jpg/960px-MargaritaReal.jpg"
+      ]
     },
     {
       "id": "snack-bibite-36",
@@ -352,7 +418,10 @@
         "caffe",
         "espresso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/960px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/960px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/960px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
+      ]
     },
     {
       "id": "snack-bibite-38",
@@ -360,7 +429,10 @@
       "aliases": [
         "cappuccio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cappuccino_in_original.jpg/960px-Cappuccino_in_original.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cappuccino_in_original.jpg/960px-Cappuccino_in_original.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cappuccino_in_original.jpg/960px-Cappuccino_in_original.jpg"
+      ]
     }
   ],
   "scope": "intl",

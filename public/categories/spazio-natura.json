@@ -4,12 +4,12 @@
   "subtitle": "Pianeti, fenomeni estremi, minerali e meraviglie naturali",
   "icon": "🪐",
   "themeHex": "#6366F1",
-  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/960px-Apollo_11_Launch_-_GPN-2000-000630.jpg",
+  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/960px-Apollo_11_Launch_-_GPN-2000-000630.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/960px-Jupiter_OPAL_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/960px-Jupiter_OPAL_2024.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg"
   ],
   "items": [
     {
@@ -18,13 +18,19 @@
       "aliases": [
         "pianeta con gli anelli"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg/960px-Apollo_11_Launch_-_GPN-2000-000630.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/960px-Saturn_during_Equinox.jpg"
+      ]
     },
     {
       "id": "spazio-natura-2",
       "answer": "Giove",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/960px-Jupiter_OPAL_2024.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/960px-Jupiter_OPAL_2024.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/960px-Jupiter_OPAL_2024.png"
+      ]
     },
     {
       "id": "spazio-natura-3",
@@ -32,13 +38,19 @@
       "aliases": [
         "pianeta rosso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/960px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+      ]
     },
     {
       "id": "spazio-natura-4",
       "answer": "Luna",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg"
+      ]
     },
     {
       "id": "spazio-natura-5",
@@ -46,7 +58,10 @@
       "aliases": [
         "eclissi"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/960px-Solar_eclipse_1999_4.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/960px-Solar_eclipse_1999_4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/960px-Solar_eclipse_1999_4.jpg"
+      ]
     },
     {
       "id": "spazio-natura-6",
@@ -54,7 +69,10 @@
       "aliases": [
         "luci del nord"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg/960px-Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg/960px-Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg/960px-Aurora_borealis_over_Eielson_Air_Force_Base%2C_Alaska.jpg"
+      ]
     },
     {
       "id": "spazio-natura-7",
@@ -62,19 +80,28 @@
       "aliases": [
         "galassia"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg"
+      ]
     },
     {
       "id": "spazio-natura-8",
       "answer": "Buco Nero",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/960px-Black_hole_-_Messier_87_crop_max_res.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/960px-Black_hole_-_Messier_87_crop_max_res.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/960px-Black_hole_-_Messier_87_crop_max_res.jpg"
+      ]
     },
     {
       "id": "spazio-natura-9",
       "answer": "Nebulosa",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Trifid_Nebula_by_Deddy_Dayag.jpg/960px-Trifid_Nebula_by_Deddy_Dayag.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Trifid_Nebula_by_Deddy_Dayag.jpg/960px-Trifid_Nebula_by_Deddy_Dayag.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Trifid_Nebula_by_Deddy_Dayag.jpg/960px-Trifid_Nebula_by_Deddy_Dayag.jpg"
+      ]
     },
     {
       "id": "spazio-natura-10",
@@ -83,7 +110,10 @@
         "iss",
         "stazione spaziale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/960px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/960px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/960px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg"
+      ]
     },
     {
       "id": "spazio-natura-11",
@@ -91,7 +121,10 @@
       "aliases": [
         "navetta spaziale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/960px-STS120LaunchHiRes-edit1.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/960px-STS120LaunchHiRes-edit1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/960px-STS120LaunchHiRes-edit1.jpg"
+      ]
     },
     {
       "id": "spazio-natura-12",
@@ -99,7 +132,10 @@
       "aliases": [
         "rover"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/960px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/960px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/960px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg"
+      ]
     },
     {
       "id": "spazio-natura-13",
@@ -107,7 +143,10 @@
       "aliases": [
         "telescopio spaziale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hubble_2009_close-up_2.jpg/960px-Hubble_2009_close-up_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hubble_2009_close-up_2.jpg/960px-Hubble_2009_close-up_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hubble_2009_close-up_2.jpg/960px-Hubble_2009_close-up_2.jpg"
+      ]
     },
     {
       "id": "spazio-natura-14",
@@ -116,7 +155,10 @@
         "lampo",
         "temporale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/960px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/960px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/960px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg"
+      ]
     },
     {
       "id": "spazio-natura-15",
@@ -124,7 +166,10 @@
       "aliases": [
         "tromba d aria"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/F5_tornado_Elie_Manitoba_2007.jpg/960px-F5_tornado_Elie_Manitoba_2007.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/F5_tornado_Elie_Manitoba_2007.jpg/960px-F5_tornado_Elie_Manitoba_2007.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/F5_tornado_Elie_Manitoba_2007.jpg/960px-F5_tornado_Elie_Manitoba_2007.jpg"
+      ]
     },
     {
       "id": "spazio-natura-16",
@@ -132,7 +177,10 @@
       "aliases": [
         "ciclone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/960px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/960px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg/960px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "spazio-natura-17",
@@ -141,25 +189,37 @@
         "eruzione vulcanica",
         "lava"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg/960px-Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg/960px-Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg/960px-Augustine_volcano_Jan_24_2006_-_Cyrus_Read.jpg"
+      ]
     },
     {
       "id": "spazio-natura-18",
       "answer": "Geyser",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg/960px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg/960px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg/960px-Yellowstone_National_Park_%28WY%2C_USA%29%2C_Old_Faithful_Geyser_--_2022_--_2599.jpg"
+      ]
     },
     {
       "id": "spazio-natura-19",
       "answer": "Iceberg",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Iceberg_in_the_Arctic_with_its_underside_exposed.jpg/960px-Iceberg_in_the_Arctic_with_its_underside_exposed.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Iceberg_in_the_Arctic_with_its_underside_exposed.jpg/960px-Iceberg_in_the_Arctic_with_its_underside_exposed.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Iceberg_in_the_Arctic_with_its_underside_exposed.jpg/960px-Iceberg_in_the_Arctic_with_its_underside_exposed.jpg"
+      ]
     },
     {
       "id": "spazio-natura-20",
       "answer": "Ghiacciaio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Geikie_Plateau_Glacier.JPG/960px-Geikie_Plateau_Glacier.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Geikie_Plateau_Glacier.JPG/960px-Geikie_Plateau_Glacier.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Geikie_Plateau_Glacier.JPG/960px-Geikie_Plateau_Glacier.JPG"
+      ]
     },
     {
       "id": "spazio-natura-21",
@@ -168,7 +228,10 @@
         "dune",
         "deserto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/960px-Sahara_real_color.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/960px-Sahara_real_color.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/960px-Sahara_real_color.jpg"
+      ]
     },
     {
       "id": "spazio-natura-22",
@@ -176,7 +239,10 @@
       "aliases": [
         "canyon"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/960px-Canyon_River_Tree_%28165872763%29.jpeg"
+      ]
     },
     {
       "id": "spazio-natura-23",
@@ -185,7 +251,10 @@
         "cascate",
         "cascata"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/960px-3Falls_Niagara.jpg"
+      ]
     },
     {
       "id": "spazio-natura-24",
@@ -193,7 +262,12 @@
       "aliases": [
         "corallo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Linckia_Starfish.JPG/960px-Blue_Linckia_Starfish.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Soft_coral_peach_komodo.jpg/960px-Soft_coral_peach_komodo.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Soft_coral_peach_komodo.jpg/960px-Soft_coral_peach_komodo.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/960px-Coral_Outcrop_Flynn_Reef.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Coral_reef_fish_swim_above_the_coral_slope.jpg"
+      ]
     },
     {
       "id": "spazio-natura-25",
@@ -202,7 +276,12 @@
         "grotta",
         "stalagmiti"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Labeled_speleothems.jpg/960px-Labeled_speleothems.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/2015_Jaskinia_Nied%C5%BAwiedzia_w_Kletnie%2C_szata_naciekowa_26.jpg/960px-2015_Jaskinia_Nied%C5%BAwiedzia_w_Kletnie%2C_szata_naciekowa_26.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/2015_Jaskinia_Nied%C5%BAwiedzia_w_Kletnie%2C_szata_naciekowa_26.jpg/960px-2015_Jaskinia_Nied%C5%BAwiedzia_w_Kletnie%2C_szata_naciekowa_26.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/M%C3%B8nsted_Limestone_Mine_2017-04-15_5.jpg/960px-M%C3%B8nsted_Limestone_Mine_2017-04-15_5.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Quackenschloss_mit_Eiszapfen_2140120_HDR-2.jpg/960px-Quackenschloss_mit_Eiszapfen_2140120_HDR-2.jpg"
+      ]
     },
     {
       "id": "spazio-natura-26",
@@ -211,7 +290,10 @@
         "geode",
         "quarzo viola"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Amatista_Laye_2.jpg/960px-Amatista_Laye_2.jpg"
+      ]
     },
     {
       "id": "spazio-natura-27",
@@ -219,7 +301,10 @@
       "aliases": [
         "ammonite"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg/960px-Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg/960px-Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg/960px-Pleuroceras_solare%2C_Little_Switzerland%2C_Bavaria%2C_Germany.jpg"
+      ]
     },
     {
       "id": "spazio-natura-28",
@@ -229,7 +314,10 @@
         "scheletro dinosauro",
         "dinosauro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tyrannosaurus_Rex_Jane.jpg/960px-Tyrannosaurus_Rex_Jane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tyrannosaurus_Rex_Jane.jpg/960px-Tyrannosaurus_Rex_Jane.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tyrannosaurus_Rex_Jane.jpg/960px-Tyrannosaurus_Rex_Jane.jpg"
+      ]
     },
     {
       "id": "spazio-natura-29",
@@ -237,13 +325,21 @@
       "aliases": [
         "doppia elica"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/960px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/960px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/960px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png"
+      ]
     },
     {
       "id": "spazio-natura-30",
       "answer": "Microscopio",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Scientists_are_working_in_the_lab.9.jpg/960px-Scientists_are_working_in_the_lab.9.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Optical_stereo_microscope_nikon_smz10.jpg/960px-Optical_stereo_microscope_nikon_smz10.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Optical_stereo_microscope_nikon_smz10.jpg/960px-Optical_stereo_microscope_nikon_smz10.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Microscope_optique.JPG/960px-Microscope_optique.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg/960px-Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg"
+      ]
     },
     {
       "id": "spazio-natura-31",
@@ -251,19 +347,28 @@
       "aliases": [
         "prisma"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dispersive_prism.png/960px-Dispersive_prism.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dispersive_prism.png/960px-Dispersive_prism.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dispersive_prism.png/960px-Dispersive_prism.png"
+      ]
     },
     {
       "id": "spazio-natura-32",
       "answer": "Bobina di Tesla",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Lightning_simulator_questacon02.jpg/960px-Lightning_simulator_questacon02.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Lightning_simulator_questacon02.jpg/960px-Lightning_simulator_questacon02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Lightning_simulator_questacon02.jpg/960px-Lightning_simulator_questacon02.jpg"
+      ]
     },
     {
       "id": "spazio-natura-33",
       "answer": "Arcobaleno",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/960px-Double-alaskan-rainbow.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/960px-Double-alaskan-rainbow.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/960px-Double-alaskan-rainbow.jpg"
+      ]
     },
     {
       "id": "spazio-natura-34",
@@ -271,7 +376,10 @@
       "aliases": [
         "alberello bonsai"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bonsai%2C_Kenshin_Toge.jpg/960px-Bonsai%2C_Kenshin_Toge.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bonsai%2C_Kenshin_Toge.jpg/960px-Bonsai%2C_Kenshin_Toge.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bonsai%2C_Kenshin_Toge.jpg/960px-Bonsai%2C_Kenshin_Toge.jpg"
+      ]
     },
     {
       "id": "spazio-natura-35",
@@ -280,7 +388,10 @@
         "stella cadente",
         "meteorite"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg/960px-Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg/960px-Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg/960px-Meteor_shower_in_the_Chilean_Desert_%28annotated%29_%28potw2227b%29.jpg"
+      ]
     }
   ],
   "scope": "intl",

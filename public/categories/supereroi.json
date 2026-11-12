@@ -4,12 +4,12 @@
   "subtitle": "Marvel, DC Comics e i personaggi più iconici dei fumetti",
   "icon": "🦸",
   "themeHex": "#EF4444",
-  "coverImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
+  "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
   "previewImages": [
-    "https://upload.wikimedia.org/wikipedia/commons/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg/960px-Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg/960px-Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg/960px-Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg"
   ],
   "items": [
     {
@@ -20,9 +20,9 @@
         "spiderman",
         "peter parker"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg"
       ]
     },
     {
@@ -32,9 +32,9 @@
         "uomo pipistrello",
         "bruce wayne"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg/960px-Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg/960px-Cosplay_of_Batman_at_Florida_Supercon_2013_%289364594115%29.jpg"
       ]
     },
     {
@@ -43,9 +43,9 @@
       "aliases": [
         "clark kent"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg/960px-Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg/960px-Cosplay_of_Superman_at_Florida_Supercon_2013_%289359693687%29.jpg"
       ]
     },
     {
@@ -54,9 +54,9 @@
       "aliases": [
         "diana prince"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg/960px-Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg/960px-Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_%289359718063%29.jpg"
       ]
     },
     {
@@ -66,9 +66,9 @@
         "tony stark",
         "ironman"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg/960px-WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/7/79/WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg/960px-WonderCon_2014_-_Iron_Man_Cosplay_%2813955026033%29.jpg"
       ]
     },
     {
@@ -78,9 +78,9 @@
         "capitan america",
         "steve rogers"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg/960px-Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/aa/Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg/960px-Cosplay_of_Captain_America_at_GalaxyCon_Richmond_2020_%2849666814012%29.jpg"
       ]
     },
     {
@@ -89,9 +89,9 @@
       "aliases": [
         "dio del tuono"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg/960px-Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg/960px-Cosplay_of_Thor_%28Marvel%29_at_Made_in_Asia_2022_%2852104540946%29.jpg"
       ]
     },
     {
@@ -101,9 +101,9 @@
         "incredibile hulk",
         "bruce banner"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg/960px-Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/92/Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg/960px-Denis_Bourez_-_Madame_Tussauds%2C_London_%288747024027%29.jpg"
       ]
     },
     {
@@ -113,9 +113,9 @@
         "black widow",
         "natasha romanoff"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/SDCC_2012_-_Black_Widow_%287573771320%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/SDCC_2012_-_Black_Widow_%287573771320%29.jpg/960px-SDCC_2012_-_Black_Widow_%287573771320%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/6/67/SDCC_2012_-_Black_Widow_%287573771320%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/SDCC_2012_-_Black_Widow_%287573771320%29.jpg/960px-SDCC_2012_-_Black_Widow_%287573771320%29.jpg"
       ]
     },
     {
@@ -131,9 +131,9 @@
       "id": "supereroi-11",
       "answer": "Loki",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg/960px-Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/3/30/Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg/960px-Cosplay_of_Loki_at_the_2021_New_York_Comic_Con_%2851573884794%29.jpg"
       ]
     },
     {
@@ -142,9 +142,9 @@
       "aliases": [
         "dottor strange"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dr._Strange_%2830175130414%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dr._Strange_%2830175130414%29.jpg/960px-Dr._Strange_%2830175130414%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/ff/Dr._Strange_%2830175130414%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dr._Strange_%2830175130414%29.jpg/960px-Dr._Strange_%2830175130414%29.jpg"
       ]
     },
     {
@@ -154,9 +154,9 @@
         "pantera nera",
         "tchalla"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg/960px-Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg/960px-Black_Panther_cosplay_-_2018_Atlanta_Comic_Con.jpg"
       ]
     },
     {
@@ -165,9 +165,9 @@
       "aliases": [
         "wade wilson"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Deadpool_Cosplay_at_NYCC_2017.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Deadpool_Cosplay_at_NYCC_2017.jpg/960px-Deadpool_Cosplay_at_NYCC_2017.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/3/30/Deadpool_Cosplay_at_NYCC_2017.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Deadpool_Cosplay_at_NYCC_2017.jpg/960px-Deadpool_Cosplay_at_NYCC_2017.jpg"
       ]
     },
     {
@@ -176,18 +176,18 @@
       "aliases": [
         "logan"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg/960px-Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/6/67/Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg/960px-Hugh_Jackman_aka_Wolverine_figure_at_Madame_Tussauds_London_%2833783637622%29.jpg"
       ]
     },
     {
       "id": "supereroi-16",
       "answer": "Magneto",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Comic_Con_2013_-_Magneto_%289333184139%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Comic_Con_2013_-_Magneto_%289333184139%29.jpg/960px-Comic_Con_2013_-_Magneto_%289333184139%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Comic_Con_2013_-_Magneto_%289333184139%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Comic_Con_2013_-_Magneto_%289333184139%29.jpg/960px-Comic_Con_2013_-_Magneto_%289333184139%29.jpg"
       ]
     },
     {
@@ -196,9 +196,9 @@
       "aliases": [
         "simbionte"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Venom_%283262554966%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Venom_%283262554966%29.jpg/960px-Venom_%283262554966%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e3/Venom_%283262554966%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Venom_%283262554966%29.jpg/960px-Venom_%283262554966%29.jpg"
       ]
     },
     {
@@ -207,9 +207,9 @@
       "aliases": [
         "matt murdock"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Daredevil_cosplay_at_C2E2_2012.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Daredevil_cosplay_at_C2E2_2012.jpg/960px-Daredevil_cosplay_at_C2E2_2012.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/ae/Daredevil_cosplay_at_C2E2_2012.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Daredevil_cosplay_at_C2E2_2012.jpg/960px-Daredevil_cosplay_at_C2E2_2012.jpg"
       ]
     },
     {
@@ -219,9 +219,9 @@
         "il punitore",
         "frank castle"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg/960px-Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg/960px-Punisher_at_C2E2_2012_Marvel_Costume_contest.jpg"
       ]
     },
     {
@@ -230,9 +230,9 @@
       "aliases": [
         "barry allen"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cosplay_of_the_Flash_at_Japan_Expo_2016_%2829201238343%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_Family.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/47/Cosplay_of_the_Flash_at_Japan_Expo_2016_%2829201238343%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_Family.jpg"
       ]
     },
     {
@@ -241,9 +241,9 @@
       "aliases": [
         "arthur curry"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/NYCC_2014_-_Iceman_%26_Aquaman_%2815508303951%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Penguin_%28Oswald_Cobblepot%29.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e7/NYCC_2014_-_Iceman_%26_Aquaman_%2815508303951%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/en/f/f2/Penguin_%28Oswald_Cobblepot%29.png"
       ]
     },
     {
@@ -252,9 +252,9 @@
       "aliases": [
         "harley"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg/960px-Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg/960px-Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_%289358519997%29.jpg"
       ]
     },
     {
@@ -264,9 +264,9 @@
         "donna gatto",
         "selina kyle"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Catwoman_cosplay_%2814049837130%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Catwoman_cosplay_%2814049837130%29.jpg/960px-Catwoman_cosplay_%2814049837130%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1b/Catwoman_cosplay_%2814049837130%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Catwoman_cosplay_%2814049837130%29.jpg/960px-Catwoman_cosplay_%2814049837130%29.jpg"
       ]
     },
     {
@@ -276,9 +276,9 @@
         "pinguino batman",
         "oswald cobblepot"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg/960px-Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg/960px-Cosplay_of_the_Penguin_at_Brussels_Comic_Con_2019_%2832358886967%29.jpg"
       ]
     },
     {
@@ -287,9 +287,9 @@
       "aliases": [
         "the riddler"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg/960px-Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/12/Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg/960px-Riddler_%26_royal_flush_gang_member%3F_cosplay_%2814049755598%29.jpg"
       ]
     },
     {
@@ -299,9 +299,9 @@
         "goblin",
         "norman osborn"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg/960px-Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/7/72/Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg/960px-Wondercon_2016_-_Green_Goblin_Cosplay_%2825478311013%29.jpg"
       ]
     },
     {
@@ -311,9 +311,9 @@
         "doc ock",
         "octopus"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg/960px-WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/23/WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg/960px-WonderCon_2014_-_Doctor_Octopus_cosplay_%2813955404834%29.jpg"
       ]
     },
     {
@@ -322,9 +322,9 @@
       "aliases": [
         "io sono groot"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg/960px-2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/87/2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg/960px-2014_Dragon_Con_Cosplay_-_Groot_%2814937100589%29.jpg"
       ]
     },
     {
@@ -333,9 +333,9 @@
       "aliases": [
         "rocket"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg/960px-2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/9/91/2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg/960px-2014_Dragon_Con_Cosplay_-_Rocket_Raccoon_%2814937639390%29.jpg"
       ]
     },
     {
@@ -345,9 +345,9 @@
         "antman",
         "uomo formica"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ant-Man_cosplay.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ant-Man_cosplay.jpg/960px-Ant-Man_cosplay.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/d/de/Ant-Man_cosplay.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ant-Man_cosplay.jpg/960px-Ant-Man_cosplay.jpg"
       ]
     },
     {
@@ -356,9 +356,9 @@
       "aliases": [
         "wanda"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg/960px-Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/19/Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg/960px-Cosplay_of_Scarlet_Witch_at_the_2021_New_York_Comic_Con_%2851573366608%29.jpg"
       ]
     },
     {
@@ -367,9 +367,9 @@
       "aliases": [
         "carol danvers"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Carol_danvers_%283261589209%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Carol_danvers_%283261589209%29.jpg/960px-Carol_danvers_%283261589209%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/3/34/Carol_danvers_%283261589209%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Carol_danvers_%283261589209%29.jpg/960px-Carol_danvers_%283261589209%29.jpg"
       ]
     },
     {
@@ -378,9 +378,9 @@
       "aliases": [
         "il joker"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg/960px-Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg/960px-Cosplay_of_Joker_at_Florida_Supercon_2013_%289362484686%29.jpg"
       ]
     },
     {
@@ -389,9 +389,9 @@
       "aliases": [
         "luthor"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SDCC13_-_Lex_Luthor_%289348047086%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/SDCC13_-_Lex_Luthor_%289348047086%29.jpg/960px-SDCC13_-_Lex_Luthor_%289348047086%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/b/b3/SDCC13_-_Lex_Luthor_%289348047086%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/SDCC13_-_Lex_Luthor_%289348047086%29.jpg/960px-SDCC13_-_Lex_Luthor_%289348047086%29.jpg"
       ]
     },
     {
@@ -400,9 +400,9 @@
       "aliases": [
         "harvey dent"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG/960px-Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG/960px-Two-Face_cosplayer_at_WonderCon_2010_Masquerade_1.JPG"
       ]
     },
     {
@@ -412,36 +412,36 @@
         "la cosa",
         "ben grimm"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg/960px-C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/3/3d/C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg/960px-C2E2_%28Day_2%29_2014%2C_The_Thing_from_Fantastic_Four.jpg"
       ]
     },
     {
       "id": "supereroi-37",
       "answer": "Silver Surfer",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Silver_Surfer_%287265762760%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Silver_Surfer_%287265762760%29.jpg/960px-Silver_Surfer_%287265762760%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/a/a2/Silver_Surfer_%287265762760%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Silver_Surfer_%287265762760%29.jpg/960px-Silver_Surfer_%287265762760%29.jpg"
       ]
     },
     {
       "id": "supereroi-38",
       "answer": "Hellboy",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Hellboy_cosplay.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Hellboy_The_Wolves_of_St_August.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/86/Hellboy_cosplay.jpg"
+        "https://upload.wikimedia.org/wikipedia/en/7/7f/Hellboy_The_Wolves_of_St_August.jpg"
       ]
     },
     {
       "id": "supereroi-39",
       "answer": "Spawn",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Spawn_cosplayer_%288422454102%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Spawn_cosplayer_%288422454102%29.jpg/960px-Spawn_cosplayer_%288422454102%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Spawn_cosplayer_%288422454102%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Spawn_cosplayer_%288422454102%29.jpg/960px-Spawn_cosplayer_%288422454102%29.jpg"
       ]
     },
     {
@@ -451,9 +451,9 @@
         "ninja turtles",
         "leonardo donatello"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg/960px-London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/ff/London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg/960px-London_Comic_Con_Oct_14_-_Teenage_Mutant_Ninja_Turtles_%2815627055125%29.jpg"
       ]
     }
   ],

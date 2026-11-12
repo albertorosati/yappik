@@ -6,10 +6,10 @@
   "themeHex": "#EAB308",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_Gongonzola_from_Baci.jpg/960px-A_Gongonzola_from_Baci.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/960px-Mozzarella_di_bufala3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brie_01.jpg/960px-Brie_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_Gongonzola_from_Baci.jpg/960px-A_Gongonzola_from_Baci.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/960px-Mozzarella_di_bufala3.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brie_01.jpg/960px-Brie_01.jpg"
   ],
   "items": [
     {
@@ -20,7 +20,10 @@
         "grana padano",
         "grana"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg/960px-Parmigiano_Reggiano%2C_Italien%2C_Europ%C3%A4ische_Union.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-2",
@@ -28,7 +31,10 @@
       "aliases": [
         "formaggio erborinato"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_Gongonzola_from_Baci.jpg/960px-A_Gongonzola_from_Baci.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_Gongonzola_from_Baci.jpg/960px-A_Gongonzola_from_Baci.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/A_Gongonzola_from_Baci.jpg/960px-A_Gongonzola_from_Baci.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-3",
@@ -37,7 +43,10 @@
         "mozzarella di bufala",
         "fior di latte"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/960px-Mozzarella_di_bufala3.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/960px-Mozzarella_di_bufala3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mozzarella_di_bufala3.jpg/960px-Mozzarella_di_bufala3.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-4",
@@ -45,7 +54,10 @@
       "aliases": [
         "camembert"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brie_01.jpg/960px-Brie_01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brie_01.jpg/960px-Brie_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Brie_01.jpg/960px-Brie_01.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-5",
@@ -54,7 +66,10 @@
         "formaggio coi buchi",
         "groviera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Emmentaler_Premier_Cru.jpg/960px-Emmentaler_Premier_Cru.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Emmentaler_Premier_Cru.jpg/960px-Emmentaler_Premier_Cru.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Emmentaler_Premier_Cru.jpg/960px-Emmentaler_Premier_Cru.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-6",
@@ -62,7 +77,10 @@
       "aliases": [
         "pecorino sardo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pecorino_romano_cheese.jpg/960px-Pecorino_romano_cheese.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pecorino_romano_cheese.jpg/960px-Pecorino_romano_cheese.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Pecorino_romano_cheese.jpg/960px-Pecorino_romano_cheese.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-7",
@@ -70,13 +88,19 @@
       "aliases": [
         "caciocavallo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Provolone_watermelon_shape.jpg/960px-Provolone_watermelon_shape.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Provolone_watermelon_shape.jpg/960px-Provolone_watermelon_shape.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Provolone_watermelon_shape.jpg/960px-Provolone_watermelon_shape.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-8",
       "answer": "Ricotta",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/960px-Ricotte_fresche.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/960px-Ricotte_fresche.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/960px-Ricotte_fresche.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-9",
@@ -84,19 +108,28 @@
       "aliases": [
         "formaggio greco"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Feta_Cheese.jpg/960px-Feta_Cheese.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Feta_Cheese.jpg/960px-Feta_Cheese.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Feta_Cheese.jpg/960px-Feta_Cheese.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-10",
       "answer": "Cheddar",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Somerset-Cheddar.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Somerset-Cheddar.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Somerset-Cheddar.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-11",
       "answer": "Roquefort",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Wikicheese_-_Roquefort_-_20150417_-_003.jpg/960px-Wikicheese_-_Roquefort_-_20150417_-_003.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Wikicheese_-_Roquefort_-_20150417_-_003.jpg/960px-Wikicheese_-_Roquefort_-_20150417_-_003.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Wikicheese_-_Roquefort_-_20150417_-_003.jpg/960px-Wikicheese_-_Roquefort_-_20150417_-_003.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-12",
@@ -104,7 +137,10 @@
       "aliases": [
         "edam"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chesses_gouda_affinage.JPG/960px-Chesses_gouda_affinage.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chesses_gouda_affinage.JPG/960px-Chesses_gouda_affinage.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chesses_gouda_affinage.JPG/960px-Chesses_gouda_affinage.JPG"
+      ]
     },
     {
       "id": "formaggi-salumi-13",
@@ -113,7 +149,10 @@
         "crudo di parma",
         "san daniele"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Prosciutto_di_Parma%2C_ham_producing.jpg/960px-Prosciutto_di_Parma%2C_ham_producing.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Prosciutto_di_Parma%2C_ham_producing.jpg/960px-Prosciutto_di_Parma%2C_ham_producing.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Prosciutto_di_Parma%2C_ham_producing.jpg/960px-Prosciutto_di_Parma%2C_ham_producing.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-14",
@@ -121,7 +160,10 @@
       "aliases": [
         "cotto"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ham_%284%29.jpg/960px-Ham_%284%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ham_%284%29.jpg/960px-Ham_%284%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ham_%284%29.jpg/960px-Ham_%284%29.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-15",
@@ -129,7 +171,10 @@
       "aliases": [
         "bologna salume"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mortadella_tagliata.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mortadella_tagliata.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mortadella_tagliata.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-16",
@@ -138,19 +183,28 @@
         "salame milano",
         "salamino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Salame_di_Sauris.jpg/960px-Salame_di_Sauris.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Salame_di_Sauris.jpg/960px-Salame_di_Sauris.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Salame_di_Sauris.jpg/960px-Salame_di_Sauris.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-17",
       "answer": "Speck",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg/960px-S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg/960px-S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg/960px-S%C3%BCdtiroler_Speck_g.g.A._mit_G%C3%BCtesiegel.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-18",
       "answer": "Bresaola",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Brisaula.jpg/960px-Brisaula.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Brisaula.jpg/960px-Brisaula.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Brisaula.jpg/960px-Brisaula.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-19",
@@ -159,7 +213,10 @@
         "bacon",
         "guanciale"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pancetta.jpg/960px-Pancetta.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pancetta.jpg/960px-Pancetta.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Pancetta.jpg/960px-Pancetta.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-20",
@@ -168,7 +225,10 @@
         "luganega",
         "salsicce"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Wurstplatte.jpg/960px-Wurstplatte.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Wurstplatte.jpg/960px-Wurstplatte.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Wurstplatte.jpg/960px-Wurstplatte.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-21",
@@ -176,7 +236,10 @@
       "aliases": [
         "wurstel"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Wiener_Wuerstchen_%28fcm%29.jpg/960px-Wiener_Wuerstchen_%28fcm%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Wiener_Wuerstchen_%28fcm%29.jpg/960px-Wiener_Wuerstchen_%28fcm%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Wiener_Wuerstchen_%28fcm%29.jpg/960px-Wiener_Wuerstchen_%28fcm%29.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-22",
@@ -184,7 +247,10 @@
       "aliases": [
         "nduja calabrese"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%27Nduja.JPG/960px-%27Nduja.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%27Nduja.JPG/960px-%27Nduja.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%27Nduja.JPG/960px-%27Nduja.JPG"
+      ]
     },
     {
       "id": "formaggi-salumi-23",
@@ -192,7 +258,10 @@
       "aliases": [
         "cotechino"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Zampone.jpg/960px-Zampone.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Zampone.jpg/960px-Zampone.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Zampone.jpg/960px-Zampone.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-24",
@@ -201,7 +270,10 @@
         "tartufo bianco",
         "tartufo nero"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Truffe_noire_du_P%C3%A9rigord.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Truffe_noire_du_P%C3%A9rigord.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/Truffe_noire_du_P%C3%A9rigord.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-25",
@@ -209,7 +281,10 @@
       "aliases": [
         "uova di storione"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Caviar_spoons.jpg/960px-Caviar_spoons.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Caviar_spoons.jpg/960px-Caviar_spoons.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Caviar_spoons.jpg/960px-Caviar_spoons.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-26",
@@ -217,7 +292,10 @@
       "aliases": [
         "salmone"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG/960px-2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG/960px-2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG/960px-2014_smoked_salmon_and_egg_salad_toasted_baguette.JPG"
+      ]
     },
     {
       "id": "formaggi-salumi-27",
@@ -225,7 +303,10 @@
       "aliases": [
         "alici"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Acciugaio_in_Valle_Maira.jpg/960px-Acciugaio_in_Valle_Maira.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Acciugaio_in_Valle_Maira.jpg/960px-Acciugaio_in_Valle_Maira.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Acciugaio_in_Valle_Maira.jpg/960px-Acciugaio_in_Valle_Maira.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-28",
@@ -234,19 +315,30 @@
         "olive verdi",
         "olive nere"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Olivesfromjordan.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-29",
       "answer": "Capperi",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/ThanksCanada.JPG/960px-ThanksCanada.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Pickled_capers.jpg/960px-Pickled_capers.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Pickled_capers.jpg/960px-Pickled_capers.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Salted_capers.jpg/960px-Salted_capers.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kapern.jpg/960px-Kapern.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-30",
       "answer": "Pomodori Secchi",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sun-dried_tomatoes.jpg/960px-Sun-dried_tomatoes.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sun-dried_tomatoes.jpg/960px-Sun-dried_tomatoes.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sun-dried_tomatoes.jpg/960px-Sun-dried_tomatoes.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-31",
@@ -255,7 +347,10 @@
         "porcino",
         "porcini"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Boletus_edulis_IT.jpg/960px-Boletus_edulis_IT.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Boletus_edulis_IT.jpg/960px-Boletus_edulis_IT.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Boletus_edulis_IT.jpg/960px-Boletus_edulis_IT.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-32",
@@ -263,7 +358,10 @@
       "aliases": [
         "pistilli di zafferano"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Saffron_-_premium_spice.jpg/960px-Saffron_-_premium_spice.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Saffron_-_premium_spice.jpg/960px-Saffron_-_premium_spice.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Saffron_-_premium_spice.jpg/960px-Saffron_-_premium_spice.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-33",
@@ -271,7 +369,10 @@
       "aliases": [
         "balsamico di modena"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Balsamic_vinegar_%28drops%29.jpg/960px-Balsamic_vinegar_%28drops%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Balsamic_vinegar_%28drops%29.jpg/960px-Balsamic_vinegar_%28drops%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Balsamic_vinegar_%28drops%29.jpg/960px-Balsamic_vinegar_%28drops%29.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-34",
@@ -279,7 +380,10 @@
       "aliases": [
         "favo di miele"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/960px-Runny_hunny.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/960px-Runny_hunny.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Runny_hunny.jpg/960px-Runny_hunny.jpg"
+      ]
     },
     {
       "id": "formaggi-salumi-35",
@@ -287,7 +391,10 @@
       "aliases": [
         "panetto di burro"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG/960px-%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Butter_dish.jpg/960px-Butter_dish.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Butter_dish.jpg/960px-Butter_dish.jpg"
+      ]
     }
   ],
   "scope": "it-only"

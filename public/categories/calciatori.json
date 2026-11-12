@@ -6,10 +6,10 @@
   "themeHex": "#10B981",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg"
   ],
   "items": [
     {
@@ -23,8 +23,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/83/Lionel_Messi_31mar2007.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d7/Suisse_vs_Argentine_-_Granit_Xhaka_%26_Lionel_Messi.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e6/FWC_2018_-_Group_D_-_ARG_v_ISL_-_Messi_penalty_kick.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Suisse_vs_Argentine_-_Granit_Xhaka_%26_Lionel_Messi.jpg/960px-Suisse_vs_Argentine_-_Granit_Xhaka_%26_Lionel_Messi.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/FWC_2018_-_Group_D_-_ARG_v_ISL_-_Messi_penalty_kick.jpg/960px-FWC_2018_-_Group_D_-_ARG_v_ISL_-_Messi_penalty_kick.jpg"
       ]
     },
     {
@@ -37,9 +37,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cristiano_Ronaldo_Madrid.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Cristiano_Ronaldo_Madrid.jpg/960px-Cristiano_Ronaldo_Madrid.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/61/Cristiano_Ronaldo%2C_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Argentine_-_Portugal_-_Cristiano_Ronaldo.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Argentine_-_Portugal_-_Cristiano_Ronaldo.jpg/960px-Argentine_-_Portugal_-_Cristiano_Ronaldo.jpg"
       ]
     },
     {
@@ -54,7 +54,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/7b/Diego_Maradona_cropped.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8b/Diego_Maradona_2010.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG/960px-Maradona_at_2012_GCC_Champions_League_final.JPG"
       ]
     },
     {
@@ -66,9 +66,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/76/Pel%C3%A9_Mar_del_Plata_1965.PNG",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Pel%C3%A9_03-03-12.png",
-        "https://upload.wikimedia.org/wikipedia/commons/0/06/Pel%C3%A9_playing_for_Havant_%26_Waterlooville.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/7/76/Pel%C3%A9_Mar_del_Plata_1965.PNG"
       ]
     },
     {
@@ -80,9 +78,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kylian_Mbapp%C3%A9_-_2017-05-06.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/52/Kylian_Mbapp%C3%A9_%282%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Kylian_Mbapp%C3%A9_2018.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/Kylian_Mbapp%C3%A9_%282%29.jpg"
       ]
     },
     {
@@ -95,9 +91,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f0/Erling_Haaland_2020.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/82/Erling_Haaland_2020_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Erling_Haaland_2023.jpg/960px-Erling_Haaland_2023.jpg"
       ]
     },
     {
@@ -110,8 +104,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/31/Jude_Bellingham_Birmingham_2019.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/79/Danil_Krugovoy_and_Jude_Bellingham_2020.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/Danil_Krugovoy_and_Jude_Bellingham_2020_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Danil_Krugovoy_and_Jude_Bellingham_2020.jpg/960px-Danil_Krugovoy_and_Jude_Bellingham_2020.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Danil_Krugovoy_and_Jude_Bellingham_2020_%28cropped%29.jpg/960px-Danil_Krugovoy_and_Jude_Bellingham_2020_%28cropped%29.jpg"
       ]
     },
     {
@@ -123,7 +117,6 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/77/Vin%C3%ADcius_J%C3%BAnior.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Vin%C3%ADcius_J%C3%BAnior_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vin%C3%ADcius_J%C3%BAnior_POTM_nov2021.png"
       ]
@@ -137,9 +130,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/960px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/960px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a8/Neymar_-_Santos_b%26w.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0c/Neymar_%2816245492137%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Neymar_-_Santos_b%26w.jpg/960px-Neymar_-_Santos_b%26w.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Neymar_%2816245492137%29.jpg/960px-Neymar_%2816245492137%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg/960px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg"
       ]
     },
     {
@@ -153,9 +146,9 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Zlatan_Ibrahimovi%C4%87_nyc.jpg/960px-Zlatan_Ibrahimovi%C4%87_nyc.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Zlatan_Ibrahimovi%C4%87_nyc.jpg/960px-Zlatan_Ibrahimovi%C4%87_nyc.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/77/Zlatan_Ibrahimovi%C4%87-5.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/98/Zlatan_Ibrahimovi%C4%87-8.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zlatan_Ibrahimovi%C4%87-7.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Zlatan_Ibrahimovi%C4%87-5.jpg/960px-Zlatan_Ibrahimovi%C4%87-5.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Zlatan_Ibrahimovi%C4%87-8.jpg/960px-Zlatan_Ibrahimovi%C4%87-8.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Zlatan_Ibrahimovi%C4%87-7.jpg/960px-Zlatan_Ibrahimovi%C4%87-7.jpg"
       ]
     },
     {
@@ -169,8 +162,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/it/thumb/1/1d/Francesco_Totti_-_AS_Roma_1998-99.jpg/960px-Francesco_Totti_-_AS_Roma_1998-99.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2e/Francesco_Totti_Vicario.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Totti_Champions_Promenade_Monaco.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/61/Francesco_Totti.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Totti_Champions_Promenade_Monaco.jpg/960px-Totti_Champions_Promenade_Monaco.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Francesco_Totti.jpg/960px-Francesco_Totti.jpg"
       ]
     },
     {
@@ -185,7 +178,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/25th_Laureus_World_Sports_Awards_-_Alessandro_Del_Piero_-_240421_155220_%28cropped%29_%28cropped%29.jpg/960px-25th_Laureus_World_Sports_Awards_-_Alessandro_Del_Piero_-_240421_155220_%28cropped%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/c7/Alessandro_Del_Piero.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/fa/Alessandro_Del_Piero_-_04-2012_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b7/Alessandro_Del_Piero_2008_cropped.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Alessandro_Del_Piero_2008_cropped.jpg/960px-Alessandro_Del_Piero_2008_cropped.jpg"
       ]
     },
     {
@@ -199,8 +192,8 @@
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/4/4e/%D8%B1%D9%88%D8%A8%D8%B1%D8%AA%D9%88_%D8%A8%D8%A7%D8%AC%D9%88_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/72/Roberto_Baggio_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Kazu_Miura%2C_Roberto_Baggio_and_Tsuyoshi_Kitazawa.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Maglia_di_roberto_baggio_indossata_in_USA_1994%2C_01.JPG"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Kazu_Miura%2C_Roberto_Baggio_and_Tsuyoshi_Kitazawa.jpg/960px-Kazu_Miura%2C_Roberto_Baggio_and_Tsuyoshi_Kitazawa.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Maglia_di_roberto_baggio_indossata_in_USA_1994%2C_01.JPG/960px-Maglia_di_roberto_baggio_indossata_in_USA_1994%2C_01.JPG"
       ]
     },
     {
@@ -229,7 +222,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg/960px-Norway_Italy_-_June_2025_A_44_%28Gianluigi_Buffon%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/6b/Gianluigi-Buffon.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/7/76/Gianluigi_Buffon_BGR-ITA_2012.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/38/Juventus_vs_Malmoe%2C_2014%2C_Gianluigi_Buffon.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Juventus_vs_Malmoe%2C_2014%2C_Gianluigi_Buffon.jpg/960px-Juventus_vs_Malmoe%2C_2014%2C_Gianluigi_Buffon.jpg"
       ]
     },
     {
@@ -238,12 +231,12 @@
       "aliases": [
         "pirlo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Football-stadium-berlin.jpg/960px-Football-stadium-berlin.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/APirlo.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Football-stadium-berlin.jpg/960px-Football-stadium-berlin.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Andrea_Pirlo_2008.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f2/APirlo.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/0d/Andrea_Pirlo_Euro_2012_vs_England_01.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/0/0d/Andrea_Pirlo_Euro_2012_vs_England_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Andrea_Pirlo_Juventus.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Andrea_Pirlo_2008.jpg"
       ]
     },
     {
@@ -255,7 +248,6 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Fabio_Cannavaro_2011.jpg/960px-Fabio_Cannavaro_2011.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Fabio_Cannavaro_2011.jpg/960px-Fabio_Cannavaro_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/0/09/Fabio_Cannavaro_2011.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/28/Fabio_Cannavaro_Napoli_1990.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/1/12/Fabio_Cannavaro_in_Tehran%27s_IKA_Airport.jpg"
       ]
@@ -282,12 +274,13 @@
         "ronaldo",
         "il fenomeno"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg/960px-12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ronaldo_%28brazil%29_%28cropped%29.JPG/960px-Ronaldo_%28brazil%29_%28cropped%29.JPG",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg/960px-12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ronaldo_%28brazil%29_%28cropped%29.JPG/960px-Ronaldo_%28brazil%29_%28cropped%29.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Reflection_of_Parque_Cultural_Paulista_building_in_Avenida_Paulista%2C_Brazil.jpg/960px-Reflection_of_Parque_Cultural_Paulista_building_in_Avenida_Paulista%2C_Brazil.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Brazil_Nordest_House_interior.jpg/960px-Brazil_Nordest_House_interior.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f1/Ronaldo.jpeg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/41/Ronaldo_%28brazil%29.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ronaldo_Naz%C3%A1rio.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ronaldo_%28brazil%29.JPG/960px-Ronaldo_%28brazil%29.JPG"
       ]
     },
     {
@@ -313,9 +306,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%281%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/68/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%282%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%283%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%281%29.jpg/960px-Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%281%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%282%29.jpg/960px-Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%282%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%283%29.jpg/960px-Kak%C3%A1_%28Claudiano_Bezerra_da_Silva%29_-_Hertha_BSC_Berlin_%283%29.jpg"
       ]
     },
     {
@@ -328,9 +321,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Zinedine_Zidane_2008.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Zinedine_Zidane_2008.jpg/960px-Zinedine_Zidane_2008.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ec/Zinedine_zidane_2005.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a0/Zinedine_Zidane_2008-2.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Zinedine_Zidane_2008-2.jpg/960px-Zinedine_Zidane_2008-2.jpg"
       ]
     },
     {
@@ -342,9 +335,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg/960px-Thierry_Henry_%2851649035951%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Thierry_Henry_%2851649035951%29_%28cropped%29.jpg/960px-Thierry_Henry_%2851649035951%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3c/Thierry_Henry_-_001.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6e/Thierry_Henry_2008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a1/Thierry_Henry_applauding_2012.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Thierry_Henry_-_001.jpg/960px-Thierry_Henry_-_001.jpg"
       ]
     },
     {
@@ -356,9 +347,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7b/David_Beckham_Nov_11_2007.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/e/ee/Beckham_MSJH.PNG",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Beckham_shirt_Real_Madrid.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Beckham_shirt_Real_Madrid.jpg/960px-Beckham_shirt_Real_Madrid.jpg"
       ]
     },
     {
@@ -370,7 +360,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wayne_Rooney_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Wayne_Rooney_2.jpg/960px-Wayne_Rooney_2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/ff/Wayne_Rooney_Anderson.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/ca/Wayne_Rooney_on_fire.jpg"
       ]
@@ -385,7 +375,6 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg/960px-Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2c/Luka_Modri%C4%87_10052008.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/1f/Luka_Modri%C4%87_2010.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/54/Luka_Modri%C4%87_Real_Madrid.jpg"
       ]
     },
@@ -398,9 +387,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Toni_Kroos_Real_Madrid_2021.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Toni_Kroos_Real_Madrid_2021.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/82/Toni_Kroos.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c1/Toni_Kroos%2C_Germany_national_football_team_%2801%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/36/Toni_Kroos%2C_Germany_national_football_team_%2802%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Toni_Kroos.jpg/960px-Toni_Kroos.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toni_Kroos%2C_Germany_national_football_team_%2801%29.jpg/960px-Toni_Kroos%2C_Germany_national_football_team_%2801%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Toni_Kroos%2C_Germany_national_football_team_%2802%29.jpg/960px-Toni_Kroos%2C_Germany_national_football_team_%2802%29.jpg"
       ]
     },
     {
@@ -413,8 +402,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Karim_Benzema_vs._FC_Schalke_04_%2816647992937%29.jpg/960px-Karim_Benzema_vs._FC_Schalke_04_%2816647992937%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/61/Karim_Benzema_17586.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/86/Karim_Benzema_2021_April.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Karim_Benzema_2021.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Karim_Benzema_2021_April.jpg/960px-Karim_Benzema_2021_April.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Karim_Benzema_2021.jpg/960px-Karim_Benzema_2021.jpg"
       ]
     },
     {
@@ -427,7 +416,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg/960px-Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/29/Robert_Lewandowski_2011.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Robert_Lewandowski_2010.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Robert_Lewandowski_2010.jpg/960px-Robert_Lewandowski_2010.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f8/Robert_Lewandowski_%282011%29.jpg"
       ]
     },
@@ -440,7 +429,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/960px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/960px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mohamed_Salah_with_Chelsea_-_Jan_2015.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mohamed_Salah_with_Chelsea_-_Jan_2015.jpg/960px-Mohamed_Salah_with_Chelsea_-_Jan_2015.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mohamed_Salah_2015.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/af/Mohamed_Salah_2017.jpg"
       ]
@@ -454,9 +443,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/960px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/960px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/cc/Kevin_de_bruyne_werder.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kevin-de-bruyne-2013.JPG",
-        "https://upload.wikimedia.org/wikipedia/commons/2/21/Kevin_De_Bruyne_vs_USA.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Kevin_De_Bruyne_vs_USA.jpg/960px-Kevin_De_Bruyne_vs_USA.jpg"
       ]
     },
     {
@@ -470,7 +457,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/960px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/8d/Lamine_Yamal%2C_S%C3%A1nchez_se_reuni%C3%B3_con_los_futbolistas_de_la_selecci%C3%B3n_espa%C3%B1ola_tras_ganar_la_Eurocopa_2024_%283%29_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/28/Lamine_Yamal_a_Xina.png",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lamine_Yamal_in_2025.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamine_Yamal_in_2025.jpg/960px-Lamine_Yamal_in_2025.jpg"
       ]
     },
     {
@@ -482,8 +469,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Nicol%C3%B2_Barella_in_2021_%28cropped_2%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/3/33/Nicol%C3%B2_Barella_in_2021_%28cropped_2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a2/Nicol%C3%B2_Barella_in_2021.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fenerbah%C3%A7e_-_Cagliari_Calcio_20170807_%28222%29_-_Nicol%C3%B2_Barella_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Nicol%C3%B2_Barella_in_2021.jpg/960px-Nicol%C3%B2_Barella_in_2021.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Fenerbah%C3%A7e_-_Cagliari_Calcio_20170807_%28222%29_-_Nicol%C3%B2_Barella_%28cropped%29.jpg/960px-Fenerbah%C3%A7e_-_Cagliari_Calcio_20170807_%28222%29_-_Nicol%C3%B2_Barella_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/08/Nicol%C3%B2_Barella_in_2021_%28cropped%29.jpg"
       ]
     },
@@ -496,9 +483,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Federico_Chiesa_vs_Zenit_2021-10-20_%28cropped2%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/2/29/Federico_Chiesa_vs_Zenit_2021-10-20_%28cropped2%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/8b/Federico_Chiesa_2021.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/59/Chiesa_Nazionale_2021.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/3f/Federico_Chiesa_vs_Zenit_2021-10-20.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Chiesa_Nazionale_2021.jpg/960px-Chiesa_Nazionale_2021.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Federico_Chiesa_vs_Zenit_2021-10-20.jpg/960px-Federico_Chiesa_vs_Zenit_2021-10-20.jpg"
       ]
     },
     {
@@ -512,8 +498,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg/960px-Norway_Italy_-_June_2025_A_17_%28Gianluigi_Donnarumma%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/04/Gianluigi_Donnarumma_ICC_2016.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gianluigi_Donnarumma_%2831895135436%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/1/17/Gianluigi_Donnarumma_%2831895135436%29_%28cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Gianluigi_Donnarumma_%2831895135436%29.jpg/960px-Gianluigi_Donnarumma_%2831895135436%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Gianluigi_Donnarumma_%2831895135436%29_%28cropped%29.jpg/960px-Gianluigi_Donnarumma_%2831895135436%29_%28cropped%29.jpg"
       ]
     },
     {
@@ -525,8 +511,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lautaro_Mart%C3%ADnez_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Lautaro_Mart%C3%ADnez_2017.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Lautaro_Mart%C3%ADnez_%28cropped%29.jpg/960px-Lautaro_Mart%C3%ADnez_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Lautaro_Mart%C3%ADnez_2017.jpg/960px-Lautaro_Mart%C3%ADnez_2017.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/5/55/ARGENTINA_VS_VENEZUELA_Lautaro_%28cropped%29.jpg"
       ]
     },
@@ -540,9 +526,9 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%AE%D0%B2%D0%B5%D0%BD%D1%82%D1%83%D1%81%C2%BB_0-2._20_%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2020_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_1153905_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/b/b3/%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%AE%D0%B2%D0%B5%D0%BD%D1%82%D1%83%D1%81%C2%BB_0-2._20_%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2020_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_1153905_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Paulo_Dybala_1555.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/87/Paulo_Dybala_1553.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/8/81/Paulo_Dybala_1586.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Paulo_Dybala_1555.jpg/960px-Paulo_Dybala_1555.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Paulo_Dybala_1553.jpg/960px-Paulo_Dybala_1553.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Paulo_Dybala_1586.jpg/960px-Paulo_Dybala_1586.jpg"
       ]
     },
     {
@@ -555,9 +541,8 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mario-Balotelli-Al-Ittifaq-2026.jpg/960px-Mario-Balotelli-Al-Ittifaq-2026.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mario-Balotelli-Al-Ittifaq-2026.jpg/960px-Mario-Balotelli-Al-Ittifaq-2026.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/aa/Mario_Balotelli_cropped.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mario_Balotelli_%282009%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Mario_Balotelli_Euro_2012.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Mario_Balotelli_cropped.jpg/960px-Mario_Balotelli_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mario_Balotelli_%282009%29.jpg"
       ]
     },
     {
@@ -569,8 +554,8 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chiellini_Mancini_Gravina_Mattarella_2021_%28Giorgio_Chiellini%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/3/30/Chiellini_Mancini_Gravina_Mattarella_2021_%28Giorgio_Chiellini%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/50/Juventus_-_2010_-_Giorgio_Chiellini.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Juventus_-_2010_-_Giorgio_Chiellini_%282%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Juventus_-_2010_-_Giorgio_Chiellini.jpg/960px-Juventus_-_2010_-_Giorgio_Chiellini.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Juventus_-_2010_-_Giorgio_Chiellini_%282%29.jpg/960px-Juventus_-_2010_-_Giorgio_Chiellini_%282%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cesc_F%C3%A0bregas_and_Giorgio_Chiellini_Euro_2012_final.jpg"
       ]
     },
@@ -585,7 +570,7 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg/960px-Lausanne_vs_Sion_27_february_2013_-_Gennaro_Gattuso.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/b/be/Gennaro_Gattuso.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gennaro_Gattuso_Audi_Cup_2009.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Gennaro_Gattuso_Audi_Cup_2009.jpg/960px-Gennaro_Gattuso_Audi_Cup_2009.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/64/Gennaro_Gattuso_2008.jpg"
       ]
     },
@@ -600,7 +585,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marco_Materazzi_2020.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/de/Marco_Materazzi.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/80/Marco_Materazzi_flickr.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/b/bc/2006_FIFA_World_Cup_-_Italy_-_Buffon%2C_Materazzi_and_Perrotta.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2006_FIFA_World_Cup_-_Italy_-_Buffon%2C_Materazzi_and_Perrotta.jpg/960px-2006_FIFA_World_Cup_-_Italy_-_Buffon%2C_Materazzi_and_Perrotta.jpg"
       ]
     },
     {
@@ -613,7 +598,6 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Andriy_Shevchenko_Volia_Space_03_%28cropped%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c0/Andriy_Shevchenko_Volia_Space_03_%28cropped%29.png",
-        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Andriy_Shevchenko%2C_2007-2.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/6/66/Andriy_Shevchenko_Dynamo.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/c/cc/Andriy_Shevchenko-en.jpg"
       ]
@@ -629,8 +613,8 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Johan_Cruijff_%281974%29.jpg/960px-Johan_Cruijff_%281974%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cruyff_a_la_banqueta_del_Camp_Nou.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/69/Johan_Cruyff_1974c.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fd/Johan_Cruyff_1971c.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Johan_Cruyff_1974c.jpg/960px-Johan_Cruyff_1974c.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Johan_Cruyff_1971c.jpg/960px-Johan_Cruyff_1971c.jpg"
       ]
     },
     {
@@ -642,9 +626,7 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/FRA-ARG_%2810%29_%28cropped%29.jpg",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/6/6e/FRA-ARG_%2810%29_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Antoine_Griezmann_2012_Levante.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/d8/Antoine_Griezmann_%28cropped%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Antoine_Griezmann_-_CdR_-_RM_v_ATL.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Antoine_Griezmann_-_CdR_-_RM_v_ATL.jpg/960px-Antoine_Griezmann_-_CdR_-_RM_v_ATL.jpg"
       ]
     },
     {
@@ -658,7 +640,7 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/f/f9/Harry_Kane_2015.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/2/2e/Harry_Kane_in_Russia_2.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/d/de/Harry_Kane_2018-07-03_1.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Harry_Kane_2018-07-03_1.jpg/960px-Harry_Kane_2018-07-03_1.jpg"
       ]
     }
   ],

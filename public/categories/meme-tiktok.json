@@ -6,10 +6,10 @@
   "themeHex": "#F59E0B",
   "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg",
   "previewImages": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/David_Garrick_Between_Tragedy_and_Comedy.jpg/960px-David_Garrick_Between_Tragedy_and_Comedy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/960px-Internet_map_1024_-_transparent%2C_inverted.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "https://upload.wikimedia.org/wikipedia/commons/9/97/Salt_Bae.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/9/97/Salt_Bae.png",
+    "https://upload.wikimedia.org/wikipedia/en/a/a4/Hide_the_Pain_Harold_%28Andr%C3%A1s_Arat%C3%B3%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/b/be/Disloyal_man_with_his_girlfriend_looking_at_another_girl.jpg"
   ],
   "items": [
     {
@@ -19,7 +19,10 @@
         "shiba meme",
         "kabosu"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doge_meme_example.jpg/960px-Doge_meme_example.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-2",
@@ -28,7 +31,10 @@
         "fidanzato distratto",
         "ragazzo che si gira"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/David_Garrick_Between_Tragedy_and_Comedy.jpg/960px-David_Garrick_Between_Tragedy_and_Comedy.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Disloyal_man_with_his_girlfriend_looking_at_another_girl.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/b/be/Disloyal_man_with_his_girlfriend_looking_at_another_girl.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-3",
@@ -37,7 +43,10 @@
         "harold",
         "vecchio che sorride"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/960px-Internet_map_1024_-_transparent%2C_inverted.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/Hide_the_Pain_Harold_%28Andr%C3%A1s_Arat%C3%B3%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/a/a4/Hide_the_Pain_Harold_%28Andr%C3%A1s_Arat%C3%B3%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-4",
@@ -46,7 +55,10 @@
         "nusret",
         "macellaio sale"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Salt_Bae.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Salt_Bae.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/97/Salt_Bae.png"
+      ]
     },
     {
       "id": "meme-tiktok-5",
@@ -54,7 +66,10 @@
       "aliases": [
         "asbulla"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Abdu-Rozik-attend-the-Midday-India-International-Influencer-Awards-2022.jpg"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/037/581/coverhasbully.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/037/581/coverhasbully.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-6",
@@ -63,7 +78,10 @@
         "rick astley",
         "never gonna give you up"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg/960px-Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg/960px-Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg/960px-Glasto2023_%28149_of_468%29_%2853009108914%29_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-7",
@@ -72,7 +90,10 @@
         "gatto scontroso",
         "tardar sauce"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg/960px-Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg/960px-Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg/960px-Grumpy_Cat_%2814556024763%29_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-8",
@@ -80,7 +101,10 @@
       "aliases": [
         "bambino pugno"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/The_White_House_-_54424144094_%28cropped%29.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/ff/SuccessKid.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/f/ff/SuccessKid.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-9",
@@ -88,7 +112,10 @@
       "aliases": [
         "bambina incendio"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Union_Carbide_pesticide_factory%2C_Bhopal%2C_India%2C_1985.jpg/960px-Union_Carbide_pesticide_factory%2C_Bhopal%2C_India%2C_1985.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Disaster_Girl.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/1/11/Disaster_Girl.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-10",
@@ -97,7 +124,10 @@
         "pepe",
         "rana pepe"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pyrkon_2022_-_Pepe_the_Frog.jpg/960px-Pyrkon_2022_-_Pepe_the_Frog.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pyrkon_2022_-_Pepe_the_Frog.jpg/960px-Pyrkon_2022_-_Pepe_the_Frog.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Pyrkon_2022_-_Pepe_the_Frog.jpg/960px-Pyrkon_2022_-_Pepe_the_Frog.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-11",
@@ -106,7 +136,10 @@
         "feels guy",
         "doomer"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Dr._Irmtrud_Wojak.png/960px-Dr._Irmtrud_Wojak.png"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Wojak_cropped.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/c/cc/Wojak_cropped.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-12",
@@ -114,7 +147,10 @@
       "aliases": [
         "gatto arcobaleno"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/White_cat_watching_Wikipedia.jpg/960px-White_cat_watching_Wikipedia.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG"
+      ]
     },
     {
       "id": "meme-tiktok-13",
@@ -123,7 +159,10 @@
         "troll face",
         "problem"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Real_life_Trollface_%28cropped%29.jpg/500px-Real_life_Trollface_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Real_life_Trollface_%28cropped%29.jpg/500px-Real_life_Trollface_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Real_life_Trollface_%28cropped%29.jpg/500px-Real_life_Trollface_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-14",
@@ -131,7 +170,10 @@
       "aliases": [
         "gorilla harambe"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Memorial_to_Harambe.jpg/960px-Memorial_to_Harambe.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Memorial_to_Harambe.jpg/960px-Memorial_to_Harambe.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Memorial_to_Harambe.jpg/960px-Memorial_to_Harambe.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-15",
@@ -140,7 +182,10 @@
         "becchini che ballano",
         "meme bara"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Undertakers_01.jpg/960px-Undertakers_01.jpg"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/033/381/dancing_coffin.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/033/381/dancing_coffin.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-16",
@@ -150,7 +195,12 @@
         "juan joya borja",
         "risitas"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Sevilla_Cathedral_-_Southeast.jpg/960px-Sevilla_Cathedral_-_Southeast.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Risitas.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Risitas.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/PWM_LosCochesDeChoqueDeElJoker.jpg/960px-PWM_LosCochesDeChoqueDeElJoker.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pi%C3%B1era_Joker_2019-11-12.jpg/960px-Pi%C3%B1era_Joker_2019-11-12.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-17",
@@ -159,7 +209,10 @@
         "sigma",
         "american psycho"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ellis.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/American-psycho-patrick-bateman.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/5/52/American-psycho-patrick-bateman.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-18",
@@ -167,7 +220,10 @@
       "aliases": [
         "walker texas ranger"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg/960px-Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg/960px-Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg/960px-Chuck_Norris%2C_The_Delta_Force_1986_%28slight_cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-19",
@@ -175,7 +231,10 @@
       "aliases": [
         "kermit"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kermit_puppet.jpg/960px-Kermit_puppet.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kermit_puppet.jpg/960px-Kermit_puppet.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Kermit_puppet.jpg/960px-Kermit_puppet.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-20",
@@ -184,7 +243,10 @@
         "ok i pull up",
         "capybara"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Capybaracropped.jpg/960px-Capybaracropped.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Capybaracropped.jpg/960px-Capybaracropped.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Capybaracropped.jpg/960px-Capybaracropped.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-21",
@@ -192,7 +254,10 @@
       "aliases": [
         "pikachu sorpreso"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Pikachu.png/960px-Pikachu.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Pikachu.png/960px-Pikachu.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/7/77/Pikachu.png/960px-Pikachu.png"
+      ]
     },
     {
       "id": "meme-tiktok-22",
@@ -200,7 +265,10 @@
       "aliases": [
         "you dont say"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/9/99/Stress_da_vampir%D0%BE.png"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg/960px-Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg/960px-Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-23",
@@ -208,7 +276,10 @@
       "aliases": [
         "sad keanu"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg/960px-Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg/960px-Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg/960px-Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-24",
@@ -216,7 +287,10 @@
       "aliases": [
         "ragazzo che sbatte gli occhi"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Dan_ryckert_tga_%28cropped%29.jpg"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/022/255/Blinking_White_Guy_meme_banner.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/022/255/Blinking_White_Guy_meme_banner.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-25",
@@ -225,7 +299,10 @@
         "gigachad",
         "chad"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Coronavirus._SARS-CoV-2.png/960px-Coronavirus._SARS-CoV-2.png"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/026/152/gigachadd.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/026/152/gigachadd.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-26",
@@ -233,7 +310,10 @@
       "aliases": [
         "chungus"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/a/aa/Super_Bunny_in_orbita.png"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/027/843/chungcover.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/027/843/chungcover.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-27",
@@ -241,7 +321,10 @@
       "aliases": [
         "mossa dab"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Do_the_Dab.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Do_the_Dab.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/47/Do_the_Dab.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-28",
@@ -250,7 +333,10 @@
         "ballo zainetto",
         "floss"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Juliano_Floss_em_2026.png"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/025/877/backpack.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/025/877/backpack.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-29",
@@ -258,7 +344,10 @@
       "aliases": [
         "secchiata ghiacciata"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/960px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/960px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/960px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-30",
@@ -266,7 +355,10 @@
       "aliases": [
         "sfida manichini"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/JU_Mannequin_challenge_01.jpg/960px-JU_Mannequin_challenge_01.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/JU_Mannequin_challenge_01.jpg/960px-JU_Mannequin_challenge_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/JU_Mannequin_challenge_01.jpg/960px-JU_Mannequin_challenge_01.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-31",
@@ -275,7 +367,10 @@
         "psy",
         "oppa gangnam style"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg/960px-Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg/960px-Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg/960px-Psy_Gangnam_Style_performs_at_Marquee%2C_The_Star%2C_Sydney%2C_Australia_%281%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-32",
@@ -283,7 +378,10 @@
       "aliases": [
         "friday"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg/960px-Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg/960px-Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg/960px-Rebecca_Black_%40_El_Rey_05_20_2023_%2853047678286%29_%28cropped%29.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-33",
@@ -291,7 +389,10 @@
       "aliases": [
         "chris crocker"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Onch_on_RealTVfilms.jpg"
+      "imageUrl": "https://i.kym-cdn.com/entries/icons/original/000/000/016/brittnee.jpg",
+      "imageUrls": [
+        "https://i.kym-cdn.com/entries/icons/original/000/000/016/brittnee.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-34",
@@ -299,7 +400,10 @@
       "aliases": [
         "gatto tastiera"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/White_cat_watching_Wikipedia.jpg/960px-White_cat_watching_Wikipedia.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Keyboard_cat.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/en/8/87/Keyboard_cat.jpg"
+      ]
     },
     {
       "id": "meme-tiktok-35",
@@ -307,7 +411,10 @@
       "aliases": [
         "moneta doge"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dogecoin_gold_coin_black_background_1_-_tails.jpg/960px-Dogecoin_gold_coin_black_background_1_-_tails.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dogecoin_gold_coin_black_background_1_-_tails.jpg/960px-Dogecoin_gold_coin_black_background_1_-_tails.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dogecoin_gold_coin_black_background_1_-_tails.jpg/960px-Dogecoin_gold_coin_black_background_1_-_tails.jpg"
+      ]
     }
   ],
   "scope": "intl",
