@@ -307,29 +307,31 @@ export const CategoryGalleryModal: React.FC<CategoryGalleryModalProps> = ({
                       >
                         {/* Peek Card Fan Overlay (Active when tapped/hovered) */}
                         {isPeeked && (
-                          <div className="absolute -top-24 left-1/2 -translate-x-1/2 z-40 flex items-center justify-center pointer-events-none animate-pop-in">
-                            {samplePhotos.map((item, pIdx) => {
-                              const fanTilt =
-                                pIdx === 0 ? -8 : pIdx === 1 ? 0 : 8;
-                              const fanY = pIdx === 1 ? -4 : 0;
-                              return (
-                                <div
-                                  key={item.id}
-                                  style={{
-                                    transform: `rotate(${fanTilt}deg) translateY(${fanY}px)`,
-                                    marginLeft: pIdx === 0 ? 0 : '-20px',
-                                  }}
-                                  className="w-16 h-20 rounded-xl bg-paper border-[3px] border-ink shadow-hard overflow-hidden shrink-0 flex items-center justify-center"
-                                >
-                                  <img
-                                    src={item.imageUrl}
-                                    alt={item.answer}
-                                    loading="lazy"
-                                    className="w-full h-full object-cover"
-                                  />
-                                </div>
-                              );
-                            })}
+                          <div className="absolute -top-24 left-1/2 -translate-x-1/2 z-40 pointer-events-none">
+                            <div className="flex items-center justify-center animate-pop-in">
+                              {samplePhotos.map((item, pIdx) => {
+                                const fanTilt =
+                                  pIdx === 0 ? -8 : pIdx === 1 ? 0 : 8;
+                                const fanY = pIdx === 1 ? -4 : 0;
+                                return (
+                                  <div
+                                    key={item.id}
+                                    style={{
+                                      transform: `rotate(${fanTilt}deg) translateY(${fanY}px)`,
+                                      marginLeft: pIdx === 0 ? 0 : '-20px',
+                                    }}
+                                    className="w-16 h-20 rounded-xl bg-paper border-[3px] border-ink shadow-hard overflow-hidden shrink-0 flex items-center justify-center"
+                                  >
+                                    <img
+                                      src={item.imageUrl}
+                                      alt={item.answer}
+                                      loading="lazy"
+                                      className="w-full h-full object-cover"
+                                    />
+                                  </div>
+                                );
+                              })}
+                            </div>
                           </div>
                         )}
 

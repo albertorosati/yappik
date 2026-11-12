@@ -672,8 +672,10 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
 
             {/* Toast Notification when photo is reported */}
             {reportToast && (
-              <div className="absolute top-3 left-1/2 -translate-x-1/2 z-50 px-3.5 py-1.5 bg-yellow border-2 border-ink rounded-xl shadow-hard font-display font-black text-xs sm:text-sm text-ink animate-pop-in pointer-events-none whitespace-nowrap">
-                {t('arena.photoReported', settings.language)}
+              <div className="absolute top-3 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
+                <div className="px-3.5 py-1.5 bg-yellow border-2 border-ink rounded-xl shadow-hard font-display font-black text-xs sm:text-sm text-ink animate-pop-in whitespace-nowrap">
+                  {t('arena.photoReported', settings.language)}
+                </div>
               </div>
             )}
 

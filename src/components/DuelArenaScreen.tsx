@@ -877,18 +877,27 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
               {/* Toast Notification when photo is reported */}
               {reportToast && (
-                <div className="absolute top-3 left-1/2 -translate-x-1/2 z-50 px-3.5 py-1.5 bg-yellow border-2 border-ink rounded-xl shadow-hard font-display font-black text-xs sm:text-sm text-ink animate-pop-in pointer-events-none whitespace-nowrap">
-                  {t('arena.photoReported', settings.language)}
+                <div className="absolute top-3 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
+                  <div className="px-3.5 py-1.5 bg-yellow border-2 border-ink rounded-xl shadow-hard font-display font-black text-xs sm:text-sm text-ink animate-pop-in whitespace-nowrap">
+                    {t('arena.photoReported', settings.language)}
+                  </div>
                 </div>
               )}
 
               {/* Timeout Reveal */}
               {duelFinishPhase === 'reveal' && duelFinishData && (
-                <div className="absolute inset-0 bg-paper rounded-xl z-30 flex flex-col items-center justify-center p-6 text-center text-ink animate-pop-in">
-                  <span className="font-display font-bold text-xs uppercase tracking-wider text-ink/70 mb-1">
-                    {settings.language === 'en' ? 'Time ran out!' : 'Tempo scaduto!'}
-                  </span>
-                </div>
+                <>
+                  <div className="absolute -inset-2 rounded-card border-[4px] border-red pointer-events-none z-20 animate-feedback-ring" />
+                  <div className="absolute inset-0 rounded-xl z-30 bg-ink/55 backdrop-blur-[2px] flex flex-col items-center justify-center gap-2.5 p-4 sm:p-6 pb-10 text-center pointer-events-none">
+                    <div className="px-5 py-2.5 sm:px-7 sm:py-3.5 rounded-2xl bg-red text-white border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl uppercase tracking-tight -rotate-2 animate-pop-in flex items-center gap-2.5">
+                      <span aria-hidden="true">⏰</span>
+                      <span>{settings.language === 'en' ? "TIME'S UP!" : 'TEMPO SCADUTO!'}</span>
+                    </div>
+                    <div className="px-3.5 py-1 rounded-full bg-paper text-ink border-2 border-ink shadow-hard-sm font-display font-black text-xs sm:text-sm uppercase tracking-wider animate-pop-in">
+                      {(duelFinishData.loser === 'p1' ? p1.name : p2.name)} · 0.0s
+                    </div>
+                  </div>
+                </>
               )}
 
               {/* Feedback: PASS -3s Burst Over Photo (A1, A2) */}

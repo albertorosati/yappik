@@ -222,9 +222,9 @@
 }
 
 @keyframes popIn {
-  0% { transform: translate(-50%, -8px) scale(0.75); opacity: 0; }
-  70% { transform: translate(-50%, 2px) scale(1.06); opacity: 1; }
-  100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+  0% { transform: translateY(-8px) scale(0.75); opacity: 0; }
+  70% { transform: translateY(2px) scale(1.06); opacity: 1; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
 }
 
 .animate-pop-in {
