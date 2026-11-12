@@ -218,7 +218,161 @@
 }
 
 .modal-slap-in {
-  animation: modalSlapIn 150ms cubic-bezier(0.2, 0, 0, 1) forwards;
+  animation: modalSlapIn 160ms cubic-bezier(0.2, 0, 0, 1) forwards;
+}
+
+@keyframes popIn {
+  0% { transform: translate(-50%, -8px) scale(0.75); opacity: 0; }
+  70% { transform: translate(-50%, 2px) scale(1.06); opacity: 1; }
+  100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+}
+
+.animate-pop-in {
+  animation: popIn 240ms cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Kinetic Yappik Logo Tiles */
+@keyframes logoTileDrop {
+  0% { transform: translateY(-28px) scale(0.7) rotate(-8deg); opacity: 0; }
+  65% { transform: translateY(4px) scale(1.08) rotate(var(--tile-tilt, 0deg)); opacity: 1; }
+  100% { transform: translateY(0) scale(1) rotate(var(--tile-tilt, 0deg)); opacity: 1; }
+}
+
+@keyframes logoTileIdle {
+  0%, 100% { transform: translateY(0px) rotate(var(--tile-tilt, 0deg)); }
+  50% { transform: translateY(-5px) rotate(calc(var(--tile-tilt, 0deg) * -0.5)); }
+}
+
+.animate-logo-tile {
+  animation:
+    logoTileDrop 480ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.animate-logo-tile-hero {
+  animation:
+    logoTileDrop 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
+    logoTileIdle 3.2s ease-in-out infinite;
+}
+
+/* Card Deal / Panel Entrance */
+@keyframes cardDealIn {
+  0% { transform: translateY(20px) scale(0.95); opacity: 0; }
+  70% { transform: translateY(-3px) scale(1.01); opacity: 1; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.animate-card-deal {
+  animation: cardDealIn 340ms cubic-bezier(0.2, 0.9, 0.3, 1.1) both;
+}
+
+/* Gentle levitation for crowns, icons, VS */
+@keyframes floatGentle {
+  0%, 100% { transform: translateY(0px) rotate(var(--float-rot, 0deg)); }
+  50% { transform: translateY(-5px) rotate(calc(var(--float-rot, 0deg) + 2deg)); }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 2.6s ease-in-out infinite;
+}
+
+@keyframes vsPulse {
+  0%, 100% { transform: scale(1) rotate(6deg); box-shadow: 4px 4px 0 #14121F; }
+  50% { transform: scale(1.09) rotate(-4deg); box-shadow: 6px 6px 0 #14121F; }
+}
+
+.animate-vs-pulse {
+  animation: vsPulse 2.2s ease-in-out infinite;
+}
+
+/* Glossy Comic Shine Sweep on Major CTAs */
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: -75%;
+  width: 45%;
+  height: 140%;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  pointer-events: none;
+  animation: shineSweep 3.8s ease-in-out infinite;
+}
+
+@keyframes shineSweep {
+  0%, 62% { left: -75%; opacity: 0; }
+  72% { opacity: 1; }
+  100% { left: 135%; opacity: 0; }
+}
+
+/* Correct / Pass Halo Ring Bursts around Photo Frame */
+@keyframes feedbackRingExpand {
+  0% { transform: scale(0.92); opacity: 0.95; }
+  100% { transform: scale(1.12); opacity: 0; }
+}
+
+.animate-feedback-ring {
+  animation: feedbackRingExpand 520ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Floating +1! Score Pop */
+@keyframes scoreFloatUp {
+  0% { transform: translate(-50%, 8px) scale(0.6) rotate(-6deg); opacity: 0; }
+  30% { transform: translate(-50%, -14px) scale(1.18) rotate(3deg); opacity: 1; }
+  100% { transform: translate(-50%, -52px) scale(0.95) rotate(-2deg); opacity: 0; }
+}
+
+.animate-score-float {
+  animation: scoreFloatUp 780ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Mic Voice Ripple */
+@keyframes micRipple {
+  0% { transform: scale(0.9); opacity: 0.75; }
+  100% { transform: scale(1.65); opacity: 0; }
+}
+
+.animate-mic-ripple {
+  animation: micRipple 850ms ease-out infinite;
+}
+
+/* Countdown Starburst Slow Spin & Ripple */
+@keyframes slowSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-slow-spin {
+  animation: slowSpin 10s linear infinite;
+}
+
+@keyframes urgentVignettePulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.85; }
+}
+
+.animate-urgent-vignette {
+  animation: urgentVignettePulse 650ms ease-in-out infinite;
+}
+
+@keyframes victoryConfettiRain {
+  0% { transform: translateY(-10vh) rotate(0deg) scale(0.9); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(105vh) rotate(540deg) scale(1.05); opacity: 0; }
+}
+
+.animate-victory-rain {
+  animation: victoryConfettiRain var(--rain-dur, 3.2s) cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
 }
 
 /* Comic Speech Bubble */

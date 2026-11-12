@@ -281,6 +281,20 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       soundEngine.playCorrectAnswer(newStreak);
       hapticsService.vibrateCorrect();
 
+      if (
+        newStreak >= 3 &&
+        typeof window !== 'undefined' &&
+        !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) {
+        confetti({
+          particleCount: newStreak >= 5 ? 28 : 16,
+          spread: 55,
+          origin: { x: 0.5, y: 0.55 },
+          colors: ['#FFC933', '#19C37D', '#2F6BFF', '#FF3D6E'],
+          disableForReducedMotion: true,
+        });
+      }
+
       if (heardText) {
         setLiveTranscript(heardText);
       }
@@ -551,7 +565,10 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
   return (
     <div className="h-[100dvh] max-h-[100dvh] w-full relative overflow-hidden flex flex-col justify-between p-3 sm:p-5 select-none touch-none">
       {/* 1. Signature Floor Background */}
-      <TheFloorBackground activeStage="neutral" />
+      <TheFloorBackground
+        activeStage={isPaused ? 'modal' : 'neutral'}
+        urgent={!isFreeMode && !isPaused && timeRemaining > 0 && timeRemaining <= 8}
+      />
 
       {/* 2. Top Bar: Category name sticker left, Pause & Exit right */}
       <header className="relative z-10 max-w-[1100px] w-full mx-auto flex items-center justify-between gap-3 shrink-0">
@@ -618,6 +635,12 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
             <span>{totalCorrect} pts</span>
           </div>
 
+          {streak >= 2 && (
+            <div className="mt-1">
+              <StreakBadge streak={streak} />
+            </div>
+          )}
+
           {/* Comic speech bubble with transcript pointing toward player */}
           {liveTranscript && (
             <div className="speech-bubble absolute -top-14 left-1/2 -translate-x-1/2 bg-yellow text-ink border-[3px] border-ink px-4 py-2 rounded-2xl shadow-hard font-display font-black text-sm whitespace-nowrap z-30">
@@ -656,11 +679,24 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
 
             {/* PASS -3s Burst (A1, A2) */}
             {passBurstVisible && (
-              <div className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none animate-pass-burst">
-                <div className="px-6 py-3 rounded-2xl bg-red text-white border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl -rotate-3">
-                  PASS −3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
+              <>
+                <div className="absolute -inset-2 rounded-card border-[4px] border-red pointer-events-none z-20 animate-feedback-ring" />
+                <div className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none animate-pass-burst">
+                  <div className="px-6 py-3 rounded-2xl bg-red text-white border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl -rotate-3">
+                    PASS −3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
+                  </div>
                 </div>
-              </div>
+              </>
+            )}
+
+            {/* Correct Answer Shockwave Ring + Floating +1 Score Pop */}
+            {revealedAnswer?.tag === 'YES' && (
+              <>
+                <div className="absolute -inset-2 rounded-card border-[4px] border-green pointer-events-none z-20 animate-feedback-ring" />
+                <div className="absolute -top-5 right-4 z-50 px-3.5 py-1 rounded-full bg-green text-ink border-[3px] border-ink shadow-hard font-display font-black text-lg sm:text-xl pointer-events-none animate-score-float">
+                  +1{streak >= 3 ? ` 🔥×${streak}` : '!'}
+                </div>
+              </>
             )}
 
             {/* The Photo with 12px mat */}
@@ -767,13 +803,18 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       <div className="relative z-10 w-full max-w-[1100px] mx-auto shrink-0 card-paper p-3 sm:p-4 flex items-center justify-between gap-3">
         {/* Mic Meter & Status */}
         <div className="flex items-center gap-3 min-w-0 flex-1">
-          <div
-            aria-label="Microphone"
-            className={`w-12 h-12 rounded-xl border-[3px] border-ink shadow-hard-sm flex items-center justify-center shrink-0 transition-colors ${
-              isListening ? 'bg-green text-ink' : 'bg-paper text-ink'
-            }`}
-          >
-            <Mic className="w-6 h-6" />
+          <div className="relative shrink-0">
+            {isListening && micVolume > 0.12 && (
+              <span className="absolute inset-0 rounded-xl bg-green/45 border-2 border-green pointer-events-none animate-mic-ripple" />
+            )}
+            <div
+              aria-label="Microphone"
+              className={`relative z-10 w-12 h-12 rounded-xl border-[3px] border-ink shadow-hard-sm flex items-center justify-center transition-colors ${
+                isListening ? 'bg-green text-ink' : 'bg-paper text-ink'
+              }`}
+            >
+              <Mic className="w-6 h-6" />
+            </div>
           </div>
 
           {/* 3-Bar Volume Level Indicator */}
@@ -937,7 +978,7 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
               <button
                 type="button"
                 onClick={handleRestart}
-                className="btn-push w-full py-3.5 px-5 rounded-xl bg-yellow text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-2"
+                className="btn-push btn-shine w-full py-3.5 px-5 rounded-xl bg-yellow text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-2"
               >
                 <RotateCcw className="w-5 h-5" />
                 <span>{t('solo.playAgain', settings.language)}</span>

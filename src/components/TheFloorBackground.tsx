@@ -20,12 +20,14 @@ interface TheFloorBackgroundProps {
   stage?: FloorStage;
   activeStage?: FloorStage;
   isHome?: boolean;
+  urgent?: boolean;
 }
 
 export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
   stage = 'neutral',
   activeStage,
   isHome = false,
+  urgent = false,
 }) => {
   const currentStage = (activeStage || stage).toLowerCase();
   const [colCount, setColCount] = useState<number>(() =>
@@ -35,7 +37,7 @@ export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
   );
   const [waveKey, setWaveKey] = useState(0);
   const prevStageRef = useRef<string>(currentStage);
-  const [flippingCol, setFlippingCol] = useState<number | null>(null);
+  const [flippingCols, setFlippingCols] = useState<number[]>([]);
 
   // Resize handler
   useEffect(() => {
@@ -54,7 +56,7 @@ export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
     }
   }, [currentStage]);
 
-  // Home-only: One random floor tile flips every 2.5s (paused if tab is hidden or reduced motion)
+  // Home-only: Coordinated ripples of 2-3 checkerboard columns shimmer every 1.9s
   useEffect(() => {
     if (!isHome) return;
 
@@ -66,10 +68,11 @@ export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
       ) {
         return;
       }
-      const randomCol = Math.floor(Math.random() * colCount);
-      setFlippingCol(randomCol);
-      setTimeout(() => setFlippingCol(null), 600);
-    }, 2500);
+      const c1 = Math.floor(Math.random() * colCount);
+      const c2 = (c1 + 2 + Math.floor(Math.random() * Math.max(2, Math.floor(colCount / 2)))) % colCount;
+      setFlippingCols([c1, c2]);
+      setTimeout(() => setFlippingCols([]), 750);
+    }, 1900);
 
     return () => clearInterval(interval);
   }, [isHome, colCount]);
@@ -101,7 +104,8 @@ export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
     >
       <div className="relative w-full h-full flex">
         {Array.from({ length: colCount }).map((_, i) => {
-          const isFlipping = flippingCol === i;
+          const flipIndex = flippingCols.indexOf(i);
+          const isFlipping = flipIndex !== -1;
 
           return (
             <div
@@ -116,14 +120,40 @@ export const TheFloorBackground: React.FC<TheFloorBackgroundProps> = ({
                   waveKey > 0
                     ? `floorWaveFlip ${animDuration} cubic-bezier(0.2, 0, 0, 1) forwards`
                     : isFlipping
-                    ? `homeSingleTileFlip 600ms ease-in-out forwards`
+                    ? `homeSingleTileFlip 700ms ease-in-out forwards`
                     : undefined,
-                animationDelay: waveKey > 0 ? `${i * delayStep}ms` : undefined,
+                animationDelay:
+                  waveKey > 0
+                    ? `${i * delayStep}ms`
+                    : isFlipping
+                    ? `${flipIndex * 110}ms`
+                    : undefined,
               }}
             />
           );
         })}
       </div>
+
+      {/* Studio Top Spotlight Halo */}
+      {!isModal && (
+        <div
+          className="absolute inset-0 pointer-events-none transition-opacity duration-500"
+          style={{
+            background:
+              'radial-gradient(ellipse 70% 45% at 50% 0%, rgba(255, 201, 51, 0.14) 0%, rgba(47, 107, 255, 0.08) 45%, transparent 75%), radial-gradient(circle at 12% 88%, rgba(255, 61, 110, 0.12) 0%, transparent 45%), radial-gradient(circle at 88% 88%, rgba(25, 195, 125, 0.12) 0%, transparent 45%)',
+          }}
+        />
+      )}
+
+      {/* Low-Time Dramatic Crimson Edge Pulse (< 8s) */}
+      {urgent && !isModal && (
+        <div
+          className="absolute inset-0 pointer-events-none animate-urgent-vignette"
+          style={{
+            boxShadow: 'inset 0 0 90px 24px rgba(255, 61, 110, 0.65)',
+          }}
+        />
+      )}
       <style>{`
         @keyframes floorWaveFlip {
           0% { transform: scaleX(1); opacity: 0.9; }

@@ -42,6 +42,12 @@ export const StreakBadge: React.FC<StreakBadgeProps> = ({ streak, className = ''
       key={`streak-${streak}`}
       className={`absolute -top-3 -right-3 z-30 font-display font-black tracking-wide rounded-full border-[3px] border-ink shadow-hard-sm select-none pointer-events-none -rotate-3 ${bgClass} ${sizeClass} ${animClass} ${className}`}
     >
+      {isFire && (
+        <span
+          aria-hidden="true"
+          className="absolute inset-0 -z-10 rounded-full bg-yellow/65 animate-ping"
+        />
+      )}
       {label}
     </div>
   );

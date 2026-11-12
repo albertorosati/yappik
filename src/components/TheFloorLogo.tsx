@@ -48,11 +48,21 @@ export const YappikLogo: React.FC<TheFloorLogoProps> = ({
           style={{
             backgroundColor: item.bgHex,
             color: item.textColor,
-            transform: `rotate(${item.tiltDeg}deg)`,
+            ['--tile-tilt' as string]: `${item.tiltDeg}deg`,
+            animationDelay:
+              size === 'hero'
+                ? `${idx * 65}ms, ${520 + idx * 240}ms`
+                : `${idx * 45}ms`,
           }}
-          className={`flex items-center justify-center font-display font-black leading-none ${sizeClasses}`}
+          className={`relative overflow-hidden flex items-center justify-center font-display font-black leading-none transition-transform duration-200 hover:-translate-y-2 hover:scale-110 hover:rotate-0 cursor-default ${
+            size === 'hero' ? 'animate-logo-tile-hero' : 'animate-logo-tile'
+          } ${sizeClasses}`}
         >
-          {item.char}
+          <span
+            aria-hidden="true"
+            className="absolute inset-x-1 top-1 h-1.5 rounded-full bg-white/35 pointer-events-none"
+          />
+          <span className="relative z-10">{item.char}</span>
         </div>
       ))}
     </div>

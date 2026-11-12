@@ -345,7 +345,8 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
                 type="button"
                 onClick={() => handleChooseCard(cat)}
                 disabled={countdown !== null}
-                className={`min-h-[190px] sm:min-h-[220px] p-5 sm:p-7 rounded-card border-[3px] border-ink shadow-hard flex flex-col items-center justify-center gap-2 text-center cursor-pointer transition-all duration-300 ${colorClass} ${tiltClass} hover:rotate-0 hover:shadow-hard-sm active:translate-x-[3px] active:translate-y-[3px] active:shadow-none ${
+                style={{ animationDelay: `${idx * 70}ms` }}
+                className={`group animate-card-deal btn-shine min-h-[190px] sm:min-h-[220px] p-5 sm:p-7 rounded-card border-[3px] border-ink shadow-hard flex flex-col items-center justify-center gap-2 text-center cursor-pointer transition-all duration-300 ${colorClass} ${tiltClass} hover:rotate-0 hover:-translate-y-2 hover:scale-[1.03] hover:shadow-hard-lifted active:translate-x-[3px] active:translate-y-[3px] active:shadow-none ${
                   isChosen
                     ? 'scale-105 z-20 shadow-hard-lifted rotate-0'
                     : isOthers
@@ -353,7 +354,7 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
                     : ''
                 }`}
               >
-                <span className="text-6xl sm:text-7xl select-none mb-1">
+                <span className="text-6xl sm:text-7xl select-none mb-1 transition-transform duration-200 group-hover:scale-115 group-hover:-rotate-6">
                   {cat.icon}
                 </span>
                 <h2 className="font-display font-black text-xl sm:text-2xl leading-tight">
@@ -398,27 +399,35 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
       {/* CATEGORY REVEAL + FULL-SCREEN COUNTDOWN (NO MODAL BOX!)        */}
       {/* ============================================================== */}
       {countdown !== null && selectedCat && countdownPhase === 'full-countdown' && (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center p-4 bg-black/85 select-none animate-screen-shake-6px">
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center p-4 bg-black/85 select-none animate-screen-shake-6px overflow-hidden">
           {/* Category sticker above */}
-          <div className="px-6 py-2 rounded-2xl bg-paper border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl text-ink inline-flex items-center gap-3 -rotate-2 mb-4 animate-starburst-pop">
-            <span className="text-3xl sm:text-5xl">{selectedCat.icon}</span>
+          <div className="px-6 py-2 rounded-2xl bg-paper border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl text-ink inline-flex items-center gap-3 -rotate-2 mb-4 animate-starburst-pop relative z-10">
+            <span className="text-3xl sm:text-5xl animate-float-gentle">{selectedCat.icon}</span>
             <span>{getCategoryTitle(selectedCat, language)}</span>
           </div>
 
           {/* Giant Number / Starburst "GO!" */}
           {countdown > 0 ? (
-            <div
-              key={countdown}
-              className="font-display font-black text-[28vh] sm:text-[38vh] leading-none text-paper drop-shadow-[6px_6px_0_#14121F] animate-countdown-slam"
-            >
-              {countdown}
+            <div key={countdown} className="relative flex items-center justify-center">
+              <div
+                aria-hidden="true"
+                className="absolute w-64 h-64 sm:w-80 sm:h-80 rounded-full border-[6px] border-yellow/70 animate-feedback-ring pointer-events-none"
+              />
+              <div className="font-display font-black text-[28vh] sm:text-[38vh] leading-none text-paper drop-shadow-[6px_6px_0_#14121F] animate-countdown-slam relative z-10">
+                {countdown}
+              </div>
             </div>
           ) : (
             <div className="relative flex items-center justify-center animate-starburst-pop">
-              {/* Starburst SVG */}
+              {/* Outer Expanding Shockwave Ring */}
+              <div
+                aria-hidden="true"
+                className="absolute w-80 h-80 sm:w-[440px] sm:h-[440px] rounded-full border-[8px] border-yellow/80 animate-feedback-ring pointer-events-none"
+              />
+              {/* Starburst SVG with Slow Spin */}
               <svg
                 viewBox="0 0 200 200"
-                className="w-64 h-64 sm:w-96 sm:h-96 drop-shadow-[8px_8px_0_#14121F]"
+                className="w-64 h-64 sm:w-96 sm:h-96 drop-shadow-[8px_8px_0_#14121F] animate-slow-spin"
               >
                 <polygon
                   points="100,0 125,45 175,25 160,75 200,100 160,125 175,175 125,155 100,200 75,155 25,175 40,125 0,100 40,75 25,25 75,45"

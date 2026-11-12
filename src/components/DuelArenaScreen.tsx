@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import confetti from 'canvas-confetti';
 import {
   Mic,
   FastForward,
@@ -321,6 +322,23 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
       soundEngine.playCorrectAnswer(nextStreak);
       hapticsService.vibrateCorrect();
+
+      if (
+        nextStreak >= 3 &&
+        typeof window !== 'undefined' &&
+        !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) {
+        confetti({
+          particleCount: nextStreak >= 5 ? 30 : 18,
+          angle: isP1 ? 60 : 120,
+          spread: 55,
+          origin: { x: isP1 ? 0.18 : 0.82, y: 0.58 },
+          colors: isP1
+            ? ['#2F6BFF', '#FFC933', '#19C37D', '#FFF9EC']
+            : ['#FF3D6E', '#FFC933', '#19C37D', '#FFF9EC'],
+          disableForReducedMotion: true,
+        });
+      }
 
       if (heardText) {
         setLiveTranscript(heardText);
@@ -711,7 +729,10 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       }`}
     >
       {/* 1. Dynamic Floor Background Following Active Player (250ms wave max) */}
-      <TheFloorBackground stage={isPaused ? 'modal' : stageColor} />
+      <TheFloorBackground
+        stage={isPaused ? 'modal' : stageColor}
+        urgent={!isPaused && (p1Urgent || p2Urgent)}
+      />
 
       {/* Screen Reader Announcement for Crown Lead Change */}
       <div className="sr-only" aria-live="polite">
@@ -872,11 +893,24 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
               {/* Feedback: PASS -3s Burst Over Photo (A1, A2) */}
               {passBurstVisible && (
-                <div className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none animate-pass-burst">
-                  <div className="px-6 py-3 rounded-2xl bg-red text-white border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl -rotate-3">
-                    PASS −3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
+                <>
+                  <div className="absolute -inset-2 rounded-card border-[4px] border-red pointer-events-none z-20 animate-feedback-ring" />
+                  <div className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none animate-pass-burst">
+                    <div className="px-6 py-3 rounded-2xl bg-red text-white border-[3px] border-ink shadow-hard font-display font-black text-2xl sm:text-4xl -rotate-3">
+                      PASS −3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
+                    </div>
                   </div>
-                </div>
+                </>
+              )}
+
+              {/* Correct Answer Shockwave Ring + Floating +1 Score Pop */}
+              {revealedAnswer?.tag === 'YES' && (
+                <>
+                  <div className="absolute -inset-2 rounded-card border-[4px] border-green pointer-events-none z-20 animate-feedback-ring" />
+                  <div className="absolute -top-5 right-4 z-50 px-3.5 py-1 rounded-full bg-green text-ink border-[3px] border-ink shadow-hard font-display font-black text-lg sm:text-xl pointer-events-none animate-score-float">
+                    +1{(p1Active ? p1Streak : p2Streak) >= 3 ? ` 🔥×${p1Active ? p1Streak : p2Streak}` : '!'}
+                  </div>
+                </>
               )}
 
               {/* The Photo Itself: Fits Real Aspect Ratio */}
@@ -1138,10 +1172,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               )
             ) : (
               <div
-                className="flex items-center gap-1.5 px-3 py-3 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-16"
+                className="relative flex items-center gap-1.5 px-3 py-3 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-16"
                 title="Mic level"
               >
-                <Mic className={`w-5 h-5 ${micListening ? 'text-green' : 'text-ink/40'}`} />
+                {micListening && micVolume > 0.12 && (
+                  <span className="absolute inset-0 rounded-xl border-2 border-green bg-green/20 pointer-events-none animate-mic-ripple" />
+                )}
+                <Mic className={`relative z-10 w-5 h-5 ${micListening ? 'text-green' : 'text-ink/40'}`} />
                 <div className="flex items-end gap-1 h-8">
                   <span
                     className={`w-2 rounded-sm border border-ink transition-all ${
@@ -1240,7 +1277,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
             <button
               type="button"
               onClick={handleProceedToDraft}
-              className="btn-push w-full py-3.5 px-6 rounded-xl bg-yellow text-ink font-display font-black text-lg flex items-center justify-center gap-2 uppercase tracking-wide border-[3px] border-ink shadow-hard"
+              className="btn-push btn-shine w-full py-3.5 px-6 rounded-xl bg-yellow text-ink font-display font-black text-lg flex items-center justify-center gap-2 uppercase tracking-wide border-[3px] border-ink shadow-hard"
             >
               <span>{t('arena.chooseNextCategory', settings.language)}</span>
               <ArrowRight className="w-5 h-5" />

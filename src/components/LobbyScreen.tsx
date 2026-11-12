@@ -269,11 +269,11 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         {/* 1V1 MODE: FACE-OFF (BLUE CARD vs RED CARD)                     */}
         {/* ============================================================== */}
         {currentMode === 'duel' && (
-          <div className="w-full flex flex-col gap-6 max-w-3xl mx-auto">
+          <div className="w-full flex flex-col gap-6 max-w-3xl mx-auto animate-card-deal">
             {/* The 2 Face-Off Cards */}
             <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 relative">
               {/* Player 1 Card (Blue Left) */}
-              <div className="flex-1 w-full bg-blue text-white rounded-card border-[3px] border-ink shadow-hard p-5 sm:p-6 flex flex-col items-center gap-3">
+              <div className="flex-1 w-full bg-blue text-white rounded-card border-[3px] border-ink shadow-hard p-5 sm:p-6 flex flex-col items-center gap-3 transition-transform duration-200 hover:-translate-y-1">
                 <span className="font-display font-bold text-xs uppercase tracking-wider text-white/90">
                   {t('lobby.p1', settings.language)}
                 </span>
@@ -281,7 +281,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                   type="button"
                   onClick={() => setAvatarPickerFor('p1')}
                   aria-label="Player 1 Avatar"
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-paper text-ink border-[3px] border-ink shadow-hard-sm text-5xl sm:text-6xl flex items-center justify-center hover:scale-105 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-transform"
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-paper text-ink border-[3px] border-ink shadow-hard-sm text-5xl sm:text-6xl flex items-center justify-center hover:scale-110 hover:-rotate-6 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-transform duration-150"
                 >
                   {p1.avatar}
                 </button>
@@ -295,13 +295,13 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 />
               </div>
 
-              {/* Round Yellow VS Badge (Tilted) */}
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-yellow border-[3px] border-ink shadow-hard flex items-center justify-center text-ink font-display font-black text-2xl rotate-6 shrink-0 my-[-10px] sm:my-0 sm:mx-[-24px] z-10">
+              {/* Round Yellow VS Badge (Animated Pulse & Tilted) */}
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-yellow border-[3px] border-ink shadow-hard flex items-center justify-center text-ink font-display font-black text-2xl shrink-0 my-[-10px] sm:my-0 sm:mx-[-24px] z-10 animate-vs-pulse select-none">
                 VS
               </div>
 
               {/* Player 2 Card (Red Right) */}
-              <div className="flex-1 w-full bg-red text-white rounded-card border-[3px] border-ink shadow-hard p-5 sm:p-6 flex flex-col items-center gap-3">
+              <div className="flex-1 w-full bg-red text-white rounded-card border-[3px] border-ink shadow-hard p-5 sm:p-6 flex flex-col items-center gap-3 transition-transform duration-200 hover:-translate-y-1">
                 <span className="font-display font-bold text-xs uppercase tracking-wider text-white/90">
                   {t('lobby.p2', settings.language)}
                 </span>
@@ -309,7 +309,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                   type="button"
                   onClick={() => setAvatarPickerFor('p2')}
                   aria-label="Player 2 Avatar"
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-paper text-ink border-[3px] border-ink shadow-hard-sm text-5xl sm:text-6xl flex items-center justify-center hover:scale-105 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-transform"
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-paper text-ink border-[3px] border-ink shadow-hard-sm text-5xl sm:text-6xl flex items-center justify-center hover:scale-110 hover:rotate-6 active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-transform duration-150"
                 >
                   {p2.avatar}
                 </button>
@@ -560,7 +560,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 recognizerRef.current?.stop();
                 onStartGame();
               }}
-              className="btn-push w-full py-4 sm:py-5 rounded-2xl bg-yellow text-ink font-display font-black text-2xl sm:text-3xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all cursor-pointer uppercase tracking-wider"
+              className="btn-push btn-shine w-full py-4 sm:py-5 rounded-2xl bg-yellow text-ink font-display font-black text-2xl sm:text-3xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all cursor-pointer uppercase tracking-wider"
             >
               {t('lobby.startDuel', settings.language)}
             </button>
@@ -571,7 +571,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         {/* SOLO MODE SETUP                                                */}
         {/* ============================================================== */}
         {currentMode === 'solo' && (
-          <div className="card-paper p-6 sm:p-8 flex flex-col gap-6 w-full max-w-xl mx-auto">
+          <div className="card-paper p-6 sm:p-8 flex flex-col gap-6 w-full max-w-xl mx-auto animate-card-deal">
             <div className="flex flex-col gap-1.5">
               <label className="font-display font-bold text-sm text-ink/80">
                 {t('lobby.playerName', settings.language)}
@@ -632,7 +632,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 recognizerRef.current?.stop();
                 onStartGame();
               }}
-              className="btn-push w-full py-4 rounded-xl bg-yellow text-ink font-display font-black text-2xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all mt-2 cursor-pointer uppercase tracking-wider"
+              className="btn-push btn-shine w-full py-4 rounded-xl bg-yellow text-ink font-display font-black text-2xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all mt-2 cursor-pointer uppercase tracking-wider"
             >
               {t('solo.startTraining', settings.language)}
             </button>
@@ -643,7 +643,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         {/* PARTY MODE SETUP (Part D: 8 players, color dots, remove btns)   */}
         {/* ============================================================== */}
         {currentMode === 'party' && (
-          <div className="card-paper p-6 sm:p-8 flex flex-col gap-6 w-full max-w-xl mx-auto">
+          <div className="card-paper p-6 sm:p-8 flex flex-col gap-6 w-full max-w-xl mx-auto animate-card-deal">
             <div className="flex flex-col gap-2">
               <label className="font-display font-bold text-sm text-ink/80">
                 {t('party.players', settings.language, { n: partyPlayers.length })}
@@ -736,7 +736,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 recognizerRef.current?.stop();
                 onStartGame();
               }}
-              className="btn-push w-full py-4 rounded-xl bg-yellow text-ink font-display font-black text-2xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all mt-2 cursor-pointer uppercase tracking-wider"
+              className="btn-push btn-shine w-full py-4 rounded-xl bg-yellow text-ink font-display font-black text-2xl border-[3px] border-ink shadow-hard active:translate-x-[3px] active:translate-y-[3px] active:shadow-hard-pressed transition-all mt-2 cursor-pointer uppercase tracking-wider"
             >
               {t('lobby.startParty', settings.language)}
             </button>
@@ -750,7 +750,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
           <button
             type="button"
             onClick={onOpenCategoryEditor}
-            className="btn-push px-8 py-3.5 rounded-2xl bg-paper text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard uppercase tracking-wider relative z-20"
+            className="btn-push btn-shine px-8 py-3.5 rounded-2xl bg-paper text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard uppercase tracking-wider relative z-20"
           >
             {t('lobby.browseAllCount', settings.language, { n: availableCategories.length })}
           </button>
@@ -761,21 +761,28 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
               const tilts = [-12, -7, -2, 3, 8, 13];
               const tilt = tilts[i] || 0;
               return (
-                <button
+                <div
                   key={`teaser-${cat.id}`}
-                  type="button"
-                  onClick={onOpenCategoryEditor}
                   style={{
-                    backgroundColor: cat.themeHex || '#FFC933',
                     transform: `rotate(${tilt}deg) translateY(${Math.abs(tilt) * 1.5}px)`,
                   }}
-                  className="w-28 sm:w-36 h-36 sm:h-44 rounded-2xl border-[3px] border-ink shadow-hard p-2.5 sm:p-3 flex flex-col justify-between shrink-0 hover:translate-y-[-12px] transition-transform cursor-pointer"
+                  className="shrink-0 transition-transform duration-300 ease-out hover:-translate-y-6 hover:scale-105 hover:rotate-0 hover:z-30"
                 >
-                  <span className="text-3xl sm:text-4xl">{cat.icon}</span>
-                  <span className="font-display font-black text-xs sm:text-sm text-ink leading-tight line-clamp-2 text-left">
-                    {getCategoryTitle(cat, settings.language)}
-                  </span>
-                </button>
+                  <button
+                    type="button"
+                    onClick={onOpenCategoryEditor}
+                    style={{
+                      backgroundColor: cat.themeHex || '#FFC933',
+                      animationDelay: `${i * 55}ms`,
+                    }}
+                    className="animate-card-deal group w-28 sm:w-36 h-36 sm:h-44 rounded-2xl border-[3px] border-ink shadow-hard p-2.5 sm:p-3 flex flex-col justify-between cursor-pointer"
+                  >
+                    <span className="text-3xl sm:text-4xl inline-block transition-transform duration-300 group-hover:scale-125 group-hover:-rotate-6">{cat.icon}</span>
+                    <span className="font-display font-black text-xs sm:text-sm text-ink leading-tight line-clamp-2 text-left">
+                      {getCategoryTitle(cat, settings.language)}
+                    </span>
+                  </button>
+                </div>
               );
             })}
           </div>

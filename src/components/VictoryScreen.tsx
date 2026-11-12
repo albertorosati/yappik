@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { RotateCcw, Home } from 'lucide-react';
+import confetti from 'canvas-confetti';
 import {
   DuelSummary,
   GameMode,
@@ -60,6 +61,36 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
           ? `${localizePlayerName(winner.name, language)} won the match!`
           : `Vince la sfida ${localizePlayerName(winner.name, language)}!`
       );
+
+      const reduced =
+        typeof window !== 'undefined' &&
+        window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      if (!reduced) {
+        const colors = ['#FFC933', '#2F6BFF', '#FF3D6E', '#19C37D', '#FFFDF5'];
+        confetti({
+          particleCount: 55,
+          angle: 60,
+          spread: 65,
+          origin: { x: 0.08, y: 0.7 },
+          colors,
+        });
+        confetti({
+          particleCount: 55,
+          angle: 120,
+          spread: 65,
+          origin: { x: 0.92, y: 0.7 },
+          colors,
+        });
+        const t2 = setTimeout(() => {
+          confetti({
+            particleCount: 70,
+            spread: 100,
+            origin: { y: 0.5 },
+            colors,
+          });
+        }, 420);
+        return () => clearTimeout(t2);
+      }
     }
   }, [winner.name, isDraw, language]);
 
@@ -73,13 +104,31 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
       {/* 1. Signature Floor Background in winner's stage color */}
       <TheFloorBackground stage={activeStage} />
 
-      {/* 2. Flat CSS Confetti Squares */}
-      <div className="absolute top-10 left-12 w-7 h-7 bg-yellow border-[3px] border-ink rotate-12 animate-confetti-flat z-20 pointer-events-none" />
-      <div className="absolute top-16 right-16 w-8 h-8 bg-red border-[3px] border-ink -rotate-12 animate-confetti-flat z-20 pointer-events-none" />
-      <div className="absolute bottom-20 left-20 w-6 h-6 bg-blue border-[3px] border-ink rotate-45 animate-confetti-flat z-20 pointer-events-none" />
-      <div className="absolute bottom-16 right-24 w-7 h-7 bg-green border-[3px] border-ink -rotate-6 animate-confetti-flat z-20 pointer-events-none" />
-      <div className="absolute top-1/3 left-6 w-5 h-5 bg-paper border-[3px] border-ink rotate-12 animate-confetti-flat z-20 pointer-events-none" />
-      <div className="absolute top-1/2 right-8 w-6 h-6 bg-yellow border-[3px] border-ink rotate-45 animate-confetti-flat z-20 pointer-events-none" />
+      {/* 2. Dynamic Neo-Brutalist Confetti Shapes across the stage */}
+      {!isDraw && (
+        <div aria-hidden="true" className="fixed inset-0 pointer-events-none z-20 overflow-hidden">
+          {[
+            { left: '6%', bg: 'bg-yellow', size: 'w-6 h-6', dur: '3.1s', delay: '0s' },
+            { left: '14%', bg: 'bg-red', size: 'w-5 h-5 rounded-full', dur: '3.7s', delay: '0.4s' },
+            { left: '24%', bg: 'bg-blue', size: 'w-7 h-5', dur: '2.9s', delay: '0.8s' },
+            { left: '36%', bg: 'bg-green', size: 'w-5 h-5', dur: '3.5s', delay: '0.2s' },
+            { left: '52%', bg: 'bg-paper', size: 'w-6 h-6 rotate-45', dur: '3.3s', delay: '0.6s' },
+            { left: '66%', bg: 'bg-yellow', size: 'w-5 h-7', dur: '2.8s', delay: '0.1s' },
+            { left: '78%', bg: 'bg-red', size: 'w-6 h-6 rounded-full', dur: '3.4s', delay: '0.9s' },
+            { left: '89%', bg: 'bg-green', size: 'w-7 h-5', dur: '3.0s', delay: '0.5s' },
+          ].map((c, idx) => (
+            <div
+              key={`v-conf-${idx}`}
+              style={{
+                left: c.left,
+                ['--rain-dur' as string]: c.dur,
+                animationDelay: c.delay,
+              }}
+              className={`absolute -top-8 ${c.size} ${c.bg} border-[3px] border-ink animate-victory-rain`}
+            />
+          ))}
+        </div>
+      )}
 
       {/* 3. Victory Card (1100px Max, Centered, Tactile) */}
       <div className="relative z-10 card-paper max-w-xl w-full p-6 sm:p-8 flex flex-col items-center gap-6 animate-starburst-pop max-h-[96dvh] overflow-y-auto">
@@ -231,7 +280,7 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
           <button
             type="button"
             onClick={onPlayAgain}
-            className="btn-push py-3.5 px-5 rounded-xl bg-yellow text-ink font-display font-black text-base sm:text-lg flex items-center justify-center gap-2 border-[3px] border-ink shadow-hard"
+            className="btn-push btn-shine py-3.5 px-5 rounded-xl bg-yellow text-ink font-display font-black text-base sm:text-lg flex items-center justify-center gap-2 border-[3px] border-ink shadow-hard"
           >
             <RotateCcw className="w-5 h-5" />
             <span>{t('victory.rematch', language)}</span>
