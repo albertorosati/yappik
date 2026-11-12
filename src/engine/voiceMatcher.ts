@@ -348,17 +348,19 @@ export function evaluateVoiceInput(
       primaryNormalized = cleanTokens.join(' ');
     }
 
-    // Rileva comando PASSO solo nelle prime 2 ipotesi ASR (e solo in coda alla frase)
-    // così ipotesi rumorose alt[3]/alt[4] non causano mai penalità -3s accidentali
-    if (idx <= 1 && cleanTokens.length > 0 && !passCommandDetected) {
+    // Rileva comando PASSO solo sull'ipotesi ASR principale (idx === 0) e solo come token finale,
+    // evitando falsi positivi da ipotesi secondarie rumorose (alt[1..4]) o da prefissi di risposta
+    // (es. "passa..." mentre si pronuncia "passaporto").
+    if (idx === 0 && cleanTokens.length > 0 && !passCommandDetected) {
       const lastTok = cleanTokens[cleanTokens.length - 1];
-      const tailTokens = cleanTokens.slice(-2);
-      const isTailPass =
-        PASS_KEYWORDS.has(lastTok) ||
-        (cleanTokens.length <= 4 && tailTokens.some((tok) => PASS_KEYWORDS.has(tok)));
-      if (isTailPass) {
-        const targetHasPass = candidates.some((c) => c.text.includes('pass'));
-        if (!targetHasPass) {
+      if (PASS_KEYWORDS.has(lastTok)) {
+        const targetMentionsOrStartsWithPass = candidates.some((c) => {
+          if (c.text.includes('pass')) return true;
+          return c.text
+            .split(' ')
+            .some((w) => w.length > lastTok.length && w.startsWith(lastTok));
+        });
+        if (!targetMentionsOrStartsWithPass) {
           passCommandDetected = true;
         }
       }
@@ -438,4 +440,57 @@ export function evaluateVoiceInput(
     confidenceScore: bestScore,
     normalizedHeard: primaryNormalized,
   };
+}
+
+/**
+ * Debouncer + cooldown lock condiviso per i comandi vocali "Passo":
+ * - Impedisce i "doppi passo" causati dall'eco isFinal subito dopo il cambio immagine.
+ * - Attende una breve finestra di stabilizzazione sugli interim (`isFinal === false`)
+ *   così false ipotesi provvisorie ("passa..." -> "pasta") vengono annullate prima di scattare.
+ */
+export class PassCommandGuard {
+  private cooldownUntil = 0;
+  private pendingTimer: ReturnType<typeof setTimeout> | null = null;
+  private readonly interimConfirmMs: number;
+
+  constructor(interimConfirmMs = 320) {
+    this.interimConfirmMs = interimConfirmMs;
+  }
+
+  public lockCooldown(ms: number): void {
+    this.cancel();
+    const target = Date.now() + ms;
+    if (target > this.cooldownUntil) {
+      this.cooldownUntil = target;
+    }
+  }
+
+  public cancel(): void {
+    if (this.pendingTimer) {
+      clearTimeout(this.pendingTimer);
+      this.pendingTimer = null;
+    }
+  }
+
+  public triggerIfAllowed(isFinal: boolean, onConfirm: () => void): void {
+    if (Date.now() < this.cooldownUntil) {
+      this.cancel();
+      return;
+    }
+
+    if (isFinal) {
+      this.cancel();
+      onConfirm();
+      return;
+    }
+
+    if (!this.pendingTimer) {
+      this.pendingTimer = setTimeout(() => {
+        this.pendingTimer = null;
+        if (Date.now() >= this.cooldownUntil) {
+          onConfirm();
+        }
+      }, this.interimConfirmMs);
+    }
+  }
 }

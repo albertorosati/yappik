@@ -1,5 +1,10 @@
-import { describe, it, expect } from 'vitest';
-import { evaluateVoiceInput, normalizeText, phoneticSkeleton } from './voiceMatcher';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import {
+  evaluateVoiceInput,
+  normalizeText,
+  phoneticSkeleton,
+  PassCommandGuard,
+} from './voiceMatcher';
 import { DEFAULT_CATEGORIES } from '../data/categories';
 import { APP_VERSION } from '../config/version';
 import { DuelItem } from '../types/game';
@@ -348,5 +353,80 @@ describe('voiceMatcher Engine & Real-Photo Catalog', () => {
     // In modalità interim (parlato in corso), un match esatto passa cleanly
     const exactInterim = evaluateVoiceInput(['Marco Materazzi'], materazzi, { isFinal: false });
     expect(exactInterim.matched).toBe(true);
+  });
+
+  it('blocca falsi PASSO su alternative secondarie rumorose, parole in corso e prefissi di risposta', () => {
+    const pasta = {
+      id: 'test-pasta',
+      answer: 'Pasta alla Carbonara',
+      aliases: ['pasta', 'carbonara'],
+      imageUrl: 'https://example.com/pasta.jpg',
+    };
+    const passaporto = {
+      id: 'test-passaporto',
+      answer: 'Passaporto',
+      aliases: ['passaporto'],
+      imageUrl: 'https://example.com/p.jpg',
+    };
+
+    // Alternativa secondaria rumorosa alt[1] = "passo" non deve mai far partire -3s
+    const noisySecondAlt = evaluateVoiceInput(['basta', 'passo'], pasta, { isFinal: true });
+    expect(noisySecondAlt.isPassCommand).toBe(false);
+
+    // Token "passa" a metà frase ("passa la palla") non è un comando PASSO
+    const midSentence = evaluateVoiceInput(['passa la palla'], pasta, { isFinal: true });
+    expect(midSentence.isPassCommand).toBe(false);
+
+    // Prefisso "passa" mentre la risposta attesa è "Passaporto" non deve mai triggerare PASSO
+    const prefixCollision = evaluateVoiceInput(['passa'], passaporto, { isFinal: false });
+    expect(prefixCollision.isPassCommand).toBe(false);
+  });
+});
+
+describe('PassCommandGuard (anti doppio-passo & debounce interim)', () => {
+  beforeEach(() => {
+    vi.useFakeTimers();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it('attende il debounce su interim e annulla se l utente continua la parola', () => {
+    const guard = new PassCommandGuard(320);
+    const onPass = vi.fn();
+
+    guard.triggerIfAllowed(false, onPass);
+    vi.advanceTimersByTime(150);
+    expect(onPass).not.toHaveBeenCalled();
+
+    // Il parlante completa la parola ("passa..." -> "pasta"), annulla
+    guard.cancel();
+    vi.advanceTimersByTime(400);
+    expect(onPass).not.toHaveBeenCalled();
+  });
+
+  it('conferma su interim stabile, attiva subito su isFinal e blocca il doppio passo durante il cooldown', () => {
+    const guard = new PassCommandGuard(320);
+    const onPass = vi.fn(() => {
+      guard.lockCooldown(2500);
+    });
+
+    // Interim stabile per >= 320ms -> scatta una sola volta
+    guard.triggerIfAllowed(false, onPass);
+    vi.advanceTimersByTime(325);
+    expect(onPass).toHaveBeenCalledTimes(1);
+
+    // Eco finale o ripetizione entro 2500ms -> completamente bloccato
+    vi.advanceTimersByTime(1400);
+    guard.triggerIfAllowed(true, onPass);
+    guard.triggerIfAllowed(false, onPass);
+    vi.advanceTimersByTime(400);
+    expect(onPass).toHaveBeenCalledTimes(1);
+
+    // Dopo il cooldown completo, un nuovo PASSO isFinal funziona subito
+    vi.advanceTimersByTime(1200);
+    guard.triggerIfAllowed(true, onPass);
+    expect(onPass).toHaveBeenCalledTimes(2);
   });
 });

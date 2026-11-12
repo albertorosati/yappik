@@ -17,7 +17,7 @@ import {
   PlayerConfig,
   SoloTrainingSummary,
 } from '../types/game';
-import { evaluateVoiceInput } from '../engine/voiceMatcher';
+import { evaluateVoiceInput, PassCommandGuard } from '../engine/voiceMatcher';
 import { SmartSpeechRecognizer } from '../engine/speechRecognition';
 import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
@@ -102,7 +102,21 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
 
   const recognizerRef = useRef<SmartSpeechRecognizer | null>(null);
   const ignoreVoiceUntilRef = useRef<number>(0);
+  const passGuardRef = useRef<PassCommandGuard>(new PassCommandGuard(320));
   const lastSecondBeepRef = useRef<number>(-1);
+
+  useEffect(() => {
+    if (isPaused || sessionEnded) {
+      passGuardRef.current.cancel();
+    }
+  }, [isPaused, sessionEnded]);
+
+  useEffect(() => {
+    const guard = passGuardRef.current;
+    return () => {
+      guard.cancel();
+    };
+  }, []);
 
   const [photoOverride, setPhotoOverride] = useState<string | null>(null);
   const [reportToast, setReportToast] = useState(false);
@@ -269,8 +283,9 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
         return;
       }
 
+      passGuardRef.current.cancel();
       ignoreVoiceUntilRef.current =
-        performance.now() + 800;
+        performance.now() + 900;
       recognizerRef.current?.consumeCurrentBuffer();
 
       const newStreak = st.streak + 1;
@@ -320,8 +335,9 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     const st = stateRef.current;
     if (st.sessionEnded || st.isPaused || st.revealedAnswer !== null) return;
 
+    passGuardRef.current.lockCooldown(2500);
     ignoreVoiceUntilRef.current =
-      performance.now() + 1500;
+      performance.now() + 1700;
     recognizerRef.current?.consumeCurrentBuffer();
 
     soundEngine.playPassPenalty();
@@ -463,29 +479,9 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     return () => clearInterval(interval);
   }, [sessionEnded, isPaused, isFreeMode, finishTrainingSession]);
 
-  const processSpokenRef = useRef((alternatives: string[], isFinal: boolean) => {
-    const st = stateRef.current;
-    if (st.sessionEnded || st.isPaused || st.revealedAnswer !== null) return;
-    if (performance.now() < ignoreVoiceUntilRef.current) return;
-
-    const bestTranscript = alternatives[0] || '';
-    if (bestTranscript) {
-      setLiveTranscript(bestTranscript);
-    }
-
-    const matchResult = evaluateVoiceInput(alternatives, st.currentItem, {
-      isFinal,
-    });
-
-    if (matchResult.isPassCommand) {
-      triggerPass();
-      return;
-    }
-
-    if (matchResult.matched) {
-      triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
-    }
-  });
+  const processSpokenRef = useRef<
+    (alternatives: string[], isFinal: boolean) => void
+  >(() => {});
 
   processSpokenRef.current = (alternatives: string[], isFinal: boolean) => {
     const st = stateRef.current;
@@ -501,14 +497,18 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       isFinal,
     });
 
-    if (matchResult.isPassCommand) {
-      triggerPass();
+    if (matchResult.matched) {
+      passGuardRef.current.cancel();
+      triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
       return;
     }
 
-    if (matchResult.matched) {
-      triggerCorrectGuess(matchResult.matchedAlias || bestTranscript);
+    if (matchResult.isPassCommand) {
+      passGuardRef.current.triggerIfAllowed(isFinal, triggerPass);
+      return;
     }
+
+    passGuardRef.current.cancel();
   };
 
   // Riconoscimento Vocale (sessione continua senza riavvii tra una foto e l'altra)

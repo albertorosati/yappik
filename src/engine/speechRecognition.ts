@@ -23,6 +23,8 @@ export class SmartSpeechRecognizer {
   private activeResultIndex = 0;
   private consumedResultIndex = -1;
   private consumedWords: string[] = [];
+  private lastConsumedToken = '';
+  private lastConsumedAt = 0;
   private latestRawTranscript = '';
   private language: 'it' | 'en' = 'it';
   private vocabulary: string[] = [];
@@ -177,6 +179,10 @@ export class SmartSpeechRecognizer {
 
           const isConsumedIdx =
             this.consumedResultIndex === idx && this.consumedWords.length > 0;
+          const isPostConsumeEchoWindow =
+            idx > this.consumedResultIndex &&
+            this.lastConsumedToken.length > 0 &&
+            Date.now() - this.lastConsumedAt < 1800;
           const alternatives: string[] = [];
 
           for (let i = 0; i < result.length; i++) {
@@ -185,9 +191,19 @@ export class SmartSpeechRecognizer {
               this.latestRawTranscript = fullTranscript;
             }
 
-            const sliced = isConsumedIdx
+            let sliced = isConsumedIdx
               ? this.sliceAfterConsumedWords(fullTranscript)
               : fullTranscript.trim();
+
+            if (isPostConsumeEchoWindow && sliced.length > 0) {
+              const normTokens = this.tokenizeNormalized(sliced);
+              if (
+                normTokens.length === 1 &&
+                normTokens[0] === this.lastConsumedToken
+              ) {
+                sliced = '';
+              }
+            }
 
             if (sliced.length > 0) {
               alternatives.push(sliced);
@@ -269,10 +285,21 @@ export class SmartSpeechRecognizer {
     }
   }
 
+  private tokenizeNormalized(text: string): string[] {
+    return text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+  }
+
   /**
    * Taglia in modo sicuro tutte le parole già consumate sullo stesso resultIndex,
-   * evitando che leggere revisioni ASR (punteggiatura, accenti, cambio lunghezza di un char)
-   * causino il replay della risposta precedente sull'immagine successiva.
+   * evitando che leggere revisioni ASR (punteggiatura, accenti, inserimento filler "eh passo")
+   * causino il replay della risposta o del Passo precedente sull'immagine successiva.
    */
   private sliceAfterConsumedWords(fullTranscript: string): string {
     const rawWords = fullTranscript.trim().split(/\s+/).filter(Boolean);
@@ -280,7 +307,24 @@ export class SmartSpeechRecognizer {
     if (rawWords.length <= consumedLen) {
       return '';
     }
-    return rawWords.slice(consumedLen).join(' ').trim();
+
+    let sliceStart = consumedLen;
+    if (this.lastConsumedToken) {
+      const searchStart = Math.max(0, consumedLen - 1);
+      const searchEnd = Math.min(rawWords.length - 1, consumedLen + 2);
+      for (let i = searchEnd; i >= searchStart; i--) {
+        const toks = this.tokenizeNormalized(rawWords[i]);
+        if (toks[0] === this.lastConsumedToken) {
+          sliceStart = Math.max(sliceStart, i + 1);
+          break;
+        }
+      }
+    }
+
+    if (sliceStart >= rawWords.length) {
+      return '';
+    }
+    return rawWords.slice(sliceStart).join(' ').trim();
   }
 
   /**
@@ -295,6 +339,9 @@ export class SmartSpeechRecognizer {
     if (words.length > 0) {
       this.consumedResultIndex = this.activeResultIndex;
       this.consumedWords = words;
+      const lastNorm = this.tokenizeNormalized(words[words.length - 1]);
+      this.lastConsumedToken = lastNorm[lastNorm.length - 1] || '';
+      this.lastConsumedAt = Date.now();
     }
   }
 

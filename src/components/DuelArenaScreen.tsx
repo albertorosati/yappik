@@ -19,7 +19,7 @@ import {
   PlayerId,
   RemoteMicPacket,
 } from '../types/game';
-import { evaluateVoiceInput } from '../engine/voiceMatcher';
+import { evaluateVoiceInput, PassCommandGuard } from '../engine/voiceMatcher';
 import { SmartSpeechRecognizer } from '../engine/speechRecognition';
 import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
@@ -218,8 +218,20 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   });
 
   const ignoreVoiceUntilRef = useRef<number>(0);
+  const passGuardRef = useRef<PassCommandGuard>(new PassCommandGuard(320));
   const recognizerRef = useRef<SmartSpeechRecognizer | null>(null);
   const lastSecondBeepRef = useRef<number>(-1);
+
+  useEffect(() => {
+    passGuardRef.current.cancel();
+  }, [activePlayer, isPaused]);
+
+  useEffect(() => {
+    const guard = passGuardRef.current;
+    return () => {
+      guard.cancel();
+    };
+  }, []);
 
   // Leader calculation (A5)
   const currentLeader: PlayerId | null =
@@ -306,7 +318,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         return;
       }
 
-      ignoreVoiceUntilRef.current = performance.now() + 800;
+      passGuardRef.current.cancel();
+      ignoreVoiceUntilRef.current = performance.now() + 1200;
       recognizerRef.current?.consumeCurrentBuffer();
 
       const isP1 = st.activePlayer === 'p1';
@@ -373,7 +386,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       return;
     }
 
-    ignoreVoiceUntilRef.current = performance.now() + 1500;
+    passGuardRef.current.lockCooldown(2500);
+    ignoreVoiceUntilRef.current = performance.now() + 1700;
     recognizerRef.current?.consumeCurrentBuffer();
 
     soundEngine.playPassPenalty();
@@ -445,10 +459,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       const matchResult = evaluateVoiceInput(alternatives, st.currentItem, {
         isFinal,
       });
-      if (matchResult.isPassCommand) {
-        triggerPass();
-      } else if (matchResult.matched) {
+      if (matchResult.matched) {
+        passGuardRef.current.cancel();
         triggerCorrectGuess(matchResult.matchedAlias || alternatives[0]);
+      } else if (matchResult.isPassCommand) {
+        passGuardRef.current.triggerIfAllowed(isFinal, triggerPass);
+      } else {
+        passGuardRef.current.cancel();
       }
     },
     [settings.micMode, p2RemoteConnected, triggerPass, triggerCorrectGuess]
@@ -473,7 +490,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       (alternatives, isFinal) => {
         processSpokenAlternativesRef.current(
           alternatives,
-          stateRef.current.activePlayer,
+          'p1',
           isFinal
         );
       },
@@ -520,7 +537,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       if (alts.length > 0) {
         processSpokenAlternatives(
           alts,
-          stateRef.current.activePlayer,
+          'p2',
           Boolean(latestRemotePacket.isFinal ?? true)
         );
       }

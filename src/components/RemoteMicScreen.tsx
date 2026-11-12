@@ -28,13 +28,21 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
 
   const clientRef = useRef<DiscordClientPeer | null>(null);
   const recognizerRef = useRef<SmartSpeechRecognizer | null>(null);
+  const activePlayerRef = useRef<PlayerId>('p1');
 
   useEffect(() => {
     const client = new DiscordClientPeer(
       roomCode,
       (packet: RemoteMicPacket) => {
         if (packet.type === 'STATE_UPDATE') {
-          if (packet.activePlayer) setActivePlayer(packet.activePlayer);
+          if (packet.activePlayer) {
+            if (packet.activePlayer !== activePlayerRef.current) {
+              activePlayerRef.current = packet.activePlayer;
+              setTranscript('');
+              recognizerRef.current?.consumeCurrentBuffer();
+            }
+            setActivePlayer(packet.activePlayer);
+          }
           if (packet.p2Name) setP2Name(packet.p2Name);
           if (packet.categoryName) setCategoryName(packet.categoryName);
           if (typeof packet.timeLeftP2 === 'number') {
@@ -67,6 +75,9 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
     setMicError(null);
     const rec = new SmartSpeechRecognizer(
       (alternatives, isFinal) => {
+        if (activePlayerRef.current !== 'p2') {
+          return;
+        }
         setTranscript(alternatives[0] || '');
         clientRef.current?.sendPacket({
           type: 'TRANSCRIPT',
