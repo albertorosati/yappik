@@ -616,13 +616,15 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                     <label className="font-display font-bold text-sm text-ink/80">
                       {t('lobby.duration', settings.language)}
                     </label>
-                    <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
+                    <div className="grid grid-cols-4 gap-2">
                       {gameConfig.options.soloDurations.map((sec) => (
                         <button
                           key={`solo-dur-${sec}`}
                           type="button"
                           onClick={() => onUpdateSettings({ soloDurationSeconds: sec })}
                           className={`min-h-[44px] py-2 rounded-xl font-display text-sm border-[3px] border-ink transition-all ${
+                            sec === 0 ? 'col-span-2' : ''
+                          } ${
                             settings.soloDurationSeconds === sec
                               ? 'bg-yellow text-ink shadow-hard-sm font-black'
                               : 'bg-white text-ink/80 hover:bg-paper font-bold'
