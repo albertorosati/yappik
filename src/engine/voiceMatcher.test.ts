@@ -430,3 +430,45 @@ describe('PassCommandGuard (anti doppio-passo & debounce interim)', () => {
     expect(onPass).toHaveBeenCalledTimes(2);
   });
 });
+
+describe('Multilingual, Roman Numerals & Stopword Titling Enhancements', () => {
+  it('normalizza numeri inglesi e plurali inglesi senza corrompere lettere iniziali', () => {
+    expect(normalizeText('PlayStation five')).toBe('playstation cinque');
+    expect(normalizeText('Rocky II')).toBe('rocky due');
+    expect(normalizeText('X Men')).toBe('x men');
+
+    const tigers: DuelItem = {
+      id: 'en-tiger',
+      answer: 'Tiger',
+      aliases: [],
+      imageUrl: 'https://example.com/tiger.jpg',
+    };
+    expect(evaluateVoiceInput(['tigers'], tigers, { isFinal: true }).matched).toBe(true);
+  });
+
+  it('preserva titoli corti formati solo da stopwords come "It"', () => {
+    const itMovie: DuelItem = {
+      id: 'it-movie',
+      answer: 'It',
+      aliases: [],
+      imageUrl: 'https://example.com/it.jpg',
+    };
+    expect(normalizeText('It')).toBe('it');
+    expect(evaluateVoiceInput(['it'], itMovie, { isFinal: true }).matched).toBe(true);
+  });
+
+  it('estrae correttamente la risposta anche dentro frasi lunghe (sliding window 7 parole)', () => {
+    const item: DuelItem = {
+      id: 'sw-1',
+      answer: 'Statua della Libertà',
+      aliases: [],
+      imageUrl: 'https://example.com/liberty.jpg',
+    };
+    const res = evaluateVoiceInput(
+      ['uhm penso proprio sia la statua della liberta a new york'],
+      item,
+      { isFinal: true }
+    );
+    expect(res.matched).toBe(true);
+  });
+});

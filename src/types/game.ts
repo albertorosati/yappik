@@ -13,6 +13,7 @@ export interface PlayerConfig {
 export interface PartyPlayer extends PlayerConfig {
   wins: number;
   duelsPlayed: number;
+  colorIndex?: number;
 }
 
 export interface SoloTrainingSummary {
@@ -79,6 +80,8 @@ export interface DuelSummary {
   roundNumber: number;
   winner: PlayerId;
   loser: PlayerId;
+  p1PlayerId?: string;
+  p2PlayerId?: string;
   categoryId: string;
   categoryName: string;
   categoryIcon: string;
@@ -105,6 +108,7 @@ export interface RemoteMicPacket {
     | 'PING'
     | 'STATE_UPDATE'
     | 'PLAYER_UPDATE';
+  slot?: 'p1' | 'p2';
   transcript?: string;
   alternatives?: string[];
   isFinal?: boolean;
@@ -114,7 +118,13 @@ export interface RemoteMicPacket {
   p2Name?: string;
   p1Avatar?: string;
   p2Avatar?: string;
+  p1Connected?: boolean;
+  p2Connected?: boolean;
   categoryName?: string;
   inDuel?: boolean;
+  timeLeftP1?: number;
   timeLeftP2?: number;
+  language?: AppLanguage;
+  vocabulary?: string[];
+  clearBufferSeq?: number;
 }

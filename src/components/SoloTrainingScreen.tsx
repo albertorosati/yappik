@@ -23,13 +23,15 @@ import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
 import {
   getBackupImageUrl,
-  getResolvedImageUrl,
   isImageCached,
   prepareArenaDeck,
   primeImage,
-  getItemImagePool,
 } from '../data/categories';
-import { isRenderedImageHealthy, markItemSeen } from '../utils/itemUtils';
+import {
+  buildItemImageFallbackChain,
+  isRenderedImageHealthy,
+  markItemSeen,
+} from '../utils/itemUtils';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { soloScoreService } from '../services/soloScoreService';
@@ -87,13 +89,13 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
   const [micErrorMsg, setMicErrorMsg] = useState<string | null>(null);
 
   // Immagini e preloading
-  const [usingBackupUrl, setUsingBackupUrl] = useState(false);
+  const [fallbackIndex, setFallbackIndex] = useState(0);
   const brokenIdsRef = useRef<Set<string>>(new Set());
   const resolvedUrlsRef = useRef<Map<string, string>>(new Map());
 
-  // Record personale
+  // Record personale per durata specifica
   const [initialPersonalBest] = useState<number>(() =>
-    soloScoreService.getSoloBest(category.id)
+    soloScoreService.getSoloBest(category.id, initialDuration)
   );
   const [summaryData, setSummaryData] = useState<SoloTrainingSummary | null>(
     null
@@ -104,6 +106,22 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
   const ignoreVoiceUntilRef = useRef<number>(0);
   const passGuardRef = useRef<PassCommandGuard>(new PassCommandGuard(320));
   const lastSecondBeepRef = useRef<number>(-1);
+  const actionLockRef = useRef<boolean>(false);
+  const pendingTimersRef = useRef<Set<ReturnType<typeof setTimeout>>>(new Set());
+
+  const scheduleTimeout = useCallback((fn: () => void, ms: number) => {
+    const timer = setTimeout(() => {
+      pendingTimersRef.current.delete(timer);
+      fn();
+    }, ms);
+    pendingTimersRef.current.add(timer);
+    return timer;
+  }, []);
+
+  const clearAllPendingTimers = useCallback(() => {
+    pendingTimersRef.current.forEach((timer) => clearTimeout(timer));
+    pendingTimersRef.current.clear();
+  }, []);
 
   useEffect(() => {
     if (isPaused || sessionEnded) {
@@ -111,25 +129,25 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     }
   }, [isPaused, sessionEnded]);
 
+  const [reportToast, setReportToast] = useState(false);
+  const reportTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   useEffect(() => {
     const guard = passGuardRef.current;
     return () => {
       guard.cancel();
+      clearAllPendingTimers();
+      if (reportTimerRef.current) clearTimeout(reportTimerRef.current);
     };
-  }, []);
-
-  const [photoOverride, setPhotoOverride] = useState<string | null>(null);
-  const [reportToast, setReportToast] = useState(false);
-  const reportTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  }, [clearAllPendingTimers]);
 
   const currentItem = deck[itemIndex % deck.length];
-  const rawDisplaySrc =
-    photoOverride ||
-    (usingBackupUrl
-      ? getBackupImageUrl(currentItem.imageUrl)
-      : resolvedUrlsRef.current.get(currentItem.id) ||
-        getResolvedImageUrl(currentItem.imageUrl));
-  const displaySrc = rawDisplaySrc;
+  const fallbackChain = buildItemImageFallbackChain(currentItem, getBackupImageUrl);
+  const resolvedCached = resolvedUrlsRef.current.get(currentItem.id);
+  const displaySrc =
+    fallbackIndex === 0 && resolvedCached
+      ? resolvedCached
+      : fallbackChain[fallbackIndex] || fallbackChain[0] || currentItem.imageUrl;
 
   const [imageLoaded, setImageLoaded] = useState(() =>
     isImageCached(displaySrc)
@@ -137,6 +155,8 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
 
   // Gestione stato sincronizzato via ref per event loop e timer
   const stateRef = useRef({
+    deck,
+    itemIndex,
     timeRemaining,
     isPaused,
     sessionEnded,
@@ -147,6 +167,7 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     bestStreak,
     isFreeMode,
     revealedAnswer,
+    imageLoaded,
     currentItem,
   });
 
@@ -158,6 +179,8 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
 
   useEffect(() => {
     stateRef.current = {
+      deck,
+      itemIndex,
       timeRemaining,
       isPaused,
       sessionEnded,
@@ -168,31 +191,79 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       bestStreak,
       isFreeMode,
       revealedAnswer,
+      imageLoaded,
       currentItem,
     };
   });
 
+  const advanceToNextImage = useCallback(() => {
+    actionLockRef.current = false;
+    ignoreVoiceUntilRef.current = Math.max(
+      ignoreVoiceUntilRef.current,
+      performance.now() + 250
+    );
+    setFallbackIndex(0);
+
+    const { deck: curDeck, itemIndex: curIdx } = stateRef.current;
+    let next = curIdx + 1;
+    let safety = 0;
+    while (
+      next < curDeck.length &&
+      brokenIdsRef.current.has(curDeck[next].id) &&
+      safety < curDeck.length
+    ) {
+      next++;
+      safety++;
+    }
+
+    if (next >= curDeck.length) {
+      const reshuffled = prepareArenaDeck(category.items);
+      setDeck(reshuffled);
+      setItemIndex(0);
+    } else {
+      setItemIndex(next);
+    }
+  }, [category.items]);
+
+  const tryNextImageFallback = useCallback(() => {
+    const chain = buildItemImageFallbackChain(
+      stateRef.current.currentItem,
+      getBackupImageUrl
+    );
+    setFallbackIndex((prev) => {
+      const next = prev + 1;
+      if (next < chain.length) {
+        return next;
+      }
+      brokenIdsRef.current.add(stateRef.current.currentItem.id);
+      scheduleTimeout(() => advanceToNextImage(), 0);
+      return prev;
+    });
+  }, [advanceToNextImage, scheduleTimeout]);
+
   // Precarica l'immagine corrente
   useEffect(() => {
+    let active = true;
     const cached = isImageCached(displaySrc);
     setImageLoaded(cached);
     if (!cached) {
       primeImage(displaySrc)
         .then((finalSrc) => {
-          if (finalSrc && currentItem) {
+          if (!active) return;
+          if (finalSrc && fallbackIndex === 0 && currentItem) {
             resolvedUrlsRef.current.set(currentItem.id, finalSrc);
           }
           setImageLoaded(true);
         })
         .catch(() => {
-          if (!usingBackupUrl) {
-            setUsingBackupUrl(true);
-          } else {
-            setImageLoaded(true);
-          }
+          if (!active) return;
+          tryNextImageFallback();
         });
     }
-  }, [displaySrc, currentItem, usingBackupUrl]);
+    return () => {
+      active = false;
+    };
+  }, [displaySrc, currentItem, fallbackIndex, tryNextImageFallback]);
 
   // Rolling preloader per le immagini successive
   useEffect(() => {
@@ -217,37 +288,10 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     }
   }, [deck, itemIndex]);
 
-  // Passa all'immagine successiva
-  const advanceToNextImage = useCallback(() => {
-    ignoreVoiceUntilRef.current = Math.max(
-      ignoreVoiceUntilRef.current,
-      performance.now() + 250
-    );
-    recognizerRef.current?.consumeCurrentBuffer();
-    setUsingBackupUrl(false);
-    setPhotoOverride(null);
-    setItemIndex((prev) => {
-      let next = prev + 1;
-      let safety = 0;
-      while (
-        next < deck.length &&
-        brokenIdsRef.current.has(deck[next].id) &&
-        safety < deck.length
-      ) {
-        next++;
-        safety++;
-      }
-      if (next >= deck.length) {
-        setDeck(prepareArenaDeck(category.items));
-        return 0;
-      }
-      return next;
-    });
-  }, [deck, category.items]);
-
   // Gestione segnalazione foto inadatta/sbagliata
   const handleReportPhoto = useCallback(() => {
-    if (!currentItem) return;
+    const st = stateRef.current;
+    if (!currentItem || st.sessionEnded || st.revealedAnswer !== null) return;
 
     blacklistService.flagImage(displaySrc, {
       itemId: currentItem.id,
@@ -256,12 +300,13 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     });
 
     hapticsService.vibrateTap();
+    recognizerRef.current?.consumeCurrentBuffer();
 
     // Rimborso del tempo perso sulla foto errata (+5s in modalità timer o -3s in free mode)
     if (isFreeMode) {
-      setTimeRemaining(prev => Math.max(0, prev - 3));
+      setTimeRemaining((prev) => Math.max(0, prev - 3));
     } else {
-      setTimeRemaining(prev => Math.min(initialDuration, prev + 5));
+      setTimeRemaining((prev) => Math.min(initialDuration, prev + 5));
     }
 
     setReportToast(true);
@@ -270,18 +315,77 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       setReportToast(false);
     }, 2000);
 
-    // Salta subito alla foto successiva senza rimanere bloccati
-    setPhotoOverride(null);
     setImageLoaded(false);
     advanceToNextImage();
   }, [currentItem, displaySrc, isFreeMode, initialDuration, advanceToNextImage]);
 
-  // Risposta corretta
+  // Fine sessione allenamento
+  const finishTrainingSession = useCallback(() => {
+    const st = stateRef.current;
+    if (st.sessionEnded) return;
+
+    actionLockRef.current = true;
+    clearAllPendingTimers();
+    passGuardRef.current.cancel();
+    setSessionEnded(true);
+    setPassBurstVisible(false);
+    recognizerRef.current?.stop();
+    soundEngine.playTimeOutBuzzer();
+    hapticsService.vibrateVictory();
+
+    setRevealedAnswer({
+      tag: 'ANSWER',
+      text: st.currentItem.answer,
+      isPass: true,
+    });
+
+    const finalCorrect = st.totalCorrect;
+    const finalBest = Math.max(st.bestStreak, st.streak);
+    const saveResult = soloScoreService.saveSoloBest(
+      category.id,
+      finalCorrect,
+      initialDuration
+    );
+
+    if (saveResult.isNewBest && finalCorrect > 0) {
+      scheduleTimeout(() => {
+        soundEngine.playGrandFanfare();
+        if (
+          typeof window !== 'undefined' &&
+          !window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+        ) {
+          confetti({
+            particleCount: 80,
+            spread: 70,
+            origin: { y: 0.6 },
+            colors: ['#FFE66D', '#FF6B6B', '#4ECDC4', '#2E294E'],
+          });
+        }
+      }, 250);
+    }
+
+    scheduleTimeout(() => {
+      setSummaryData({
+        categoryId: category.id,
+        categoryName: category.name,
+        categoryIcon: category.icon,
+        totalCorrect: finalCorrect,
+        totalPasses: st.totalPasses,
+        bestStreak: finalBest,
+        durationSeconds: initialDuration,
+        timeLeft: Math.max(0, st.timeRemaining),
+        isNewPersonalBest: saveResult.isNewBest && finalCorrect > 0,
+        previousBest: saveResult.previousBest,
+      });
+    }, 650);
+  }, [category, initialDuration, clearAllPendingTimers, scheduleTimeout]);
+
   // Risposta corretta (A1)
   const triggerCorrectGuess = useCallback(
     (heardText?: string) => {
       const st = stateRef.current;
       if (
+        actionLockRef.current ||
         st.sessionEnded ||
         st.isPaused ||
         st.revealedAnswer !== null
@@ -289,9 +393,9 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
         return;
       }
 
+      actionLockRef.current = true;
       passGuardRef.current.cancel();
-      ignoreVoiceUntilRef.current =
-        performance.now() + 900;
+      ignoreVoiceUntilRef.current = performance.now() + 1200;
       recognizerRef.current?.consumeCurrentBuffer();
 
       const newStreak = st.streak + 1;
@@ -320,30 +424,37 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
         setLiveTranscript(heardText);
       }
 
-      // Show sticker label overlapping bottom edge with green "YES" tag + canonical answer for 700ms
       setRevealedAnswer({
         tag: 'YES',
         text: st.currentItem.answer,
         isPass: false,
       });
 
-      setTimeout(() => {
+      scheduleTimeout(() => {
         if (stateRef.current.sessionEnded) return;
         setRevealedAnswer(null);
+        setLiveTranscript('');
         advanceToNextImage();
       }, 700);
     },
-    [advanceToNextImage]
+    [advanceToNextImage, scheduleTimeout]
   );
 
   // Passo (A1)
   const triggerPass = useCallback(() => {
     const st = stateRef.current;
-    if (st.sessionEnded || st.isPaused || st.revealedAnswer !== null) return;
+    if (
+      actionLockRef.current ||
+      st.sessionEnded ||
+      st.isPaused ||
+      st.revealedAnswer !== null
+    ) {
+      return;
+    }
 
+    actionLockRef.current = true;
     passGuardRef.current.lockCooldown(2500);
-    ignoreVoiceUntilRef.current =
-      performance.now() + 1700;
+    ignoreVoiceUntilRef.current = performance.now() + 1750;
     recognizerRef.current?.consumeCurrentBuffer();
 
     soundEngine.playPassPenalty();
@@ -352,86 +463,50 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     setStreak(0);
     setTotalPasses((p) => p + 1);
 
+    let timeExpiredAfterPass = false;
     if (!isFreeMode) {
-      // Deduct -3s immediately
-      setTimeRemaining((prev) =>
-        Math.max(0, prev - settings.passPenaltySeconds)
-      );
+      const nextTime = Math.max(0, st.timeRemaining - settings.passPenaltySeconds);
+      setTimeRemaining(nextTime);
+      timeExpiredAfterPass = nextTime <= 0;
     }
 
     setPassBurstVisible(true);
-
-    // Show sticker label overlapping bottom edge with red "ANSWER" tag for 1.4s
     setRevealedAnswer({
       tag: 'ANSWER',
       text: st.currentItem.answer,
       isPass: true,
     });
 
-    setTimeout(() => {
+    if (timeExpiredAfterPass) {
+      finishTrainingSession();
+      return;
+    }
+
+    scheduleTimeout(() => {
       if (stateRef.current.sessionEnded) return;
       setRevealedAnswer(null);
       setPassBurstVisible(false);
+      setLiveTranscript('');
       advanceToNextImage();
     }, 1400);
   }, [
     isFreeMode,
     settings.passPenaltySeconds,
     advanceToNextImage,
+    finishTrainingSession,
+    scheduleTimeout,
   ]);
-
-  // Fine sessione allenamento
-  const finishTrainingSession = useCallback(() => {
-    const st = stateRef.current;
-    if (st.sessionEnded) return;
-
-    setSessionEnded(true);
-    recognizerRef.current?.stop();
-    soundEngine.playTimeOutBuzzer();
-    hapticsService.vibrateVictory();
-
-    // Show answer of last item
-    setRevealedAnswer({
-      tag: 'ANSWER',
-      text: st.currentItem.answer,
-      isPass: true,
-    });
-
-    const finalCorrect = st.totalCorrect;
-    const finalBest = Math.max(st.bestStreak, st.streak);
-    const saveResult = soloScoreService.saveSoloBest(
-      category.id,
-      finalCorrect
-    );
-
-    if (saveResult.isNewBest && finalCorrect > 0) {
-      setTimeout(() => {
-        soundEngine.playGrandFanfare();
-        confetti({
-          particleCount: 80,
-          spread: 70,
-          origin: { y: 0.6 },
-          colors: ['#FFE66D', '#FF6B6B', '#4ECDC4', '#2E294E'],
-        });
-      }, 250);
-    }
-
-    setSummaryData({
-      categoryId: category.id,
-      categoryName: category.name,
-      categoryIcon: category.icon,
-      totalCorrect: finalCorrect,
-      totalPasses: st.totalPasses,
-      bestStreak: finalBest,
-      durationSeconds: initialDuration,
-      timeLeft: Math.max(0, st.timeRemaining),
-      isNewPersonalBest: saveResult.isNewBest && finalCorrect > 0,
-      previousBest: saveResult.previousBest,
-    });
-  }, [category, initialDuration]);
 
   // Restart rapido per riprovare la stessa categoria
   const handleRestart = () => {
+    clearAllPendingTimers();
+    passGuardRef.current.cancel();
+    actionLockRef.current = false;
+    lastSecondBeepRef.current = -1;
+    ignoreVoiceUntilRef.current = 0;
+    brokenIdsRef.current.clear();
+    resolvedUrlsRef.current.clear();
+    setFallbackIndex(0);
     setDeck(prepareArenaDeck(category.items));
     setItemIndex(0);
     setTimeRemaining(isFreeMode ? 0 : settings.soloDurationSeconds);
@@ -448,39 +523,45 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     setLiveTranscript('');
   };
 
-  // Timer loop principale: frozen while revealedAnswer !== null
+  // Timer loop principale: delta-clamped, congelato su caricamento foto, tab nascosta o reveal
   useEffect(() => {
     if (sessionEnded || isPaused) return;
 
+    let lastTick = performance.now();
     const interval = setInterval(() => {
+      const now = performance.now();
+      const dt = Math.min(0.25, Math.max(0, (now - lastTick) / 1000));
+      lastTick = now;
+
       const st = stateRef.current;
-      // Clock is frozen while answer is revealed (A1)
-      if (st.revealedAnswer !== null) return;
+      if (
+        (typeof document !== 'undefined' && document.hidden) ||
+        !st.imageLoaded ||
+        st.revealedAnswer !== null ||
+        st.sessionEnded
+      ) {
+        return;
+      }
 
       if (isFreeMode) {
-        // Modalità libera: conta verso l'alto come cronometro
-        setTimeRemaining((prev) => prev + 0.1);
+        setTimeRemaining((prev) => prev + dt);
       } else {
-        // Modalità con conto alla rovescia
-        setTimeRemaining((prev) => {
-          const next = prev - 0.1;
-          if (next <= 0) {
-            clearInterval(interval);
-            finishTrainingSession();
-            return 0;
-          }
+        const next = Math.max(0, st.timeRemaining - dt);
+        setTimeRemaining(next);
+        stateRef.current.timeRemaining = next;
 
-          // Segnale sonoro per gli ultimi secondi
-          const wholeSec = Math.ceil(next);
-          if (wholeSec <= 5 && wholeSec > 0 && wholeSec !== lastSecondBeepRef.current) {
-            lastSecondBeepRef.current = wholeSec;
-            soundEngine.playClockTick(true);
-          }
+        const wholeSec = Math.ceil(next);
+        if (wholeSec <= 5 && wholeSec > 0 && wholeSec !== lastSecondBeepRef.current) {
+          lastSecondBeepRef.current = wholeSec;
+          soundEngine.playClockTick(true);
+        }
 
-          return next;
-        });
+        if (next <= 0) {
+          clearInterval(interval);
+          finishTrainingSession();
+        }
       }
-    }, 100);
+    }, 80);
 
     return () => clearInterval(interval);
   }, [sessionEnded, isPaused, isFreeMode, finishTrainingSession]);
@@ -553,23 +634,41 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
   // Scorciatoie da tastiera (Spazio per Passo, Invio per Esatto)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (sessionEnded) return;
+      if (e.repeat) return;
+      if (sessionEnded || summaryData !== null) return;
+
+      if (e.code === 'Escape') {
+        if (showExitConfirm) {
+          setShowExitConfirm(false);
+        } else {
+          setIsPaused((p) => !p);
+        }
+        return;
+      }
+
+      if (showExitConfirm) return;
+
+      if (e.code === 'KeyP') {
+        setIsPaused((p) => !p);
+        return;
+      }
+
+      if (isPaused) return;
+
       if (e.code === 'Space') {
         e.preventDefault();
         triggerPass();
       } else if (e.code === 'Enter') {
         e.preventDefault();
         triggerCorrectGuess();
-      } else if (e.code === 'KeyP') {
-        setIsPaused((p) => !p);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [sessionEnded, triggerPass, triggerCorrectGuess]);
+  }, [sessionEnded, summaryData, showExitConfirm, isPaused, triggerPass, triggerCorrectGuess]);
 
   return (
-    <div className="h-[100dvh] max-h-[100dvh] w-full relative overflow-hidden flex flex-col justify-between p-3 sm:p-5 select-none touch-none">
+    <div className="min-h-[100dvh] lg:h-[100dvh] lg:max-h-[100dvh] w-full relative overflow-y-auto lg:overflow-hidden flex flex-col justify-between p-3 sm:p-5 select-none pb-[max(0.75rem,env(safe-area-inset-bottom))]">
       {/* 1. Signature Floor Background */}
       <TheFloorBackground
         activeStage={isPaused ? 'modal' : 'neutral'}
@@ -665,13 +764,14 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
             {/* Report Bad Photo Quick Button (Top-Right on photo mat) */}
             <button
               type="button"
+              disabled={revealedAnswer !== null || sessionEnded}
               onClick={(e) => {
                 e.stopPropagation();
                 handleReportPhoto();
               }}
               title={t('arena.reportTooltip', settings.language)}
               aria-label={t('arena.reportPhoto', settings.language)}
-              className="absolute top-2 right-2 z-30 w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-paper/90 hover:bg-red/10 active:scale-95 border-2 border-ink flex items-center justify-center text-xs sm:text-sm text-ink/70 hover:text-red transition-all cursor-pointer shadow-sm select-none"
+              className="absolute top-2 right-2 z-30 w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-paper/90 hover:bg-red/10 active:scale-95 border-2 border-ink flex items-center justify-center text-xs sm:text-sm text-ink/70 hover:text-red transition-all cursor-pointer shadow-sm select-none disabled:opacity-40 disabled:pointer-events-none"
             >
               🚩
             </button>
@@ -717,40 +817,20 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
               <img
                 key={displaySrc}
                 src={displaySrc}
-                alt={currentItem.answer}
+                alt=""
+                referrerPolicy="no-referrer"
                 decoding="async"
                 loading="eager"
                 onLoad={(e) => {
                   const { naturalWidth, naturalHeight } = e.currentTarget;
                   if (!isRenderedImageHealthy(naturalWidth, naturalHeight)) {
-                    const cleanPool = getItemImagePool(currentItem).filter(
-                      (u) => u !== displaySrc
-                    );
-                    if (cleanPool.length > 0 && !photoOverride) {
-                      setPhotoOverride(cleanPool[0]);
-                      return;
-                    }
-                    brokenIdsRef.current.add(currentItem.id);
-                    advanceToNextImage();
+                    tryNextImageFallback();
                     return;
                   }
                   setImageLoaded(true);
                 }}
                 onError={() => {
-                  if (!usingBackupUrl) {
-                    setUsingBackupUrl(true);
-                  } else {
-                    const cleanPool = getItemImagePool(currentItem).filter(
-                      (u) => u !== displaySrc
-                    );
-                    if (cleanPool.length > 0 && !photoOverride) {
-                      setUsingBackupUrl(false);
-                      setPhotoOverride(cleanPool[0]);
-                      return;
-                    }
-                    brokenIdsRef.current.add(currentItem.id);
-                    advanceToNextImage();
-                  }
+                  tryNextImageFallback();
                 }}
                 className={`max-w-full max-h-[52vh] w-auto h-auto object-contain rounded-lg transition-opacity duration-150 ${
                   imageLoaded ? 'opacity-100' : 'opacity-0'
@@ -761,7 +841,7 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
             {/* A1: Sticker Label Overlapping Bottom Edge of Photo */}
             {revealedAnswer && (
               <div
-                className={`absolute -bottom-6 left-1/2 -translate-x-1/2 z-40 max-w-[92%] sm:max-w-[85%] bg-paper border-[3px] border-ink shadow-hard rounded-2xl px-4 py-2 sm:px-6 sm:py-3 flex items-center gap-3 animate-starburst-pop select-none ${
+                className={`absolute bottom-2 sm:-bottom-5 left-1/2 -translate-x-1/2 z-40 max-w-[92%] sm:max-w-[85%] bg-paper border-[3px] border-ink shadow-hard rounded-2xl px-4 py-2 sm:px-6 sm:py-3 flex items-center gap-3 animate-starburst-pop select-none ${
                   revealedAnswer.isPass ? '-rotate-1' : 'rotate-1'
                 }`}
               >
@@ -808,37 +888,37 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
       </div>
 
       {/* 4. Bottom Action Bar: Mic meter left, big Pass and Correct buttons right */}
-      <div className="relative z-10 w-full max-w-[1100px] mx-auto shrink-0 card-paper p-3 sm:p-4 flex items-center justify-between gap-3">
+      <div className="relative z-10 w-full max-w-[1100px] mx-auto shrink-0 card-paper p-2.5 sm:p-4 flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 sm:gap-3">
         {/* Mic Meter & Status */}
-        <div className="flex items-center gap-3 min-w-0 flex-1">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
           <div className="relative shrink-0">
             {isListening && micVolume > 0.12 && (
               <span className="absolute inset-0 rounded-xl bg-green/45 border-2 border-green pointer-events-none animate-mic-ripple" />
             )}
             <div
               aria-label="Microphone"
-              className={`relative z-10 w-12 h-12 rounded-xl border-[3px] border-ink shadow-hard-sm flex items-center justify-center transition-colors ${
+              className={`relative z-10 w-10 h-10 sm:w-12 sm:h-12 rounded-xl border-[3px] border-ink shadow-hard-sm flex items-center justify-center transition-colors ${
                 isListening ? 'bg-green text-ink' : 'bg-paper text-ink'
               }`}
             >
-              <Mic className="w-6 h-6" />
+              <Mic className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
           </div>
 
           {/* 3-Bar Volume Level Indicator */}
-          <div className="flex items-end gap-1 h-9 px-2 py-1.5 bg-white border-[3px] border-ink rounded-lg shrink-0">
+          <div className="flex items-end gap-1 h-8 sm:h-9 px-1.5 sm:px-2 py-1.5 bg-white border-[3px] border-ink rounded-lg shrink-0">
             <div
-              className={`w-2.5 rounded-sm transition-all duration-75 ${
+              className={`w-2 sm:w-2.5 rounded-sm transition-all duration-75 ${
                 micVolume > 0.05 ? 'bg-green h-full' : 'bg-ink/20 h-2'
               }`}
             />
             <div
-              className={`w-2.5 rounded-sm transition-all duration-75 ${
+              className={`w-2 sm:w-2.5 rounded-sm transition-all duration-75 ${
                 micVolume > 0.25 ? 'bg-yellow h-full' : 'bg-ink/20 h-3'
               }`}
             />
             <div
-              className={`w-2.5 rounded-sm transition-all duration-75 ${
+              className={`w-2 sm:w-2.5 rounded-sm transition-all duration-75 ${
                 micVolume > 0.55 ? 'bg-red h-full' : 'bg-ink/20 h-4'
               }`}
             />
@@ -859,15 +939,15 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
           </div>
         </div>
 
-        {/* Action Buttons: Min 64x160px */}
-        <div className="flex items-center gap-3 shrink-0">
+        {/* Action Buttons: Min 64x160px on desktop, fluid on mobile */}
+        <div className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto shrink-0">
           <button
             type="button"
             onClick={triggerPass}
-            disabled={revealedAnswer !== null}
-            className="btn-push min-w-[130px] sm:min-w-[160px] min-h-[54px] sm:min-h-[64px] px-4 py-2.5 rounded-xl bg-paper text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-2 disabled:opacity-50"
+            disabled={revealedAnswer !== null || sessionEnded}
+            className="btn-push flex-1 sm:flex-initial min-w-0 sm:min-w-[160px] min-h-[54px] sm:min-h-[64px] px-3 sm:px-4 py-2.5 rounded-xl bg-paper text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-1.5 sm:gap-2 disabled:opacity-50"
           >
-            <FastForward className="w-5 h-5" />
+            <FastForward className="w-5 h-5 shrink-0" />
             <span>
               Pass (−3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>)
             </span>
@@ -876,10 +956,10 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
           <button
             type="button"
             onClick={() => triggerCorrectGuess()}
-            disabled={revealedAnswer !== null}
-            className="btn-push min-w-[130px] sm:min-w-[160px] min-h-[54px] sm:min-h-[64px] px-4 py-2.5 rounded-xl bg-green text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-2 disabled:opacity-50"
+            disabled={revealedAnswer !== null || sessionEnded}
+            className="btn-push flex-1 sm:flex-initial min-w-0 sm:min-w-[160px] min-h-[54px] sm:min-h-[64px] px-3 sm:px-4 py-2.5 rounded-xl bg-green text-ink font-display font-black text-base sm:text-lg border-[3px] border-ink shadow-hard flex items-center justify-center gap-1.5 sm:gap-2 disabled:opacity-50"
           >
-            <Check className="w-6 h-6 stroke-[3]" />
+            <Check className="w-5 h-5 sm:w-6 sm:h-6 stroke-[3] shrink-0" />
             <span>{t('arena.correct', settings.language)}</span>
           </button>
         </div>

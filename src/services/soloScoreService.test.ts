@@ -59,4 +59,16 @@ describe('soloScoreService', () => {
     expect(res.previousBest).toBe(8);
     expect(soloScoreService.getSoloBest('calciatori')).toBe(14);
   });
+
+  it('scopes records separately per duration while preserving 60s legacy fallback', () => {
+    soloScoreService.saveSoloBest('calcio', 20);
+    expect(soloScoreService.getSoloBest('calcio', 60)).toBe(20);
+    expect(soloScoreService.getSoloBest('calcio', 45)).toBe(0);
+
+    soloScoreService.saveSoloBest('calcio', 11, 30);
+    soloScoreService.saveSoloBest('calcio', 25, 90);
+    expect(soloScoreService.getSoloBest('calcio', 30)).toBe(11);
+    expect(soloScoreService.getSoloBest('calcio', 90)).toBe(25);
+    expect(soloScoreService.getSoloBest('calcio', 60)).toBe(20);
+  });
 });

@@ -5,9 +5,10 @@ type VolumeCallback = (level: number) => void;
 interface IWindowSpeech extends Window {
   SpeechRecognition?: any;
   webkitSpeechRecognition?: any;
-  SpeechGrammarList?: any;
-  webkitSpeechGrammarList?: any;
 }
+
+const MAX_CONSECUTIVE_ERRORS = 5;
+const SILENT_STALL_TIMEOUT_MS = 12000;
 
 export class SmartSpeechRecognizer {
   private recognition: any = null;
@@ -18,16 +19,21 @@ export class SmartSpeechRecognizer {
   private onVolume?: VolumeCallback;
   private restartTimer: ReturnType<typeof setTimeout> | null = null;
   private volumeDecayTimer: ReturnType<typeof setTimeout> | null = null;
+  private watchdogTimer: ReturnType<typeof setInterval> | null = null;
+  private visibilityListenerAttached = false;
 
   // Tracciamento per tagliare le parole già consumate nella stessa frase continua
   private activeResultIndex = 0;
   private consumedResultIndex = -1;
   private consumedWords: string[] = [];
+  private consumedNormTokens: string[] = [];
   private lastConsumedToken = '';
   private lastConsumedAt = 0;
   private latestRawTranscript = '';
   private language: 'it' | 'en' = 'it';
-  private vocabulary: string[] = [];
+  private consecutiveErrors = 0;
+  private lastActivityAt = 0;
+  private sessionStartedAt = 0;
 
   constructor(
     onSpeech: SpeechCallback,
@@ -44,15 +50,15 @@ export class SmartSpeechRecognizer {
   public setLanguage(lang: 'it' | 'en'): void {
     if (this.language !== lang) {
       this.language = lang;
-      if (this.isListening) {
+      if (this.shouldBeRunning) {
         this.stop();
         this.start();
       }
     }
   }
 
-  public setVocabulary(phrases: string[]): void {
-    this.vocabulary = phrases;
+  public setVocabulary(_phrases: string[]): void {
+    // Mantenuto per compatibilità API: SpeechGrammarList JSGF è deprecato e genera errori bad-grammar su Chrome
   }
 
   public static isSupported(): boolean {
@@ -63,11 +69,91 @@ export class SmartSpeechRecognizer {
 
   public start(): void {
     this.shouldBeRunning = true;
+    this.consecutiveErrors = 0;
     this.consumedResultIndex = -1;
     this.consumedWords = [];
+    this.consumedNormTokens = [];
     this.latestRawTranscript = '';
     this.activeResultIndex = 0;
+    this.lastActivityAt = Date.now();
+    this.startWatchdog();
+    this.attachVisibilityListener();
     this.createAndStartSession();
+  }
+
+  private handleVisibilityChange = (): void => {
+    if (
+      typeof document !== 'undefined' &&
+      document.visibilityState === 'visible' &&
+      this.shouldBeRunning &&
+      !this.isListening
+    ) {
+      this.lastActivityAt = Date.now();
+      this.createAndStartSession();
+    }
+  };
+
+  private attachVisibilityListener(): void {
+    if (typeof document === 'undefined' || this.visibilityListenerAttached) return;
+    document.addEventListener('visibilitychange', this.handleVisibilityChange);
+    this.visibilityListenerAttached = true;
+  }
+
+  private detachVisibilityListener(): void {
+    if (typeof document === 'undefined' || !this.visibilityListenerAttached) return;
+    document.removeEventListener('visibilitychange', this.handleVisibilityChange);
+    this.visibilityListenerAttached = false;
+  }
+
+  private startWatchdog(): void {
+    if (this.watchdogTimer) {
+      clearInterval(this.watchdogTimer);
+    }
+    this.watchdogTimer = setInterval(() => {
+      if (!this.shouldBeRunning || !this.isListening) return;
+      if (Date.now() - this.lastActivityAt > SILENT_STALL_TIMEOUT_MS) {
+        this.lastActivityAt = Date.now();
+        this.createAndStartSession();
+      }
+    }, 4000);
+  }
+
+  private stopWatchdog(): void {
+    if (this.watchdogTimer) {
+      clearInterval(this.watchdogTimer);
+      this.watchdogTimer = null;
+    }
+  }
+
+  private cleanupRecognitionInstance(): void {
+    if (!this.recognition) return;
+    try {
+      this.recognition.onstart = null;
+      this.recognition.onsoundstart = null;
+      this.recognition.onsoundend = null;
+      this.recognition.onspeechstart = null;
+      this.recognition.onspeechend = null;
+      this.recognition.onresult = null;
+      this.recognition.onerror = null;
+      this.recognition.onend = null;
+      this.recognition.abort();
+    } catch {
+      // Ignora
+    }
+    this.recognition = null;
+  }
+
+  private scheduleRestart(baseDelayMs: number): void {
+    if (!this.shouldBeRunning) return;
+    if (this.restartTimer) {
+      clearTimeout(this.restartTimer);
+    }
+    this.restartTimer = setTimeout(() => {
+      this.restartTimer = null;
+      if (this.shouldBeRunning) {
+        this.createAndStartSession();
+      }
+    }, baseDelayMs);
   }
 
   private createAndStartSession(): void {
@@ -79,24 +165,15 @@ export class SmartSpeechRecognizer {
       this.restartTimer = null;
     }
 
-    if (this.recognition) {
-      try {
-        this.recognition.onstart = null;
-        this.recognition.onresult = null;
-        this.recognition.onerror = null;
-        this.recognition.onend = null;
-        this.recognition.abort();
-      } catch {
-        // Ignora
-      }
-      this.recognition = null;
-    }
+    this.cleanupRecognitionInstance();
 
     const win = window as unknown as IWindowSpeech;
     const SpeechConstructor =
       win.SpeechRecognition || win.webkitSpeechRecognition;
 
     if (!SpeechConstructor) {
+      this.shouldBeRunning = false;
+      this.stopWatchdog();
       this.onStatus(
         false,
         'Riconoscimento vocale non supportato da questo browser (Usa Chrome, Safari o Edge).'
@@ -119,38 +196,25 @@ export class SmartSpeechRecognizer {
       rec.interimResults = true;
       rec.maxAlternatives = 5;
 
-      if (this.vocabulary.length > 0) {
-        try {
-          const GrammarConstructor =
-            win.SpeechGrammarList || win.webkitSpeechGrammarList;
-          if (GrammarConstructor) {
-            const speechList = new GrammarConstructor();
-            const cleanPhrases = Array.from(
-              new Set(
-                this.vocabulary
-                  .map((p) => p.replace(/[^\p{L}0-9\s]/gu, '').trim())
-                  .filter((p) => p.length >= 2)
-              )
-            );
-            if (cleanPhrases.length > 0) {
-              const grammar = `#JSGF V1.0; grammar items; public <item> = ${cleanPhrases.join(
-                ' | '
-              )} ;`;
-              speechList.addFromString(grammar, 1);
-              rec.grammars = speechList;
-            }
-          }
-        } catch {
-          // Fallback trasparente se non supportato
-        }
-      }
-
       rec.onstart = () => {
         this.isListening = true;
+        this.sessionStartedAt = Date.now();
+        this.lastActivityAt = Date.now();
         this.onStatus(true);
       };
 
+      rec.onsoundstart = () => {
+        this.lastActivityAt = Date.now();
+        this.pulseVolume(0.45);
+      };
+
+      rec.onsoundend = () => {
+        this.pulseVolume(0);
+      };
+
       rec.onspeechstart = () => {
+        this.lastActivityAt = Date.now();
+        this.consecutiveErrors = 0;
         this.pulseVolume(0.8);
       };
 
@@ -159,6 +223,8 @@ export class SmartSpeechRecognizer {
       };
 
       rec.onresult = (event: any) => {
+        this.lastActivityAt = Date.now();
+        this.consecutiveErrors = 0;
         this.pulseVolume(1.0);
         const startIdx = event.resultIndex ?? 0;
         const totalResults = event.results?.length ?? 0;
@@ -174,11 +240,13 @@ export class SmartSpeechRecognizer {
             if (this.consumedResultIndex < idx) {
               this.consumedResultIndex = -1;
               this.consumedWords = [];
+              this.consumedNormTokens = [];
             }
           }
 
           const isConsumedIdx =
-            this.consumedResultIndex === idx && this.consumedWords.length > 0;
+            this.consumedResultIndex === idx &&
+            (this.consumedWords.length > 0 || this.consumedNormTokens.length > 0);
           const isPostConsumeEchoWindow =
             idx > this.consumedResultIndex &&
             this.lastConsumedToken.length > 0 &&
@@ -219,6 +287,7 @@ export class SmartSpeechRecognizer {
             if (this.consumedResultIndex === idx) {
               this.consumedResultIndex = -1;
               this.consumedWords = [];
+              this.consumedNormTokens = [];
             }
           }
         }
@@ -227,33 +296,57 @@ export class SmartSpeechRecognizer {
       rec.onerror = (event: any) => {
         const err = event?.error;
         if (err === 'no-speech' || err === 'aborted') {
-          // Normale durante brevi silenzi, non bloccare il loop
+          this.lastActivityAt = Date.now();
           return;
         }
         if (err === 'not-allowed' || err === 'service-not-allowed') {
           this.shouldBeRunning = false;
           this.isListening = false;
+          this.stopWatchdog();
           this.onStatus(
             false,
             'Permesso microfono negato. Tocca l’icona del lucchetto nella barra per abilitarlo.'
           );
+          return;
+        }
+
+        this.consecutiveErrors += 1;
+        if (this.consecutiveErrors >= MAX_CONSECUTIVE_ERRORS) {
+          this.shouldBeRunning = false;
+          this.isListening = false;
+          this.stopWatchdog();
+          this.onStatus(
+            false,
+            `Microfono interrotto (${err}). Tocca il pulsante mic o i tasti per continuare.`
+          );
         } else {
-          this.onStatus(this.isListening, `Avviso mic: ${err}`);
+          this.onStatus(
+            this.isListening,
+            `Avviso mic: ${err} (tentativo ${this.consecutiveErrors}/${MAX_CONSECUTIVE_ERRORS})`
+          );
         }
       };
 
       rec.onend = () => {
         this.isListening = false;
         if (this.shouldBeRunning) {
+          if (
+            this.sessionStartedAt > 0 &&
+            Date.now() - this.sessionStartedAt > 3000 &&
+            this.consecutiveErrors > 0
+          ) {
+            this.consecutiveErrors = 0;
+          }
           this.consumedResultIndex = -1;
           this.consumedWords = [];
+          this.consumedNormTokens = [];
           this.latestRawTranscript = '';
+          const delayMs =
+            this.consecutiveErrors > 0
+              ? Math.min(2500, 150 * Math.pow(2, this.consecutiveErrors - 1))
+              : 80;
           // Ricrea una NUOVA istanza fresca (evita InvalidStateError su Chrome/Safari dopo il primo stop)
-          this.restartTimer = setTimeout(() => {
-            if (this.shouldBeRunning) {
-              this.createAndStartSession();
-            }
-          }, 80);
+          this.scheduleRestart(delayMs);
         } else {
           this.onStatus(false);
         }
@@ -262,12 +355,15 @@ export class SmartSpeechRecognizer {
       this.recognition = rec;
       rec.start();
     } catch {
-      if (this.shouldBeRunning) {
-        this.restartTimer = setTimeout(() => {
-          if (this.shouldBeRunning) {
-            this.createAndStartSession();
-          }
-        }, 300);
+      this.consecutiveErrors += 1;
+      if (this.consecutiveErrors >= MAX_CONSECUTIVE_ERRORS) {
+        this.shouldBeRunning = false;
+        this.isListening = false;
+        this.stopWatchdog();
+        this.onStatus(false, 'Impossibile avviare il microfono. Usa i pulsanti a schermo.');
+      } else if (this.shouldBeRunning) {
+        const delayMs = Math.min(3000, 300 * Math.pow(2, this.consecutiveErrors - 1));
+        this.scheduleRestart(delayMs);
       }
     }
   }
@@ -298,23 +394,46 @@ export class SmartSpeechRecognizer {
 
   /**
    * Taglia in modo sicuro tutte le parole già consumate sullo stesso resultIndex,
-   * evitando che leggere revisioni ASR (punteggiatura, accenti, inserimento filler "eh passo")
-   * causino il replay della risposta o del Passo precedente sull'immagine successiva.
+   * confrontando anche i token normalizzati per evitare leak sulle alternatives[1..4].
    */
   private sliceAfterConsumedWords(fullTranscript: string): string {
     const rawWords = fullTranscript.trim().split(/\s+/).filter(Boolean);
-    const consumedLen = this.consumedWords.length;
-    if (rawWords.length <= consumedLen) {
+    if (rawWords.length === 0) return '';
+
+    const consumedNormLen = this.consumedNormTokens.length;
+    const consumedJoined = this.consumedNormTokens.join('');
+
+    let sliceStart = 0;
+    if (consumedNormLen > 0) {
+      const normAccum: string[] = [];
+      let accumJoined = '';
+      for (let i = 0; i < rawWords.length; i++) {
+        const wordTokens = this.tokenizeNormalized(rawWords[i]);
+        normAccum.push(...wordTokens);
+        accumJoined += wordTokens.join('');
+        if (
+          normAccum.length >= consumedNormLen ||
+          (consumedJoined.length > 0 && accumJoined === consumedJoined)
+        ) {
+          sliceStart = i + 1;
+          break;
+        }
+      }
+      if (sliceStart === 0 && normAccum.length < consumedNormLen) {
+        return '';
+      }
+    } else if (rawWords.length <= this.consumedWords.length) {
       return '';
+    } else {
+      sliceStart = this.consumedWords.length;
     }
 
-    let sliceStart = consumedLen;
     if (this.lastConsumedToken) {
-      const searchStart = Math.max(0, consumedLen - 1);
-      const searchEnd = Math.min(rawWords.length - 1, consumedLen + 2);
+      const searchStart = Math.max(0, sliceStart - 2);
+      const searchEnd = Math.min(rawWords.length - 1, sliceStart + 2);
       for (let i = searchEnd; i >= searchStart; i--) {
         const toks = this.tokenizeNormalized(rawWords[i]);
-        if (toks[0] === this.lastConsumedToken) {
+        if (toks[toks.length - 1] === this.lastConsumedToken || toks[0] === this.lastConsumedToken) {
           sliceStart = Math.max(sliceStart, i + 1);
           break;
         }
@@ -339,8 +458,9 @@ export class SmartSpeechRecognizer {
     if (words.length > 0) {
       this.consumedResultIndex = this.activeResultIndex;
       this.consumedWords = words;
-      const lastNorm = this.tokenizeNormalized(words[words.length - 1]);
-      this.lastConsumedToken = lastNorm[lastNorm.length - 1] || '';
+      this.consumedNormTokens = this.tokenizeNormalized(this.latestRawTranscript);
+      this.lastConsumedToken =
+        this.consumedNormTokens[this.consumedNormTokens.length - 1] || '';
       this.lastConsumedAt = Date.now();
     }
   }
@@ -348,6 +468,8 @@ export class SmartSpeechRecognizer {
   public stop(): void {
     this.shouldBeRunning = false;
     this.isListening = false;
+    this.stopWatchdog();
+    this.detachVisibilityListener();
     if (this.restartTimer) {
       clearTimeout(this.restartTimer);
       this.restartTimer = null;
@@ -356,18 +478,7 @@ export class SmartSpeechRecognizer {
       clearTimeout(this.volumeDecayTimer);
       this.volumeDecayTimer = null;
     }
-    if (this.recognition) {
-      try {
-        this.recognition.onstart = null;
-        this.recognition.onresult = null;
-        this.recognition.onerror = null;
-        this.recognition.onend = null;
-        this.recognition.abort();
-      } catch {
-        // Ignora
-      }
-      this.recognition = null;
-    }
+    this.cleanupRecognitionInstance();
     this.onStatus(false);
   }
 }

@@ -86,6 +86,28 @@ describe('discordActivityService & discordUrlMapper', () => {
       expect(remapped).toBe('/.proxy/wsrv/?url=test.jpg&w=960');
     });
 
+    it('remaps newly added catalog image CDN hosts when inside Discord Activity', () => {
+      mockWindow('1568251340294070313.discordsays.com', '');
+      expect(
+        remapDiscordImageUrl('https://shared.akamai.steamstatic.com/store_item_assets/123.jpg')
+      ).toBe('/.proxy/steam-akamai/store_item_assets/123.jpg');
+      expect(
+        remapDiscordImageUrl('https://raw.githubusercontent.com/user/repo/main/img.png')
+      ).toBe('/.proxy/github-raw/user/repo/main/img.png');
+      expect(remapDiscordImageUrl('https://static.tvmaze.com/uploads/images/1.jpg')).toBe(
+        '/.proxy/tvmaze/uploads/images/1.jpg'
+      );
+      expect(remapDiscordImageUrl('https://flagcdn.com/w320/it.png')).toBe(
+        '/.proxy/flagcdn/w320/it.png'
+      );
+      expect(remapDiscordImageUrl('https://i.kym-cdn.com/entries/icons/abc.jpg')).toBe(
+        '/.proxy/kym-cdn/entries/icons/abc.jpg'
+      );
+      expect(remapDiscordImageUrl('https://yt3.googleusercontent.com/ytc/avatar=s900')).toBe(
+        '/.proxy/yt3/ytc/avatar=s900'
+      );
+    });
+
     it('leaves relative and data URLs untouched', () => {
       mockWindow('1568251340294070313.discordsays.com', '');
       expect(remapDiscordImageUrl('/logo.svg')).toBe('/logo.svg');

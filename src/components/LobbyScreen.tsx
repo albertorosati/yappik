@@ -16,6 +16,7 @@ import {
   TargetWinsOption,
 } from '../types/game';
 import { SmartSpeechRecognizer } from '../engine/speechRecognition';
+import { formatRoomTag, RemoteSlot } from '../engine/discordMicSync';
 import { gameConfig } from '../services/configService';
 import { pwaInstallService } from '../services/pwaInstallService';
 import { APP_VERSION } from '../config/version';
@@ -25,6 +26,7 @@ import { TheFloorLogo } from './TheFloorLogo';
 import { PhoneMicModal } from './PhoneMicModal';
 import { getPlayerColor, PLAYER_COLORS } from '../utils/playerColors';
 import { blacklistService } from '../services/blacklistService';
+import { soundEngine } from '../engine/soundEffects';
 
 interface LobbyScreenProps {
   p1: PlayerConfig;
@@ -38,8 +40,11 @@ interface LobbyScreenProps {
   onUpdateSettings: (partial: Partial<GameSettings>) => void;
   categories: Category[];
   roomCode: string;
+  p1RemoteConnected?: boolean;
   p2RemoteConnected: boolean;
   remoteTranscriptPreview?: string;
+  remoteJoinNotice?: string | null;
+  onJoinRoom?: (rawInput: string, slot: RemoteSlot) => boolean;
   isDiscordActivity?: boolean;
   onOpenCategoryEditor: () => void;
   onStartGame: () => void;
@@ -62,8 +67,11 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   onUpdateSettings,
   categories,
   roomCode,
+  p1RemoteConnected = false,
   p2RemoteConnected,
   remoteTranscriptPreview,
+  remoteJoinNotice = null,
+  onJoinRoom,
   isDiscordActivity = false,
   onOpenCategoryEditor,
   onStartGame,
@@ -71,15 +79,27 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   const [testingMic, setTestingMic] = useState(false);
   const [testTranscript, setTestTranscript] = useState('');
   const [testVolume, setTestVolume] = useState(0);
+  const [micError, setMicError] = useState<string | null>(null);
   const [copiedLink, setCopiedLink] = useState(false);
+  const [copiedRoomCode, setCopiedRoomCode] = useState(false);
+  const [joinPanelOpen, setJoinPanelOpen] = useState(false);
+  const [joinCodeInput, setJoinCodeInput] = useState('');
+  const [joinSlot, setJoinSlot] = useState<RemoteSlot>('p2');
+  const [joinError, setJoinError] = useState(false);
   const [phoneModalOpen, setPhoneModalOpen] = useState(false);
   const [canInstallPwa, setCanInstallPwa] = useState(false);
+  const [showIosInstallGuide, setShowIosInstallGuide] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [avatarPickerFor, setAvatarPickerFor] = useState<string | null>(null);
   const [flaggedCount, setFlaggedCount] = useState(() => blacklistService.getFlaggedCount());
   const [copiedBlacklist, setCopiedBlacklist] = useState(false);
 
   const recognizerRef = useRef<SmartSpeechRecognizer | null>(null);
+  const copyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const copyCodeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const blacklistCopyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const roomTag = formatRoomTag(roomCode);
 
   useEffect(() => {
     setCanInstallPwa(pwaInstallService.canInstall());
@@ -92,6 +112,10 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
     return () => {
       unsubPwa();
       unsubBlacklist();
+      recognizerRef.current?.stop();
+      if (copyTimerRef.current) clearTimeout(copyTimerRef.current);
+      if (copyCodeTimerRef.current) clearTimeout(copyCodeTimerRef.current);
+      if (blacklistCopyTimerRef.current) clearTimeout(blacklistCopyTimerRef.current);
     };
   }, []);
 
@@ -101,6 +125,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
       if (e.key === 'Escape') {
         setShowSettingsModal(false);
         setAvatarPickerFor(null);
+        setShowIosInstallGuide(false);
       }
     };
     window.addEventListener('keydown', handleKey);
@@ -108,19 +133,25 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   }, []);
 
   const handleInstallClick = async () => {
-    await pwaInstallService.triggerInstall();
+    const outcome = await pwaInstallService.triggerInstall();
+    if (outcome === 'ios-guide') {
+      setShowIosInstallGuide(true);
+    }
   };
 
   const toggleMicTest = () => {
+    soundEngine.unlock();
     if (testingMic) {
       recognizerRef.current?.stop();
       recognizerRef.current = null;
       setTestingMic(false);
       setTestVolume(0);
       setTestTranscript('');
+      setMicError(null);
       return;
     }
 
+    setMicError(null);
     setTestTranscript(t('lobby.testingMic', settings.language));
     const rec = new SmartSpeechRecognizer(
       (alternatives) => {
@@ -128,8 +159,9 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
           setTestTranscript(alternatives[0]);
         }
       },
-      (listening) => {
+      (listening, err) => {
         setTestingMic(listening);
+        if (err) setMicError(err);
       },
       (vol) => setTestVolume(vol),
       settings.language || 'it'
@@ -139,23 +171,86 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   };
 
   const getCompanionUrl = () => {
-    if (isDiscordActivity) {
-      return `https://albertorosati.github.io/yappik/?room=${encodeURIComponent(roomCode)}`;
+    const isDiscordDomain =
+      typeof window !== 'undefined' &&
+      window.location.hostname.toLowerCase().endsWith('.discordsays.com');
+    if (isDiscordDomain) {
+      return `https://albertorosati.github.io/yappik/?room=${encodeURIComponent(roomCode)}&slot=p2`;
     }
     const baseUrl = `${window.location.origin}${window.location.pathname}`;
-    return `${baseUrl}?room=${encodeURIComponent(roomCode)}`;
+    return `${baseUrl}?room=${encodeURIComponent(roomCode)}&slot=p2`;
   };
 
-  const handleCopyCompanionUrl = () => {
-    navigator.clipboard.writeText(getCompanionUrl());
-    setCopiedLink(true);
-    setTimeout(() => setCopiedLink(false), 2000);
+  const handleCopyRoomCode = async () => {
+    const ok = await copyTextSafely(roomCode);
+    if (ok) {
+      setCopiedRoomCode(true);
+      if (copyCodeTimerRef.current) clearTimeout(copyCodeTimerRef.current);
+      copyCodeTimerRef.current = setTimeout(() => setCopiedRoomCode(false), 2000);
+    }
+  };
+
+  const handleJoinSubmit = (e?: React.FormEvent) => {
+    e?.preventDefault();
+    if (!onJoinRoom) return;
+    const ok = onJoinRoom(joinCodeInput, joinSlot);
+    if (!ok) {
+      setJoinError(true);
+    } else {
+      setJoinError(false);
+    }
+  };
+
+  const copyTextSafely = async (value: string): Promise<boolean> => {
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(value);
+        return true;
+      }
+    } catch {
+      // Fallback sotto
+    }
+    if (typeof document !== 'undefined') {
+      try {
+        const textarea = document.createElement('textarea');
+        textarea.value = value;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        const ok = document.execCommand('copy');
+        document.body.removeChild(textarea);
+        return ok;
+      } catch {
+        return false;
+      }
+    }
+    return false;
+  };
+
+  const handleCopyCompanionUrl = async () => {
+    const ok = await copyTextSafely(getCompanionUrl());
+    if (ok) {
+      setCopiedLink(true);
+      if (copyTimerRef.current) clearTimeout(copyTimerRef.current);
+      copyTimerRef.current = setTimeout(() => setCopiedLink(false), 2000);
+    }
   };
 
   const isDefaultP1 = p1.name === 'Giocatore 1' || p1.name === 'Player 1';
   const isDefaultP2 = p2.name === 'Giocatore 2' || p2.name === 'Player 2';
   const p1Value = isDefaultP1 ? t('lobby.p1', settings.language) : p1.name;
   const p2Value = isDefaultP2 ? t('lobby.p2', settings.language) : p2.name;
+
+  const displayedP1Name =
+    settings.mode === 'party' && partyPlayers[0]
+      ? localizePlayerName(partyPlayers[0].name, settings.language)
+      : p1Value;
+  const displayedP2Name =
+    settings.mode === 'party' && partyPlayers[1]
+      ? localizePlayerName(partyPlayers[1].name, settings.language)
+      : p2Value;
 
   const handleSelectAvatar = (avatar: string) => {
     if (avatarPickerFor === 'p1') {
@@ -176,7 +271,8 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
     currentMode === 'duel' &&
     settings.micMode === 'discord-p2p' &&
     !isDiscordActivity &&
-    !p2RemoteConnected;
+    !p2RemoteConnected &&
+    !p1RemoteConnected;
   const availableCategories = filterCategories(categories, settings.language, 'all');
 
   const voiceTestSection = !isDiscordActivity && (
@@ -223,6 +319,11 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
           </div>
         </div>
       )}
+      {micError && (
+        <p className="text-xs font-bold text-red bg-red/10 border border-red/30 rounded-lg px-2.5 py-1.5">
+          {micError}
+        </p>
+      )}
     </div>
   );
 
@@ -247,8 +348,11 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         <header className="w-full flex flex-wrap sm:grid sm:grid-cols-[1fr_auto_1fr] items-center justify-between gap-y-2.5 sm:gap-4">
           <div className="order-1 sm:justify-self-start flex items-center gap-2 min-h-[44px]">
             {isDiscordActivity ? (
-              <div className="px-3.5 py-1.5 rounded-xl bg-[#5865F2] text-white font-display font-black text-xs sm:text-sm border-[3px] border-ink shadow-hard-sm flex items-center gap-1.5">
+              <div className="px-3.5 py-1.5 rounded-xl bg-[#5865F2] text-white font-display font-black text-xs sm:text-sm border-[3px] border-ink shadow-hard-sm flex items-center gap-2">
                 <span>🎮 DISCORD ACTIVITY</span>
+                <span className="px-2 py-0.5 rounded-md bg-white/20 text-[11px] font-mono">
+                  {roomTag}
+                </span>
               </div>
             ) : canInstallPwa ? (
               <button
@@ -432,6 +536,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                   disabled={needsDiscordConnection}
                   onClick={() => {
                     if (needsDiscordConnection) return;
+                    soundEngine.unlock();
                     recognizerRef.current?.stop();
                     onStartGame();
                   }}
@@ -483,7 +588,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                     <label className="font-display font-bold text-sm text-ink/80">
                       {t('lobby.duration', settings.language)}
                     </label>
-                    <div className="grid grid-cols-4 gap-2">
+                    <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
                       {gameConfig.options.soloDurations.map((sec) => (
                         <button
                           key={`solo-dur-${sec}`}
@@ -512,6 +617,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 <button
                   type="button"
                   onClick={() => {
+                    soundEngine.unlock();
                     recognizerRef.current?.stop();
                     onStartGame();
                   }}
@@ -532,7 +638,9 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                     </label>
                     <div className="flex flex-col gap-2 max-h-44 overflow-y-auto pr-1">
                       {partyPlayers.map((player, idx) => {
-                        const colorDef = getPlayerColor(idx);
+                        const colorDef = getPlayerColor(
+                          typeof player.colorIndex === 'number' ? player.colorIndex : idx
+                        );
                         return (
                           <div key={player.id} className="flex items-center gap-2.5">
                             {/* Player Color Indicator Ring + Avatar */}
@@ -561,8 +669,8 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                               className="min-w-0 flex-1 bg-white border-[3px] border-ink rounded-xl px-3 py-1.5 font-display text-base text-ink focus:outline-none focus:ring-2 focus:ring-yellow"
                             />
 
-                            {/* Part D: Every player row beyond the 2 minimum has a visible remove button */}
-                            {partyPlayers.length > 2 && onRemovePartyPlayer && (
+                            {/* Part D: Every player row beyond the 3 minimum has a visible remove button */}
+                            {partyPlayers.length > 3 && onRemovePartyPlayer && (
                               <button
                                 type="button"
                                 onClick={() => onRemovePartyPlayer(player.id)}
@@ -588,26 +696,50 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                     )}
                   </div>
 
-                  {/* Time per turn */}
-                  <div className="flex flex-col gap-1.5">
-                    <label className="font-display font-bold text-sm text-ink/80">
-                      {t('lobby.timePerPlayer', settings.language)}
-                    </label>
-                    <div className="grid grid-cols-3 gap-2">
-                      {gameConfig.options.duelDurations.map((sec) => (
-                        <button
-                          key={`dur-${sec}`}
-                          type="button"
-                          onClick={() => onUpdateSettings({ duelDurationSeconds: sec })}
-                          className={`min-h-[40px] py-1.5 rounded-xl font-display text-sm border-[3px] border-ink transition-all ${
-                            settings.duelDurationSeconds === sec
-                              ? 'bg-yellow text-ink shadow-hard-sm font-black'
-                              : 'bg-white text-ink/80 hover:bg-paper font-bold'
-                          }`}
-                        >
-                          {sec}<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
-                        </button>
-                      ))}
+                  {/* Points to win + Time per turn in Party */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div className="flex flex-col gap-1.5">
+                      <label className="font-display font-bold text-xs uppercase tracking-wider text-ink/70">
+                        {t('lobby.pointsToWin', settings.language)}
+                      </label>
+                      <div className="grid grid-cols-4 gap-1.5">
+                        {([3, 5, 7, 0] as TargetWinsOption[]).map((opt) => (
+                          <button
+                            key={`party-pts-${opt}`}
+                            type="button"
+                            onClick={() => onUpdateSettings({ targetWins: opt })}
+                            className={`min-h-[40px] py-1.5 px-1 rounded-xl font-display text-xs sm:text-sm border-[3px] border-ink transition-all leading-tight ${
+                              settings.targetWins === opt
+                                ? 'bg-yellow text-ink shadow-hard-sm font-black'
+                                : 'bg-white text-ink/80 hover:bg-paper font-bold'
+                            }`}
+                          >
+                            {opt === 0 ? t('lobby.freePlay', settings.language) : `${opt} pt`}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-1.5">
+                      <label className="font-display font-bold text-xs uppercase tracking-wider text-ink/70">
+                        {t('lobby.timePerPlayer', settings.language)}
+                      </label>
+                      <div className="grid grid-cols-3 gap-1.5">
+                        {gameConfig.options.duelDurations.map((sec) => (
+                          <button
+                            key={`dur-${sec}`}
+                            type="button"
+                            onClick={() => onUpdateSettings({ duelDurationSeconds: sec })}
+                            className={`min-h-[40px] py-1.5 rounded-xl font-display text-sm border-[3px] border-ink transition-all ${
+                              settings.duelDurationSeconds === sec
+                                ? 'bg-yellow text-ink shadow-hard-sm font-black'
+                                : 'bg-white text-ink/80 hover:bg-paper font-bold'
+                            }`}
+                          >
+                            {sec}<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -616,6 +748,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 <button
                   type="button"
                   onClick={() => {
+                    soundEngine.unlock();
                     recognizerRef.current?.stop();
                     onStartGame();
                   }}
@@ -629,19 +762,21 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
 
           {/* RIGHT STAGE: AUDIO / CONNECTION + CATEGORIES DECK SHOWCASE */}
           <div className="lg:col-span-5 flex flex-col justify-between gap-3.5">
-            {/* Voice & Connection Card (Full selector in 1v1, Mic Check in Solo/Party) */}
-            {currentMode === 'duel' ? (
+            {/* Voice & Connection Card (Full selector in 1v1 & Party, Mic Check in Solo) */}
+            {currentMode !== 'solo' ? (
               isDiscordActivity ? (
                 <div className="card-paper p-4 flex flex-col gap-3 border-[3px] border-ink bg-paper shadow-hard">
-                  <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center justify-between gap-2">
                     <div className="flex items-center gap-2.5 min-w-0">
                       <div className="w-10 h-10 rounded-xl bg-[#5865F2] text-white flex items-center justify-center font-display font-black text-xl border-[3px] border-ink shadow-hard-sm shrink-0">
                         🎙️
                       </div>
                       <div className="min-w-0">
                         <h4 className="font-display font-black text-sm sm:text-base text-ink leading-tight flex items-center gap-1.5 flex-wrap">
-                          <span>{settings.language === 'en' ? 'Discord Voice Channel' : 'Canale Vocale Discord'}</span>
-                          <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-[#5865F2] text-white">Activity</span>
+                          <span>{settings.language === 'en' ? 'Discord Room' : 'Stanza Discord'}</span>
+                          <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-[#5865F2] text-white font-mono">
+                            {roomTag}
+                          </span>
                         </h4>
                         <p className="font-sans font-semibold text-xs text-ink/75 mt-0.5 truncate">
                           {settings.language === 'en'
@@ -651,31 +786,110 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                       </div>
                     </div>
 
-                    {p2RemoteConnected && (
-                      <span className="px-2.5 py-1 rounded-full bg-green text-ink font-display font-bold text-xs border-[2px] border-ink shadow-hard-sm shrink-0">
-                        📱 OK
-                      </span>
-                    )}
+                    <button
+                      type="button"
+                      onClick={handleCopyRoomCode}
+                      className="btn-push px-2.5 py-1 rounded-lg bg-white text-ink border-2 border-ink font-display font-bold text-[11px] shrink-0"
+                    >
+                      {copiedRoomCode
+                        ? '✓'
+                        : settings.language === 'en'
+                        ? 'Copy ID'
+                        : 'Copia ID'}
+                    </button>
                   </div>
 
-                  <button
-                    type="button"
-                    onClick={() => setPhoneModalOpen(true)}
-                    className="btn-push w-full py-2 px-3 rounded-xl bg-yellow text-ink font-display font-black text-xs flex items-center justify-center gap-2 shadow-hard-sm"
-                  >
-                    <span>📱</span>
-                    <span>
-                      {p2RemoteConnected
-                        ? (settings.language === 'en' ? 'Phone Mic Active' : 'Microfono Telefono Attivo')
-                        : (settings.language === 'en' ? 'Connect Phone Mic (QR)' : 'Collega Microfono Telefono (QR)')}
-                    </span>
-                  </button>
+                  {/* Connected players status pills in Discord Activity */}
+                  <div className="grid grid-cols-2 gap-2">
+                    <div
+                      className={`px-2.5 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-1.5 ${
+                        p1RemoteConnected ? 'bg-green text-ink' : 'bg-white text-ink/80'
+                      }`}
+                    >
+                      <span className="truncate">G1: {displayedP1Name}</span>
+                      <span className="shrink-0 text-[10px]">
+                        {p1RemoteConnected ? '📱 OK' : '💻 Host'}
+                      </span>
+                    </div>
+                    <div
+                      className={`px-2.5 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-1.5 ${
+                        p2RemoteConnected ? 'bg-green text-ink' : 'bg-yellow/35 text-ink'
+                      }`}
+                    >
+                      <span className="truncate">G2: {displayedP2Name}</span>
+                      <span className="shrink-0 text-[10px]">
+                        {p2RemoteConnected
+                          ? '📱 OK'
+                          : settings.language === 'en'
+                          ? '⏳ Wait'
+                          : '⏳ Attesa'}
+                      </span>
+                    </div>
+                  </div>
+
+                  {remoteJoinNotice && (
+                    <div className="px-3 py-1.5 rounded-xl bg-green/90 text-ink border-2 border-ink font-display font-bold text-xs animate-card-deal">
+                      ✨ {remoteJoinNotice}
+                    </div>
+                  )}
+
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      type="button"
+                      onClick={handleCopyCompanionUrl}
+                      className="btn-push py-2 px-3 rounded-xl bg-white text-ink font-display font-bold text-xs flex items-center justify-center gap-1.5 shadow-hard-sm"
+                    >
+                      {copiedLink ? (
+                        <>
+                          <Check className="w-3.5 h-3.5 text-green" />
+                          <span>{t('lobby.copied', settings.language)}</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="w-3.5 h-3.5" />
+                          <span>{t('lobby.copyLink', settings.language)}</span>
+                        </>
+                      )}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setPhoneModalOpen(true)}
+                      className="btn-push py-2 px-3 rounded-xl bg-yellow text-ink font-display font-black text-xs flex items-center justify-center gap-1.5 shadow-hard-sm"
+                    >
+                      <span>📱</span>
+                      <span>
+                        {p1RemoteConnected || p2RemoteConnected
+                          ? (settings.language === 'en' ? 'Manage QR' : 'Gestisci QR')
+                          : 'QR / G1-G2'}
+                      </span>
+                    </button>
+                  </div>
                 </div>
               ) : (
                 <div className="card-paper p-4 flex flex-col gap-3">
-                  <span className="font-display font-bold text-xs uppercase tracking-wider text-ink/70">
-                    {t('lobby.howToPlay', settings.language)}
-                  </span>
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-display font-bold text-xs uppercase tracking-wider text-ink/70">
+                      {t('lobby.howToPlay', settings.language)}
+                    </span>
+                    {settings.micMode === 'discord-p2p' && (
+                      <button
+                        type="button"
+                        onClick={handleCopyRoomCode}
+                        className="px-2 py-0.5 rounded-lg bg-white hover:bg-yellow border-2 border-ink font-display font-black text-[11px] text-ink shadow-hard-sm flex items-center gap-1"
+                        title={roomCode}
+                      >
+                        <span>
+                          {settings.language === 'en'
+                            ? `Room ${roomTag}`
+                            : `Stanza ${roomTag}`}
+                        </span>
+                        <span className="text-[10px] opacity-70">
+                          {copiedRoomCode ? '✓' : '📋'}
+                        </span>
+                      </button>
+                    )}
+                  </div>
+
                   <div className="grid grid-cols-2 gap-2.5">
                     {/* Same Room Card */}
                     <button
@@ -715,7 +929,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                             {t('lobby.onDiscord', settings.language)}
                           </span>
                         </div>
-                        {p2RemoteConnected && (
+                        {(p1RemoteConnected || p2RemoteConnected) && (
                           <span className="w-2.5 h-2.5 rounded-full bg-green border border-ink shrink-0" title="Connected" />
                         )}
                       </div>
@@ -751,26 +965,134 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                             </>
                           )}
                         </button>
+                        <button
+                          type="button"
+                          onClick={() => setPhoneModalOpen(true)}
+                          className="btn-push px-2.5 py-1.5 rounded-xl bg-white text-ink font-display font-bold text-xs shrink-0"
+                          title="QR / Slot G1-G2"
+                        >
+                          📱 QR
+                        </button>
                       </div>
 
-                      <div
-                        className={`px-3 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-2 ${
-                          p2RemoteConnected
-                            ? 'bg-green text-ink'
-                            : 'bg-yellow/35 text-ink'
-                        }`}
-                      >
-                        <span className="truncate">
-                          {p2RemoteConnected
-                            ? t('lobby.connected', settings.language, { p2: p2Value })
-                            : `⏳ ${t('lobby.waitingConnection', settings.language)}`}
-                        </span>
-                        <span
-                          className={`w-2.5 h-2.5 rounded-full border border-ink shrink-0 ${
-                            p2RemoteConnected ? 'bg-paper' : 'bg-yellow animate-pulse'
+                      {/* Slot status pills + room confirmation */}
+                      <div className="grid grid-cols-2 gap-1.5">
+                        <div
+                          className={`px-2.5 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-1 ${
+                            p1RemoteConnected ? 'bg-green text-ink' : 'bg-white text-ink/80'
                           }`}
-                        />
+                        >
+                          <span className="truncate">G1: {displayedP1Name}</span>
+                          <span className="text-[10px] shrink-0">
+                            {p1RemoteConnected ? '📱 OK' : '💻 Host'}
+                          </span>
+                        </div>
+                        <div
+                          className={`px-2.5 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-1 ${
+                            p2RemoteConnected ? 'bg-green text-ink' : 'bg-yellow/35 text-ink'
+                          }`}
+                        >
+                          <span className="truncate">G2: {displayedP2Name}</span>
+                          <span className="text-[10px] shrink-0">
+                            {p2RemoteConnected
+                              ? '📱 OK'
+                              : settings.language === 'en'
+                              ? '⏳ Wait'
+                              : '⏳ Attesa'}
+                          </span>
+                        </div>
                       </div>
+
+                      {remoteJoinNotice && (
+                        <div className="px-3 py-1.5 rounded-xl bg-green text-ink border-2 border-ink font-display font-bold text-xs animate-card-deal">
+                          ✨ {remoteJoinNotice}
+                        </div>
+                      )}
+
+                      {onJoinRoom && (
+                        <div className="pt-1 border-t border-ink/15">
+                          {!joinPanelOpen ? (
+                            <button
+                              type="button"
+                              onClick={() => setJoinPanelOpen(true)}
+                              className="text-[11px] font-display font-bold text-ink/75 hover:text-ink underline cursor-pointer"
+                            >
+                              {settings.language === 'en'
+                                ? 'Join an existing room by code or link'
+                                : 'Entra in una stanza esistente tramite codice o link'}
+                            </button>
+                          ) : (
+                            <form
+                              onSubmit={handleJoinSubmit}
+                              className="flex flex-col gap-1.5 bg-paper/70 p-2 rounded-xl border-2 border-ink/30"
+                            >
+                              <div className="flex items-center justify-between gap-2">
+                                <span className="text-[11px] font-display font-black text-ink">
+                                  {settings.language === 'en' ? 'Join Room' : 'Entra nella stanza'}
+                                </span>
+                                <div className="flex items-center gap-1">
+                                  {(['p1', 'p2'] as RemoteSlot[]).map((s) => (
+                                    <button
+                                      key={s}
+                                      type="button"
+                                      onClick={() => setJoinSlot(s)}
+                                      className={`px-2 py-0.5 rounded-md border border-ink font-display font-black text-[10px] ${
+                                        joinSlot === s
+                                          ? s === 'p1'
+                                            ? 'bg-blue text-paper'
+                                            : 'bg-red text-paper'
+                                          : 'bg-white text-ink'
+                                      }`}
+                                    >
+                                      {s.toUpperCase()}
+                                    </button>
+                                  ))}
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      setJoinPanelOpen(false);
+                                      setJoinError(false);
+                                    }}
+                                    className="px-1.5 text-xs font-bold text-ink/60 hover:text-ink"
+                                    aria-label="Chiudi"
+                                  >
+                                    ✕
+                                  </button>
+                                </div>
+                              </div>
+                              <div className="flex items-center gap-1.5">
+                                <input
+                                  type="text"
+                                  value={joinCodeInput}
+                                  onChange={(e) => {
+                                    setJoinCodeInput(e.target.value);
+                                    setJoinError(false);
+                                  }}
+                                  placeholder={
+                                    settings.language === 'en'
+                                      ? 'Paste room code or link...'
+                                      : 'Incolla codice stanza o link...'
+                                  }
+                                  className="min-w-0 flex-1 px-2.5 py-1 rounded-lg bg-white border-2 border-ink text-xs text-ink font-sans focus:outline-none focus:ring-2 focus:ring-yellow"
+                                />
+                                <button
+                                  type="submit"
+                                  className="btn-push px-3 py-1 rounded-lg bg-yellow text-ink font-display font-black text-xs shrink-0"
+                                >
+                                  {settings.language === 'en' ? 'Join' : 'Entra'}
+                                </button>
+                              </div>
+                              {joinError && (
+                                <p className="text-[11px] font-bold text-red">
+                                  {settings.language === 'en'
+                                    ? 'Enter a valid room code or invite URL.'
+                                    : 'Inserisci un codice stanza o link valido.'}
+                                </p>
+                              )}
+                            </form>
+                          )}
+                        </div>
+                      )}
                     </div>
                   )}
 
@@ -839,11 +1161,17 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
       {/* AVATAR POPOVER                                                 */}
       {/* ============================================================== */}
       {avatarPickerFor && (
-        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4">
-          <div className="card-paper max-w-xs w-full p-5 modal-slap-in">
+        <div
+          className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4"
+          onClick={() => setAvatarPickerFor(null)}
+        >
+          <div
+            className="card-paper max-w-xs w-full p-5 modal-slap-in"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-center justify-between mb-4 pb-2 border-b-2 border-ink">
               <h3 className="font-display font-black text-xl text-ink">
-                Choose Avatar
+                {settings.language === 'en' ? 'Choose Avatar' : 'Scegli Avatar'}
               </h3>
               <button
                 type="button"
@@ -874,8 +1202,14 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
       {/* B2: SETTINGS MODAL (SLAPS IN, 28px TITLE, 16px BODY, SWITCHES) */}
       {/* ============================================================== */}
       {showSettingsModal && (
-        <div className="fixed inset-0 z-50 bg-[#0F0E1A]/90 flex items-center justify-center p-4">
-          <div className="card-paper max-w-md w-full p-6 sm:p-8 flex flex-col gap-5 modal-slap-in">
+        <div
+          className="fixed inset-0 z-50 bg-[#0F0E1A]/90 flex items-center justify-center p-4"
+          onClick={() => setShowSettingsModal(false)}
+        >
+          <div
+            className="card-paper max-w-md w-full max-h-[90dvh] overflow-y-auto p-6 sm:p-8 flex flex-col gap-5 modal-slap-in"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-center justify-between pb-3 border-b-2 border-ink">
               <h2 className="font-display font-black text-[28px] text-ink leading-tight">
                 {t('lobby.settings', settings.language)}
@@ -930,13 +1264,41 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 type="button"
                 role="switch"
                 aria-checked={settings.soundEnabled}
-                onClick={() => onUpdateSettings({ soundEnabled: !settings.soundEnabled })}
-                className={`w-18 h-10 rounded-full border-[3px] border-ink p-1 transition-colors relative flex items-center ${
+                onClick={() => {
+                  soundEngine.unlock();
+                  onUpdateSettings({ soundEnabled: !settings.soundEnabled });
+                }}
+                className={`w-16 h-10 rounded-full border-[3px] border-ink p-1 transition-colors relative flex items-center ${
                   settings.soundEnabled ? 'bg-green justify-end' : 'bg-paper justify-start'
                 }`}
               >
                 <span className="font-display font-black text-xs px-1.5 text-ink select-none">
                   {settings.soundEnabled
+                    ? t('lobby.switchOn', settings.language)
+                    : t('lobby.switchOff', settings.language)}
+                </span>
+                <span className="w-7 h-7 rounded-full bg-white border-2 border-ink shadow-hard-sm block shrink-0" />
+              </button>
+            </div>
+
+            {/* Announcer Toggle Switch */}
+            <div className="flex items-center justify-between py-3 border-b-2 border-ink">
+              <span className="font-display font-bold text-base text-ink">
+                {settings.language === 'en' ? 'Voice Announcer' : 'Annunciatore Vocale'}
+              </span>
+              <button
+                type="button"
+                role="switch"
+                aria-checked={settings.announcerEnabled}
+                onClick={() =>
+                  onUpdateSettings({ announcerEnabled: !settings.announcerEnabled })
+                }
+                className={`w-16 h-10 rounded-full border-[3px] border-ink p-1 transition-colors relative flex items-center ${
+                  settings.announcerEnabled ? 'bg-green justify-end' : 'bg-paper justify-start'
+                }`}
+              >
+                <span className="font-display font-black text-xs px-1.5 text-ink select-none">
+                  {settings.announcerEnabled
                     ? t('lobby.switchOn', settings.language)
                     : t('lobby.switchOff', settings.language)}
                 </span>
@@ -954,7 +1316,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 role="switch"
                 aria-checked={settings.hapticsEnabled}
                 onClick={() => onUpdateSettings({ hapticsEnabled: !settings.hapticsEnabled })}
-                className={`w-18 h-10 rounded-full border-[3px] border-ink p-1 transition-colors relative flex items-center ${
+                className={`w-16 h-10 rounded-full border-[3px] border-ink p-1 transition-colors relative flex items-center ${
                   settings.hapticsEnabled ? 'bg-green justify-end' : 'bg-paper justify-start'
                 }`}
               >
@@ -1029,13 +1391,12 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 {/* Copia JSON negli appunti */}
                 <button
                   type="button"
-                  onClick={() => {
-                    const json = blacklistService.exportBlacklistJson();
-                    if (navigator.clipboard) {
-                      navigator.clipboard.writeText(json).then(() => {
-                        setCopiedBlacklist(true);
-                        setTimeout(() => setCopiedBlacklist(false), 2000);
-                      });
+                  onClick={async () => {
+                    const ok = await copyTextSafely(blacklistService.exportBlacklistJson());
+                    if (ok) {
+                      setCopiedBlacklist(true);
+                      if (blacklistCopyTimerRef.current) clearTimeout(blacklistCopyTimerRef.current);
+                      blacklistCopyTimerRef.current = setTimeout(() => setCopiedBlacklist(false), 2000);
                     }
                   }}
                   className="btn-push py-2 px-3 rounded-lg bg-white text-ink font-display font-bold text-xs border-2 border-ink flex items-center justify-center gap-1.5 hover:bg-yellow transition-colors cursor-pointer"
@@ -1056,7 +1417,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
               onClick={() => setShowSettingsModal(false)}
               className="btn-push w-full py-3.5 rounded-xl bg-yellow text-ink font-display font-black text-base uppercase border-[3px] border-ink shadow-hard"
             >
-              Done
+              {settings.language === 'en' ? 'Done' : 'Fatto'}
             </button>
 
             <div className="text-center text-[11px] font-mono font-bold text-ink/40 pt-1">
@@ -1066,12 +1427,57 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         </div>
       )}
 
-      {/* Phone Mic QR Modal (Exclusive for Discord Activity or remote pairing) */}
+      {/* iOS Safari Install Guide Modal */}
+      {showIosInstallGuide && (
+        <div
+          className="fixed inset-0 z-50 bg-black/75 flex items-center justify-center p-4"
+          onClick={() => setShowIosInstallGuide(false)}
+        >
+          <div
+            className="card-paper max-w-sm w-full p-6 flex flex-col gap-4 text-center modal-slap-in"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <h3 className="font-display font-black text-xl text-ink">
+              {settings.language === 'en' ? 'Install on iPhone / iPad' : 'Installa su iPhone / iPad'}
+            </h3>
+            <ol className="text-sm font-sans font-medium text-ink/85 text-left space-y-2 list-decimal list-inside">
+              <li>
+                {settings.language === 'en'
+                  ? 'Tap the Share icon at the bottom or top of Safari.'
+                  : 'Tocca il tasto Condividi in basso o in alto su Safari.'}
+              </li>
+              <li>
+                {settings.language === 'en'
+                  ? 'Scroll down and choose "Add to Home Screen".'
+                  : 'Scorri e scegli "Aggiungi alla schermata Home".'}
+              </li>
+              <li>
+                {settings.language === 'en'
+                  ? 'Tap "Add" to launch Yappik full screen!'
+                  : 'Tocca "Aggiungi" per aprire Yappik a schermo intero!'}
+              </li>
+            </ol>
+            <button
+              type="button"
+              onClick={() => setShowIosInstallGuide(false)}
+              className="btn-push w-full py-3 rounded-xl bg-yellow text-ink font-display font-black text-sm border-[3px] border-ink shadow-hard-sm"
+            >
+              {settings.language === 'en' ? 'Got it' : 'Ho capito'}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Phone Mic QR Modal */}
       <PhoneMicModal
         isOpen={phoneModalOpen}
         onClose={() => setPhoneModalOpen(false)}
         roomCode={roomCode}
         isConnected={p2RemoteConnected}
+        p1Connected={p1RemoteConnected}
+        p2Connected={p2RemoteConnected}
+        p1Name={displayedP1Name}
+        p2Name={displayedP2Name}
         language={settings.language}
       />
     </div>

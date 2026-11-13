@@ -140,5 +140,17 @@ describe('blacklistService', () => {
         ])
       );
     });
+
+    it('unwraps wsrv.nl backup proxy URLs so only the inner image URL is flagged', () => {
+      const innerA = 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Bad.jpg';
+      const innerB = 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Good.jpg';
+      const wrappedBad = `https://wsrv.nl/?url=${encodeURIComponent(innerA)}&w=960`;
+      const wrappedGood = `https://wsrv.nl/?url=${encodeURIComponent(innerB)}&w=960`;
+
+      blacklistService.flagImage(wrappedBad, { answer: 'Test' });
+      expect(blacklistService.isBlacklisted(wrappedBad)).toBe(true);
+      expect(blacklistService.isBlacklisted(innerA)).toBe(true);
+      expect(blacklistService.isBlacklisted(wrappedGood)).toBe(false);
+    });
   });
 });

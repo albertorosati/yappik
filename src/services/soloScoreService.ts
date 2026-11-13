@@ -5,12 +5,27 @@
 
 const STORAGE_PREFIX = 'the_floor_solo_best_';
 
+function makeBestKey(categoryId: string, durationSeconds?: number): string {
+  if (typeof durationSeconds === 'number') {
+    return `${STORAGE_PREFIX}${categoryId}_${durationSeconds}s`;
+  }
+  return `${STORAGE_PREFIX}${categoryId}`;
+}
+
 export const soloScoreService = {
-  getSoloBest(categoryId: string): number {
+  getSoloBest(categoryId: string, durationSeconds?: number): number {
     if (typeof window === 'undefined' || !window.localStorage) return 0;
     try {
-      const val = localStorage.getItem(`${STORAGE_PREFIX}${categoryId}`);
-      return val ? parseInt(val, 10) || 0 : 0;
+      const val = localStorage.getItem(makeBestKey(categoryId, durationSeconds));
+      if (val !== null) {
+        return parseInt(val, 10) || 0;
+      }
+      // Fallback legacy solo per la durata classica 60s (così 30s/45s/90s/0s partono puliti)
+      if (durationSeconds === 60) {
+        const legacy = localStorage.getItem(`${STORAGE_PREFIX}${categoryId}`);
+        return legacy ? parseInt(legacy, 10) || 0 : 0;
+      }
+      return 0;
     } catch {
       return 0;
     }
@@ -18,14 +33,15 @@ export const soloScoreService = {
 
   saveSoloBest(
     categoryId: string,
-    score: number
+    score: number,
+    durationSeconds?: number
   ): { isNewBest: boolean; previousBest: number } {
-    const previousBest = this.getSoloBest(categoryId);
+    const previousBest = this.getSoloBest(categoryId, durationSeconds);
     const isNewBest = score > previousBest;
 
     if (isNewBest && typeof window !== 'undefined' && window.localStorage) {
       try {
-        localStorage.setItem(`${STORAGE_PREFIX}${categoryId}`, String(score));
+        localStorage.setItem(makeBestKey(categoryId, durationSeconds), String(score));
       } catch (err) {
         console.warn('Impossibile salvare il record personale su localStorage:', err);
       }

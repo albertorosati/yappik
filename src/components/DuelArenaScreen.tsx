@@ -25,13 +25,16 @@ import { soundEngine } from '../engine/soundEffects';
 import { hapticsService } from '../services/hapticsService';
 import {
   getBackupImageUrl,
-  getResolvedImageUrl,
   isImageCached,
   prepareArenaDeck,
   primeImage,
-  getItemImagePool,
 } from '../data/categories';
-import { isRenderedImageHealthy, markItemSeen } from '../utils/itemUtils';
+import {
+  buildItemImageFallbackChain,
+  isRenderedImageHealthy,
+  markItemSeen,
+} from '../utils/itemUtils';
+import { getPlayerColor } from '../utils/playerColors';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { t, localizePlayerName } from '../services/i18n';
@@ -48,12 +51,16 @@ interface DuelArenaScreenProps {
   p2: PlayerConfig;
   initialPlayer: PlayerId;
   settings: GameSettings;
+  p1RemoteConnected?: boolean;
   p2RemoteConnected: boolean;
-  latestRemotePacket: RemoteMicPacket | null;
+  latestRemotePacket?: RemoteMicPacket | null;
+  subscribeRemotePackets?: (cb: (packet: RemoteMicPacket) => void) => () => void;
   onSendRemoteState: (packet: RemoteMicPacket) => void;
   onDuelFinished: (summary: DuelSummary) => void;
   isDiscordActivity?: boolean;
   roomCode?: string;
+  p1ColorIndex?: number;
+  p2ColorIndex?: number;
 }
 
 export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
@@ -63,13 +70,24 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   p2,
   initialPlayer,
   settings,
+  p1RemoteConnected = false,
   p2RemoteConnected,
-  latestRemotePacket,
+  latestRemotePacket = null,
+  subscribeRemotePackets,
   onSendRemoteState,
   onDuelFinished,
   isDiscordActivity = false,
   roomCode = '',
+  p1ColorIndex,
+  p2ColorIndex,
 }) => {
+  const p1Color = getPlayerColor(
+    typeof p1ColorIndex === 'number' ? p1ColorIndex : p1.id
+  );
+  const p2Color = getPlayerColor(
+    typeof p2ColorIndex === 'number' ? p2ColorIndex : p2.id
+  );
+
   const [deck, setDeck] = useState<DuelItem[]>(() =>
     prepareArenaDeck(category.items)
   );
@@ -106,8 +124,27 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   const [micVolume, setMicVolume] = useState(0);
   const [micListening, setMicListening] = useState(false);
   const [micErrorMsg, setMicErrorMsg] = useState<string | null>(null);
-  const [usingBackupUrl, setUsingBackupUrl] = useState(false);
+  const [fallbackIndex, setFallbackIndex] = useState(0);
   const [phoneModalOpen, setPhoneModalOpen] = useState(false);
+
+  const actionLockRef = useRef<boolean>(false);
+  const finishedTriggeredRef = useRef<boolean>(false);
+  const clearBufferSeqRef = useRef<number>(0);
+  const pendingTimersRef = useRef<Set<ReturnType<typeof setTimeout>>>(new Set());
+
+  const scheduleTimeout = useCallback((fn: () => void, ms: number) => {
+    const timer = setTimeout(() => {
+      pendingTimersRef.current.delete(timer);
+      fn();
+    }, ms);
+    pendingTimersRef.current.add(timer);
+    return timer;
+  }, []);
+
+  const clearAllPendingTimers = useCallback(() => {
+    pendingTimersRef.current.forEach((timer) => clearTimeout(timer));
+    pendingTimersRef.current.clear();
+  }, []);
 
   // End of duel sequences:
   const [duelFinishPhase, setDuelFinishPhase] = useState<'reveal' | 'winner' | null>(null);
@@ -120,21 +157,18 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   const [screenShake, setScreenShake] = useState(false);
   const [photoShake, setPhotoShake] = useState(false);
   const finishTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   const brokenIdsRef = useRef<Set<string>>(new Set());
   const resolvedUrlsRef = useRef<Map<string, string>>(new Map());
-
-  const [photoOverride, setPhotoOverride] = useState<string | null>(null);
   const [reportToast, setReportToast] = useState(false);
   const reportTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const currentItem = deck[itemIndex % deck.length];
+  const fallbackChain = buildItemImageFallbackChain(currentItem, getBackupImageUrl);
+  const resolvedCached = resolvedUrlsRef.current.get(currentItem.id);
   const displaySrc =
-    photoOverride ||
-    (usingBackupUrl
-      ? getBackupImageUrl(currentItem.imageUrl)
-      : resolvedUrlsRef.current.get(currentItem.id) ||
-        getResolvedImageUrl(currentItem.imageUrl));
+    fallbackIndex === 0 && resolvedCached
+      ? resolvedCached
+      : fallbackChain[fallbackIndex] || fallbackChain[0] || currentItem.imageUrl;
 
   useEffect(() => {
     if (currentItem?.id) {
@@ -143,28 +177,43 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   }, [currentItem?.id]);
 
   const [imageLoaded, setImageLoaded] = useState(() => isImageCached(displaySrc));
+  const fallbackIndexRef = useRef(0);
+  fallbackIndexRef.current = fallbackIndex;
+
+  const tryNextImageFallback = useCallback(() => {
+    if (fallbackIndexRef.current + 1 < fallbackChain.length) {
+      setFallbackIndex(fallbackIndexRef.current + 1);
+    } else {
+      if (currentItem) {
+        brokenIdsRef.current.add(currentItem.id);
+      }
+      setImageLoaded(true);
+    }
+  }, [fallbackChain.length, currentItem]);
 
   // Preload current image
   useEffect(() => {
+    let cancelled = false;
     const cached = isImageCached(displaySrc);
     setImageLoaded(cached);
     if (!cached) {
       primeImage(displaySrc)
         .then((finalSrc) => {
-          if (finalSrc && currentItem) {
+          if (cancelled) return;
+          if (finalSrc && currentItem && fallbackIndex === 0) {
             resolvedUrlsRef.current.set(currentItem.id, finalSrc);
           }
           setImageLoaded(true);
         })
         .catch(() => {
-          if (!usingBackupUrl) {
-            setUsingBackupUrl(true);
-          } else {
-            setImageLoaded(true);
-          }
+          if (cancelled) return;
+          tryNextImageFallback();
         });
     }
-  }, [displaySrc, currentItem, usingBackupUrl]);
+    return () => {
+      cancelled = true;
+    };
+  }, [displaySrc, currentItem, fallbackIndex, tryNextImageFallback]);
 
   // Rolling preloader
   useEffect(() => {
@@ -189,9 +238,22 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     }
   }, [deck, itemIndex]);
 
+  useEffect(() => {
+    return () => {
+      clearAllPendingTimers();
+      if (finishTimerRef.current) clearTimeout(finishTimerRef.current);
+      if (reportTimerRef.current) clearTimeout(reportTimerRef.current);
+    };
+  }, [clearAllPendingTimers]);
+
   const stateRef = useRef({
     activePlayer,
     currentItem,
+    deck,
+    itemIndex,
+    imageLoaded,
+    phoneModalOpen,
+    duelFinishPhase,
     isPaused,
     revealedAnswer,
     p1Streak,
@@ -209,6 +271,11 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     stateRef.current = {
       activePlayer,
       currentItem,
+      deck,
+      itemIndex,
+      imageLoaded,
+      phoneModalOpen,
+      duelFinishPhase,
       isPaused,
       revealedAnswer,
       p1Streak,
@@ -223,6 +290,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     };
   });
 
+  const handleTimeExpiredRef = useRef<(loser: PlayerId) => void>(() => {});
   const ignoreVoiceUntilRef = useRef<number>(0);
   const passGuardRef = useRef<PassCommandGuard>(new PassCommandGuard(320));
   const recognizerRef = useRef<SmartSpeechRecognizer | null>(null);
@@ -255,31 +323,33 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   }, [currentLeader, p1.name, p2.name, settings.language]);
 
   const advanceToNextImage = useCallback(() => {
+    actionLockRef.current = false;
     ignoreVoiceUntilRef.current = Math.max(
       ignoreVoiceUntilRef.current,
       performance.now() + 250
     );
+    clearBufferSeqRef.current += 1;
     recognizerRef.current?.consumeCurrentBuffer();
-    setUsingBackupUrl(false);
-    setPhotoOverride(null);
-    setItemIndex((prev) => {
-      let next = prev + 1;
-      let safety = 0;
-      while (
-        next < deck.length &&
-        brokenIdsRef.current.has(deck[next].id) &&
-        safety < deck.length
-      ) {
-        next++;
-        safety++;
-      }
-      if (next >= deck.length) {
-        setDeck(prepareArenaDeck(category.items));
-        return 0;
-      }
-      return next;
-    });
-  }, [deck, category.items]);
+    setFallbackIndex(0);
+
+    const { deck: curDeck, itemIndex: curIdx } = stateRef.current;
+    let next = curIdx + 1;
+    let safety = 0;
+    while (
+      next < curDeck.length &&
+      brokenIdsRef.current.has(curDeck[next].id) &&
+      safety < curDeck.length
+    ) {
+      next++;
+      safety++;
+    }
+    if (next >= curDeck.length) {
+      setDeck(prepareArenaDeck(category.items));
+      setItemIndex(0);
+    } else {
+      setItemIndex(next);
+    }
+  }, [category.items]);
 
   // Gestione segnalazione foto inadatta/sbagliata
   const handleReportPhoto = useCallback(() => {
@@ -306,8 +376,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       setReportToast(false);
     }, 2000);
 
-    // Salta subito alla foto successiva senza rimanere bloccati
-    setPhotoOverride(null);
+    clearBufferSeqRef.current += 1;
+    recognizerRef.current?.consumeCurrentBuffer();
     setImageLoaded(false);
     advanceToNextImage();
   }, [currentItem, displaySrc, activePlayer, settings.duelDurationSeconds, advanceToNextImage]);
@@ -317,6 +387,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     (heardText?: string) => {
       const st = stateRef.current;
       if (
+        actionLockRef.current ||
         st.duelEnded ||
         st.isPaused ||
         st.revealedAnswer !== null
@@ -324,8 +395,10 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         return;
       }
 
+      actionLockRef.current = true;
       passGuardRef.current.cancel();
       ignoreVoiceUntilRef.current = performance.now() + 1200;
+      clearBufferSeqRef.current += 1;
       recognizerRef.current?.consumeCurrentBuffer();
 
       const isP1 = st.activePlayer === 'p1';
@@ -353,8 +426,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
           spread: 55,
           origin: { x: isP1 ? 0.18 : 0.82, y: 0.58 },
           colors: isP1
-            ? ['#2F6BFF', '#FFC933', '#19C37D', '#FFF9EC']
-            : ['#FF3D6E', '#FFC933', '#19C37D', '#FFF9EC'],
+            ? [p1Color.bgHex, '#FFC933', '#19C37D', '#FFF9EC']
+            : [p2Color.bgHex, '#FFC933', '#19C37D', '#FFF9EC'],
           disableForReducedMotion: true,
         });
       }
@@ -370,7 +443,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         isPass: false,
       });
 
-      setTimeout(() => {
+      scheduleTimeout(() => {
         if (stateRef.current.duelEnded) return;
         setRevealedAnswer(null);
         setLiveTranscript('');
@@ -378,13 +451,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         advanceToNextImage();
       }, 700);
     },
-    [advanceToNextImage]
+    [advanceToNextImage, scheduleTimeout, p1Color.bgHex, p2Color.bgHex]
   );
 
   // A1: Pass Handler (freeze clock during 1.4s reveal, -3s is only penalty)
   const triggerPass = useCallback(() => {
     const st = stateRef.current;
     if (
+      actionLockRef.current ||
       st.duelEnded ||
       st.isPaused ||
       st.revealedAnswer !== null
@@ -392,27 +466,32 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       return;
     }
 
+    actionLockRef.current = true;
     passGuardRef.current.lockCooldown(2500);
-    ignoreVoiceUntilRef.current = performance.now() + 1700;
+    ignoreVoiceUntilRef.current = performance.now() + 1750;
+    clearBufferSeqRef.current += 1;
     recognizerRef.current?.consumeCurrentBuffer();
 
     soundEngine.playPassPenalty();
     hapticsService.vibratePass();
 
     // Deduct -3s immediately and reset player's streak
-    if (st.activePlayer === 'p1') {
+    const isP1 = st.activePlayer === 'p1';
+    const curTime = isP1 ? st.timeP1 : st.timeP2;
+    const nextTime = Math.max(0, curTime - settings.passPenaltySeconds);
+    if (isP1) {
       setP1Streak(0);
       setP1Passes((p) => p + 1);
-      setTimeP1((t) => Math.max(0, t - settings.passPenaltySeconds));
+      setTimeP1(nextTime);
     } else {
       setP2Streak(0);
       setP2Passes((p) => p + 1);
-      setTimeP2((t) => Math.max(0, t - settings.passPenaltySeconds));
+      setTimeP2(nextTime);
     }
 
-    setLiveTranscript('Passo!');
+    setLiveTranscript(settings.language === 'en' ? 'Pass!' : 'Passo!');
     setPhotoShake(true);
-    setTimeout(() => setPhotoShake(false), 300);
+    scheduleTimeout(() => setPhotoShake(false), 300);
 
     // Show PASS burst
     setPassBurstVisible(true);
@@ -425,21 +504,36 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       isPass: true,
     });
 
-    setTimeout(() => {
+    if (nextTime <= 0) {
+      scheduleTimeout(() => {
+        setPassBurstVisible(false);
+        handleTimeExpiredRef.current(isP1 ? 'p1' : 'p2');
+      }, 650);
+      return;
+    }
+
+    scheduleTimeout(() => {
       if (stateRef.current.duelEnded) return;
       setRevealedAnswer(null);
       setPassBurstVisible(false);
       setLiveTranscript('');
       advanceToNextImage();
     }, 1400);
-  }, [settings.passPenaltySeconds, advanceToNextImage]);
+  }, [
+    settings.language,
+    settings.passPenaltySeconds,
+    advanceToNextImage,
+    scheduleTimeout,
+  ]);
 
   const processSpokenAlternatives = useCallback(
     (alternatives: string[], sourcePlayer?: PlayerId, isFinal = true) => {
       const st = stateRef.current;
       if (
         st.duelEnded ||
+        st.duelFinishPhase !== null ||
         st.isPaused ||
+        st.phoneModalOpen ||
         st.revealedAnswer !== null
       ) {
         return;
@@ -449,12 +543,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         return;
       }
 
-      if (
-        settings.micMode === 'discord-p2p' &&
-        p2RemoteConnected &&
-        sourcePlayer &&
-        sourcePlayer !== st.activePlayer
-      ) {
+      if (sourcePlayer && sourcePlayer !== st.activePlayer) {
         return;
       }
 
@@ -474,17 +563,28 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         passGuardRef.current.cancel();
       }
     },
-    [settings.micMode, p2RemoteConnected, triggerPass, triggerCorrectGuess]
+    [triggerPass, triggerCorrectGuess]
   );
 
   const processSpokenAlternativesRef = useRef(processSpokenAlternatives);
   processSpokenAlternativesRef.current = processSpokenAlternatives;
 
+  const p1RemoteConnectedRef = useRef(p1RemoteConnected);
+  p1RemoteConnectedRef.current = p1RemoteConnected;
+  const p2RemoteConnectedRef = useRef(p2RemoteConnected);
+  p2RemoteConnectedRef.current = p2RemoteConnected;
+
   const startMicSession = useCallback(() => {
-    if (isDiscordActivity) {
-      // In Discord Activity iframe, direct mic capture is blocked by Discord CSP sandbox.
-      // Speech recognition comes from the paired smartphone companion via PeerJS.
-      setMicListening(p2RemoteConnected);
+    if (isDiscordActivity || (p1RemoteConnected && p2RemoteConnected)) {
+      if (recognizerRef.current) {
+        recognizerRef.current.stop();
+        recognizerRef.current = null;
+      }
+      const st = stateRef.current;
+      setMicListening(
+        (st.activePlayer === 'p1' && p1RemoteConnected) ||
+          (st.activePlayer === 'p2' && p2RemoteConnected)
+      );
       return;
     }
 
@@ -494,9 +594,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     setMicErrorMsg(null);
     const rec = new SmartSpeechRecognizer(
       (alternatives, isFinal) => {
+        const st = stateRef.current;
+        const activeUsesPhone =
+          (st.activePlayer === 'p1' && p1RemoteConnectedRef.current) ||
+          (st.activePlayer === 'p2' && p2RemoteConnectedRef.current);
+        if (activeUsesPhone) return;
         processSpokenAlternativesRef.current(
           alternatives,
-          'p1',
+          st.activePlayer,
           isFinal
         );
       },
@@ -509,7 +614,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         }
       },
       (vol) => {
-        setMicVolume(vol);
+        const st = stateRef.current;
+        const activeUsesPhone =
+          (st.activePlayer === 'p1' && p1RemoteConnectedRef.current) ||
+          (st.activePlayer === 'p2' && p2RemoteConnectedRef.current);
+        if (!activeUsesPhone) {
+          setMicVolume(vol);
+        }
       },
       settings.language || 'it'
     );
@@ -520,7 +631,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     rec.setVocabulary(vocab);
     recognizerRef.current = rec;
     rec.start();
-  }, [isDiscordActivity, p2RemoteConnected, settings.language, category.items]);
+  }, [
+    isDiscordActivity,
+    p1RemoteConnected,
+    p2RemoteConnected,
+    settings.language,
+    category.items,
+  ]);
 
   useEffect(() => {
     startMicSession();
@@ -531,52 +648,121 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   }, [startMicSession]);
 
   useEffect(() => {
-    if (!latestRemotePacket) return;
-    if (latestRemotePacket.type === 'TRANSCRIPT') {
-      const alts =
-        latestRemotePacket.alternatives &&
-        latestRemotePacket.alternatives.length > 0
-          ? latestRemotePacket.alternatives
-          : latestRemotePacket.transcript
-          ? [latestRemotePacket.transcript]
-          : [];
-      if (alts.length > 0) {
-        processSpokenAlternatives(
-          alts,
-          'p2',
-          Boolean(latestRemotePacket.isFinal ?? true)
-        );
-      }
-    } else if (latestRemotePacket.type === 'PASS_BUTTON') {
-      if (stateRef.current.activePlayer === 'p2') {
-        triggerPass();
-      }
-    } else if (
-      latestRemotePacket.type === 'MIC_LEVEL' &&
-      stateRef.current.activePlayer === 'p2'
-    ) {
-      setMicVolume(latestRemotePacket.micLevel || 0);
+    if (isDiscordActivity || (p1RemoteConnected && p2RemoteConnected)) {
+      setMicListening(
+        (activePlayer === 'p1' && p1RemoteConnected) ||
+          (activePlayer === 'p2' && p2RemoteConnected)
+      );
     }
-  }, [latestRemotePacket, processSpokenAlternatives, triggerPass]);
+  }, [activePlayer, p1RemoteConnected, p2RemoteConnected, isDiscordActivity]);
+
+  const handleRemotePacket = useCallback(
+    (packet: RemoteMicPacket) => {
+      const slot: PlayerId = packet.slot === 'p1' ? 'p1' : 'p2';
+      if (packet.type === 'TRANSCRIPT') {
+        const alts =
+          packet.alternatives && packet.alternatives.length > 0
+            ? packet.alternatives
+            : packet.transcript
+            ? [packet.transcript]
+            : [];
+        if (alts.length > 0) {
+          processSpokenAlternativesRef.current(
+            alts,
+            slot,
+            Boolean(packet.isFinal ?? true)
+          );
+        }
+      } else if (packet.type === 'PASS_BUTTON') {
+        if (stateRef.current.activePlayer === slot) {
+          triggerPass();
+        }
+      } else if (packet.type === 'MIC_LEVEL') {
+        if (stateRef.current.activePlayer === slot) {
+          setMicVolume(packet.micLevel || 0);
+        }
+      } else if (packet.type === 'PING') {
+        const st = stateRef.current;
+        onSendRemoteState({
+          type: 'STATE_UPDATE',
+          activePlayer: st.activePlayer,
+          p1Name: p1.name,
+          p2Name: p2.name,
+          p1Avatar: p1.avatar,
+          p2Avatar: p2.avatar,
+          categoryName: category.name,
+          inDuel: st.duelFinishPhase === null,
+          timeLeftP1: Math.ceil(st.timeP1),
+          timeLeftP2: Math.ceil(st.timeP2),
+          language: settings.language,
+          clearBufferSeq: clearBufferSeqRef.current,
+        });
+      }
+    },
+    [
+      triggerPass,
+      onSendRemoteState,
+      p1.name,
+      p1.avatar,
+      p2.name,
+      p2.avatar,
+      category.name,
+      settings.language,
+    ]
+  );
 
   useEffect(() => {
-    if (settings.micMode === 'discord-p2p' && p2RemoteConnected) {
-      onSendRemoteState({
-        type: 'STATE_UPDATE',
-        activePlayer,
-        p1Name: p1.name,
-        p2Name: p2.name,
-        p1Avatar: p1.avatar,
-        p2Avatar: p2.avatar,
-        categoryName: category.name,
-        inDuel: true,
-        timeLeftP2: timeP2,
-      });
+    if (!subscribeRemotePackets) return;
+    return subscribeRemotePackets(handleRemotePacket);
+  }, [subscribeRemotePackets, handleRemotePacket]);
+
+  useEffect(() => {
+    if (subscribeRemotePackets || !latestRemotePacket) return;
+    handleRemotePacket(latestRemotePacket);
+  }, [subscribeRemotePackets, latestRemotePacket, handleRemotePacket]);
+
+  const lastRemoteSyncAtRef = useRef(0);
+  const lastRemoteStateSigRef = useRef('');
+
+  useEffect(() => {
+    if (!p1RemoteConnected && !p2RemoteConnected) {
+      lastRemoteStateSigRef.current = '';
+      return;
     }
+
+    const immediateSig = `${activePlayer}|${currentItem.id}|${duelFinishPhase ?? 'live'}|${clearBufferSeqRef.current}|${p1.name}|${p2.name}|${settings.language}|${p1RemoteConnected}|${p2RemoteConnected}`;
+    const now = performance.now();
+    const stateChanged = immediateSig !== lastRemoteStateSigRef.current;
+
+    if (!stateChanged && now - lastRemoteSyncAtRef.current < 250) {
+      return;
+    }
+
+    lastRemoteStateSigRef.current = immediateSig;
+    lastRemoteSyncAtRef.current = now;
+
+    onSendRemoteState({
+      type: 'STATE_UPDATE',
+      activePlayer,
+      p1Name: p1.name,
+      p2Name: p2.name,
+      p1Avatar: p1.avatar,
+      p2Avatar: p2.avatar,
+      categoryName: category.name,
+      inDuel: duelFinishPhase === null,
+      timeLeftP1: Math.ceil(timeP1),
+      timeLeftP2: Math.ceil(timeP2),
+      language: settings.language,
+      clearBufferSeq: clearBufferSeqRef.current,
+    });
   }, [
     activePlayer,
+    currentItem.id,
+    duelFinishPhase,
+    timeP1,
     timeP2,
-    settings.micMode,
+    settings.language,
+    p1RemoteConnected,
     p2RemoteConnected,
     p1.name,
     p1.avatar,
@@ -587,21 +773,26 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
   ]);
 
   const handleProceedToDraft = useCallback(() => {
+    clearAllPendingTimers();
     if (finishTimerRef.current) {
       clearTimeout(finishTimerRef.current);
+      finishTimerRef.current = null;
     }
     soundEngine.stopAnnouncements();
     if (duelFinishData) {
       onDuelFinished(duelFinishData.summary);
     }
-  }, [duelFinishData, onDuelFinished]);
+  }, [clearAllPendingTimers, duelFinishData, onDuelFinished]);
 
   const handleTimeExpired = useCallback(
     (loser: PlayerId) => {
+      if (finishedTriggeredRef.current || stateRef.current.duelEnded) return;
+      finishedTriggeredRef.current = true;
       const st = stateRef.current;
-      if (st.duelEnded) return;
       st.duelEnded = true;
 
+      clearAllPendingTimers();
+      passGuardRef.current.cancel();
       recognizerRef.current?.stop();
       soundEngine.stopAnnouncements();
 
@@ -610,6 +801,8 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         roundNumber,
         winner,
         loser,
+        p1PlayerId: p1.id,
+        p2PlayerId: p2.id,
         categoryId: category.id,
         categoryName: category.name,
         categoryIcon: category.icon,
@@ -639,11 +832,11 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       soundEngine.playRevealAnswer();
       setDuelFinishPhase('reveal');
 
-      setTimeout(() => {
+      scheduleTimeout(() => {
         setScreenShake(false);
       }, 450);
 
-      setTimeout(() => {
+      scheduleTimeout(() => {
         setDuelFinishPhase('winner');
         soundEngine.playGrandFanfare();
         soundEngine.playDuelVictory();
@@ -655,17 +848,43 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       }, 2200);
     },
     [
+      clearAllPendingTimers,
       category.id,
       category.icon,
       category.name,
       onDuelFinished,
+      p1.id,
+      p2.id,
       roundNumber,
+      scheduleTimeout,
     ]
   );
+
+  handleTimeExpiredRef.current = handleTimeExpired;
 
   // Keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.repeat) return;
+
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.isContentEditable)
+      ) {
+        return;
+      }
+
+      if (phoneModalOpen) {
+        if (e.code === 'Escape') {
+          e.preventDefault();
+          setPhoneModalOpen(false);
+        }
+        return;
+      }
+
       if (duelFinishPhase !== null) {
         if (e.code === 'Enter' || e.code === 'Space') {
           e.preventDefault();
@@ -674,33 +893,62 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         return;
       }
 
+      if (e.key === 'p' || e.key === 'P') {
+        e.preventDefault();
+        setIsPaused((prev) => !prev);
+        return;
+      }
+
+      if (e.code === 'Escape' && isPaused) {
+        e.preventDefault();
+        setIsPaused(false);
+        return;
+      }
+
+      if (isPaused) return;
+
       if (e.code === 'Space') {
         e.preventDefault();
         triggerPass();
       } else if (e.code === 'Enter') {
         e.preventDefault();
         triggerCorrectGuess(stateRef.current.currentItem.answer);
-      } else if (e.key === 'p' || e.key === 'P') {
-        e.preventDefault();
-        setIsPaused((prev) => !prev);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [triggerPass, triggerCorrectGuess, duelFinishPhase, handleProceedToDraft]);
+  }, [
+    phoneModalOpen,
+    isPaused,
+    triggerPass,
+    triggerCorrectGuess,
+    duelFinishPhase,
+    handleProceedToDraft,
+  ]);
 
-  // Main countdown timer loop: frozen while revealedAnswer !== null
+  // Main countdown timer loop: frozen while revealedAnswer !== null, loading, hidden, or paused
   useEffect(() => {
     let lastTick = performance.now();
 
     const interval = setInterval(() => {
       const now = performance.now();
-      const dt = (now - lastTick) / 1000;
+      const dt = Math.min(0.25, Math.max(0, (now - lastTick) / 1000));
       lastTick = now;
 
+      if (typeof document !== 'undefined' && document.hidden) return;
+
       const st = stateRef.current;
-      // Freeze clock while answer is revealed (1.4s on pass, 700ms on correct) or paused or duel ended
-      if (st.duelEnded || st.isPaused || st.revealedAnswer !== null) return;
+      // Freeze clock while answer is revealed (1.4s on pass, 700ms on correct), image loading, paused, or duel ended
+      if (
+        st.duelEnded ||
+        st.duelFinishPhase !== null ||
+        st.isPaused ||
+        st.phoneModalOpen ||
+        !st.imageLoaded ||
+        st.revealedAnswer !== null
+      ) {
+        return;
+      }
 
       if (st.activePlayer === 'p1') {
         const nextP1 = Math.max(0, st.timeP1 - dt);
@@ -740,18 +988,18 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
     }, 50);
 
     return () => clearInterval(interval);
-  }, [advanceToNextImage, handleTimeExpired]);
+  }, [handleTimeExpired]);
 
   const p1Active = activePlayer === 'p1';
   const p2Active = activePlayer === 'p2';
-  const stageColor = p1Active ? 'p1' : 'p2';
+  const stageColor = p1Active ? p1Color.id : p2Color.id;
   const p1Urgent = p1Active && timeP1 <= 10;
   const p2Urgent = p2Active && timeP2 <= 10;
   const photoTilt = itemIndex % 2 === 0 ? '-1deg' : '1deg';
 
   return (
     <div
-      className={`relative h-[100dvh] max-h-[100dvh] w-full flex flex-col justify-between p-3 sm:p-5 select-none overflow-hidden touch-none pb-[max(0.75rem,env(safe-area-inset-bottom))] ${
+      className={`relative min-h-[100dvh] lg:h-[100dvh] lg:max-h-[100dvh] w-full flex flex-col justify-between p-3 sm:p-5 select-none overflow-y-auto lg:overflow-hidden pb-[max(0.75rem,env(safe-area-inset-bottom))] ${
         screenShake ? 'animate-screen-shake-6px' : ''
       }`}
     >
@@ -780,12 +1028,12 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
-            {isDiscordActivity && (
+            {(isDiscordActivity || settings.micMode === 'discord-p2p') && (
               <button
                 type="button"
                 onClick={() => setPhoneModalOpen(true)}
                 className={`btn-push px-3 py-2 rounded-xl border-[3px] border-ink shadow-hard-sm font-display font-black text-xs flex items-center gap-1.5 transition-transform active:translate-y-0.5 ${
-                  p2RemoteConnected
+                  p1RemoteConnected || p2RemoteConnected
                     ? 'bg-green text-ink'
                     : 'bg-yellow text-ink'
                 }`}
@@ -793,9 +1041,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               >
                 <Smartphone className="w-4 h-4 shrink-0" />
                 <span className="hidden sm:inline">
-                  {p2RemoteConnected
-                    ? (settings.language === 'en' ? 'Phone Mic' : 'Mic Telefono')
-                    : (settings.language === 'en' ? 'Connect Phone' : 'QR Telefono')}
+                  {p1RemoteConnected || p2RemoteConnected
+                    ? settings.language === 'en'
+                      ? 'Phone Mic'
+                      : 'Mic Telefono'
+                    : settings.language === 'en'
+                    ? 'Connect Phone'
+                    : 'QR Telefono'}
                 </span>
               </button>
             )}
@@ -815,14 +1067,19 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         {/* ============================================================== */}
         {/* CENTER GRID: [Card 200px] [Photo Hero] [Card 200px] (A6)       */}
         {/* ============================================================== */}
-        <main className="w-full my-auto flex-1 flex flex-col lg:grid lg:grid-cols-[200px_1fr_200px] items-center gap-6 min-h-0 py-2">
+        <main className="w-full my-auto flex-1 flex flex-col lg:grid lg:grid-cols-[200px_1fr_200px] items-center gap-4 lg:gap-6 min-h-0 py-2">
           {/* ------------------------------------------------------------ */}
           {/* Player 1 Card (Desktop: Left 200px)                           */}
           {/* ------------------------------------------------------------ */}
           <div
+            style={
+              p1Active
+                ? { backgroundColor: p1Color.bgHex, color: p1Color.onColorHex }
+                : undefined
+            }
             className={`hidden lg:flex w-full min-h-[220px] rounded-card border-[3px] border-ink p-5 flex-col items-center justify-center gap-2 text-center transition-all relative ${
               p1Active
-                ? 'bg-blue text-white shadow-hard-lifted tactile-lifted'
+                ? 'shadow-hard-lifted tactile-lifted'
                 : 'bg-paper text-ink opacity-90 tactile-pressed'
             }`}
           >
@@ -832,7 +1089,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
                 className={`w-[72px] h-[72px] rounded-full bg-paper border-[3px] border-ink flex items-center justify-center text-4xl shadow-hard-sm relative ${
                   p1Active ? 'animate-avatar-hop ring-4 ring-yellow' : ''
                 }`}
-                style={{ outline: '4px solid #2F6BFF' }}
+                style={{ outline: `4px solid ${p1Color.bgHex}` }}
               >
                 {/* A5: Inline Crown if Leader */}
                 {currentLeader === 'p1' && (
@@ -868,10 +1125,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               <div className="speech-bubble speech-bubble-tail-bottom absolute -bottom-16 left-1/2 -translate-x-1/2 bg-yellow text-ink border-[3px] border-ink px-4 py-1.5 rounded-2xl shadow-hard font-display font-black text-sm whitespace-nowrap z-30">
                 {liveTranscript
                   ? `“${liveTranscript}”`
+                  : p1RemoteConnected
+                  ? settings.language === 'en'
+                    ? 'Speak into P1 phone...'
+                    : 'Parla al telefono P1...'
                   : isDiscordActivity
-                  ? p2RemoteConnected
-                    ? (settings.language === 'en' ? 'Speak into phone...' : 'Parla al telefono...')
-                    : (settings.language === 'en' ? 'Shout in voice chat!' : 'Grida nel canale vocale!')
+                  ? settings.language === 'en'
+                    ? 'Shout in voice chat!'
+                    : 'Grida nel canale vocale!'
                   : t('arena.listening', settings.language)}
               </div>
             )}
@@ -891,13 +1152,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               {/* Report Bad Photo Quick Button (Top-Right on photo mat) */}
               <button
                 type="button"
+                disabled={revealedAnswer !== null || duelFinishPhase !== null}
                 onClick={(e) => {
                   e.stopPropagation();
                   handleReportPhoto();
                 }}
                 title={t('arena.reportTooltip', settings.language)}
                 aria-label={t('arena.reportPhoto', settings.language)}
-                className="absolute top-2 right-2 z-30 w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-paper/90 hover:bg-red/10 active:scale-95 border-2 border-ink flex items-center justify-center text-xs sm:text-sm text-ink/70 hover:text-red transition-all cursor-pointer shadow-sm select-none"
+                className="absolute top-2 right-2 z-30 w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-paper/90 hover:bg-red/10 active:scale-95 border-2 border-ink flex items-center justify-center text-xs sm:text-sm text-ink/70 hover:text-red transition-all cursor-pointer shadow-sm select-none disabled:opacity-40 disabled:pointer-events-none"
               >
                 🚩
               </button>
@@ -959,42 +1221,22 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
                 <img
                   key={displaySrc}
                   src={displaySrc}
-                  alt={currentItem.answer}
+                  alt=""
+                  referrerPolicy="no-referrer"
                   decoding="async"
                   loading="eager"
                   onLoad={(e) => {
                     const { naturalWidth, naturalHeight } = e.currentTarget;
                     if (!isRenderedImageHealthy(naturalWidth, naturalHeight)) {
-                      const cleanPool = getItemImagePool(currentItem).filter(
-                        (u) => u !== displaySrc
-                      );
-                      if (cleanPool.length > 0 && !photoOverride) {
-                        setPhotoOverride(cleanPool[0]);
-                        return;
-                      }
-                      brokenIdsRef.current.add(currentItem.id);
-                      advanceToNextImage();
+                      tryNextImageFallback();
                       return;
                     }
                     setImageLoaded(true);
                   }}
                   onError={() => {
-                    if (!usingBackupUrl) {
-                      setUsingBackupUrl(true);
-                    } else {
-                      const cleanPool = getItemImagePool(currentItem).filter(
-                        (u) => u !== displaySrc
-                      );
-                      if (cleanPool.length > 0 && !photoOverride) {
-                        setUsingBackupUrl(false);
-                        setPhotoOverride(cleanPool[0]);
-                        return;
-                      }
-                      brokenIdsRef.current.add(currentItem.id);
-                      advanceToNextImage();
-                    }
+                    tryNextImageFallback();
                   }}
-                  className={`max-h-[48vh] sm:max-h-[52vh] w-auto max-w-full object-contain rounded-lg transition-opacity duration-150 ${
+                  className={`max-h-[44vh] sm:max-h-[52vh] w-auto max-w-full object-contain rounded-lg transition-opacity duration-150 ${
                     imageLoaded ? 'opacity-100' : 'opacity-0'
                   }`}
                 />
@@ -1003,7 +1245,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               {/* A1: Sticker Label Overlapping Bottom Edge of Photo */}
               {revealedAnswer && (
                 <div
-                  className={`absolute -bottom-6 left-1/2 -translate-x-1/2 z-40 max-w-[92%] sm:max-w-[85%] bg-paper border-[3px] border-ink shadow-hard rounded-2xl px-4 py-2 sm:px-6 sm:py-3 flex items-center gap-3 animate-starburst-pop select-none ${
+                  className={`absolute bottom-2 sm:-bottom-5 left-1/2 -translate-x-1/2 z-40 max-w-[92%] sm:max-w-[85%] bg-paper border-[3px] border-ink shadow-hard rounded-2xl px-4 py-2 sm:px-6 sm:py-3 flex items-center gap-3 animate-starburst-pop select-none ${
                     revealedAnswer.isPass ? '-rotate-1' : 'rotate-1'
                   }`}
                 >
@@ -1029,15 +1271,17 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
             <div className="lg:hidden mt-3 w-full max-w-md mx-auto speech-bubble speech-bubble-tail-bottom px-4 py-2 text-center">
               <span className="font-display font-black text-base sm:text-lg text-ink leading-tight line-clamp-2">
                 {liveTranscript ? (
-                  <span className={p1Active ? 'text-blue' : 'text-red'}>
+                  <span style={{ color: p1Active ? p1Color.bgHex : p2Color.bgHex }}>
                     “{liveTranscript}”
                   </span>
+                ) : (p1Active && p1RemoteConnected) || (p2Active && p2RemoteConnected) ? (
+                  <span className="text-green font-bold">
+                    📱 {settings.language === 'en' ? 'Speak into phone...' : 'Parla al telefono...'}
+                  </span>
                 ) : isDiscordActivity ? (
-                  p2RemoteConnected ? (
-                    <span className="text-green font-bold">📱 {settings.language === 'en' ? 'Speak into phone...' : 'Parla al telefono...'}</span>
-                  ) : (
-                    <span className="text-ink font-bold">🎙️ {settings.language === 'en' ? 'Shout in voice chat! [Enter]/[Space]' : 'Grida nel canale vocale! [Invio]/[Spazio]'}</span>
-                  )
+                  <span className="text-ink font-bold">
+                    🎙️ {settings.language === 'en' ? 'Shout in voice chat! [Enter]/[Space]' : 'Grida nel canale vocale! [Invio]/[Spazio]'}
+                  </span>
                 ) : micListening ? (
                   t('arena.listening', settings.language)
                 ) : micErrorMsg ? (
@@ -1053,9 +1297,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
           {/* Player 2 Card (Desktop: Right 200px)                          */}
           {/* ------------------------------------------------------------ */}
           <div
+            style={
+              p2Active
+                ? { backgroundColor: p2Color.bgHex, color: p2Color.onColorHex }
+                : undefined
+            }
             className={`hidden lg:flex w-full min-h-[220px] rounded-card border-[3px] border-ink p-5 flex-col items-center justify-center gap-2 text-center transition-all relative ${
               p2Active
-                ? 'bg-red text-white shadow-hard-lifted tactile-lifted'
+                ? 'shadow-hard-lifted tactile-lifted'
                 : 'bg-paper text-ink opacity-90 tactile-pressed'
             }`}
           >
@@ -1065,7 +1314,7 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
                 className={`w-[72px] h-[72px] rounded-full bg-paper border-[3px] border-ink flex items-center justify-center text-4xl shadow-hard-sm relative ${
                   p2Active ? 'animate-avatar-hop ring-4 ring-yellow' : ''
                 }`}
-                style={{ outline: '4px solid #FF3D6E' }}
+                style={{ outline: `4px solid ${p2Color.bgHex}` }}
               >
                 {/* A5: Inline Crown if Leader */}
                 {currentLeader === 'p2' && (
@@ -1101,10 +1350,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
               <div className="speech-bubble speech-bubble-tail-bottom absolute -bottom-16 left-1/2 -translate-x-1/2 bg-yellow text-ink border-[3px] border-ink px-4 py-1.5 rounded-2xl shadow-hard font-display font-black text-sm whitespace-nowrap z-30">
                 {liveTranscript
                   ? `“${liveTranscript}”`
+                  : p2RemoteConnected
+                  ? settings.language === 'en'
+                    ? 'Speak into P2 phone...'
+                    : 'Parla al telefono P2...'
                   : isDiscordActivity
-                  ? p2RemoteConnected
-                    ? (settings.language === 'en' ? 'Speak into phone...' : 'Parla al telefono...')
-                    : (settings.language === 'en' ? 'Shout in voice chat!' : 'Grida nel canale vocale!')
+                  ? settings.language === 'en'
+                    ? 'Shout in voice chat!'
+                    : 'Grida nel canale vocale!'
                   : t('arena.listening', settings.language)}
               </div>
             )}
@@ -1117,10 +1370,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         <div className="grid grid-cols-2 gap-3 w-full my-2 lg:hidden shrink-0">
           {/* P1 Card Mobile */}
           <div
-            className={`p-3 rounded-card border-[3px] border-ink flex items-center justify-between gap-2 transition-all relative ${
+            style={
               p1Active
-                ? 'bg-blue text-white tactile-lifted'
-                : 'bg-paper text-ink tactile-pressed'
+                ? { backgroundColor: p1Color.bgHex, color: p1Color.onColorHex }
+                : undefined
+            }
+            className={`p-3 rounded-card border-[3px] border-ink flex items-center justify-between gap-2 transition-all relative ${
+              p1Active ? 'tactile-lifted' : 'bg-paper text-ink tactile-pressed'
             }`}
           >
             <StreakBadge streak={p1Streak} className="scale-75 -top-2 -right-2" />
@@ -1146,10 +1402,13 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
           {/* P2 Card Mobile */}
           <div
-            className={`p-3 rounded-card border-[3px] border-ink flex items-center justify-between gap-2 transition-all relative ${
+            style={
               p2Active
-                ? 'bg-red text-white tactile-lifted'
-                : 'bg-paper text-ink tactile-pressed'
+                ? { backgroundColor: p2Color.bgHex, color: p2Color.onColorHex }
+                : undefined
+            }
+            className={`p-3 rounded-card border-[3px] border-ink flex items-center justify-between gap-2 transition-all relative ${
+              p2Active ? 'tactile-lifted' : 'bg-paper text-ink tactile-pressed'
             }`}
           >
             <StreakBadge streak={p2Streak} className="scale-75 -top-2 -right-2" />
@@ -1178,44 +1437,45 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         {/* BOTTOM ACTION BAR: 3-Bar Mic Meter | Pass (paper) | Correct    */}
         {/* ============================================================== */}
         <div className="w-full shrink-0 flex flex-col items-center gap-2 py-1">
-          <div className="flex items-center justify-center gap-4 w-full">
+          <div className="flex items-center justify-center gap-2 sm:gap-4 w-full">
             {/* Mic indicator: Discord Voice / Phone Companion vs Web Browser Mic */}
-            {isDiscordActivity ? (
-              p2RemoteConnected ? (
-                <button
-                  type="button"
-                  onClick={() => setPhoneModalOpen(true)}
-                  className="btn-push flex items-center gap-2 px-3.5 py-3 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-16 hover:bg-yellow transition-colors"
-                  title={settings.language === 'en' ? 'Phone Mic Connected (Click for QR)' : 'Microfono Telefono Connesso (Clicca per QR)'}
-                >
-                  <Smartphone className="w-5 h-5 text-green" />
-                  <span className="font-display font-black text-xs text-ink hidden sm:inline">📱 Mic</span>
-                  <span className="w-2.5 h-2.5 rounded-full bg-green animate-ping" />
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={() => setPhoneModalOpen(true)}
-                  className="btn-push flex items-center gap-2 px-3 py-3 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-16 hover:bg-yellow transition-colors"
-                  title={settings.language === 'en' ? 'Discord Voice Channel (Click for Phone QR)' : 'Canale Vocale Discord (Clicca per QR Telefono)'}
-                >
-                  <span className="text-xl">🎙️</span>
-                  <div className="flex flex-col text-left leading-tight hidden sm:flex">
-                    <span className="font-display font-black text-xs text-ink">Vocale</span>
-                    <span className="text-[10px] text-ink/70 font-bold">📱 Telefono</span>
-                  </div>
-                </button>
-              )
+            {(isDiscordActivity || settings.micMode === 'discord-p2p') ? (
+              <button
+                type="button"
+                onClick={() => setPhoneModalOpen(true)}
+                className="btn-push flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-2.5 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-14 sm:h-16 hover:bg-yellow transition-colors"
+                title={
+                  p1RemoteConnected || p2RemoteConnected
+                    ? settings.language === 'en'
+                      ? 'Phone Mic Connected (Click for QR)'
+                      : 'Microfono Telefono Connesso (Clicca per QR)'
+                    : settings.language === 'en'
+                    ? 'Open Phone Mic QR'
+                    : 'Apri QR Telefono'
+                }
+              >
+                <Smartphone
+                  className={`w-5 h-5 ${
+                    p1RemoteConnected || p2RemoteConnected ? 'text-green' : 'text-ink'
+                  }`}
+                />
+                <span className="font-display font-black text-xs text-ink hidden sm:inline">
+                  {p1RemoteConnected || p2RemoteConnected ? '📱 Mic' : '📱 QR'}
+                </span>
+                {(p1RemoteConnected || p2RemoteConnected) && (
+                  <span className="w-2.5 h-2.5 rounded-full bg-green" />
+                )}
+              </button>
             ) : (
               <div
-                className="relative flex items-center gap-1.5 px-3 py-3 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-16"
+                className="relative flex items-center gap-1.5 px-2.5 sm:px-3 py-2.5 rounded-xl bg-paper border-[3px] border-ink shadow-hard shrink-0 h-14 sm:h-16"
                 title="Mic level"
               >
                 {micListening && micVolume > 0.12 && (
                   <span className="absolute inset-0 rounded-xl border-2 border-green bg-green/20 pointer-events-none animate-mic-ripple" />
                 )}
                 <Mic className={`relative z-10 w-5 h-5 ${micListening ? 'text-green' : 'text-ink/40'}`} />
-                <div className="flex items-end gap-1 h-8">
+                <div className="flex items-end gap-1 h-7 sm:h-8">
                   <span
                     className={`w-2 rounded-sm border border-ink transition-all ${
                       micListening && micVolume > 0.05 ? 'bg-green h-4' : 'bg-ink/15 h-3'
@@ -1228,35 +1488,35 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
                   />
                   <span
                     className={`w-2 rounded-sm border border-ink transition-all ${
-                      micListening && micVolume > 0.55 ? 'bg-green h-8' : 'bg-ink/15 h-3'
+                      micListening && micVolume > 0.55 ? 'bg-green h-7 sm:h-8' : 'bg-ink/15 h-3'
                     }`}
                   />
                 </div>
               </div>
             )}
 
-            {/* Pass Button: min 64px tall, min 160px wide, A2 lowercase 's' */}
+            {/* Pass Button */}
             <button
               type="button"
               onClick={triggerPass}
-              disabled={revealedAnswer !== null}
-              className="btn-push flex-1 sm:flex-initial min-h-[64px] min-w-[140px] sm:min-w-[160px] px-6 py-3 rounded-2xl bg-paper text-ink font-display font-black text-xl flex items-center justify-center gap-2 border-[3px] border-ink shadow-hard disabled:opacity-50"
+              disabled={revealedAnswer !== null || duelFinishPhase !== null}
+              className="btn-push flex-1 sm:flex-initial min-w-0 sm:min-w-[160px] min-h-[56px] sm:min-h-[64px] px-3 sm:px-6 py-2.5 rounded-2xl bg-paper text-ink font-display font-black text-base sm:text-xl flex items-center justify-center gap-1.5 sm:gap-2 border-[3px] border-ink shadow-hard disabled:opacity-50"
             >
-              <FastForward className="w-5 h-5" />
-              <span>
+              <FastForward className="w-5 h-5 shrink-0" />
+              <span className="truncate">
                 Pass (−3<span style={{ fontSize: '0.45em' }} className="lowercase ml-0.5 align-baseline">s</span>)
               </span>
             </button>
 
-            {/* Correct Button: min 64px tall, min 160px wide */}
+            {/* Correct Button */}
             <button
               type="button"
               onClick={() => triggerCorrectGuess(currentItem.answer)}
-              disabled={revealedAnswer !== null}
-              className="btn-push flex-1 sm:flex-initial min-h-[64px] min-w-[140px] sm:min-w-[160px] px-6 py-3 rounded-2xl bg-green text-ink font-display font-black text-xl flex items-center justify-center gap-2 border-[3px] border-ink shadow-hard disabled:opacity-50"
+              disabled={revealedAnswer !== null || duelFinishPhase !== null}
+              className="btn-push flex-1 sm:flex-initial min-w-0 sm:min-w-[160px] min-h-[56px] sm:min-h-[64px] px-3 sm:px-6 py-2.5 rounded-2xl bg-green text-ink font-display font-black text-base sm:text-xl flex items-center justify-center gap-1.5 sm:gap-2 border-[3px] border-ink shadow-hard disabled:opacity-50"
             >
-              <Check className="w-6 h-6 stroke-[3]" />
-              <span>{t('arena.correct', settings.language)}</span>
+              <Check className="w-5 h-5 sm:w-6 sm:h-6 stroke-[3] shrink-0" />
+              <span className="truncate">{t('arena.correct', settings.language)}</span>
             </button>
           </div>
 
@@ -1272,9 +1532,15 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4">
           <div className="card-paper max-w-sm w-full p-6 text-center flex flex-col items-center gap-4 modal-slap-in">
             <div
-              className={`w-20 h-20 rounded-2xl border-[3px] border-ink shadow-hard flex items-center justify-center text-5xl animate-bounce ${
-                duelFinishData.winner === 'p1' ? 'bg-blue text-white' : 'bg-red text-white'
-              }`}
+              style={{
+                backgroundColor:
+                  duelFinishData.winner === 'p1' ? p1Color.bgHex : p2Color.bgHex,
+                color:
+                  duelFinishData.winner === 'p1'
+                    ? p1Color.onColorHex
+                    : p2Color.onColorHex,
+              }}
+              className="w-20 h-20 rounded-2xl border-[3px] border-ink shadow-hard flex items-center justify-center text-5xl animate-bounce"
             >
               {duelFinishData.winner === 'p1' ? p1.avatar : p2.avatar}
             </div>
@@ -1324,8 +1590,14 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
       {/* B2: Game Paused Modal (Slaps in, dark stage, 28px title, 16px body, 2px ink divider, Esc closes) */}
       {isPaused && (
-        <div className="fixed inset-0 z-50 bg-[#0F0E1A]/90 flex items-center justify-center p-4">
-          <div className="card-paper max-w-sm w-full p-6 text-center flex flex-col items-center gap-4 modal-slap-in">
+        <div
+          className="fixed inset-0 z-50 bg-[#0F0E1A]/90 flex items-center justify-center p-4"
+          onClick={() => setIsPaused(false)}
+        >
+          <div
+            className="card-paper max-w-sm w-full p-6 text-center flex flex-col items-center gap-4 modal-slap-in"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="w-full flex items-center justify-between pb-3 border-b-2 border-ink">
               <h2 className="font-display font-black text-[28px] text-ink leading-tight">
                 {t('arena.pausedTitle', settings.language)}
@@ -1354,11 +1626,12 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
 
             <button
               type="button"
+              disabled={revealedAnswer !== null || duelFinishPhase !== null}
               onClick={() => {
                 handleReportPhoto();
                 setIsPaused(false);
               }}
-              className="btn-push w-full py-2.5 rounded-xl bg-paper text-ink font-display font-bold text-sm border-2 border-ink flex items-center justify-center gap-2 hover:bg-red/10 transition-colors"
+              className="btn-push w-full py-2.5 rounded-xl bg-paper text-ink font-display font-bold text-sm border-2 border-ink flex items-center justify-center gap-2 hover:bg-red/10 transition-colors disabled:opacity-40"
             >
               <span>🚩</span>
               <span>{t('arena.reportPhoto', settings.language)}</span>
@@ -1367,12 +1640,16 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
         </div>
       )}
 
-      {/* Phone Mic QR Modal (Can be opened mid-game in Discord Activity) */}
+      {/* Phone Mic QR Modal (Can be opened mid-game in Discord Activity or remote pairing) */}
       <PhoneMicModal
         isOpen={phoneModalOpen}
         onClose={() => setPhoneModalOpen(false)}
         roomCode={roomCode}
         isConnected={p2RemoteConnected}
+        p1Connected={p1RemoteConnected}
+        p2Connected={p2RemoteConnected}
+        p1Name={localizePlayerName(p1.name, settings.language)}
+        p2Name={localizePlayerName(p2.name, settings.language)}
         language={settings.language}
       />
     </div>

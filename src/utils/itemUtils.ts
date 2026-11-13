@@ -97,14 +97,27 @@ export function clearSeenItemsHistory(): void {
 }
 
 /**
- * Rimuove query di tracking (?utm_source=...) mantenendo pulito l'URL per cache/dedup.
+ * Rimuove solo query di tracking noti (?utm_*, fbclid...) preservando parametri funzionali dell'URL (es. width, cb, wsrv).
  */
 function sanitizePhotoUrl(rawUrl: string): string {
   const trimmed = rawUrl.trim();
   if (!trimmed || trimmed.startsWith('data:') || trimmed.startsWith('blob:')) {
     return trimmed;
   }
-  return trimmed.split('?')[0];
+  try {
+    const parsed = new URL(trimmed);
+    const trackingParams = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbclid', 'gclid'];
+    let changed = false;
+    for (const p of trackingParams) {
+      if (parsed.searchParams.has(p)) {
+        parsed.searchParams.delete(p);
+        changed = true;
+      }
+    }
+    return changed ? parsed.toString() : trimmed;
+  } catch {
+    return trimmed;
+  }
 }
 
 /**
@@ -152,16 +165,30 @@ export function getItemImagePool(item: DuelItem): string[] {
   return Array.from(pool);
 }
 
+function setLastPickedPhoto(itemId: string, url: string, persist: boolean): void {
+  if (!itemId || !url) return;
+  // Refresh recency order in Map (delete + set)
+  lastPickedByItemId.delete(itemId);
+  lastPickedByItemId.set(itemId, url);
+  while (lastPickedByItemId.size > MAX_SEEN_ENTRIES) {
+    const oldest = lastPickedByItemId.keys().next().value;
+    if (oldest !== undefined) lastPickedByItemId.delete(oldest);
+    else break;
+  }
+  if (persist) {
+    writeStorageRecord(LAST_PHOTO_STORAGE_KEY, lastPickedByItemId);
+  }
+}
+
 /**
  * Seleziona una fotografia casuale valida dal pool fotografico del soggetto,
  * preferendo uno scatto diverso dall'ultimo mostrato per evitare ripetizioni immediate.
  */
-export function getRandomItemImage(item: DuelItem): string {
+export function getRandomItemImage(item: DuelItem, persist = true): string {
   const pool = getItemImagePool(item);
   if (pool.length === 0) return sanitizePhotoUrl(item.imageUrl || '');
   if (pool.length === 1) {
-    lastPickedByItemId.set(item.id, pool[0]);
-    writeStorageRecord(LAST_PHOTO_STORAGE_KEY, lastPickedByItemId);
+    setLastPickedPhoto(item.id, pool[0], persist);
     return pool[0];
   }
 
@@ -169,9 +196,40 @@ export function getRandomItemImage(item: DuelItem): string {
   const freshChoices = lastUrl ? pool.filter((u) => u !== lastUrl) : pool;
   const candidates = freshChoices.length > 0 ? freshChoices : pool;
   const chosen = candidates[Math.floor(Math.random() * candidates.length)];
-  lastPickedByItemId.set(item.id, chosen);
-  writeStorageRecord(LAST_PHOTO_STORAGE_KEY, lastPickedByItemId);
+  setLastPickedPhoto(item.id, chosen, persist);
   return chosen;
+}
+
+/**
+ * Costruisce una catena ordinata e deduplicata di URL di fallback per l'immagine corrente:
+ * [URL selezionata, altre URL pulite del pool, eventuale backup WebP proxy].
+ */
+export function buildItemImageFallbackChain(
+  item: DuelItem | undefined | null,
+  getBackupUrl: (url: string) => string
+): string[] {
+  if (!item) return [];
+  const primary = item.imageUrl ? sanitizePhotoUrl(item.imageUrl) : '';
+  const pool = getItemImagePool(item);
+  const ordered: string[] = [];
+  const pushUnique = (u: string) => {
+    if (u && !ordered.includes(u)) ordered.push(u);
+  };
+
+  if (primary && !blacklistService.isBlacklisted(primary)) {
+    pushUnique(primary);
+  }
+  for (const alt of pool) {
+    pushUnique(alt);
+  }
+  if (ordered.length === 0 && primary) {
+    pushUnique(primary);
+  }
+  if (ordered[0]) {
+    const backup = getBackupUrl(ordered[0]);
+    if (backup) pushUnique(backup);
+  }
+  return ordered;
 }
 
 /**
@@ -192,8 +250,9 @@ export function prepareArenaDeck(items: DuelItem[]): DuelItem[] {
 
   const deckItems: DuelItem[] = sourceItems.map((item) => ({
     ...item,
-    imageUrl: getRandomItemImage(item),
+    imageUrl: getRandomItemImage(item, false),
   }));
+  writeStorageRecord(LAST_PHOTO_STORAGE_KEY, lastPickedByItemId);
 
   let unseen = deckItems.filter((it) => !seenItemsMap.has(it.id));
   let seen = deckItems.filter((it) => seenItemsMap.has(it.id));

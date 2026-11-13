@@ -26,6 +26,33 @@ export interface BlacklistSchema {
 const STORAGE_KEY = 'yappik_flagged_images_v1';
 
 /**
+ * Se l'URL è incapsulato nel proxy backup (wsrv.nl / /.proxy/wsrv), estrae l'URL originario.
+ */
+export function unwrapProxyImageUrl(rawUrl: string): string {
+  if (!rawUrl || typeof rawUrl !== 'string') return '';
+  let current = rawUrl.trim();
+  for (let depth = 0; depth < 3; depth++) {
+    try {
+      const normalized = current.startsWith('/.proxy/wsrv')
+        ? `https://wsrv.nl${current.slice('/.proxy/wsrv'.length)}`
+        : current;
+      const parsed = new URL(normalized);
+      if (parsed.hostname === 'wsrv.nl') {
+        const inner = parsed.searchParams.get('url');
+        if (inner && inner !== current) {
+          current = inner;
+          continue;
+        }
+      }
+    } catch {
+      // Non è un URL completo o non è un proxy
+    }
+    break;
+  }
+  return current;
+}
+
+/**
  * Estrae una chiave canonica univoca per l'immagine.
  * Se è un URL di Wikimedia Commons o Wikipedia, estrae il nome file originale
  * (es. "Tetraodon-hispidus.jpg"), consentendo di intercettare sia i thumbnail
@@ -33,7 +60,11 @@ const STORAGE_KEY = 'yappik_flagged_images_v1';
  */
 export function getCanonicalImageKey(url: string): string {
   if (!url || typeof url !== 'string') return '';
-  const cleanUrl = url.trim().split('?')[0].split('#')[0];
+  const unwrapped = unwrapProxyImageUrl(url);
+  if (!unwrapped) return '';
+  // Guard: non creare mai una chiave canonica per il root di wsrv.nl
+  const cleanUrl = unwrapped.trim().split('?')[0].split('#')[0];
+  if (!cleanUrl || /^https?:\/\/wsrv\.nl\/?$/i.test(cleanUrl)) return '';
 
   // Pattern Wikimedia Commons / Wikipedia:
   // upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tetraodon-hispidus.jpg/960px-Tetraodon-hispidus.jpg
@@ -169,11 +200,12 @@ class BlacklistService {
     meta?: { itemId?: string; answer?: string; reason?: string }
   ): void {
     if (!url) return;
-    const key = getCanonicalImageKey(url);
+    const realUrl = unwrapProxyImageUrl(url);
+    const key = getCanonicalImageKey(realUrl);
     if (!key) return;
 
     const record: FlaggedImageRecord = {
-      url: url.trim(),
+      url: realUrl.trim(),
       canonicalKey: key,
       itemId: meta?.itemId,
       answer: meta?.answer,

@@ -25,6 +25,19 @@ export function getDefaultOpponentId(
 }
 
 /**
+ * Seleziona l'avversario più bilanciato (chi ha giocato meno duelli, mantenendo l'ordine a parità).
+ */
+export function getBalancedOpponentId(
+  players: PartyPlayer[],
+  challengerId: string
+): string {
+  const eligible = players.filter((p) => p.id !== challengerId);
+  if (eligible.length === 0) return '';
+  const sorted = [...eligible].sort((a, b) => a.duelsPlayed - b.duelsPlayed);
+  return sorted[0].id;
+}
+
+/**
  * Ordina i giocatori del Party per vittorie (decrescente) e duelli giocati.
  */
 export function rankPartyPlayers(players: PartyPlayer[]): PartyPlayer[] {

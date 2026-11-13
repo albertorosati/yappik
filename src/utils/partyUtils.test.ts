@@ -3,6 +3,7 @@ import { PartyPlayer } from '../types/game';
 import {
   getNextChallengerId,
   getDefaultOpponentId,
+  getBalancedOpponentId,
   rankPartyPlayers,
 } from './partyUtils';
 
@@ -23,6 +24,11 @@ describe('partyUtils', () => {
   it('selects first non-challenger as default opponent', () => {
     expect(getDefaultOpponentId(samplePlayers, 'p1')).toBe('p2');
     expect(getDefaultOpponentId(samplePlayers, 'p2')).toBe('p1');
+  });
+
+  it('balances opponent selection toward players with fewest duelsPlayed', () => {
+    expect(getBalancedOpponentId(samplePlayers, 'p1')).toBe('p4');
+    expect(getBalancedOpponentId(samplePlayers, 'p4')).toBe('p3');
   });
 
   it('ranks players by wins descending', () => {

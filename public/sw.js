@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'the-floor-v1.0.6';
+const CACHE_VERSION = 'the-floor-v1.0.7';
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const IMAGE_CACHE = 'the-floor-images-lru';
 const MAX_IMAGE_CACHE_ENTRIES = 200;
@@ -60,6 +60,9 @@ self.addEventListener('fetch', (event) => {
     url.pathname.match(/\.(png|jpg|jpeg|webp|svg|gif)$/i) ||
     url.hostname.includes('wikimedia.org') ||
     url.hostname.includes('unsplash.com') ||
+    url.hostname.includes('wsrv.nl') ||
+    url.hostname.includes('tmdb.org') ||
+    url.hostname.includes('fandom.com') ||
     url.hostname.includes('wp.com');
 
   if (isImage) {

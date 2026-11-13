@@ -45,13 +45,21 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
   onBackToLobby,
 }) => {
   const isParty = mode === 'party';
-  const isDraw = !isParty && p1Score === p2Score;
 
   // In Party mode, find player with highest wins
   const partyRanked = rankPartyPlayers(partyPlayers);
   const partyWinner = partyRanked[0];
+  const isPartyDraw =
+    isParty &&
+    partyRanked.length >= 2 &&
+    partyRanked[0].wins === partyRanked[1].wins &&
+    partyRanked[0].duelsPlayed === partyRanked[1].duelsPlayed;
+  const isDraw = isParty ? isPartyDraw : p1Score === p2Score;
   const winner = isParty ? partyWinner || p1 : winnerId === 'p1' ? p1 : p2;
-  const winnerColor = getPlayerColor(winner.id);
+  const winnerColor =
+    isParty && typeof (winner as PartyPlayer).colorIndex === 'number'
+      ? getPlayerColor((winner as PartyPlayer).colorIndex!)
+      : getPlayerColor(winner.id);
 
   useEffect(() => {
     soundEngine.playDuelVictory();
@@ -59,7 +67,8 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
       soundEngine.speakAnnouncement(
         language === 'en'
           ? `${localizePlayerName(winner.name, language)} won the match!`
-          : `Vince la sfida ${localizePlayerName(winner.name, language)}!`
+          : `Vince la sfida ${localizePlayerName(winner.name, language)}!`,
+        language
       );
 
       const reduced =
@@ -97,10 +106,10 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
   const totalP1Correct = history.reduce((acc, h) => acc + h.p1Correct, 0);
   const totalP2Correct = history.reduce((acc, h) => acc + h.p2Correct, 0);
 
-  const activeStage = isDraw ? 'neutral' : winner.id;
+  const activeStage = isDraw ? 'neutral' : winnerColor.id;
 
   return (
-    <div className="h-[100dvh] max-h-[100dvh] w-full relative overflow-hidden flex flex-col items-center justify-center p-3 sm:p-6 text-center select-none touch-none">
+    <div className="min-h-[100dvh] w-full relative overflow-y-auto overflow-x-hidden flex flex-col items-center justify-center p-3 sm:p-6 text-center select-none">
       {/* 1. Signature Floor Background in winner's stage color */}
       <TheFloorBackground stage={activeStage} />
 
@@ -151,16 +160,18 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
         <div>
           {/* Winner Badge Pill */}
           <span className="px-4 py-1.5 rounded-full bg-yellow border-[3px] border-ink font-display font-black text-xs uppercase tracking-wider text-ink inline-block mb-3 shadow-hard-sm">
-            {isParty
-              ? t('party.champion', language)
-              : isDraw
+            {isDraw
               ? t('victory.tieMatch', language)
+              : isParty
+              ? t('party.champion', language)
               : t('victory.champion', language)}
           </span>
 
           <h1 className="font-display font-black text-3xl sm:text-5xl text-ink tracking-tight -rotate-1">
-            {isDraw
+            {isDraw && !isParty
               ? `${p1.avatar} ${t('victory.equalPoints', language)} ${p2.avatar}`
+              : isDraw && isParty
+              ? t('victory.equalPoints', language)
               : `${localizePlayerName(winner.name, language)}`}
           </h1>
 
@@ -218,33 +229,47 @@ export const VictoryScreen: React.FC<VictoryScreenProps> = ({
 
         {/* Podio / Classifica Party oppure Statistiche 1v1 */}
         {isParty ? (
-          <div className="w-full flex flex-col divide-y-2 divide-ink/10 border-y-[3px] border-ink/20 py-1 max-h-48 overflow-y-auto">
-            {partyRanked.map((p, idx) => (
-              <div
-                key={p.id}
-                className="py-2.5 px-3 flex items-center justify-between"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="relative flex items-center justify-center">
-                    <span className="font-display font-black text-sm text-ink/70 mr-1.5">
+          <div className="w-full flex flex-col divide-y-2 divide-ink/10 border-y-[3px] border-ink/20 py-1 max-h-52 overflow-y-auto">
+            {partyRanked.map((p, idx) => {
+              const pColor = getPlayerColor(
+                typeof p.colorIndex === 'number' ? p.colorIndex : idx
+              );
+              const showCrown = !isDraw && idx === 0 && p.wins > 0;
+              return (
+                <div
+                  key={p.id}
+                  className="py-2.5 px-3 flex items-center justify-between gap-2"
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <span className="font-display font-black text-sm text-ink/70 shrink-0">
                       #{idx + 1}
                     </span>
-                    <span className="text-2xl">{p.avatar}</span>
-                    {idx === 0 && (
-                      <div className="absolute -top-3 right-0">
-                        <InlineCrown size="sm" />
-                      </div>
-                    )}
+                    <div
+                      className="relative w-9 h-9 rounded-xl border-2 border-ink flex items-center justify-center text-xl shrink-0 shadow-hard-sm"
+                      style={{ backgroundColor: pColor.bgHex }}
+                    >
+                      <span>{p.avatar}</span>
+                      {showCrown && (
+                        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
+                          <InlineCrown size="sm" />
+                        </div>
+                      )}
+                    </div>
+                    <span className="font-display font-bold text-sm text-ink truncate">
+                      {localizePlayerName(p.name, language)}
+                    </span>
                   </div>
-                  <span className="font-display font-bold text-sm text-ink">
-                    {localizePlayerName(p.name, language)}
-                  </span>
+                  <div className="flex items-center gap-2 shrink-0 text-right">
+                    <span className="text-[11px] font-sans font-bold text-ink/50 tabular-nums">
+                      ({p.duelsPlayed} {language === 'en' ? 'duels' : 'sfide'})
+                    </span>
+                    <span className="font-display font-black text-sm text-ink tabular-nums">
+                      {p.wins} {t('party.wins', language).toLowerCase()}
+                    </span>
+                  </div>
                 </div>
-                <div className="font-display font-black text-sm text-ink tabular-nums">
-                  {p.wins} {t('party.wins', language).toLowerCase()}
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         ) : (
           <div className="w-full flex items-center justify-around py-3 border-y-[3px] border-ink">

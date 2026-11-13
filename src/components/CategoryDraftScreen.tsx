@@ -16,6 +16,7 @@ import {
   AppLanguage,
 } from '../types/game';
 import { preloadCategoryImages, primeImage } from '../data/categories';
+import { CategoryRepository } from '../services/categoryRepository';
 import { gameConfig } from '../services/configService';
 import { APP_VERSION } from '../config/version';
 import { soundEngine } from '../engine/soundEffects';
@@ -125,8 +126,17 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
   const [countdownPhase, setCountdownPhase] = useState<'card-scale' | 'full-countdown'>('card-scale');
   const [showGalleryModal, setShowGalleryModal] = useState(false);
 
-  const chooser = chooserId === 'p1' ? p1 : p2;
-  const chooserColor = getPlayerColor(chooser.id);
+  const partyChooser = isParty
+    ? partyPlayers.find((p) => p.id === chooserId)
+    : undefined;
+  const partyOpponent = isParty
+    ? partyPlayers.find((p) => p.id === (selectedOpponentId || p2.id))
+    : undefined;
+  const chooser = partyChooser ?? (chooserId === 'p2' ? p2 : p1);
+  const chooserColor =
+    partyChooser && typeof partyChooser.colorIndex === 'number'
+      ? getPlayerColor(partyChooser.colorIndex)
+      : getPlayerColor(chooser.id);
 
   useEffect(() => {
     offered.forEach((cat) => {
@@ -175,19 +185,27 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
     );
   }, [availableCategories, playedCategoryIds, countdown]);
 
-  const handleChooseCard = (cat: Category) => {
+  const handleChooseCard = (cat: Category, fromGallery = false) => {
     if (countdown !== null) return;
+    soundEngine.unlock();
     setShowGalleryModal(false);
-    preloadCategoryImages(cat, 20);
+
+    // Avvia subito fetch + preloading immagini durante il conto alla rovescia 3-2-1-GO
+    CategoryRepository.fetchCategoryById(cat.id)
+      .then((fullCat) => preloadCategoryImages(fullCat || cat, 6))
+      .catch(() => preloadCategoryImages(cat, 6));
+
     soundEngine.playChallengeLocked();
     const catName = getCategoryTitle(cat, language);
     soundEngine.speakAnnouncement(
       language === 'en'
         ? `${catName}! Ready, set, go!`
-        : `${catName}! Pronti al via!`
+        : `${catName}! Pronti al via!`,
+      language
     );
+    const inGrid = !fromGallery && offered.some((c) => c.id === cat.id);
     setSelectedCat(cat);
-    setCountdownPhase('card-scale');
+    setCountdownPhase(inGrid ? 'card-scale' : 'full-countdown');
     setCountdown(3);
   };
 
@@ -195,9 +213,9 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
   const isP2Leading = p2Score > p1Score && p2Score > 0;
 
   return (
-    <div className="relative h-[100dvh] max-h-[100dvh] w-full flex flex-col justify-between p-4 sm:p-6 select-none overflow-hidden touch-none">
+    <div className="relative min-h-[100dvh] lg:h-[100dvh] w-full flex flex-col justify-between p-4 sm:p-6 select-none overflow-y-auto overflow-x-hidden">
       {/* Signature Floor Background in chooser's stage color */}
-      <TheFloorBackground stage={chooser.id} />
+      <TheFloorBackground stage={chooserColor.id} />
 
       {/* Main Container: Max 1100px Centered */}
       <div className="w-full max-w-[1100px] mx-auto flex-1 flex flex-col justify-between py-2 min-h-0">
@@ -308,23 +326,39 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
                   .filter((p) => p.id !== chooser.id)
                   .map((p) => {
                     const isSelected = selectedOpponentId === p.id;
+                    const pColor = getPlayerColor(
+                      typeof p.colorIndex === 'number' ? p.colorIndex : p.id
+                    );
                     return (
                       <button
                         key={`opp-${p.id}`}
                         type="button"
                         onClick={() => onSelectOpponent(p.id)}
-                        className={`w-12 h-12 rounded-xl text-2xl flex items-center justify-center border-[3px] border-ink transition-all active:scale-95 ${
+                        className={`px-2.5 h-11 rounded-xl text-sm flex items-center justify-center gap-1.5 border-[3px] border-ink transition-all active:scale-95 font-display font-bold ${
                           isSelected
-                            ? 'bg-yellow shadow-hard-lifted -translate-y-1 ring-4 ring-yellow/80'
-                            : 'bg-paper shadow-hard hover:-translate-y-0.5'
+                            ? 'bg-yellow text-ink shadow-hard-lifted -translate-y-1 ring-4 ring-yellow/80'
+                            : 'bg-paper text-ink shadow-hard hover:-translate-y-0.5'
                         }`}
                         title={p.name}
                       >
-                        {p.avatar}
+                        <span
+                          className="w-2.5 h-2.5 rounded-full border border-ink shrink-0"
+                          style={{ backgroundColor: pColor.bgHex }}
+                        />
+                        <span className="text-xl leading-none">{p.avatar}</span>
+                        <span className="text-xs max-w-[70px] truncate">{p.name}</span>
+                        <span className="text-[11px] font-black text-ink/65 tabular-nums">
+                          {p.wins}
+                        </span>
                       </button>
                     );
                   })}
               </div>
+              {partyOpponent && (
+                <span className="text-[11px] font-sans font-bold text-paper/80">
+                  {chooser.avatar} {chooser.name} vs {partyOpponent.avatar} {partyOpponent.name}
+                </span>
+              )}
             </div>
           )}
         </div>
@@ -354,7 +388,7 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
                     : ''
                 }`}
               >
-                <span className="text-6xl sm:text-7xl select-none mb-1 transition-transform duration-200 group-hover:scale-115 group-hover:-rotate-6">
+                <span className="text-6xl sm:text-7xl select-none mb-1 transition-transform duration-200 group-hover:scale-110 group-hover:-rotate-6">
                   {cat.icon}
                 </span>
                 <h2 className="font-display font-black text-xl sm:text-2xl leading-tight">
@@ -453,7 +487,7 @@ export const CategoryDraftScreen: React.FC<CategoryDraftScreenProps> = ({
         categories={availableCategories}
         language={language}
         mode="pick"
-        onSelectCategory={(cat) => handleChooseCard(cat)}
+        onSelectCategory={(cat) => handleChooseCard(cat, true)}
         onClose={() => setShowGalleryModal(false)}
       />
     </div>

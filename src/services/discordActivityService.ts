@@ -6,6 +6,12 @@ export const DISCORD_URL_MAPPINGS = [
   { prefix: '/upload-wikimedia', target: 'upload.wikimedia.org' },
   { prefix: '/thumb-wikimedia', target: 'thumb.wikimedia.org' },
   { prefix: '/wsrv', target: 'wsrv.nl' },
+  { prefix: '/steam-akamai', target: 'shared.akamai.steamstatic.com' },
+  { prefix: '/github-raw', target: 'raw.githubusercontent.com' },
+  { prefix: '/tvmaze', target: 'static.tvmaze.com' },
+  { prefix: '/flagcdn', target: 'flagcdn.com' },
+  { prefix: '/kym-cdn', target: 'i.kym-cdn.com' },
+  { prefix: '/yt3', target: 'yt3.googleusercontent.com' },
 ];
 
 export interface DiscordActivityContext {
@@ -107,8 +113,6 @@ class DiscordActivityService {
     }
 
     try {
-      this.initialized = true;
-
       // 1. Intercept fetch & img[src] so Discord's proxy passes images through without CSP violations
       patchUrlMappings(DISCORD_URL_MAPPINGS, {
         patchFetch: true,
@@ -122,10 +126,12 @@ class DiscordActivityService {
 
       // 3. Handshake ready with Discord client (removes loading splash)
       await this.discordSdk.ready();
+      this.initialized = true;
       this.isReady = true;
       console.log('🎮 [Yappik] Discord Activity SDK handshake completed successfully!');
       return true;
     } catch (err) {
+      this.initialized = false;
       console.warn('⚠️ [Yappik] Discord SDK handshake failed or running in test/sandbox environment:', err);
       return false;
     }
@@ -133,6 +139,62 @@ class DiscordActivityService {
 
   public getSdk(): DiscordSDK | null {
     return this.discordSdk;
+  }
+
+  public async getConnectedParticipants(): Promise<
+    Array<{ id: string; displayName: string }>
+  > {
+    if (!this.discordSdk || !this.isReady) return [];
+    try {
+      const res = await this.discordSdk.commands.getInstanceConnectedParticipants();
+      return (res.participants || [])
+        .filter((p) => !p.bot)
+        .map((p) => ({
+          id: p.id,
+          displayName: (p.nickname || p.global_name || p.username || '').trim(),
+        }))
+        .filter((p) => p.displayName.length > 0);
+    } catch {
+      return [];
+    }
+  }
+
+  public async subscribeParticipants(
+    onUpdate: (participants: Array<{ id: string; displayName: string }>) => void
+  ): Promise<() => void> {
+    if (!this.discordSdk || !this.isReady) return () => {};
+    try {
+      const handler = (data: {
+        participants?: Array<{
+          id: string;
+          bot?: boolean;
+          nickname?: string | null;
+          global_name?: string | null;
+          username?: string;
+        }>;
+      }) => {
+        const list = (data.participants || [])
+          .filter((p) => !p.bot)
+          .map((p) => ({
+            id: p.id,
+            displayName: (p.nickname || p.global_name || p.username || '').trim(),
+          }))
+          .filter((p) => p.displayName.length > 0);
+        onUpdate(list);
+      };
+      await this.discordSdk.subscribe(
+        'ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE',
+        handler
+      );
+      return () => {
+        this.discordSdk?.unsubscribe(
+          'ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE',
+          handler
+        );
+      };
+    } catch {
+      return () => {};
+    }
   }
 }
 

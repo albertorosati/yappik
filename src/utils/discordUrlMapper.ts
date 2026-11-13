@@ -23,16 +23,21 @@ export function remapDiscordImageUrl(url: string): string {
   try {
     const parsed = new URL(url);
 
-    if (parsed.hostname === 'upload.wikimedia.org') {
-      return `/.proxy/upload-wikimedia${parsed.pathname}${parsed.search}`;
-    }
+    const hostMap: Record<string, string> = {
+      'upload.wikimedia.org': '/.proxy/upload-wikimedia',
+      'thumb.wikimedia.org': '/.proxy/thumb-wikimedia',
+      'wsrv.nl': '/.proxy/wsrv',
+      'shared.akamai.steamstatic.com': '/.proxy/steam-akamai',
+      'raw.githubusercontent.com': '/.proxy/github-raw',
+      'static.tvmaze.com': '/.proxy/tvmaze',
+      'flagcdn.com': '/.proxy/flagcdn',
+      'i.kym-cdn.com': '/.proxy/kym-cdn',
+      'yt3.googleusercontent.com': '/.proxy/yt3',
+    };
 
-    if (parsed.hostname === 'thumb.wikimedia.org') {
-      return `/.proxy/thumb-wikimedia${parsed.pathname}${parsed.search}`;
-    }
-
-    if (parsed.hostname === 'wsrv.nl') {
-      return `/.proxy/wsrv${parsed.pathname}${parsed.search}`;
+    const proxyPrefix = hostMap[parsed.hostname];
+    if (proxyPrefix) {
+      return `${proxyPrefix}${parsed.pathname}${parsed.search}`;
     }
   } catch {
     // If URL parsing fails, return original

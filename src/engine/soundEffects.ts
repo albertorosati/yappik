@@ -1,21 +1,72 @@
+import type { AppLanguage } from '../types/game';
+
 class SoundEngine {
   private ctx: AudioContext | null = null;
+  private masterGain: GainNode | null = null;
+  private outputNode: AudioNode | null = null;
   public enabled = true;
   public announcerEnabled = true;
 
-  private getContext(): AudioContext | null {
-    if (!this.enabled) return null;
+  private ensureContext(): AudioContext | null {
+    if (typeof window === 'undefined') return null;
     if (!this.ctx) {
       const AudioCtx =
         window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
       if (AudioCtx) {
         this.ctx = new AudioCtx();
+        const gain = this.ctx.createGain();
+        gain.gain.value = 0.85;
+        if (typeof this.ctx.createDynamicsCompressor === 'function') {
+          const comp = this.ctx.createDynamicsCompressor();
+          comp.threshold.value = -14;
+          comp.knee.value = 18;
+          comp.ratio.value = 6;
+          comp.attack.value = 0.003;
+          comp.release.value = 0.15;
+          gain.connect(comp);
+          comp.connect(this.ctx.destination);
+        } else {
+          gain.connect(this.ctx.destination);
+        }
+        this.masterGain = gain;
+        this.outputNode = gain;
       }
     }
-    if (this.ctx && this.ctx.state === 'suspended') {
-      this.ctx.resume().catch(() => {});
+    if (this.ctx) {
+      const state = this.ctx.state as string;
+      if (state === 'suspended' || state === 'interrupted') {
+        this.ctx.resume().catch(() => {});
+      }
     }
     return this.ctx;
+  }
+
+  private getContext(): AudioContext | null {
+    if (!this.enabled) return null;
+    return this.ensureContext();
+  }
+
+  private getDestination(ctx: AudioContext): AudioNode {
+    return this.outputNode || ctx.destination;
+  }
+
+  /** Sblocca esplicitamente AudioContext al primo tap (necessario su iOS Safari) */
+  public unlock(): void {
+    const ctx = this.ensureContext();
+    if (!ctx) return;
+    if (this.masterGain && ctx.state === 'running') {
+      try {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        g.gain.setValueAtTime(0.0001, ctx.currentTime);
+        osc.connect(g);
+        g.connect(this.getDestination(ctx));
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.01);
+      } catch {
+        // Ignora
+      }
+    }
   }
 
   /** Tick del Randomizer sulla griglia */
@@ -30,11 +81,12 @@ class SoundEngine {
     osc.frequency.setValueAtTime(320 * pitchFactor, now);
     osc.frequency.exponentialRampToValueAtTime(640 * pitchFactor, now + 0.06);
 
-    gain.gain.setValueAtTime(0.18, now);
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.linearRampToValueAtTime(0.18, now + 0.005);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.07);
 
     osc.connect(gain);
-    gain.connect(ctx.destination);
+    gain.connect(this.getDestination(ctx));
     osc.start(now);
     osc.stop(now + 0.075);
   }
@@ -50,15 +102,17 @@ class SoundEngine {
       const osc = ctx.createOscillator();
       const gain = ctx.createGain();
       osc.type = 'sawtooth';
-      osc.frequency.setValueAtTime(f, now + idx * 0.05);
+      const start = now + idx * 0.05;
+      osc.frequency.setValueAtTime(f, start);
 
-      gain.gain.setValueAtTime(0.14, now + idx * 0.05);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.05 + 0.55);
+      gain.gain.setValueAtTime(0.001, start);
+      gain.gain.linearRampToValueAtTime(0.14, start + 0.006);
+      gain.gain.exponentialRampToValueAtTime(0.001, start + 0.55);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
-      osc.start(now + idx * 0.05);
-      osc.stop(now + idx * 0.05 + 0.56);
+      gain.connect(this.getDestination(ctx));
+      osc.start(start);
+      osc.stop(start + 0.56);
     });
   }
 
@@ -79,11 +133,12 @@ class SoundEngine {
     }
 
     const duration = isGo ? 0.38 : 0.16;
-    gain.gain.setValueAtTime(0.24, now);
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.linearRampToValueAtTime(0.24, now + 0.005);
     gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
 
     osc.connect(gain);
-    gain.connect(ctx.destination);
+    gain.connect(this.getDestination(ctx));
     osc.start(now);
     osc.stop(now + duration + 0.02);
   }
@@ -111,12 +166,13 @@ class SoundEngine {
       const start = now + i * 0.048;
       osc.frequency.setValueAtTime(freq, start);
 
-      const vol = streak >= 5 ? 0.28 : streak >= 3 ? 0.24 : 0.2;
-      gain.gain.setValueAtTime(vol, start);
+      const vol = streak >= 5 ? 0.22 : streak >= 3 ? 0.2 : 0.18;
+      gain.gain.setValueAtTime(0.001, start);
+      gain.gain.linearRampToValueAtTime(vol, start + 0.005);
       gain.gain.exponentialRampToValueAtTime(0.001, start + 0.28);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
+      gain.connect(this.getDestination(ctx));
       osc.start(start);
       osc.stop(start + 0.3);
     });
@@ -135,11 +191,12 @@ class SoundEngine {
     osc.frequency.setValueAtTime(190, now);
     osc.frequency.linearRampToValueAtTime(130, now + 0.28);
 
-    gain.gain.setValueAtTime(0.22, now);
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.linearRampToValueAtTime(0.2, now + 0.006);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
 
     osc.connect(gain);
-    gain.connect(ctx.destination);
+    gain.connect(this.getDestination(ctx));
     osc.start(now);
     osc.stop(now + 0.32);
   }
@@ -158,11 +215,12 @@ class SoundEngine {
       osc.frequency.setValueAtTime(freq, now);
       osc.frequency.linearRampToValueAtTime(freq * 0.75, now + 0.55);
 
-      gain.gain.setValueAtTime(0.26, now);
+      gain.gain.setValueAtTime(0.001, now);
+      gain.gain.linearRampToValueAtTime(0.22, now + 0.006);
       gain.gain.exponentialRampToValueAtTime(0.001, now + 0.58);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
+      gain.connect(this.getDestination(ctx));
       osc.start(now);
       osc.stop(now + 0.6);
     });
@@ -173,21 +231,22 @@ class SoundEngine {
     subOsc.type = 'sine';
     subOsc.frequency.setValueAtTime(85, now);
     subOsc.frequency.exponentialRampToValueAtTime(35, now + 0.5);
-    subGain.gain.setValueAtTime(0.35, now);
+    subGain.gain.setValueAtTime(0.001, now);
+    subGain.gain.linearRampToValueAtTime(0.3, now + 0.006);
     subGain.gain.exponentialRampToValueAtTime(0.001, now + 0.52);
 
     subOsc.connect(subGain);
-    subGain.connect(ctx.destination);
+    subGain.connect(this.getDestination(ctx));
     subOsc.start(now);
     subOsc.stop(now + 0.55);
   }
 
-  /** Jingle di svelamento dell'ultima risposta non data */
+  /** Jingle di svelamento dell'ultima risposta non data (leggermente sfalsato rispetto al buzzer) */
   public playRevealAnswer(): void {
     const ctx = this.getContext();
     if (!ctx) return;
 
-    const now = ctx.currentTime;
+    const now = ctx.currentTime + 0.28;
     const revealNotes = [349.23, 440.0, 523.25, 698.46, 880.0];
     revealNotes.forEach((freq, i) => {
       const osc = ctx.createOscillator();
@@ -196,11 +255,12 @@ class SoundEngine {
       const start = now + i * 0.06;
       osc.frequency.setValueAtTime(freq, start);
 
-      gain.gain.setValueAtTime(0.18, start);
+      gain.gain.setValueAtTime(0.001, start);
+      gain.gain.linearRampToValueAtTime(0.16, start + 0.006);
       gain.gain.exponentialRampToValueAtTime(0.001, start + 0.45);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
+      gain.connect(this.getDestination(ctx));
       osc.start(start);
       osc.stop(start + 0.48);
     });
@@ -229,11 +289,12 @@ class SoundEngine {
       const start = now + t;
       osc.frequency.setValueAtTime(f, start);
 
-      gain.gain.setValueAtTime(0.19, start);
+      gain.gain.setValueAtTime(0.001, start);
+      gain.gain.linearRampToValueAtTime(0.15, start + 0.008);
       gain.gain.exponentialRampToValueAtTime(0.001, start + d);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
+      gain.connect(this.getDestination(ctx));
       osc.start(start);
       osc.stop(start + d + 0.02);
     });
@@ -252,11 +313,12 @@ class SoundEngine {
     osc.frequency.setValueAtTime(urgent ? 920 : 600, now);
     osc.frequency.exponentialRampToValueAtTime(urgent ? 420 : 300, now + 0.035);
 
-    gain.gain.setValueAtTime(urgent ? 0.14 : 0.06, now);
+    gain.gain.setValueAtTime(0.001, now);
+    gain.gain.linearRampToValueAtTime(urgent ? 0.14 : 0.06, now + 0.004);
     gain.gain.exponentialRampToValueAtTime(0.001, now + 0.04);
 
     osc.connect(gain);
-    gain.connect(ctx.destination);
+    gain.connect(this.getDestination(ctx));
     osc.start(now);
     osc.stop(now + 0.045);
   }
@@ -275,24 +337,25 @@ class SoundEngine {
       const start = now + idx * 0.07;
       osc.frequency.setValueAtTime(freq, start);
 
-      gain.gain.setValueAtTime(0.2, start);
+      gain.gain.setValueAtTime(0.001, start);
+      gain.gain.linearRampToValueAtTime(0.16, start + 0.008);
       gain.gain.exponentialRampToValueAtTime(0.001, start + 0.75);
 
       osc.connect(gain);
-      gain.connect(ctx.destination);
+      gain.connect(this.getDestination(ctx));
       osc.start(start);
       osc.stop(start + 0.78);
     });
   }
 
   /** Annunciatore vocale TV (solo fuori dal riconoscimento attivo per non interferire col mic!) */
-  public speakAnnouncement(text: string): void {
+  public speakAnnouncement(text: string, language: AppLanguage = 'it'): void {
     if (!this.enabled || !this.announcerEnabled) return;
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
     try {
       window.speechSynthesis.cancel();
       const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = 'it-IT';
+      utter.lang = language === 'en' ? 'en-US' : 'it-IT';
       utter.rate = 1.08;
       utter.pitch = 0.95;
       window.speechSynthesis.speak(utter);

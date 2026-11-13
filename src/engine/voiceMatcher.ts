@@ -23,17 +23,17 @@ const STOPWORDS = new Set([
 
 const NUMBER_MAP: Record<string, string> = {
   ...voiceConfig.numberMap,
-  zero: '0',
-  one: '1',
-  two: '2',
-  three: '3',
-  four: '4',
-  five: '5',
-  six: '6',
-  seven: '7',
-  eight: '8',
-  nine: '9',
-  ten: '10',
+  zero: 'zero',
+  one: 'uno',
+  two: 'due',
+  three: 'tre',
+  four: 'quattro',
+  five: 'cinque',
+  six: 'sei',
+  seven: 'sette',
+  eight: 'otto',
+  nine: 'nove',
+  ten: 'dieci',
 };
 
 const PASS_KEYWORDS = new Set([
@@ -58,24 +58,31 @@ interface CandidateEntry {
 
 export function normalizeText(raw: string): string {
   if (!raw) return '';
-  let text = raw
+  let pre = raw
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[\u0300-\u036f]/g, '');
+
+  // Converti numeri romani SOLO quando compaiono a fine titolo/sottotitolo dopo spazio
+  // (es. "Grand Theft Auto V", "Rocky IV"), mai dentro "X-Men" o "V per Vendetta".
+  if (voiceConfig.romanNumeralsMap) {
+    for (const [roman, num] of Object.entries(voiceConfig.romanNumeralsMap)) {
+      pre = pre.replace(new RegExp(`(\\s)${roman}(?=$|\\s*[:\\-–])`, 'g'), `$1${num}`);
+    }
+  }
+
+  const text = pre
     .replace(/['’`\-_.,!?;:()/\\"+]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 
-  if (voiceConfig.romanNumeralsMap) {
-    for (const [roman, num] of Object.entries(voiceConfig.romanNumeralsMap)) {
-      text = text.replace(new RegExp(`\\b${roman}\\b`, 'g'), num);
-    }
-  }
-
-  const tokens = text
+  const rawTokens = text
     .split(' ')
     .map((t) => NUMBER_MAP[t] ?? t)
-    .filter((t) => t.length > 0 && t !== 'l' && !STOPWORDS.has(t));
+    .filter((t) => t.length > 0 && t !== 'l');
+
+  const filteredTokens = rawTokens.filter((t) => !STOPWORDS.has(t));
+  const tokens = filteredTokens.length > 0 ? filteredTokens : rawTokens;
 
   return tokens.join(' ');
 }
@@ -100,6 +107,17 @@ export function italianStem(word: string): string {
 }
 
 function isItalianPluralInflection(a: string, b: string): boolean {
+  if (a.length < 3 || b.length < 3) {
+    return false;
+  }
+  // Plurale inglese base (-s / -es) su parole >= 4 char (es. dog/dogs, tiger/tigers)
+  if (
+    Math.min(a.length, b.length) >= 3 &&
+    ((a.length + 1 === b.length && b === `${a}s`) ||
+      (b.length + 1 === a.length && a === `${b}s`))
+  ) {
+    return true;
+  }
   if (a.length < 4 || b.length < 4 || Math.abs(a.length - b.length) > 0) {
     return false;
   }
@@ -110,7 +128,20 @@ function isItalianPluralInflection(a: string, b: string): boolean {
   return pair === 'ae' || pair === 'ei' || pair === 'io';
 }
 
+function stripDiacriticsAlphaNum(word: string): string {
+  return word
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-zA-Z0-9]/g, '');
+}
+
+const preparedCandidatesWeakCache = new WeakMap<DuelItem, CandidateEntry[]>();
+const normalizedCandidatesWeakCache = new WeakMap<DuelItem, CandidateEntry[]>();
+
 function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
+  const cached = preparedCandidatesWeakCache.get(item);
+  if (cached) return cached;
+
   const byText = new Map<string, CandidateEntry>();
   const addCandidate = (rawText: string, isPartial: boolean) => {
     const trimmed = rawText.trim();
@@ -136,13 +167,21 @@ function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
     if (!raw) continue;
     addCandidate(raw, false);
 
-    // Sottotitoli delimitati da ":", "-", "–"
+    // Sottotitoli delimitati da ":", "-", "–" (solo se il pezzo ha parole significative non generiche)
     const subParts = raw
       .split(/[:\-–]/)
       .map((s) => s.trim())
-      .filter((s) => s.length >= 3);
+      .filter((s) => {
+        if (s.length < 4) return false;
+        const low = s.toLowerCase();
+        return !STOPWORDS.has(low) && !GENERIC_TOKENS.has(low);
+      });
     for (const p of subParts) {
-      addCandidate(p, false);
+      const pWords = p.split(/\s+/).filter(Boolean);
+      const isGenericSingle = pWords.length === 1 && p.length < 6;
+      if (!isGenericSingle) {
+        addCandidate(p, pWords.length === 1);
+      }
     }
 
     // Rimozione numeri o numeri romani in coda (es. "Titolo 3" -> "Titolo")
@@ -155,7 +194,7 @@ function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
     // e non presenti nella stop-list di token generici (evita falsi positivi di categoria/nomi comuni)
     const cleanWords = raw
       .split(/\s+/)
-      .map((w) => w.replace(/[^a-zA-Z0-9]/g, ''))
+      .map((w) => stripDiacriticsAlphaNum(w))
       .filter((w) => {
         const lower = w.toLowerCase();
         return (
@@ -173,7 +212,7 @@ function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
   // Generazione automatica acronimi se la risposta principale è composta da 3+ parole significative
   const mainTokens = item.answer
     .split(/\s+/)
-    .map((w) => w.replace(/[^a-zA-Z0-9]/g, ''))
+    .map((w) => stripDiacriticsAlphaNum(w))
     .filter((w) => w.length > 1 && !STOPWORDS.has(w.toLowerCase()));
   if (mainTokens.length >= 3) {
     const acronym = mainTokens.map((w) => w[0].toLowerCase()).join('');
@@ -182,7 +221,40 @@ function buildCandidateEntries(item: DuelItem): CandidateEntry[] {
     }
   }
 
-  return Array.from(byText.values());
+  const out = Array.from(byText.values());
+  preparedCandidatesWeakCache.set(item, out);
+  return out;
+}
+
+function getNormalizedCandidates(item: DuelItem): CandidateEntry[] {
+  const cached = normalizedCandidatesWeakCache.get(item);
+  if (cached) return cached;
+
+  const rawEntries = buildCandidateEntries(item);
+  const candMap = new Map<string, CandidateEntry>();
+  for (const entry of rawEntries) {
+    let norm = normalizeText(entry.text);
+    // Salvaguardia titoli composti interamente da stopword (es. "It")
+    if (!norm && !entry.isPartial) {
+      const rawFallback = entry.text
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .trim();
+      if (rawFallback && rawFallback.length >= 2) {
+        norm = rawFallback;
+      }
+    }
+    if (!norm) continue;
+    const prev = candMap.get(norm);
+    if (!prev || (prev.isPartial && !entry.isPartial)) {
+      candMap.set(norm, { text: norm, isPartial: entry.isPartial });
+    }
+  }
+  const out = Array.from(candMap.values());
+  normalizedCandidatesWeakCache.set(item, out);
+  return out;
 }
 
 export function expandItemCandidates(item: DuelItem): string[] {
@@ -305,17 +377,7 @@ export function evaluateVoiceInput(
   item: DuelItem,
   options?: EvaluateVoiceOptions
 ): VoiceMatchResult {
-  const rawEntries = buildCandidateEntries(item);
-  const candMap = new Map<string, CandidateEntry>();
-  for (const entry of rawEntries) {
-    const norm = normalizeText(entry.text);
-    if (!norm) continue;
-    const prev = candMap.get(norm);
-    if (!prev || (prev.isPartial && !entry.isPartial)) {
-      candMap.set(norm, { text: norm, isPartial: entry.isPartial });
-    }
-  }
-  const candidates = Array.from(candMap.values());
+  const candidates = getNormalizedCandidates(item);
 
   const acceptThreshold =
     options?.isFinal === false
@@ -376,18 +438,19 @@ export function evaluateVoiceInput(
     if (normSpoken) windows.add(normSpoken);
     if (primaryNormalized) windows.add(primaryNormalized);
 
-    // Finestre dai token normalizzati
-    for (let wSize = 1; wSize <= Math.min(5, spokenWords.length); wSize++) {
+    // Finestre dai token normalizzati (fino a 7 parole)
+    for (let wSize = 1; wSize <= Math.min(7, spokenWords.length); wSize++) {
       for (let start = 0; start <= spokenWords.length - wSize; start++) {
         windows.add(spokenWords.slice(start, start + wSize).join(' '));
       }
     }
 
-    // Finestre dai token raw prima del drop delle stopwords (es. "il the ring")
-    for (let wSize = 1; wSize <= Math.min(5, rawCleanWords.length); wSize++) {
+    // Finestre dai token raw prima del drop delle stopwords (es. "il the ring", "it")
+    const allowSingleStopword = candidates.some((c) => STOPWORDS.has(c.text));
+    for (let wSize = 1; wSize <= Math.min(7, rawCleanWords.length); wSize++) {
       for (let start = 0; start <= rawCleanWords.length - wSize; start++) {
         const chunk = rawCleanWords.slice(start, start + wSize).join(' ');
-        if (wSize === 1 && STOPWORDS.has(chunk)) continue;
+        if (wSize === 1 && STOPWORDS.has(chunk) && !allowSingleStopword) continue;
         windows.add(chunk);
       }
     }

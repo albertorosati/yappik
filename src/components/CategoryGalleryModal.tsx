@@ -181,7 +181,7 @@ export const CategoryGalleryModal: React.FC<CategoryGalleryModalProps> = ({
     <div
       role="dialog"
       aria-modal="true"
-      className="fixed inset-0 z-50 overflow-hidden flex flex-col select-none touch-none bg-[#0F0E1A]"
+      className="fixed inset-0 z-50 overflow-hidden flex flex-col select-none bg-[#0F0E1A]"
     >
       {/* Dark Stage Checkerboard Background */}
       <TheFloorBackground stage="modal" />
@@ -313,6 +313,9 @@ export const CategoryGalleryModal: React.FC<CategoryGalleryModalProps> = ({
                                 const fanTilt =
                                   pIdx === 0 ? -8 : pIdx === 1 ? 0 : 8;
                                 const fanY = pIdx === 1 ? -4 : 0;
+                                const rawUrl =
+                                  (item.imageUrls && item.imageUrls[0]) ||
+                                  item.imageUrl;
                                 return (
                                   <div
                                     key={item.id}
@@ -323,9 +326,19 @@ export const CategoryGalleryModal: React.FC<CategoryGalleryModalProps> = ({
                                     className="w-16 h-20 rounded-xl bg-paper border-[3px] border-ink shadow-hard overflow-hidden shrink-0 flex items-center justify-center"
                                   >
                                     <img
-                                      src={item.imageUrl}
+                                      src={rawUrl}
                                       alt={item.answer}
                                       loading="lazy"
+                                      referrerPolicy="no-referrer"
+                                      onError={(e) => {
+                                        const img = e.currentTarget;
+                                        if (!img.dataset.fallbackTried) {
+                                          img.dataset.fallbackTried = '1';
+                                          img.src = `https://wsrv.nl/?url=${encodeURIComponent(
+                                            rawUrl
+                                          )}&w=320&fit=inside&n=-1`;
+                                        }
+                                      }}
                                       className="w-full h-full object-cover"
                                     />
                                   </div>
