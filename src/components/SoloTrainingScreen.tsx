@@ -29,7 +29,7 @@ import {
   primeImage,
   getItemImagePool,
 } from '../data/categories';
-import { isRenderedImageHealthy } from '../utils/itemUtils';
+import { isRenderedImageHealthy, markItemSeen } from '../utils/itemUtils';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { soloScoreService } from '../services/soloScoreService';
@@ -149,6 +149,12 @@ export const SoloTrainingScreen: React.FC<SoloTrainingScreenProps> = ({
     revealedAnswer,
     currentItem,
   });
+
+  useEffect(() => {
+    if (currentItem?.id) {
+      markItemSeen(currentItem.id);
+    }
+  }, [currentItem?.id]);
 
   useEffect(() => {
     stateRef.current = {

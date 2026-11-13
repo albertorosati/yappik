@@ -31,7 +31,7 @@ import {
   primeImage,
   getItemImagePool,
 } from '../data/categories';
-import { isRenderedImageHealthy } from '../utils/itemUtils';
+import { isRenderedImageHealthy, markItemSeen } from '../utils/itemUtils';
 import { blacklistService } from '../services/blacklistService';
 import { gameConfig } from '../services/configService';
 import { t, localizePlayerName } from '../services/i18n';
@@ -135,6 +135,12 @@ export const DuelArenaScreen: React.FC<DuelArenaScreenProps> = ({
       ? getBackupImageUrl(currentItem.imageUrl)
       : resolvedUrlsRef.current.get(currentItem.id) ||
         getResolvedImageUrl(currentItem.imageUrl));
+
+  useEffect(() => {
+    if (currentItem?.id) {
+      markItemSeen(currentItem.id);
+    }
+  }, [currentItem?.id]);
 
   const [imageLoaded, setImageLoaded] = useState(() => isImageCached(displaySrc));
 

@@ -571,6 +571,546 @@
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Rey_Mysterio_134596.jpg/960px-Rey_Mysterio_134596.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Rey_mysterio_is_back.jpg/960px-Rey_mysterio_is_back.jpg"
       ]
+    },
+    {
+      "id": "leggende-sport-41",
+      "answer": "Lorenzo Musetti",
+      "aliases": [
+        "musetti"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg/960px-Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Musetti_MCM23_%2811%29_%2852883593753%29.jpg/960px-Musetti_MCM23_%2811%29_%2852883593753%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lorenzo_Musetti_%282025_DC_Open%29_03.jpg/960px-Lorenzo_Musetti_%282025_DC_Open%29_03.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lorenzo_Musetti.png"
+      ]
+    },
+    {
+      "id": "leggende-sport-42",
+      "answer": "Jasmine Paolini",
+      "aliases": [
+        "paolini"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Jasmine_Paolini_%282023_US_Open%29_01_%28cropped%29.jpg/960px-Jasmine_Paolini_%282023_US_Open%29_01_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Jasmine_Paolini_%282023_US_Open%29_01_%28cropped%29.jpg/960px-Jasmine_Paolini_%282023_US_Open%29_01_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ee/Transylvania_Open_2022_WTA_250_%2852503041088%29_%28Paolini%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Jasmine_Paolini_%282023_US_Open%29_01.jpg/960px-Jasmine_Paolini_%282023_US_Open%29_01.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-43",
+      "answer": "Flavio Cobolli",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Cobolli_RGQ23_%2852944096963%29.jpg/960px-Cobolli_RGQ23_%2852944096963%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Cobolli_RGQ23_%2852944096963%29.jpg/960px-Cobolli_RGQ23_%2852944096963%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Cobolli_RGQ23_%2852944096963%29_%28cropped%29.jpg/960px-Cobolli_RGQ23_%2852944096963%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/2022_Roland_Garros_Qualifying_Tournament_-_34.jpg/960px-2022_Roland_Garros_Qualifying_Tournament_-_34.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-44",
+      "answer": "Andre Agassi",
+      "aliases": [
+        "agassi"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andre_Agassi_%282011%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/Andre_Agassi_%282011%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Agassi-Auopen2005.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/38/Andre_Agassi_%282005%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-45",
+      "answer": "Pete Sampras",
+      "aliases": [
+        "sampras"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pete_Sampras_Champions_Shootout_2.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pete_Sampras_Champions_Shootout_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pete_Sampras_%282008%29_1%2C_cropped.jpg/960px-Pete_Sampras_%282008%29_1%2C_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/52/Pete_Sampras.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-46",
+      "answer": "Björn Borg",
+      "aliases": [
+        "borg",
+        "Bjorn Borg"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bjorn_Borg_en_2014.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bjorn_Borg_en_2014.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Bj%C3%B6rn_Borg_%281987%29.jpg/960px-Bj%C3%B6rn_Borg_%281987%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bj%C3%B6rn_Borg_%281987%29_color.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-47",
+      "answer": "Maria Sharapova",
+      "aliases": [
+        "sharapova"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Collision_2024_-_VR7_1035_%2853801820852%29_%28cropped%29.jpg/960px-Collision_2024_-_VR7_1035_%2853801820852%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Collision_2024_-_VR7_1035_%2853801820852%29_%28cropped%29.jpg/960px-Collision_2024_-_VR7_1035_%2853801820852%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/IBI14_Maria_Sharapova_%28cropped%29.jpg/960px-IBI14_Maria_Sharapova_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Maria_Sharapova_%2816201873377%29.jpg/960px-Maria_Sharapova_%2816201873377%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-48",
+      "answer": "Venus Williams",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Venus_Williams_%282025_DC_Open%29_crop.jpg/960px-Venus_Williams_%282025_DC_Open%29_crop.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Venus_Williams_%282025_DC_Open%29_crop.jpg/960px-Venus_Williams_%282025_DC_Open%29_crop.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Venus_Williams_%282025_DC_Open%29_032_%28cropped%29.jpg/960px-Venus_Williams_%282025_DC_Open%29_032_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Melbourne_Australian_Open_2010_Venus_and_Serena_Chat.jpg/960px-Melbourne_Australian_Open_2010_Venus_and_Serena_Chat.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-49",
+      "answer": "Coco Gauff",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Coco_Gauff_Miami_Open.jpg/960px-Coco_Gauff_Miami_Open.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Coco_Gauff_Miami_Open.jpg/960px-Coco_Gauff_Miami_Open.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Coco_Gauff_%28cropped_2%29.jpg/960px-Coco_Gauff_%28cropped_2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Coco_Gauff_2022_US_Open_001.jpg/960px-Coco_Gauff_2022_US_Open_001.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-50",
+      "answer": "Iga Świątek",
+      "aliases": [
+        "swiatek",
+        "Iga Swiatek"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Iga_Swiatek_2023_Cropped_%2B_Retouched.jpg/960px-Iga_Swiatek_2023_Cropped_%2B_Retouched.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Iga_Swiatek_2023_Cropped_%2B_Retouched.jpg/960px-Iga_Swiatek_2023_Cropped_%2B_Retouched.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Iga_%C5%9Awi%C4%85tek_%282023_US_Open%29_45_%28cropped%29.jpg/960px-Iga_%C5%9Awi%C4%85tek_%282023_US_Open%29_45_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Iga_Swiatek%2C_Rafael_Nadal.jpg/960px-Iga_Swiatek%2C_Rafael_Nadal.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-51",
+      "answer": "Luka Dončić",
+      "aliases": [
+        "doncic",
+        "Luka Doncic"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/be/Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/960px-Luka_Don%C4%8Di%C4%87_2021.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Luka_Doncic_%2831465734481%29.jpg/960px-Luka_Doncic_%2831465734481%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-52",
+      "answer": "Nikola Jokić",
+      "aliases": [
+        "jokic",
+        "Nikola Jokic"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Nikola_Jokic_%2840086258855%29.jpg/960px-Nikola_Jokic_%2840086258855%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nikola_Jokic_%2840980299891%29.jpg/960px-Nikola_Jokic_%2840980299891%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-53",
+      "answer": "Giannis Antetokounmpo",
+      "aliases": [
+        "giannis"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg/960px-Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg/960px-Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/960px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Giannis_Antetokounmpo_%2839004611954%29.jpg/960px-Giannis_Antetokounmpo_%2839004611954%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-54",
+      "answer": "Victor Wembanyama",
+      "aliases": [
+        "wembanyama"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg/960px-Victor_Wembanyama_San_Antonio_Spurs_2024.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg/960px-Victor_Wembanyama_San_Antonio_Spurs_2024.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/San_Antonio_at_Toronto_-_Wembanyama_2024_%28cropped%29.jpg/960px-San_Antonio_at_Toronto_-_Wembanyama_2024_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Victor_Wembanyama.jpg/960px-Victor_Wembanyama.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-55",
+      "answer": "Magic Johnson",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/960px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/960px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Magic_Johnson_Steve_Lipofsky.jpg/960px-Magic_Johnson_Steve_Lipofsky.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/72/Earvin_%22Magic%22_Johnson_on_%2707.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-56",
+      "answer": "Larry Bird",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Larrybird.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Larrybird.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Larry_Bird_Lipofsky_%28high_quality%29_%28cropped%29.jpg/960px-Larry_Bird_Lipofsky_%28high_quality%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Bernard_Cardinal_Law%2C_Larry_Bird_and_Mayor_Raymond_L._Flynn_%289519694234%29.jpg/960px-Bernard_Cardinal_Law%2C_Larry_Bird_and_Mayor_Raymond_L._Flynn_%289519694234%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-57",
+      "answer": "Tim Duncan",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Tim_Duncan.jpg/960px-Tim_Duncan.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dwight_Howard_Tim_Duncan_Spurs-Magic074.jpg/960px-Dwight_Howard_Tim_Duncan_Spurs-Magic074.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-58",
+      "answer": "Dirk Nowitzki",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dirk_Nowitzki_2_%28cropped%29.jpg/960px-Dirk_Nowitzki_2_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dirk_Nowitzki_2_%28cropped%29.jpg/960px-Dirk_Nowitzki_2_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Dirk_Nowitzki_-_2019202181209_2019-07-21_Champions_for_Charity_-_1829_-_B70I1864.jpg/960px-Dirk_Nowitzki_-_2019202181209_2019-07-21_Champions_for_Charity_-_1829_-_B70I1864.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/95/Dirk-Nowitzki-2246.JPG"
+      ]
+    },
+    {
+      "id": "leggende-sport-59",
+      "answer": "Marco Belinelli",
+      "aliases": [
+        "belinelli"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Marco_Belinelli_3_Virtus_Pallacanestro_Bologna_Euroleague_20250131_%283%29.jpg/960px-Marco_Belinelli_3_Virtus_Pallacanestro_Bologna_Euroleague_20250131_%283%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Marco_Belinelli_3_Virtus_Pallacanestro_Bologna_Euroleague_20250131_%283%29.jpg/960px-Marco_Belinelli_3_Virtus_Pallacanestro_Bologna_Euroleague_20250131_%283%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Bruno_dei_Fichi_d%27India_e_Marco_Belinelli.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Bruno_dei_Fichi_d%27India_e_Marco_Belinelli_%28foto_intera%29.jpg/960px-Bruno_dei_Fichi_d%27India_e_Marco_Belinelli_%28foto_intera%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-60",
+      "answer": "Danilo Gallinari",
+      "aliases": [
+        "gallinari"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Danilo_Gallinari_20260826_%283%29_%28cropped%29.JPG/960px-Danilo_Gallinari_20260826_%283%29_%28cropped%29.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Danilo_Gallinari_20260826_%283%29_%28cropped%29.JPG/960px-Danilo_Gallinari_20260826_%283%29_%28cropped%29.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Danilo_Gallinari.jpg/960px-Danilo_Gallinari.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Danilo_Gallinari_20260826_%281%29.JPG/960px-Danilo_Gallinari_20260826_%281%29.JPG"
+      ]
+    },
+    {
+      "id": "leggende-sport-61",
+      "answer": "Paolo Banchero",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Paolo_Banchero.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/54/Paolo_Banchero.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Paolo_Banchero_Dominating_in_High_School.jpg/960px-Paolo_Banchero_Dominating_in_High_School.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Paolo_Banchero_Dunk.jpg/960px-Paolo_Banchero_Dunk.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-62",
+      "answer": "Niki Lauda",
+      "aliases": [
+        "lauda"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/960px-Lauda_at_1982_Dutch_Grand_Prix.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/960px-Lauda_at_1982_Dutch_Grand_Prix.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Niki_Lauda%2C_Bestanddeelnr_928-0040.jpg/960px-Niki_Lauda%2C_Bestanddeelnr_928-0040.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4d/Carlos_Reutemann_and_Niki_Lauda_1975.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-63",
+      "answer": "Alain Prost",
+      "aliases": [
+        "prost"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Festival_automobile_international_2015_-_Photocall_-_065_%28cropped3%29.jpg/960px-Festival_automobile_international_2015_-_Photocall_-_065_%28cropped3%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Festival_automobile_international_2015_-_Photocall_-_065_%28cropped3%29.jpg/960px-Festival_automobile_international_2015_-_Photocall_-_065_%28cropped3%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Alain_Prost%2C_1990_USA_GP_Phoenix.jpg/960px-Alain_Prost%2C_1990_USA_GP_Phoenix.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Alain_Prost%2C_2009.jpg/960px-Alain_Prost%2C_2009.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-64",
+      "answer": "Sebastian Vettel",
+      "aliases": [
+        "vettel"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg/960px-Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg/960px-Sebastian_Vettel_at_the_2026_Italian_Grand_Prix_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2018_British_Grand_Prix_-_Sebastian_Vettel_%2801%29.jpg/960px-2018_British_Grand_Prix_-_Sebastian_Vettel_%2801%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2018_British_Grand_Prix_-_Sebastian_Vettel_%2802%29.jpg/960px-2018_British_Grand_Prix_-_Sebastian_Vettel_%2802%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-65",
+      "answer": "Kimi Räikkönen",
+      "aliases": [
+        "raikkonen",
+        "Kimi Raikkonen"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/F12019_Schloss_Gabelhofen_%2822%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/ff/F12019_Schloss_Gabelhofen_%2822%29_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/2010_Rally_of_Turkey_-_Kimi_R%C3%A4ikk%C3%B6nen.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/2010_Rally_of_Turkey_-_Kimi_R%C3%A4ikk%C3%B6nen_3.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-66",
+      "answer": "Lando Norris",
+      "aliases": [
+        "norris"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/960px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/960px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2025_Japan_GP_-_McLaren_-_Lando_Norris_-_FP1.jpg/960px-2025_Japan_GP_-_McLaren_-_Lando_Norris_-_FP1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/2025_Japan_GP_-_McLaren_-_Lando_Norris_-_FP1_%282%29.jpg/960px-2025_Japan_GP_-_McLaren_-_Lando_Norris_-_FP1_%282%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-67",
+      "answer": "Oscar Piastri",
+      "aliases": [
+        "piastri"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg/960px-2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg/960px-2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29.jpg/960px-2026_Chinese_GP_-_Oscar_Piastri_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/2025_Japan_GP_-_McLaren_-_Oscar_Piastri_-_FP1.jpg/960px-2025_Japan_GP_-_McLaren_-_Oscar_Piastri_-_FP1.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-68",
+      "answer": "Kimi Antonelli",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg/960px-2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg/960px-2026-08-23_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2026_STP_3010_%28cropped2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/2025_Japan_GP_-_Mercedes_-_Kimi_Antonelli_-_FP2.jpg/960px-2025_Japan_GP_-_Mercedes_-_Kimi_Antonelli_-_FP2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2025_Singapore_GP_-_Mercedes_-_Kimi_Antonelli_-_FP2.jpg/960px-2025_Singapore_GP_-_Mercedes_-_Kimi_Antonelli_-_FP2.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-69",
+      "answer": "Giacomo Agostini",
+      "aliases": [
+        "agostini"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Giacomo_Agostini_%281968%29.jpg/960px-Giacomo_Agostini_%281968%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Giacomo_Agostini_%281968%29.jpg/960px-Giacomo_Agostini_%281968%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/06-08-05-RupHoll-GiacomoAgostini_-_589.jpg/960px-06-08-05-RupHoll-GiacomoAgostini_-_589.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/25th_Laureus_World_Sports_Awards_-_Giacomo_Agostini_-_240421_155028.jpg/960px-25th_Laureus_World_Sports_Awards_-_Giacomo_Agostini_-_240421_155028.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-70",
+      "answer": "Jorge Martín",
+      "aliases": [
+        "Jorge Martin"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Jorge_Martin_at_the_2026_Spanish_Grand_Prix.jpg/960px-Jorge_Martin_at_the_2026_Spanish_Grand_Prix.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Jorge_Martin_at_the_2026_Spanish_Grand_Prix.jpg/960px-Jorge_Martin_at_the_2026_Spanish_Grand_Prix.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Jorge_Martin_at_the_2023_Japanese_motorcycle_Grand_Prix.jpg/960px-Jorge_Martin_at_the_2023_Japanese_motorcycle_Grand_Prix.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Jorge_Martin_2022_Qatar.jpg/960px-Jorge_Martin_2022_Qatar.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-71",
+      "answer": "Carl Lewis",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Carl_Lewis_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Carl_Lewis_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Carl_Lewis_Doha_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Carl_Lewis_1996.jpg/960px-Carl_Lewis_1996.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-72",
+      "answer": "Armand Duplantis",
+      "aliases": [
+        "duplantis"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Armand_Duplantis_wins_the_Pole_Vault_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition.jpg/960px-Armand_Duplantis_wins_the_Pole_Vault_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Armand_Duplantis_wins_the_Pole_Vault_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition.jpg/960px-Armand_Duplantis_wins_the_Pole_Vault_at_the_2026_Wanda_Diamond_League%E2%80%99s_Weltklasse_Z%C3%BCrich_athletics_competition.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/73/Armand_Duplantis%28cropped%29_Budapest_2023.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Armand_Duplantis_-_Olympic_Games_-_03.08.2024.jpg/960px-Armand_Duplantis_-_Olympic_Games_-_03.08.2024.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-73",
+      "answer": "Thomas Ceccon",
+      "aliases": [
+        "ceccon"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2018-10-10_Swimming_Boys%27_50m_Freestyle_Final_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93016_%28cropped%29.jpg/960px-2018-10-10_Swimming_Boys%27_50m_Freestyle_Final_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93016_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2018-10-10_Swimming_Boys%27_50m_Freestyle_Final_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93016_%28cropped%29.jpg/960px-2018-10-10_Swimming_Boys%27_50m_Freestyle_Final_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%93016_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2018-10-07_Swimming_Boys%27_100_m_Backstroke_Semifinal_2_at_2018_Summer_Youth_Olympics_%28Martin_Rulsch%29_06.jpg/960px-2018-10-07_Swimming_Boys%27_100_m_Backstroke_Semifinal_2_at_2018_Summer_Youth_Olympics_%28Martin_Rulsch%29_06.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/2018-10-07_Swimming_Boys%27_100_m_Backstroke_Semifinal_2_at_2018_Summer_Youth_Olympics_%28Martin_Rulsch%29_20.jpg/960px-2018-10-07_Swimming_Boys%27_100_m_Backstroke_Semifinal_2_at_2018_Summer_Youth_Olympics_%28Martin_Rulsch%29_20.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-74",
+      "answer": "Gregorio Paltrinieri",
+      "aliases": [
+        "paltrinieri"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Paltrinieri_%28Quirinale_2019%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Paltrinieri_%28Quirinale_2019%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Gregorio_Paltrinieri%2C_Mykhailo_Romanchuk_and_Robert_Finke_with_their_Olympic_medals_at_Tokyo_2020.jpg/960px-Gregorio_Paltrinieri%2C_Mykhailo_Romanchuk_and_Robert_Finke_with_their_Olympic_medals_at_Tokyo_2020.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b1/Gregorio_Paltrinieri_%28ITA%29_2015.JPG"
+      ]
+    },
+    {
+      "id": "leggende-sport-75",
+      "answer": "Tom Brady",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg/960px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg/960px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Tom_Brady_2011.JPG/960px-Tom_Brady_2011.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tom_Brady_2015.JPG/960px-Tom_Brady_2015.JPG"
+      ]
+    },
+    {
+      "id": "leggende-sport-76",
+      "answer": "Wayne Gretzky",
+      "aliases": [
+        "gretzky"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg/960px-Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg/960px-Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Wgretz.jpg/960px-Wgretz.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2017_AT%26T_Pebble_Beach_Weekend_-_Wayne_Gretzky_%2832951388951%29.jpg/960px-2017_AT%26T_Pebble_Beach_Weekend_-_Wayne_Gretzky_%2832951388951%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-77",
+      "answer": "Floyd Mayweather",
+      "aliases": [
+        "mayweather"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Floyd_Mayweather_Jr_2011.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Floyd_Mayweather_Jr_2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Floyd_Mayweather%2C_Jr._2011.jpg/960px-Floyd_Mayweather%2C_Jr._2011.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Floyd_Mayweather%2C_Jr._June_2011.jpg/960px-Floyd_Mayweather%2C_Jr._June_2011.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-78",
+      "answer": "Manny Pacquiao",
+      "aliases": [
+        "pacquiao"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Former_senator_Manny_Pacquiao_speaks_in_event_%2810-01-2025%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/69/Former_senator_Manny_Pacquiao_speaks_in_event_%2810-01-2025%29_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pacquiao_and_Didal_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Former_senator_Manny_Pacquiao_speaks_in_event_%2810-01-2025%29.jpg/960px-Former_senator_Manny_Pacquiao_speaks_in_event_%2810-01-2025%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-79",
+      "answer": "Khabib Nurmagomedov",
+      "aliases": [
+        "khabib"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Khabib_nurmagomedov.jpg/960px-Khabib_nurmagomedov.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Khabib_nurmagomedov.jpg/960px-Khabib_nurmagomedov.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/80/Khabib_Nurmagomedov_2.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Khabib_Nurmagomedov_in_Uzbekistan_%282020-12-01%29_01.jpg/960px-Khabib_Nurmagomedov_in_Uzbekistan_%282020-12-01%29_01.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-80",
+      "answer": "Jon Jones",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jon_Jones_-_Supporting_Brain_Health_Study.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/43/Jon_Jones_-_Supporting_Brain_Health_Study.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/ab/D-1cAtTUYAMbUtw.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Jon_%22Bones%22_Jones_%26_Glen_%22Big_Baby%22_Davis.jpg/960px-Jon_%22Bones%22_Jones_%26_Glen_%22Big_Baby%22_Davis.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-81",
+      "answer": "Jonas Vingegaard",
+      "aliases": [
+        "vingegaard"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/David_Gaudu%2C_Tadej_Poga%C4%8Dar%2C_Jonas_Vingegaard%2C_2023_Paris-Nice_%2852929456925%29_%28cropped2%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fb/David_Gaudu%2C_Tadej_Poga%C4%8Dar%2C_Jonas_Vingegaard%2C_2023_Paris-Nice_%2852929456925%29_%28cropped2%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Jonas-Vingegaard-2017.jpg/960px-Jonas-Vingegaard-2017.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Jonas_Vingegaard_-_2022.jpg/960px-Jonas_Vingegaard_-_2022.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-82",
+      "answer": "Mathieu van der Poel",
+      "aliases": [
+        "van der poel"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/MSR2026-06_MVDP.jpg/960px-MSR2026-06_MVDP.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/MSR2026-06_MVDP.jpg/960px-MSR2026-06_MVDP.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/2024_UCI_Road_World_Championships_Zurich_Men_Elite_Road_Race_A_14_%28Mathieu_van_der_Poel%29.jpg/960px-2024_UCI_Road_World_Championships_Zurich_Men_Elite_Road_Race_A_14_%28Mathieu_van_der_Poel%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Mathieu_van_der_Poel_%282016%29.jpg/960px-Mathieu_van_der_Poel_%282016%29.jpg"
+      ]
+    },
+    {
+      "id": "leggende-sport-83",
+      "answer": "Filippo Ganna",
+      "aliases": [
+        "ganna"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UCI_Track_World_Championships_2020_123.jpg/960px-UCI_Track_World_Championships_2020_123.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/UCI_Track_World_Championships_2020_123.jpg/960px-UCI_Track_World_Championships_2020_123.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2022-08-17_European_Championships_2022_%E2%80%93_Road_Cycling_Men%27s_Time_Trial_by_Sandro_Halank%E2%80%93103.jpg/960px-2022-08-17_European_Championships_2022_%E2%80%93_Road_Cycling_Men%27s_Time_Trial_by_Sandro_Halank%E2%80%93103.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/%28L-R%29_Marko_Krump_and_Filippo_Ganna_of_UAE_Team_Emirates_before_the_start_of_Stage_1_in_Sacramento_%2834865835631%29.jpg/960px-%28L-R%29_Marko_Krump_and_Filippo_Ganna_of_UAE_Team_Emirates_before_the_start_of_Stage_1_in_Sacramento_%2834865835631%29.jpg"
+      ]
     }
   ],
   "scope": "intl",

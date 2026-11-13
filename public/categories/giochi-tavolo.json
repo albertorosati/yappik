@@ -379,6 +379,232 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Modern_croquet_equipment.JPG/960px-Modern_croquet_equipment.JPG"
       ]
+    },
+    {
+      "id": "giochi-tavolo-34",
+      "answer": "Risiko",
+      "aliases": [
+        "risk"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Amsterdam_-_Risk_players_-_1136_%28cropped%29.jpg/1280px-Amsterdam_-_Risk_players_-_1136_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Amsterdam_-_Risk_players_-_1136_%28cropped%29.jpg/1280px-Amsterdam_-_Risk_players_-_1136_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Risk-dice-example.jpg/960px-Risk-dice-example.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-35",
+      "answer": "Catan",
+      "aliases": [
+        "coloni di catan"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Siedler_Material_Basisspiel.jpg/960px-Siedler_Material_Basisspiel.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Siedler_Material_Basisspiel.jpg/960px-Siedler_Material_Basisspiel.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Siedler_Material_Ritter.jpg/960px-Siedler_Material_Ritter.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-36",
+      "answer": "Ticket to Ride",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ticket_to_Ride_at_JunaCon_V.jpg/1280px-Ticket_to_Ride_at_JunaCon_V.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ticket_to_Ride_at_JunaCon_V.jpg/1280px-Ticket_to_Ride_at_JunaCon_V.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Alanrmoon.jpg/960px-Alanrmoon.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-37",
+      "answer": "Dixit",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carta_Magic_Italiano.JPG/960px-Carta_Magic_Italiano.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carta_Magic_Italiano.JPG/960px-Carta_Magic_Italiano.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Magic_the_gathering_pentagon.png/960px-Magic_the_gathering_pentagon.png"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-38",
+      "answer": "Uno",
+      "aliases": [
+        "carte uno"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Super_Trainer_Showdown%2C_July_2000.jpg/960px-Super_Trainer_Showdown%2C_July_2000.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Super_Trainer_Showdown%2C_July_2000.jpg/960px-Super_Trainer_Showdown%2C_July_2000.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Team_Rocket.svg/960px-Team_Rocket.svg.png"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-39",
+      "answer": "Cluedo",
+      "aliases": [
+        "clue"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hry_a_hlavolamy_2009_-_Cluedo_0173u.jpg/1280px-Hry_a_hlavolamy_2009_-_Cluedo_0173u.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hry_a_hlavolamy_2009_-_Cluedo_0173u.jpg/1280px-Hry_a_hlavolamy_2009_-_Cluedo_0173u.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cluedo_board.svg/960px-Cluedo_board.svg.png"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-40",
+      "answer": "Taboo",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d3/Taboo_Tuesday_2005.jpg/960px-Taboo_Tuesday_2005.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d3/Taboo_Tuesday_2005.jpg/960px-Taboo_Tuesday_2005.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Roast_Pig_1.JPG/1280px-Roast_Pig_1.JPG"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-41",
+      "answer": "Pictionary",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pictionary_Party.jpg/960px-Pictionary_Party.jpg"
+    },
+    {
+      "id": "giochi-tavolo-42",
+      "answer": "Trivial Pursuit",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Trivialpursuit_Token.jpg/960px-Trivialpursuit_Token.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Trivialpursuit_Token.jpg/960px-Trivialpursuit_Token.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Trivial_pursuit_classic_edition_cover.jpg/960px-Trivial_pursuit_classic_edition_cover.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-43",
+      "answer": "Mercante in Fiera",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Giovanni_Battista_Provasoli.jpg"
+    },
+    {
+      "id": "giochi-tavolo-44",
+      "answer": "Tombola",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Wheel_of_Fortune_Navy.jpg/1280px-Wheel_of_Fortune_Navy.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Wheel_of_Fortune_Navy.jpg/1280px-Wheel_of_Fortune_Navy.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Buff_Cobb_1949.JPG/960px-Buff_Cobb_1949.JPG"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-45",
+      "answer": "Othello",
+      "aliases": [
+        "reversi"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Othello-Standard-Board.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/20/Othello-Standard-Board.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Othello_%28Reversi%29_board.jpg/960px-Othello_%28Reversi%29_board.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Othello_Spielbrett.jpg/960px-Othello_Spielbrett.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-46",
+      "answer": "Tris",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/3D_Tic_Tac_Toe_made_of_wood_01.jpg/960px-3D_Tic_Tac_Toe_made_of_wood_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/3D_Tic_Tac_Toe_made_of_wood_01.jpg/960px-3D_Tic_Tac_Toe_made_of_wood_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/3D_Tic_Tac_Toe_made_of_wood_07.jpg/960px-3D_Tic_Tac_Toe_made_of_wood_07.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/3D_Tic_Tac_Toe_made_of_wood_10.jpg/960px-3D_Tic_Tac_Toe_made_of_wood_10.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-47",
+      "answer": "Indovina Chi?",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018.jpg/960px-Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018.jpg/960px-Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018_%28cropped%29.jpg/960px-Beverly_Glenn-Copeland_at_Le_Guess_Who%3F_2018_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Lauren%C8%9Biu_Mocanu_%28Guess_Who%29_in_Bucharest%2C_2009.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-48",
+      "answer": "Salta Pirata",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Gorky_Park_%282004-08-08%29_01.jpg/960px-Gorky_Park_%282004-08-08%29_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Gorky_Park_%282004-08-08%29_01.jpg/960px-Gorky_Park_%282004-08-08%29_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/JackSucksAtLife.jpg/960px-JackSucksAtLife.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Oregon_BLM_Shipwrecks_06_%285124684074%29.jpg/960px-Oregon_BLM_Shipwrecks_06_%285124684074%29.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-49",
+      "answer": "Dama Cinese",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/160327_Chinese_checkers_02.jpg/960px-160327_Chinese_checkers_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/160327_Chinese_checkers_02.jpg/960px-160327_Chinese_checkers_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Chinese_Checkers_%2816544392584%29.jpg/960px-Chinese_Checkers_%2816544392584%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Chinese_Checkers_%2849804356152%29.jpg/960px-Chinese_Checkers_%2849804356152%29.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-50",
+      "answer": "Mikado",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Ceremony_of_the_Enthronement_of_His_Majesty_the_Emperor_at_the_Seiden7.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/27/Ceremony_of_the_Enthronement_of_His_Majesty_the_Emperor_at_the_Seiden7.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Emperor-Jinmu-from-series-Mirror-of-Famous-Generals-of-Great-Japan.png/960px-Emperor-Jinmu-from-series-Mirror-of-Famous-Generals-of-Great-Japan.png",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3b/Emperor_Naruhito.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-51",
+      "answer": "Ludo",
+      "aliases": [
+        "non t'arrabbiare"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/How_To_Play_Ludo_King_With_Friends_Online.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9b/How_To_Play_Ludo_King_With_Friends_Online.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Klassisk_ludo-spill.JPG/960px-Klassisk_ludo-spill.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Ludo-1.jpg/960px-Ludo-1.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-52",
+      "answer": "Dobble",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Close_wing_position_of_Graphium_nomius_Esper%2C_1799_%E2%80%93_Spot_Swordtail_.jpg/960px-Close_wing_position_of_Graphium_nomius_Esper%2C_1799_%E2%80%93_Spot_Swordtail_.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Close_wing_position_of_Graphium_nomius_Esper%2C_1799_%E2%80%93_Spot_Swordtail_.jpg/960px-Close_wing_position_of_Graphium_nomius_Esper%2C_1799_%E2%80%93_Spot_Swordtail_.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fc/DobbleGhana.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/84/Dobble_jeu.jpg"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-53",
+      "answer": "7 Wonders",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/7_Wonders_game.jpg/960px-7_Wonders_game.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/7_Wonders_game.jpg/960px-7_Wonders_game.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/7_Wonders_in_Kota_Rajasthan.jpg/960px-7_Wonders_in_Kota_Rajasthan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c1/Phare_d%27Alexendrie.png"
+      ]
+    },
+    {
+      "id": "giochi-tavolo-54",
+      "answer": "Codenames",
+      "aliases": [
+        "nome in codice"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Arrival_at_Poole_%28codenamed_%27POO%27%5E%29_-_geograph.org.uk_-_8291842.jpg/960px-Arrival_at_Poole_%28codenamed_%27POO%27%5E%29_-_geograph.org.uk_-_8291842.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Arrival_at_Poole_%28codenamed_%27POO%27%5E%29_-_geograph.org.uk_-_8291842.jpg/960px-Arrival_at_Poole_%28codenamed_%27POO%27%5E%29_-_geograph.org.uk_-_8291842.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Codename_Noreste%27s_selfie.jpg/960px-Codename_Noreste%27s_selfie.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/CodenamesPictures.JPG/960px-CodenamesPictures.JPG"
+      ]
     }
   ],
   "scope": "intl",

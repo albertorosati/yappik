@@ -626,6 +626,492 @@
       "imageUrls": [
         "https://flagcdn.com/w640/sn.png"
       ]
+    },
+    {
+      "id": "bandiere-56",
+      "answer": "Corea del Nord",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/kp.png",
+      "answerEn": "North Korea",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-57",
+      "answer": "Pakistan",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/pk.png",
+      "answerEn": "Pakistan",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-58",
+      "answer": "Bangladesh",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/bd.png",
+      "answerEn": "Bangladesh",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-59",
+      "answer": "Filippine",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ph.png",
+      "answerEn": "Philippines",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-60",
+      "answer": "Malesia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/my.png",
+      "answerEn": "Malaysia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-61",
+      "answer": "Singapore",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/sg.png",
+      "answerEn": "Singapore",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-62",
+      "answer": "Emirati Arabi Uniti",
+      "aliases": [
+        "emirati arabi",
+        "uae",
+        "dubai"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/ae.png",
+      "answerEn": "United Arab Emirates",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-63",
+      "answer": "Qatar",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/qa.png",
+      "answerEn": "Qatar",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-64",
+      "answer": "Kuwait",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/kw.png",
+      "answerEn": "Kuwait",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-65",
+      "answer": "Iran",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ir.png",
+      "answerEn": "Iran",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-66",
+      "answer": "Iraq",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/iq.png",
+      "answerEn": "Iraq",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-67",
+      "answer": "Giordania",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/jo.png",
+      "answerEn": "Jordan",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-68",
+      "answer": "Libano",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/lb.png",
+      "answerEn": "Lebanon",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-69",
+      "answer": "Afghanistan",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/af.png",
+      "answerEn": "Afghanistan",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-70",
+      "answer": "Kazakistan",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/kz.png",
+      "answerEn": "Kazakhstan",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-71",
+      "answer": "Georgia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ge.png",
+      "answerEn": "Georgia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-72",
+      "answer": "Armenia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/am.png",
+      "answerEn": "Armenia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-73",
+      "answer": "Azerbaigian",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/az.png",
+      "answerEn": "Azerbaijan",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-74",
+      "answer": "Repubblica Ceca",
+      "aliases": [
+        "cechia"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/cz.png",
+      "answerEn": "Czech Republic",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-75",
+      "answer": "Slovacchia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/sk.png",
+      "answerEn": "Slovakia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-76",
+      "answer": "Ungheria",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/hu.png",
+      "answerEn": "Hungary",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-77",
+      "answer": "Bulgaria",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/bg.png",
+      "answerEn": "Bulgaria",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-78",
+      "answer": "Lituania",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/lt.png",
+      "answerEn": "Lithuania",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-79",
+      "answer": "Lettonia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/lv.png",
+      "answerEn": "Latvia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-80",
+      "answer": "Estonia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ee.png",
+      "answerEn": "Estonia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-81",
+      "answer": "Slovenia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/si.png",
+      "answerEn": "Slovenia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-82",
+      "answer": "Bosnia ed Erzegovina",
+      "aliases": [
+        "bosnia"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/ba.png",
+      "answerEn": "Bosnia and Herzegovina",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-83",
+      "answer": "Macedonia del Nord",
+      "aliases": [
+        "macedonia"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/mk.png",
+      "answerEn": "North Macedonia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-84",
+      "answer": "Montenegro",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/me.png",
+      "answerEn": "Montenegro",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-85",
+      "answer": "Malta",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/mt.png",
+      "answerEn": "Malta",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-86",
+      "answer": "Cipro",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/cy.png",
+      "answerEn": "Cyprus",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-87",
+      "answer": "Lussemburgo",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/lu.png",
+      "answerEn": "Luxembourg",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-88",
+      "answer": "Monaco",
+      "aliases": [
+        "principato di monaco"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/mc.png",
+      "answerEn": "Monaco",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-89",
+      "answer": "Andorra",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ad.png",
+      "answerEn": "Andorra",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-90",
+      "answer": "Venezuela",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ve.png",
+      "answerEn": "Venezuela",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-91",
+      "answer": "Ecuador",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ec.png",
+      "answerEn": "Ecuador",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-92",
+      "answer": "Bolivia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/bo.png",
+      "answerEn": "Bolivia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-93",
+      "answer": "Paraguay",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/py.png",
+      "answerEn": "Paraguay",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-94",
+      "answer": "Costa Rica",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/cr.png",
+      "answerEn": "Costa Rica",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-95",
+      "answer": "Panama",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/pa.png",
+      "answerEn": "Panama",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-96",
+      "answer": "Guatemala",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/gt.png",
+      "answerEn": "Guatemala",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-97",
+      "answer": "Repubblica Dominicana",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/do.png",
+      "answerEn": "Dominican Republic",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-98",
+      "answer": "Kenya",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ke.png",
+      "answerEn": "Kenya",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-99",
+      "answer": "Etiopia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/et.png",
+      "answerEn": "Ethiopia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-100",
+      "answer": "Ghana",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/gh.png",
+      "answerEn": "Ghana",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-101",
+      "answer": "Costa d’Avorio",
+      "aliases": [
+        "Costa d'Avorio"
+      ],
+      "imageUrl": "https://flagcdn.com/w640/ci.png",
+      "answerEn": "Ivory Coast",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-102",
+      "answer": "Algeria",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/dz.png",
+      "answerEn": "Algeria",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-103",
+      "answer": "Tanzania",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/tz.png",
+      "answerEn": "Tanzania",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-104",
+      "answer": "Madagascar",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/mg.png",
+      "answerEn": "Madagascar",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-105",
+      "answer": "Nepal",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/np.png",
+      "answerEn": "Nepal",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-106",
+      "answer": "Sri Lanka",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/lk.png",
+      "answerEn": "Sri Lanka",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-107",
+      "answer": "Mongolia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/mn.png",
+      "answerEn": "Mongolia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-108",
+      "answer": "Cambogia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/kh.png",
+      "answerEn": "Cambodia",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-109",
+      "answer": "Moldavia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/md.png",
+      "answerEn": "Moldova",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-110",
+      "answer": "Bielorussia",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/by.png",
+      "answerEn": "Belarus",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-111",
+      "answer": "Kosovo",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/xk.png",
+      "answerEn": "Kosovo",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-112",
+      "answer": "Mali",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ml.png",
+      "answerEn": "Mali",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-113",
+      "answer": "Congo",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/cg.png",
+      "answerEn": "Republic of the Congo",
+      "aliasesEn": []
+    },
+    {
+      "id": "bandiere-114",
+      "answer": "Angola",
+      "aliases": [],
+      "imageUrl": "https://flagcdn.com/w640/ao.png",
+      "answerEn": "Angola",
+      "aliasesEn": []
     }
   ],
   "scope": "intl",

@@ -384,6 +384,303 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/960px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg"
       ]
+    },
+    {
+      "id": "creature-mitologiche-36",
+      "answer": "Era",
+      "aliases": [
+        "giunone"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hera%2C_late_archaic%2C_AM_Delos%2C_A4069%2C_190699.jpg/960px-Hera%2C_late_archaic%2C_AM_Delos%2C_A4069%2C_190699.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Hera%2C_late_archaic%2C_AM_Delos%2C_A4069%2C_190699.jpg/960px-Hera%2C_late_archaic%2C_AM_Delos%2C_A4069%2C_190699.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Hera_glides_past_Didymos.jpg/960px-Hera_glides_past_Didymos.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Hera_in_orbit.jpg/960px-Hera_in_orbit.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-37",
+      "answer": "Demetra",
+      "aliases": [
+        "cerere"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Demeter_Altemps_Inv8596.jpg/960px-Demeter_Altemps_Inv8596.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Demeter_Altemps_Inv8596.jpg/960px-Demeter_Altemps_Inv8596.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Demeter_of_Eleusis_statue_greece_02.jpg/960px-Demeter_of_Eleusis_statue_greece_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Demeter_of_Eleusis_statue_greece_04.jpg/960px-Demeter_of_Eleusis_statue_greece_04.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-38",
+      "answer": "Estia",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dedication_of_altar_to_Hestia_from_Karneades%2C_Taormina%2C_121840.jpg/960px-Dedication_of_altar_to_Hestia_from_Karneades%2C_Taormina%2C_121840.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dedication_of_altar_to_Hestia_from_Karneades%2C_Taormina%2C_121840.jpg/960px-Dedication_of_altar_to_Hestia_from_Karneades%2C_Taormina%2C_121840.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/53/Hestia.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Hestia_from_Parthenon%27s_east_pediment_plaster_cast_01.jpg/960px-Hestia_from_Parthenon%27s_east_pediment_plaster_cast_01.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-39",
+      "answer": "Efesto",
+      "aliases": [
+        "vulcano"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Hephaistos_Thetis_at_Kylix_by_the_Foundry_Painter_Antikensammlung_Berlin_F2294.jpg/960px-Hephaistos_Thetis_at_Kylix_by_the_Foundry_Painter_Antikensammlung_Berlin_F2294.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Hephaistos_Thetis_at_Kylix_by_the_Foundry_Painter_Antikensammlung_Berlin_F2294.jpg/960px-Hephaistos_Thetis_at_Kylix_by_the_Foundry_Painter_Antikensammlung_Berlin_F2294.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Statue_of_Hephaestus_at_the_Academy_of_Athens_on_May_23%2C_2022.jpg/960px-Statue_of_Hephaestus_at_the_Academy_of_Athens_on_May_23%2C_2022.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Hephaestus%2C_Marsa%2C_Malta_%2850718005826%29.jpg/960px-Hephaestus%2C_Marsa%2C_Malta_%2850718005826%29.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-40",
+      "answer": "Dioniso",
+      "aliases": [
+        "bacco"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/MNR_190_-_Dioniso_in_bronzo_da_ponte_Garibaldi_P1200159.jpg/960px-MNR_190_-_Dioniso_in_bronzo_da_ponte_Garibaldi_P1200159.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/MNR_190_-_Dioniso_in_bronzo_da_ponte_Garibaldi_P1200159.jpg/960px-MNR_190_-_Dioniso_in_bronzo_da_ponte_Garibaldi_P1200159.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dionisije%2C_Nova_iskra_%281899%29.jpg/960px-Dionisije%2C_Nova_iskra_%281899%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Dionysus_bronze_head_NAMA_01.jpg/960px-Dionysus_bronze_head_NAMA_01.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-41",
+      "answer": "Artemide",
+      "aliases": [
+        "diana"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Diane_de_Versailles_-_Mus%C3%A9e_du_Louvre_AGER_Ma_589.jpg/960px-Diane_de_Versailles_-_Mus%C3%A9e_du_Louvre_AGER_Ma_589.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Diane_de_Versailles_-_Mus%C3%A9e_du_Louvre_AGER_Ma_589.jpg/960px-Diane_de_Versailles_-_Mus%C3%A9e_du_Louvre_AGER_Ma_589.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bronze_statue_of_Artemis._4th_cent._B.C.jpg/960px-Bronze_statue_of_Artemis._4th_cent._B.C.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Artemis_I_Launch_%28NHQ202211160017%29.jpg/960px-Artemis_I_Launch_%28NHQ202211160017%29.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-42",
+      "answer": "Crono",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Rhea_handing_a_swaddled_stone_to_Cronus%2C_Attic_terracotta_pelike%2C_c._460%E2%80%93450_BC%2C_Met_06.1021.144.jpg_%28cropped%29.jpg/960px-Rhea_handing_a_swaddled_stone_to_Cronus%2C_Attic_terracotta_pelike%2C_c._460%E2%80%93450_BC%2C_Met_06.1021.144.jpg_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Rhea_handing_a_swaddled_stone_to_Cronus%2C_Attic_terracotta_pelike%2C_c._460%E2%80%93450_BC%2C_Met_06.1021.144.jpg_%28cropped%29.jpg/960px-Rhea_handing_a_swaddled_stone_to_Cronus%2C_Attic_terracotta_pelike%2C_c._460%E2%80%93450_BC%2C_Met_06.1021.144.jpg_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Kronos_hesperidengarten.jpg/960px-Kronos_hesperidengarten.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cronus_black_figure.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-43",
+      "answer": "Prometeo",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg/960px-Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg/960px-Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg/960px-Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/ER-Burgberggarten-sculpture-Prometheus-stone-detail.jpg/960px-ER-Burgberggarten-sculpture-Prometheus-stone-detail.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-44",
+      "answer": "Atlante",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/MAN_Atlante_fronte_1040572.JPG/960px-MAN_Atlante_fronte_1040572.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/MAN_Atlante_fronte_1040572.JPG/960px-MAN_Atlante_fronte_1040572.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Atlas_-_book.jpg/960px-Atlas_-_book.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Atlas_frontview_2013.jpg/960px-Atlas_frontview_2013.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-45",
+      "answer": "Icaro",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gaziantep_Zeugma_Museum_Daedalus_mosaic_1873.jpg/960px-Gaziantep_Zeugma_Museum_Daedalus_mosaic_1873.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gaziantep_Zeugma_Museum_Daedalus_mosaic_1873.jpg/960px-Gaziantep_Zeugma_Museum_Daedalus_mosaic_1873.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Herbert_Draper_-_The_Lament_for_Icarus_-_Google_Art_Project.jpg/960px-Herbert_Draper_-_The_Lament_for_Icarus_-_Google_Art_Project.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%22582_v._Chr._wurde_die_Stadt_Akragas_%28Agrigent%29_von_Griechischen_Siedlern_gegr%C3%BCndet.%22_14.jpg/960px-%22582_v._Chr._wurde_die_Stadt_Akragas_%28Agrigent%29_von_Griechischen_Siedlern_gegr%C3%BCndet.%22_14.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-46",
+      "answer": "Ulisse",
+      "aliases": [
+        "odisseo"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Head_Odysseus_MAR_Sperlonga.jpg/960px-Head_Odysseus_MAR_Sperlonga.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Head_Odysseus_MAR_Sperlonga.jpg/960px-Head_Odysseus_MAR_Sperlonga.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%28Venice%29_Ancient_Roman_statues_in_the_Museo_archeologico_nazionale_-_Ulysses.jpg/960px-%28Venice%29_Ancient_Roman_statues_in_the_Museo_archeologico_nazionale_-_Ulysses.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ajax_and_Odysseus_-_Lochmann_Hall%2C_Landesmuseum_Zurich.jpg/960px-Ajax_and_Odysseus_-_Lochmann_Hall%2C_Landesmuseum_Zurich.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-47",
+      "answer": "Polifemo",
+      "aliases": [
+        "ciclope"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Greek_vase_painting%2C_archaic_or_geometric%2C_Polyphemus%2C_Odysseus%2C_AM_Argos%2C_Argm09.jpg/960px-Greek_vase_painting%2C_archaic_or_geometric%2C_Polyphemus%2C_Odysseus%2C_AM_Argos%2C_Argm09.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Greek_vase_painting%2C_archaic_or_geometric%2C_Polyphemus%2C_Odysseus%2C_AM_Argos%2C_Argm09.jpg/960px-Greek_vase_painting%2C_archaic_or_geometric%2C_Polyphemus%2C_Odysseus%2C_AM_Argos%2C_Argm09.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Polyphemos-MuseumOfFineArtsBoston-March25-07.png/960px-Polyphemos-MuseumOfFineArtsBoston-March25-07.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/44_Polifemo-1.jpg/960px-44_Polifemo-1.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-48",
+      "answer": "Arpie",
+      "aliases": [
+        "arpia"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Detail_armure_parade_duc_de_Parme_et_Plaisance_Vienne.jpg/960px-Detail_armure_parade_duc_de_Parme_et_Plaisance_Vienne.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Detail_armure_parade_duc_de_Parme_et_Plaisance_Vienne.jpg/960px-Detail_armure_parade_duc_de_Parme_et_Plaisance_Vienne.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Harpies_and_a_male_figurine%2C_ivory_relief%2C_570_BC%2C_AM_Delphi%2C_060079.jpg/960px-Harpies_and_a_male_figurine%2C_ivory_relief%2C_570_BC%2C_AM_Delphi%2C_060079.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Harpy..jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-49",
+      "answer": "Gorgone",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Berlin_Painter_ARV_197_11_Gorgo_pursuing_Perseus_%2802%29.jpg/960px-Berlin_Painter_ARV_197_11_Gorgo_pursuing_Perseus_%2802%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Berlin_Painter_ARV_197_11_Gorgo_pursuing_Perseus_%2802%29.jpg/960px-Berlin_Painter_ARV_197_11_Gorgo_pursuing_Perseus_%2802%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Gorgon-head_antefix_1_-_Acropolis_Museum.jpg/960px-Gorgon-head_antefix_1_-_Acropolis_Museum.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Gorgon-head_antefix_2_-_Acropolis_Museum.jpg/960px-Gorgon-head_antefix_2_-_Acropolis_Museum.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-50",
+      "answer": "Fauno",
+      "aliases": [
+        "satiro"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Faun_merse.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/Faun_merse.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Zaragoza_-_Museo_-_Fauno_ebrio_01.jpg/960px-Zaragoza_-_Museo_-_Fauno_ebrio_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Bacchanal-_A_Faun_Teased_by_Children_MET_DP248148.jpg/960px-Bacchanal-_A_Faun_Teased_by_Children_MET_DP248148.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-51",
+      "answer": "Ninfa",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Three_nymphs%2C_marble_relief%2C_c._320%E2%80%93300_BC.jpg/960px-Three_nymphs%2C_marble_relief%2C_c._320%E2%80%93300_BC.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Three_nymphs%2C_marble_relief%2C_c._320%E2%80%93300_BC.jpg/960px-Three_nymphs%2C_marble_relief%2C_c._320%E2%80%93300_BC.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Carpocoris_purpureipennis_fifth_instar_nymph_%28bottom_view%29_-_Kulna.jpg/960px-Carpocoris_purpureipennis_fifth_instar_nymph_%28bottom_view%29_-_Kulna.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Carpocoris_purpureipennis_fifth_instar_nymph_%28top_view%29_-_Kulna.jpg/960px-Carpocoris_purpureipennis_fifth_instar_nymph_%28top_view%29_-_Kulna.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-52",
+      "answer": "Loki Mitologico",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Processed_SAM_loki.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/40/Processed_SAM_loki.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Loki_Stone%2C_St._Stephen%27s_Church%2C_Kirkby_Stephen_01.jpg/960px-Loki_Stone%2C_St._Stephen%27s_Church%2C_Kirkby_Stephen_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Loki_Stone%2C_St._Stephen%27s_Church%2C_Kirkby_Stephen_03.jpg/960px-Loki_Stone%2C_St._Stephen%27s_Church%2C_Kirkby_Stephen_03.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-53",
+      "answer": "Fenrir",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Tullstorpstenen%2C_DR_271%2CTullstorp_1-1%2C_Runristning_%28cropped%29.jpg/960px-Tullstorpstenen%2C_DR_271%2CTullstorp_1-1%2C_Runristning_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Tullstorpstenen%2C_DR_271%2CTullstorp_1-1%2C_Runristning_%28cropped%29.jpg/960px-Tullstorpstenen%2C_DR_271%2CTullstorp_1-1%2C_Runristning_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Tyr_and_Fenrir-John_Bauer.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bloemencorso_Zundert_2024_-_Fenrir_1.jpg/960px-Bloemencorso_Zundert_2024_-_Fenrir_1.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-54",
+      "answer": "Jörmungandr",
+      "aliases": [
+        "Jormungandr"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png/960px-Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png/960px-Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png",
+        "https://upload.wikimedia.org/wikipedia/commons/3/35/Thor_and_Hymir.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/01881_Norse_pendant_of_Thor_fishing_for_J%C3%B6rmungandr_from_Gnezdovo_hoard.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-55",
+      "answer": "Ra",
+      "aliases": [
+        "dio ra"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Aurora_Airlines_-_Airbus_A319_-_RA-73678.png/960px-Aurora_Airlines_-_Airbus_A319_-_RA-73678.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Aurora_Airlines_-_Airbus_A319_-_RA-73678.png/960px-Aurora_Airlines_-_Airbus_A319_-_RA-73678.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/God_Ra_feeds_God_Asiris_with_an_ankh.jpg/960px-God_Ra_feeds_God_Asiris_with_an_ankh.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ra_Gusela_3.jpg/960px-Ra_Gusela_3.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-56",
+      "answer": "Iside",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Isis_as_Tyche_statuette_in_NAMA_01.jpg/960px-Isis_as_Tyche_statuette_in_NAMA_01.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Isis_as_Tyche_statuette_in_NAMA_01.jpg/960px-Isis_as_Tyche_statuette_in_NAMA_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Isis_as_Tyche_statuette_in_NAMA_02.jpg/960px-Isis_as_Tyche_statuette_in_NAMA_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Isis_as_Tyche_statuette_in_NAMA_03.jpg/960px-Isis_as_Tyche_statuette_in_NAMA_03.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-57",
+      "answer": "Bastet",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bastet%2C_Cat-headed_Goddess_of_Egypt.jpg/960px-Bastet%2C_Cat-headed_Goddess_of_Egypt.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bastet%2C_Cat-headed_Goddess_of_Egypt.jpg/960px-Bastet%2C_Cat-headed_Goddess_of_Egypt.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Carreras_Cigarette_Factory_cats.jpg/960px-Carreras_Cigarette_Factory_cats.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Carreras_Cigarette_Factory_cats_%28cropped%29.jpg/960px-Carreras_Cigarette_Factory_cats_%28cropped%29.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-58",
+      "answer": "Banshee",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Banshee.jpg/960px-Banshee.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Banshee.jpg/960px-Banshee.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fb/The_Banshee.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Banshee_%28roller_coaster%29.jpg/960px-Banshee_%28roller_coaster%29.jpg"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-59",
+      "answer": "Leprecauno",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Charm%2C_luck_%28AM_2003.14.20-4%29.jpg/960px-Charm%2C_luck_%28AM_2003.14.20-4%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Charm%2C_luck_%28AM_2003.14.20-4%29.jpg/960px-Charm%2C_luck_%28AM_2003.14.20-4%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Happy_St._Patrick%27s_Day.jpg/960px-Happy_St._Patrick%27s_Day.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Leprechaun_Hat.png/960px-Leprechaun_Hat.png"
+      ]
+    },
+    {
+      "id": "creature-mitologiche-60",
+      "answer": "Troll",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/John_Bauer_1915.jpg/960px-John_Bauer_1915.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/John_Bauer_1915.jpg/960px-John_Bauer_1915.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/DnD_Troll.png/960px-DnD_Troll.png",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ee/Internet_Troll_velu_ill_artlibre_jnl.jpg"
+      ]
     }
   ],
   "scope": "intl",

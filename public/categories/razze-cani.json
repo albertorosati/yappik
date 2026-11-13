@@ -309,7 +309,9 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cane_corso_temi_1_1024x768x24_%28cropped%29.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/0/03/Cane_corso_temi_1_1024x768x24_%28cropped%29.png"
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/Cane_corso_temi_1_1024x768x24_%28cropped%29.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_greyhound_and_cane_corso_examining_each_other.jpg/960px-A_greyhound_and_cane_corso_examining_each_other.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Anita_Cane_Corso_Italiano_allevato_in_Italia.jpg/960px-Anita_Cane_Corso_Italiano_allevato_in_Italia.jpg"
       ]
     },
     {
@@ -414,6 +416,352 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/3-BerneseMountainDogInGrass.jpg/960px-3-BerneseMountainDogInGrass.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/3-BerneseMountainDogInGrass.jpg/960px-3-BerneseMountainDogInGrass.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-39",
+      "answer": "Pastore Australiano",
+      "aliases": [
+        "aussie"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Australian_Shepherd_red_bi.JPG/960px-Australian_Shepherd_red_bi.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Australian_Shepherd_red_bi.JPG/960px-Australian_Shepherd_red_bi.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/8_Week_Old_Australian_Shepherd_Puppy.jpg/960px-8_Week_Old_Australian_Shepherd_Puppy.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/de/Aussi.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-40",
+      "answer": "Pastore Belga Malinois",
+      "aliases": [
+        "malinois"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/BelgianShepherdMalinois.jpg/960px-BelgianShepherdMalinois.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/BelgianShepherdMalinois.jpg/960px-BelgianShepherdMalinois.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Belgian_Malinois_Male_Puppy.jpg/960px-Belgian_Malinois_Male_Puppy.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Boss%2C_prawie_owczarek_belgijski_Malinois_%282007-11-04%29_1.jpg/960px-Boss%2C_prawie_owczarek_belgijski_Malinois_%282007-11-04%29_1.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-41",
+      "answer": "Cocker Americano",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/PointbreakHoneyimHome.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/62/PointbreakHoneyimHome.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/16-year-old_American_Cocker_Spaniel%2C_Rascal_Dmitri%2C_at_sunset.jpg/960px-16-year-old_American_Cocker_Spaniel%2C_Rascal_Dmitri%2C_at_sunset.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/aa/AmericanCockerSpaniel_wb.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-42",
+      "answer": "Golden Doodle",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Golden_Doodle_Standing_%28HD%29.jpg/960px-Golden_Doodle_Standing_%28HD%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Golden_Doodle_Standing_%28HD%29.jpg/960px-Golden_Doodle_Standing_%28HD%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cute_Goldendoodle_Puppy.jpg/960px-Cute_Goldendoodle_Puppy.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Finnegan_the_Goldendoodle_having_fun_in_the_snow.jpg/960px-Finnegan_the_Goldendoodle_having_fun_in_the_snow.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-43",
+      "answer": "Spitz Giapponese",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/BIR_Grupp_5-_JAPANSK_SPETS%2C_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_%2823938629860%29.jpg/960px-BIR_Grupp_5-_JAPANSK_SPETS%2C_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_%2823938629860%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/BIR_Grupp_5-_JAPANSK_SPETS%2C_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_%2823938629860%29.jpg/960px-BIR_Grupp_5-_JAPANSK_SPETS%2C_Chezzay%E2%80%99s_Nice_N%E2%80%99Easy_%2823938629860%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b4/Jamie_Japanese_Spitz.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/04/JapaneseSpitzPhoto1_-_hiro.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-44",
+      "answer": "Lagotto Romagnolo",
+      "aliases": [
+        "lagotto"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Bellalagotto4.jpg/960px-Bellalagotto4.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Bellalagotto4.jpg/960px-Bellalagotto4.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/BIR_Grupp_8-_LAGOTTO_ROMAGNOLO_La_Gottis_Campione_%2823959052330%29.jpg/960px-BIR_Grupp_8-_LAGOTTO_ROMAGNOLO_La_Gottis_Campione_%2823959052330%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lagotto_Romagnolo.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-45",
+      "answer": "Bracco Italiano",
+      "aliases": [
+        "bracco"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bracco_Italiano_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bracco_Italiano_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bracco_italiano_Polceveras.jpg/960px-Bracco_italiano_Polceveras.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/BIR_Grupp_7-_BRACCO_ITALIANO%2C_Nuits_Di_Montemassi_%2823866391829%29.jpg/960px-BIR_Grupp_7-_BRACCO_ITALIANO%2C_Nuits_Di_Montemassi_%2823866391829%29.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-46",
+      "answer": "Segugio Italiano",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chien_Courant_Italien_A_Poil_Dur.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/49/Chien_Courant_Italien_A_Poil_Dur.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Chien_Courant_Italien_A_Poil_Ras.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/23/Italian_Rough-haired_Hound_aka_Segugio_Italiano_a_Pelo_Forte.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-47",
+      "answer": "Spinone Italiano",
+      "aliases": [
+        "spinone"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/05042363_Spinone_braun.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/05042363_Spinone_braun.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1b/05042333_Spinone_weiss.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2f/05042336_Spinone_orange.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-48",
+      "answer": "Mastino Napoletano",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/5_Year_old_male_in_Napoli_Stance_%282%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/29/5_Year_old_male_in_Napoli_Stance_%282%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cannon_-_Male_Neapolitan_Mastiff_1998.jpeg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/CrooksMastinosNeapolitanMastiffs.jpg/960px-CrooksMastinosNeapolitanMastiffs.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-49",
+      "answer": "Mastino Tibetano",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/BIR_Grupp_2-_TIBETANSK_MASTIFF%2C_Legenda_Tibeta_Temudzhin_%2823938629470%29.jpg/960px-BIR_Grupp_2-_TIBETANSK_MASTIFF%2C_Legenda_Tibeta_Temudzhin_%2823938629470%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/BIR_Grupp_2-_TIBETANSK_MASTIFF%2C_Legenda_Tibeta_Temudzhin_%2823938629470%29.jpg/960px-BIR_Grupp_2-_TIBETANSK_MASTIFF%2C_Legenda_Tibeta_Temudzhin_%2823938629470%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hequ.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ee/2013_Westminster_Kennel_Club_Dog_Show-_Tibetan_Mastiff_%288469038158%29.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-50",
+      "answer": "Cane da Pastore Caucasico",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Owczarek_kaukaski_65556.jpg/960px-Owczarek_kaukaski_65556.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Owczarek_kaukaski_65556.jpg/960px-Owczarek_kaukaski_65556.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Caucasian_Mountain_Dog_%2845138929284%29.jpg/960px-Caucasian_Mountain_Dog_%2845138929284%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Caucasian_Mountain_Dog_%2846759737714%29.jpg/960px-Caucasian_Mountain_Dog_%2846759737714%29.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-51",
+      "answer": "Dogo Argentino",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Argentine_Dogo_%28535032632%29_%28cropped%29.jpg/960px-Argentine_Dogo_%28535032632%29_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Argentine_Dogo_%28535032632%29_%28cropped%29.jpg/960px-Argentine_Dogo_%28535032632%29_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/0Dogo-argentino-22122251920.jpg/960px-0Dogo-argentino-22122251920.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Argentine_Dogo.jpg/960px-Argentine_Dogo.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-52",
+      "answer": "Cane Corso Italiano",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cane_corso_temi_1_1024x768x24_%28cropped%29.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/03/Cane_corso_temi_1_1024x768x24_%28cropped%29.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_greyhound_and_cane_corso_examining_each_other.jpg/960px-A_greyhound_and_cane_corso_examining_each_other.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Anita_Cane_Corso_Italiano_allevato_in_Italia.jpg/960px-Anita_Cane_Corso_Italiano_allevato_in_Italia.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-53",
+      "answer": "Pitbull",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/001_American_Pit_Bull_Terrier.jpg/960px-001_American_Pit_Bull_Terrier.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/001_American_Pit_Bull_Terrier.jpg/960px-001_American_Pit_Bull_Terrier.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/000_American_Pit_Bull_Terrier.jpg/960px-000_American_Pit_Bull_Terrier.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/002_American_Pit_Bull_Terrier.jpg/960px-002_American_Pit_Bull_Terrier.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-54",
+      "answer": "Staffordshire Bull Terrier",
+      "aliases": [
+        "staffy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Staffy_Smile_Marley.jpg/960px-Staffy_Smile_Marley.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Staffy_Smile_Marley.jpg/960px-Staffy_Smile_Marley.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/%27Hoppingham%27s_Dw_Suomi-Neito%2CContessa%2CStaffordshire_Bull_Terrier%2C2013.jpg/960px-%27Hoppingham%27s_Dw_Suomi-Neito%2CContessa%2CStaffordshire_Bull_Terrier%2C2013.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/%27Hoppingham%27s_Dw_Suomi-Neito%2CContessa%2CStaffordshire_Bull_Terrier%2C2013.png"
+      ]
+    },
+    {
+      "id": "razze-cani-55",
+      "answer": "Bearded Collie",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bearded_Collie_600.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bearded_Collie_600.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bearded_collie_and_a_rope.jpg/960px-Bearded_collie_and_a_rope.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bearded_Collie.jpg/960px-Bearded_Collie.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-56",
+      "answer": "Bobtail",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_English_Sheepdog_%28side%29.jpg/960px-Old_English_Sheepdog_%28side%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_English_Sheepdog_%28side%29.jpg/960px-Old_English_Sheepdog_%28side%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bobtail.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bobtail_ou_old_english_sheepdog.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-57",
+      "answer": "Shetland Sheepdog",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Shetland_Sheepdog_sable.jpg/960px-Shetland_Sheepdog_sable.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Shetland_Sheepdog_sable.jpg/960px-Shetland_Sheepdog_sable.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/62/ShetlandShpdogBlue2_wb.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/A_Shetland_Sheepdog.jpg/960px-A_Shetland_Sheepdog.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-58",
+      "answer": "Bichon Frisé",
+      "aliases": [
+        "bichon",
+        "Bichon Frise"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Bichon_Fris%C3%A9_-_studdogbichon.jpg/960px-Bichon_Fris%C3%A9_-_studdogbichon.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Bichon_Fris%C3%A9_-_studdogbichon.jpg/960px-Bichon_Fris%C3%A9_-_studdogbichon.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/64/Bichon_Frise_600.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bichon_Frise_Dogs.jpg/960px-Bichon_Frise_Dogs.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-59",
+      "answer": "Cavalier King",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/CarterBIS.Tiki.13.6.09.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5f/CarterBIS.Tiki.13.6.09.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cavalier_King_Charles_Spaniel_-.jpg/960px-Cavalier_King_Charles_Spaniel_-.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cavalier_King_Charles_Spaniel_-_ruby.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-60",
+      "answer": "Shih Tzu",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Shihtzu_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/df/Shihtzu_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/49/Black_and_White_Shih_Tzu.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-61",
+      "answer": "Pechinese",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/1AKC_Pekingese_Dog_Show_2011.jpg/960px-1AKC_Pekingese_Dog_Show_2011.jpg"
+    },
+    {
+      "id": "razze-cani-62",
+      "answer": "Lhasa Apso",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Aishia.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/Aishia.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/14/Bearded_Lion_Dog.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-63",
+      "answer": "Chow",
+      "aliases": [
+        "eurasier"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eurasier_BailyWtatze.jpg"
+    },
+    {
+      "id": "razze-cani-64",
+      "answer": "Basenji",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Basenji_Profile_%28loosercrop%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Basenji_Profile_%28loosercrop%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a9/KinzicaGiotto_02.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-65",
+      "answer": "Whippet",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Whippet_2018_6.jpg/960px-Whippet_2018_6.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Whippet_2018_6.jpg/960px-Whippet_2018_6.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/WhippetWhiteSaddled_wb.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-66",
+      "answer": "Borzoi",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Borzoi_female.jpg"
+    },
+    {
+      "id": "razze-cani-67",
+      "answer": "Levriero Afgano",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Afghan_dog_-_cropped.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Afghan_dog_-_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/fe/Afghan_Hound.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-68",
+      "answer": "Rhodesian Ridgeback",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Rhodesian_ridgeback.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Rhodesian_ridgeback.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Akani_Stehbild.JPG/960px-Akani_Stehbild.JPG"
+      ]
+    },
+    {
+      "id": "razze-cani-69",
+      "answer": "Weimaraner",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Weimaraner_Freika-2.jpg/960px-Weimaraner_Freika-2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Weimaraner_Freika-2.jpg/960px-Weimaraner_Freika-2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/32/Weimaraner_wb.jpg"
+      ]
+    },
+    {
+      "id": "razze-cani-70",
+      "answer": "Vizsla",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Wy%C5%BCe%C5%82_w%C4%99gierski_g%C5%82adkow%C5%82osy_500.jpg/960px-Wy%C5%BCe%C5%82_w%C4%99gierski_g%C5%82adkow%C5%82osy_500.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Wy%C5%BCe%C5%82_w%C4%99gierski_g%C5%82adkow%C5%82osy_500.jpg/960px-Wy%C5%BCe%C5%82_w%C4%99gierski_g%C5%82adkow%C5%82osy_500.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/89/Vizsla_02.jpg"
       ]
     }
   ],

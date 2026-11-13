@@ -8,6 +8,8 @@ export {
   getItemImagePool,
   getRandomItemImage,
   prepareArenaDeck,
+  markItemSeen,
+  clearSeenItemsHistory,
 } from '../utils/itemUtils';
 
 export { DEFAULT_CATEGORIES };

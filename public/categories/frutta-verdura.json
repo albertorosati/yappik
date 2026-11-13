@@ -35,7 +35,9 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Raspberries_%28Rubus_idaeus%29.jpg/960px-Raspberries_%28Rubus_idaeus%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Clover_flower_on_bed_of_raspberries.jpg/960px-Clover_flower_on_bed_of_raspberries.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Framboise_Margy_3.jpg/960px-Framboise_Margy_3.jpg"
       ]
     },
     {
@@ -46,7 +48,9 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg"
+        "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Anthony_van_Dyck_-_Mirtillo_Crowning_Amarillis_214562.jpg/960px-Anthony_van_Dyck_-_Mirtillo_Crowning_Amarillis_214562.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Antonis_Van_Dyk_Amarillis_und_Mirtillo_Pommersfelden.jpg/960px-Antonis_Van_Dyk_Amarillis_und_Mirtillo_Pommersfelden.jpg"
       ]
     },
     {
@@ -485,6 +489,430 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ch%C3%A2taignier_120807_1.jpg/960px-Ch%C3%A2taignier_120807_1.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ch%C3%A2taignier_120807_1.jpg/960px-Ch%C3%A2taignier_120807_1.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-43",
+      "answer": "Pesca",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/960px-Autumn_Red_peaches.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/960px-Autumn_Red_peaches.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Peach_flowers.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Peach_flowers_2020_G1.jpg/960px-Peach_flowers_2020_G1.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-44",
+      "answer": "Albicocca",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Albaricoques_%28Prunus_armeniaca%29.jpg/960px-Albaricoques_%28Prunus_armeniaca%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Albaricoques_%28Prunus_armeniaca%29.jpg/960px-Albaricoques_%28Prunus_armeniaca%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ambigramme_Abricot_rouge_-_fruit.png/960px-Ambigramme_Abricot_rouge_-_fruit.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Apricot_fruits_on_tree%2C_Ni%C4%9Fde_2017-08-05_01-1.jpg/960px-Apricot_fruits_on_tree%2C_Ni%C4%9Fde_2017-08-05_01-1.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-45",
+      "answer": "Susina",
+      "aliases": [
+        "prugna"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Plums_African_Rose_-_whole%2C_halved_and_slice.jpg/960px-Plums_African_Rose_-_whole%2C_halved_and_slice.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Plums_African_Rose_-_whole%2C_halved_and_slice.jpg/960px-Plums_African_Rose_-_whole%2C_halved_and_slice.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/77/Blossom_of_Mirabelle_plum_%28cropped_transparent%29.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg/960px-Edouard_Manet_-_The_Plum_-_National_Gallery_of_Art.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-46",
+      "answer": "Nectarina",
+      "aliases": [
+        "pesca noce"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/960px-Autumn_Red_peaches.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/960px-Autumn_Red_peaches.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/Nectarine_CDC.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Nectarine_branch_surachit.jpg/960px-Nectarine_branch_surachit.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-47",
+      "answer": "Mela Verde",
+      "aliases": [
+        "mela"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Granny_smith_and_cross_section.jpg/960px-Granny_smith_and_cross_section.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Granny_smith_and_cross_section.jpg/960px-Granny_smith_and_cross_section.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/db/Cross_section_of_Granny_Smith_%28LA_73A%29%2C_National_Fruit_Collection_%28acc._1976-145%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Golden_Delicious%2C_SweeTango%2C_Granny_Smith%2C_and_Gala_apples_3.JPG/960px-Golden_Delicious%2C_SweeTango%2C_Granny_Smith%2C_and_Gala_apples_3.JPG"
+      ]
+    },
+    {
+      "id": "frutta-verdura-48",
+      "answer": "Pera",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pears.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Pears.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Cherves-Richemont_16_Poirier_2014.jpg/960px-Cherves-Richemont_16_Poirier_2014.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/D%27anjou_pear.jpg/960px-D%27anjou_pear.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-49",
+      "answer": "Arancia Rossa",
+      "aliases": [
+        "arancia"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BloodOrange.jpg/960px-BloodOrange.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BloodOrange.jpg/960px-BloodOrange.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Blood_Orange_%288448513555%29.jpg/960px-Blood_Orange_%288448513555%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Blood_orange_%28DSCF7480%29.jpg/960px-Blood_orange_%28DSCF7480%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-50",
+      "answer": "Mandarino",
+      "aliases": [
+        "clementina"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/960px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Citrus_reticulata_April_2013_Nordbaden.JPG/960px-Citrus_reticulata_April_2013_Nordbaden.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2023_Mandarynki.jpg/960px-2023_Mandarynki.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/A_Mandarin_orange_%28310650481%29.jpg/960px-A_Mandarin_orange_%28310650481%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-51",
+      "answer": "Bergamotto",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bergamot_orange_-_whole_and_slice.jpg/960px-Bergamot_orange_-_whole_and_slice.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bergamot_orange_-_whole_and_slice.jpg/960px-Bergamot_orange_-_whole_and_slice.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bergamottepflanze.jpg/960px-Bergamottepflanze.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bergamot_orange_-_Cross_section.jpg/960px-Bergamot_orange_-_Cross_section.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-52",
+      "answer": "Cedro",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinesische_Zedrat_Zitrone.jpg/960px-Chinesische_Zedrat_Zitrone.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Chinesische_Zedrat_Zitrone.jpg/960px-Chinesische_Zedrat_Zitrone.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%22Buddha%27s_hand%22_citron_in_the_Villa_Borghese_Gardens%2C_Rome.jpg/960px-%22Buddha%27s_hand%22_citron_in_the_Villa_Borghese_Gardens%2C_Rome.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Citron.jpg/960px-Citron.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-53",
+      "answer": "Kaki",
+      "aliases": [
+        "cachi"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fuyu_persimmon_fruits%2C_one_cut_open.jpg/960px-Fuyu_persimmon_fruits%2C_one_cut_open.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fuyu_persimmon_fruits%2C_one_cut_open.jpg/960px-Fuyu_persimmon_fruits%2C_one_cut_open.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/02024_1155_Persimmon%2C_apple%2C_yogourt.jpg/960px-02024_1155_Persimmon%2C_apple%2C_yogourt.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/A_Persimmon.jpg/960px-A_Persimmon.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-54",
+      "answer": "Nespola",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Loquat-0.jpg/960px-Loquat-0.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Loquat-0.jpg/960px-Loquat-0.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Eriobotrya_japonica_2025.jpg/960px-Eriobotrya_japonica_2025.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Eriobotrya_japonica_5Dsr_0135.jpg/960px-Eriobotrya_japonica_5Dsr_0135.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-55",
+      "answer": "Giuggiola",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ziziphus_jujuba.jpg/960px-Ziziphus_jujuba.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ziziphus_jujuba.jpg/960px-Ziziphus_jujuba.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ziziphus_jujuba_Habitus_2010-10-26_ArboretoParqueElPilarCiudadReal.jpg/960px-Ziziphus_jujuba_Habitus_2010-10-26_ArboretoParqueElPilarCiudadReal.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/ZiziphusJujubaVarSpinosa.jpg/960px-ZiziphusJujubaVarSpinosa.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-56",
+      "answer": "Ribes Rosso",
+      "aliases": [
+        "ribes"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ribes_rubrum_1.jpg/960px-Ribes_rubrum_1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ribes_rubrum_1.jpg/960px-Ribes_rubrum_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Grosello_rojo_%28Ribes_rubrum%29%2C_M%C3%BAnich%2C_Alemania%2C_2012-06-07%2C_DD_01.jpg/960px-Grosello_rojo_%28Ribes_rubrum%29%2C_M%C3%BAnich%2C_Alemania%2C_2012-06-07%2C_DD_01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Redcurrant_%28Ribes_rubrum%29.JPG/960px-Redcurrant_%28Ribes_rubrum%29.JPG"
+      ]
+    },
+    {
+      "id": "frutta-verdura-57",
+      "answer": "Uva Spina",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Stachelbeeren.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1f/Stachelbeeren.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gooseberries.JPG/960px-Gooseberries.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Gooseberries.jpg/960px-Gooseberries.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-58",
+      "answer": "Mirtillo Rosso",
+      "aliases": [
+        "cranberry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cranberry_bog.jpg/960px-Cranberry_bog.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Cranberry_bog.jpg/960px-Cranberry_bog.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Cranberry%2C_Westbourne%2C_West_Sussex_%28P1020610%29.jpg/960px-Cranberry%2C_Westbourne%2C_West_Sussex_%28P1020610%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Cranberry_and_moss.jpg/960px-Cranberry_and_moss.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-59",
+      "answer": "Carambola",
+      "aliases": [
+        "frutto stella"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Averrhoa_carambola_ARS_k5735-7.jpg/960px-Averrhoa_carambola_ARS_k5735-7.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Averrhoa_carambola_ARS_k5735-7.jpg/960px-Averrhoa_carambola_ARS_k5735-7.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/26/Averrhoa_carambola2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Averrhoa_carambola_%28Oxalidaceae%29_%E2%80%93_Star_fruit_-_Carambola_%2832440660702%29.jpg/960px-Averrhoa_carambola_%28Oxalidaceae%29_%E2%80%93_Star_fruit_-_Carambola_%2832440660702%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-60",
+      "answer": "Durian",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Durian_in_black.jpg/960px-Durian_in_black.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Durian_in_black.jpg/960px-Durian_in_black.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Durian.jpg/960px-Durian.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Durio_zibethinus_115520164.jpg/960px-Durio_zibethinus_115520164.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-61",
+      "answer": "Jackfruit",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/The_jackfruit_is_holding_on_to_the_tree.jpg/960px-The_jackfruit_is_holding_on_to_the_tree.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/The_jackfruit_is_holding_on_to_the_tree.jpg/960px-The_jackfruit_is_holding_on_to_the_tree.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Jackfruit_hanging.JPG/960px-Jackfruit_hanging.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%28Artocarpus_heterophyllus%29_Jack_fruits_on_Simhachalam_Hills_01.jpg/960px-%28Artocarpus_heterophyllus%29_Jack_fruits_on_Simhachalam_Hills_01.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-62",
+      "answer": "Rambutan",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rambutan_white_background_alt.jpg/960px-Rambutan_white_background_alt.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rambutan_white_background_alt.jpg/960px-Rambutan_white_background_alt.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/RambutanSamet.jpg/960px-RambutanSamet.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Nephelium_lappaceum201907mx.jpg/960px-Nephelium_lappaceum201907mx.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-63",
+      "answer": "Guava",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Guava_pink_fruit.jpg/960px-Guava_pink_fruit.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Guava_pink_fruit.jpg/960px-Guava_pink_fruit.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3a/Psidium_guajava_fruit.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Fallen_Psidium_guajava_leaf_LR.jpg/960px-Fallen_Psidium_guajava_leaf_LR.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-64",
+      "answer": "Pomodoro San Marzano",
+      "aliases": [
+        "pomodoro"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/TomateSanMarzano.jpg/960px-TomateSanMarzano.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/TomateSanMarzano.jpg/960px-TomateSanMarzano.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/28_oz_cans_of_San_Marzano_tomatoes%2C_three_ways.jpg/960px-28_oz_cans_of_San_Marzano_tomatoes%2C_three_ways.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Modelli_di_pomodoro_-_Musei_del_cibo_-_Pomodoro_-_299.jpg/960px-Modelli_di_pomodoro_-_Musei_del_cibo_-_Pomodoro_-_299.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-65",
+      "answer": "Patata Viola",
+      "aliases": [
+        "patata"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Vitelotte.jpg/960px-Vitelotte.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Vitelotte.jpg/960px-Vitelotte.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Le_pont_de_Thorey_-_Pur%C3%A9e_de_pommes_de_terre_%27Vitelotte%27.jpg/960px-Le_pont_de_Thorey_-_Pur%C3%A9e_de_pommes_de_terre_%27Vitelotte%27.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Lu%C4%8Denec_-_Solanum_tuberosum_%27Vitelotte_-a.jpg/960px-Lu%C4%8Denec_-_Solanum_tuberosum_%27Vitelotte_-a.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-66",
+      "answer": "Patata Dolce",
+      "aliases": [
+        "batata"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ipomoea_batatas_006.JPG/960px-Ipomoea_batatas_006.JPG",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ipomoea_batatas_006.JPG/960px-Ipomoea_batatas_006.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ipomoea_batatas_%28Sweet_Potato%29_Flower.jpg/960px-Ipomoea_batatas_%28Sweet_Potato%29_Flower.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Roasted_Sweet_Potato_%2813500%29.jpg/960px-Roasted_Sweet_Potato_%2813500%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-67",
+      "answer": "Carota",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/960px-Vegetable-Carrot-Bundle-wStalks.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/960px-Vegetable-Carrot-Bundle-wStalks.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/Carotts_%28Daucus_Carotta%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Carrot-carving.JPG/960px-Carrot-carving.JPG"
+      ]
+    },
+    {
+      "id": "frutta-verdura-68",
+      "answer": "Bietola",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Chard_%28Beta_vulgaris_var_cicla%29.jpg/960px-Chard_%28Beta_vulgaris_var_cicla%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Chard_%28Beta_vulgaris_var_cicla%29.jpg/960px-Chard_%28Beta_vulgaris_var_cicla%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Blette.JPG/960px-Blette.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/054_Chard_%28_23700_%29.JPG/960px-054_Chard_%28_23700_%29.JPG"
+      ]
+    },
+    {
+      "id": "frutta-verdura-69",
+      "answer": "Spinacio",
+      "aliases": [
+        "spinaci"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Spinazie_vrouwelijke_plant_%28Spinacia_oleracea_female_plant%29.jpg/960px-Spinazie_vrouwelijke_plant_%28Spinacia_oleracea_female_plant%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/77/Karyotype_of_Spinach_%28Spinacia_oleracea_L._Mazeran%29.png"
+      ]
+    },
+    {
+      "id": "frutta-verdura-70",
+      "answer": "Rucola",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Eruca_vesicaria_BM010755249.jpg/960px-Eruca_vesicaria_BM010755249.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Eruca_vesicaria_BM010755249.jpg/960px-Eruca_vesicaria_BM010755249.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Eruca_sativa_1_IP0206101.jpg/960px-Eruca_sativa_1_IP0206101.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Eruca_sativa_0006842.jpg/960px-Eruca_sativa_0006842.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-71",
+      "answer": "Lattuga",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Iceberg_lettuce_in_SB.jpg/960px-Iceberg_lettuce_in_SB.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Iceberg_lettuce_in_SB.jpg/960px-Iceberg_lettuce_in_SB.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2018-06-01_%28129%29_Lactuca_sativa_%28garden_lettuce%29_Nature_at_Bichlh%C3%A4usl_in_Frankenfels%2C_Austria.jpg/960px-2018-06-01_%28129%29_Lactuca_sativa_%28garden_lettuce%29_Nature_at_Bichlh%C3%A4usl_in_Frankenfels%2C_Austria.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/2018-06-18_%28109%29_Lactuca_sativa_%28garden_lettuce%29_at_Bichlh%C3%A4usl_in_Frankenfels%2C_Austria.jpg/960px-2018-06-18_%28109%29_Lactuca_sativa_%28garden_lettuce%29_at_Bichlh%C3%A4usl_in_Frankenfels%2C_Austria.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-72",
+      "answer": "Cavolo Nero",
+      "aliases": [
+        "cavolo"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brassica_-_Gardenology.org-IMG_0606_bbg09.jpg/960px-Brassica_-_Gardenology.org-IMG_0606_bbg09.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brassica_-_Gardenology.org-IMG_0606_bbg09.jpg/960px-Brassica_-_Gardenology.org-IMG_0606_bbg09.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Cavolo_Nero_Cabbage_%284386389265%29.jpg/960px-Cavolo_Nero_Cabbage_%284386389265%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Cavolo_Nero_Cabbage_%284386390585%29.jpg/960px-Cavolo_Nero_Cabbage_%284386390585%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-73",
+      "answer": "Cavolo Rosso",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Brassica_oleracea_var_capitata_Rubyball.jpg/960px-Brassica_oleracea_var_capitata_Rubyball.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Brassica_oleracea_var_capitata_Rubyball.jpg/960px-Brassica_oleracea_var_capitata_Rubyball.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/02021_0921_%283%29_Grilled_pork_neck_fillet_steak_witt_red_cabbage.jpg/960px-02021_0921_%283%29_Grilled_pork_neck_fillet_steak_witt_red_cabbage.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Abstrakte_Fotografie_001_2012_10_16.jpg/960px-Abstrakte_Fotografie_001_2012_10_16.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-74",
+      "answer": "Porro",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Leek_on_white_background_-_0947.jpg/960px-Leek_on_white_background_-_0947.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Leek_on_white_background_-_0947.jpg/960px-Leek_on_white_background_-_0947.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Arriving_in_Leek_-_geograph.org.uk_-_6791537.jpg/960px-Arriving_in_Leek_-_geograph.org.uk_-_6791537.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Fleur_de_poireau_de_pr%C3%A8s.jpg/960px-Fleur_de_poireau_de_pr%C3%A8s.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-75",
+      "answer": "Scalogno",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Shallots_-_sliced_and_whole.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Shallots_-_sliced_and_whole.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Shallots-Whole.jpg/960px-Shallots-Whole.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Allium_ascalonicum_flower_Brisbane.jpg/960px-Allium_ascalonicum_flower_Brisbane.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-76",
+      "answer": "Origano",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Origanum_vulgare_-_harilik_pune.jpg/960px-Origanum_vulgare_-_harilik_pune.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Origanum_vulgare_-_harilik_pune.jpg/960px-Origanum_vulgare_-_harilik_pune.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/94/Origanum_vulgare_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/2017-07-23_%2844%29_Origanum_vulgare_%28oregano%29_and_Buphthalmum_salicifolium_%28ox-eye%29_at_D%C3%BCrrenstein_%28Ybbstaler_Alpen%29.jpg/960px-2017-07-23_%2844%29_Origanum_vulgare_%28oregano%29_and_Buphthalmum_salicifolium_%28ox-eye%29_at_D%C3%BCrrenstein_%28Ybbstaler_Alpen%29.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-77",
+      "answer": "Salvia",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Salvia_officinalis0.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Salvia_officinalis0.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Salvia_guaranitica_close.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/20260614_Salvia_officinalis_01.jpg/960px-20260614_Salvia_officinalis_01.jpg"
+      ]
+    },
+    {
+      "id": "frutta-verdura-78",
+      "answer": "Timo",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Thyme-Bundle.jpg/960px-Thyme-Bundle.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Thyme-Bundle.jpg/960px-Thyme-Bundle.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Eristalinus_aeneus_on_Thymus_vulgaris%2C_S%C3%A8te_03.jpg/960px-Eristalinus_aeneus_on_Thymus_vulgaris%2C_S%C3%A8te_03.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/THYMUS_VULGARIS_-_AGUDA_-_IB-910_%28Tim%C3%B3%29.JPG/960px-THYMUS_VULGARIS_-_AGUDA_-_IB-910_%28Tim%C3%B3%29.JPG"
       ]
     }
   ],

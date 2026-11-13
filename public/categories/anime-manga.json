@@ -423,6 +423,631 @@
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Ghibli_Museum_Totoro_Stained_Glass.jpg/960px-Ghibli_Museum_Totoro_Stained_Glass.jpg"
       ]
+    },
+    {
+      "id": "anime-manga-37",
+      "answer": "Killua Zoldyck",
+      "aliases": [
+        "killua"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b27-Z5O02kQUydpT.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b27-Z5O02kQUydpT.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-38",
+      "answer": "Gon Freecss",
+      "aliases": [
+        "gon"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b30-lyFExKyDhefc.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b30-lyFExKyDhefc.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-39",
+      "answer": "Hisoka Morow",
+      "aliases": [
+        "hisoka"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b31-FZckOuu7L1un.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b31-FZckOuu7L1un.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-40",
+      "answer": "Roy Mustang",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b68-moBLY2WO2am3.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b68-moBLY2WO2am3.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-41",
+      "answer": "Alphonse Elric",
+      "aliases": [
+        "alphonse"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b12-tCKu8yK5kFL5.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b12-tCKu8yK5kFL5.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Anime_Expo_2011_-_Alphonse_Elric_statue_and_Donkey_Kong_%285892746139%29.jpg/960px-Anime_Expo_2011_-_Alphonse_Elric_statue_and_Donkey_Kong_%285892746139%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-42",
+      "answer": "Spike Spiegel",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b1-ChxaldmieFlQ.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b1-ChxaldmieFlQ.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-43",
+      "answer": "All Might",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Cosplay_of_All_Might%2C_Toshinori_Yagi%2C_Shota_Aizawa_and_Hizashi_Yamada_from_My_Hero_Academia_at_FanimeCon_2023_%2853055048907%29.jpg/960px-Cosplay_of_All_Might%2C_Toshinori_Yagi%2C_Shota_Aizawa_and_Hizashi_Yamada_from_My_Hero_Academia_at_FanimeCon_2023_%2853055048907%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-44",
+      "answer": "Katsuki Bakugo",
+      "aliases": [
+        "bakugo"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b88892-bdOha3lNcaN6.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b88892-bdOha3lNcaN6.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-45",
+      "answer": "Shoto Todoroki",
+      "aliases": [
+        "todoroki"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b89220-KNBwaVFAR8FD.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b89220-KNBwaVFAR8FD.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg/960px-Cosplay_of_All_Might%2C_Shoto_Todoroki_and_Katsuki_Bakugo_from_My_Hero_Academia_at_Japan_Expo_2023_2.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-46",
+      "answer": "Yuji Itadori",
+      "aliases": [
+        "itadori"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-47",
+      "answer": "Megumi Fushiguro",
+      "aliases": [
+        "fushiguro"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-48",
+      "answer": "Sukuna",
+      "aliases": [
+        "ryomen sukuna"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-49",
+      "answer": "Zenitsu Agatsuma",
+      "aliases": [
+        "zenitsu"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cosplay_of_Nezuko_Kamado_and_Zenitsu_Agatsuma_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056018850%29.jpg/960px-Cosplay_of_Nezuko_Kamado_and_Zenitsu_Agatsuma_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853056018850%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cosplay_of_Tanjiro_Kamado%2C_Nezuko_Kamado_and_Zenitsu_Agatsuma_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055055252%29.jpg/960px-Cosplay_of_Tanjiro_Kamado%2C_Nezuko_Kamado_and_Zenitsu_Agatsuma_from_Demon_Slayer_Kimetsu_no_Yaiba_at_FanimeCon_2023_%2853055055252%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-50",
+      "answer": "Inosuke Hashibira",
+      "aliases": [
+        "inosuke"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/n129130-SJC0Kn1DU39E.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/n129130-SJC0Kn1DU39E.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-51",
+      "answer": "Kyojuro Rengoku",
+      "aliases": [
+        "rengoku"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321a.jpg/960px-5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321a.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321a.jpg/960px-5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321a.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321b.jpg/960px-5_people_standing_on_the_stage_with_Demon_Slayer_cosplay_clothing_20210321b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/5_people_taking_group_selfies_with_Demon_Slayer_cosplay_clothing%2C_Kuro_Historian_photographing_20210321.jpg/960px-5_people_taking_group_selfies_with_Demon_Slayer_cosplay_clothing%2C_Kuro_Historian_photographing_20210321.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-52",
+      "answer": "Trunks",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2707-YKWmn4q87oF8.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b2707-YKWmn4q87oF8.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-53",
+      "answer": "Bulma",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b678-2YCe13F0tFos.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b678-2YCe13F0tFos.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-54",
+      "answer": "Crilin",
+      "aliases": [
+        "krillin"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-55",
+      "answer": "Jiraiya",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2423-RO5MyoXSA9OL.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b2423-RO5MyoXSA9OL.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Anime_Expo_2010_-_LA_%284837248620%29.jpg/960px-Anime_Expo_2010_-_LA_%284837248620%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-56",
+      "answer": "Tsunade",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-57",
+      "answer": "Gaara",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b1662-4E5J0LX9jZKZ.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b1662-4E5J0LX9jZKZ.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-58",
+      "answer": "Madara Uchiha",
+      "aliases": [
+        "madara"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b53901-HnRKSoHMG5Vg.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b53901-HnRKSoHMG5Vg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
+    },
+    {
+      "id": "anime-manga-59",
+      "answer": "Portgas D. Ace",
+      "aliases": [
+        "ace"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Cosplay_of_One_Piece_%2853783750167%29.jpg/960px-Cosplay_of_One_Piece_%2853783750167%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Cosplay_of_Portgas_D._Ace_and_Dracule_Mihawk_from_One_Piece_at_Japan_Expo_2019_%2848449545521%29.jpg/960px-Cosplay_of_Portgas_D._Ace_and_Dracule_Mihawk_from_One_Piece_at_Japan_Expo_2019_%2848449545521%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-60",
+      "answer": "Trafalgar Law",
+      "aliases": [
+        "law"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Anime_Weekend_Atlanta_2014_-_One_Piece_Cosplayers.jpg/960px-Anime_Weekend_Atlanta_2014_-_One_Piece_Cosplayers.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-61",
+      "answer": "TonyTony Chopper",
+      "aliases": [
+        "chopper",
+        "tony tony chopper"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/AX_2010_-_One_Piece_Cosplayers_-_02.jpg/960px-AX_2010_-_One_Piece_Cosplayers_-_02.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/AX_2010_-_One_Piece_Cosplayers_-_02.jpg/960px-AX_2010_-_One_Piece_Cosplayers_-_02.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/AX_2010_-_One_Piece_Cosplayers_-_03.jpg/960px-AX_2010_-_One_Piece_Cosplayers_-_03.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Anime_Expo_2010_-_LA_%284837253778%29.jpg/960px-Anime_Expo_2010_-_LA_%284837253778%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-62",
+      "answer": "Nico Robin",
+      "aliases": [
+        "robin"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Anime_Expo_2010_-_One_Piece_Cosplay.jpg/960px-Anime_Expo_2010_-_One_Piece_Cosplay.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-63",
+      "answer": "Shanks",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Anime_Expo_2012_%2814004481725%29.jpg/960px-Anime_Expo_2012_%2814004481725%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-64",
+      "answer": "Frieren",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b176754-PCnpqIOkjhFk.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b176754-PCnpqIOkjhFk.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Cosplay_of_Frieren_DSCF9936.jpg/960px-Cosplay_of_Frieren_DSCF9936.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cosplay_of_Frieren_DSCF9943.jpg/960px-Cosplay_of_Frieren_DSCF9943.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-65",
+      "answer": "Denji",
+      "aliases": [
+        "chainsaw man"
+      ],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Cosplay_of_Denji%2C_Michiko_Tendo_and_Kobeni_Higashiyama_from_Chainsaw_Man_at_Fanimecon_2023_%2853055658121%29.jpg/960px-Cosplay_of_Denji%2C_Michiko_Tendo_and_Kobeni_Higashiyama_from_Chainsaw_Man_at_Fanimecon_2023_%2853055658121%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-66",
+      "answer": "Makima",
+      "aliases": [],
+      "imageUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b137080-UHcynYNjb5ZU.png",
+      "imageUrls": [
+        "https://s4.anilist.co/file/anilistcdn/character/large/b137080-UHcynYNjb5ZU.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Cosplay_of_Makima_from_Chainsaw_Man_%2852605345255%29.jpg/960px-Cosplay_of_Makima_from_Chainsaw_Man_%2852605345255%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cosplay_of_Makima_from_Chainsaw_Man_%2852605345265%29.jpg/960px-Cosplay_of_Makima_from_Chainsaw_Man_%2852605345265%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-67",
+      "answer": "Anya Forger",
+      "aliases": [
+        "anya"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg/960px-Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg/960px-Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cosplay_of_Anya_Forger%2C_Yor_Forger%2C_Loid_Forger_and_Yuri_Briar_from_Spy_x_Family_at_FanimeCon_2023_%2853056128218%29.jpg/960px-Cosplay_of_Anya_Forger%2C_Yor_Forger%2C_Loid_Forger_and_Yuri_Briar_from_Spy_x_Family_at_FanimeCon_2023_%2853056128218%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cosplay_of_Anya_Forger%2C_Yor_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853055835579%29.jpg/960px-Cosplay_of_Anya_Forger%2C_Yor_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853055835579%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-68",
+      "answer": "Loid Forger",
+      "aliases": [
+        "twilight"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg/960px-Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg/960px-Anya%2C_Loid_and_Yor_Forger_cosplay_from_Anime_Boston_2025-20250523_1056AM.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Cosplay_of_Anya_Forger%2C_Yor_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853055835579%29.jpg/960px-Cosplay_of_Anya_Forger%2C_Yor_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853055835579%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cosplay_of_Anya_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853056127833%29.jpg/960px-Cosplay_of_Anya_Forger_and_Loid_Forger_from_Spy_x_Family_at_FanimeCon_2023_%2853056127833%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-69",
+      "answer": "Shinji Ikari",
+      "aliases": [
+        "shinji"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Cosplay_of_Shinji_Ikari_and_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055659376%29.jpg/960px-Cosplay_of_Shinji_Ikari_and_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055659376%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cosplay_of_Shinji_Ikari_and_Evangelion_Unit-01_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055841204%29.jpg/960px-Cosplay_of_Shinji_Ikari_and_Evangelion_Unit-01_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055841204%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-70",
+      "answer": "Asuka Langley",
+      "aliases": [
+        "asuka"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_and_Shinji_Ikari_from_Neon_Genesis_Evangelion_at_Anime_North_2019_-_Saturday_%286_of_30%29_%2848217072697%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cosplay_of_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelio_at_Anime_Expo_2017_%2828264364449%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelio_at_Anime_Expo_2017_%2828264364449%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cosplay_of_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelio_at_Anime_Expo_2017_%2828264364659%29.jpg/960px-Cosplay_of_Asuka_Langley_Soryu_from_Neon_Genesis_Evangelio_at_Anime_Expo_2017_%2828264364659%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-71",
+      "answer": "Rei Ayanami",
+      "aliases": [
+        "rei"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_AnimeNEXT_2012%2C_day_2_%287174842821%29.jpg/960px-Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_AnimeNEXT_2012%2C_day_2_%287174842821%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_AnimeNEXT_2012%2C_day_2_%287174842821%29.jpg/960px-Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_AnimeNEXT_2012%2C_day_2_%287174842821%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_Anime_Weekend_Atlanta_14_%282873728195%29.jpg/960px-Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_Anime_Weekend_Atlanta_14_%282873728195%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055066997%29.jpg/960px-Cosplay_of_Rei_Ayanami_from_Neon_Genesis_Evangelion_at_FanimeCon_2023_%2853055066997%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-72",
+      "answer": "Pegasus",
+      "aliases": [
+        "seiya",
+        "cavalieri dello zodiaco"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-73",
+      "answer": "Holly",
+      "aliases": [
+        "oliver hutton",
+        "tsubasa ozora"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-74",
+      "answer": "Mazinga Z",
+      "aliases": [
+        "mazinga"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-75",
+      "answer": "Goldrake",
+      "aliases": [
+        "ufo robot"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-76",
+      "answer": "Rem",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Cosplay_of_Himiko_Toga_from_My_Hero_Academia_and_Ram_and_Rem_from_Re-Zero_%E2%88%92_Starting_Life_in_Another_World_at_Wuhan_Carnival_%28Service_Desk%29_2019.jpg/960px-Cosplay_of_Himiko_Toga_from_My_Hero_Academia_and_Ram_and_Rem_from_Re-Zero_%E2%88%92_Starting_Life_in_Another_World_at_Wuhan_Carnival_%28Service_Desk%29_2019.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Cosplay_of_Himiko_Toga_from_My_Hero_Academia_and_Ram_and_Rem_from_Re-Zero_%E2%88%92_Starting_Life_in_Another_World_at_Wuhan_Carnival_%28Service_Desk%29_2019.jpg/960px-Cosplay_of_Himiko_Toga_from_My_Hero_Academia_and_Ram_and_Rem_from_Re-Zero_%E2%88%92_Starting_Life_in_Another_World_at_Wuhan_Carnival_%28Service_Desk%29_2019.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cosplay_of_Rem_%28Mar%2C_2023%29.jpg/960px-Cosplay_of_Rem_%28Mar%2C_2023%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Cosplayer_of_Rem%2C_Re-Zero_at_FF29_20170212b.jpg/960px-Cosplayer_of_Rem%2C_Re-Zero_at_FF29_20170212b.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-77",
+      "answer": "Kirito",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301a.jpg/960px-Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301a.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301a.jpg/960px-Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301a.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301b.jpg/960px-Cosplayer_of_Kirito%2C_Sword_Art_Online_at_CWT39_20150301b.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cosplayers_of_Asuna%2C_Yu%2C_Kirito%2C_Sword_Art_Online_in_FF24_20140727.jpg/960px-Cosplayers_of_Asuna%2C_Yu%2C_Kirito%2C_Sword_Art_Online_in_FF24_20140727.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-78",
+      "answer": "Asuna Yuuki",
+      "aliases": [
+        "asuna"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Cosplayer_of_Asuna%2C_Sword_Art_Online_20121228.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_20121228.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Cosplayer_of_Asuna%2C_Sword_Art_Online_20121228.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_20121228.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20150705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20150705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-79",
+      "answer": "Lelouch Lamperouge",
+      "aliases": [
+        "lelouch"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Anime_Summit_2024_main_stage.jpg/960px-Anime_Summit_2024_main_stage.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Anime_Summit_2024_main_stage.jpg/960px-Anime_Summit_2024_main_stage.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Cosplay_-_AWA15_-_C2_and_Lelouch_Lamperouge_%283982457055%29.jpg/960px-Cosplay_-_AWA15_-_C2_and_Lelouch_Lamperouge_%283982457055%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/JackXArik.png/960px-JackXArik.png"
+      ]
+    },
+    {
+      "id": "anime-manga-80",
+      "answer": "Ken Kaneki",
+      "aliases": [
+        "kaneki"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cosplay_of_Ken_Kaneki_and_Touka_Kirishima_from_Tokyo_Ghoul_at_AniManGaki_2015%2C_Day_2_021_%2823429994461%29.jpg/960px-Cosplay_of_Ken_Kaneki_and_Touka_Kirishima_from_Tokyo_Ghoul_at_AniManGaki_2015%2C_Day_2_021_%2823429994461%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cosplay_of_Ken_Kaneki_and_Touka_Kirishima_from_Tokyo_Ghoul_at_AniManGaki_2015%2C_Day_2_021_%2823429994461%29.jpg/960px-Cosplay_of_Ken_Kaneki_and_Touka_Kirishima_from_Tokyo_Ghoul_at_AniManGaki_2015%2C_Day_2_021_%2823429994461%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Cosplay_of_Ken_Kaneki_from_Tokyo_Ghoul_at_Long_Beach_Comic_Con%2C_Day_2_%2820787075723%29.jpg/960px-Cosplay_of_Ken_Kaneki_from_Tokyo_Ghoul_at_Long_Beach_Comic_Con%2C_Day_2_%2820787075723%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Cosplay_of_Ken_Kaneki_from_Tokyo_Ghoul_at_Long_Beach_Comic_Con%2C_Day_2_%2821397270702%29.jpg/960px-Cosplay_of_Ken_Kaneki_from_Tokyo_Ghoul_at_Long_Beach_Comic_Con%2C_Day_2_%2821397270702%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-81",
+      "answer": "Shigeo Kageyama",
+      "aliases": [
+        "mob"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg/960px-Cosplayer_of_Asuna%2C_Sword_Art_Online_at_Anime_Expo_20130705.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-82",
+      "answer": "Misa Amane",
+      "aliases": [
+        "misa"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cosplayer_of_Misa_Amane%2C_Death_Note_at_Anime_Expo_2009-07.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/Cosplayer_of_Misa_Amane%2C_Death_Note_at_Anime_Expo_2009-07.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Cosplayer_of_Misa_Amane%2C_Death_Note_at_FF19_20120205.jpg/960px-Cosplayer_of_Misa_Amane%2C_Death_Note_at_FF19_20120205.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Cosplayer_of_Misa_Amane%2C_Death_Note_at_FF30_20170729a.jpg/960px-Cosplayer_of_Misa_Amane%2C_Death_Note_at_FF30_20170729a.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-83",
+      "answer": "Minato Namikaze",
+      "aliases": [
+        "minato"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cosplay_of_Minato_Namikaze_and_Naruto_Uzumaki_at_Florida_Supercon_2013_%289358512575%29.jpg/960px-Cosplay_of_Minato_Namikaze_and_Naruto_Uzumaki_at_Florida_Supercon_2013_%289358512575%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-84",
+      "answer": "Genos",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Genos_Saitama_One_Punch_Man_Cosplay_-_MCM_Comic_Con_2016_%2827365000486%29.jpg/960px-Genos_Saitama_One_Punch_Man_Cosplay_-_MCM_Comic_Con_2016_%2827365000486%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-85",
+      "answer": "Armin Arlert",
+      "aliases": [
+        "armin"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Attack_on_Titan_Cosplay_-_MCM_Comic_Con_2016_%2827364999696%29.jpg/960px-Attack_on_Titan_Cosplay_-_MCM_Comic_Con_2016_%2827364999696%29.jpg"
+      ]
+    },
+    {
+      "id": "anime-manga-86",
+      "answer": "Rukia Kuchiki",
+      "aliases": [
+        "rukia"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/67/Anime-eyes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Anime_Weekend_Atlanta_2014_-_Bleach_Cosplayers.jpg/960px-Anime_Weekend_Atlanta_2014_-_Bleach_Cosplayers.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Anime_video_frame.png/960px-Anime_video_frame.png"
+      ]
     }
   ],
   "scope": "intl",

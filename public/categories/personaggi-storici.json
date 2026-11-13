@@ -211,7 +211,9 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/960px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/960px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg/960px-Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Pope_Francis_in_Prato_%2841%29.JPG/960px-Pope_Francis_in_Prato_%2841%29.JPG",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Pope_Francis_in_Prato_%2844%29.JPG/960px-Pope_Francis_in_Prato_%2844%29.JPG"
       ]
     },
     {
@@ -526,6 +528,471 @@
         "https://upload.wikimedia.org/wikipedia/commons/e/e9/Donald_Trump_NYMA.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Donald_Trump_RNC_July_2016.jpg/960px-Donald_Trump_RNC_July_2016.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Donald_Trump_swearing_in_ceremony.jpg/960px-Donald_Trump_swearing_in_ceremony.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-39",
+      "answer": "Alessandro Magno",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/960px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/960px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f2/Aleksander-d-store.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/ALEXANDER_THE_GREAT_PAINTING_ON_WOVEN_LINE.jpg/960px-ALEXANDER_THE_GREAT_PAINTING_ON_WOVEN_LINE.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-40",
+      "answer": "Cleopatra",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kleopatrab%C3%BCste_Altes_Museum_Berlin.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%27Cylindar_ship_Cleopatra_at_Westminster_Bridge%27_Wellcome_L0022195.jpg/960px-%27Cylindar_ship_Cleopatra_at_Westminster_Bridge%27_Wellcome_L0022195.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-41",
+      "answer": "Carlo Magno",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/960px-Charlemagne_denier_Mayence_812_814.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/960px-Charlemagne_denier_Mayence_812_814.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/83/Charlemagne-liege-2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Charlemagne_Agostino_Cornacchini_Vatican_2.jpg/960px-Charlemagne_Agostino_Cornacchini_Vatican_2.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-42",
+      "answer": "Marco Polo",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Marco_Polo.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a0/Marco_Polo.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Marco_Polo_-_costume_tartare.jpg/960px-Marco_Polo_-_costume_tartare.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Marco_Polo_2014.jpg/960px-Marco_Polo_2014.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-43",
+      "answer": "Cristoforo Colombo",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/960px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/960px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Christopher_Columbus.PNG/960px-Christopher_Columbus.PNG",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c7/Christopher_Columbus.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-44",
+      "answer": "Amerigo Vespucci",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Amerigo_Vespucci_%28with_turban%29_-_cropped.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/6/66/Amerigo_Vespucci_%28with_turban%29_-_cropped.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Amerigo_Vespucci.jpg/960px-Amerigo_Vespucci.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Amerigo_Vespucci_-_Project_Gutenberg_etext_19997.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-45",
+      "answer": "Michelangelo Buonarroti",
+      "aliases": [
+        "michelangelo"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/960px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/960px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/04_2024_Moses_by_Michelangelo_Rome_1251.jpg/960px-04_2024_Moses_by_Michelangelo_Rome_1251.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Florence_Cathedral_seen_from_Piazzale_Michelangelo_night_dllu.jpg/960px-Florence_Cathedral_seen_from_Piazzale_Michelangelo_night_dllu.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-46",
+      "answer": "Raffaello Sanzio",
+      "aliases": [
+        "raffaello"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/960px-Raffaello_Sanzio.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/960px-Raffaello_Sanzio.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/960px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Accademia_-_Archangel_Raphael_and_Tobit_by_Titian.jpg/960px-Accademia_-_Archangel_Raphael_and_Tobit_by_Titian.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-47",
+      "answer": "Niccolò Machiavelli",
+      "aliases": [
+        "machiavelli",
+        "Niccolo Machiavelli"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/960px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/960px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Federico_Faruffini_-_Borgia_e_Machiavelli.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/dd/Niccolo_Machiavelli.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-48",
+      "answer": "William Shakespeare",
+      "aliases": [
+        "shakespeare"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/960px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/960px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/John_Swaine_-_Shakspeare_from_the_First_Folio_Edition_-_B1976.1.232_-_Yale_Center_for_British_Art_%28cropped%29.jpg/960px-John_Swaine_-_Shakspeare_from_the_First_Folio_Edition_-_B1976.1.232_-_Yale_Center_for_British_Art_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Cobbe_portrait_of_Shakespeare.jpg/960px-Cobbe_portrait_of_Shakespeare.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-49",
+      "answer": "Isaac Newton",
+      "aliases": [
+        "newton"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/960px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/960px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/960px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Death_mask_of_Sir_Isaac_Newton_-_HLABG.png/960px-Death_mask_of_Sir_Isaac_Newton_-_HLABG.png"
+      ]
+    },
+    {
+      "id": "personaggi-storici-50",
+      "answer": "Charles Darwin",
+      "aliases": [
+        "darwin"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/960px-Charles_Darwin_seated_crop.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/960px-Charles_Darwin_seated_crop.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Charles_Darwin_1880.jpg/960px-Charles_Darwin_1880.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Charles_Darwin_01.jpg/960px-Charles_Darwin_01.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-51",
+      "answer": "Louis Pasteur",
+      "aliases": [
+        "pasteur"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/960px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/960px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Acte_de_naissance_de_Louis_Pasteur_AD39.jpg/960px-Acte_de_naissance_de_Louis_Pasteur_AD39.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg/960px-Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-52",
+      "answer": "Thomas Edison",
+      "aliases": [
+        "edison"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/960px-Thomas_Edison2.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/960px-Thomas_Edison2.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/19101002_%22No_Immortality_of_the_Soul%22_Says_Thomas_A._Edison_-_The_New_York_Times.jpg/960px-19101002_%22No_Immortality_of_the_Soul%22_Says_Thomas_A._Edison_-_The_New_York_Times.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/A_letter_by_Thomas_Edison%2C_Adligat%2C_Belgrade.jpg/960px-A_letter_by_Thomas_Edison%2C_Adligat%2C_Belgrade.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-53",
+      "answer": "Fratelli Wright",
+      "aliases": [
+        "wright brothers"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_Wright.jpg/960px-Wilbur_Wright.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_Wright.jpg/960px-Wilbur_Wright.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/1902_Wright_Brothers%27_Glider_Tests_-_GPN-2002-000125.jpg/960px-1902_Wright_Brothers%27_Glider_Tests_-_GPN-2002-000125.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Distant_view_of_the_Wright_Brothers_memorial.jpg/960px-Distant_view_of_the_Wright_Brothers_memorial.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-54",
+      "answer": "Alan Turing",
+      "aliases": [
+        "turing"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alan_turing_header.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alan_turing_header.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-55",
+      "answer": "Ada Lovelace",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/960px-Ada_Lovelace.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-56",
+      "answer": "Rosalind Franklin",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rosalind_Franklin_%28retouched%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rosalind_Franklin_%28retouched%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Dr_Rosalind_Franklin_and_Photo_51_-_geograph.org.uk_-_3258777.jpg/960px-Dr_Rosalind_Franklin_and_Photo_51_-_geograph.org.uk_-_3258777.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-57",
+      "answer": "Rita Levi-Montalcini",
+      "aliases": [
+        "montalcini"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Rita_Levi-Montalcini_%281986%29.png/960px-Rita_Levi-Montalcini_%281986%29.png",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Rita_Levi-Montalcini_%281986%29.png/960px-Rita_Levi-Montalcini_%281986%29.png",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fototessera_di_Rita_Levi_Montalcini_all%27atto_dell%27immatricolazione_all%27Universit%C3%A0_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/NGF_%2708_Rita_Levi-Montalcini.jpg/960px-NGF_%2708_Rita_Levi-Montalcini.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-58",
+      "answer": "Margherita Hack",
+      "aliases": [
+        "hack"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/MHack-crop.jpg/960px-MHack-crop.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/MHack-crop.jpg/960px-MHack-crop.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Margherita_Hack_firma.svg/960px-Margherita_Hack_firma.svg.png",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hack_Firenze2008.jpg/960px-Hack_Firenze2008.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-59",
+      "answer": "Guglielmo Marconi",
+      "aliases": [
+        "marconi"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/960px-Guglielmo_Marconi.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/960px-Guglielmo_Marconi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/Guglielmo_Marconi%2C_1926.png",
+        "https://upload.wikimedia.org/wikipedia/commons/1/18/Guglielmo_Marconi_%28S_521%29.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-60",
+      "answer": "Enrico Fermi",
+      "aliases": [
+        "fermi"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Enrico_Fermi_1943-49.jpg/960px-Enrico_Fermi_1943-49.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Enrico_Fermi_1943-49.jpg/960px-Enrico_Fermi_1943-49.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/3c/Enrico_Fermi.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Enrico_Fermi_1943-49_%28cropped%29.jpg/960px-Enrico_Fermi_1943-49_%28cropped%29.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-61",
+      "answer": "Maria Montessori",
+      "aliases": [
+        "montessori"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Maria_Montessori_%28portrait%29.jpg/960px-Maria_Montessori_%28portrait%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Maria_Montessori_%28portrait%29.jpg/960px-Maria_Montessori_%28portrait%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2025-12-02_Maria-Montessori-Weg_221551.jpeg/960px-2025-12-02_Maria-Montessori-Weg_221551.jpeg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Gl%C3%A4serne_Eingangshalle_der_Maria-Montessori-Schule.jpg/960px-Gl%C3%A4serne_Eingangshalle_der_Maria-Montessori-Schule.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-62",
+      "answer": "Giovanni Falcone",
+      "aliases": [
+        "falcone"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/And%C3%B2_con_Falcone_e_Martelli.jpg/960px-And%C3%B2_con_Falcone_e_Martelli.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/And%C3%B2_con_Falcone_e_Martelli.jpg/960px-And%C3%B2_con_Falcone_e_Martelli.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Dott.ri_Giovanni_Falcone_e_Paolo_Borsellino%2C_Don_Pino_Puglisi.jpg/960px-Dott.ri_Giovanni_Falcone_e_Paolo_Borsellino%2C_Don_Pino_Puglisi.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/00/Ggggh.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-63",
+      "answer": "Paolo Borsellino",
+      "aliases": [
+        "borsellino"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Borsellino_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/a7/Borsellino_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7f/Caponnetto_Falcone_Borsellino.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Casa_di_Falcone_e_Borsellino_all%27Asinara.JPG/960px-Casa_di_Falcone_e_Borsellino_all%27Asinara.JPG"
+      ]
+    },
+    {
+      "id": "personaggi-storici-64",
+      "answer": "Sandro Pertini",
+      "aliases": [
+        "pertini"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Sandro_Pertini_Official.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/05/Sandro_Pertini_Official.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Deng_Pertini_%282%29.jpg/960px-Deng_Pertini_%282%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Joyce_Lussu_e_Sandro_Pertini.jpg/960px-Joyce_Lussu_e_Sandro_Pertini.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-65",
+      "answer": "Camillo Benso di Cavour",
+      "aliases": [
+        "cavour"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Camillo_Benso_Cavour_di_Ciseri.jpg/960px-Camillo_Benso_Cavour_di_Ciseri.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Camillo_Benso_Cavour_di_Ciseri.jpg/960px-Camillo_Benso_Cavour_di_Ciseri.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bust_of_Camillo_Benso_Count_of_Cavour_at_the_Museo_del_Risorgimento_in_Milan.jpg/960px-Bust_of_Camillo_Benso_Count_of_Cavour_at_the_Museo_del_Risorgimento_in_Milan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e9/Camillo_Benso_Cavour_Monument_-_Front_view_%28Piazza_Cavour%2C_Vercelli%29.png"
+      ]
+    },
+    {
+      "id": "personaggi-storici-66",
+      "answer": "Giuseppe Mazzini",
+      "aliases": [
+        "mazzini"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Giuseppe_Mazzini.jpg/960px-Giuseppe_Mazzini.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Giuseppe_Mazzini.jpg/960px-Giuseppe_Mazzini.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f7/Giuseppe_mazzini_1.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Monument_to_Giuseppe_Mazzini_-_The_trionfal_revolution.jpg/960px-Monument_to_Giuseppe_Mazzini_-_The_trionfal_revolution.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-67",
+      "answer": "Giovanna d’Arco",
+      "aliases": [
+        "Giovanna d'Arco"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/960px-Joan_of_Arc_miniature_graded.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/960px-Joan_of_Arc_miniature_graded.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b9/Coming_in_1949_-_Joan_of_Arc%2C_starring_Ingrid_Bergman.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Dante_Gabriel_Rossetti_-_Joan_of_Arc_%281882%29.jpg/960px-Dante_Gabriel_Rossetti_-_Joan_of_Arc_%281882%29.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-68",
+      "answer": "Regina Vittoria",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/960px-Queen_Victoria_by_Bassano.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/960px-Queen_Victoria_by_Bassano.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5d/Portrait_photograph_of_Queen_Victoria_dressed_for_the_wedding_of_The_Duke_and_Duchess_of_Albany%2C_1882.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Inside_of_Queen_Victoria_Building-2.jpg/960px-Inside_of_Queen_Victoria_Building-2.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-69",
+      "answer": "Elisabetta I",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/960px-Darnley_stage_3.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/960px-Darnley_stage_3.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Elizabeth_I_in_coronation_robes.jpg/960px-Elizabeth_I_in_coronation_robes.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Elizabeth_II_greets_NASA_GSFC_employees%2C_May_8%2C_2007_edit.jpg/960px-Elizabeth_II_greets_NASA_GSFC_employees%2C_May_8%2C_2007_edit.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-70",
+      "answer": "George Washington",
+      "aliases": [
+        "washington"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/960px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/960px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/05/Bust_of_George_Washington%2C_by_Unknown_Sculptor.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Front_View_of_George_Washington_Masonic_National_Memorial.jpg/960px-Front_View_of_George_Washington_Masonic_National_Memorial.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-71",
+      "answer": "Franklin D. Roosevelt",
+      "aliases": [
+        "roosevelt"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/960px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/960px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FDR_1944_Color_Portrait.jpg/960px-FDR_1944_Color_Portrait.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FDR-1944-Campaign-Portrait_%28retouched%2C_cropped%29.jpg/960px-FDR-1944-Campaign-Portrait_%28retouched%2C_cropped%29.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-72",
+      "answer": "Fidel Castro",
+      "aliases": [],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fidel_Castro_1950s.jpg",
+      "imageUrls": [
+        "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fidel_Castro_1950s.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Cristina_Fern%C3%A1ndez_de_Kircher_y_Fidel_Castro_-_2009.jpg/960px-Cristina_Fern%C3%A1ndez_de_Kircher_y_Fidel_Castro_-_2009.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/Fidel_Castro%2C_16_de_febrero_de_1984.jpeg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-73",
+      "answer": "Muhammad Ali",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/960px-Muhammad_Ali_NYWTS.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/960px-Muhammad_Ali_NYWTS.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg/960px-Elijah_Muhammad_and_Cassius_Clay_NYWTS.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/6b/Maulana_Muhammad_Ali.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-74",
+      "answer": "Audrey Hepburn",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/AudreyKHepburn.jpg/960px-AudreyKHepburn.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/AudreyKHepburn.jpg/960px-AudreyKHepburn.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/9/9d/Audrey_Hepburn_1953.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Audrey_Hepburn_1956.jpg/960px-Audrey_Hepburn_1956.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-75",
+      "answer": "Charlie Chaplin",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/960px-Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/960px-Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Apr2024._Charlie_Chaplin_mural_in_Canoa_Quebrada%2C_state_of_Cear%C3%A1%2C_Brazil._01.jpg/960px-Apr2024._Charlie_Chaplin_mural_in_Canoa_Quebrada%2C_state_of_Cear%C3%A1%2C_Brazil._01.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Chaplin_The_Kid_edit.jpg/960px-Chaplin_The_Kid_edit.jpg"
+      ]
+    },
+    {
+      "id": "personaggi-storici-76",
+      "answer": "Steve Wozniak",
+      "aliases": [],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg/960px-Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg/960px-Steve_Wozniak_by_Gage_Skidmore_3_%28cropped%29.jpg",
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Al_Alcorn%2C_Donald_Knuth%2C_Steve_Wozniak%2C_CHM_2011.jpg/960px-Al_Alcorn%2C_Donald_Knuth%2C_Steve_Wozniak%2C_CHM_2011.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f3/Steve_Wozniak%2C_1983.jpg"
       ]
     }
   ],
