@@ -52,9 +52,9 @@
       "aliases": [
         "spongebob squarepants"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_main_characters.png/960px-SpongeBob_SquarePants_main_characters.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png"
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_main_characters.png/960px-SpongeBob_SquarePants_main_characters.png"
       ]
     },
     {
@@ -322,9 +322,9 @@
       "aliases": [
         "paperone"
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Spirit_43_-_Scrooge_-_Oncle_Picsou_-_Garrepa.JPG/960px-Spirit_43_-_Scrooge_-_Oncle_Picsou_-_Garrepa.JPG",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/en/5/54/Scrooge_McDuck.png"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Spirit_43_-_Scrooge_-_Oncle_Picsou_-_Garrepa.JPG/960px-Spirit_43_-_Scrooge_-_Oncle_Picsou_-_Garrepa.JPG"
       ]
     },
     {
@@ -380,9 +380,9 @@
         "puffetta",
         "puffo"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Smurf_%288308239788%29.jpg/960px-Smurf_%288308239788%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Schtroumphette.jpg/960px-Schtroumphette.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Smurf_%288308239788%29.jpg/960px-Smurf_%288308239788%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Schtroumphette.jpg/960px-Schtroumphette.jpg"
       ]
     },
     {
@@ -392,9 +392,9 @@
         "rick and morty",
         "rick"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rick_Sanchez_MultiVersus.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png"
+        "https://upload.wikimedia.org/wikipedia/commons/4/41/Rick_Sanchez_MultiVersus.png"
       ]
     },
     {
@@ -427,9 +427,9 @@
         "antenati",
         "flintstones"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Un_uomo_chiamato_Flintstone.png/960px-Un_uomo_chiamato_Flintstone.png",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/The_flintstones_cast.jpg/960px-The_flintstones_cast.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/it/thumb/b/be/Un_uomo_chiamato_Flintstone.png/960px-Un_uomo_chiamato_Flintstone.png"
+        "https://thumb.wikimedia.org/wikipedia/en/thumb/7/77/The_flintstones_cast.jpg/960px-The_flintstones_cast.jpg"
       ]
     },
     {
@@ -438,19 +438,15 @@
       "aliases": [],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/it/3/37/Marge_Simpson_in_A_proposito_di_Margie.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/3/37/Marge_Simpson_in_A_proposito_di_Margie.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Berlin_protests_against_Ukraine_War_%2851907975144%29.jpg/960px-Berlin_protests_against_Ukraine_War_%2851907975144%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cosplayers_of_Homer_and_Marge%2C_The_Simpsons_at_CWT41_20151212.jpg/960px-Cosplayers_of_Homer_and_Marge%2C_The_Simpsons_at_CWT41_20151212.jpg"
+        "https://upload.wikimedia.org/wikipedia/it/3/37/Marge_Simpson_in_A_proposito_di_Margie.png"
       ]
     },
     {
       "id": "cartoni-animati-39",
       "answer": "Maggie Simpson",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/it/9/9d/Maggie_Simpson.png",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Maggie_Simpson_Graffiti.jpg/960px-Maggie_Simpson_Graffiti.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/9/9d/Maggie_Simpson.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Grafiti_sobre_desconchado.jpg/960px-Grafiti_sobre_desconchado.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Maggie_Simpson_Graffiti.jpg/960px-Maggie_Simpson_Graffiti.jpg"
       ]
     },
@@ -463,7 +459,6 @@
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sandy_Cheeks_%28transparent%29.png",
       "imageUrls": [
         "https://upload.wikimedia.org/wikipedia/commons/9/95/Sandy_Cheeks_%28transparent%29.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Blue-cheeked_Bee-eater_Perfect_partners%2C_perfect_colors.jpg/960px-Blue-cheeked_Bee-eater_Perfect_partners%2C_perfect_colors.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/La_directora_de_Familia_e_Infancia%2C_en_la_apertura_de_una_nueva_%C3%A1rea_en_el_Parque_de_Atracciones_02.jpg/960px-La_directora_de_Familia_e_Infancia%2C_en_la_apertura_de_una_nueva_%C3%A1rea_en_el_Parque_de_Atracciones_02.jpg"
       ]
     },
@@ -475,9 +470,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/48._Mr._Krabs%2C_One_Foot_Island_%28787999119%29.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/8/82/48._Mr._Krabs%2C_One_Foot_Island_%28787999119%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Gde_se_maje%C5%A1_Ni%C5%A1_2025-03-01_-_5.jpg/960px-Gde_se_maje%C5%A1_Ni%C5%A1_2025-03-01_-_5.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mr_Krabs_%28132570043%29.jpeg/960px-Mr_Krabs_%28132570043%29.jpeg"
+        "https://upload.wikimedia.org/wikipedia/commons/8/82/48._Mr._Krabs%2C_One_Foot_Island_%28787999119%29.jpg"
       ]
     },
     {
@@ -486,9 +479,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Karen_2001-10-13_1520Z.jpg/960px-Karen_2001-10-13_1520Z.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Karen_2001-10-13_1520Z.jpg/960px-Karen_2001-10-13_1520Z.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Karen_Knutsdottir_20150918.jpg/960px-Karen_Knutsdottir_20150918.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Karen_Midthun.jpg/960px-Karen_Midthun.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Karen_2001-10-13_1520Z.jpg/960px-Karen_2001-10-13_1520Z.jpg"
       ]
     },
     {
@@ -497,9 +488,7 @@
       "aliases": [],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/it/f/f0/I_Griffin_-_Brian_Griffin.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/f/f0/I_Griffin_-_Brian_Griffin.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/ACT010_Lake_Burley_Griffin_NearTelecom_Tower_1985_%2833430189156%29.jpg/960px-ACT010_Lake_Burley_Griffin_NearTelecom_Tower_1985_%2833430189156%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/ACT011_Lake_Burley_Griffin_1985_%2833315177892%29.jpg/960px-ACT011_Lake_Burley_Griffin_1985_%2833315177892%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/it/f/f0/I_Griffin_-_Brian_Griffin.png"
       ]
     },
     {
@@ -508,9 +497,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d0/I_Griffin-Lois_Griffin.png/960px-I_Griffin-Lois_Griffin.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d0/I_Griffin-Lois_Griffin.png/960px-I_Griffin-Lois_Griffin.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Arrow_blenny_%28Lucayablennius_zingaro%29_by_q_phia_-_Cuba_2017.jpg/960px-Arrow_blenny_%28Lucayablennius_zingaro%29_by_q_phia_-_Cuba_2017.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/ESO_-_The_Carina_Nebula_%28by%29.jpg/960px-ESO_-_The_Carina_Nebula_%28by%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/d/d0/I_Griffin-Lois_Griffin.png/960px-I_Griffin-Lois_Griffin.png"
       ]
     },
     {
@@ -519,9 +506,7 @@
       "aliases": [],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/it/8/84/Stanleym.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/8/84/Stanleym.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/15427_Thorpe_Marsh_Memorial_%286827029150%29.jpg/960px-15427_Thorpe_Marsh_Memorial_%286827029150%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/15738_Thank_You_%287051934745%29.jpg/960px-15738_Thank_You_%287051934745%29.jpg"
+        "https://upload.wikimedia.org/wikipedia/it/8/84/Stanleym.png"
       ]
     },
     {
@@ -532,9 +517,7 @@
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/it/9/9c/Kennymcc.png",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/it/9/9c/Kennymcc.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Enda_Kenny_%282012%29_%28cropped%29.jpg/960px-Enda_Kenny_%282012%29_%28cropped%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Enda_Kenny_EPP_2014.jpg/960px-Enda_Kenny_EPP_2014.jpg"
+        "https://upload.wikimedia.org/wikipedia/it/9/9c/Kennymcc.png"
       ]
     },
     {
@@ -545,9 +528,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg/960px-Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg/960px-Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Commander_Scott_A._Fry%2C_USN.jpg/960px-Commander_Scott_A._Fry%2C_USN.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/960px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg/960px-Cajun_fries_from_Popeyes_Louisiana_Kitchen%2C_Stratford%2C_Ontario%2C_2025-08-04.jpg"
       ]
     },
     {
@@ -556,9 +537,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bust_of_Leela_Roy.jpg/960px-Bust_of_Leela_Roy.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bust_of_Leela_Roy.jpg/960px-Bust_of_Leela_Roy.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Leela_Corman_01.jpg/960px-Leela_Corman_01.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Leela_Corman_02.jpg/960px-Leela_Corman_02.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bust_of_Leela_Roy.jpg/960px-Bust_of_Leela_Roy.jpg"
       ]
     },
     {
@@ -567,9 +546,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg/960px-BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg/960px-BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Montreal_Comiccon_2015-_Photobomb_pileup%2C_part_4_%2819270914490%29.jpg/960px-Montreal_Comiccon_2015-_Photobomb_pileup%2C_part_4_%2819270914490%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Montreal_Comiccon_2015-_Photobomb_pileup%2C_part_5_%2818835967574%29.jpg/960px-Montreal_Comiccon_2015-_Photobomb_pileup%2C_part_5_%2818835967574%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg/960px-BoJack_Horseman_al_carrer_de_sant_Ramon%2C_el_Carme.jpg"
       ]
     },
     {
@@ -578,11 +555,10 @@
       "aliases": [
         "morty"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/DragonCon_2016_-_Morty_and_Rick_Cosplayers.jpg/960px-DragonCon_2016_-_Morty_and_Rick_Cosplayers.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0f/Rick_and_Morty_1x10.png/1280px-Rick_and_Morty_1x10.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/DragonCon_2016_-_Morty_and_Rick_Cosplayers.jpg/960px-DragonCon_2016_-_Morty_and_Rick_Cosplayers.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Morty_%2824720340256%29.jpg/960px-Morty_%2824720340256%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/3/35/Morty_Gunty_%281929-1984%29_portrait.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/0/0f/Rick_and_Morty_1x10.png/1280px-Rick_and_Morty_1x10.png",
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/4f/Rick_and_Morty_episodio_01X08.png/960px-Rick_and_Morty_episodio_01X08.png"
       ]
     },
     {
@@ -593,9 +569,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg/960px-Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg/960px-Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Eli_%26_Marshall_drinking_beer_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-17_00.06.39_by_Jake_Mohan%29.jpg/960px-Eli_%26_Marshall_drinking_beer_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-17_00.06.39_by_Jake_Mohan%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Eli_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-17_00-03-38_by_Jake_Mohan%29.jpg/960px-Eli_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-17_00-03-38_by_Jake_Mohan%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg/960px-Eli_%26_Marshall_-_Run_At_The_Dog_%40_Fur_Seal_Studios_%282009-01-16_23.48.43_by_Jake_Mohan%29.jpg"
       ]
     },
     {
@@ -607,9 +581,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg/960px-Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg/960px-Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289362464126%29.jpg/960px-Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289362464126%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289362464578%29.jpg/960px-Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289362464578%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg/960px-Cosplay_of_Finn_the_Human_at_Florida_Supercon_2013_%289359686895%29.jpg"
       ]
     },
     {
@@ -620,19 +592,15 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/2015_Gumball_3000_-_Dodge_Viper-2.jpg/960px-2015_Gumball_3000_-_Dodge_Viper-2.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/2015_Gumball_3000_-_Dodge_Viper-2.jpg/960px-2015_Gumball_3000_-_Dodge_Viper-2.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/2015_Gumball_3000_-_Dodge_Viper.jpg/960px-2015_Gumball_3000_-_Dodge_Viper.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2015_Gumball_3000_-_Dodge_Viper_-3.jpg/960px-2015_Gumball_3000_-_Dodge_Viper_-3.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/2015_Gumball_3000_-_Dodge_Viper-2.jpg/960px-2015_Gumball_3000_-_Dodge_Viper-2.jpg"
       ]
     },
     {
       "id": "cartoni-animati-54",
       "answer": "Ben 10",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/16-03-30-Ben_Gurion_International_Airport-RalfR-DSCF7550.jpg/960px-16-03-30-Ben_Gurion_International_Airport-RalfR-DSCF7550.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ben_10_Background.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/16-03-30-Ben_Gurion_International_Airport-RalfR-DSCF7550.jpg/960px-16-03-30-Ben_Gurion_International_Airport-RalfR-DSCF7550.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Ben_10_-_Omnitrixes.jpg/960px-Ben_10_-_Omnitrixes.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/0/08/Ben_10_Background.png"
       ]
     },
@@ -642,22 +610,18 @@
       "aliases": [
         "superchicche"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2017_LA_Comic_Con_-_Powerpuff_Girls_cast.jpg/960px-2017_LA_Comic_Con_-_Powerpuff_Girls_cast.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ca/Le_Superchicche.jpg/1280px-Le_Superchicche.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2017_LA_Comic_Con_-_Powerpuff_Girls_cast.jpg/960px-2017_LA_Comic_Con_-_Powerpuff_Girls_cast.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bliss_%28Powerpuff_Girls%29.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cosplay_of_Bubbles_and_Blossom_%28The_Powerpuff_Girls%29_%28276967198%29.jpg/960px-Cosplay_of_Bubbles_and_Blossom_%28The_Powerpuff_Girls%29_%28276967198%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/c/ca/Le_Superchicche.jpg/1280px-Le_Superchicche.jpg"
       ]
     },
     {
       "id": "cartoni-animati-56",
       "answer": "Johnny Bravo",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2819917722910%29.jpg/960px-Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2819917722910%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/2/24/Johnny_Bravo.jpg/960px-Johnny_Bravo.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2819917722910%29.jpg/960px-Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2819917722910%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2820779722204%29.jpg/960px-Anime_Expo_2015_-_Female_Titan_and_Johnny_Bravo_%2820779722204%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/David_Bravo_%28Honys_Torres%2C_2021%29.jpg/960px-David_Bravo_%28Honys_Torres%2C_2021%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/2/24/Johnny_Bravo.jpg/960px-Johnny_Bravo.jpg"
       ]
     },
     {
@@ -666,22 +630,19 @@
       "aliases": [
         "dexter"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Dee_Dee_and_Dexter_in_a_Street_Sticker_art_in_Budapest_%282025-07-02%29.jpg/960px-Dee_Dee_and_Dexter_in_a_Street_Sticker_art_in_Budapest_%282025-07-02%29.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/9/98/Laboratoriodexter.png/1280px-Laboratoriodexter.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Dee_Dee_and_Dexter_in_a_Street_Sticker_art_in_Budapest_%282025-07-02%29.jpg/960px-Dee_Dee_and_Dexter_in_a_Street_Sticker_art_in_Budapest_%282025-07-02%29.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Dexter_Ave_Methodist_Church%2C_Montgomery_20160713_1.jpg/960px-Dexter_Ave_Methodist_Church%2C_Montgomery_20160713_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/4/43/Dexter_Dam.JPG"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/9/98/Laboratoriodexter.png/1280px-Laboratoriodexter.png",
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/4/46/Il_laboratorio_di_Dexter_-_Viaggio_nel_futuro.jpg/960px-Il_laboratorio_di_Dexter_-_Viaggio_nel_futuro.jpg"
       ]
     },
     {
       "id": "cartoni-animati-58",
       "answer": "Leone il Cane Fifone",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/1969_Piers_Courage%2C_Brabham-Ford.jpg/960px-1969_Piers_Courage%2C_Brabham-Ford.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fd/Leonecanefifone.png/960px-Leonecanefifone.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/1969_Piers_Courage%2C_Brabham-Ford.jpg/960px-1969_Piers_Courage%2C_Brabham-Ford.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/American_Courage_under_Hoan_Bridge_5186.jpg/960px-American_Courage_under_Hoan_Bridge_5186.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gde_se_maje%C5%A1_Ni%C5%A1_2025-03-01_-_16.jpg/960px-Gde_se_maje%C5%A1_Ni%C5%A1_2025-03-01_-_16.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/f/fd/Leonecanefifone.png/960px-Leonecanefifone.png"
       ]
     },
     {
@@ -692,9 +653,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sarcophilus_harrisii_Scat.jpg/960px-Sarcophilus_harrisii_Scat.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sarcophilus_harrisii_Scat.jpg/960px-Sarcophilus_harrisii_Scat.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Sarcophilus_harrisii_footprints.jpg/960px-Sarcophilus_harrisii_footprints.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sarcophilus_harrisii_taranna.jpg/960px-Sarcophilus_harrisii_taranna.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Sarcophilus_harrisii_Scat.jpg/960px-Sarcophilus_harrisii_Scat.jpg"
       ]
     },
     {
@@ -705,9 +664,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg/960px-Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg/960px-Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/f4/Harry_Elliott_Sylvester_-_sylvester_egg.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/6/6f/Harry_Elliott_Sylvester_-_sylvester_patshull.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg/960px-Flickr_-_nicogenin_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29_-_Sylvester_Stallone_%2826%29.jpg"
       ]
     },
     {
@@ -718,9 +675,7 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cessna_T-37B_Tweety_Bird_USAF.jpg/960px-Cessna_T-37B_Tweety_Bird_USAF.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cessna_T-37B_Tweety_Bird_USAF.jpg/960px-Cessna_T-37B_Tweety_Bird_USAF.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cessna_T-37C_Tweety_Bird_-_A742783.jpg/960px-Cessna_T-37C_Tweety_Bird_-_A742783.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/San_Diego_Comic-Con_2011_-_Tweety_Bird_VW_%28Warner_Bros_booth%29_%286039243419%29.jpg/960px-San_Diego_Comic-Con_2011_-_Tweety_Bird_VW_%28Warner_Bros_booth%29_%286039243419%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cessna_T-37B_Tweety_Bird_USAF.jpg/960px-Cessna_T-37B_Tweety_Bird_USAF.jpg"
       ]
     },
     {
@@ -732,19 +687,17 @@
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ad/Forza%2C_andiamo%21.png/960px-Forza%2C_andiamo%21.png",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ad/Forza%2C_andiamo%21.png/960px-Forza%2C_andiamo%21.png",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Chiavari_in_cosplay_2026_23.jpg/960px-Chiavari_in_cosplay_2026_23.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Chiavari_in_cosplay_2026_24.jpg/960px-Chiavari_in_cosplay_2026_24.jpg"
+        "https://thumb.wikimedia.org/wikipedia/it/thumb/a/ad/Forza%2C_andiamo%21.png/960px-Forza%2C_andiamo%21.png"
       ]
     },
     {
       "id": "cartoni-animati-63",
       "answer": "Asterix",
       "aliases": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Asterix.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Asterix_Baracaldo_cropped.jpg",
       "imageUrls": [
-        "https://upload.wikimedia.org/wikipedia/commons/0/01/Asterix.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/8/82/Asterix_Baracaldo_cropped.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/01/Asterix.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Asterix_wall_in_brussels.jpg/960px-Asterix_wall_in_brussels.jpg"
       ]
     },
@@ -752,11 +705,9 @@
       "id": "cartoni-animati-64",
       "answer": "Obelix",
       "aliases": [],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Asterix%26Obelix_Brussels.jpg/960px-Asterix%26Obelix_Brussels.jpg",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Asterix%26Obelix_Brussels.jpg/1280px-Asterix%26Obelix_Brussels.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Asterix%26Obelix_Brussels.jpg/960px-Asterix%26Obelix_Brussels.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/02026_0234_The_Ministry_of_Gauls.jpg/960px-02026_0234_The_Ministry_of_Gauls.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/516_Festa_Major_de_Gr%C3%A0cia_2023_%28Barcelona%29%2C_pla%C3%A7a_de_la_Vila_de_Gr%C3%A0cia.jpg/960px-516_Festa_Major_de_Gr%C3%A0cia_2023_%28Barcelona%29%2C_pla%C3%A7a_de_la_Vila_de_Gr%C3%A0cia.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Asterix%26Obelix_Brussels.jpg/1280px-Asterix%26Obelix_Brussels.jpg"
       ]
     },
     {
@@ -766,8 +717,7 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_l%27homme_qui_tire_plus_vite_que_son_ombre_-_c%C3%A9ramique_-_01.jpg/960px-Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_l%27homme_qui_tire_plus_vite_que_son_ombre_-_c%C3%A9ramique_-_01.jpg",
       "imageUrls": [
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_l%27homme_qui_tire_plus_vite_que_son_ombre_-_c%C3%A9ramique_-_01.jpg/960px-Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_l%27homme_qui_tire_plus_vite_que_son_ombre_-_c%C3%A9ramique_-_01.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_principaux_personnages_-_c%C3%A9ramique_-_01.jpg/960px-Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_principaux_personnages_-_c%C3%A9ramique_-_01.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Lucky_Luke_-_Salon_du_Livre_de_Paris_2015_%282%29.jpg/960px-Lucky_Luke_-_Salon_du_Livre_de_Paris_2015_%282%29.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_principaux_personnages_-_c%C3%A9ramique_-_01.jpg/960px-Charleroi_-_Parc_%28station_de_m%C3%A9tro%29_-_Lucky_Luke_-_principaux_personnages_-_c%C3%A9ramique_-_01.jpg"
       ]
     },
     {
@@ -776,9 +726,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg/960px-Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg/960px-Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166425.jpg/960px-Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166425.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166426.jpg/960px-Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166426.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg/960px-Copythorne_%2C_Paultons_Park_-_Peppa_Pig_World_-_geograph.org.uk_-_8166422.jpg"
       ]
     },
     {
@@ -787,7 +735,10 @@
       "aliases": [
         "la pimpa"
       ],
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Learning_methods%2C_the_science_of_demonstration.jpg/960px-Learning_methods%2C_the_science_of_demonstration.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Learning_methods%2C_the_science_of_demonstration.jpg/960px-Learning_methods%2C_the_science_of_demonstration.jpg",
+      "imageUrls": [
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Learning_methods%2C_the_science_of_demonstration.jpg/960px-Learning_methods%2C_the_science_of_demonstration.jpg"
+      ]
     },
     {
       "id": "cartoni-animati-68",
@@ -795,9 +746,7 @@
       "aliases": [],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Bluey_entertains_the_crowds_at_Under_5s_Day.jpg/960px-Bluey_entertains_the_crowds_at_Under_5s_Day.jpg",
       "imageUrls": [
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Bluey_entertains_the_crowds_at_Under_5s_Day.jpg/960px-Bluey_entertains_the_crowds_at_Under_5s_Day.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Cosplay_Bluey_Heeler_%28Kidexpo_2024%2C_Paris_Montreuil_Expo%29_-_%28Montreuil%2C_FR93%29_-_27-10-2024_11.jpg/960px-Cosplay_Bluey_Heeler_%28Kidexpo_2024%2C_Paris_Montreuil_Expo%29_-_%28Montreuil%2C_FR93%29_-_27-10-2024_11.jpg",
-        "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cosplay_Bluey_Heeler_%28Kidexpo_2024%2C_Paris_Montreuil_Expo%29_-_%28Montreuil%2C_FR93%29_-_27-10-2024_13.jpg/960px-Cosplay_Bluey_Heeler_%28Kidexpo_2024%2C_Paris_Montreuil_Expo%29_-_%28Montreuil%2C_FR93%29_-_27-10-2024_13.jpg"
+        "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Bluey_entertains_the_crowds_at_Under_5s_Day.jpg/960px-Bluey_entertains_the_crowds_at_Under_5s_Day.jpg"
       ]
     }
   ],

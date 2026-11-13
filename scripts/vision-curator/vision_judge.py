@@ -8,6 +8,8 @@ import io
 import json
 import os
 import re
+import threading
+import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -28,6 +30,7 @@ class VerdictCache:
         self.prompt_version = prompt_version
         self._data: Dict[str, Any] = {}
         self._dirty = False
+        self._lock = threading.Lock()
         if cache_path.exists():
             try:
                 loaded = json.loads(cache_path.read_text("utf-8"))
@@ -41,20 +44,23 @@ class VerdictCache:
         return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
     def get(self, item_id: str, url: str) -> Optional[Dict[str, Any]]:
-        return self._data.get(self._key(item_id, url))
+        with self._lock:
+            return self._data.get(self._key(item_id, url))
 
     def put(self, item_id: str, url: str, verdict: Dict[str, Any]) -> None:
-        self._data[self._key(item_id, url)] = verdict
-        self._dirty = True
+        with self._lock:
+            self._data[self._key(item_id, url)] = verdict
+            self._dirty = True
 
     def flush(self) -> None:
-        if not self._dirty:
-            return
-        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
-        tmp = self.cache_path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(self._data, indent=2, ensure_ascii=False), "utf-8")
-        tmp.replace(self.cache_path)
-        self._dirty = False
+        with self._lock:
+            if not self._dirty:
+                return
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            tmp = self.cache_path.with_suffix(".tmp")
+            tmp.write_text(json.dumps(self._data, indent=2, ensure_ascii=False), "utf-8")
+            tmp.replace(self.cache_path)
+            self._dirty = False
 
 
 class ItemCheckpointCache:
@@ -66,7 +72,7 @@ class ItemCheckpointCache:
 
     LEVEL_TECHNICAL = 1
     LEVEL_REPAIR = 2
-    LEVEL_FULL_VISION = 3
+    LEVEL_FULL_VISION = 4
 
     def __init__(self, cache_path: Path, prompt_version: str) -> None:
         self.cache_path = cache_path
@@ -221,6 +227,41 @@ class OllamaVisionClient:
         self.arbiter_model = arbiter_model
         self.keep_alive = keep_alive
         self._verified_models: set[str] = set()
+        self.gemini_api_key = self._load_env_key("GEMINI_API_KEY")
+        self.groq_api_key = self._load_env_key("GROQ_API_KEY")
+        self._gemini_models = [
+            "gemini-3.5-flash-lite",
+            "gemini-2.5-flash-lite",
+            "gemini-2.5-flash",
+            "gemini-3-flash",
+            "gemini-3.6-flash",
+            "gemini-3.8-flash",
+        ]
+        self._exhausted_gemini_models: set[str] = set()
+        self._last_gemini_call_ts = 0.0
+        self._groq_model = "qwen/qwen3.8-27b"
+        self._groq_exhausted_until = 0.0
+        self._last_groq_call_ts = 0.0
+        self._groq_min_gap = 13.5  # ~4.4 RPM * ~1711 tok = ~7.5K TPM (< 8K TPM cap)
+        self._gemini_lock = threading.Lock()
+        self._groq_lock = threading.Lock()
+        if self.gemini_api_key:
+            print("☁️  GEMINI_API_KEY rilevata: uso Gemini Vision API.")
+        if self.groq_api_key:
+            print("⚡ GROQ_API_KEY rilevata: alterno Groq Vision (qwen/qwen3.8-27b) con Gemini (fallback Ollama).")
+
+    @staticmethod
+    def _load_env_key(var_name: str) -> str:
+        env_k = (os.environ.get(var_name) or "").strip()
+        if env_k:
+            return env_k
+        env_file = Path(__file__).resolve().parent.parent.parent / ".env"
+        if env_file.exists():
+            prefix = f"{var_name}="
+            for line in env_file.read_text("utf-8").splitlines():
+                if line.startswith(prefix):
+                    return line.split("=", 1)[1].strip().strip('"').strip("'")
+        return ""
 
     def list_installed_models(self) -> List[str]:
         resp = requests.get(f"{OLLAMA_BASE}/api/tags", timeout=10)
@@ -265,6 +306,150 @@ class OllamaVisionClient:
                     print(f"   ✅ Modello {model_name} pronto.")
         self._verified_models.add(model_name)
 
+    def _chat_gemini_json(
+        self,
+        prompt: str,
+        image_b64: str,
+        num_predict: int = 320,
+    ) -> Optional[Dict[str, Any]]:
+        if not self.gemini_api_key:
+            return None
+        for g_model in self._gemini_models:
+            if g_model in self._exhausted_gemini_models:
+                continue
+            min_gap = 4.1 if "lite" in g_model else 12.2
+            with self._gemini_lock:
+                if g_model in self._exhausted_gemini_models:
+                    continue
+                now = time.time()
+                target_ts = max(now, self._last_gemini_call_ts + min_gap)
+                wait_s = target_ts - now
+                self._last_gemini_call_ts = target_ts
+            if wait_s > 0:
+                time.sleep(wait_s)
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{g_model}:generateContent?key={self.gemini_api_key}"
+            payload = {
+                "contents": [
+                    {
+                        "parts": [
+                            {"text": prompt},
+                            {"inline_data": {"mime_type": "image/jpeg", "data": image_b64}},
+                        ]
+                    }
+                ],
+                "generationConfig": {
+                    "temperature": 0.0,
+                    "maxOutputTokens": max(300, num_predict),
+                    "responseMimeType": "application/json",
+                },
+            }
+            for attempt in range(2):
+                try:
+                    resp = requests.post(url, json=payload, timeout=30)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        parts = (((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or [])
+                        text = "".join(p.get("text", "") for p in parts if isinstance(p, dict))
+                        parsed = _extract_json_object(text)
+                        if parsed:
+                            return parsed
+                        break
+                    if resp.status_code == 429:
+                        if attempt == 0:
+                            time.sleep(6.0)
+                            continue
+                        print(f"   ⚠️ Quota Gemini esaurita su {g_model} (HTTP 429), passo al modello successivo/fallback.")
+                        self._exhausted_gemini_models.add(g_model)
+                        break
+                    if resp.status_code in (400, 404):
+                        self._exhausted_gemini_models.add(g_model)
+                        break
+                except Exception:
+                    if attempt == 0:
+                        time.sleep(2.0)
+                        continue
+                    break
+        return None
+
+    def _groq_ready_in(self) -> Optional[float]:
+        with self._groq_lock:
+            now = time.time()
+            if not self.groq_api_key or now < self._groq_exhausted_until:
+                return None
+            return max(0.0, self._groq_min_gap - (now - self._last_groq_call_ts))
+
+    def _gemini_ready_in(self) -> Optional[float]:
+        with self._gemini_lock:
+            if not self.gemini_api_key:
+                return None
+            now = time.time()
+            for g_model in self._gemini_models:
+                if g_model not in self._exhausted_gemini_models:
+                    min_gap = 4.1 if "lite" in g_model else 12.2
+                    return max(0.0, min_gap - (now - self._last_gemini_call_ts))
+            return None
+
+    def _chat_groq_json(
+        self,
+        prompt: str,
+        image_b64: str,
+        num_predict: int = 320,
+    ) -> Optional[Dict[str, Any]]:
+        with self._groq_lock:
+            now = time.time()
+            if not self.groq_api_key or now < self._groq_exhausted_until:
+                return None
+            target_ts = max(now, self._last_groq_call_ts + self._groq_min_gap)
+            ready_in = target_ts - now
+            self._last_groq_call_ts = target_ts
+        if ready_in > 0:
+            time.sleep(ready_in)
+        payload = {
+            "model": self._groq_model,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}},
+                    ],
+                }
+            ],
+            "temperature": 0.0,
+            "max_tokens": max(300, num_predict),
+            "response_format": {"type": "json_object"},
+        }
+        headers = {
+            "Authorization": f"Bearer {self.groq_api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "curl/8.0",
+        }
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                json=payload,
+                headers=headers,
+                timeout=30,
+            )
+            if resp.status_code == 200:
+                content = (((resp.json().get("choices") or [{}])[0].get("message") or {}).get("content") or "")
+                parsed = _extract_json_object(content)
+                if parsed:
+                    return parsed
+                return None
+            if resp.status_code == 429:
+                body_low = resp.text.lower()
+                if "per day" in body_low or "rpd" in body_low or "tpd" in body_low:
+                    print("   ⚠️ Quota giornaliera Groq esaurita (HTTP 429), disabilito Groq per 1h.")
+                    self._groq_exhausted_until = time.time() + 3600.0
+                else:
+                    retry_after = float(resp.headers.get("retry-after") or 16.0)
+                    self._groq_exhausted_until = time.time() + max(10.0, min(retry_after, 60.0))
+                return None
+        except Exception:
+            return None
+        return None
+
     def _chat_json(
         self,
         model_name: str,
@@ -273,6 +458,25 @@ class OllamaVisionClient:
         num_predict: int = 320,
         num_ctx: int = 2048,
     ) -> Dict[str, Any]:
+        groq_wait = self._groq_ready_in()
+        gem_wait = self._gemini_ready_in()
+
+        # Prefer whichever cloud API is ready sooner (zero idle wait when alternating!)
+        if groq_wait is not None and (gem_wait is None or groq_wait <= gem_wait):
+            groq_res = self._chat_groq_json(prompt, image_b64, num_predict=num_predict)
+            if groq_res is not None:
+                return groq_res
+            gem_wait = self._gemini_ready_in()
+
+        if gem_wait is not None:
+            gem = self._chat_gemini_json(prompt, image_b64, num_predict=num_predict)
+            if gem is not None:
+                return gem
+            if self._groq_ready_in() is not None:
+                groq_res = self._chat_groq_json(prompt, image_b64, num_predict=num_predict)
+                if groq_res is not None:
+                    return groq_res
+
         self.ensure_model(model_name)
         payload = {
             "model": model_name,
@@ -306,67 +510,52 @@ class OllamaVisionClient:
         rules = archetype_cfg.get("rules", "")
 
         return (
-            f"You are the strict Photo Quality & Anti-Spoiler Director for a fast-paced 1.5-second TV photo trivia game.\n"
-            f"Target Answer: \"{answer}\" (English/alt context: \"{hint}\", aliases: {aliases[:4]})\n"
-            f"Category: \"{cat_name}\" (Archetype: {archetype_cfg.get('label', '')})\n"
-            f"Archetype Rules: {rules}\n\n"
-            f"Step 1: Describe strictly what you physically see in \"literal_visual_description\" (clothing, setting, background banners, props, text).\n"
-            f"Step 2: For Movie/TV/Game/Character categories: if the photo is ONLY a modern red-carpet, festival, or press-conference portrait of an actor in everyday formal clothes (NOT in-character costume/makeup/film still/prop), you MUST set is_generic_celebrity_portrait=true and verdict=\"REJECT\" because players will shout the actor's name instead of \"{answer}\". However, real in-character film stills (even famous memes/scenes or iconic props/vehicles/locations clearly famous from that title) ARE VALID movie_still frames.\n"
-            f"Return ONLY valid JSON with these exact keys:\n"
+            f"Strict Photo Quality & Anti-Spoiler Director for a 1.5s TV photo trivia game.\n"
+            f"Target: \"{answer}\" (alt: \"{hint}\", aliases: {aliases[:4]})\n"
+            f"Category: \"{cat_name}\" ({archetype_cfg.get('label', '')}). Rules: {rules}\n"
+            f"Note: Only reject actor red-carpet/press portraits when Target is a Movie/TV/Game TITLE — "
+            f"if Target is an actual person/actor/comedian/director, a clear portrait IS valid.\n"
+            f"Return ONLY JSON:\n"
             f"{{\n"
-            f'  "literal_visual_description": string,\n'
+            f'  "depicts_target": boolean,\n'
             f'  "is_generic_celebrity_portrait": boolean,\n'
-            f'  "depicts_target": boolean (true ONLY if the image clearly depicts the exact target in this category),\n'
             f'  "match_confidence": number 0.0-1.0,\n'
-            f'  "guessability_1_5s": integer 1-10 (could an average player shout "{answer}" within 1.5 seconds WITHOUT reading any text?),\n'
-            f'  "visual_quality": integer 1-10 (sharpness, lighting, framing, clean single frame),\n'
+            f'  "guessability_1_5s": integer 1-10,\n'
+            f'  "visual_quality": integer 1-10,\n'
             f'  "frame_type": "live_photo|movie_still|gameplay|clean_artwork|poster_or_cover|red_carpet_or_press|collage|text_slide|logo|diagram|wrong_subject",\n'
-            f'  "visible_text": array of strings (exact readable words visible anywhere in the image, max 8 items, [] if none),\n'
+            f'  "visible_text": array of up to 5 readable words ([] if none),\n'
             f'  "text_prominence": "none|minor_background|prominent_overlay_or_title",\n'
-            f'  "issues": array of strings (e.g. "title_spoiler", "wrong_homonym", "red_carpet_not_movie", "too_generic", "blurry", "tiny_subject", "collage", "statue_or_waxwork"),\n'
+            f'  "issues": array of short tags,\n'
             f'  "verdict": "KEEP" | "UPGRADE_RECOMMENDED" | "REJECT",\n'
-            f'  "visual_search_hints": array of 3 specific visual queries to find an iconic, text-free, in-character/in-context photo if this image is not KEEP\n'
+            f'  "visual_search_hints": array of 2 visual search queries if not KEEP\n'
             f"}}\n"
-            f"Strict rejection rule: If the image is a poster/DVD box/title card/package/banner with the title or target name written visibly, OR an unrelated homonym/stock object, OR unrecognizable without guessing randomly, set verdict=\"REJECT\"."
+            f"Reject posters/DVD covers/title cards with the answer/title written visibly, collages, or wrong subjects."
         )
 
-    def evaluate_single(
+    def _finalize_verdict(
         self,
+        raw: Dict[str, Any],
         item_ctx: Dict[str, Any],
         archetype_cfg: Dict[str, Any],
-        image_bytes: bytes,
         tech_metrics: Dict[str, Any],
-        max_edge: int = 384,
-        allow_arbiter_escalation: bool = True,
+        used_model: str,
     ) -> Dict[str, Any]:
-        """Run Vision Critic + Deterministic Anti-Spoiler check on one image."""
-        b64 = encode_image_for_vlm(image_bytes, max_edge=max_edge)
-        prompt = self._build_single_prompt(item_ctx, archetype_cfg)
-        raw = self._chat_json(self.scout_model, prompt, b64)
+        """Apply deterministic anti-spoiler and threshold overrides to raw VLM JSON."""
+        depicts = bool(raw.get("depicts_target", raw.get("ok", False)))
+        guess = int(raw.get("guessability_1_5s", raw.get("guess", 0)) or 0)
+        qual = int(raw.get("visual_quality", raw.get("qual", 7 if depicts else 3)) or 0)
+        conf_raw = raw.get("match_confidence")
+        if conf_raw is None:
+            conf = 0.88 if depicts and guess >= 6 else (0.55 if depicts else 0.15)
+        else:
+            conf = float(conf_raw or 0.0)
 
-        conf = float(raw.get("match_confidence", 0.0) or 0.0)
-        guess = int(raw.get("guessability_1_5s", 0) or 0)
-        qual = int(raw.get("visual_quality", 0) or 0)
-
-        # Borderline check: escalate to stronger arbiter model (gemma4:12b) when uncertain
-        is_borderline = (
-            allow_arbiter_escalation
-            and self.arbiter_model
-            and self.arbiter_model != self.scout_model
-            and (not raw or (0.45 <= conf <= 0.78) or guess in (5, 6, 7))
+        visible_text = raw.get("visible_text", raw.get("text")) or []
+        has_spoiler_flag = bool(raw.get("spoiler", False))
+        text_prom = str(
+            raw.get("text_prominence")
+            or ("prominent_overlay_or_title" if has_spoiler_flag else "none")
         )
-        used_model = self.scout_model
-        if is_borderline:
-            arb = self._chat_json(self.arbiter_model, prompt, b64)
-            if arb:
-                raw = arb
-                used_model = self.arbiter_model
-                conf = float(raw.get("match_confidence", 0.0) or 0.0)
-                guess = int(raw.get("guessability_1_5s", 0) or 0)
-                qual = int(raw.get("visual_quality", 0) or 0)
-
-        visible_text = raw.get("visible_text") or []
-        text_prom = str(raw.get("text_prominence") or "none")
         spoiler_res = evaluate_spoiler_text(
             visible_text=visible_text,
             text_prominence=text_prom,
@@ -374,9 +563,11 @@ class OllamaVisionClient:
             aliases=item_ctx.get("aliases"),
             policy=str(archetype_cfg.get("spoilerPolicy", "strict_no_answer")),
         )
+        if has_spoiler_flag and not spoiler_res["is_spoiler"]:
+            spoiler_res = {**spoiler_res, "is_spoiler": True, "severity": "vlm_flagged_spoiler"}
 
         issues = list(raw.get("issues") or [])
-        frame_type = str(raw.get("frame_type") or "")
+        frame_type = str(raw.get("frame_type", raw.get("frame")) or ("live_photo" if depicts else "wrong_subject"))
         if spoiler_res["is_spoiler"] and spoiler_res["severity"] not in issues:
             issues.append(spoiler_res["severity"])
         if frame_type in ("poster_or_cover", "collage", "text_slide", "logo", "diagram", "wrong_subject"):
@@ -387,8 +578,7 @@ class OllamaVisionClient:
         min_qual = int(archetype_cfg.get("minVisualQuality", 6))
         min_conf = float(archetype_cfg.get("minMatchConfidence", 0.72))
 
-        depicts = bool(raw.get("depicts_target", False))
-        vlm_verdict = str(raw.get("verdict") or "REJECT").upper()
+        vlm_verdict = str(raw.get("verdict") or ("KEEP" if depicts and not has_spoiler_flag else "REJECT")).upper()
         is_red_carpet = bool(raw.get("is_generic_celebrity_portrait", False)) or frame_type == "red_carpet_or_press"
         arch_label = str(archetype_cfg.get("label") or "").lower()
         is_non_person_media = any(k in arch_label for k in ("movie", "video game", "animated"))
@@ -396,7 +586,6 @@ class OllamaVisionClient:
         if is_red_carpet and is_non_person_media and "red_carpet_not_movie" not in issues:
             issues.append("red_carpet_not_movie")
 
-        # Hard deterministic overrides so VLM cannot lazily approve spoilers or garbage
         if (
             not depicts
             or not tech_metrics.get("valid", False)
@@ -429,6 +618,10 @@ class OllamaVisionClient:
             2,
         )
 
+        hints_raw = raw.get("visual_search_hints")
+        if not hints_raw and raw.get("hint"):
+            hints_raw = [raw.get("hint")]
+
         return {
             "verdict": final_verdict,
             "depicts_target": depicts,
@@ -436,14 +629,135 @@ class OllamaVisionClient:
             "guessability_1_5s": guess,
             "visual_quality": qual,
             "frame_type": frame_type,
-            "visible_text": visible_text[:8],
+            "visible_text": list(visible_text)[:8],
             "text_prominence": text_prom,
             "spoiler": spoiler_res,
             "issues": issues,
-            "visual_search_hints": [str(h) for h in (raw.get("visual_search_hints") or []) if h][:3],
+            "visual_search_hints": [str(h) for h in (hints_raw or []) if h][:3],
             "composite_score": composite,
             "model": used_model,
         }
+
+    def evaluate_single(
+        self,
+        item_ctx: Dict[str, Any],
+        archetype_cfg: Dict[str, Any],
+        image_bytes: bytes,
+        tech_metrics: Dict[str, Any],
+        max_edge: int = 320,
+        allow_arbiter_escalation: bool = False,
+    ) -> Dict[str, Any]:
+        """Run Vision Critic + Deterministic Anti-Spoiler check on one image."""
+        b64 = encode_image_for_vlm(image_bytes, max_edge=max_edge)
+        prompt = self._build_single_prompt(item_ctx, archetype_cfg)
+        raw = self._chat_json(self.scout_model, prompt, b64, num_predict=260, num_ctx=1280)
+
+        conf = float(raw.get("match_confidence", 0.0) or 0.0)
+        guess = int(raw.get("guessability_1_5s", 0) or 0)
+        is_borderline = (
+            allow_arbiter_escalation
+            and self.arbiter_model
+            and self.arbiter_model != self.scout_model
+            and (not raw or (0.45 <= conf <= 0.78) or guess in (5, 6, 7))
+        )
+        used_model = self.scout_model
+        if is_borderline:
+            arb = self._chat_json(self.arbiter_model, prompt, b64, num_predict=260, num_ctx=1280)
+            if arb:
+                raw = arb
+                used_model = self.arbiter_model
+
+        return self._finalize_verdict(raw, item_ctx, archetype_cfg, tech_metrics, used_model)
+
+    def evaluate_frontdoor_batch(
+        self,
+        batch_entries: List[Dict[str, Any]],
+        archetype_cfg: Dict[str, Any],
+    ) -> List[Dict[str, Any]]:
+        """
+        Evaluate 1..4 unrelated items together on a 2x2 labeled contact sheet in a single VLM call.
+        Falls back to evaluate_single per entry if structured keys s1..sN are missing.
+        """
+        if not batch_entries:
+            return []
+        if len(batch_entries) == 1:
+            e = batch_entries[0]
+            return [
+                self.evaluate_single(
+                    item_ctx=e["item_ctx"],
+                    archetype_cfg=archetype_cfg,
+                    image_bytes=e["image_bytes"],
+                    tech_metrics=e["tech_metrics"],
+                )
+            ]
+
+        n = len(batch_entries)
+        grid_bytes = build_labeled_grid([e["image_bytes"] for e in batch_entries], tile_size=240)
+        b64 = base64.b64encode(grid_bytes).decode("ascii")
+
+        cat_name = batch_entries[0]["item_ctx"].get("categoryName", "")
+        rules = archetype_cfg.get("rules", "")
+        target_lines = []
+        schema_lines = []
+        for idx, e in enumerate(batch_entries, start=1):
+            ctx = e["item_ctx"]
+            hint = ctx.get("englishTitle") or ""
+            hint_str = f" (alt: {hint})" if hint and hint.lower() != ctx["answer"].lower() else ""
+            target_lines.append(f'[{idx}] "{ctx["answer"]}"{hint_str}')
+            schema_lines.append(
+                f'  "s{idx}": {{"ok": true, "spoiler": false, "text": [], "guess": 8, "qual": 8}}'
+            )
+
+        prompt = (
+            f"Trivia Photo Frontdoor. Category: \"{cat_name}\".\n"
+            f"Rules: {rules}\n"
+            f"Only reject actor red-carpet portraits if Target is a Movie/TV/Game TITLE — if Target is a person/actor/comedian/director, their portrait IS valid (ok=true).\n"
+            f"Check numbered tiles [1]..[{n}]:\n"
+            + "\n".join(target_lines)
+            + "\nSet ok=true ONLY if tile depicts its target without title/answer text spoilers, movie posters, or collages.\n"
+            + "Return ONLY JSON with keys "
+            + ", ".join(f'"s{i}"' for i in range(1, n + 1))
+            + ":\n{\n"
+            + ",\n".join(schema_lines)
+            + "\n}"
+        )
+
+        raw = self._chat_json(self.scout_model, prompt, b64, num_predict=320, num_ctx=1280)
+        # Fallback if JSON missing expected slot keys
+        if not isinstance(raw, dict) or not any(f"s{i}" in raw for i in range(1, n + 1)):
+            return [
+                self.evaluate_single(
+                    item_ctx=e["item_ctx"],
+                    archetype_cfg=archetype_cfg,
+                    image_bytes=e["image_bytes"],
+                    tech_metrics=e["tech_metrics"],
+                )
+                for e in batch_entries
+            ]
+
+        out: List[Dict[str, Any]] = []
+        for idx, e in enumerate(batch_entries, start=1):
+            slot_raw = raw.get(f"s{idx}")
+            if not isinstance(slot_raw, dict):
+                out.append(
+                    self.evaluate_single(
+                        item_ctx=e["item_ctx"],
+                        archetype_cfg=archetype_cfg,
+                        image_bytes=e["image_bytes"],
+                        tech_metrics=e["tech_metrics"],
+                    )
+                )
+            else:
+                out.append(
+                    self._finalize_verdict(
+                        slot_raw,
+                        e["item_ctx"],
+                        archetype_cfg,
+                        e["tech_metrics"],
+                        self.scout_model,
+                    )
+                )
+        return out
 
     def select_best_from_grid(
         self,
@@ -458,7 +772,7 @@ class OllamaVisionClient:
         if not candidate_bytes_list:
             return {"winner_slot": 0, "approved_slots": [], "slots": []}
 
-        grid_bytes = build_labeled_grid(candidate_images=candidate_bytes_list)
+        grid_bytes = build_labeled_grid(candidate_images=candidate_bytes_list, tile_size=260)
         b64 = base64.b64encode(grid_bytes).decode("ascii")
         answer = item_ctx["answer"]
         aliases = item_ctx.get("aliases") or []
@@ -466,23 +780,23 @@ class OllamaVisionClient:
         rules = archetype_cfg.get("rules", "")
 
         prompt = (
-            f"You are selecting the BEST photo for a 1.5-second photo guessing game.\n"
-            f"Target Answer: \"{answer}\" (Category: \"{cat_name}\", aliases: {aliases[:4]})\n"
+            f"Select the BEST photo for a 1.5s trivia game.\n"
+            f"Target: \"{answer}\" (Category: \"{cat_name}\", aliases: {aliases[:4]})\n"
             f"Rules: {rules}\n"
-            f"Look at slots [1]..[{len(candidate_bytes_list)}] in the image grid.\n"
+            f"Inspect slots [1]..[{len(candidate_bytes_list)}] in the grid. "
+            f"Reject any poster/cover, title/answer text spoiler, collage, blurry pic, or wrong subject.\n"
             f"Return ONLY JSON:\n"
             f"{{\n"
             f'  "slots": [\n'
-            f'    {{"slot": 1, "depicts_target": bool, "visible_text": [...], "has_spoiler_text": bool, "guessability_1_5s": 1-10, "visual_quality": 1-10, "reason": "..."}}\n'
+            f'    {{"slot": 1, "depicts_target": bool, "visible_text": [], "has_spoiler_text": bool, "guessability_1_5s": 1-10, "visual_quality": 1-10}}\n'
             f"  ],\n"
             f'  "winner_slot": integer (1..{len(candidate_bytes_list)}, or 0 if NONE are acceptable),\n'
-            f'  "approved_slots": array of integers (ordered best to worst clean acceptable slots)\n'
-            f"}}\n"
-            f"Reject ANY slot where the answer/title/brand name is written visibly in the image, or where it is an unrelated homonym, poster/cover, collage, or unrecognizable blurry pic."
+            f'  "approved_slots": array of integers (best to worst)\n'
+            f"}}"
         )
 
         selector_model = self.arbiter_model or self.scout_model
-        raw = self._chat_json(selector_model, prompt, b64, num_predict=450, num_ctx=4096)
+        raw = self._chat_json(selector_model, prompt, b64, num_predict=360, num_ctx=1408)
         slots = raw.get("slots") or []
 
         approved: List[int] = []

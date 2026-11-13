@@ -458,7 +458,7 @@
       "subtitle": "Personaggi e serie che ci hanno tenuti incollati allo schermo",
       "icon": "📺",
       "themeHex": "#8B5CF6",
-      "coverImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bryan_Cranston_%287598828512%29.jpg/960px-Bryan_Cranston_%287598828512%29.jpg",
+      "coverImage": "https://static.tvmaze.com/uploads/images/original_untouched/219/547904.jpg",
       "itemCount": 89,
       "dataUrl": "./categories/serie-tv.json"
     },
@@ -548,7 +548,7 @@
       "subtitle": "Riconosci il videogioco dall’immagine senza leggere il titolo!",
       "icon": "🎮",
       "themeHex": "#6366F1",
-      "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.1920x1080.jpg",
+      "coverImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.1920x1080.jpg",
       "itemCount": 168,
       "dataUrl": "./categories/videogiochi.json"
     },

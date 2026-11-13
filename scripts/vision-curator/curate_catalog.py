@@ -69,6 +69,40 @@ def merge_thresholds(defaults: Dict[str, Any], archetype_cfg: Dict[str, Any]) ->
     return merged
 
 
+def _download_and_analyze_url(
+    url: str,
+    thresholds: Dict[str, Any],
+) -> Dict[str, Any]:
+    """Download URL (stepping up Wikimedia thumbs if possible) and compute technical pixel metrics."""
+    upgraded = upgrade_wikimedia_thumb_url(url, 960)
+    candidate_to_try = upgraded if upgraded != url else url
+    min_b = int(thresholds.get("minBytes", 5000))
+
+    dl = download_image_cached(candidate_to_try, CACHE_DIR, min_bytes=min_b)
+    actual_url = candidate_to_try
+    if not dl.get("ok") and upgraded != url:
+        dl = download_image_cached(url, CACHE_DIR, min_bytes=min_b)
+        actual_url = normalize_url(url)
+
+    if not dl.get("ok"):
+        return {
+            "ok": False,
+            "url": normalize_url(url),
+            "actual_url": normalize_url(url),
+            "bytes": None,
+            "tech": {"valid": False, "score": 0, "fail_reasons": [dl.get("error", "download_failed")]},
+        }
+
+    tech = analyze_image_pixels(dl["bytes"], thresholds)
+    return {
+        "ok": bool(tech.get("valid", False)),
+        "url": normalize_url(url),
+        "actual_url": actual_url,
+        "bytes": dl["bytes"],
+        "tech": tech,
+    }
+
+
 def evaluate_existing_url(
     url: str,
     item_ctx: Dict[str, Any],
@@ -79,39 +113,23 @@ def evaluate_existing_url(
     technical_only: bool,
 ) -> Dict[str, Any]:
     """Download, upscale-attempt Wikimedia thumbs if needed, inspect pixels, and run Vision Critic."""
-    upgraded = upgrade_wikimedia_thumb_url(url, 960)
-    candidate_to_try = upgraded if upgraded != url else url
+    dl_res = _download_and_analyze_url(url, thresholds)
+    actual_url = dl_res["actual_url"]
+    tech = dl_res["tech"]
 
-    dl = download_image_cached(candidate_to_try, CACHE_DIR, min_bytes=int(thresholds.get("minBytes", 5000)))
-    actual_url = candidate_to_try
-    if not dl.get("ok") and upgraded != url:
-        dl = download_image_cached(url, CACHE_DIR, min_bytes=int(thresholds.get("minBytes", 5000)))
-        actual_url = normalize_url(url)
-
-    if not dl.get("ok"):
+    if not dl_res["ok"]:
         return {
-            "url": normalize_url(url),
-            "actual_url": normalize_url(url),
-            "verdict": "REJECT",
-            "tech": {"valid": False, "score": 0, "fail_reasons": [dl.get("error", "download_failed")]},
-            "vision": None,
-            "composite_score": 0.0,
-        }
-
-    tech = analyze_image_pixels(dl["bytes"], thresholds)
-    if not tech.get("valid", False):
-        return {
-            "url": normalize_url(url),
+            "url": dl_res["url"],
             "actual_url": actual_url,
             "verdict": "REJECT",
             "tech": tech,
             "vision": None,
-            "composite_score": tech.get("score", 0.0) * 0.25,
+            "composite_score": tech.get("score", 0.0) * 0.25 if dl_res["bytes"] else 0.0,
         }
 
     if technical_only or judge is None:
         return {
-            "url": normalize_url(url),
+            "url": dl_res["url"],
             "actual_url": actual_url,
             "verdict": "KEEP",
             "tech": tech,
@@ -126,13 +144,13 @@ def evaluate_existing_url(
         vision = judge.evaluate_single(
             item_ctx=item_ctx,
             archetype_cfg={**archetype_cfg, **thresholds},
-            image_bytes=dl["bytes"],
+            image_bytes=dl_res["bytes"],
             tech_metrics=tech,
         )
         verdict_cache.put(item_ctx["id"], actual_url, vision)
 
     return {
-        "url": normalize_url(url),
+        "url": dl_res["url"],
         "actual_url": actual_url,
         "verdict": vision["verdict"],
         "tech": tech,
@@ -151,101 +169,113 @@ def hunt_and_select_replacement(
     blacklisted_urls: set[str],
     seen_urls: set[str],
     extra_forbidden: List[str],
+    pre_candidates: List[Dict[str, Any]] | None = None,
 ) -> List[Dict[str, Any]]:
     """
-    Search multiple APIs, pre-filter candidates by pixel geometry, and use Vision 2x2 selector
-    (up to 2 rounds) to find clean, iconic, text-free replacements.
+    Collect up to 4 technically valid candidates (existing backups + 1 search round) and run ONE
+    2x2 Vision selector grid without redundant follow-up single evaluations.
     """
-    hints = list(initial_hints)
-    min_bytes = int(thresholds.get("minBytes", 5000))
-    chosen_records: List[Dict[str, Any]] = []
-    upgrade_fallback: List[Dict[str, Any]] = []
+    valid_pool: List[Dict[str, Any]] = list(pre_candidates or [])[:4]
+    seen_local = set(seen_urls) | {r["cand"]["url"] for r in valid_pool}
 
-    for round_idx in range(2):
+    if len(valid_pool) < 4:
+        en = item_ctx.get("englishTitle") or item_ctx["answer"]
+        hints = [h for h in initial_hints if h] or [en, item_ctx["answer"]]
         candidates = gather_candidates(
             item_ctx=item_ctx,
             archetype_cfg=archetype_cfg,
             search_hints=hints,
             blacklisted_urls=blacklisted_urls,
-            already_seen_urls=seen_urls,
+            already_seen_urls=seen_local,
             extra_forbidden=extra_forbidden,
-            max_candidates=12,
+            max_candidates=8,
         )
-        if not candidates:
-            break
+        new_cands = [c for c in candidates if c["url"] not in seen_local]
+        for c in new_cands:
+            seen_local.add(c["url"])
 
-        valid_pool: List[Dict[str, Any]] = []
-        for cand in candidates:
-            seen_urls.add(cand["url"])
-            dl = download_image_cached(cand["url"], CACHE_DIR, min_bytes=min_bytes)
-            if not dl.get("ok"):
-                continue
-            tech = analyze_image_pixels(dl["bytes"], thresholds)
-            if not tech.get("valid"):
-                continue
-            valid_pool.append({"cand": cand, "bytes": dl["bytes"], "tech": tech})
-            if len(valid_pool) >= 8:
-                break
+        if new_cands:
+            def _prep(cand: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+                dl_res = _download_and_analyze_url(cand["url"], thresholds)
+                if not dl_res["ok"]:
+                    return None
+                return {"cand": {**cand, "url": dl_res["actual_url"]}, "bytes": dl_res["bytes"], "tech": dl_res["tech"]}
 
-        if not valid_pool:
-            if round_idx == 0:
-                en = item_ctx.get("englishTitle") or item_ctx["answer"]
-                hints = [en, item_ctx["answer"], f"{en} still"]
-                continue
-            break
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                prepped = list(pool.map(_prep, new_cands))
+            for item_p in prepped:
+                if item_p and all(v["cand"]["url"] != item_p["cand"]["url"] for v in valid_pool):
+                    valid_pool.append(item_p)
+                    if len(valid_pool) >= 4:
+                        break
 
-        # Contact-sheet 2x2 blind selection across up to 2 chunks of 4 candidates
-        for chunk_start in range(0, len(valid_pool), 4):
-            chunk = valid_pool[chunk_start : chunk_start + 4]
-            grid_res = judge.select_best_from_grid(
-                item_ctx=item_ctx,
-                archetype_cfg={**archetype_cfg, **thresholds},
-                candidate_bytes_list=[v["bytes"] for v in chunk],
-            )
+    if not valid_pool:
+        return []
 
-            ordered_slots = grid_res.get("approved_slots") or []
-            winner_slot = grid_res.get("winner_slot") or 0
-            if winner_slot and winner_slot not in ordered_slots:
-                ordered_slots = [winner_slot] + ordered_slots
+    chunk = valid_pool[:4]
+    grid_res = judge.select_best_from_grid(
+        item_ctx=item_ctx,
+        archetype_cfg={**archetype_cfg, **thresholds},
+        candidate_bytes_list=[v["bytes"] for v in chunk],
+    )
 
-            for slot_idx in ordered_slots:
-                rec = chunk[slot_idx - 1]
-                url = rec["cand"]["url"]
-                vision = judge.evaluate_single(
-                    item_ctx=item_ctx,
-                    archetype_cfg={**archetype_cfg, **thresholds},
-                    image_bytes=rec["bytes"],
-                    tech_metrics=rec["tech"],
-                    allow_arbiter_escalation=False,
-                )
-                verdict_cache.put(item_ctx["id"], url, vision)
-                record = {
+    slots_by_num = {int(s.get("slot", 0)): s for s in (grid_res.get("slots") or []) if isinstance(s, dict)}
+    ordered_slots = list(grid_res.get("approved_slots") or [])
+    winner_slot = int(grid_res.get("winner_slot") or 0)
+    if winner_slot and winner_slot not in ordered_slots:
+        ordered_slots = [winner_slot] + ordered_slots
+
+    chosen_records: List[Dict[str, Any]] = []
+    for idx_s, rec in enumerate(chunk, start=1):
+        slot_meta = slots_by_num.get(idx_s, {})
+        url = rec["cand"]["url"]
+        depicts = bool(slot_meta.get("depicts_target", idx_s in ordered_slots))
+        guess = int(slot_meta.get("guessability_1_5s", 7 if idx_s in ordered_slots else 3) or 0)
+        qual = int(slot_meta.get("visual_quality", 7 if idx_s in ordered_slots else 4) or 0)
+        has_sp = bool(slot_meta.get("has_spoiler_text", False))
+        vis_text = list(slot_meta.get("visible_text") or [])
+
+        is_approved = idx_s in ordered_slots and not has_sp and depicts
+        verdict_str = "KEEP" if is_approved else ("REJECT" if (not depicts or has_sp) else "UPGRADE_RECOMMENDED")
+        composite = round(
+            (0.9 * 35.0 if is_approved else 12.0) + (guess * 4.0) + (qual * 2.0) + rec["tech"].get("score", 50.0) * 0.15,
+            2,
+        )
+        vision_obj = {
+            "verdict": verdict_str,
+            "depicts_target": depicts,
+            "match_confidence": 0.9 if is_approved else 0.3,
+            "guessability_1_5s": guess,
+            "visual_quality": qual,
+            "frame_type": "live_photo" if is_approved else "wrong_subject",
+            "visible_text": vis_text[:8],
+            "text_prominence": "prominent_overlay_or_title" if has_sp else "none",
+            "spoiler": {"is_spoiler": has_sp, "severity": "grid_spoiler" if has_sp else "none"},
+            "issues": [] if is_approved else ["rejected_by_grid"],
+            "visual_search_hints": [],
+            "composite_score": composite,
+            "model": grid_res.get("model") or judge.arbiter_model,
+        }
+        verdict_cache.put(item_ctx["id"], url, vision_obj)
+        if is_approved:
+            chosen_records.append(
+                {
                     "url": url,
                     "source": rec["cand"]["source"],
                     "tech": rec["tech"],
-                    "vision": vision,
-                    "composite_score": float(vision.get("composite_score", 60.0)),
+                    "vision": vision_obj,
+                    "composite_score": composite,
                 }
-                if vision["verdict"] == "KEEP":
-                    chosen_records.append(record)
-                elif vision["verdict"] == "UPGRADE_RECOMMENDED":
-                    upgrade_fallback.append(record)
-                elif vision["verdict"] == "REJECT":
-                    blacklisted_urls.add(url.lower())
+            )
+        elif verdict_str == "REJECT":
+            blacklisted_urls.add(url.lower())
 
-            if chosen_records:
-                break
-
-        if chosen_records:
-            chosen_records.sort(key=lambda r: r["composite_score"], reverse=True)
-            break
-
-        if round_idx == 0:
-            hints = [item_ctx.get("englishTitle") or item_ctx["answer"], f"{item_ctx['answer']} scene"]
-
-    if not chosen_records and upgrade_fallback:
-        upgrade_fallback.sort(key=lambda r: r["composite_score"], reverse=True)
-        return upgrade_fallback[:2]
+    # Put winner_slot first, then sort remaining by composite score
+    if chosen_records and winner_slot and 1 <= winner_slot <= len(chunk):
+        win_url = chunk[winner_slot - 1]["cand"]["url"]
+        chosen_records.sort(key=lambda r: (0 if r["url"] == win_url else 1, -r["composite_score"]))
+    else:
+        chosen_records.sort(key=lambda r: -r["composite_score"])
 
     return chosen_records
 
@@ -477,7 +507,37 @@ def main() -> int:
     cat_reports: List[Dict[str, Any]] = []
     any_cat_changed = False
 
+    total_global_items = 0
+    total_live_todo = 0
+    for cid_cnt in target_cats:
+        cp = PUBLIC_CAT_DIR / f"{cid_cnt}.json"
+        if not cp.exists():
+            continue
+        cd = load_json(cp, None)
+        if not cd or not isinstance(cd.get("items"), list):
+            continue
+        its = cd["items"]
+        lim = args.max_items if args.max_items > 0 else len(its)
+        total_global_items += lim
+        for i_cnt, it_cnt in enumerate(its[:lim]):
+            iid_cnt = it_cnt.get("id", f"{cid_cnt}-{i_cnt}")
+            if args.force or not checkpoint_cache.should_skip(
+                iid_cnt,
+                it_cnt.get("imageUrl") or "",
+                it_cnt.get("imageUrls") or [],
+                target_level,
+                retry_needs_review=args.retry_needs_review,
+            ):
+                total_live_todo += 1
+
+    print(
+        f"📊 Totale catalogo: {total_global_items} item | "
+        f"Già in cache: {total_global_items - total_live_todo} | "
+        f"Da analizzare ora: {total_live_todo}"
+    )
+
     t_start = time.time()
+    live_done = 0
     for cid in target_cats:
         cat_path = PUBLIC_CAT_DIR / f"{cid}.json"
         if not cat_path.exists():
@@ -520,7 +580,10 @@ def main() -> int:
         print(f"\n🔎 [{cid}] {cat_data.get('name')} ({arch_key}) — analizzo {limit_n}/{len(items)} item...")
         cat_changed = False
         dirty_count = 0
-        item_reports: List[Dict[str, Any]] = []
+        item_reports_slots: List[Optional[Dict[str, Any]]] = [None] * limit_n
+        uncached_work: List[Dict[str, Any]] = []
+        is_deterministic_source = cid in ("bandiere", "pokemon")
+        use_tech_only = bool(args.technical_only or args.repair_failed_only or is_deterministic_source or judge is None)
 
         for idx, item in enumerate(items[:limit_n]):
             summary["scanned"] += 1
@@ -547,76 +610,238 @@ def main() -> int:
                         summary["replaced"] += 1
                     else:
                         summary["needsReview"] += 1
-                    item_reports.append(cached_cp.get("report") or {"id": item_id, "answer": item.get("answer", ""), "finalStatus": st_c, "oldUrl": old_primary, "newUrl": old_primary})
+                    item_reports_slots[idx] = cached_cp.get("report") or {
+                        "id": item_id,
+                        "answer": item.get("answer", ""),
+                        "finalStatus": st_c,
+                        "oldUrl": old_primary,
+                        "newUrl": old_primary,
+                    }
                     continue
 
-            # Deduplicate preserving order
             pool_urls: List[str] = []
             for u in raw_pool:
                 if u and u not in pool_urls:
                     pool_urls.append(u)
 
             item_ctx = {
-                "id": item.get("id", f"{cid}-{idx}"),
+                "id": item_id,
                 "answer": item.get("answer", ""),
                 "aliases": item.get("aliases") or [],
                 "englishTitle": item.get("englishTitle") or "",
                 "categoryName": cat_data.get("name", cid),
             }
-
-            evaluated: List[Dict[str, Any]] = []
-            for u in pool_urls:
-                res = evaluate_existing_url(
-                    url=u,
-                    item_ctx=item_ctx,
-                    archetype_cfg=arch_cfg,
-                    thresholds=thresholds,
-                    judge=judge,
-                    verdict_cache=verdict_cache,
-                    technical_only=args.technical_only or args.repair_failed_only,
-                )
-                evaluated.append(res)
-
-            keep_list = sorted([e for e in evaluated if e["verdict"] == "KEEP"], key=lambda x: x["composite_score"], reverse=True)
-            upgrade_list = sorted(
-                [e for e in evaluated if e["verdict"] == "UPGRADE_RECOMMENDED"],
-                key=lambda x: x["composite_score"],
-                reverse=True,
+            uncached_work.append(
+                {
+                    "idx": idx,
+                    "item": item,
+                    "old_primary": old_primary,
+                    "pool_urls": pool_urls,
+                    "item_ctx": item_ctx,
+                }
             )
-            reject_list = [e for e in evaluated if e["verdict"] == "REJECT"]
 
-            old_reasons: List[str] = []
-            for rj in reject_list:
-                if rj["url"] == old_primary:
-                    old_reasons.extend(rj["tech"].get("fail_reasons") or [])
-                    if rj.get("vision"):
-                        old_reasons.extend(rj["vision"].get("issues") or [])
-                u_norm = rj["url"].lower()
-                if u_norm and u_norm not in blacklisted_set:
-                    blacklisted_set.add(u_norm)
-                    blacklisted_urls_raw.append(rj["url"])
-                    summary["blacklistedAdded"] += 1
+        # Process uncached items in chunks of 8, downloading & evaluating ALL imageUrls in parallel across Groq + Gemini (zero same-item bias!)
+        for chunk_start in range(0, len(uncached_work), 8):
+            work_chunk = uncached_work[chunk_start : chunk_start + 8]
+            prepped_chunk: List[Dict[str, Any]] = []
+            max_pool_len = 0
 
-            chosen_list = keep_list
-            final_status = "KEPT"
+            # 1) Parallel download & technical pixel triage for all URLs in the 8-item chunk
+            flat_tasks = [
+                (w_idx, u)
+                for w_idx, w in enumerate(work_chunk)
+                for u in w["pool_urls"]
+            ]
+            dl_results_by_w: Dict[int, List[Dict[str, Any]]] = {i: [] for i in range(len(work_chunk))}
+            if flat_tasks:
+                with ThreadPoolExecutor(max_workers=12) as dl_pool:
+                    mapped = list(dl_pool.map(lambda t: (t[0], _download_and_analyze_url(t[1], thresholds)), flat_tasks))
+                for w_idx, dl_res in mapped:
+                    dl_results_by_w[w_idx].append(dl_res)
 
-            if not chosen_list and not args.technical_only and not args.no_replace and judge is not None:
-                hints: List[str] = []
-                for cand_ev in evaluated:
-                    if cand_ev.get("vision") and cand_ev["vision"].get("visual_search_hints"):
-                        hints.extend(cand_ev["vision"]["visual_search_hints"])
-                seen_urls = {normalize_url(u) for u in pool_urls} | {e["actual_url"] for e in evaluated}
-                hunted = hunt_and_select_replacement(
-                    item_ctx=item_ctx,
-                    archetype_cfg=arch_cfg,
-                    thresholds=thresholds,
-                    judge=judge,
-                    verdict_cache=verdict_cache,
-                    initial_hints=hints,
-                    blacklisted_urls=blacklisted_set,
-                    seen_urls=seen_urls,
-                    extra_forbidden=extra_forbidden,
+            for w_idx, w in enumerate(work_chunk):
+                valid_dls: List[Dict[str, Any]] = []
+                reject_list: List[Dict[str, Any]] = []
+                for dl_res in dl_results_by_w[w_idx]:
+                    if not dl_res["ok"]:
+                        reject_list.append(
+                            {
+                                "url": dl_res["url"],
+                                "actual_url": dl_res["actual_url"],
+                                "verdict": "REJECT",
+                                "tech": dl_res["tech"],
+                                "vision": None,
+                                "composite_score": dl_res["tech"].get("score", 0.0) * 0.25 if dl_res["bytes"] else 0.0,
+                            }
+                        )
+                    else:
+                        valid_dls.append(dl_res)
+                max_pool_len = max(max_pool_len, len(valid_dls))
+                prepped_chunk.append(
+                    {
+                        **w,
+                        "valid_dls": valid_dls,
+                        "visions": [None] * len(valid_dls),
+                        "reject_list": reject_list,
+                    }
                 )
+
+            # 2) Parallel column-major Vision frontdoor batches (2x2 grids run simultaneously on Groq & Gemini)
+            if judge is not None and not use_tech_only:
+                vlm_sub_batches: List[List[Dict[str, Any]]] = []
+                for slot_i in range(max_pool_len):
+                    slot_entries: List[Dict[str, Any]] = []
+                    for w_idx, p in enumerate(prepped_chunk):
+                        if slot_i >= len(p["valid_dls"]):
+                            continue
+                        dl_res = p["valid_dls"][slot_i]
+                        cached_v = verdict_cache.get(p["item_ctx"]["id"], dl_res["actual_url"])
+                        if cached_v:
+                            p["visions"][slot_i] = cached_v
+                        else:
+                            slot_entries.append(
+                                {
+                                    "work_idx": w_idx,
+                                    "slot_i": slot_i,
+                                    "item_ctx": p["item_ctx"],
+                                    "image_bytes": dl_res["bytes"],
+                                    "tech_metrics": dl_res["tech"],
+                                    "url": dl_res["actual_url"],
+                                }
+                            )
+                    for sub_start in range(0, len(slot_entries), 4):
+                        vlm_sub_batches.append(slot_entries[sub_start : sub_start + 4])
+
+                if vlm_sub_batches:
+                    arch_merged = {**arch_cfg, **thresholds}
+                    with ThreadPoolExecutor(max_workers=2) as vlm_pool:
+                        sub_results = list(
+                            vlm_pool.map(lambda b: (b, judge.evaluate_frontdoor_batch(b, arch_merged)), vlm_sub_batches)
+                        )
+                    for b_list, batch_verdicts in sub_results:
+                        for b_entry, v_obj in zip(b_list, batch_verdicts):
+                            verdict_cache.put(b_entry["item_ctx"]["id"], b_entry["url"], v_obj)
+                            prepped_chunk[b_entry["work_idx"]]["visions"][b_entry["slot_i"]] = v_obj
+
+            # 3) Pre-triage & parallel replacement hunting across the 8-item chunk
+            chunk_meta: List[Dict[str, Any]] = []
+            hunt_jobs: List[tuple[int, Dict[str, Any], List[str], set[str]]] = []
+            for p_idx, p in enumerate(prepped_chunk):
+                idx = p["idx"]
+                item = p["item"]
+                old_primary = p["old_primary"]
+                pool_urls = p["pool_urls"]
+                item_ctx = p["item_ctx"]
+                valid_dls = p["valid_dls"]
+                visions = p["visions"]
+                reject_list = p["reject_list"]
+
+                evaluated: List[Dict[str, Any]] = []
+                for dl_res, vision in zip(valid_dls, visions):
+                    if use_tech_only:
+                        evaluated.append(
+                            {
+                                "url": dl_res["url"],
+                                "actual_url": dl_res["actual_url"],
+                                "verdict": "KEEP",
+                                "tech": dl_res["tech"],
+                                "vision": None,
+                                "composite_score": float(dl_res["tech"].get("score", 60.0)),
+                            }
+                        )
+                    elif vision is not None:
+                        ev = {
+                            "url": dl_res["url"],
+                            "actual_url": dl_res["actual_url"],
+                            "verdict": vision["verdict"],
+                            "tech": dl_res["tech"],
+                            "vision": vision,
+                            "composite_score": float(vision.get("composite_score", 0.0)),
+                        }
+                        evaluated.append(ev)
+                        if vision["verdict"] == "REJECT":
+                            reject_list.append(ev)
+                evaluated.extend(reject_list)
+
+                old_reasons: List[str] = []
+                for rj in reject_list:
+                    if rj["url"] == old_primary or rj["actual_url"] == old_primary:
+                        old_reasons.extend(rj["tech"].get("fail_reasons") or [])
+                        if rj.get("vision"):
+                            old_reasons.extend(rj["vision"].get("issues") or [])
+                    u_norm = rj["url"].lower()
+                    if u_norm and u_norm not in blacklisted_set:
+                        blacklisted_set.add(u_norm)
+                        blacklisted_urls_raw.append(rj["url"])
+                        summary["blacklistedAdded"] += 1
+
+                keep_list = sorted([e for e in evaluated if e["verdict"] == "KEEP"], key=lambda x: x["composite_score"], reverse=True)
+                upgrade_list = sorted(
+                    [e for e in evaluated if e["verdict"] == "UPGRADE_RECOMMENDED"],
+                    key=lambda x: x["composite_score"],
+                    reverse=True,
+                )
+                if not keep_list and not args.technical_only and not args.no_replace and judge is not None and not is_deterministic_source:
+                    hints: List[str] = []
+                    for ev in evaluated:
+                        if ev.get("vision") and ev["vision"].get("visual_search_hints"):
+                            hints.extend(ev["vision"]["visual_search_hints"])
+                    seen_urls = {normalize_url(u) for u in pool_urls} | {e["actual_url"] for e in evaluated}
+                    hunt_jobs.append((p_idx, item_ctx, hints, seen_urls))
+
+                chunk_meta.append(
+                    {
+                        "p": p,
+                        "evaluated": evaluated,
+                        "old_reasons": old_reasons,
+                        "keep_list": keep_list,
+                        "upgrade_list": upgrade_list,
+                    }
+                )
+
+            hunted_by_p: Dict[int, List[Dict[str, Any]]] = {}
+            if hunt_jobs:
+                bl_snapshot = set(blacklisted_set)
+                with ThreadPoolExecutor(max_workers=3) as hunt_pool:
+                    hunt_res = list(
+                        hunt_pool.map(
+                            lambda job: (
+                                job[0],
+                                hunt_and_select_replacement(
+                                    item_ctx=job[1],
+                                    archetype_cfg=arch_cfg,
+                                    thresholds=thresholds,
+                                    judge=judge,
+                                    verdict_cache=verdict_cache,
+                                    initial_hints=job[2],
+                                    blacklisted_urls=bl_snapshot,
+                                    seen_urls=job[3],
+                                    extra_forbidden=extra_forbidden,
+                                    pre_candidates=None,
+                                ),
+                            ),
+                            hunt_jobs,
+                        )
+                    )
+                for p_idx, h_list in hunt_res:
+                    hunted_by_p[p_idx] = h_list
+
+            for p_idx, cm in enumerate(chunk_meta):
+                p = cm["p"]
+                idx = p["idx"]
+                item = p["item"]
+                old_primary = p["old_primary"]
+                pool_urls = p["pool_urls"]
+                item_ctx = p["item_ctx"]
+                evaluated = cm["evaluated"]
+                old_reasons = cm["old_reasons"]
+                keep_list = cm["keep_list"]
+                upgrade_list = cm["upgrade_list"]
+
+                chosen_list = keep_list
+                final_status = "KEPT"
+                hunted = hunted_by_p.get(p_idx)
                 if hunted:
                     chosen_list = [
                         {
@@ -631,79 +856,87 @@ def main() -> int:
                     ]
                     final_status = "REPLACED"
 
-            if not chosen_list:
-                # Keep best UPGRADE_RECOMMENDED if no clean replacement found, else flag NEEDS_REVIEW
-                if upgrade_list:
-                    chosen_list = upgrade_list
-                    final_status = "NEEDS_REVIEW" if upgrade_list[0]["actual_url"] == old_primary else "UPGRADED_FROM_POOL"
+                if not chosen_list:
+                    if upgrade_list:
+                        chosen_list = upgrade_list
+                        final_status = "NEEDS_REVIEW" if upgrade_list[0]["actual_url"] == old_primary else "UPGRADED_FROM_POOL"
+                    else:
+                        chosen_list = [evaluated[0]] if evaluated else []
+                        final_status = "NEEDS_REVIEW"
+                elif chosen_list[0]["actual_url"] != old_primary and final_status == "KEPT":
+                    final_status = "UPGRADED_FROM_POOL"
+
+                best_url = chosen_list[0]["actual_url"] if chosen_list else old_primary
+                clean_pool: List[str] = []
+                for ch in chosen_list:
+                    u = ch["actual_url"]
+                    if u and u not in clean_pool:
+                        clean_pool.append(u)
+                        blacklisted_set.discard(u.lower())
+                    if len(clean_pool) >= 4:
+                        break
+
+                if final_status == "KEPT":
+                    summary["kept"] += 1
+                elif final_status == "UPGRADED_FROM_POOL":
+                    summary["upgradedFromPool"] += 1
+                elif final_status == "REPLACED":
+                    summary["replaced"] += 1
                 else:
-                    chosen_list = [evaluated[0]] if evaluated else []
-                    final_status = "NEEDS_REVIEW"
-            elif chosen_list[0]["actual_url"] != old_primary and final_status == "KEPT":
-                final_status = "UPGRADED_FROM_POOL"
+                    summary["needsReview"] += 1
 
-            # Never let an active chosen URL sit inside blacklist.json
-            best_url = chosen_list[0]["actual_url"] if chosen_list else old_primary
-            clean_pool = []
-            for ch in chosen_list:
-                u = ch["actual_url"]
-                if u and u not in clean_pool:
-                    clean_pool.append(u)
-                    blacklisted_set.discard(u.lower())
-            # Also keep valid UPGRADE_RECOMMENDED backups only if chosen_list came from KEEP and has < 2 entries
-            if len(clean_pool) == 1 and keep_list and upgrade_list:
-                for up in upgrade_list[:1]:
-                    if up["actual_url"] not in clean_pool and up["actual_url"].lower() not in blacklisted_set:
-                        clean_pool.append(up["actual_url"])
-
-            if final_status == "KEPT":
-                summary["kept"] += 1
-            elif final_status == "UPGRADED_FROM_POOL":
-                summary["upgradedFromPool"] += 1
-            elif final_status == "REPLACED":
-                summary["replaced"] += 1
-            else:
-                summary["needsReview"] += 1
-
-            icon = {"KEPT": "✅", "UPGRADED_FROM_POOL": "🔄", "REPLACED": "✨", "NEEDS_REVIEW": "⚠️"}[final_status]
-            top_v = (chosen_list[0].get("vision") or {}) if chosen_list else {}
-            print(
-                f"  {icon} [{idx+1}/{limit_n}] {item_ctx['answer']} -> {final_status} "
-                f"(guess={top_v.get('guessability_1_5s', '-')}, text={top_v.get('visible_text', [])[:2]})"
-            )
-
-            if not args.dry_run and best_url:
-                if item.get("imageUrl") != best_url or (item.get("imageUrls") or []) != clean_pool:
-                    item["imageUrl"] = best_url
-                    item["imageUrls"] = clean_pool
-                    cat_changed = True
-                    any_cat_changed = True
-                    dirty_count += 1
-                    if dirty_count % 5 == 0:
-                        write_json_atomic(cat_path, cat_data)
-
-            item_report = {
-                "id": item_ctx["id"],
-                "answer": item_ctx["answer"],
-                "finalStatus": final_status,
-                "oldUrl": old_primary,
-                "newUrl": best_url,
-                "oldReasons": old_reasons[:4],
-                "tech": chosen_list[0].get("tech") if chosen_list else {},
-                "vision": chosen_list[0].get("vision") if chosen_list else {},
-            }
-            item_reports.append(item_report)
-            if not args.dry_run:
-                checkpoint_cache.mark_done(
-                    item_id=item_ctx["id"],
-                    image_url=best_url,
-                    image_urls=clean_pool if clean_pool else (item.get("imageUrls") or []),
-                    level=target_level,
-                    status=final_status,
-                    report=item_report,
+                icon = {"KEPT": "✅", "UPGRADED_FROM_POOL": "🔄", "REPLACED": "✨", "NEEDS_REVIEW": "⚠️"}[final_status]
+                top_v = (chosen_list[0].get("vision") or {}) if chosen_list else {}
+                live_done += 1
+                elapsed = max(0.001, time.time() - t_start)
+                rate = live_done / elapsed
+                rem_live = max(0, total_live_todo - live_done)
+                eta_sec = int(rem_live / rate) if rate > 0 else 0
+                eta_h, eta_rem = divmod(eta_sec, 3600)
+                eta_m, eta_s = divmod(eta_rem, 60)
+                eta_str = f"{eta_h}h {eta_m:02d}m" if eta_h > 0 else f"{eta_m}m {eta_s:02d}s"
+                global_done_now = total_global_items - total_live_todo + live_done
+                pct = (global_done_now / total_global_items * 100.0) if total_global_items > 0 else 0.0
+                print(
+                    f"  {icon} [{idx+1}/{limit_n}] {item_ctx['answer']} -> {final_status} "
+                    f"(guess={top_v.get('guessability_1_5s', '-')}, text={top_v.get('visible_text', [])[:2]}) "
+                    f"| Globale {global_done_now}/{total_global_items} ({pct:.1f}%) | Live {live_done}/{total_live_todo} | ETA ~{eta_str}"
                 )
-            verdict_cache.flush()
-            checkpoint_cache.flush()
+
+                if not args.dry_run and best_url:
+                    if item.get("imageUrl") != best_url or (item.get("imageUrls") or []) != clean_pool:
+                        item["imageUrl"] = best_url
+                        item["imageUrls"] = clean_pool
+                        cat_changed = True
+                        any_cat_changed = True
+                        dirty_count += 1
+                        if dirty_count % 5 == 0:
+                            write_json_atomic(cat_path, cat_data)
+
+                item_report = {
+                    "id": item_ctx["id"],
+                    "answer": item_ctx["answer"],
+                    "finalStatus": final_status,
+                    "oldUrl": old_primary,
+                    "newUrl": best_url,
+                    "oldReasons": old_reasons[:4],
+                    "tech": chosen_list[0].get("tech") if chosen_list else {},
+                    "vision": chosen_list[0].get("vision") if chosen_list else {},
+                }
+                item_reports_slots[idx] = item_report
+                if not args.dry_run:
+                    checkpoint_cache.mark_done(
+                        item_id=item_ctx["id"],
+                        image_url=best_url,
+                        image_urls=clean_pool if clean_pool else (item.get("imageUrls") or []),
+                        level=target_level,
+                        status=final_status,
+                        report=item_report,
+                    )
+                verdict_cache.flush()
+                checkpoint_cache.flush()
+
+        item_reports: List[Dict[str, Any]] = [r for r in item_reports_slots if r is not None]
 
         if cat_changed and not args.dry_run:
             write_json_atomic(cat_path, cat_data)
