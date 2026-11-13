@@ -6,6 +6,7 @@ import {
   X,
   Download,
   Mic,
+  HelpCircle,
 } from 'lucide-react';
 import {
   Category,
@@ -24,6 +25,12 @@ import { t, filterCategories, localizePlayerName, getCategoryTitle } from '../se
 import { TheFloorBackground } from './TheFloorBackground';
 import { TheFloorLogo } from './TheFloorLogo';
 import { PhoneMicModal } from './PhoneMicModal';
+import { TutorialModal } from './TutorialModal';
+import {
+  markTutorialSeenThisSession,
+  setTutorialDismissedForever,
+  shouldAutoOpenTutorial,
+} from '../utils/tutorialStorage';
 import { getPlayerColor, PLAYER_COLORS } from '../utils/playerColors';
 import { blacklistService } from '../services/blacklistService';
 import { soundEngine } from '../engine/soundEffects';
@@ -40,6 +47,7 @@ interface LobbyScreenProps {
   onUpdateSettings: (partial: Partial<GameSettings>) => void;
   categories: Category[];
   roomCode: string;
+  hostNetworkReady?: boolean;
   p1RemoteConnected?: boolean;
   p2RemoteConnected: boolean;
   remoteTranscriptPreview?: string;
@@ -67,6 +75,7 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   onUpdateSettings,
   categories,
   roomCode,
+  hostNetworkReady = true,
   p1RemoteConnected = false,
   p2RemoteConnected,
   remoteTranscriptPreview,
@@ -90,6 +99,9 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
   const [canInstallPwa, setCanInstallPwa] = useState(false);
   const [showIosInstallGuide, setShowIosInstallGuide] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const [showTutorialModal, setShowTutorialModal] = useState<boolean>(() =>
+    shouldAutoOpenTutorial()
+  );
   const [avatarPickerFor, setAvatarPickerFor] = useState<string | null>(null);
   const [flaggedCount, setFlaggedCount] = useState(() => blacklistService.getFlaggedCount());
   const [copiedBlacklist, setCopiedBlacklist] = useState(false);
@@ -332,12 +344,12 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
       {/* 1. Signature Floor Background with home random flip every 2.5s (C1) */}
       <TheFloorBackground
         stage={showSettingsModal ? 'modal' : 'neutral'}
-        isHome={!showSettingsModal}
+        isHome={!showSettingsModal && !showTutorialModal}
       />
 
       {/* Main Single Container: Centered TV Lobby Stage */}
       <div
-        aria-hidden={showSettingsModal}
+        aria-hidden={showSettingsModal || showTutorialModal}
         className={`w-full max-w-[1160px] mx-auto my-auto flex flex-col gap-3 sm:gap-4 lg:gap-4 transition-opacity ${
           showSettingsModal ? 'opacity-0 pointer-events-none' : 'opacity-100'
         }`}
@@ -369,14 +381,30 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
             <TheFloorLogo size="hero" />
           </div>
 
-          <button
-            type="button"
-            onClick={() => setShowSettingsModal(true)}
-            aria-label={t('lobby.settings', settings.language)}
-            className="order-2 sm:order-3 sm:justify-self-end btn-push w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-paper border-[3px] border-ink text-ink flex items-center justify-center hover:bg-yellow shadow-hard-sm"
-          >
-            <Settings className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2.5]" />
-          </button>
+          <div className="order-2 sm:order-3 sm:justify-self-end flex items-center gap-2">
+            <button
+              type="button"
+              id="lobby-tutorial-btn"
+              onClick={() => {
+                soundEngine.playRandomizerStep(1.15);
+                setShowTutorialModal(true);
+              }}
+              aria-label={settings.language === 'en' ? 'Open tutorial' : 'Apri tutorial'}
+              className="btn-push h-11 sm:h-12 px-3 sm:px-3.5 rounded-2xl bg-yellow hover:bg-yellow/90 border-[3px] border-ink text-ink flex items-center justify-center gap-1.5 shadow-hard-sm font-display font-black text-xs sm:text-sm"
+            >
+              <HelpCircle className="w-5 h-5 stroke-[2.5]" />
+              <span>{settings.language === 'en' ? 'How to Play' : 'Tutorial'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setShowSettingsModal(true)}
+              aria-label={t('lobby.settings', settings.language)}
+              className="btn-push w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-paper border-[3px] border-ink text-ink flex items-center justify-center hover:bg-yellow shadow-hard-sm"
+            >
+              <Settings className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2.5]" />
+            </button>
+          </div>
         </header>
 
         {/* ============================================================== */}
@@ -872,21 +900,39 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                       {t('lobby.howToPlay', settings.language)}
                     </span>
                     {settings.micMode === 'discord-p2p' && (
-                      <button
-                        type="button"
-                        onClick={handleCopyRoomCode}
-                        className="px-2 py-0.5 rounded-lg bg-white hover:bg-yellow border-2 border-ink font-display font-black text-[11px] text-ink shadow-hard-sm flex items-center gap-1"
-                        title={roomCode}
-                      >
-                        <span>
-                          {settings.language === 'en'
-                            ? `Room ${roomTag}`
-                            : `Stanza ${roomTag}`}
+                      <div className="flex items-center gap-1.5">
+                        <span
+                          className={`px-2 py-0.5 rounded-lg border-2 border-ink font-display font-bold text-[10px] flex items-center gap-1 ${
+                            hostNetworkReady ? 'bg-green/30 text-ink' : 'bg-yellow/40 text-ink animate-pulse'
+                          }`}
+                        >
+                          <span>{hostNetworkReady ? '🟢' : '🟡'}</span>
+                          <span>
+                            {hostNetworkReady
+                              ? settings.language === 'en'
+                                ? 'Live'
+                                : 'Attiva'
+                              : settings.language === 'en'
+                              ? 'Connecting...'
+                              : 'Avvio...'}
+                          </span>
                         </span>
-                        <span className="text-[10px] opacity-70">
-                          {copiedRoomCode ? '✓' : '📋'}
-                        </span>
-                      </button>
+                        <button
+                          type="button"
+                          onClick={handleCopyRoomCode}
+                          className="px-2 py-0.5 rounded-lg bg-white hover:bg-yellow border-2 border-ink font-display font-black text-[11px] text-ink shadow-hard-sm flex items-center gap-1"
+                          title={roomCode}
+                        >
+                          <span>
+                            {settings.language === 'en'
+                              ? `Room ${roomTag}`
+                              : `Stanza ${roomTag}`}
+                          </span>
+                          <span className="text-[10px] opacity-70">
+                            {copiedRoomCode ? '✓' : '📋'}
+                          </span>
+                        </button>
+                      </div>
                     )}
                   </div>
 
@@ -976,6 +1022,15 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                       </div>
 
                       {/* Slot status pills + room confirmation */}
+                      {typeof window !== 'undefined' &&
+                        (window.location.hostname === 'localhost' ||
+                          window.location.hostname === '127.0.0.1') && (
+                          <p className="text-[10px] font-bold text-ink/70 bg-yellow/25 border border-ink/25 rounded-lg px-2 py-1 leading-snug">
+                            {settings.language === 'en'
+                              ? 'You are on localhost: external phones cannot reach localhost — open Yappik online or via LAN IP.'
+                              : 'Sei su localhost: un telefono esterno non può raggiungere localhost — usa il sito online o il tuo IP LAN.'}
+                          </p>
+                        )}
                       <div className="grid grid-cols-2 gap-1.5">
                         <div
                           className={`px-2.5 py-1.5 rounded-xl border-2 border-ink font-display font-bold text-xs flex items-center justify-between gap-1 ${
@@ -1479,6 +1534,19 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
         p1Name={displayedP1Name}
         p2Name={displayedP2Name}
         language={settings.language}
+      />
+
+      {/* Interactive Animated Tutorial Modal */}
+      <TutorialModal
+        isOpen={showTutorialModal}
+        language={settings.language}
+        onClose={(dismissForever) => {
+          markTutorialSeenThisSession();
+          if (dismissForever) {
+            setTutorialDismissedForever(true);
+          }
+          setShowTutorialModal(false);
+        }}
       />
     </div>
   );

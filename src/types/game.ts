@@ -106,6 +106,7 @@ export interface RemoteMicPacket {
     | 'PASS_BUTTON'
     | 'MIC_LEVEL'
     | 'PING'
+    | 'BYE'
     | 'STATE_UPDATE'
     | 'PLAYER_UPDATE';
   slot?: 'p1' | 'p2';

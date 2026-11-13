@@ -244,8 +244,26 @@ export const App: React.FC = () => {
   // Stato Discord P2P Host
   const [roomCode, setRoomCode] = useState<string>(() => {
     const derived = discordActivityService.getDerivedRoomCode();
-    return derived || generateRoomCode();
+    if (derived) return derived;
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = window.sessionStorage?.getItem('yappik_host_room_code');
+        if (saved && saved.trim()) return saved.trim();
+      } catch {
+        // Silenzioso
+      }
+    }
+    return generateRoomCode();
   });
+  useEffect(() => {
+    if (isDiscord || typeof window === 'undefined') return;
+    try {
+      window.sessionStorage?.setItem('yappik_host_room_code', roomCode);
+    } catch {
+      // Silenzioso
+    }
+  }, [roomCode, isDiscord]);
+  const [hostNetworkReady, setHostNetworkReady] = useState(false);
   const [p1RemoteConnected, setP1RemoteConnected] = useState(false);
   const [p2RemoteConnected, setP2RemoteConnected] = useState(false);
   const [latestRemotePacket, setLatestRemotePacket] =
@@ -377,11 +395,13 @@ export const App: React.FC = () => {
     if (remoteSession) {
       hostPeerRef.current?.destroy();
       hostPeerRef.current = null;
+      setHostNetworkReady(false);
       return;
     }
     if (settings.micMode !== 'discord-p2p' || settings.mode === 'solo') {
       hostPeerRef.current?.destroy();
       hostPeerRef.current = null;
+      setHostNetworkReady(false);
       setP1RemoteConnected(false);
       setP2RemoteConnected(false);
       return;
@@ -493,12 +513,16 @@ export const App: React.FC = () => {
             setRoomCode(generateRoomCode());
           }
         }
+      },
+      (ready) => {
+        setHostNetworkReady(ready);
       }
     );
     hostPeerRef.current = host;
     host.start();
 
     return () => {
+      setHostNetworkReady(false);
       host.destroy();
     };
   }, [settings.micMode, settings.mode, roomCode, remoteSession, isDiscord, showJoinNotice]);
@@ -889,6 +913,7 @@ export const App: React.FC = () => {
           onUpdateSettings={handleUpdateSettings}
           categories={categories}
           roomCode={roomCode}
+          hostNetworkReady={hostNetworkReady}
           p1RemoteConnected={p1RemoteConnected}
           p2RemoteConnected={p2RemoteConnected}
           remoteTranscriptPreview={remoteTranscriptPreview}

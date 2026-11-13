@@ -242,7 +242,13 @@ export const RemoteMicScreen: React.FC<RemoteMicScreenProps> = ({
       clientRef.current?.sendPacket({ type: 'PING', slot });
     }, 10000);
 
+    const handlePageHide = () => {
+      clientRef.current?.sendPacket({ type: 'BYE', slot });
+    };
+    window.addEventListener('pagehide', handlePageHide);
+
     return () => {
+      window.removeEventListener('pagehide', handlePageHide);
       clearInterval(pingInterval);
       recognizerRef.current?.stop();
       recognizerRef.current = null;
